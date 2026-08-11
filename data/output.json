@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-08-11T13:49:29.777950+00:00",
+    "generated": "2026-08-11T19:32:21.908228+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -97,6 +97,15 @@
         "source": "GDELT"
       },
       {
+        "title": "关健斌 ： 共同化解全球粮食系统风险 _ 观点评论 _ 财经 _ 中金在线",
+        "url": "http://news.cnfol.com/guandianpinglun/20260811/32331004.shtml",
+        "domain": "news.cnfol.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260811T041500Z",
+        "source": "GDELT"
+      },
+      {
         "title": "Посуха у Британії – 71 % території Англії зазнає проблем із водою",
         "url": "https://www.obozrevatel.com/ukr/novosti-mir/najsuhishij-lipen-v-istorii-u-velikij-britanii-miljoni-lyudej-zitknulisya-z-obmezhennyami-u-vodokoristuvanni.htm",
         "domain": "obozrevatel.com",
@@ -112,24 +121,6 @@
         "language": "Russian",
         "tone": 0,
         "seendate": "20260811T050000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "关健斌 ： 共同化解全球粮食系统风险 _ 观点评论 _ 财经 _ 中金在线",
-        "url": "http://news.cnfol.com/guandianpinglun/20260811/32331004.shtml",
-        "domain": "news.cnfol.com",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260811T041500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "As severe drought hits , the united kingdom food system faces crisis - here how to change that",
-        "url": "http://www.theuknews.com/news/279229308/as-severe-drought-hits-the-uk-food-system-faces-crisis-here-how-to-change-that",
-        "domain": "theuknews.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260810T143000Z",
         "source": "GDELT"
       },
       {
@@ -160,21 +151,21 @@
         "source": "GDELT"
       },
       {
-        "title": "To był najgorętszy lipiec w historii pomiarów aż w 33 państwach",
-        "url": "https://www.gosc.pl/doc/9843177.To-byl-najgoretszy-lipiec-w-historii-pomiarow-az-w-33-panstwach",
-        "domain": "gosc.pl",
-        "language": "Polish",
-        "tone": 0,
-        "seendate": "20260810T164500Z",
-        "source": "GDELT"
-      },
-      {
         "title": "Heat health alerts coming into force as united kingdom braces for fifth heatwave",
         "url": "https://www.aol.co.uk/articles/heat-health-alerts-coming-force-230159000.html",
         "domain": "aol.co.uk",
         "language": "English",
         "tone": 0,
         "seendate": "20260810T234500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Amber health warnings start ahead of fifth heatwave as 45m in drought",
+        "url": "https://www.bristolpost.co.uk/news/health/amber-health-warnings-start-ahead-11103246",
+        "domain": "bristolpost.co.uk",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260811T134500Z",
         "source": "GDELT"
       },
       {
@@ -403,33 +394,6 @@
         "source": "GDELT"
       },
       {
-        "title": "Cheshire one of few areas in England not in drought status",
-        "url": "https://www.northwichguardian.co.uk/news/26452098.cheshire-one-areas-england-not-drought-status/",
-        "domain": "northwichguardian.co.uk",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260810T191500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Cheshire one of few areas in England not in drought status | Runcorn and Widnes World",
-        "url": "https://www.runcornandwidnesworld.co.uk/news/26452098.cheshire-one-areas-england-not-drought-status/",
-        "domain": "runcornandwidnesworld.co.uk",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260810T170000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Czy rzeki mogą umrzeć z pragnienia ? • Krytyka Polityczna",
-        "url": "https://krytykapolityczna.pl/kraj/wisla-dunaj-rzeki-susza-hydrologiczna-energia-zuzycie-wody/",
-        "domain": "krytykapolityczna.pl",
-        "language": "Polish",
-        "tone": 0,
-        "seendate": "20260810T170000Z",
-        "source": "GDELT"
-      },
-      {
         "title": "Caldo in Puglia : siccità e caro gasolio mettono in ginocchio le campagne",
         "url": "https://www.barlettaviva.it/network/caldo-in-puglia-siccita-e-caro-gasolio-mettono-in-ginocchio-le-campagne/",
         "domain": "barlettaviva.it",
@@ -457,6 +421,33 @@
         "source": "GDELT"
       },
       {
+        "title": "东西问丨孙兆彬 ： 气候变暖加剧 全球传染病传播风险大幅攀升",
+        "url": "http://www.shangbao.com.ph/zgxw/2026/08-11/203182.shtml",
+        "domain": "shangbao.com.ph",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260811T170000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Brits urged to avoid 3 specific drinks this week as heatwave returns",
+        "url": "https://www.mirror.co.uk/lifestyle/how-to-prevent-dehydration-heatwave-37539302",
+        "domain": "mirror.co.uk",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260811T153000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Brits urged to avoid 3 specific drinks this week as heatwave returns",
+        "url": "https://www.aol.co.uk/articles/brits-urged-avoid-3-specific-150100000.html",
+        "domain": "aol.co.uk",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260811T153000Z",
+        "source": "GDELT"
+      },
+      {
         "title": "Heat health alerts coming into force as united kingdom braces for fifth heatwave",
         "url": "https://www.newarkadvertiser.co.uk/national/heat-health-alerts-coming-into-force-as-uk-braces-for-fifth-heatwave-170400/",
         "domain": "newarkadvertiser.co.uk",
@@ -481,6 +472,15 @@
         "language": "English",
         "tone": 0,
         "seendate": "20260811T021500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Heat health alerts coming into force as united kingdom braces for fifth heatwave",
+        "url": "https://www.lynnnews.co.uk/national/heat-health-alerts-coming-into-force-as-uk-braces-for-fifth-heatwave-170400/",
+        "domain": "lynnnews.co.uk",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260811T003000Z",
         "source": "GDELT"
       }
     ],
@@ -626,6 +626,14 @@
     },
     {
       "id": 8,
+      "name": "关健斌 ： 共同化解全球粮食系统风险 _ 观点评论 _ 财经 _ 中金在线",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260811T041500Z",
+      "source": "news.cnfol.com"
+    },
+    {
+      "id": 9,
       "name": "Посуха у Британії – 71 % території Англії зазнає проблем із ",
       "score": 5.0,
       "category": "news",
@@ -633,20 +641,12 @@
       "source": "obozrevatel.com"
     },
     {
-      "id": 9,
+      "id": 10,
       "name": "Засуха в Британии – 71 % территории Англии испытывает пробле",
       "score": 5.0,
       "category": "news",
       "last_seen": "20260811T050000Z",
       "source": "obozrevatel.com"
-    },
-    {
-      "id": 10,
-      "name": "关健斌 ： 共同化解全球粮食系统风险 _ 观点评论 _ 财经 _ 中金在线",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260811T041500Z",
-      "source": "news.cnfol.com"
     }
   ],
   "events": [
@@ -714,6 +714,15 @@
       "source": "GDELT"
     },
     {
+      "title": "关健斌 ： 共同化解全球粮食系统风险 _ 观点评论 _ 财经 _ 中金在线",
+      "url": "http://news.cnfol.com/guandianpinglun/20260811/32331004.shtml",
+      "domain": "news.cnfol.com",
+      "language": "Chinese",
+      "tone": 0,
+      "seendate": "20260811T041500Z",
+      "source": "GDELT"
+    },
+    {
       "title": "Посуха у Британії – 71 % території Англії зазнає проблем із водою",
       "url": "https://www.obozrevatel.com/ukr/novosti-mir/najsuhishij-lipen-v-istorii-u-velikij-britanii-miljoni-lyudej-zitknulisya-z-obmezhennyami-u-vodokoristuvanni.htm",
       "domain": "obozrevatel.com",
@@ -729,24 +738,6 @@
       "language": "Russian",
       "tone": 0,
       "seendate": "20260811T050000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "关健斌 ： 共同化解全球粮食系统风险 _ 观点评论 _ 财经 _ 中金在线",
-      "url": "http://news.cnfol.com/guandianpinglun/20260811/32331004.shtml",
-      "domain": "news.cnfol.com",
-      "language": "Chinese",
-      "tone": 0,
-      "seendate": "20260811T041500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "As severe drought hits , the united kingdom food system faces crisis - here how to change that",
-      "url": "http://www.theuknews.com/news/279229308/as-severe-drought-hits-the-uk-food-system-faces-crisis-here-how-to-change-that",
-      "domain": "theuknews.com",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260810T143000Z",
       "source": "GDELT"
     },
     {
@@ -777,12 +768,21 @@
       "source": "GDELT"
     },
     {
-      "title": "To był najgorętszy lipiec w historii pomiarów aż w 33 państwach",
-      "url": "https://www.gosc.pl/doc/9843177.To-byl-najgoretszy-lipiec-w-historii-pomiarow-az-w-33-panstwach",
-      "domain": "gosc.pl",
-      "language": "Polish",
+      "title": "Heat health alerts coming into force as united kingdom braces for fifth heatwave",
+      "url": "https://www.aol.co.uk/articles/heat-health-alerts-coming-force-230159000.html",
+      "domain": "aol.co.uk",
+      "language": "English",
       "tone": 0,
-      "seendate": "20260810T164500Z",
+      "seendate": "20260810T234500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Amber health warnings start ahead of fifth heatwave as 45m in drought",
+      "url": "https://www.bristolpost.co.uk/news/health/amber-health-warnings-start-ahead-11103246",
+      "domain": "bristolpost.co.uk",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260811T134500Z",
       "source": "GDELT"
     }
   ],
