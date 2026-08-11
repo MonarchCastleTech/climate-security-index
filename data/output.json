@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-08-11T03:20:41.439583+00:00",
+    "generated": "2026-08-11T07:44:18.567027+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -34,21 +34,21 @@
   "live_data": {
     "gdelt_articles": [
       {
-        "title": "ASEAN secretary - general sounds alarm on climate risks to region - Asia & Pacific",
-        "url": "http://www.thejakartapost.com/world/2026/08/10/asean-secretary-general-sounds-alarm-on-climate-risks-to-region",
-        "domain": "thejakartapost.com",
+        "title": "Nigeria 650 , 000sq km rangelands threatened by degradation , desertification Minister",
+        "url": "https://www.premiumtimesng.com/news/more-news/901993-nigerias-650000sq-km-rangelands-threatened-by-degradation-desertification-minister.html",
+        "domain": "premiumtimesng.com",
         "language": "English",
         "tone": 0,
-        "seendate": "20260810T033000Z",
+        "seendate": "20260811T070000Z",
         "source": "GDELT"
       },
       {
-        "title": "Britain must prepare for El Niño shocks , says MP",
-        "url": "https://www.yahoo.com/news/weather-news/articles/britain-must-prepare-el-ni-052745856.html",
-        "domain": "yahoo.com",
-        "language": "English",
+        "title": "世紀最強聖嬰 9 月報到 ， 聯合國 ： 2028 年陷糧食危機",
+        "url": "https://technews.tw/2026/08/11/strongest-el-nino-of-the-century-arriving-in-september-un-warns-of-food-shortages-in-two-years/",
+        "domain": "technews.tw",
+        "language": "Chinese",
         "tone": 0,
-        "seendate": "20260810T071500Z",
+        "seendate": "20260811T033000Z",
         "source": "GDELT"
       },
       {
@@ -61,12 +61,66 @@
         "source": "GDELT"
       },
       {
+        "title": "Овощное разнообразие в мире сокращается : ученые предупредили о рисках | MigNews - Новости Израиля и Мира на русском языке",
+        "url": "http://mignews.com/news/health/ovoshnoe-raznoobrazie-v-mire-sokrashaetsya-uchenye-predupredili-o-riskah.html",
+        "domain": "mignews.com",
+        "language": "Russian",
+        "tone": 0,
+        "seendate": "20260811T041500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Овощное разнообразие в мире сокращается : ученые предупредили о рисках | MigNews - Новости Израиля и Мира на русском языке",
+        "url": "https://mignews.com/news/health/ovoshnoe-raznoobrazie-v-mire-sokrashaetsya-uchenye-predupredili-o-riskah.html",
+        "domain": "mignews.com",
+        "language": "Russian",
+        "tone": 0,
+        "seendate": "20260811T061500Z",
+        "source": "GDELT"
+      },
+      {
         "title": " « إل نينيو » تربك أسواق السلع الزراعية",
         "url": "https://www.albayan.ae/financial-times/1545281",
         "domain": "albayan.ae",
         "language": "Arabic",
         "tone": 0,
         "seendate": "20260811T003000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Τρομακτική η αύξηση των ημερών καύσωνα τα τελευταία χρόνια στην Ελλάδα",
+        "url": "https://www.patrasevents.gr/article/753995-tromaktiki-i-aiksisi-ton-imeron-kaisona-ta-teleutaia-xronia-stin-ellada",
+        "domain": "patrasevents.gr",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260811T033000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Посуха у Британії – 71 % території Англії зазнає проблем із водою",
+        "url": "https://www.obozrevatel.com/ukr/novosti-mir/najsuhishij-lipen-v-istorii-u-velikij-britanii-miljoni-lyudej-zitknulisya-z-obmezhennyami-u-vodokoristuvanni.htm",
+        "domain": "obozrevatel.com",
+        "language": "Ukrainian",
+        "tone": 0,
+        "seendate": "20260811T040000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Засуха в Британии – 71 % территории Англии испытывает проблемы с водой",
+        "url": "https://www.obozrevatel.com/novosti-mir/samyij-suhoj-iyul-v-istorii-v-britanii-millionyi-lyudej-stolknulis-s-ogranicheniyami-v-vodoispolzovanii.htm",
+        "domain": "obozrevatel.com",
+        "language": "Russian",
+        "tone": 0,
+        "seendate": "20260811T050000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "关健斌 ： 共同化解全球粮食系统风险 _ 观点评论 _ 财经 _ 中金在线",
+        "url": "http://news.cnfol.com/guandianpinglun/20260811/32331004.shtml",
+        "domain": "news.cnfol.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260811T041500Z",
         "source": "GDELT"
       },
       {
@@ -85,6 +139,15 @@
         "language": "Greek",
         "tone": 0,
         "seendate": "20260810T124500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Apa Itu El Nino Godzilla yang Tengah Melanda Indonesia ? ",
+        "url": "https://kaltim.tribunnews.com/news/1160799/apa-itu-el-nino-godzilla-yang-tengah-melanda-indonesia",
+        "domain": "kaltim.tribunnews.com",
+        "language": "Indonesian",
+        "tone": 0,
+        "seendate": "20260811T033000Z",
         "source": "GDELT"
       },
       {
@@ -115,21 +178,21 @@
         "source": "GDELT"
       },
       {
+        "title": "Amber health warnings start ahead of fifth heatwave as 45m in drought",
+        "url": "https://www.walesonline.co.uk/news/wales-news/amber-health-warnings-start-ahead-34436267",
+        "domain": "walesonline.co.uk",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260811T053000Z",
+        "source": "GDELT"
+      },
+      {
         "title": "To był najgorętszy lipiec w historii pomiarów aż w 33 państwach",
         "url": "https://www.gosc.pl/doc/9843177.To-byl-najgoretszy-lipiec-w-historii-pomiarow-az-w-33-panstwach",
         "domain": "gosc.pl",
         "language": "Polish",
         "tone": 0,
         "seendate": "20260810T164500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Явление Эль - Ниньо может привести к тому , что к концу следующего года 50 миллионов человек окажутся в состоянии острого голода",
-        "url": "https://knews.kg/2026/08/06/yavlenie-el-nino-mozhet-privesti-k-tomu-chto-k-kontsu-sleduyushhego-goda-50-millionov-chelovek-okazhutsya-v-sostoyanii-ostrogo-goloda/",
-        "domain": "knews.kg",
-        "language": "Russian",
-        "tone": 0,
-        "seendate": "20260810T061500Z",
         "source": "GDELT"
       },
       {
@@ -142,12 +205,30 @@
         "source": "GDELT"
       },
       {
+        "title": "Amber health warnings start ahead of fifth heatwave as 45m in drought",
+        "url": "https://www.nottinghampost.com/news/uk-world-news/amber-health-warnings-start-ahead-11103246",
+        "domain": "nottinghampost.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260811T053000Z",
+        "source": "GDELT"
+      },
+      {
         "title": "Heat health alerts coming into force as united kingdom braces for fifth heatwave",
         "url": "https://www.edp24.co.uk/news/national/26452610.heat-health-alerts-coming-force-uk-braces-fifth-heatwave/",
         "domain": "edp24.co.uk",
         "language": "English",
         "tone": 0,
         "seendate": "20260811T023000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Amber health warnings start ahead of fifth heatwave as 45m in drought",
+        "url": "https://www.derbytelegraph.co.uk/news/uk-world-news/amber-health-warnings-start-ahead-11103246",
+        "domain": "derbytelegraph.co.uk",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260811T054500Z",
         "source": "GDELT"
       },
       {
@@ -202,15 +283,6 @@
         "language": "English",
         "tone": 0,
         "seendate": "20260811T011500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Ethiopia : Conflicts , Geopolitical Rivalries and Economic Risks Shape a Turbulent World",
-        "url": "https://allafrica.com/stories/202608100048.html",
-        "domain": "allafrica.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260810T061500Z",
         "source": "GDELT"
       },
       {
@@ -277,21 +349,21 @@
         "source": "GDELT"
       },
       {
+        "title": "Met Office names 9 areas forecast above 30C as health alerts issued for heatwave",
+        "url": "https://www.express.co.uk/news/weather/2237904/met-office-names-9-uk",
+        "domain": "express.co.uk",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260811T033000Z",
+        "source": "GDELT"
+      },
+      {
         "title": "Beanstalk AgTech Announces the Launch of Monsoon Ventures to Accelerate Agtech Commercialisation in Southeast Asia",
         "url": "https://en.antaranews.com/news/426489/beanstalk-agtech-announces-the-launch-of-monsoon-ventures-to-accelerate-agtech-commercialisation-in-southeast-asia",
         "domain": "en.antaranews.com",
         "language": "English",
         "tone": 0,
         "seendate": "20260811T030000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "控通胀还是稳增长 ： 欧洲央行左右为难 _ 东方财富网",
-        "url": "https://finance.eastmoney.com/a/202608113837006293.html",
-        "domain": "finance.eastmoney.com",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260811T003000Z",
         "source": "GDELT"
       },
       {
@@ -304,6 +376,15 @@
         "source": "GDELT"
       },
       {
+        "title": "控通胀还是稳增长 ： 欧洲央行左右为难 _ 东方财富网",
+        "url": "https://finance.eastmoney.com/a/202608113837006293.html",
+        "domain": "finance.eastmoney.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260811T003000Z",
+        "source": "GDELT"
+      },
+      {
         "title": "Heat health alerts coming into force as united kingdom braces for fifth heatwave",
         "url": "https://www.dorsetecho.co.uk/news/national/26452610.heat-health-alerts-coming-force-uk-braces-fifth-heatwave/",
         "domain": "dorsetecho.co.uk",
@@ -313,21 +394,21 @@
         "source": "GDELT"
       },
       {
+        "title": "Amber health warnings start ahead of fifth heatwave as 45m in drought",
+        "url": "https://www.belfastlive.co.uk/news/health/amber-health-warnings-start-ahead-34436267",
+        "domain": "belfastlive.co.uk",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260811T070000Z",
+        "source": "GDELT"
+      },
+      {
         "title": "MINETTE BATTERS : What dustbowl Britain means for food supplies and the cost of your weekly shop",
         "url": "https://www.dailymail.com/debate/article-16042659/Britain-drought-dustbowl-food-shop-cost-MINETTE-BATTERS.html",
         "domain": "dailymail.com",
         "language": "English",
         "tone": 0,
         "seendate": "20260811T001500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "El Niño , lOit lancia lallarme occupazione in America Latina",
-        "url": "https://tg24.sky.it/mondo/2026/08/10/el-nino-allarme-occupazione-sudamerica",
-        "domain": "tg24.sky.it",
-        "language": "Italian",
-        "tone": 0,
-        "seendate": "20260810T061500Z",
         "source": "GDELT"
       },
       {
@@ -349,21 +430,21 @@
         "source": "GDELT"
       },
       {
-        "title": "تحولات متسارعة في رياح الأرض .. علماء عرب يدقون ناقوس الخطر المناخي",
-        "url": "https://www.hespress.com/%D8%AA%D8%AD%D9%88%D9%84%D8%A7%D8%AA-%D9%85%D8%AA%D8%B3%D8%A7%D8%B1%D8%B9%D8%A9-%D9%81%D9%8A-%D8%B1%D9%8A%D8%A7%D8%AD-%D8%A7%D9%84%D8%A3%D8%B1%D8%B6-%D8%B9%D9%84%D9%85%D8%A7%D8%A1-%D8%B9%D8%B1-1789677.html",
-        "domain": "hespress.com",
-        "language": "Arabic",
-        "tone": 0,
-        "seendate": "20260810T041500Z",
-        "source": "GDELT"
-      },
-      {
         "title": "Czy rzeki mogą umrzeć z pragnienia ? • Krytyka Polityczna",
         "url": "https://krytykapolityczna.pl/kraj/wisla-dunaj-rzeki-susza-hydrologiczna-energia-zuzycie-wody/",
         "domain": "krytykapolityczna.pl",
         "language": "Polish",
         "tone": 0,
         "seendate": "20260810T170000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Los temas medioambientales que Abelardo incluyó e ignoró en su posesión",
+        "url": "https://www.lasillavacia.com/silla-amazonia/amazonia-en-breve/los-temas-medioambientales-que-abelardo-incluyo-e-ignoro-en-su-posesion/",
+        "domain": "lasillavacia.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260811T033000Z",
         "source": "GDELT"
       },
       {
@@ -400,87 +481,6 @@
         "language": "English",
         "tone": 0,
         "seendate": "20260811T003000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Heat health alerts coming into force as united kingdom braces for fifth heatwave",
-        "url": "https://www.newarkadvertiser.co.uk/national/heat-health-alerts-coming-into-force-as-uk-braces-for-fifth-heatwave-170400/",
-        "domain": "newarkadvertiser.co.uk",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260810T233000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Heat health alerts coming into force as united kingdom braces for fifth heatwave",
-        "url": "https://www.dissexpress.co.uk/national/heat-health-alerts-coming-into-force-as-uk-braces-for-fifth-heatwave-170400/",
-        "domain": "dissexpress.co.uk",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260810T233000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Heat health alerts coming into force as united kingdom braces for fifth heatwave",
-        "url": "https://www.stratford-herald.com/national/heat-health-alerts-coming-into-force-as-uk-braces-for-fifth-heatwave-170400/",
-        "domain": "stratford-herald.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260811T021500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Europe Intelligence Brief August 10 , 2026 : The Summer That Became A Cost Rio Times",
-        "url": "https://www.riotimesonline.com/europe-intelligence-brief-monday-august-10-2026/",
-        "domain": "riotimesonline.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260810T203000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "精细化夏管看  北安  ",
-        "url": "https://www.hljnews.cn/jjny/content/2026-08/10/content_903612.html",
-        "domain": "hljnews.cn",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260810T040000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Мацут : Ово лето је озбиљно упозорење , Србији потребна стратегија за наредних 30 година",
-        "url": "https://www.politika.rs/scc/clanak/777491/macut-ovo-leto-je-ozbiljno-upozorenje-srbiji-potrebna-strategija-za-narednih-30-godina",
-        "domain": "politika.rs",
-        "language": "Serbian",
-        "tone": 0,
-        "seendate": "20260810T103000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Heat health alerts coming into force as united kingdom braces for fifth heatwave",
-        "url": "https://www.surreycomet.co.uk/news/national/26452610.heat-health-alerts-coming-force-uk-braces-fifth-heatwave/",
-        "domain": "surreycomet.co.uk",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260810T233000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Heat health alerts coming into force as united kingdom braces for fifth heatwave",
-        "url": "https://www.newsshopper.co.uk/news/national/26452610.heat-health-alerts-coming-force-uk-braces-fifth-heatwave/",
-        "domain": "newsshopper.co.uk",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260810T234500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Heat health alerts coming into force as united kingdom braces for fifth heatwave",
-        "url": "https://www.basingstokegazette.co.uk/news/national/26452610.heat-health-alerts-coming-force-uk-braces-fifth-heatwave/",
-        "domain": "basingstokegazette.co.uk",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260810T234500Z",
         "source": "GDELT"
       }
     ],
@@ -570,19 +570,19 @@
   "entities": [
     {
       "id": 1,
-      "name": "ASEAN secretary - general sounds alarm on climate risks to r",
+      "name": "Nigeria 650 , 000sq km rangelands threatened by degradation ",
       "score": 5.0,
       "category": "news",
-      "last_seen": "20260810T033000Z",
-      "source": "thejakartapost.com"
+      "last_seen": "20260811T070000Z",
+      "source": "premiumtimesng.com"
     },
     {
       "id": 2,
-      "name": "Britain must prepare for El Niño shocks , says MP",
+      "name": "世紀最強聖嬰 9 月報到 ， 聯合國 ： 2028 年陷糧食危機",
       "score": 5.0,
       "category": "news",
-      "last_seen": "20260810T071500Z",
-      "source": "yahoo.com"
+      "last_seen": "20260811T033000Z",
+      "source": "technews.tw"
     },
     {
       "id": 3,
@@ -594,6 +594,22 @@
     },
     {
       "id": 4,
+      "name": "Овощное разнообразие в мире сокращается : ученые предупредил",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260811T041500Z",
+      "source": "mignews.com"
+    },
+    {
+      "id": 5,
+      "name": "Овощное разнообразие в мире сокращается : ученые предупредил",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260811T061500Z",
+      "source": "mignews.com"
+    },
+    {
+      "id": 6,
       "name": " « إل نينيو » تربك أسواق السلع الزراعية",
       "score": 5.0,
       "category": "news",
@@ -601,71 +617,55 @@
       "source": "albayan.ae"
     },
     {
-      "id": 5,
-      "name": "As severe drought hits , the united kingdom food system face",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260810T143000Z",
-      "source": "theuknews.com"
-    },
-    {
-      "id": 6,
-      "name": "Ρεκόρ θερμοκρασίας στις θάλασσες του πλανήτη τον Ιούλιο – Στ",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260810T124500Z",
-      "source": "skai.gr"
-    },
-    {
       "id": 7,
-      "name": "BBC Breakfast presenter announces  major incident  during li",
+      "name": "Τρομακτική η αύξηση των ημερών καύσωνα τα τελευταία χρόνια σ",
       "score": 5.0,
       "category": "news",
-      "last_seen": "20260810T093000Z",
-      "source": "aol.co.uk"
+      "last_seen": "20260811T033000Z",
+      "source": "patrasevents.gr"
     },
     {
       "id": 8,
-      "name": "ماذا لو تحدثت الأشجار ؟ ",
+      "name": "Посуха у Британії – 71 % території Англії зазнає проблем із ",
       "score": 5.0,
       "category": "news",
-      "last_seen": "20260811T001500Z",
-      "source": "alanbatnews.net"
+      "last_seen": "20260811T040000Z",
+      "source": "obozrevatel.com"
     },
     {
       "id": 9,
-      "name": "Супер - Ель - Ніньйо посилюється : океан побив температурний",
+      "name": "Засуха в Британии – 71 % территории Англии испытывает пробле",
       "score": 5.0,
       "category": "news",
-      "last_seen": "20260810T083000Z",
-      "source": "tsn.ua"
+      "last_seen": "20260811T050000Z",
+      "source": "obozrevatel.com"
     },
     {
       "id": 10,
-      "name": "To był najgorętszy lipiec w historii pomiarów aż w 33 państw",
+      "name": "关健斌 ： 共同化解全球粮食系统风险 _ 观点评论 _ 财经 _ 中金在线",
       "score": 5.0,
       "category": "news",
-      "last_seen": "20260810T164500Z",
-      "source": "gosc.pl"
+      "last_seen": "20260811T041500Z",
+      "source": "news.cnfol.com"
     }
   ],
   "events": [
     {
-      "title": "ASEAN secretary - general sounds alarm on climate risks to region - Asia & Pacific",
-      "url": "http://www.thejakartapost.com/world/2026/08/10/asean-secretary-general-sounds-alarm-on-climate-risks-to-region",
-      "domain": "thejakartapost.com",
+      "title": "Nigeria 650 , 000sq km rangelands threatened by degradation , desertification Minister",
+      "url": "https://www.premiumtimesng.com/news/more-news/901993-nigerias-650000sq-km-rangelands-threatened-by-degradation-desertification-minister.html",
+      "domain": "premiumtimesng.com",
       "language": "English",
       "tone": 0,
-      "seendate": "20260810T033000Z",
+      "seendate": "20260811T070000Z",
       "source": "GDELT"
     },
     {
-      "title": "Britain must prepare for El Niño shocks , says MP",
-      "url": "https://www.yahoo.com/news/weather-news/articles/britain-must-prepare-el-ni-052745856.html",
-      "domain": "yahoo.com",
-      "language": "English",
+      "title": "世紀最強聖嬰 9 月報到 ， 聯合國 ： 2028 年陷糧食危機",
+      "url": "https://technews.tw/2026/08/11/strongest-el-nino-of-the-century-arriving-in-september-un-warns-of-food-shortages-in-two-years/",
+      "domain": "technews.tw",
+      "language": "Chinese",
       "tone": 0,
-      "seendate": "20260810T071500Z",
+      "seendate": "20260811T033000Z",
       "source": "GDELT"
     },
     {
@@ -678,12 +678,66 @@
       "source": "GDELT"
     },
     {
+      "title": "Овощное разнообразие в мире сокращается : ученые предупредили о рисках | MigNews - Новости Израиля и Мира на русском языке",
+      "url": "http://mignews.com/news/health/ovoshnoe-raznoobrazie-v-mire-sokrashaetsya-uchenye-predupredili-o-riskah.html",
+      "domain": "mignews.com",
+      "language": "Russian",
+      "tone": 0,
+      "seendate": "20260811T041500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Овощное разнообразие в мире сокращается : ученые предупредили о рисках | MigNews - Новости Израиля и Мира на русском языке",
+      "url": "https://mignews.com/news/health/ovoshnoe-raznoobrazie-v-mire-sokrashaetsya-uchenye-predupredili-o-riskah.html",
+      "domain": "mignews.com",
+      "language": "Russian",
+      "tone": 0,
+      "seendate": "20260811T061500Z",
+      "source": "GDELT"
+    },
+    {
       "title": " « إل نينيو » تربك أسواق السلع الزراعية",
       "url": "https://www.albayan.ae/financial-times/1545281",
       "domain": "albayan.ae",
       "language": "Arabic",
       "tone": 0,
       "seendate": "20260811T003000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Τρομακτική η αύξηση των ημερών καύσωνα τα τελευταία χρόνια στην Ελλάδα",
+      "url": "https://www.patrasevents.gr/article/753995-tromaktiki-i-aiksisi-ton-imeron-kaisona-ta-teleutaia-xronia-stin-ellada",
+      "domain": "patrasevents.gr",
+      "language": "Greek",
+      "tone": 0,
+      "seendate": "20260811T033000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Посуха у Британії – 71 % території Англії зазнає проблем із водою",
+      "url": "https://www.obozrevatel.com/ukr/novosti-mir/najsuhishij-lipen-v-istorii-u-velikij-britanii-miljoni-lyudej-zitknulisya-z-obmezhennyami-u-vodokoristuvanni.htm",
+      "domain": "obozrevatel.com",
+      "language": "Ukrainian",
+      "tone": 0,
+      "seendate": "20260811T040000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Засуха в Британии – 71 % территории Англии испытывает проблемы с водой",
+      "url": "https://www.obozrevatel.com/novosti-mir/samyij-suhoj-iyul-v-istorii-v-britanii-millionyi-lyudej-stolknulis-s-ogranicheniyami-v-vodoispolzovanii.htm",
+      "domain": "obozrevatel.com",
+      "language": "Russian",
+      "tone": 0,
+      "seendate": "20260811T050000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "关健斌 ： 共同化解全球粮食系统风险 _ 观点评论 _ 财经 _ 中金在线",
+      "url": "http://news.cnfol.com/guandianpinglun/20260811/32331004.shtml",
+      "domain": "news.cnfol.com",
+      "language": "Chinese",
+      "tone": 0,
+      "seendate": "20260811T041500Z",
       "source": "GDELT"
     },
     {
@@ -705,6 +759,15 @@
       "source": "GDELT"
     },
     {
+      "title": "Apa Itu El Nino Godzilla yang Tengah Melanda Indonesia ? ",
+      "url": "https://kaltim.tribunnews.com/news/1160799/apa-itu-el-nino-godzilla-yang-tengah-melanda-indonesia",
+      "domain": "kaltim.tribunnews.com",
+      "language": "Indonesian",
+      "tone": 0,
+      "seendate": "20260811T033000Z",
+      "source": "GDELT"
+    },
+    {
       "title": "BBC Breakfast presenter announces  major incident  during live show",
       "url": "https://www.aol.co.uk/articles/bbc-breakfast-presenter-announces-major-090047000.html",
       "domain": "aol.co.uk",
@@ -720,69 +783,6 @@
       "language": "Arabic",
       "tone": 0,
       "seendate": "20260811T001500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Супер - Ель - Ніньйо посилюється : океан побив температурний рекорд Наука та IT",
-      "url": "https://tsn.ua/nauka_it/super-el-ninyo-posyliuyetsia-iaki-pohodni-anomaliyi-chekaiut-na-svit-uze-skoro-3145496.html",
-      "domain": "tsn.ua",
-      "language": "Ukrainian",
-      "tone": 0,
-      "seendate": "20260810T083000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "To był najgorętszy lipiec w historii pomiarów aż w 33 państwach",
-      "url": "https://www.gosc.pl/doc/9843177.To-byl-najgoretszy-lipiec-w-historii-pomiarow-az-w-33-panstwach",
-      "domain": "gosc.pl",
-      "language": "Polish",
-      "tone": 0,
-      "seendate": "20260810T164500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Явление Эль - Ниньо может привести к тому , что к концу следующего года 50 миллионов человек окажутся в состоянии острого голода",
-      "url": "https://knews.kg/2026/08/06/yavlenie-el-nino-mozhet-privesti-k-tomu-chto-k-kontsu-sleduyushhego-goda-50-millionov-chelovek-okazhutsya-v-sostoyanii-ostrogo-goloda/",
-      "domain": "knews.kg",
-      "language": "Russian",
-      "tone": 0,
-      "seendate": "20260810T061500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Heat health alerts coming into force as united kingdom braces for fifth heatwave",
-      "url": "https://www.aol.co.uk/articles/heat-health-alerts-coming-force-230159000.html",
-      "domain": "aol.co.uk",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260810T234500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Heat health alerts coming into force as united kingdom braces for fifth heatwave",
-      "url": "https://www.edp24.co.uk/news/national/26452610.heat-health-alerts-coming-force-uk-braces-fifth-heatwave/",
-      "domain": "edp24.co.uk",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260811T023000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Heat health alerts coming into force as united kingdom braces for fifth heatwave",
-      "url": "https://www.thetelegraphandargus.co.uk/news/national/26452610.heat-health-alerts-coming-force-uk-braces-fifth-heatwave/",
-      "domain": "thetelegraphandargus.co.uk",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260811T011500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Heat health alerts coming into force as united kingdom braces for fifth heatwave",
-      "url": "https://www.theargus.co.uk/news/national/26452610.heat-health-alerts-coming-force-uk-braces-fifth-heatwave/",
-      "domain": "theargus.co.uk",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260811T011500Z",
       "source": "GDELT"
     }
   ],
