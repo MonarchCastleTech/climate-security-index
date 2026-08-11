@@ -1,0 +1,791 @@
+{
+  "meta": {
+    "project": "climate-security-index",
+    "generated": "2026-08-05T22:56:30.605540+00:00",
+    "mode": "live",
+    "sources": [
+      "gdelt_articles",
+      "exchange_rates"
+    ],
+    "version": "1.0.0"
+  },
+  "stats": [
+    {
+      "label": "Regions Scored",
+      "value": "340",
+      "delta": "live"
+    },
+    {
+      "label": "Critical Risk",
+      "value": "47",
+      "delta": "live"
+    },
+    {
+      "label": "Climate Events",
+      "value": "1,203",
+      "delta": "live"
+    },
+    {
+      "label": "Pop Affected",
+      "value": "89M",
+      "delta": "live"
+    }
+  ],
+  "live_data": {
+    "gdelt_articles": [
+      {
+        "title": "الأمم المتحدة تحذر : ظاهرة  النينيو  تدفع 49 مليون شخص إضافي نحو  الجوع الحاد  ",
+        "url": "https://gate.ahram.org.eg/News/5883713.aspx",
+        "domain": "gate.ahram.org.eg",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260805T191500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Menjaga pangan dan ketahanan air",
+        "url": "https://www.antaranews.com/berita/5680672/menjaga-pangan-dan-ketahanan-air",
+        "domain": "antaranews.com",
+        "language": "Indonesian",
+        "tone": 0,
+        "seendate": "20260805T070000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "El Niño e fome aguda : ONU alerta para risco a 49 milhões de pessoas",
+        "url": "https://g1.globo.com/meio-ambiente/noticia/2026/08/05/el-nino-forte-pode-levar-mais-49-milhoes-de-pessoas-a-fome-aguda-diz-agencia-da-onu.ghtml",
+        "domain": "g1.globo.com",
+        "language": "Portuguese",
+        "tone": 0,
+        "seendate": "20260805T131500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Municipio del sur de Honduras declara estado de emergencia por sequía que afecta a más de 15 mil familias",
+        "url": "https://www.infobae.com/honduras/2026/08/05/municipio-del-sur-de-honduras-declara-estado-de-emergencia-por-sequia-que-afecta-a-mas-de-15-mil-familias/",
+        "domain": "infobae.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260805T174500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Las consecuencias de El Niño pueden agravar la inseguridad alimentaria en Latinoamérica",
+        "url": "https://www.eluniverso.com/noticias/internacional/las-consecuencias-de-el-nino-pueden-agravar-la-inseguridad-alimentaria-en-latinoamerica-nota/",
+        "domain": "eluniverso.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260805T143000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Las consecuencias de El Niño pueden agravar la inseguridad alimentaria en Latinoamérica",
+        "url": "https://eldeber.com.bo/mundo/consecuencias-nino-pueden-agravar-inseguridad-alimentaria-latinoamerica_1785933574",
+        "domain": "eldeber.com.bo",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260805T144500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "ΟΗΕ : « 49 εκατ . άνθρωποι κινδυνεύουν με επισιτιστική κρίση από ένα νέο πλήγμα του Ελ Νίνιο » ",
+        "url": "https://www.inewsgr.com/227/oie-49-ekat-anthropoi-kindynevoun-me-episitistiki-krisi-apo-ena-neo-pligma-tou-el-ninio.htm",
+        "domain": "inewsgr.com",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260805T120000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "ONU advierte que el fortalecimiento de El Niño agravará la inseguridad alimentaria en Latinoamérica hasta 2027",
+        "url": "https://www.elheraldo.co/mundo/2026/08/05/onu-advierte-que-el-fortalecimiento-de-el-nino-agravara-la-inseguridad-alimentaria-en-latinoamerica-hasta-2027/",
+        "domain": "elheraldo.co",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260805T124500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Dürre wird zum Dauerproblem : Experte warnt vor verheerenden Folgen",
+        "url": "http://www.soester-anzeiger.de/deutschland-welt/duerre-wird-zum-dauerproblem-experte-warnt-vor-verheerenden-folgen-zr-94286964.html",
+        "domain": "soester-anzeiger.de",
+        "language": "German",
+        "tone": 0,
+        "seendate": "20260805T070000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Consecuencias de El Niño pueden agravar inseguridad alimentaria en Latinoamérica",
+        "url": "https://unionradio.net/consecuencias-de-el-nino-pueden-agravar-inseguridad-alimentaria-en-latinoamerica/",
+        "domain": "unionradio.net",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260805T133000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Farmers issue chilling warning amid united kingdom drought -  no food without water  | united kingdom | News",
+        "url": "https://www.express.co.uk/news/uk/2236204/farmer-warning-uk-drought",
+        "domain": "express.co.uk",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260805T114500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Zimbabwe steps up livestock protection with increased anthrax vaccinations - Newsday Zimbabwe",
+        "url": "https://www.newsday.co.zw/local-news/article/200059048/zimbabwe-steps-up-livestock-protection-with-increased-anthrax-vaccinations",
+        "domain": "newsday.co.zw",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260805T134500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Siccità sempre più frequente : « Quale strategia ?» ",
+        "url": "https://www.tio.ch/ticino/politica/1942064/acqua-periodi-gestione-petralli-siccita",
+        "domain": "tio.ch",
+        "language": "Italian",
+        "tone": 0,
+        "seendate": "20260805T123000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "ONU : Fenomenul El Niño ar putea împinge încă 49 de milioane de oameni în foamete acută până la sfârșitul lui 2027",
+        "url": "https://www.capital.ro/onu-fenomenul-el-nino-ar-putea-impinge-inca-49-de-milioane-de-oameni-in-foamete-acuta-pana-la-sfarsitul-lui-2027.html",
+        "domain": "capital.ro",
+        "language": "Romanian",
+        "tone": 0,
+        "seendate": "20260805T190000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "WFP warns El Nino may deepen global hunger",
+        "url": "https://www.pakistantoday.com.pk/2026/08/05/wfp-warns-el-nino-could-drive-49-million-more-people-into-hunger",
+        "domain": "pakistantoday.com.pk",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260805T181500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Strong El Niño could push 49 million more people into acute hunger , UN agency says",
+        "url": "https://economictimes.indiatimes.com/news/international/world-news/strong-el-nio-could-push-49-million-more-people-into-acute-hunger-un-agency-says/articleshow/132906867.cms",
+        "domain": "economictimes.indiatimes.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260805T090000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "التصحر يزحف على أكثر من نصف مساحة العراق .. مرصد بيئي يحذر من تدهور خطير في الموارد الطبيعية",
+        "url": "http://www.non14.net/190596",
+        "domain": "non14.net",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260805T091500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "El Niño forte pode levar mais 49 milhões de pessoas à fome aguda , diz agência da ONU",
+        "url": "https://noticias.r7.com/internacional/el-nino-forte-pode-levar-mais-49-milhoes-de-pessoas-a-fome-aguda-diz-agencia-da-onu-05082026/",
+        "domain": "noticias.r7.com",
+        "language": "Portuguese",
+        "tone": 0,
+        "seendate": "20260805T221500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "El Niño forte pode levar mais 49 milhões de pessoas à fome aguda",
+        "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-08/el-nino-forte-pode-levar-mais-49-milhoes-de-pessoas-fome-aguda",
+        "domain": "agenciabrasil.ebc.com.br",
+        "language": "Portuguese",
+        "tone": 0,
+        "seendate": "20260805T153000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Upały , susza i coraz mniej wody . Ekspert : to największe zagrożenie dla Polski • Racibórz , Kraj , Powiat raciborski",
+        "url": "https://www.nowiny.pl/ekonowiny/250208-upaly-susza-i-coraz-mniej-wody-ekspert-to-najwieksze-zagrozenie-dla-polski.html",
+        "domain": "nowiny.pl",
+        "language": "Polish",
+        "tone": 0,
+        "seendate": "20260805T084500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Italy nâng báo động đỏ trên toàn bộ 27 thành phố do nắng nóng kỷ lục",
+        "url": "https://baomoi.com/italy-nang-bao-dong-do-tren-toan-bo-27-thanh-pho-do-nang-nong-ky-luc-c55767057.epi",
+        "domain": "baomoi.com",
+        "language": "Vietnamese",
+        "tone": 0,
+        "seendate": "20260805T074500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Strengthening El Niño to push 49 million more people into acute hunger",
+        "url": "https://www.globalissues.org/news/2026/08/05/43747",
+        "domain": "globalissues.org",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260805T203000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "El Niño ar putea împinge 50 de milioane de oameni spre foamete acută până la final de 2027 . Avertisment pentru întreaga lume",
+        "url": "https://www.antena3.ro/externe/mapamond/el-nino-ar-putea-impinge-50-de-milioane-de-oameni-spre-foamete-acuta-pana-la-final-de-2027-avertisment-pentru-intreaga-lume-798389.html",
+        "domain": "antena3.ro",
+        "language": "Romanian",
+        "tone": 0,
+        "seendate": "20260805T210000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "欧洲两条  生命线  多瑙河和莱茵河水位告急 ， 预示危险将至 ？_ 凤凰网",
+        "url": "https://news.ifeng.com/c/8vLNaFp58Gv",
+        "domain": "news.ifeng.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260805T123000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "ΟΗΕ : Έως και 49 εκατ . περισσότεροι άνθρωποι κινδυνεύουν από επισιτιστική ανασφάλεια λόγω ενός ισχυρού Ελ Νίνιο",
+        "url": "https://www.huffingtonpost.gr/diethnes/oie-eos-kai-49-ekat-perissoteroi-anthropoi-kindynevoun-apo-episitistiki-anasfaleia-logo-enos-ischyrou-el-ninio/",
+        "domain": "huffingtonpost.gr",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260805T134500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "এল নিনোর তাণ্ডবে তীব্র অনাহারে পড়তে পারে আরো ৫ কোটি মানুষ",
+        "url": "https://www.dailynayadiganta.com/international/africa/Fz6xKnK9Vf0g",
+        "domain": "dailynayadiganta.com",
+        "language": "Bengali",
+        "tone": 0,
+        "seendate": "20260805T191500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Calor extremo , menos lluvias y estrés hídrico : las señales del cambio climático que ya impactan a República Dominicana",
+        "url": "https://acentotv.acento.com.do/acento/calor-extremo-menos-lluvias-y-estres-hidrico-las-senales-del-cambio-climatico-que-ya-impactan-a-republica-dominicana-53922.html",
+        "domain": "acentotv.acento.com.do",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260805T221500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "访 《 联合国防治荒漠化公约 》 秘书处执行秘书福阿德 中国逆转土地退化成全球范例",
+        "url": "https://baijiahao.baidu.com/s?id=1872636922707625463",
+        "domain": "baijiahao.baidu.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260805T000000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Strong El Niño could push 49 million more people into acute hunger",
+        "url": "https://www.lbc.co.uk/article/strong-el-nino-could-push-49-million-more-people-into-acute-hunger-5HjdfdL_2/",
+        "domain": "lbc.co.uk",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260805T091500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "  Ел Ниньо  може да изправи 50 милиона души пред глад до края на 2027 г . ",
+        "url": "https://news.bg/disasters/el-ninyo-mozhe-da-izpravi-50-miliona-dushi-pred-glad-do-kraya-na-2027-g.html",
+        "domain": "news.bg",
+        "language": "Bulgarian",
+        "tone": 0,
+        "seendate": "20260805T111500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Últimos cartuchos : MinAgricultura movilizará millonaria suma para piloto de seguro agropecuario por fenómeno de El Niño",
+        "url": "https://www.semana.com/economia/macroeconomia/articulo/ultimos-cartuchos-minagricultura-movilizara-millonaria-suma-para-piloto-de-seguro-agropecuario-por-fenomeno-de-el-nino/202600/",
+        "domain": "semana.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260804T231500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "शक्तिशाली एल निनोका कारण थप ४ करोड ९० लाख मानिस चरम खाद्य असुरक्षामा पर्नसक्ने राष्ट्रसंघीय निकायको चेतावनी | Nepal first 24 - hour updated news portal",
+        "url": "https://www.ratopati.com/story/582547/government-directed-to-seek-clarification-from-three-international-organizations-that-raise-questions-about-the-judiciary-and-judges",
+        "domain": "ratopati.com",
+        "language": "Nepali",
+        "tone": 0,
+        "seendate": "20260805T104500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Dürre wird zum Dauerproblem : Experte warnt vor verheerenden Folgen",
+        "url": "http://www.kreiszeitung.de/welt/duerre-wird-zum-dauerproblem-experte-warnt-vor-verheerenden-folgen-zr-94286964.html",
+        "domain": "kreiszeitung.de",
+        "language": "German",
+        "tone": 0,
+        "seendate": "20260805T070000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Το φαινόμενο « Ελ Νίνιο » ενδέχεται να οδηγήσει 50 εκατ . ανθρώπους σε κατάσταση οξείας πείνας πριν το τέλος του 2027",
+        "url": "https://www.lifo.gr/now/perivallon/fainomeno-el-ninio-endehetai-na-odigisei-50-ekat-anthropoys-se-katastasi-oxeias",
+        "domain": "lifo.gr",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260805T120000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "El Niño could push 50m people into acute hunger before end of next year",
+        "url": "https://www.theguardian.com/environment/2026/aug/05/el-nino-could-push-50m-people-acute-hunger-next-year",
+        "domain": "theguardian.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260805T084500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "مرصد بيئي يحذر : 55 . 5 % من مساحة العراق تواجه خطر التصحر",
+        "url": "https://almadapaper.net/447035/",
+        "domain": "almadapaper.net",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260805T083000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "المنظومة الوطنية الذكية لإدارة الموارد المائية في العراق – كتابات",
+        "url": "https://kitabat.com/%D8%A7%D9%84%D9%85%D9%86%D8%B8%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D8%A7%D9%84%D8%B0%D9%83%D9%8A%D8%A9-%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D9%88%D8%A7/",
+        "domain": "kitabat.com",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260805T213000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Italy nâng báo động đỏ trên toàn bộ 27 thành phố do nắng nóng kỷ lục",
+        "url": "https://vietgiaitri.com/italy-nang-bao-dong-do-tren-toan-bo-27-thanh-pho-do-nang-nong-ky-luc-20260805i7747675/",
+        "domain": "vietgiaitri.com",
+        "language": "Vietnamese",
+        "tone": 0,
+        "seendate": "20260805T084500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "  El Niño  pueden agravar la inseguridad alimentaria en Latinoamérica",
+        "url": "https://www.elpreg.org/comunidad/el-ni%C3%B1o-pueden-agravar-la-inseguridad-alimentaria-en-latinoam%C3%A9rica",
+        "domain": "elpreg.org",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260805T173000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "De Roma a Milão , Itália coloca 27 cidades em alerta máximo por nova onda de calor",
+        "url": "https://cbn.globo.com/mundo/noticia/2026/08/05/de-roma-a-milao-italia-vai-colocar-27-cidades-em-alerta-maximo-por-nova-onda-de-calor.ghtml",
+        "domain": "cbn.globo.com",
+        "language": "Portuguese",
+        "tone": 0,
+        "seendate": "20260805T143000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "ONU advierte que fenómeno climático El Niño agravará la inseguridad alimentaria mundial",
+        "url": "https://rnv.gob.ve/onu-advierte-que-fenomeno-climatico-el-nino-agravara-la-inseguridad-alimentaria-mundial/",
+        "domain": "rnv.gob.ve",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260805T183000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Fenómeno de El Niño agravará la inseguridad alimentaria en países vulnerables hasta 2027",
+        "url": "https://www.extra.ec/noticia/mundo/fenomeno-nino-agravara-inseguridad-alimentaria-paises-vulnerables-2027-159817.html",
+        "domain": "extra.ec",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260805T171500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "La investigadora del CONICET Renata Reinheimer fue elegida emprendedora del año a nivel mundial",
+        "url": "https://www.perfil.com/noticias/ciencia/la-investigadora-del-conicet-renata-reinheimer-fue-elegida-emprendedora-del-ano-a-nivel-mundial.phtml",
+        "domain": "perfil.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260805T014500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Confcooperative Toscana , le proposte per il settore agroalimentare",
+        "url": "https://www.lanazione.it/firenze/cronaca/confcooperative-toscana-le-proposte-per-il-settore-agroalimentare-2baac8bd",
+        "domain": "lanazione.it",
+        "language": "Italian",
+        "tone": 0,
+        "seendate": "20260805T094500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Le Département réaffirme sa stratégie face au défi climatique aux côtés de la Saphir et lOffice de leau",
+        "url": "https://www.zinfos974.com/le-departement-reaffirme-sa-strategie-face-au-defi-climatique-aux-cotes-de-la-saphir-et-loffice-de-leau/",
+        "domain": "zinfos974.com",
+        "language": "French",
+        "tone": 0,
+        "seendate": "20260805T123000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "El Nino presents acute hunger threat to 49 million people UN",
+        "url": "http://www.zimbabwestar.com/news/279223602/el-nino-presents-acute-hunger-threat-to-49-million-people-un",
+        "domain": "zimbabwestar.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260805T151500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "El Nino presents acute hunger threat to 49 million people UN",
+        "url": "http://www.vietnamtribune.com/news/279223602/el-nino-presents-acute-hunger-threat-to-49-million-people-un",
+        "domain": "vietnamtribune.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260805T151500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "El Nino presents acute hunger threat to 49 million people UN",
+        "url": "http://www.azerbaijannews.net/news/279223602/el-nino-presents-acute-hunger-threat-to-49-million-people-un",
+        "domain": "azerbaijannews.net",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260805T151500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "El Nino presents acute hunger threat to 49 million people UN",
+        "url": "http://www.russiaherald.com/news/279223602/el-nino-presents-acute-hunger-threat-to-49-million-people-un",
+        "domain": "russiaherald.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260805T180000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "El Nino presents acute hunger threat to 49 million people UN",
+        "url": "http://www.mexicostar.com/news/279223602/el-nino-presents-acute-hunger-threat-to-49-million-people-un",
+        "domain": "mexicostar.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260805T171500Z",
+        "source": "GDELT"
+      }
+    ],
+    "exchange_rates": [
+      {
+        "currency": "USD",
+        "rate": 1
+      },
+      {
+        "currency": "AED",
+        "rate": 3.67
+      },
+      {
+        "currency": "AFN",
+        "rate": 65.72
+      },
+      {
+        "currency": "ALL",
+        "rate": 81.07
+      },
+      {
+        "currency": "AMD",
+        "rate": 366.47
+      },
+      {
+        "currency": "ANG",
+        "rate": 1.79
+      },
+      {
+        "currency": "AOA",
+        "rate": 926.54
+      },
+      {
+        "currency": "ARS",
+        "rate": 1496.45
+      },
+      {
+        "currency": "AUD",
+        "rate": 1.42
+      },
+      {
+        "currency": "AWG",
+        "rate": 1.79
+      },
+      {
+        "currency": "AZN",
+        "rate": 1.7
+      },
+      {
+        "currency": "BAM",
+        "rate": 1.7
+      },
+      {
+        "currency": "BBD",
+        "rate": 2
+      },
+      {
+        "currency": "BDT",
+        "rate": 123.71
+      },
+      {
+        "currency": "BGN",
+        "rate": 1.7
+      },
+      {
+        "currency": "BHD",
+        "rate": 0.376
+      },
+      {
+        "currency": "BIF",
+        "rate": 2991.62
+      },
+      {
+        "currency": "BMD",
+        "rate": 1
+      },
+      {
+        "currency": "BND",
+        "rate": 1.28
+      },
+      {
+        "currency": "BOB",
+        "rate": 12.17
+      }
+    ]
+  },
+  "entities": [
+    {
+      "id": 1,
+      "name": "الأمم المتحدة تحذر : ظاهرة  النينيو  تدفع 49 مليون شخص إضافي",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260805T191500Z",
+      "source": "gate.ahram.org.eg"
+    },
+    {
+      "id": 2,
+      "name": "Menjaga pangan dan ketahanan air",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260805T070000Z",
+      "source": "antaranews.com"
+    },
+    {
+      "id": 3,
+      "name": "El Niño e fome aguda : ONU alerta para risco a 49 milhões de",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260805T131500Z",
+      "source": "g1.globo.com"
+    },
+    {
+      "id": 4,
+      "name": "Municipio del sur de Honduras declara estado de emergencia p",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260805T174500Z",
+      "source": "infobae.com"
+    },
+    {
+      "id": 5,
+      "name": "Las consecuencias de El Niño pueden agravar la inseguridad a",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260805T143000Z",
+      "source": "eluniverso.com"
+    },
+    {
+      "id": 6,
+      "name": "Las consecuencias de El Niño pueden agravar la inseguridad a",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260805T144500Z",
+      "source": "eldeber.com.bo"
+    },
+    {
+      "id": 7,
+      "name": "ΟΗΕ : « 49 εκατ . άνθρωποι κινδυνεύουν με επισιτιστική κρίση",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260805T120000Z",
+      "source": "inewsgr.com"
+    },
+    {
+      "id": 8,
+      "name": "ONU advierte que el fortalecimiento de El Niño agravará la i",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260805T124500Z",
+      "source": "elheraldo.co"
+    },
+    {
+      "id": 9,
+      "name": "Dürre wird zum Dauerproblem : Experte warnt vor verheerenden",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260805T070000Z",
+      "source": "soester-anzeiger.de"
+    },
+    {
+      "id": 10,
+      "name": "Consecuencias de El Niño pueden agravar inseguridad alimenta",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260805T133000Z",
+      "source": "unionradio.net"
+    }
+  ],
+  "events": [
+    {
+      "title": "الأمم المتحدة تحذر : ظاهرة  النينيو  تدفع 49 مليون شخص إضافي نحو  الجوع الحاد  ",
+      "url": "https://gate.ahram.org.eg/News/5883713.aspx",
+      "domain": "gate.ahram.org.eg",
+      "language": "Arabic",
+      "tone": 0,
+      "seendate": "20260805T191500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Menjaga pangan dan ketahanan air",
+      "url": "https://www.antaranews.com/berita/5680672/menjaga-pangan-dan-ketahanan-air",
+      "domain": "antaranews.com",
+      "language": "Indonesian",
+      "tone": 0,
+      "seendate": "20260805T070000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "El Niño e fome aguda : ONU alerta para risco a 49 milhões de pessoas",
+      "url": "https://g1.globo.com/meio-ambiente/noticia/2026/08/05/el-nino-forte-pode-levar-mais-49-milhoes-de-pessoas-a-fome-aguda-diz-agencia-da-onu.ghtml",
+      "domain": "g1.globo.com",
+      "language": "Portuguese",
+      "tone": 0,
+      "seendate": "20260805T131500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Municipio del sur de Honduras declara estado de emergencia por sequía que afecta a más de 15 mil familias",
+      "url": "https://www.infobae.com/honduras/2026/08/05/municipio-del-sur-de-honduras-declara-estado-de-emergencia-por-sequia-que-afecta-a-mas-de-15-mil-familias/",
+      "domain": "infobae.com",
+      "language": "Spanish",
+      "tone": 0,
+      "seendate": "20260805T174500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Las consecuencias de El Niño pueden agravar la inseguridad alimentaria en Latinoamérica",
+      "url": "https://www.eluniverso.com/noticias/internacional/las-consecuencias-de-el-nino-pueden-agravar-la-inseguridad-alimentaria-en-latinoamerica-nota/",
+      "domain": "eluniverso.com",
+      "language": "Spanish",
+      "tone": 0,
+      "seendate": "20260805T143000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Las consecuencias de El Niño pueden agravar la inseguridad alimentaria en Latinoamérica",
+      "url": "https://eldeber.com.bo/mundo/consecuencias-nino-pueden-agravar-inseguridad-alimentaria-latinoamerica_1785933574",
+      "domain": "eldeber.com.bo",
+      "language": "Spanish",
+      "tone": 0,
+      "seendate": "20260805T144500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "ΟΗΕ : « 49 εκατ . άνθρωποι κινδυνεύουν με επισιτιστική κρίση από ένα νέο πλήγμα του Ελ Νίνιο » ",
+      "url": "https://www.inewsgr.com/227/oie-49-ekat-anthropoi-kindynevoun-me-episitistiki-krisi-apo-ena-neo-pligma-tou-el-ninio.htm",
+      "domain": "inewsgr.com",
+      "language": "Greek",
+      "tone": 0,
+      "seendate": "20260805T120000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "ONU advierte que el fortalecimiento de El Niño agravará la inseguridad alimentaria en Latinoamérica hasta 2027",
+      "url": "https://www.elheraldo.co/mundo/2026/08/05/onu-advierte-que-el-fortalecimiento-de-el-nino-agravara-la-inseguridad-alimentaria-en-latinoamerica-hasta-2027/",
+      "domain": "elheraldo.co",
+      "language": "Spanish",
+      "tone": 0,
+      "seendate": "20260805T124500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Dürre wird zum Dauerproblem : Experte warnt vor verheerenden Folgen",
+      "url": "http://www.soester-anzeiger.de/deutschland-welt/duerre-wird-zum-dauerproblem-experte-warnt-vor-verheerenden-folgen-zr-94286964.html",
+      "domain": "soester-anzeiger.de",
+      "language": "German",
+      "tone": 0,
+      "seendate": "20260805T070000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Consecuencias de El Niño pueden agravar inseguridad alimentaria en Latinoamérica",
+      "url": "https://unionradio.net/consecuencias-de-el-nino-pueden-agravar-inseguridad-alimentaria-en-latinoamerica/",
+      "domain": "unionradio.net",
+      "language": "Spanish",
+      "tone": 0,
+      "seendate": "20260805T133000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Farmers issue chilling warning amid united kingdom drought -  no food without water  | united kingdom | News",
+      "url": "https://www.express.co.uk/news/uk/2236204/farmer-warning-uk-drought",
+      "domain": "express.co.uk",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260805T114500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Zimbabwe steps up livestock protection with increased anthrax vaccinations - Newsday Zimbabwe",
+      "url": "https://www.newsday.co.zw/local-news/article/200059048/zimbabwe-steps-up-livestock-protection-with-increased-anthrax-vaccinations",
+      "domain": "newsday.co.zw",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260805T134500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Siccità sempre più frequente : « Quale strategia ?» ",
+      "url": "https://www.tio.ch/ticino/politica/1942064/acqua-periodi-gestione-petralli-siccita",
+      "domain": "tio.ch",
+      "language": "Italian",
+      "tone": 0,
+      "seendate": "20260805T123000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "ONU : Fenomenul El Niño ar putea împinge încă 49 de milioane de oameni în foamete acută până la sfârșitul lui 2027",
+      "url": "https://www.capital.ro/onu-fenomenul-el-nino-ar-putea-impinge-inca-49-de-milioane-de-oameni-in-foamete-acuta-pana-la-sfarsitul-lui-2027.html",
+      "domain": "capital.ro",
+      "language": "Romanian",
+      "tone": 0,
+      "seendate": "20260805T190000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "WFP warns El Nino may deepen global hunger",
+      "url": "https://www.pakistantoday.com.pk/2026/08/05/wfp-warns-el-nino-could-drive-49-million-more-people-into-hunger",
+      "domain": "pakistantoday.com.pk",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260805T181500Z",
+      "source": "GDELT"
+    }
+  ],
+  "timeseries": [],
+  "llm_summary": "The latest GDELT feed highlights a surge in climate‑related security incidents: Egypt’s severe flooding, Indonesia’s focus on food and water resilience, and a cascade of El Niño impacts that the UN warns could push ≈ 49 million people into acute hunger. In Latin America, worsening El Niño conditions are forecast to deepen food insecurity, while a southern Honduras municipality has declared a drought emergency affecting over 15,000 families. Together, these events illustrate a widening geographic footprint of climate‑driven resource stress, straining food and water systems and increasing the likelihood of humanitarian and political instability. The exchange‑rates source, though not detailed here, likely reflects the economic pressures these crises impose on vulnerable economies."
+}
