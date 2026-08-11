@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-08-11T07:44:18.567027+00:00",
+    "generated": "2026-08-11T13:49:29.777950+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -62,20 +62,20 @@
       },
       {
         "title": "Овощное разнообразие в мире сокращается : ученые предупредили о рисках | MigNews - Новости Израиля и Мира на русском языке",
-        "url": "http://mignews.com/news/health/ovoshnoe-raznoobrazie-v-mire-sokrashaetsya-uchenye-predupredili-o-riskah.html",
-        "domain": "mignews.com",
-        "language": "Russian",
-        "tone": 0,
-        "seendate": "20260811T041500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Овощное разнообразие в мире сокращается : ученые предупредили о рисках | MigNews - Новости Израиля и Мира на русском языке",
         "url": "https://mignews.com/news/health/ovoshnoe-raznoobrazie-v-mire-sokrashaetsya-uchenye-predupredili-o-riskah.html",
         "domain": "mignews.com",
         "language": "Russian",
         "tone": 0,
         "seendate": "20260811T061500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Овощное разнообразие в мире сокращается : ученые предупредили о рисках | MigNews - Новости Израиля и Мира на русском языке",
+        "url": "http://mignews.com/news/health/ovoshnoe-raznoobrazie-v-mire-sokrashaetsya-uchenye-predupredili-o-riskah.html",
+        "domain": "mignews.com",
+        "language": "Russian",
+        "tone": 0,
+        "seendate": "20260811T041500Z",
         "source": "GDELT"
       },
       {
@@ -133,15 +133,6 @@
         "source": "GDELT"
       },
       {
-        "title": "Ρεκόρ θερμοκρασίας στις θάλασσες του πλανήτη τον Ιούλιο – Στο « κόκκινο » η Ευρώπη από καύσωνα και ξηρασία",
-        "url": "https://www.skai.gr/news/environment/rekor-thermokrasias-stis-thalasses-tou-planiti-ton-ioulio-sto-kokkino-i-eyropi-apo-kaysona",
-        "domain": "skai.gr",
-        "language": "Greek",
-        "tone": 0,
-        "seendate": "20260810T124500Z",
-        "source": "GDELT"
-      },
-      {
         "title": "Apa Itu El Nino Godzilla yang Tengah Melanda Indonesia ? ",
         "url": "https://kaltim.tribunnews.com/news/1160799/apa-itu-el-nino-godzilla-yang-tengah-melanda-indonesia",
         "domain": "kaltim.tribunnews.com",
@@ -151,30 +142,12 @@
         "source": "GDELT"
       },
       {
-        "title": "BBC Breakfast presenter announces  major incident  during live show",
-        "url": "https://www.aol.co.uk/articles/bbc-breakfast-presenter-announces-major-090047000.html",
-        "domain": "aol.co.uk",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260810T093000Z",
-        "source": "GDELT"
-      },
-      {
         "title": "ماذا لو تحدثت الأشجار ؟ ",
         "url": "https://alanbatnews.net/article/481489",
         "domain": "alanbatnews.net",
         "language": "Arabic",
         "tone": 0,
         "seendate": "20260811T001500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Супер - Ель - Ніньйо посилюється : океан побив температурний рекорд Наука та IT",
-        "url": "https://tsn.ua/nauka_it/super-el-ninyo-posyliuyetsia-iaki-pohodni-anomaliyi-chekaiut-na-svit-uze-skoro-3145496.html",
-        "domain": "tsn.ua",
-        "language": "Ukrainian",
-        "tone": 0,
-        "seendate": "20260810T083000Z",
         "source": "GDELT"
       },
       {
@@ -214,6 +187,24 @@
         "source": "GDELT"
       },
       {
+        "title": "بين الجفاف وحرائق الغابات .. 900 مليون نسمة يعيشون أحر شهر تموز في التاريخ الحديث",
+        "url": "https://www.non14.net/190746",
+        "domain": "non14.net",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260811T124500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Što EU čini u borbi protiv rastuće nestašice vode ? ",
+        "url": "https://www.index.hr/vijesti/clanak/sto-eu-cini-u-borbi-protiv-rastuce-nestasice-vode/2822593.aspx?index_tid=1118023&index_ref=naslovnica_vijesti_ostalo_d_1",
+        "domain": "index.hr",
+        "language": "Croatian",
+        "tone": 0,
+        "seendate": "20260811T083000Z",
+        "source": "GDELT"
+      },
+      {
         "title": "Heat health alerts coming into force as united kingdom braces for fifth heatwave",
         "url": "https://www.edp24.co.uk/news/national/26452610.heat-health-alerts-coming-force-uk-braces-fifth-heatwave/",
         "domain": "edp24.co.uk",
@@ -229,6 +220,15 @@
         "language": "English",
         "tone": 0,
         "seendate": "20260811T054500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "पश्चिम – युरोपमा चरम खडेरी , मानव गतिविधि र पारिस्थितिक प्रणालीमा गम्भीर खतरा | Nepal first 24 - hour updated news portal",
+        "url": "https://www.ratopati.com/story/583872/extreme-drought-in-western-europe-a-serious-threat-to-human-activity-and-ecosystems",
+        "domain": "ratopati.com",
+        "language": "Nepali",
+        "tone": 0,
+        "seendate": "20260811T113000Z",
         "source": "GDELT"
       },
       {
@@ -319,15 +319,6 @@
         "language": "English",
         "tone": 0,
         "seendate": "20260811T024500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Why environmental treaties must also address mental health",
-        "url": "https://www.nature.com/articles/d41586-026-02450-3",
-        "domain": "nature.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260810T133000Z",
         "source": "GDELT"
       },
       {
@@ -439,6 +430,15 @@
         "source": "GDELT"
       },
       {
+        "title": "Caldo in Puglia : siccità e caro gasolio mettono in ginocchio le campagne",
+        "url": "https://www.barlettaviva.it/network/caldo-in-puglia-siccita-e-caro-gasolio-mettono-in-ginocchio-le-campagne/",
+        "domain": "barlettaviva.it",
+        "language": "Italian",
+        "tone": 0,
+        "seendate": "20260811T081500Z",
+        "source": "GDELT"
+      },
+      {
         "title": "Los temas medioambientales que Abelardo incluyó e ignoró en su posesión",
         "url": "https://www.lasillavacia.com/silla-amazonia/amazonia-en-breve/los-temas-medioambientales-que-abelardo-incluyo-e-ignoro-en-su-posesion/",
         "domain": "lasillavacia.com",
@@ -457,30 +457,30 @@
         "source": "GDELT"
       },
       {
-        "title": "Przed nami najsilniejsze El Niño i kataklizmy klimatyczne . „ Rekordy staną się normą  ",
-        "url": "https://wiadomosci.radiozet.pl/Pogoda/przed-nami-najsilniejsze-el-nino-i-kataklizmy-klimatyczne-rekordy-stana-sie-norma",
-        "domain": "wiadomosci.radiozet.pl",
-        "language": "Polish",
+        "title": "Heat health alerts coming into force as united kingdom braces for fifth heatwave",
+        "url": "https://www.newarkadvertiser.co.uk/national/heat-health-alerts-coming-into-force-as-uk-braces-for-fifth-heatwave-170400/",
+        "domain": "newarkadvertiser.co.uk",
+        "language": "English",
         "tone": 0,
-        "seendate": "20260810T130000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "各地全力以赴保障秋粮生产 _ 央广网",
-        "url": "https://news.cnr.cn/native/gd/20260810/t20260810_527755963.shtml",
-        "domain": "news.cnr.cn",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260810T091500Z",
+        "seendate": "20260810T233000Z",
         "source": "GDELT"
       },
       {
         "title": "Heat health alerts coming into force as united kingdom braces for fifth heatwave",
-        "url": "https://www.lynnnews.co.uk/national/heat-health-alerts-coming-into-force-as-uk-braces-for-fifth-heatwave-170400/",
-        "domain": "lynnnews.co.uk",
+        "url": "https://www.dissexpress.co.uk/national/heat-health-alerts-coming-into-force-as-uk-braces-for-fifth-heatwave-170400/",
+        "domain": "dissexpress.co.uk",
         "language": "English",
         "tone": 0,
-        "seendate": "20260811T003000Z",
+        "seendate": "20260810T233000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Heat health alerts coming into force as united kingdom braces for fifth heatwave",
+        "url": "https://www.stratford-herald.com/national/heat-health-alerts-coming-into-force-as-uk-braces-for-fifth-heatwave-170400/",
+        "domain": "stratford-herald.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260811T021500Z",
         "source": "GDELT"
       }
     ],
@@ -597,7 +597,7 @@
       "name": "Овощное разнообразие в мире сокращается : ученые предупредил",
       "score": 5.0,
       "category": "news",
-      "last_seen": "20260811T041500Z",
+      "last_seen": "20260811T061500Z",
       "source": "mignews.com"
     },
     {
@@ -605,7 +605,7 @@
       "name": "Овощное разнообразие в мире сокращается : ученые предупредил",
       "score": 5.0,
       "category": "news",
-      "last_seen": "20260811T061500Z",
+      "last_seen": "20260811T041500Z",
       "source": "mignews.com"
     },
     {
@@ -679,20 +679,20 @@
     },
     {
       "title": "Овощное разнообразие в мире сокращается : ученые предупредили о рисках | MigNews - Новости Израиля и Мира на русском языке",
-      "url": "http://mignews.com/news/health/ovoshnoe-raznoobrazie-v-mire-sokrashaetsya-uchenye-predupredili-o-riskah.html",
-      "domain": "mignews.com",
-      "language": "Russian",
-      "tone": 0,
-      "seendate": "20260811T041500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Овощное разнообразие в мире сокращается : ученые предупредили о рисках | MigNews - Новости Израиля и Мира на русском языке",
       "url": "https://mignews.com/news/health/ovoshnoe-raznoobrazie-v-mire-sokrashaetsya-uchenye-predupredili-o-riskah.html",
       "domain": "mignews.com",
       "language": "Russian",
       "tone": 0,
       "seendate": "20260811T061500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Овощное разнообразие в мире сокращается : ученые предупредили о рисках | MigNews - Новости Израиля и Мира на русском языке",
+      "url": "http://mignews.com/news/health/ovoshnoe-raznoobrazie-v-mire-sokrashaetsya-uchenye-predupredili-o-riskah.html",
+      "domain": "mignews.com",
+      "language": "Russian",
+      "tone": 0,
+      "seendate": "20260811T041500Z",
       "source": "GDELT"
     },
     {
@@ -750,15 +750,6 @@
       "source": "GDELT"
     },
     {
-      "title": "Ρεκόρ θερμοκρασίας στις θάλασσες του πλανήτη τον Ιούλιο – Στο « κόκκινο » η Ευρώπη από καύσωνα και ξηρασία",
-      "url": "https://www.skai.gr/news/environment/rekor-thermokrasias-stis-thalasses-tou-planiti-ton-ioulio-sto-kokkino-i-eyropi-apo-kaysona",
-      "domain": "skai.gr",
-      "language": "Greek",
-      "tone": 0,
-      "seendate": "20260810T124500Z",
-      "source": "GDELT"
-    },
-    {
       "title": "Apa Itu El Nino Godzilla yang Tengah Melanda Indonesia ? ",
       "url": "https://kaltim.tribunnews.com/news/1160799/apa-itu-el-nino-godzilla-yang-tengah-melanda-indonesia",
       "domain": "kaltim.tribunnews.com",
@@ -768,21 +759,30 @@
       "source": "GDELT"
     },
     {
-      "title": "BBC Breakfast presenter announces  major incident  during live show",
-      "url": "https://www.aol.co.uk/articles/bbc-breakfast-presenter-announces-major-090047000.html",
-      "domain": "aol.co.uk",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260810T093000Z",
-      "source": "GDELT"
-    },
-    {
       "title": "ماذا لو تحدثت الأشجار ؟ ",
       "url": "https://alanbatnews.net/article/481489",
       "domain": "alanbatnews.net",
       "language": "Arabic",
       "tone": 0,
       "seendate": "20260811T001500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Amber health warnings start ahead of fifth heatwave as 45m in drought",
+      "url": "https://www.walesonline.co.uk/news/wales-news/amber-health-warnings-start-ahead-34436267",
+      "domain": "walesonline.co.uk",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260811T053000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "To był najgorętszy lipiec w historii pomiarów aż w 33 państwach",
+      "url": "https://www.gosc.pl/doc/9843177.To-byl-najgoretszy-lipiec-w-historii-pomiarow-az-w-33-panstwach",
+      "domain": "gosc.pl",
+      "language": "Polish",
+      "tone": 0,
+      "seendate": "20260810T164500Z",
       "source": "GDELT"
     }
   ],
