@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 64" role="img" aria-labelledby="title desc">
   <title id="title">Climate Security Index</title>
   <desc id="desc">Climate Security Index product logo</desc>
-  <g fill="none" stroke="#2dd4bf" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><circle cx="32" cy="32" r="20"/><path d="M32 12v40M12 32h40M18 19c8 6 20 6 28 0M18 45c8-6 20-6 28 0"/><path d="M46 47l8 8"/></g>
+  <g fill="none" stroke="#d7b56d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><circle cx="32" cy="32" r="20"/><path d="M32 12v40M12 32h40M18 19c8 6 20 6 28 0M18 45c8-6 20-6 28 0"/><path d="M46 47l8 8"/></g>
   <text x="70" y="39" fill="#f1f5f9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="700" letter-spacing=".2">Climate Security Index</text>
   
 </svg>
