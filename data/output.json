@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-08-14T13:50:30.403565+00:00",
+    "generated": "2026-08-14T19:25:09.687297+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -32,7 +32,458 @@
     }
   ],
   "live_data": {
-    "gdelt_articles": [],
+    "gdelt_articles": [
+      {
+        "title": "Call for EOIs : Food Assistance for Drought - Affected Populations ( Burundi ) ",
+        "url": "https://www2.fundsforngos.org/community-development-2/call-for-eois-food-assistance-for-drought-affected-populations-burundi/",
+        "domain": "fundsforngos.org",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260814T130000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Περού : Κηρύχτηκε κατάσταση έκτακτης ανάγκης για τον κίνδυνο ξηρασίας λόγω του Ελ Νίνιο",
+        "url": "https://www.in.gr/2026/08/14/in-science/perivallon-b-science/perou-kiryxtike-katastasi-ektaktis-anagkis-gia-ton-kindyno-ksirasias-logo-tou-el-ninio/",
+        "domain": "in.gr",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260814T014500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Legacoop , dal mais che non cresce alle cozze che muoiono , il clima riscrive lagricoltura italiana - Mondo Agricolo",
+        "url": "https://www.ansa.it/canale_terraegusto/notizie/mondo_agricolo/2026/08/14/legacoop-dal-mais-che-non-cresce-alle-cozze-che-muoiono_7a63cd3f-01da-49a7-b9ad-5a2df90a3964.html",
+        "domain": "ansa.it",
+        "language": "Italian",
+        "tone": 0,
+        "seendate": "20260814T140000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Legacoop , dal mais che non cresce alle cozze che muoiono , clima riscrive lagricoltura - Notizie",
+        "url": "https://www.ansa.it/sito/notizie/economia/2026/08/14/legacoop-dal-mais-che-non-cresce-alle-cozze-che-muoiono_ff316d50-64f4-4638-a938-cef0560a80e0.html",
+        "domain": "ansa.it",
+        "language": "Italian",
+        "tone": 0,
+        "seendate": "20260814T141500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "As a heatwave sweeps across Europe , Staay offers an alternative to traditional iceberg lettuce",
+        "url": "https://www.freshplaza.com/north-america/article/9863046/as-a-heatwave-sweeps-across-europe-staay-offers-an-alternative-to-traditional-iceberg-lettuce/",
+        "domain": "freshplaza.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260814T164500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Qué países de Sudamérica podrían recibir más lluvias con El Niño en 2026 - Ciencia",
+        "url": "https://www.abc.com.py/ciencia/2026/08/14/que-paises-de-sudamerica-podrian-recibir-mas-lluvias-con-el-nino-en-2026/",
+        "domain": "abc.com.py",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260814T173000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Ξηρασία στη Γερμανία και πυρκαγιές πιέζουν την αγροτική παραγωγή",
+        "url": "https://www.sbctv.gr/2026/08/%CE%BE%CE%B7%CF%81%CE%B1%CF%83%CE%B9%CE%B1-%CF%83%CF%84%CE%B7-%CE%B3%CE%B5%CF%81%CE%BC%CE%B1%CE%BD%CE%B9%CE%B1/",
+        "domain": "sbctv.gr",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260814T093000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Presja klimatyczna uderza w rolnictwo , napędzając globalne ceny żywności",
+        "url": "https://www.portalspozywczy.pl/technologie/wiadomosci/presja-klimatyczna-uderza-w-rolnictwo-napedzajac-globalne-ceny-zywnosci,291886.html",
+        "domain": "portalspozywczy.pl",
+        "language": "Polish",
+        "tone": 0,
+        "seendate": "20260813T193000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "LHQ cảnh báo nắng nóng kỷ lục nguy cơ đẩy gần 50 triệu người rơi vào cảnh nghèo đói",
+        "url": "https://baomoi.com/lhq-canh-bao-nang-nong-ky-luc-nguy-co-day-gan-50-trieu-nguoi-roi-vao-canh-ngheo-doi-c55832083.epi",
+        "domain": "baomoi.com",
+        "language": "Vietnamese",
+        "tone": 0,
+        "seendate": "20260814T070000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Perú declara en emergencia hídrica en un tercio de sus municipios por El Niño",
+        "url": "https://www.teleamazonas.com/actualidad/noticias/internacional/peru-emergencia-hidrica-municipios-nino-125288/",
+        "domain": "teleamazonas.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260814T014500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Greenpeace : Butuh penguatan berbasis pencegahan ancaman El Nino",
+        "url": "https://www.antaranews.com/berita/5695321/greenpeace-butuh-penguatan-berbasis-pencegahan-ancaman-el-nino",
+        "domain": "antaranews.com",
+        "language": "Indonesian",
+        "tone": 0,
+        "seendate": "20260814T160000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Περού : Κατάσταση έκτακτης ανάγκης εξαιτίας του κινδύνου ξηρασίας λόγω του ... ",
+        "url": "https://www.capital.gr/diethni/4010642/perou-katastasi-ektaktis-anagkis-exaitias-tou-kindunou-xirasias-logo-tou-el-ninio/",
+        "domain": "capital.gr",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260814T054500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Περού : Κατάσταση έκτακτης ανάγκης εξαιτίας του κινδύνου ξηρασίας λόγω του Ελ Νίνιο",
+        "url": "https://www.inewsgr.com/182/perou-katastasi-ektaktis-anagkis-exaitias-tou-kindynou-xirasias-logo-tou-el-ninio.htm",
+        "domain": "inewsgr.com",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260814T074500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Περού : Κατάσταση έκτακτης ανάγκης σε πάνω από 600 δήμους λόγω του κινδύνου ξηρασίας από το El Niño",
+        "url": "https://www.skai.gr/news/world/perou-katastasi-ektaktis-anagkis-se-pano-apo-600-dimous-logo-tou-kindynou-ksirasias-apo-to",
+        "domain": "skai.gr",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260814T114500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Legacoop , dal mais che non cresce alle cozze che muoiono , clima riscrive lagricoltura",
+        "url": "https://www.bresciaoggi.it/argomenti/economia/economia-nazionale/legacoop-dal-mais-che-non-cresce-alle-cozze-che-muoiono-clima-riscrive-l-agricoltura-1.13097599",
+        "domain": "bresciaoggi.it",
+        "language": "Italian",
+        "tone": 0,
+        "seendate": "20260814T141500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Food Systems at the Center of a Global Effort to Restore Land and Protect Nature",
+        "url": "https://www.pressenza.com/2026/08/food-systems-at-the-center-of-a-global-effort-to-restore-land-and-protect-nature/",
+        "domain": "pressenza.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260814T041500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Vlada usvojila strategiju : Velike promene za poljoprivrednike",
+        "url": "https://vesti-online.com/vlada-usvojila-strategiju-velike-promene-za-poljoprivrednike/",
+        "domain": "vesti-online.com",
+        "language": "Serbian",
+        "tone": 0,
+        "seendate": "20260814T150000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "ONU só tem 30 % da verba para resposta humanitária em Moçambique em 2026",
+        "url": "https://www.rtp.pt/noticias/mundo/onu-so-tem-30-da-verba-para-resposta-humanitaria-em-mocambique-em-2026_n1759388",
+        "domain": "rtp.pt",
+        "language": "Portuguese",
+        "tone": 0,
+        "seendate": "20260814T070000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Landwirte fordern Kurswechsel in der Klimaschutz Politik",
+        "url": "https://www.topagrar.com/management-und-politik/news/landwirte-fordern-kurswechsel-in-der-klimaschutz-politik-20028253.html",
+        "domain": "topagrar.com",
+        "language": "German",
+        "tone": 0,
+        "seendate": "20260814T150000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Flooding could follow wildfires across the united kingdom , Andy Burnham warns",
+        "url": "https://www.aol.co.uk/articles/flooding-could-wildfires-across-uk-140648000.html",
+        "domain": "aol.co.uk",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260814T144500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Tougher crops and beaver dams : how united kingdom farmers are tackling drought",
+        "url": "https://www.theguardian.com/environment/2026/aug/14/crops-beaver-dams-uk-farmers-drought-heatwaves",
+        "domain": "theguardian.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260814T071500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Vicepresidente Menéndez :  Un nuevo modelo civilizatorio es fundamental para enfrentar la crisis climática  - Yvke Mundial",
+        "url": "https://radiomundial.com.ve/vicepresidente-menendez-un-nuevo-modelo-civilizatorio-es-fundamental-para-enfrentar-la-crisis-climatica/",
+        "domain": "radiomundial.com.ve",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260814T060000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Rally Forrageiras united states tecnologia para reduzir o impacto da estiagem sobre a pecuária",
+        "url": "https://globorural.globo.com/conteudo-de-marca/conexoes-agro/noticia/2026/08/rally-forrageiras-usa-tecnologia-para-reduzir-o-impacto-da-estiagem-sobre-a-pecuaria.ghtml",
+        "domain": "globorural.globo.com",
+        "language": "Portuguese",
+        "tone": 0,
+        "seendate": "20260814T010000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Flooding could follow wildfires across the united kingdom , Andy Burnham warns",
+        "url": "https://www.kentonline.co.uk/news/national/flooding-could-follow-wildfires-across-the-uk-andy-burnham-warns-170561/",
+        "domain": "kentonline.co.uk",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260814T150000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "New Global Water Infrastructure Venture Launched As United Nations Warns Of  Water Bankruptcy  Era",
+        "url": "https://www.wateronline.com/doc/new-global-water-infrastructure-venture-launched-as-united-nations-warns-of-water-bankruptcy-era-0001",
+        "domain": "wateronline.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260813T194500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Hasta el país de las lluvias sufre la sequía europea : 4 . 400 millones en pérdidas en Reino Unido",
+        "url": "https://www.elconfidencial.com/mundo/2026-08-14/sequia-reino-unido-crisis-calor-1hms_4405427/",
+        "domain": "elconfidencial.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260814T044500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Farmers urged to switch to climate - smart agriculture",
+        "url": "https://lestimes.com/?p=91262",
+        "domain": "lestimes.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260814T114500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Yağmurlar ülkesi kuraklıkla boğuşuyor : Binlerce hane susuz kaldı",
+        "url": "https://www.sozcu.com.tr/yagmurlar-ulkesi-kuraklikla-bogusuyor-binlerce-hane-susuz-kaldi-p347198",
+        "domain": "sozcu.com.tr",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260814T053000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Putin Has an Unexpected Ally in Ukraine War",
+        "url": "https://www.kyivpost.com/post/82335",
+        "domain": "kyivpost.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260814T094500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "As El Niño Returns , Africa Food Systems Need Better Intelligence",
+        "url": "https://www.africa.com/featuresopinion/as-el-nino-returns-africas-food-systems-need-better-intelligence",
+        "domain": "africa.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260814T173000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Κλιματική ανθεκτικότητα σε γεωργία και πόλεις",
+        "url": "https://www.sbctv.gr/2026/08/%CE%BA%CE%BB%CE%B9%CE%BC%CE%B1%CF%84%CE%B9%CE%BA%CE%B7-%CE%B1%CE%BD%CE%B8%CE%B5%CE%BA%CF%84%CE%B9%CE%BA%CE%BF%CF%84%CE%B7%CF%84%CE%B1-2/",
+        "domain": "sbctv.gr",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260814T174500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "  El Niño  se encamina hacia una intensidad histórica y podría alterar las temperaturas , las lluvias y los huracanes en varias regiones del mundo",
+        "url": "https://www.infobae.com/estados-unidos/2026/08/13/el-nino-se-encamina-hacia-una-intensidad-historica-y-podria-alterar-las-temperaturas-las-lluvias-y-los-huracanes-en-varias-regiones-del-mundo/",
+        "domain": "infobae.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260813T203000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "MAGA incrementa combate contra inseguridad alimentaria",
+        "url": "https://dca.gob.gt/noticias-guatemala-diario-centro-america/1257467/",
+        "domain": "dca.gob.gt",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260814T083000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "وزير الزراعة اللبناني : ربع الأراضي الزراعية تضرر بالحرب ونعمل لإعادة المزارعين لحقولهم | اقتصاد",
+        "url": "https://www.aljazeera.net/ebusiness/2026/8/14/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%B2%D8%B1%D8%A7%D8%B9%D8%A9-%D8%A7%D9%84%D9%84%D8%A8%D9%86%D8%A7%D9%86%D9%8A-%D8%B1%D8%A8%D8%B9-%D8%A7%D9%84%D8%A3%D8%B1%D8%A7%D8%B6%D9%8A",
+        "domain": "aljazeera.net",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260814T074500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Perú declara en emergencia hídrica a un tercio de sus municipios por El Niño",
+        "url": "https://sinartdigital.com/trecenoticias/mundo/item/peru-declara-en-emergencia-hidrica-a-un-tercio-de-sus-municipios-por-el-nino",
+        "domain": "sinartdigital.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260813T234500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Extreme weather in Europe underscores the urgency of global climate governance -- China Economic Net",
+        "url": "http://en.ce.cn/main/latest/202608/t20260814_3147812.shtml",
+        "domain": "en.ce.cn",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260814T051500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Очаква се най - силното Ел Ниньо от 150 г . насам , следващите години ще са най - горещите",
+        "url": "https://www.dnes.bg/a/2-svyat/731807-ochakva-se-nay-silnoto-el-ninyo-ot-150-g-nasam-sledvashtite-godini-shte-sa-nay-goreshtite",
+        "domain": "dnes.bg",
+        "language": "Bulgarian",
+        "tone": 0,
+        "seendate": "20260814T070000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "  If this is the new normal , then we are in very deep trouble : Brazil drying aquifers could have ripple effects across the world",
+        "url": "https://www.livescience.com/planet-earth/climate-change/if-this-is-the-new-normal-then-we-are-in-very-deep-trouble-brazils-drying-aquifers-could-have-ripple-effects-across-the-world",
+        "domain": "livescience.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260814T113000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "DNOCS firma parceria para apoiar pequenos produtores rurais de Riachuelo ( SE ) ",
+        "url": "https://www.otempo.com.br/politica/2026/8/14/dnocs-firma-parceria-para-apoiar-pequenos-produtores-rurais-de-riachuelo-se",
+        "domain": "otempo.com.br",
+        "language": "Portuguese",
+        "tone": 0,
+        "seendate": "20260814T180000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Entrevista a José Antonio García de Tejada , responsable del grupo de Oleaginosas de ANOVE",
+        "url": "https://www.interempresas.net/Grandes-cultivos/652729-Entrevista-a-Jose-Antonio-Garcia-de-Tejada-responsable-del-grupo-de-Oleaginosas-de-ANOVE.html",
+        "domain": "interempresas.net",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260814T010000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Syngenta at 80 : Growing Alongside Moroccan Agriculture Through Long - Term Partnership",
+        "url": "https://www.moroccoworldnews.com/2026/08/334564/syngenta-at-80-growing-alongside-moroccan-agriculture-through-long-term-partnership/",
+        "domain": "moroccoworldnews.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260813T193000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Bluetongue and drought leave livestock farms facing mounting pressure",
+        "url": "https://www.farminguk.com/news/bluetongue-and-drought-leave-livestock-farms-facing-mounting-pressure_68977.html",
+        "domain": "farminguk.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260814T090000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Talebanin hirmuhallinto vakautti Afganistanin",
+        "url": "https://www.ess.fi/uutissuomalainen/9699108",
+        "domain": "ess.fi",
+        "language": "Finnish",
+        "tone": 0,
+        "seendate": "20260814T100000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Talebanin hirmuhallinto vakautti Afganistanin",
+        "url": "https://www.karjalainen.fi/uutissuomalainen/9699108",
+        "domain": "karjalainen.fi",
+        "language": "Finnish",
+        "tone": 0,
+        "seendate": "20260814T090000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Talebanin hirmuhallinto vakautti Afganistanin",
+        "url": "https://www.savonsanomat.fi/uutissuomalainen/9699108",
+        "domain": "savonsanomat.fi",
+        "language": "Finnish",
+        "tone": 0,
+        "seendate": "20260814T090000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Flooding could follow wildfires across the united kingdom , Andy Burnham warns",
+        "url": "https://www.fenlandcitizen.co.uk/national/flooding-could-follow-wildfires-across-the-uk-andy-burnham-warns-170561/",
+        "domain": "fenlandcitizen.co.uk",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260814T150000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Δούναβης : Ο απρόσμενος σύμμαχος που ο Πουτιν δεν μπορεί να ελέγξει",
+        "url": "https://www.naftemporiki.gr/kosmos/2150098/doynavis-o-aprosmenos-symmachos-poy-o-poytin-den-mporei-na-elegxei/",
+        "domain": "naftemporiki.gr",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260814T094500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Farmer Resilience to Risks Associated with El Niño",
+        "url": "https://ifdc.org/2026/08/13/farmers-resilience-to-el-nino-advocating-for-integrated-climate-solutions/",
+        "domain": "ifdc.org",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260813T211500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Die Wasserknappheit in der Schweiz spitzt sich zu : Experte schlägt Alarm",
+        "url": "https://www.watson.ch/schweiz/interview/901408093-die-wasserknappheit-in-der-schweiz-spitzt-sich-zu-experte-schlaegt-alarm",
+        "domain": "watson.ch",
+        "language": "German",
+        "tone": 0,
+        "seendate": "20260814T061500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "华北抗日根据地的生产救灾及其经验 -- 党史 - 中国共产党新闻网",
+        "url": "https://cpc.people.com.cn/n1/2026/0814/c443712-40779613.html",
+        "domain": "cpc.people.com.cn",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260814T030000Z",
+        "source": "GDELT"
+      }
+    ],
     "exchange_rates": [
       {
         "currency": "USD",
@@ -116,8 +567,225 @@
       }
     ]
   },
-  "entities": [],
-  "events": [],
+  "entities": [
+    {
+      "id": 1,
+      "name": "Call for EOIs : Food Assistance for Drought - Affected Popul",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260814T130000Z",
+      "source": "fundsforngos.org"
+    },
+    {
+      "id": 2,
+      "name": "Περού : Κηρύχτηκε κατάσταση έκτακτης ανάγκης για τον κίνδυνο",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260814T014500Z",
+      "source": "in.gr"
+    },
+    {
+      "id": 3,
+      "name": "Legacoop , dal mais che non cresce alle cozze che muoiono , ",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260814T140000Z",
+      "source": "ansa.it"
+    },
+    {
+      "id": 4,
+      "name": "Legacoop , dal mais che non cresce alle cozze che muoiono , ",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260814T141500Z",
+      "source": "ansa.it"
+    },
+    {
+      "id": 5,
+      "name": "As a heatwave sweeps across Europe , Staay offers an alterna",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260814T164500Z",
+      "source": "freshplaza.com"
+    },
+    {
+      "id": 6,
+      "name": "Qué países de Sudamérica podrían recibir más lluvias con El ",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260814T173000Z",
+      "source": "abc.com.py"
+    },
+    {
+      "id": 7,
+      "name": "Ξηρασία στη Γερμανία και πυρκαγιές πιέζουν την αγροτική παρα",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260814T093000Z",
+      "source": "sbctv.gr"
+    },
+    {
+      "id": 8,
+      "name": "Presja klimatyczna uderza w rolnictwo , napędzając globalne ",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260813T193000Z",
+      "source": "portalspozywczy.pl"
+    },
+    {
+      "id": 9,
+      "name": "LHQ cảnh báo nắng nóng kỷ lục nguy cơ đẩy gần 50 triệu người",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260814T070000Z",
+      "source": "baomoi.com"
+    },
+    {
+      "id": 10,
+      "name": "Perú declara en emergencia hídrica en un tercio de sus munic",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260814T014500Z",
+      "source": "teleamazonas.com"
+    }
+  ],
+  "events": [
+    {
+      "title": "Call for EOIs : Food Assistance for Drought - Affected Populations ( Burundi ) ",
+      "url": "https://www2.fundsforngos.org/community-development-2/call-for-eois-food-assistance-for-drought-affected-populations-burundi/",
+      "domain": "fundsforngos.org",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260814T130000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Περού : Κηρύχτηκε κατάσταση έκτακτης ανάγκης για τον κίνδυνο ξηρασίας λόγω του Ελ Νίνιο",
+      "url": "https://www.in.gr/2026/08/14/in-science/perivallon-b-science/perou-kiryxtike-katastasi-ektaktis-anagkis-gia-ton-kindyno-ksirasias-logo-tou-el-ninio/",
+      "domain": "in.gr",
+      "language": "Greek",
+      "tone": 0,
+      "seendate": "20260814T014500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Legacoop , dal mais che non cresce alle cozze che muoiono , il clima riscrive lagricoltura italiana - Mondo Agricolo",
+      "url": "https://www.ansa.it/canale_terraegusto/notizie/mondo_agricolo/2026/08/14/legacoop-dal-mais-che-non-cresce-alle-cozze-che-muoiono_7a63cd3f-01da-49a7-b9ad-5a2df90a3964.html",
+      "domain": "ansa.it",
+      "language": "Italian",
+      "tone": 0,
+      "seendate": "20260814T140000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Legacoop , dal mais che non cresce alle cozze che muoiono , clima riscrive lagricoltura - Notizie",
+      "url": "https://www.ansa.it/sito/notizie/economia/2026/08/14/legacoop-dal-mais-che-non-cresce-alle-cozze-che-muoiono_ff316d50-64f4-4638-a938-cef0560a80e0.html",
+      "domain": "ansa.it",
+      "language": "Italian",
+      "tone": 0,
+      "seendate": "20260814T141500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "As a heatwave sweeps across Europe , Staay offers an alternative to traditional iceberg lettuce",
+      "url": "https://www.freshplaza.com/north-america/article/9863046/as-a-heatwave-sweeps-across-europe-staay-offers-an-alternative-to-traditional-iceberg-lettuce/",
+      "domain": "freshplaza.com",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260814T164500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Qué países de Sudamérica podrían recibir más lluvias con El Niño en 2026 - Ciencia",
+      "url": "https://www.abc.com.py/ciencia/2026/08/14/que-paises-de-sudamerica-podrian-recibir-mas-lluvias-con-el-nino-en-2026/",
+      "domain": "abc.com.py",
+      "language": "Spanish",
+      "tone": 0,
+      "seendate": "20260814T173000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Ξηρασία στη Γερμανία και πυρκαγιές πιέζουν την αγροτική παραγωγή",
+      "url": "https://www.sbctv.gr/2026/08/%CE%BE%CE%B7%CF%81%CE%B1%CF%83%CE%B9%CE%B1-%CF%83%CF%84%CE%B7-%CE%B3%CE%B5%CF%81%CE%BC%CE%B1%CE%BD%CE%B9%CE%B1/",
+      "domain": "sbctv.gr",
+      "language": "Greek",
+      "tone": 0,
+      "seendate": "20260814T093000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Presja klimatyczna uderza w rolnictwo , napędzając globalne ceny żywności",
+      "url": "https://www.portalspozywczy.pl/technologie/wiadomosci/presja-klimatyczna-uderza-w-rolnictwo-napedzajac-globalne-ceny-zywnosci,291886.html",
+      "domain": "portalspozywczy.pl",
+      "language": "Polish",
+      "tone": 0,
+      "seendate": "20260813T193000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "LHQ cảnh báo nắng nóng kỷ lục nguy cơ đẩy gần 50 triệu người rơi vào cảnh nghèo đói",
+      "url": "https://baomoi.com/lhq-canh-bao-nang-nong-ky-luc-nguy-co-day-gan-50-trieu-nguoi-roi-vao-canh-ngheo-doi-c55832083.epi",
+      "domain": "baomoi.com",
+      "language": "Vietnamese",
+      "tone": 0,
+      "seendate": "20260814T070000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Perú declara en emergencia hídrica en un tercio de sus municipios por El Niño",
+      "url": "https://www.teleamazonas.com/actualidad/noticias/internacional/peru-emergencia-hidrica-municipios-nino-125288/",
+      "domain": "teleamazonas.com",
+      "language": "Spanish",
+      "tone": 0,
+      "seendate": "20260814T014500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Greenpeace : Butuh penguatan berbasis pencegahan ancaman El Nino",
+      "url": "https://www.antaranews.com/berita/5695321/greenpeace-butuh-penguatan-berbasis-pencegahan-ancaman-el-nino",
+      "domain": "antaranews.com",
+      "language": "Indonesian",
+      "tone": 0,
+      "seendate": "20260814T160000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Περού : Κατάσταση έκτακτης ανάγκης εξαιτίας του κινδύνου ξηρασίας λόγω του ... ",
+      "url": "https://www.capital.gr/diethni/4010642/perou-katastasi-ektaktis-anagkis-exaitias-tou-kindunou-xirasias-logo-tou-el-ninio/",
+      "domain": "capital.gr",
+      "language": "Greek",
+      "tone": 0,
+      "seendate": "20260814T054500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Περού : Κατάσταση έκτακτης ανάγκης εξαιτίας του κινδύνου ξηρασίας λόγω του Ελ Νίνιο",
+      "url": "https://www.inewsgr.com/182/perou-katastasi-ektaktis-anagkis-exaitias-tou-kindynou-xirasias-logo-tou-el-ninio.htm",
+      "domain": "inewsgr.com",
+      "language": "Greek",
+      "tone": 0,
+      "seendate": "20260814T074500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Περού : Κατάσταση έκτακτης ανάγκης σε πάνω από 600 δήμους λόγω του κινδύνου ξηρασίας από το El Niño",
+      "url": "https://www.skai.gr/news/world/perou-katastasi-ektaktis-anagkis-se-pano-apo-600-dimous-logo-tou-kindynou-ksirasias-apo-to",
+      "domain": "skai.gr",
+      "language": "Greek",
+      "tone": 0,
+      "seendate": "20260814T114500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Legacoop , dal mais che non cresce alle cozze che muoiono , clima riscrive lagricoltura",
+      "url": "https://www.bresciaoggi.it/argomenti/economia/economia-nazionale/legacoop-dal-mais-che-non-cresce-alle-cozze-che-muoiono-clima-riscrive-l-agricoltura-1.13097599",
+      "domain": "bresciaoggi.it",
+      "language": "Italian",
+      "tone": 0,
+      "seendate": "20260814T141500Z",
+      "source": "GDELT"
+    }
+  ],
   "timeseries": [],
   "llm_summary": "Pending API key..."
 }
