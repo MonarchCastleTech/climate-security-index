@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-08-14T19:25:09.687297+00:00",
+    "generated": "2026-08-15T01:54:28.758052+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -43,12 +43,21 @@
         "source": "GDELT"
       },
       {
-        "title": "Περού : Κηρύχτηκε κατάσταση έκτακτης ανάγκης για τον κίνδυνο ξηρασίας λόγω του Ελ Νίνιο",
-        "url": "https://www.in.gr/2026/08/14/in-science/perivallon-b-science/perou-kiryxtike-katastasi-ektaktis-anagkis-gia-ton-kindyno-ksirasias-logo-tou-el-ninio/",
-        "domain": "in.gr",
-        "language": "Greek",
+        "title": "El hambre avanza en el Cuerno de África y el WFP acelera las transferencias de efectivo",
+        "url": "https://www.hsbnoticias.com/seguridad-alimentaria-africa-oriental-wfp-transferencias-monetarias-sequia/",
+        "domain": "hsbnoticias.com",
+        "language": "Spanish",
         "tone": 0,
-        "seendate": "20260814T014500Z",
+        "seendate": "20260814T204500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Burnham announces £65m for drought - hit farmers after Labour pressure",
+        "url": "https://www.theguardian.com/environment/2026/aug/14/andy-burnham-climate-response-drought-hit-farmers-labour-pressure",
+        "domain": "theguardian.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260814T220000Z",
         "source": "GDELT"
       },
       {
@@ -88,6 +97,15 @@
         "source": "GDELT"
       },
       {
+        "title": "Andy Burnham to help drought - hit farmers with £65m of funding",
+        "url": "https://www.manchestereveningnews.co.uk/news/uk-news/andy-burnham-help-drought-hit-34463605",
+        "domain": "manchestereveningnews.co.uk",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260814T224500Z",
+        "source": "GDELT"
+      },
+      {
         "title": "Ξηρασία στη Γερμανία και πυρκαγιές πιέζουν την αγροτική παραγωγή",
         "url": "https://www.sbctv.gr/2026/08/%CE%BE%CE%B7%CF%81%CE%B1%CF%83%CE%B9%CE%B1-%CF%83%CF%84%CE%B7-%CE%B3%CE%B5%CF%81%CE%BC%CE%B1%CE%BD%CE%B9%CE%B1/",
         "domain": "sbctv.gr",
@@ -97,30 +115,12 @@
         "source": "GDELT"
       },
       {
-        "title": "Presja klimatyczna uderza w rolnictwo , napędzając globalne ceny żywności",
-        "url": "https://www.portalspozywczy.pl/technologie/wiadomosci/presja-klimatyczna-uderza-w-rolnictwo-napedzajac-globalne-ceny-zywnosci,291886.html",
-        "domain": "portalspozywczy.pl",
-        "language": "Polish",
-        "tone": 0,
-        "seendate": "20260813T193000Z",
-        "source": "GDELT"
-      },
-      {
         "title": "LHQ cảnh báo nắng nóng kỷ lục nguy cơ đẩy gần 50 triệu người rơi vào cảnh nghèo đói",
         "url": "https://baomoi.com/lhq-canh-bao-nang-nong-ky-luc-nguy-co-day-gan-50-trieu-nguoi-roi-vao-canh-ngheo-doi-c55832083.epi",
         "domain": "baomoi.com",
         "language": "Vietnamese",
         "tone": 0,
         "seendate": "20260814T070000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Perú declara en emergencia hídrica en un tercio de sus municipios por El Niño",
-        "url": "https://www.teleamazonas.com/actualidad/noticias/internacional/peru-emergencia-hidrica-municipios-nino-125288/",
-        "domain": "teleamazonas.com",
-        "language": "Spanish",
-        "tone": 0,
-        "seendate": "20260814T014500Z",
         "source": "GDELT"
       },
       {
@@ -148,6 +148,24 @@
         "language": "Greek",
         "tone": 0,
         "seendate": "20260814T074500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Andy Burnham unveils £65million package for farmers at  sharp end  of extreme weather",
+        "url": "https://www.mirror.co.uk/news/politics/farmer-support-andy-burnham-climate-37553666",
+        "domain": "mirror.co.uk",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260814T223000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Los estándares internacionales avanzan para responder al desafío climático global",
+        "url": "https://www.ecoportal.net/mundo/estandares-internacionales-desafio-climatico/",
+        "domain": "ecoportal.net",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260814T223000Z",
         "source": "GDELT"
       },
       {
@@ -196,6 +214,15 @@
         "source": "GDELT"
       },
       {
+        "title": "ICPAC : Counties face tough choices as Kenya dry conditions worsen – Ghanamma . com",
+        "url": "https://www.ghanamma.com/2026/08/14/icpac-counties-face-tough-choices-as-kenyas-dry-conditions-worsen/",
+        "domain": "ghanamma.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260814T210000Z",
+        "source": "GDELT"
+      },
+      {
         "title": "Landwirte fordern Kurswechsel in der Klimaschutz Politik",
         "url": "https://www.topagrar.com/management-und-politik/news/landwirte-fordern-kurswechsel-in-der-klimaschutz-politik-20028253.html",
         "domain": "topagrar.com",
@@ -232,30 +259,12 @@
         "source": "GDELT"
       },
       {
-        "title": "Rally Forrageiras united states tecnologia para reduzir o impacto da estiagem sobre a pecuária",
-        "url": "https://globorural.globo.com/conteudo-de-marca/conexoes-agro/noticia/2026/08/rally-forrageiras-usa-tecnologia-para-reduzir-o-impacto-da-estiagem-sobre-a-pecuaria.ghtml",
-        "domain": "globorural.globo.com",
-        "language": "Portuguese",
-        "tone": 0,
-        "seendate": "20260814T010000Z",
-        "source": "GDELT"
-      },
-      {
         "title": "Flooding could follow wildfires across the united kingdom , Andy Burnham warns",
         "url": "https://www.kentonline.co.uk/news/national/flooding-could-follow-wildfires-across-the-uk-andy-burnham-warns-170561/",
         "domain": "kentonline.co.uk",
         "language": "English",
         "tone": 0,
         "seendate": "20260814T150000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "New Global Water Infrastructure Venture Launched As United Nations Warns Of  Water Bankruptcy  Era",
-        "url": "https://www.wateronline.com/doc/new-global-water-infrastructure-venture-launched-as-united-nations-warns-of-water-bankruptcy-era-0001",
-        "domain": "wateronline.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260813T194500Z",
         "source": "GDELT"
       },
       {
@@ -304,21 +313,39 @@
         "source": "GDELT"
       },
       {
+        "title": "PM : Farmers should not carry the risk of a changing climate alone",
+        "url": "https://www.gov.uk/government/news/pm-farmers-should-not-carry-the-risk-of-a-changing-climate-alone",
+        "domain": "gov.uk",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260815T003000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Honduras y PMA fortalecen cooperación tras diálogo sobre de la merienda escolar y seguridad alimentaria",
+        "url": "https://proceso.hn/honduras-y-pma-fortalecen-cooperacion-tras-dialogo-sobre-de-la-merienda-escolar-y-seguridad-alimentaria/",
+        "domain": "proceso.hn",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260814T231500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Naciones andinas y centroamericanas activan plan conjunto ante la amenaza de El Niño 2026 - 2027",
+        "url": "https://www.infobae.com/el-salvador/2026/08/14/naciones-andinas-y-centroamericanas-activan-plan-conjunto-ante-la-amenaza-de-el-nino-2026-2027/",
+        "domain": "infobae.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260815T010000Z",
+        "source": "GDELT"
+      },
+      {
         "title": "Κλιματική ανθεκτικότητα σε γεωργία και πόλεις",
         "url": "https://www.sbctv.gr/2026/08/%CE%BA%CE%BB%CE%B9%CE%BC%CE%B1%CF%84%CE%B9%CE%BA%CE%B7-%CE%B1%CE%BD%CE%B8%CE%B5%CE%BA%CF%84%CE%B9%CE%BA%CE%BF%CF%84%CE%B7%CF%84%CE%B1-2/",
         "domain": "sbctv.gr",
         "language": "Greek",
         "tone": 0,
         "seendate": "20260814T174500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "  El Niño  se encamina hacia una intensidad histórica y podría alterar las temperaturas , las lluvias y los huracanes en varias regiones del mundo",
-        "url": "https://www.infobae.com/estados-unidos/2026/08/13/el-nino-se-encamina-hacia-una-intensidad-historica-y-podria-alterar-las-temperaturas-las-lluvias-y-los-huracanes-en-varias-regiones-del-mundo/",
-        "domain": "infobae.com",
-        "language": "Spanish",
-        "tone": 0,
-        "seendate": "20260813T203000Z",
         "source": "GDELT"
       },
       {
@@ -340,15 +367,6 @@
         "source": "GDELT"
       },
       {
-        "title": "Perú declara en emergencia hídrica a un tercio de sus municipios por El Niño",
-        "url": "https://sinartdigital.com/trecenoticias/mundo/item/peru-declara-en-emergencia-hidrica-a-un-tercio-de-sus-municipios-por-el-nino",
-        "domain": "sinartdigital.com",
-        "language": "Spanish",
-        "tone": 0,
-        "seendate": "20260813T234500Z",
-        "source": "GDELT"
-      },
-      {
         "title": "Extreme weather in Europe underscores the urgency of global climate governance -- China Economic Net",
         "url": "http://en.ce.cn/main/latest/202608/t20260814_3147812.shtml",
         "domain": "en.ce.cn",
@@ -364,6 +382,15 @@
         "language": "Bulgarian",
         "tone": 0,
         "seendate": "20260814T070000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Dont light fires in  tinderbox  Britain , says Andy Burnham before farms meeting",
+        "url": "https://www.aol.co.uk/articles/don-t-light-fires-tinderbox-230113000.html",
+        "domain": "aol.co.uk",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260815T003000Z",
         "source": "GDELT"
       },
       {
@@ -385,30 +412,21 @@
         "source": "GDELT"
       },
       {
-        "title": "Entrevista a José Antonio García de Tejada , responsable del grupo de Oleaginosas de ANOVE",
-        "url": "https://www.interempresas.net/Grandes-cultivos/652729-Entrevista-a-Jose-Antonio-Garcia-de-Tejada-responsable-del-grupo-de-Oleaginosas-de-ANOVE.html",
-        "domain": "interempresas.net",
-        "language": "Spanish",
-        "tone": 0,
-        "seendate": "20260814T010000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Syngenta at 80 : Growing Alongside Moroccan Agriculture Through Long - Term Partnership",
-        "url": "https://www.moroccoworldnews.com/2026/08/334564/syngenta-at-80-growing-alongside-moroccan-agriculture-through-long-term-partnership/",
-        "domain": "moroccoworldnews.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260813T193000Z",
-        "source": "GDELT"
-      },
-      {
         "title": "Bluetongue and drought leave livestock farms facing mounting pressure",
         "url": "https://www.farminguk.com/news/bluetongue-and-drought-leave-livestock-farms-facing-mounting-pressure_68977.html",
         "domain": "farminguk.com",
         "language": "English",
         "tone": 0,
         "seendate": "20260814T090000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "What has changed in Afghanistan five years after the Taliban return ? ",
+        "url": "https://www.arabnews.com/node/2654712/world",
+        "domain": "arabnews.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260814T203000Z",
         "source": "GDELT"
       },
       {
@@ -430,6 +448,15 @@
         "source": "GDELT"
       },
       {
+        "title": "Dont light fires in  tinderbox  Britain , says Andy Burnham before farms meeting",
+        "url": "https://www.bournemouthecho.co.uk/news/national/26467179.dont-light-fires-tinderbox-britain-says-andy-burnham-farms-meeting/",
+        "domain": "bournemouthecho.co.uk",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260815T003000Z",
+        "source": "GDELT"
+      },
+      {
         "title": "Talebanin hirmuhallinto vakautti Afganistanin",
         "url": "https://www.savonsanomat.fi/uutissuomalainen/9699108",
         "domain": "savonsanomat.fi",
@@ -448,39 +475,12 @@
         "source": "GDELT"
       },
       {
-        "title": "Δούναβης : Ο απρόσμενος σύμμαχος που ο Πουτιν δεν μπορεί να ελέγξει",
-        "url": "https://www.naftemporiki.gr/kosmos/2150098/doynavis-o-aprosmenos-symmachos-poy-o-poytin-den-mporei-na-elegxei/",
-        "domain": "naftemporiki.gr",
-        "language": "Greek",
-        "tone": 0,
-        "seendate": "20260814T094500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Farmer Resilience to Risks Associated with El Niño",
-        "url": "https://ifdc.org/2026/08/13/farmers-resilience-to-el-nino-advocating-for-integrated-climate-solutions/",
-        "domain": "ifdc.org",
+        "title": "Dont light fires in  tinderbox  Britain , says Andy Burnham before farms meeting",
+        "url": "https://www.echo-news.co.uk/news/national/26467179.dont-light-fires-tinderbox-britain-says-andy-burnham-farms-meeting/",
+        "domain": "echo-news.co.uk",
         "language": "English",
         "tone": 0,
-        "seendate": "20260813T211500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Die Wasserknappheit in der Schweiz spitzt sich zu : Experte schlägt Alarm",
-        "url": "https://www.watson.ch/schweiz/interview/901408093-die-wasserknappheit-in-der-schweiz-spitzt-sich-zu-experte-schlaegt-alarm",
-        "domain": "watson.ch",
-        "language": "German",
-        "tone": 0,
-        "seendate": "20260814T061500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "华北抗日根据地的生产救灾及其经验 -- 党史 - 中国共产党新闻网",
-        "url": "https://cpc.people.com.cn/n1/2026/0814/c443712-40779613.html",
-        "domain": "cpc.people.com.cn",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260814T030000Z",
+        "seendate": "20260815T013000Z",
         "source": "GDELT"
       }
     ],
@@ -495,15 +495,15 @@
       },
       {
         "currency": "AFN",
-        "rate": 65.28
+        "rate": 65.23
       },
       {
         "currency": "ALL",
-        "rate": 80.62
+        "rate": 80.61
       },
       {
         "currency": "AMD",
-        "rate": 365.98
+        "rate": 366
       },
       {
         "currency": "ANG",
@@ -511,15 +511,15 @@
       },
       {
         "currency": "AOA",
-        "rate": 925.58
+        "rate": 929.12
       },
       {
         "currency": "ARS",
-        "rate": 1491.84
+        "rate": 1488.7
       },
       {
         "currency": "AUD",
-        "rate": 1.42
+        "rate": 1.41
       },
       {
         "currency": "AWG",
@@ -531,7 +531,7 @@
       },
       {
         "currency": "BAM",
-        "rate": 1.7
+        "rate": 1.69
       },
       {
         "currency": "BBD",
@@ -539,11 +539,11 @@
       },
       {
         "currency": "BDT",
-        "rate": 122.89
+        "rate": 122.81
       },
       {
         "currency": "BGN",
-        "rate": 1.7
+        "rate": 1.69
       },
       {
         "currency": "BHD",
@@ -551,7 +551,7 @@
       },
       {
         "currency": "BIF",
-        "rate": 2991.47
+        "rate": 2995.18
       },
       {
         "currency": "BMD",
@@ -563,7 +563,7 @@
       },
       {
         "currency": "BOB",
-        "rate": 11.78
+        "rate": 11.77
       }
     ]
   },
@@ -578,14 +578,22 @@
     },
     {
       "id": 2,
-      "name": "Περού : Κηρύχτηκε κατάσταση έκτακτης ανάγκης για τον κίνδυνο",
+      "name": "El hambre avanza en el Cuerno de África y el WFP acelera las",
       "score": 5.0,
       "category": "news",
-      "last_seen": "20260814T014500Z",
-      "source": "in.gr"
+      "last_seen": "20260814T204500Z",
+      "source": "hsbnoticias.com"
     },
     {
       "id": 3,
+      "name": "Burnham announces £65m for drought - hit farmers after Labou",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260814T220000Z",
+      "source": "theguardian.com"
+    },
+    {
+      "id": 4,
       "name": "Legacoop , dal mais che non cresce alle cozze che muoiono , ",
       "score": 5.0,
       "category": "news",
@@ -593,7 +601,7 @@
       "source": "ansa.it"
     },
     {
-      "id": 4,
+      "id": 5,
       "name": "Legacoop , dal mais che non cresce alle cozze che muoiono , ",
       "score": 5.0,
       "category": "news",
@@ -601,7 +609,7 @@
       "source": "ansa.it"
     },
     {
-      "id": 5,
+      "id": 6,
       "name": "As a heatwave sweeps across Europe , Staay offers an alterna",
       "score": 5.0,
       "category": "news",
@@ -609,7 +617,7 @@
       "source": "freshplaza.com"
     },
     {
-      "id": 6,
+      "id": 7,
       "name": "Qué países de Sudamérica podrían recibir más lluvias con El ",
       "score": 5.0,
       "category": "news",
@@ -617,7 +625,15 @@
       "source": "abc.com.py"
     },
     {
-      "id": 7,
+      "id": 8,
+      "name": "Andy Burnham to help drought - hit farmers with £65m of fund",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260814T224500Z",
+      "source": "manchestereveningnews.co.uk"
+    },
+    {
+      "id": 9,
       "name": "Ξηρασία στη Γερμανία και πυρκαγιές πιέζουν την αγροτική παρα",
       "score": 5.0,
       "category": "news",
@@ -625,28 +641,12 @@
       "source": "sbctv.gr"
     },
     {
-      "id": 8,
-      "name": "Presja klimatyczna uderza w rolnictwo , napędzając globalne ",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260813T193000Z",
-      "source": "portalspozywczy.pl"
-    },
-    {
-      "id": 9,
+      "id": 10,
       "name": "LHQ cảnh báo nắng nóng kỷ lục nguy cơ đẩy gần 50 triệu người",
       "score": 5.0,
       "category": "news",
       "last_seen": "20260814T070000Z",
       "source": "baomoi.com"
-    },
-    {
-      "id": 10,
-      "name": "Perú declara en emergencia hídrica en un tercio de sus munic",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260814T014500Z",
-      "source": "teleamazonas.com"
     }
   ],
   "events": [
@@ -660,12 +660,21 @@
       "source": "GDELT"
     },
     {
-      "title": "Περού : Κηρύχτηκε κατάσταση έκτακτης ανάγκης για τον κίνδυνο ξηρασίας λόγω του Ελ Νίνιο",
-      "url": "https://www.in.gr/2026/08/14/in-science/perivallon-b-science/perou-kiryxtike-katastasi-ektaktis-anagkis-gia-ton-kindyno-ksirasias-logo-tou-el-ninio/",
-      "domain": "in.gr",
-      "language": "Greek",
+      "title": "El hambre avanza en el Cuerno de África y el WFP acelera las transferencias de efectivo",
+      "url": "https://www.hsbnoticias.com/seguridad-alimentaria-africa-oriental-wfp-transferencias-monetarias-sequia/",
+      "domain": "hsbnoticias.com",
+      "language": "Spanish",
       "tone": 0,
-      "seendate": "20260814T014500Z",
+      "seendate": "20260814T204500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Burnham announces £65m for drought - hit farmers after Labour pressure",
+      "url": "https://www.theguardian.com/environment/2026/aug/14/andy-burnham-climate-response-drought-hit-farmers-labour-pressure",
+      "domain": "theguardian.com",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260814T220000Z",
       "source": "GDELT"
     },
     {
@@ -705,6 +714,15 @@
       "source": "GDELT"
     },
     {
+      "title": "Andy Burnham to help drought - hit farmers with £65m of funding",
+      "url": "https://www.manchestereveningnews.co.uk/news/uk-news/andy-burnham-help-drought-hit-34463605",
+      "domain": "manchestereveningnews.co.uk",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260814T224500Z",
+      "source": "GDELT"
+    },
+    {
       "title": "Ξηρασία στη Γερμανία και πυρκαγιές πιέζουν την αγροτική παραγωγή",
       "url": "https://www.sbctv.gr/2026/08/%CE%BE%CE%B7%CF%81%CE%B1%CF%83%CE%B9%CE%B1-%CF%83%CF%84%CE%B7-%CE%B3%CE%B5%CF%81%CE%BC%CE%B1%CE%BD%CE%B9%CE%B1/",
       "domain": "sbctv.gr",
@@ -714,30 +732,12 @@
       "source": "GDELT"
     },
     {
-      "title": "Presja klimatyczna uderza w rolnictwo , napędzając globalne ceny żywności",
-      "url": "https://www.portalspozywczy.pl/technologie/wiadomosci/presja-klimatyczna-uderza-w-rolnictwo-napedzajac-globalne-ceny-zywnosci,291886.html",
-      "domain": "portalspozywczy.pl",
-      "language": "Polish",
-      "tone": 0,
-      "seendate": "20260813T193000Z",
-      "source": "GDELT"
-    },
-    {
       "title": "LHQ cảnh báo nắng nóng kỷ lục nguy cơ đẩy gần 50 triệu người rơi vào cảnh nghèo đói",
       "url": "https://baomoi.com/lhq-canh-bao-nang-nong-ky-luc-nguy-co-day-gan-50-trieu-nguoi-roi-vao-canh-ngheo-doi-c55832083.epi",
       "domain": "baomoi.com",
       "language": "Vietnamese",
       "tone": 0,
       "seendate": "20260814T070000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Perú declara en emergencia hídrica en un tercio de sus municipios por El Niño",
-      "url": "https://www.teleamazonas.com/actualidad/noticias/internacional/peru-emergencia-hidrica-municipios-nino-125288/",
-      "domain": "teleamazonas.com",
-      "language": "Spanish",
-      "tone": 0,
-      "seendate": "20260814T014500Z",
       "source": "GDELT"
     },
     {
@@ -768,21 +768,21 @@
       "source": "GDELT"
     },
     {
-      "title": "Περού : Κατάσταση έκτακτης ανάγκης σε πάνω από 600 δήμους λόγω του κινδύνου ξηρασίας από το El Niño",
-      "url": "https://www.skai.gr/news/world/perou-katastasi-ektaktis-anagkis-se-pano-apo-600-dimous-logo-tou-kindynou-ksirasias-apo-to",
-      "domain": "skai.gr",
-      "language": "Greek",
+      "title": "Andy Burnham unveils £65million package for farmers at  sharp end  of extreme weather",
+      "url": "https://www.mirror.co.uk/news/politics/farmer-support-andy-burnham-climate-37553666",
+      "domain": "mirror.co.uk",
+      "language": "English",
       "tone": 0,
-      "seendate": "20260814T114500Z",
+      "seendate": "20260814T223000Z",
       "source": "GDELT"
     },
     {
-      "title": "Legacoop , dal mais che non cresce alle cozze che muoiono , clima riscrive lagricoltura",
-      "url": "https://www.bresciaoggi.it/argomenti/economia/economia-nazionale/legacoop-dal-mais-che-non-cresce-alle-cozze-che-muoiono-clima-riscrive-l-agricoltura-1.13097599",
-      "domain": "bresciaoggi.it",
-      "language": "Italian",
+      "title": "Los estándares internacionales avanzan para responder al desafío climático global",
+      "url": "https://www.ecoportal.net/mundo/estandares-internacionales-desafio-climatico/",
+      "domain": "ecoportal.net",
+      "language": "Spanish",
       "tone": 0,
-      "seendate": "20260814T141500Z",
+      "seendate": "20260814T223000Z",
       "source": "GDELT"
     }
   ],
