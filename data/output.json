@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-08-15T01:54:28.758052+00:00",
+    "generated": "2026-08-15T07:03:51.992253+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -106,6 +106,15 @@
         "source": "GDELT"
       },
       {
+        "title": "Ηνωμένο Βασίλειο : Σχέδιο για ξηρασία Αγγλία και αγρότες",
+        "url": "https://www.sbctv.gr/2026/08/%CE%BE%CE%B7%CF%81%CE%B1%CF%83%CE%B9%CE%B1-%CE%B1%CE%B3%CE%B3%CE%BB%CE%B9%CE%B1/",
+        "domain": "sbctv.gr",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260815T051500Z",
+        "source": "GDELT"
+      },
+      {
         "title": "Ξηρασία στη Γερμανία και πυρκαγιές πιέζουν την αγροτική παραγωγή",
         "url": "https://www.sbctv.gr/2026/08/%CE%BE%CE%B7%CF%81%CE%B1%CF%83%CE%B9%CE%B1-%CF%83%CF%84%CE%B7-%CE%B3%CE%B5%CF%81%CE%BC%CE%B1%CE%BD%CE%B9%CE%B1/",
         "domain": "sbctv.gr",
@@ -115,30 +124,12 @@
         "source": "GDELT"
       },
       {
-        "title": "LHQ cảnh báo nắng nóng kỷ lục nguy cơ đẩy gần 50 triệu người rơi vào cảnh nghèo đói",
-        "url": "https://baomoi.com/lhq-canh-bao-nang-nong-ky-luc-nguy-co-day-gan-50-trieu-nguoi-roi-vao-canh-ngheo-doi-c55832083.epi",
-        "domain": "baomoi.com",
-        "language": "Vietnamese",
-        "tone": 0,
-        "seendate": "20260814T070000Z",
-        "source": "GDELT"
-      },
-      {
         "title": "Greenpeace : Butuh penguatan berbasis pencegahan ancaman El Nino",
         "url": "https://www.antaranews.com/berita/5695321/greenpeace-butuh-penguatan-berbasis-pencegahan-ancaman-el-nino",
         "domain": "antaranews.com",
         "language": "Indonesian",
         "tone": 0,
         "seendate": "20260814T160000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Περού : Κατάσταση έκτακτης ανάγκης εξαιτίας του κινδύνου ξηρασίας λόγω του ... ",
-        "url": "https://www.capital.gr/diethni/4010642/perou-katastasi-ektaktis-anagkis-exaitias-tou-kindunou-xirasias-logo-tou-el-ninio/",
-        "domain": "capital.gr",
-        "language": "Greek",
-        "tone": 0,
-        "seendate": "20260814T054500Z",
         "source": "GDELT"
       },
       {
@@ -187,30 +178,12 @@
         "source": "GDELT"
       },
       {
-        "title": "Food Systems at the Center of a Global Effort to Restore Land and Protect Nature",
-        "url": "https://www.pressenza.com/2026/08/food-systems-at-the-center-of-a-global-effort-to-restore-land-and-protect-nature/",
-        "domain": "pressenza.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260814T041500Z",
-        "source": "GDELT"
-      },
-      {
         "title": "Vlada usvojila strategiju : Velike promene za poljoprivrednike",
         "url": "https://vesti-online.com/vlada-usvojila-strategiju-velike-promene-za-poljoprivrednike/",
         "domain": "vesti-online.com",
         "language": "Serbian",
         "tone": 0,
         "seendate": "20260814T150000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "ONU só tem 30 % da verba para resposta humanitária em Moçambique em 2026",
-        "url": "https://www.rtp.pt/noticias/mundo/onu-so-tem-30-da-verba-para-resposta-humanitaria-em-mocambique-em-2026_n1759388",
-        "domain": "rtp.pt",
-        "language": "Portuguese",
-        "tone": 0,
-        "seendate": "20260814T070000Z",
         "source": "GDELT"
       },
       {
@@ -232,15 +205,6 @@
         "source": "GDELT"
       },
       {
-        "title": "Flooding could follow wildfires across the united kingdom , Andy Burnham warns",
-        "url": "https://www.aol.co.uk/articles/flooding-could-wildfires-across-uk-140648000.html",
-        "domain": "aol.co.uk",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260814T144500Z",
-        "source": "GDELT"
-      },
-      {
         "title": "Tougher crops and beaver dams : how united kingdom farmers are tackling drought",
         "url": "https://www.theguardian.com/environment/2026/aug/14/crops-beaver-dams-uk-farmers-drought-heatwaves",
         "domain": "theguardian.com",
@@ -250,12 +214,12 @@
         "source": "GDELT"
       },
       {
-        "title": "Vicepresidente Menéndez :  Un nuevo modelo civilizatorio es fundamental para enfrentar la crisis climática  - Yvke Mundial",
-        "url": "https://radiomundial.com.ve/vicepresidente-menendez-un-nuevo-modelo-civilizatorio-es-fundamental-para-enfrentar-la-crisis-climatica/",
-        "domain": "radiomundial.com.ve",
-        "language": "Spanish",
+        "title": "Flooding could follow wildfires across the united kingdom , Andy Burnham warns",
+        "url": "https://www.aol.co.uk/articles/flooding-could-wildfires-across-uk-140648000.html",
+        "domain": "aol.co.uk",
+        "language": "English",
         "tone": 0,
-        "seendate": "20260814T060000Z",
+        "seendate": "20260814T144500Z",
         "source": "GDELT"
       },
       {
@@ -268,15 +232,6 @@
         "source": "GDELT"
       },
       {
-        "title": "Hasta el país de las lluvias sufre la sequía europea : 4 . 400 millones en pérdidas en Reino Unido",
-        "url": "https://www.elconfidencial.com/mundo/2026-08-14/sequia-reino-unido-crisis-calor-1hms_4405427/",
-        "domain": "elconfidencial.com",
-        "language": "Spanish",
-        "tone": 0,
-        "seendate": "20260814T044500Z",
-        "source": "GDELT"
-      },
-      {
         "title": "Farmers urged to switch to climate - smart agriculture",
         "url": "https://lestimes.com/?p=91262",
         "domain": "lestimes.com",
@@ -286,12 +241,12 @@
         "source": "GDELT"
       },
       {
-        "title": "Yağmurlar ülkesi kuraklıkla boğuşuyor : Binlerce hane susuz kaldı",
-        "url": "https://www.sozcu.com.tr/yagmurlar-ulkesi-kuraklikla-bogusuyor-binlerce-hane-susuz-kaldi-p347198",
-        "domain": "sozcu.com.tr",
-        "language": "Turkish",
+        "title": "Praying for rain : The farms driven to breaking point - Manchester Evening News",
+        "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/praying-rain-farms-driven-breaking-34462460",
+        "domain": "manchestereveningnews.co.uk",
+        "language": "English",
         "tone": 0,
-        "seendate": "20260814T053000Z",
+        "seendate": "20260815T060000Z",
         "source": "GDELT"
       },
       {
@@ -367,21 +322,12 @@
         "source": "GDELT"
       },
       {
-        "title": "Extreme weather in Europe underscores the urgency of global climate governance -- China Economic Net",
-        "url": "http://en.ce.cn/main/latest/202608/t20260814_3147812.shtml",
-        "domain": "en.ce.cn",
+        "title": "Andy Burnham reveals who asked for emergency alert to be sent to every united kingdom phone",
+        "url": "https://www.manchestereveningnews.co.uk/news/uk-news/andy-burnham-reveals-who-asked-34463708",
+        "domain": "manchestereveningnews.co.uk",
         "language": "English",
         "tone": 0,
-        "seendate": "20260814T051500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Очаква се най - силното Ел Ниньо от 150 г . насам , следващите години ще са най - горещите",
-        "url": "https://www.dnes.bg/a/2-svyat/731807-ochakva-se-nay-silnoto-el-ninyo-ot-150-g-nasam-sledvashtite-godini-shte-sa-nay-goreshtite",
-        "domain": "dnes.bg",
-        "language": "Bulgarian",
-        "tone": 0,
-        "seendate": "20260814T070000Z",
+        "seendate": "20260815T060000Z",
         "source": "GDELT"
       },
       {
@@ -409,6 +355,15 @@
         "language": "Portuguese",
         "tone": 0,
         "seendate": "20260814T180000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Sverige bör inte överge afghanerna , skriver tidigare ambassadörer och Afghanistanexperter",
+        "url": "https://www.svd.se/a/lnrw1G/sverige-bor-inte-overge-afghanerna-skriver-tidigare-ambassadorer-och-afghanistanexperter",
+        "domain": "svd.se",
+        "language": "Swedish",
+        "tone": 0,
+        "seendate": "20260815T063000Z",
         "source": "GDELT"
       },
       {
@@ -466,6 +421,15 @@
         "source": "GDELT"
       },
       {
+        "title": "Dont light fires in  tinderbox  Britain , says Andy Burnham before farms meeting",
+        "url": "https://www.theargus.co.uk/news/national/26467179.dont-light-fires-tinderbox-britain-says-andy-burnham-farms-meeting/",
+        "domain": "theargus.co.uk",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260815T033000Z",
+        "source": "GDELT"
+      },
+      {
         "title": "Flooding could follow wildfires across the united kingdom , Andy Burnham warns",
         "url": "https://www.fenlandcitizen.co.uk/national/flooding-could-follow-wildfires-across-the-uk-andy-burnham-warns-170561/",
         "domain": "fenlandcitizen.co.uk",
@@ -481,6 +445,42 @@
         "language": "English",
         "tone": 0,
         "seendate": "20260815T013000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Dont light fires in  tinderbox  Britain , says Andy Burnham before farms meeting",
+        "url": "https://www.eadt.co.uk/news/national/26467179.dont-light-fires-tinderbox-britain-says-andy-burnham-farms-meeting/",
+        "domain": "eadt.co.uk",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260815T013000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Dont light fires in  tinderbox  Britain , says Andy Burnham before farms meeting",
+        "url": "https://www.ipswichstar.co.uk/news/national/26467179.dont-light-fires-tinderbox-britain-says-andy-burnham-farms-meeting/",
+        "domain": "ipswichstar.co.uk",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260815T000000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Dont light fires in  tinderbox  Britain , says Andy Burnham before farms meeting",
+        "url": "https://www.thenorthernecho.co.uk/news/national/26467179.dont-light-fires-tinderbox-britain-says-andy-burnham-farms-meeting/",
+        "domain": "thenorthernecho.co.uk",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260815T003000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Dont light fires in  tinderbox  Britain , says Andy Burnham before farms meeting",
+        "url": "https://www.swindonadvertiser.co.uk/news/national/26467179.dont-light-fires-tinderbox-britain-says-andy-burnham-farms-meeting/",
+        "domain": "swindonadvertiser.co.uk",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260815T020000Z",
         "source": "GDELT"
       }
     ],
@@ -634,19 +634,19 @@
     },
     {
       "id": 9,
+      "name": "Ηνωμένο Βασίλειο : Σχέδιο για ξηρασία Αγγλία και αγρότες",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260815T051500Z",
+      "source": "sbctv.gr"
+    },
+    {
+      "id": 10,
       "name": "Ξηρασία στη Γερμανία και πυρκαγιές πιέζουν την αγροτική παρα",
       "score": 5.0,
       "category": "news",
       "last_seen": "20260814T093000Z",
       "source": "sbctv.gr"
-    },
-    {
-      "id": 10,
-      "name": "LHQ cảnh báo nắng nóng kỷ lục nguy cơ đẩy gần 50 triệu người",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260814T070000Z",
-      "source": "baomoi.com"
     }
   ],
   "events": [
@@ -723,6 +723,15 @@
       "source": "GDELT"
     },
     {
+      "title": "Ηνωμένο Βασίλειο : Σχέδιο για ξηρασία Αγγλία και αγρότες",
+      "url": "https://www.sbctv.gr/2026/08/%CE%BE%CE%B7%CF%81%CE%B1%CF%83%CE%B9%CE%B1-%CE%B1%CE%B3%CE%B3%CE%BB%CE%B9%CE%B1/",
+      "domain": "sbctv.gr",
+      "language": "Greek",
+      "tone": 0,
+      "seendate": "20260815T051500Z",
+      "source": "GDELT"
+    },
+    {
       "title": "Ξηρασία στη Γερμανία και πυρκαγιές πιέζουν την αγροτική παραγωγή",
       "url": "https://www.sbctv.gr/2026/08/%CE%BE%CE%B7%CF%81%CE%B1%CF%83%CE%B9%CE%B1-%CF%83%CF%84%CE%B7-%CE%B3%CE%B5%CF%81%CE%BC%CE%B1%CE%BD%CE%B9%CE%B1/",
       "domain": "sbctv.gr",
@@ -732,30 +741,12 @@
       "source": "GDELT"
     },
     {
-      "title": "LHQ cảnh báo nắng nóng kỷ lục nguy cơ đẩy gần 50 triệu người rơi vào cảnh nghèo đói",
-      "url": "https://baomoi.com/lhq-canh-bao-nang-nong-ky-luc-nguy-co-day-gan-50-trieu-nguoi-roi-vao-canh-ngheo-doi-c55832083.epi",
-      "domain": "baomoi.com",
-      "language": "Vietnamese",
-      "tone": 0,
-      "seendate": "20260814T070000Z",
-      "source": "GDELT"
-    },
-    {
       "title": "Greenpeace : Butuh penguatan berbasis pencegahan ancaman El Nino",
       "url": "https://www.antaranews.com/berita/5695321/greenpeace-butuh-penguatan-berbasis-pencegahan-ancaman-el-nino",
       "domain": "antaranews.com",
       "language": "Indonesian",
       "tone": 0,
       "seendate": "20260814T160000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Περού : Κατάσταση έκτακτης ανάγκης εξαιτίας του κινδύνου ξηρασίας λόγω του ... ",
-      "url": "https://www.capital.gr/diethni/4010642/perou-katastasi-ektaktis-anagkis-exaitias-tou-kindunou-xirasias-logo-tou-el-ninio/",
-      "domain": "capital.gr",
-      "language": "Greek",
-      "tone": 0,
-      "seendate": "20260814T054500Z",
       "source": "GDELT"
     },
     {
@@ -783,6 +774,15 @@
       "language": "Spanish",
       "tone": 0,
       "seendate": "20260814T223000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Περού : Κατάσταση έκτακτης ανάγκης σε πάνω από 600 δήμους λόγω του κινδύνου ξηρασίας από το El Niño",
+      "url": "https://www.skai.gr/news/world/perou-katastasi-ektaktis-anagkis-se-pano-apo-600-dimous-logo-tou-kindynou-ksirasias-apo-to",
+      "domain": "skai.gr",
+      "language": "Greek",
+      "tone": 0,
+      "seendate": "20260814T114500Z",
       "source": "GDELT"
     }
   ],
