@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-08-17T13:13:04.419049+00:00",
+    "generated": "2026-08-17T19:05:09.106154+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
