@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-08-20T01:57:01.305806+00:00",
+    "generated": "2026-08-20T07:14:32.085586+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -32,7 +32,422 @@
     }
   ],
   "live_data": {
-    "gdelt_articles": [],
+    "gdelt_articles": [
+      {
+        "title": "دول في مجلس الأمن تحذر من تداعيات أزمة المياه والمخاطر المناخية في ليبيا",
+        "url": "https://www.libyaakhbar.com/libya-news/2858169.html",
+        "domain": "libyaakhbar.com",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260819T180000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": " 《 联合国防治荒漠化公约 》 缔约方大会聚焦土地恢复 -- 国际 -- 人民网",
+        "url": "http://world.people.com.cn/n1/2026/0820/c1002-40783098.html",
+        "domain": "world.people.com.cn",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260820T034500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Venezuela reafirma su compromiso climático en la COP17 de la ONU en Mongolia - Yvke Mundial",
+        "url": "https://radiomundial.com.ve/venezuela-reafirma-su-compromiso-climatico-en-la-cop17-de-la-onu-en-mongolia/",
+        "domain": "radiomundial.com.ve",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260819T233000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Alertan sobre sequías prolongadas en México",
+        "url": "http://www.elmanana.com/noticias/nacional/alertan-sobre-sequias-prolongadas-en-mexico/6175147",
+        "domain": "elmanana.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260819T180000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Honduras declara alerta roja por sequía asociada al fenómeno de El Niño",
+        "url": "https://www.telesurtv.net/honduras-alerta-roja-sequia-fenomeno-el-nino/",
+        "domain": "telesurtv.net",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260820T034500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Columna Hernando García :  Super - Niño : la biodiversidad resiste , pero no es invencible",
+        "url": "https://www.eltiempo.com/opinion/columnistas/super-nino-la-biodiversidad-resiste-pero-no-es-invencible-3579575",
+        "domain": "eltiempo.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260820T060000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Hiện tượng El Nino  phủ bóng  thời tiết khu vực Mỹ Latin - Caribe",
+        "url": "https://baotintuc.vn/the-gioi/bien-doi-khi-hau-hien-tuong-el-nino-phu-bong-thoi-tiet-khu-vuc-my-latin-caribe-20260819114728080.htm",
+        "domain": "baotintuc.vn",
+        "language": "Vietnamese",
+        "tone": 0,
+        "seendate": "20260819T080000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "INTERVIEW : How UNCCD , FAO , World Bank back Nigeria fight against drought , land degradation Official",
+        "url": "https://www.premiumtimesng.com/business/business-news/904112-interview-how-unccd-fao-world-bank-back-nigerias-fight-against-drought-land-degradation-official.html",
+        "domain": "premiumtimesng.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260819T221500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Embrapa entrega propostas de agricultura sustentável a candidatos",
+        "url": "https://economia.ig.com.br/2026-08-19/embrapa-entrega-propostas-de-agricultura-sustentavel-a-candidatos.html",
+        "domain": "economia.ig.com.br",
+        "language": "Portuguese",
+        "tone": 0,
+        "seendate": "20260819T204500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Cumbre mundial clave sobre desertificación : Latinoamérica llega a la COP17 entre sequías , El Niño y presión por producir alimentos",
+        "url": "https://blogs.elespectador.com/medio-ambiente/mongabay-latam/cumbre-mundial-clave-sobre-desertificacion-latinoamerica-llega-a-la-cop17-entre-sequias-el-nino-y-presion-por-producir-alimentos/",
+        "domain": "blogs.elespectador.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260820T001500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "From evidence to action : what CGIAR is bringing to UNCCD COP17",
+        "url": "https://www.cgiar.org/news-events/news/evidence-action-what-cgiar-bringing-unccd-cop17",
+        "domain": "cgiar.org",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260819T144500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Embrapa apresenta seis prioridades para candidatos e futuro da agricultura brasileira",
+        "url": "https://www.sonoticias.com.br/geral/embrapa-apresenta-seis-prioridades-para-candidatos-e-futuro-da-agricultura-brasileira/",
+        "domain": "sonoticias.com.br",
+        "language": "Portuguese",
+        "tone": 0,
+        "seendate": "20260819T213000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "How a record super El Nino could reshape extreme weather for 12 of Asia biggest cities",
+        "url": "https://www.independent.co.uk/climate-change/news/el-nino-climate-flooding-drought-asia-b3034844.html",
+        "domain": "independent.co.uk",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260819T210000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "The global land agenda moment of truth",
+        "url": "https://www.arabnews.com/node/2655214",
+        "domain": "arabnews.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260819T164500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "La lección de Iowa para Guatemala : cómo preparar la agricultura para un clima que no se puede controlar",
+        "url": "https://www.prensalibre.com/economia/la-leccion-de-iowa-para-guatemala-como-preparar-la-agricultura-para-un-clima-que-no-se-puede-controlar/",
+        "domain": "prensalibre.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260820T014500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Kangaba face à la sécheresse : la campagne agricole 2026 menacée par des pluies tardives – Mali Actu",
+        "url": "https://maliactu.net/secheresse-kangaba-campagne-agricole-2026/",
+        "domain": "maliactu.net",
+        "language": "French",
+        "tone": 0,
+        "seendate": "20260819T104500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "APO Group - Africa Newsroom / Press release | Forestry , Fisheries and the Environment Calls for Binding Global Action on Drought and Increased Land Restoration Finance at United Nations Convention to Combat Desertification ( UNCCD ) COP17",
+        "url": "https://www.africa-newsroom.com/press/forestry-fisheries-and-the-environment-calls-for-binding-global-action-on-drought-and-increased-land-restoration-finance-at-united-nations-convention-to-combat-desertification-unccd-cop17",
+        "domain": "africa-newsroom.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260819T190000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "ONU destina 80 millones de dólares a Honduras para combatir la severa sequía y proteger la seguridad alimentaria",
+        "url": "https://abriendobrecha.tv/economia/onu-destina-80-millones-de-dolares-a-honduras-para-combatir-la-severa-sequia-y-proteger-la-seguridad-alimentaria/",
+        "domain": "abriendobrecha.tv",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260820T034500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "权威预警 ！ 央视重磅发声 ， 史诗级大变天 ， 所有股民务必注意了 ！ ",
+        "url": "https://stock.jrj.com.cn/2026/08/20074958181563.shtml",
+        "domain": "stock.jrj.com.cn",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260820T001500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "The U . S . Faces A  Historic  Cattle Shortage As The Size Of The U . S . Herd Shrinks To The Smallest Since 1951",
+        "url": "http://theeconomiccollapseblog.com/the-u-s-faces-a-historic-cattle-shortage-as-the-size-of-the-u-s-herd-shrinks-to-the-smallest-since-1951/",
+        "domain": "theeconomiccollapseblog.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260819T200000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Labour  could lose up to 50 seat to Greens if new drilling in North Sea approved | Green party",
+        "url": "https://www.theguardian.com/politics/2026/aug/19/labour-could-lose-seats-greens-new-drilling-north-sea",
+        "domain": "theguardian.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260819T100000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Labour  could lose up to 50 seat to Greens if new drilling in North Sea approved",
+        "url": "https://www.aol.co.uk/articles/labour-could-lose-50-seats-092836000.html",
+        "domain": "aol.co.uk",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260819T100000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Las granjas de Galicia ya temen más la falta de agua que de forraje y perforan nuevos pozos de barrena para asegurar el abastecimiento",
+        "url": "https://www.elcorreogallego.es/galicia/2026/08/19/granjas-galicia-temen-falta-agua-133453967.html",
+        "domain": "elcorreogallego.es",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260819T071500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "How Africa Is Battling Climate Change and the Coming  Super  El Niño",
+        "url": "https://foreignpolicy.com/2026/08/19/africa-climate-change-drought-wildfires-flooding-el-nino/?tpcc=recirc_trending062921",
+        "domain": "foreignpolicy.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260820T001500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "How Africa Is Battling Climate Change and the Coming  Super  El Niño",
+        "url": "https://foreignpolicy.com/2026/08/19/africa-climate-change-drought-wildfires-flooding-el-nino/",
+        "domain": "foreignpolicy.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260819T233000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Embrapa entrega propostas de agricultura sustentável para candidatos",
+        "url": "https://www.acessa.com/economia/2026/08/337353-embrapa-entrega-propostas-de-agricultura-sustentavel-para-candidatos.html",
+        "domain": "acessa.com",
+        "language": "Portuguese",
+        "tone": 0,
+        "seendate": "20260819T230000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Siccità 2026 , le 16 azioni europee che possono beneficiare dellemergenza : una è italiana",
+        "url": "https://www.milanofinanza.it/news/siccita-2026-le-16-azioni-europee-che-possono-beneficiare-dell-emergenza-una-e-italiana-202608191205316899",
+        "domain": "milanofinanza.it",
+        "language": "Italian",
+        "tone": 0,
+        "seendate": "20260819T144500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "ONU dona más de 80 millones de dólares para combatir la sequía en Honduras",
+        "url": "https://proceso.hn/onu-dona-mas-de-80-millones-de-dolares-para-combatir-la-sequia-en-honduras/",
+        "domain": "proceso.hn",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260820T001500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Супер Ель - Ніньйо може стати реальністю : які наслідки очікуються",
+        "url": "https://www.unian.ua/ecology/super-el-ninyo-mozhe-stati-realnistyu-yaki-naslidki-ochikuyutsya-13474953.html",
+        "domain": "unian.ua",
+        "language": "Ukrainian",
+        "tone": 0,
+        "seendate": "20260819T190000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Kenya to import maize as country faces 25 million - bag deficit – Ghanamma . com",
+        "url": "https://www.ghanamma.com/2026/08/20/kenya-to-import-maize-as-country-faces-25-million-bag-deficit/",
+        "domain": "ghanamma.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260820T053000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Govt orders 25 million bags of maize imports as harvests fall",
+        "url": "https://capitalfm.africa/govt-orders-25-million-bags-of-maize-imports-as-harvests-fall/",
+        "domain": "capitalfm.africa",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260819T153000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Skeptical Science New Research for Week # 34 2026",
+        "url": "https://skepticalscience.com/new_research_2026_34.html",
+        "domain": "skepticalscience.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260820T064500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "求是网评论员 ： 防灾减灾救灾何以极端重要",
+        "url": "http://qstheory.cn/20260820/32deb976ba764cf78436914368ca214f/c.html",
+        "domain": "qstheory.cn",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260820T043000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "求是网评论员 ： 防灾减灾救灾何以极端重要",
+        "url": "https://www.qstheory.cn/20260820/32deb976ba764cf78436914368ca214f/c.html",
+        "domain": "qstheory.cn",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260820T020000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Et si modifier le génome des plantes suffisait à les protéger des canicules ? ( oui , mais tout nest pas si simple ) ",
+        "url": "https://sciencepost.fr/et-si-modifier-le-genome-des-plantes-suffisait-a-les-proteger-des-canicules-en-realite-ce-nest-pas-si-simple/",
+        "domain": "sciencepost.fr",
+        "language": "French",
+        "tone": 0,
+        "seendate": "20260820T064500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Honduras se muere de sed - Proceso Digital",
+        "url": "https://proceso.hn/honduras-se-muere-de-sed/",
+        "domain": "proceso.hn",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260820T043000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Beanstalk launches Singapore venture studio to scale Southeast Asian agtech",
+        "url": "https://www.foodbev.com/news/beanstalk-launches-singapore-venture-studio-to-scale-southeast-asian-agtech",
+        "domain": "foodbev.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260819T134500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Fucili spianati sullemergenza climatica",
+        "url": "https://www.nove.firenze.it/fucili-spianati-sullemergenza-climatica.htm",
+        "domain": "nove.firenze.it",
+        "language": "Italian",
+        "tone": 0,
+        "seendate": "20260820T064500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "覆盖超八成国土面积 ， 国家水网长什么样 ？ ",
+        "url": "http://guoqing.china.com.cn/2026-08/20/content_118656210.shtml",
+        "domain": "guoqing.china.com.cn",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260820T034500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "覆盖超八成国土面积 ， 国家水网长什么样 ？ ",
+        "url": "https://baijiahao.baidu.com/s?id=1873999430418689081",
+        "domain": "baijiahao.baidu.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260820T004500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "覆盖超八成国土面积 ， 国家水网长什么样 ？ -- 科普中国 -- 人民网",
+        "url": "http://kpzg.people.com.cn/n1/2026/0820/c404214-40782876.html",
+        "domain": "kpzg.people.com.cn",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260820T034500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "多难兴邦与中华文明韧性 - 求是网",
+        "url": "https://www.qstheory.cn/20260815/1d5cd55ecb684630ba56492e8013f219/c.html",
+        "domain": "qstheory.cn",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260820T020000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "أزمة المياه تتسع مع انقطاعات الكهرباء .. من المسؤول ؟ تعددت الأسباب والمصيبة واحدة",
+        "url": "https://akhbarlibya24.net/2026/08/19/%D8%A3%D8%B2%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D9%8A%D8%A7%D9%87-%D8%AA%D8%AA%D8%B3%D8%B9-%D9%85%D8%B9-%D8%A7%D9%86%D9%82%D8%B7%D8%A7%D8%B9%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A1",
+        "domain": "akhbarlibya24.net",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260819T190000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Tempo seco : como a baixa umidade do ar afeta defesa do corpo",
+        "url": "https://g1.globo.com/sp/piracicaba-regiao/noticia/2026/08/19/tempo-seco-entenda-como-a-baixa-umidade-do-ar-enfraquece-defesa-natural-do-corpo-contra-viroses-e-infeccoes.ghtml",
+        "domain": "g1.globo.com",
+        "language": "Portuguese",
+        "tone": 0,
+        "seendate": "20260819T213000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "覆盖超八成国土面积 ， 国家水网长什么样 ？ - 即时新闻",
+        "url": "http://news.fjsen.com/2026-08/20/content_32238419.htm",
+        "domain": "news.fjsen.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260820T023000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": " » RESUMO DE QUARTA - FEIRA – 19 / 08 / 2026",
+        "url": "https://www.aplateia.com.br/2026/08/resumo-de-quarta-feira-19-08-2026/",
+        "domain": "aplateia.com.br",
+        "language": "Portuguese",
+        "tone": 0,
+        "seendate": "20260819T183000Z",
+        "source": "GDELT"
+      }
+    ],
     "exchange_rates": [
       {
         "currency": "USD",
@@ -116,8 +531,225 @@
       }
     ]
   },
-  "entities": [],
-  "events": [],
+  "entities": [
+    {
+      "id": 1,
+      "name": "دول في مجلس الأمن تحذر من تداعيات أزمة المياه والمخاطر المنا",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260819T180000Z",
+      "source": "libyaakhbar.com"
+    },
+    {
+      "id": 2,
+      "name": " 《 联合国防治荒漠化公约 》 缔约方大会聚焦土地恢复 -- 国际 -- 人民网",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260820T034500Z",
+      "source": "world.people.com.cn"
+    },
+    {
+      "id": 3,
+      "name": "Venezuela reafirma su compromiso climático en la COP17 de la",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260819T233000Z",
+      "source": "radiomundial.com.ve"
+    },
+    {
+      "id": 4,
+      "name": "Alertan sobre sequías prolongadas en México",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260819T180000Z",
+      "source": "elmanana.com"
+    },
+    {
+      "id": 5,
+      "name": "Honduras declara alerta roja por sequía asociada al fenómeno",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260820T034500Z",
+      "source": "telesurtv.net"
+    },
+    {
+      "id": 6,
+      "name": "Columna Hernando García :  Super - Niño : la biodiversidad r",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260820T060000Z",
+      "source": "eltiempo.com"
+    },
+    {
+      "id": 7,
+      "name": "Hiện tượng El Nino  phủ bóng  thời tiết khu vực Mỹ Latin - C",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260819T080000Z",
+      "source": "baotintuc.vn"
+    },
+    {
+      "id": 8,
+      "name": "INTERVIEW : How UNCCD , FAO , World Bank back Nigeria fight ",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260819T221500Z",
+      "source": "premiumtimesng.com"
+    },
+    {
+      "id": 9,
+      "name": "Embrapa entrega propostas de agricultura sustentável a candi",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260819T204500Z",
+      "source": "economia.ig.com.br"
+    },
+    {
+      "id": 10,
+      "name": "Cumbre mundial clave sobre desertificación : Latinoamérica l",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260820T001500Z",
+      "source": "blogs.elespectador.com"
+    }
+  ],
+  "events": [
+    {
+      "title": "دول في مجلس الأمن تحذر من تداعيات أزمة المياه والمخاطر المناخية في ليبيا",
+      "url": "https://www.libyaakhbar.com/libya-news/2858169.html",
+      "domain": "libyaakhbar.com",
+      "language": "Arabic",
+      "tone": 0,
+      "seendate": "20260819T180000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": " 《 联合国防治荒漠化公约 》 缔约方大会聚焦土地恢复 -- 国际 -- 人民网",
+      "url": "http://world.people.com.cn/n1/2026/0820/c1002-40783098.html",
+      "domain": "world.people.com.cn",
+      "language": "Chinese",
+      "tone": 0,
+      "seendate": "20260820T034500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Venezuela reafirma su compromiso climático en la COP17 de la ONU en Mongolia - Yvke Mundial",
+      "url": "https://radiomundial.com.ve/venezuela-reafirma-su-compromiso-climatico-en-la-cop17-de-la-onu-en-mongolia/",
+      "domain": "radiomundial.com.ve",
+      "language": "Spanish",
+      "tone": 0,
+      "seendate": "20260819T233000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Alertan sobre sequías prolongadas en México",
+      "url": "http://www.elmanana.com/noticias/nacional/alertan-sobre-sequias-prolongadas-en-mexico/6175147",
+      "domain": "elmanana.com",
+      "language": "Spanish",
+      "tone": 0,
+      "seendate": "20260819T180000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Honduras declara alerta roja por sequía asociada al fenómeno de El Niño",
+      "url": "https://www.telesurtv.net/honduras-alerta-roja-sequia-fenomeno-el-nino/",
+      "domain": "telesurtv.net",
+      "language": "Spanish",
+      "tone": 0,
+      "seendate": "20260820T034500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Columna Hernando García :  Super - Niño : la biodiversidad resiste , pero no es invencible",
+      "url": "https://www.eltiempo.com/opinion/columnistas/super-nino-la-biodiversidad-resiste-pero-no-es-invencible-3579575",
+      "domain": "eltiempo.com",
+      "language": "Spanish",
+      "tone": 0,
+      "seendate": "20260820T060000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Hiện tượng El Nino  phủ bóng  thời tiết khu vực Mỹ Latin - Caribe",
+      "url": "https://baotintuc.vn/the-gioi/bien-doi-khi-hau-hien-tuong-el-nino-phu-bong-thoi-tiet-khu-vuc-my-latin-caribe-20260819114728080.htm",
+      "domain": "baotintuc.vn",
+      "language": "Vietnamese",
+      "tone": 0,
+      "seendate": "20260819T080000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "INTERVIEW : How UNCCD , FAO , World Bank back Nigeria fight against drought , land degradation Official",
+      "url": "https://www.premiumtimesng.com/business/business-news/904112-interview-how-unccd-fao-world-bank-back-nigerias-fight-against-drought-land-degradation-official.html",
+      "domain": "premiumtimesng.com",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260819T221500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Embrapa entrega propostas de agricultura sustentável a candidatos",
+      "url": "https://economia.ig.com.br/2026-08-19/embrapa-entrega-propostas-de-agricultura-sustentavel-a-candidatos.html",
+      "domain": "economia.ig.com.br",
+      "language": "Portuguese",
+      "tone": 0,
+      "seendate": "20260819T204500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Cumbre mundial clave sobre desertificación : Latinoamérica llega a la COP17 entre sequías , El Niño y presión por producir alimentos",
+      "url": "https://blogs.elespectador.com/medio-ambiente/mongabay-latam/cumbre-mundial-clave-sobre-desertificacion-latinoamerica-llega-a-la-cop17-entre-sequias-el-nino-y-presion-por-producir-alimentos/",
+      "domain": "blogs.elespectador.com",
+      "language": "Spanish",
+      "tone": 0,
+      "seendate": "20260820T001500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "From evidence to action : what CGIAR is bringing to UNCCD COP17",
+      "url": "https://www.cgiar.org/news-events/news/evidence-action-what-cgiar-bringing-unccd-cop17",
+      "domain": "cgiar.org",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260819T144500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Embrapa apresenta seis prioridades para candidatos e futuro da agricultura brasileira",
+      "url": "https://www.sonoticias.com.br/geral/embrapa-apresenta-seis-prioridades-para-candidatos-e-futuro-da-agricultura-brasileira/",
+      "domain": "sonoticias.com.br",
+      "language": "Portuguese",
+      "tone": 0,
+      "seendate": "20260819T213000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "How a record super El Nino could reshape extreme weather for 12 of Asia biggest cities",
+      "url": "https://www.independent.co.uk/climate-change/news/el-nino-climate-flooding-drought-asia-b3034844.html",
+      "domain": "independent.co.uk",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260819T210000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "The global land agenda moment of truth",
+      "url": "https://www.arabnews.com/node/2655214",
+      "domain": "arabnews.com",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260819T164500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "La lección de Iowa para Guatemala : cómo preparar la agricultura para un clima que no se puede controlar",
+      "url": "https://www.prensalibre.com/economia/la-leccion-de-iowa-para-guatemala-como-preparar-la-agricultura-para-un-clima-que-no-se-puede-controlar/",
+      "domain": "prensalibre.com",
+      "language": "Spanish",
+      "tone": 0,
+      "seendate": "20260820T014500Z",
+      "source": "GDELT"
+    }
+  ],
   "timeseries": [],
   "llm_summary": "Pending API key..."
 }
