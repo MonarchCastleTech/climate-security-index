@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-08-21T13:23:55.545490+00:00",
+    "generated": "2026-08-21T19:04:14.435215+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -32,7 +32,458 @@
     }
   ],
   "live_data": {
-    "gdelt_articles": [],
+    "gdelt_articles": [
+      {
+        "title": "African Development Bank Backs Calls for Land Restoration As COP17 Gets Underway in Mongolia",
+        "url": "https://allafrica.com/stories/202608210517.html",
+        "domain": "allafrica.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260821T164500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "聖嬰現象逾百年來最強 ！ 海面溫度恐空前高 英氣象局 ： 將是史無前例 | 世界萬象 | 全球",
+        "url": "https://udn.com/news/story/6812/9706350",
+        "domain": "udn.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260821T101500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "英氣象局 ： 聖嬰現象逾百年來最強 海面溫度恐空前高 | 國際",
+        "url": "https://www.cna.com.tw:443/news/aopl/202608210242.aspx",
+        "domain": "cna.com.tw",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260821T103000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "El Nino có thể khiến năm 2027 nóng nhất lịch sử",
+        "url": "http://vov.vn/the-gioi/el-nino-co-the-bien-nam-2027-thanh-nam-nong-nhat-lich-su-post1325969.vov",
+        "domain": "vov.vn",
+        "language": "Vietnamese",
+        "tone": 0,
+        "seendate": "20260821T043000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "حتى  سفن الصحراء  تستسلم .. كيف هزم المناخ الحيوان الذي لا يُقهر ؟ ",
+        "url": "https://www.aljazeera.net/science/2026/8/21/%D8%AD%D8%AA%D9%89-%D8%B3%D9%81%D9%86-%D8%A7%D9%84%D8%B5%D8%AD%D8%B1%D8%A7%D8%A1-%D8%AA%D8%B3%D8%AA%D8%B3%D9%84%D9%85-%D9%83%D9%8A%D9%81-%D9%87%D8%B2%D9%85-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D8%AE",
+        "domain": "aljazeera.net",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260821T104500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Farmer leadership contributes to expanding local banana varietal diversity in Barind",
+        "url": "https://www.bssnews.net/special-stories/416700",
+        "domain": "bssnews.net",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260821T090000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "英氣象局 ： 聖嬰現象逾百年來最強 海面溫度恐空前高 | 國際 | 三立新聞網 SETN . COM",
+        "url": "https://www.setn.com/news/1893310",
+        "domain": "setn.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260821T133000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Ματ … Η Ρωσία σε 4 χρόνια θα έχει το απόλυτο υπερόπλο – Το 2030 η Ευρώπη δεν θα έχει να « φάει », ο μεγάλος κίνδυνος για Ελλάδα",
+        "url": "https://www.bankingnews.gr/diethni/articles/894852/mat-i-rosia-se-4-xronia-tha-exei-to-apolyto-yperoplo-to-2030-i-evropi-den-tha-exei-na-faei-o-megalos-kindynos-gia-ellada",
+        "domain": "bankingnews.gr",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260821T070000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Dürrehilfe kommt endlich : Notwendige Hilfe für NÖ Bauern – Landeshauptfrau drängt auf Auszahlung",
+        "url": "https://www.meinbezirk.at/niederoesterreich/c-politik/notwendige-hilfe-fuer-noe-bauern-landeshauptfrau-draengt-auf-auszahlung_a8860589",
+        "domain": "meinbezirk.at",
+        "language": "German",
+        "tone": 0,
+        "seendate": "20260821T164500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "  El Niño  elevaría temperaturas en México hasta  los límites de resistencia humana , según informe de la UNAM",
+        "url": "https://www.elimparcial.com/mexico/2026/08/20/el-nino-elevaria-temperaturas-en-mexico-hasta-los-limites-de-resistencia-humana-segun-informe-de-la-unam/",
+        "domain": "elimparcial.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260820T223000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Russia  super seeds  push : Building an agricultural superpower as Europe faces food security risks",
+        "url": "https://www.bankingnews.gr/diethni/articles/894904/russia-s-super-seeds-push-building-an-agricultural-superpower-as-europe-faces-food-security-risks",
+        "domain": "bankingnews.gr",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260821T121500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "EXPLAINER - From floods to famine : What past El Nino disasters reveal about 2026 - 2",
+        "url": "https://aa.com.tr/en/environment/explainer-from-floods-to-famine-what-past-el-nino-disasters-reveal-about-2026-2/4033638",
+        "domain": "aa.com.tr",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260821T110000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "英國氣象局預警 ： 史上最強聖嬰現象將至 ， 全球嚴陣以待",
+        "url": "https://n.yam.com/Article/20260821823860",
+        "domain": "n.yam.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260821T034500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "نشاط مكثف لوزارة الزراعة .. تحركات حكومية لتعزيز الإنتاج ودعم الأمن الغذائي",
+        "url": "https://www.dostor.org/5675079",
+        "domain": "dostor.org",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260821T173000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "自由開講 》 防災新思維 從 「 等候救援 」 到 「 風險自主 」 ",
+        "url": "https://talk.ltn.com.tw/article/breakingnews/5538440",
+        "domain": "talk.ltn.com.tw",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260821T103000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Totschnig / Marterbauer / Bernhard : Einigung auf Dürre - Hilfspaket für Bäuerinnen und Bauern sowie Klimagesetz",
+        "url": "https://www.ots.at/presseaussendung/OTS_20260821_OTS0077/totschnigmarterbauerbernhard-einigung-auf-duerre-hilfspaket-fuer-baeuerinnen-und-bauern-sowie-klimagesetz",
+        "domain": "ots.at",
+        "language": "German",
+        "tone": 0,
+        "seendate": "20260821T173000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Mali : lagriculture en péril face aux pluies capricieuses – Mali Actu",
+        "url": "https://maliactu.net/mali-agriculture-pluies-capricieuses/",
+        "domain": "maliactu.net",
+        "language": "French",
+        "tone": 0,
+        "seendate": "20260821T011500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Britanski vremenoslovci napovedujejo najmočnejši El Nino v zadnjem stoletju",
+        "url": "https://www.rtvslo.si/svet/britanski-vremenoslovci-napovedujejo-najmocnejsi-el-nino-v-zadnjem-stoletju/791507",
+        "domain": "rtvslo.si",
+        "language": "Slovenian",
+        "tone": 0,
+        "seendate": "20260821T103000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "热浪成  杀手 ， 欧洲这个夏天怎么了 ？ 新京报",
+        "url": "https://www.bjnews.com.cn/detail/1787272502168922.html",
+        "domain": "bjnews.com.cn",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260821T020000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "ربيع الفقر العربي المقبل",
+        "url": "https://www.alquds.co.uk/%D8%B1%D8%A8%D9%8A%D8%B9-%D8%A7%D9%84%D9%81%D9%82%D8%B1-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A-%D8%A7%D9%84%D9%85%D9%82%D8%A8%D9%84/",
+        "domain": "alquds.co.uk",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260820T204500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "La ONU anuncia donación de 20 millones de dólares más para enfrentar sequía en Honduras",
+        "url": "https://lahora.gt/internacionales/agenciaefe/2026/08/20/la-onu-anuncia-donacion-de-20-millones-de-dolares-mas-para-enfrentar-sequia-en-honduras-now/",
+        "domain": "lahora.gt",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260821T011500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "El Niño : le canal de Panama va réduire le trafic des bateaux , anticipant un niveau deau insuffisant",
+        "url": "https://www.leparisien.fr/economie/el-nino-le-canal-de-panama-va-reduire-le-trafic-des-bateaux-anticipant-un-niveau-deau-insuffisant-21-08-2026-5CU2WMAWWFAORKISU3V634V7BM.php",
+        "domain": "leparisien.fr",
+        "language": "French",
+        "tone": 0,
+        "seendate": "20260821T103000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Meteorologi napovedujejo največji El Nino v zadnjem stoletju",
+        "url": "https://primorske.si/svet/meteorologi-napovedujejo-najvecji-el-nino-v-zadnjem-stoletju/",
+        "domain": "primorske.si",
+        "language": "Slovenian",
+        "tone": 0,
+        "seendate": "20260821T110000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "农业向好夯实经济底盘 - 华龙网 - 重庆市委市政府官方新闻门户",
+        "url": "https://www.cqnews.net/web/content_1540258815050186752.html",
+        "domain": "cqnews.net",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260821T001500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "유엔  북한 주민 40 % 이상 영양부족 … 인도적 위기 장기화  ",
+        "url": "https://www.voakorea.com/a/un-north-korea-humanitarian-crisis-082026/8188503.html",
+        "domain": "voakorea.com",
+        "language": "Korean",
+        "tone": 0,
+        "seendate": "20260820T233000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "В поле высший сорт . Белорусская селекция выигрывает в конкуренции с мировыми брендами по цене и качеству",
+        "url": "https://www.sb.by/articles/v-pole-vysshiy-sort-belorusskaya-selektsiya-vyigryvaet-v-konkurentsii-s-mirovymi-brendami-po-tsene-i.html",
+        "domain": "sb.by",
+        "language": "Russian",
+        "tone": 0,
+        "seendate": "20260821T054500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Burnham unveils £65m drought support for English farmers",
+        "url": "https://www.thescottishfarmer.co.uk/news/26472513.burnham-unveils-65m-drought-support-english-farmers/",
+        "domain": "thescottishfarmer.co.uk",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260821T064500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "नयाँ राष्ट्रिय कृषि नीतिको चुनौती",
+        "url": "https://www.karobardaily.com/news/407808",
+        "domain": "karobardaily.com",
+        "language": "Nepali",
+        "tone": 0,
+        "seendate": "20260821T034500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Blekinge hotas av klimatkrisen – Blekinge Läns Tidning",
+        "url": "https://www.blt.se/insandare/blekinge-hotas-av-klimatkrisen/",
+        "domain": "blt.se",
+        "language": "Swedish",
+        "tone": 0,
+        "seendate": "20260821T010000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Climat . Allemagne , France , Espagne ... Déjà 30 000 décès excédentaires cet été dans une Europe en surchauffe",
+        "url": "https://www.estrepublicain.fr/sante/2026/08/21/allemagne-france-espagne-deja-30-000-deces-excedentaires-cet-ete-dans-une-europe-en-surchauffe",
+        "domain": "estrepublicain.fr",
+        "language": "French",
+        "tone": 0,
+        "seendate": "20260821T164500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Climat . Allemagne , France , Espagne ... Déjà 30 000 décès excédentaires cet été dans une Europe en surchauffe",
+        "url": "https://www.dna.fr/sante/2026/08/21/allemagne-france-espagne-deja-30-000-deces-excedentaires-cet-ete-dans-une-europe-en-surchauffe",
+        "domain": "dna.fr",
+        "language": "French",
+        "tone": 0,
+        "seendate": "20260821T164500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Climat . Allemagne , France , Espagne ... Déjà 30 000 décès excédentaires cet été dans une Europe en surchauffe",
+        "url": "https://www.bienpublic.com/sante/2026/08/21/allemagne-france-espagne-deja-30-000-deces-excedentaires-cet-ete-dans-une-europe-en-surchauffe",
+        "domain": "bienpublic.com",
+        "language": "French",
+        "tone": 0,
+        "seendate": "20260821T163000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Climat . Allemagne , France , Espagne ... Déjà 30 000 décès excédentaires cet été dans une Europe en surchauffe",
+        "url": "https://www.republicain-lorrain.fr/sante/2026/08/21/allemagne-france-espagne-deja-30-000-deces-excedentaires-cet-ete-dans-une-europe-en-surchauffe",
+        "domain": "republicain-lorrain.fr",
+        "language": "French",
+        "tone": 0,
+        "seendate": "20260821T163000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Rain Enhancement Technologies Recognized With 2026  AgTech Climate ... ",
+        "url": "https://www.pr-inside.com/rain-enhancement-technologies-recognized-with-2026-agtech-climate-r5214766.htm",
+        "domain": "pr-inside.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260821T143000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "隆基绿能李振国 ： 世界正陷入粮食危机 ， 光伏可以合成淀粉 ！ ",
+        "url": "https://www.163.com/dy/article/L4SRSIQ30553ACX8.html",
+        "domain": "163.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260821T140000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "El Niño : le canal de Panama réduit son trafic face à la baisse des précipitations",
+        "url": "https://www.linternaute.com/actualite/depeches/11198156-el-nino-le-canal-de-panama-reduit-son-trafic-face-a-la-baisse-des-precipitations/",
+        "domain": "linternaute.com",
+        "language": "French",
+        "tone": 0,
+        "seendate": "20260821T154500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "防灾减灾救灾何以极端重要",
+        "url": "http://news.cyol.com/gb/news/articles/2026-08/21/content_YOpl3GCvOE.html",
+        "domain": "news.cyol.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260821T050000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Climat . Allemagne , France , Espagne ... Déjà 30 000 décès excédentaires cet été dans une Europe en surchauffe",
+        "url": "https://www.vosgesmatin.fr/sante/2026/08/21/allemagne-france-espagne-deja-30-000-deces-excedentaires-cet-ete-dans-une-europe-en-surchauffe",
+        "domain": "vosgesmatin.fr",
+        "language": "French",
+        "tone": 0,
+        "seendate": "20260821T174500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "El Niño : le canal de Panama réduit son trafic face à la baisse des précipitations - 21 / 08 / 2026 à 12 : 54",
+        "url": "https://www.boursorama.com/actualite-economique/actualites/el-nino-le-canal-de-panama-reduit-son-trafic-face-a-la-baisse-des-precipitations-665b0ce4e98aa1ad6679cc53a465ed8a",
+        "domain": "boursorama.com",
+        "language": "French",
+        "tone": 0,
+        "seendate": "20260821T111500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "La FAO promueve la planificación integrada del territorio y la tenencia segura para fortalecer la sostenibilidad alimentaria",
+        "url": "https://www.ecoportal.net/economia-2/tierras-tenencia-sostenibilidad/",
+        "domain": "ecoportal.net",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260820T204500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "South Africa : The Importance of African Agricultural IP Systems",
+        "url": "https://allafrica.com/stories/202608210376.html",
+        "domain": "allafrica.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260821T160000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Rain Enhancement Technologies Recognized With 2026 AgTech Climate Innovation of the Year by AgTech Breakthrough",
+        "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69376803-rain-enhancement-technologies-recognized-with-2026-agtech-climate-innovation-of-the-year-by-agtech-breakthrough-200.htm",
+        "domain": "finanznachrichten.de",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260821T143000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Cenepred : casi 4 . 3 millones de personas están en riesgo por sequías de El Niño » Crónica Viva",
+        "url": "https://www.cronicaviva.com.pe/cenepred-casi-4-3-millones-de-personas-estan-en-riesgo-por-sequias-de-el-nino/",
+        "domain": "cronicaviva.com.pe",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260821T020000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Indígenas cobram participao nas decisões da COP da Desertificao",
+        "url": "https://oestadoacre.com/2026/08/20/indigenas-cobram-participacao-nas-decisoes-da-cop-da-desertificacao/",
+        "domain": "oestadoacre.com",
+        "language": "Portuguese",
+        "tone": 0,
+        "seendate": "20260820T223000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "किसानको खुसी",
+        "url": "https://www.gorkhapatraonline.com/news/219253",
+        "domain": "gorkhapatraonline.com",
+        "language": "Nepali",
+        "tone": 0,
+        "seendate": "20260821T054500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Η Δημοκρατία του Νερού Μέρος 2ο : Η Σιωπή των Ποταμών",
+        "url": "https://www.capital.gr/me-apopsi/4011533/i-dimokratia-tou-nerou-meros-2o-i-siopi-ton-potamon/",
+        "domain": "capital.gr",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260820T221500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "APEC Economies Turn To Biotechnology To Strengthen Food Security",
+        "url": "https://www.scoop.co.nz/stories/WO2608/S00152/apec-economies-turn-to-biotechnology-to-strengthen-food-security.htm",
+        "domain": "scoop.co.nz",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260820T210000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "农业向好夯实经济底盘 _ 光明网",
+        "url": "https://economy.gmw.cn/2026-08/21/content_38955598.htm",
+        "domain": "economy.gmw.cn",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260821T034500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Συμβουλές για τον καύσωνα από αυτούς που ξέρουν",
+        "url": "https://www.protagon.gr/themata/symvoules-gia-ton-kafswna-apo-aftous-pou-kseroun-44343414635",
+        "domain": "protagon.gr",
+        "language": "Greek",
+        "tone": 0,
+        "seendate": "20260821T111500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "CentralAsia : Нынешний Эль - Ниньо станет самым сильным за всю историю наблюдений , - метеорологическая служба Великобритании",
+        "url": "https://centralasia.media/news:2520974",
+        "domain": "centralasia.media",
+        "language": "Russian",
+        "tone": 0,
+        "seendate": "20260821T110000Z",
+        "source": "GDELT"
+      }
+    ],
     "exchange_rates": [
       {
         "currency": "USD",
@@ -116,8 +567,225 @@
       }
     ]
   },
-  "entities": [],
-  "events": [],
+  "entities": [
+    {
+      "id": 1,
+      "name": "African Development Bank Backs Calls for Land Restoration As",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260821T164500Z",
+      "source": "allafrica.com"
+    },
+    {
+      "id": 2,
+      "name": "聖嬰現象逾百年來最強 ！ 海面溫度恐空前高 英氣象局 ： 將是史無前例 | 世界萬象 | 全球",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260821T101500Z",
+      "source": "udn.com"
+    },
+    {
+      "id": 3,
+      "name": "英氣象局 ： 聖嬰現象逾百年來最強 海面溫度恐空前高 | 國際",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260821T103000Z",
+      "source": "cna.com.tw"
+    },
+    {
+      "id": 4,
+      "name": "El Nino có thể khiến năm 2027 nóng nhất lịch sử",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260821T043000Z",
+      "source": "vov.vn"
+    },
+    {
+      "id": 5,
+      "name": "حتى  سفن الصحراء  تستسلم .. كيف هزم المناخ الحيوان الذي لا ي",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260821T104500Z",
+      "source": "aljazeera.net"
+    },
+    {
+      "id": 6,
+      "name": "Farmer leadership contributes to expanding local banana vari",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260821T090000Z",
+      "source": "bssnews.net"
+    },
+    {
+      "id": 7,
+      "name": "英氣象局 ： 聖嬰現象逾百年來最強 海面溫度恐空前高 | 國際 | 三立新聞網 SETN . COM",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260821T133000Z",
+      "source": "setn.com"
+    },
+    {
+      "id": 8,
+      "name": "Ματ … Η Ρωσία σε 4 χρόνια θα έχει το απόλυτο υπερόπλο – Το 2",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260821T070000Z",
+      "source": "bankingnews.gr"
+    },
+    {
+      "id": 9,
+      "name": "Dürrehilfe kommt endlich : Notwendige Hilfe für NÖ Bauern – ",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260821T164500Z",
+      "source": "meinbezirk.at"
+    },
+    {
+      "id": 10,
+      "name": "  El Niño  elevaría temperaturas en México hasta  los límite",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260820T223000Z",
+      "source": "elimparcial.com"
+    }
+  ],
+  "events": [
+    {
+      "title": "African Development Bank Backs Calls for Land Restoration As COP17 Gets Underway in Mongolia",
+      "url": "https://allafrica.com/stories/202608210517.html",
+      "domain": "allafrica.com",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260821T164500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "聖嬰現象逾百年來最強 ！ 海面溫度恐空前高 英氣象局 ： 將是史無前例 | 世界萬象 | 全球",
+      "url": "https://udn.com/news/story/6812/9706350",
+      "domain": "udn.com",
+      "language": "Chinese",
+      "tone": 0,
+      "seendate": "20260821T101500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "英氣象局 ： 聖嬰現象逾百年來最強 海面溫度恐空前高 | 國際",
+      "url": "https://www.cna.com.tw:443/news/aopl/202608210242.aspx",
+      "domain": "cna.com.tw",
+      "language": "Chinese",
+      "tone": 0,
+      "seendate": "20260821T103000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "El Nino có thể khiến năm 2027 nóng nhất lịch sử",
+      "url": "http://vov.vn/the-gioi/el-nino-co-the-bien-nam-2027-thanh-nam-nong-nhat-lich-su-post1325969.vov",
+      "domain": "vov.vn",
+      "language": "Vietnamese",
+      "tone": 0,
+      "seendate": "20260821T043000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "حتى  سفن الصحراء  تستسلم .. كيف هزم المناخ الحيوان الذي لا يُقهر ؟ ",
+      "url": "https://www.aljazeera.net/science/2026/8/21/%D8%AD%D8%AA%D9%89-%D8%B3%D9%81%D9%86-%D8%A7%D9%84%D8%B5%D8%AD%D8%B1%D8%A7%D8%A1-%D8%AA%D8%B3%D8%AA%D8%B3%D9%84%D9%85-%D9%83%D9%8A%D9%81-%D9%87%D8%B2%D9%85-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D8%AE",
+      "domain": "aljazeera.net",
+      "language": "Arabic",
+      "tone": 0,
+      "seendate": "20260821T104500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Farmer leadership contributes to expanding local banana varietal diversity in Barind",
+      "url": "https://www.bssnews.net/special-stories/416700",
+      "domain": "bssnews.net",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260821T090000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "英氣象局 ： 聖嬰現象逾百年來最強 海面溫度恐空前高 | 國際 | 三立新聞網 SETN . COM",
+      "url": "https://www.setn.com/news/1893310",
+      "domain": "setn.com",
+      "language": "Chinese",
+      "tone": 0,
+      "seendate": "20260821T133000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Ματ … Η Ρωσία σε 4 χρόνια θα έχει το απόλυτο υπερόπλο – Το 2030 η Ευρώπη δεν θα έχει να « φάει », ο μεγάλος κίνδυνος για Ελλάδα",
+      "url": "https://www.bankingnews.gr/diethni/articles/894852/mat-i-rosia-se-4-xronia-tha-exei-to-apolyto-yperoplo-to-2030-i-evropi-den-tha-exei-na-faei-o-megalos-kindynos-gia-ellada",
+      "domain": "bankingnews.gr",
+      "language": "Greek",
+      "tone": 0,
+      "seendate": "20260821T070000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Dürrehilfe kommt endlich : Notwendige Hilfe für NÖ Bauern – Landeshauptfrau drängt auf Auszahlung",
+      "url": "https://www.meinbezirk.at/niederoesterreich/c-politik/notwendige-hilfe-fuer-noe-bauern-landeshauptfrau-draengt-auf-auszahlung_a8860589",
+      "domain": "meinbezirk.at",
+      "language": "German",
+      "tone": 0,
+      "seendate": "20260821T164500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "  El Niño  elevaría temperaturas en México hasta  los límites de resistencia humana , según informe de la UNAM",
+      "url": "https://www.elimparcial.com/mexico/2026/08/20/el-nino-elevaria-temperaturas-en-mexico-hasta-los-limites-de-resistencia-humana-segun-informe-de-la-unam/",
+      "domain": "elimparcial.com",
+      "language": "Spanish",
+      "tone": 0,
+      "seendate": "20260820T223000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Russia  super seeds  push : Building an agricultural superpower as Europe faces food security risks",
+      "url": "https://www.bankingnews.gr/diethni/articles/894904/russia-s-super-seeds-push-building-an-agricultural-superpower-as-europe-faces-food-security-risks",
+      "domain": "bankingnews.gr",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260821T121500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "EXPLAINER - From floods to famine : What past El Nino disasters reveal about 2026 - 2",
+      "url": "https://aa.com.tr/en/environment/explainer-from-floods-to-famine-what-past-el-nino-disasters-reveal-about-2026-2/4033638",
+      "domain": "aa.com.tr",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260821T110000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "英國氣象局預警 ： 史上最強聖嬰現象將至 ， 全球嚴陣以待",
+      "url": "https://n.yam.com/Article/20260821823860",
+      "domain": "n.yam.com",
+      "language": "Chinese",
+      "tone": 0,
+      "seendate": "20260821T034500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "نشاط مكثف لوزارة الزراعة .. تحركات حكومية لتعزيز الإنتاج ودعم الأمن الغذائي",
+      "url": "https://www.dostor.org/5675079",
+      "domain": "dostor.org",
+      "language": "Arabic",
+      "tone": 0,
+      "seendate": "20260821T173000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "自由開講 》 防災新思維 從 「 等候救援 」 到 「 風險自主 」 ",
+      "url": "https://talk.ltn.com.tw/article/breakingnews/5538440",
+      "domain": "talk.ltn.com.tw",
+      "language": "Chinese",
+      "tone": 0,
+      "seendate": "20260821T103000Z",
+      "source": "GDELT"
+    }
+  ],
   "timeseries": [],
   "llm_summary": "Pending API key..."
 }
