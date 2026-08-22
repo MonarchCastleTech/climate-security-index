@@ -1,14 +1,14 @@
-# Climate Security Index Configuration
+﻿# Climate Security Index Configuration
 project:
   id: climate-security-index
   name: "Climate Security Index"
   description: "Compound climate-security risk scoring."
 
 openrouter:
-  model: "openrouter/free"
-  fallback_model: "openrouter/free"
+  model: "z-ai/glm-5.2:free"
+  fallback_model: "google/gemma-4-31b-it:free"
 
-gdelt_query: "climate drought food security"
+gdelt_query: "(climate OR drought OR "food security")"
 include_forex: true
 
 sources:
