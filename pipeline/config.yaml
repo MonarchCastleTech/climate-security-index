@@ -8,7 +8,7 @@ openrouter:
   model: "z-ai/glm-5.2:free"
   fallback_model: "google/gemma-4-31b-it:free"
 
-gdelt_query: "(climate OR drought OR "food security")"
+gdelt_query: "(climate OR drought OR famine OR agriculture)"
 include_forex: true
 
 sources:
