@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-08-23T13:08:58.445983+00:00",
+    "generated": "2026-08-23T18:56:40.371830+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -18,7 +18,7 @@
     },
     {
       "label": "News Domains",
-      "value": "45",
+      "value": "47",
       "delta": "deduplicated"
     },
     {
@@ -44,39 +44,12 @@
         "source": "GDELT"
       },
       {
-        "title": "Κλιματική αλλαγή : Πώς θα παράγουμε τροφή στο μέλλον",
-        "url": "https://www.skai.gr/news/environment/klimatiki-allagi-pos-tha-paragoume-trofi-sto-mellon",
-        "domain": "skai.gr",
-        "language": "Greek",
-        "tone": 0,
-        "seendate": "20260822T131500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Hitze und Dürre : Wie Landwirte unter dem Klimawandel leiden",
-        "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/landwirtschaft-milchwirtschaft-muss-sich-an-klimawandel-anpassen-konzepte-und-finanzierung-100.html",
-        "domain": "swr.de",
-        "language": "German",
-        "tone": 0,
-        "seendate": "20260822T163000Z",
-        "source": "GDELT"
-      },
-      {
         "title": "Nga thatësira te përmbytjet : Si po ndryshon klima dhe çfarë do të thotë për bujqësinë e Kosovës",
         "url": "https://www.zeri.info/ekonomia/634604/nga-thatesira-te-permbytjet-si-po-ndryshon-klima-dhe-cfare-do-te-thote-per-bujqesine-e-kosoves/",
         "domain": "zeri.info",
         "language": "Albanian",
         "tone": 0,
         "seendate": "20260823T120000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Kementerian PU menangani sebanyak 1 . 229 lokasi kekeringan",
-        "url": "https://www.antaranews.com/berita/5707129/kementerian-pu-menangani-sebanyak-1229-lokasi-kekeringan",
-        "domain": "antaranews.com",
-        "language": "Indonesian",
-        "tone": 0,
-        "seendate": "20260822T173000Z",
         "source": "GDELT"
       },
       {
@@ -90,11 +63,11 @@
       },
       {
         "title": "Nga thatësira te përmbytjet : Si po ndryshon klima dhe çfarë do të thotë për bujqësinë e Kosovës",
-        "url": "https://www.gazetaexpress.com/nga-thatesira-te-permbytjet-si-po-ndryshon-klima-dhe-cfare-do-te-thote-per-bujqesine-e-kosoves/",
-        "domain": "gazetaexpress.com",
+        "url": "https://kallxo.com/lajm/nga-thatesira-te-permbytjet-si-po-ndryshon-klima-dhe-cfare-do-te-thote-per-bujqesine-e-kosoves/",
+        "domain": "kallxo.com",
         "language": "Albanian",
         "tone": 0,
-        "seendate": "20260823T103000Z",
+        "seendate": "20260823T153000Z",
         "source": "GDELT"
       },
       {
@@ -107,12 +80,21 @@
         "source": "GDELT"
       },
       {
-        "title": "Klimawandel : Könnte Europa der globalen Erderwärmung entkommen ? ",
-        "url": "https://www.handelsblatt.com/politik/deutschland/klimawandel-koennte-europa-der-globalen-erderwaermung-entkommen/100240355.html",
-        "domain": "handelsblatt.com",
-        "language": "German",
+        "title": "Nga thatësira te përmbytjet : Si po ndryshon klima dhe çfarë do të thotë për bujqësinë e Kosovës",
+        "url": "https://www.gazetaexpress.com/nga-thatesira-te-permbytjet-si-po-ndryshon-klima-dhe-cfare-do-te-thote-per-bujqesine-e-kosoves/",
+        "domain": "gazetaexpress.com",
+        "language": "Albanian",
         "tone": 0,
-        "seendate": "20260822T153000Z",
+        "seendate": "20260823T103000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Seceta care schimbă regulile în Europa . Ce nu mai pot acoperi fondurile UE",
+        "url": "https://www.capital.ro/seceta-care-schimba-regulile-in-europa-ce-nu-mai-pot-acoperi-fondurile-ue.html",
+        "domain": "capital.ro",
+        "language": "Romanian",
+        "tone": 0,
+        "seendate": "20260823T181500Z",
         "source": "GDELT"
       },
       {
@@ -125,24 +107,6 @@
         "source": "GDELT"
       },
       {
-        "title": "Nataša Pirc Musar : Hrana ni samoumevna",
-        "url": "https://www.zurnal24.si/slovenija/natasa-pirc-musar-hrana-ni-samoumevna-464004",
-        "domain": "zurnal24.si",
-        "language": "Slovenian",
-        "tone": 0,
-        "seendate": "20260822T173000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Podle Babiše vláda sucho řeší , klimatickou změnu odmítl komentovat",
-        "url": "https://www.idnes.cz/zpravy/domaci/premier-andrej-babis-diskuze-sucho-spory-vlada.A260822_094835_domaci_vank",
-        "domain": "idnes.cz",
-        "language": "Czech",
-        "tone": 0,
-        "seendate": "20260822T143000Z",
-        "source": "GDELT"
-      },
-      {
         "title": "Klimawandel : Europas Heizung schwächelt – kommen kühlere statt heißere Sommer ? ",
         "url": "https://www.handelsblatt.com/politik/deutschland/klimawandel-europas-heizung-schwaechelt-kommen-kuehlere-statt-heissere-sommer/100240355.html",
         "domain": "handelsblatt.com",
@@ -152,21 +116,12 @@
         "source": "GDELT"
       },
       {
-        "title": "El fenómeno de El Niño 2026 impacta al agro brasileño con sequías e inundaciones",
-        "url": "https://www.cadena3.com/noticia/cadena-3-mundo/el-fenomeno-de-el-nino-2026-impacta-al-agro-brasileno-con-sequias-e-inundaciones_586106",
-        "domain": "cadena3.com",
-        "language": "Spanish",
+        "title": "Thatësira , nxehtësi dhe përmbytje , klima po godet bujqësinë në Kosovë",
+        "url": "https://telegrafi.com/thatesira-nxehtesi-dhe-permbytje-klima-po-godet-bujqesine-ne-kosove/",
+        "domain": "telegrafi.com",
+        "language": "Albanian",
         "tone": 0,
-        "seendate": "20260822T143000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Chiny mają 820 tys . ha szklarni . Tak budują bezpieczeństwo żywnościowe",
-        "url": "https://www.farmer.pl/fakty/chiny-maja-820-tys-ha-szklarni-tak-buduja-bezpieczenstwo-zywnosciowe,182057.html",
-        "domain": "farmer.pl",
-        "language": "Polish",
-        "tone": 0,
-        "seendate": "20260822T183000Z",
+        "seendate": "20260823T173000Z",
         "source": "GDELT"
       },
       {
@@ -188,30 +143,21 @@
         "source": "GDELT"
       },
       {
-        "title": "Kmetijski minister napovedal 8 , 1 milijona evrov pomoči kmetom zaradi višjih cen energentov in gnojil",
-        "url": "https://www.rtvslo.si/slovenija/kmetijski-minister-napovedal-8-1-milijona-evrov-pomoci-kmetom-zaradi-visjih-cen-energentov-in-gnojil/791620",
-        "domain": "rtvslo.si",
-        "language": "Slovenian",
+        "title": "Od suchej wiosny po 40 - stopniowe upały . Tak susza odbierała plon",
+        "url": "https://www.farmer.pl/produkcja-roslinna/od-suchej-wiosny-po-40-stopniowe-upaly-tak-susza-odbierala-plon,181189.html",
+        "domain": "farmer.pl",
+        "language": "Polish",
         "tone": 0,
-        "seendate": "20260822T181500Z",
+        "seendate": "20260823T183000Z",
         "source": "GDELT"
       },
       {
-        "title": " „ Vin flăcările spre tine și n - ai ce să faci ! Mesajul disperat al unei fermiere românce a pus pe jar internetul",
-        "url": "https://adevarul.ro/stiri-interne/societate/vin-flacarile-spre-tine-si-n-ai-ce-sa-faci-2551383.html",
-        "domain": "adevarul.ro",
-        "language": "Romanian",
-        "tone": 0,
-        "seendate": "20260822T163000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Strategi Kementan Percepat Swasembada Pangan Melalui Optimalisasi Lahan Rawa",
-        "url": "https://lampung.tribunnews.com/lampung/1216514/strategi-kementan-percepat-swasembada-pangan-melalui-optimalisasi-lahan-rawa",
-        "domain": "lampung.tribunnews.com",
+        "title": "Irigasi Sepanjang 2 , 4 Km Bantu Petani Cirebon Hadapi Kemarau",
+        "url": "https://rri.co.id/nasional/2674111/irigasi-sepanjang-24-km-bantu-petani-cirebon-hadapi-kemarau",
+        "domain": "rri.co.id",
         "language": "Indonesian",
         "tone": 0,
-        "seendate": "20260822T143000Z",
+        "seendate": "20260823T171500Z",
         "source": "GDELT"
       },
       {
@@ -224,39 +170,12 @@
         "source": "GDELT"
       },
       {
-        "title": "Agricoltura , Accademia Iniziativa Comune :  Siccità è problema prioritario da risolvere  ",
-        "url": "https://ilgiornaledellazio.it/agricoltura-accademia-iniziativa-comune-siccita-e-problema-prioritario-da-risolvere/",
-        "domain": "ilgiornaledellazio.it",
-        "language": "Italian",
-        "tone": 0,
-        "seendate": "20260822T151500Z",
-        "source": "GDELT"
-      },
-      {
         "title": "Barajlar doldu ama su riski sürüyor : Prof . Dr . Kadıoğlu uyardı",
         "url": "https://www.haberler.com/yerel/barajlarda-doluluk-artti-uzman-uyardi-iyi-bir-su-20169290-haberi/",
         "domain": "haberler.com",
         "language": "Turkish",
         "tone": 0,
         "seendate": "20260823T114500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Kemarau Panjang Bikin Petani Cemas , 1 . 400 Hektare Lahan Parigi Moutong Terdampak Kekeringan",
-        "url": "https://koran-jakarta.com/2026-08-22/kemarau-panjang-bikin-petani-cemas-1400-hektare-lahan-parigi-moutong-terdampak-kekeringan",
-        "domain": "koran-jakarta.com",
-        "language": "Indonesian",
-        "tone": 0,
-        "seendate": "20260822T160000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Vlada izdvaja više novca za investicije , navodnjavanje i preradu",
-        "url": "https://www.novosti.rs/ekonomija/poljoprivreda/1640534/velike-promene-srpske-poljoprivrednike-vlada-izdvaja-vise-novca-investicije-navodnjavanje-preradu",
-        "domain": "novosti.rs",
-        "language": "Serbian",
-        "tone": 0,
-        "seendate": "20260822T150000Z",
         "source": "GDELT"
       },
       {
@@ -269,6 +188,15 @@
         "source": "GDELT"
       },
       {
+        "title": "Nga thatësira te përmbytjet : Si po ndryshon klima dhe çfarë do të thotë për bujqësinë e Kosovës",
+        "url": "https://lajmpress.org/nga-thatesira-te-permbytjet-si-po-ndryshon-klima-dhe-cfare-do-te-thote-per-bujqesine-e-kosoves/",
+        "domain": "lajmpress.org",
+        "language": "Albanian",
+        "tone": 0,
+        "seendate": "20260823T153000Z",
+        "source": "GDELT"
+      },
+      {
         "title": "Lawn experts warn gardeners not to put one thing on your grass",
         "url": "https://www.express.co.uk/life-style/garden/2240661/lawn-experts-warn-gardeners",
         "domain": "express.co.uk",
@@ -278,39 +206,12 @@
         "source": "GDELT"
       },
       {
-        "title": "Tchad : 66 ans dindépendance , pourquoi lagriculture attend - elle encore la pluie ? ",
-        "url": "https://www.alwihdainfo.com/tchad-66-ans-dindependance-pourquoi-lagriculture-attend-elle-encore-la-pluie/",
-        "domain": "alwihdainfo.com",
-        "language": "French",
-        "tone": 0,
-        "seendate": "20260822T150000Z",
-        "source": "GDELT"
-      },
-      {
         "title": "Nga thatësira te përmbytjet : Si po ndryshon klima dhe çfarë do të thotë për bujqësinë e Kosovës",
         "url": "https://www.evropaelire.org/a/thatesira-permbytje-bujqesia-kosove/33835154.html",
         "domain": "evropaelire.org",
         "language": "Albanian",
         "tone": 0,
         "seendate": "20260823T120000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Äpfel fürs Klima : Streuobstwiesen können mehr",
-        "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/aepfel-fuers-klima-streuobstwiesen-koennen-mehr,streuobstwiesen-100.html",
-        "domain": "ndr.de",
-        "language": "German",
-        "tone": 0,
-        "seendate": "20260822T134500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Sudan farms lie barren as El Nino leaves Nile banks dry",
-        "url": "https://www.africanews.com/2026/08/22/sudan-farms-lie-barren-as-el-nino-leaves-nile-banks-dry/",
-        "domain": "africanews.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260822T174500Z",
         "source": "GDELT"
       },
       {
@@ -329,6 +230,24 @@
         "language": "Albanian",
         "tone": 0,
         "seendate": "20260823T120000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Nga thatësira te përmbytjet : Si po ndryshon klima dhe çfarë do të thotë për bujqësinë e Kosovës – TV News",
+        "url": "https://tvnews.mk/2026/08/23/nga-thatesira-te-permbytjet-si-po-ndryshon-klima-dhe-cfare-do-te-thote-per-bujqesine-e-kosoves/",
+        "domain": "tvnews.mk",
+        "language": "Albanian",
+        "tone": 0,
+        "seendate": "20260823T153000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "La sequía y los recortes de la ayuda internacional ponen a Somalia al borde de una nueva catástrofe humanitaria :  El riesgo de hambruna es serio  ",
+        "url": "https://www.elperiodico.com/es/internacional/20260823/sequia-recortes-ayuda-internacional-somalia-hambruna-133588153",
+        "domain": "elperiodico.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260823T150000Z",
         "source": "GDELT"
       },
       {
@@ -359,6 +278,15 @@
         "source": "GDELT"
       },
       {
+        "title": "La sequía y los recortes de la ayuda internacional ponen a Somalia al borde de una nueva catástrofe humanitaria :  El riesgo de hambruna es serio  ",
+        "url": "https://www.laprovincia.es/mundo/2026/08/23/sequia-recortes-ayuda-internacional-somalia-hambruna-133588157.html",
+        "domain": "laprovincia.es",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260823T134500Z",
+        "source": "GDELT"
+      },
+      {
         "title": "Isabel , ganadera :  Las vacas , en días de calor , dan un 30 por ciento menos de leche ; no estamos preparados para afrontar estas transformaciones climáticas  ",
         "url": "https://www.cope.es/programas/agropopular/audios/isabel-ganadera-vacas-dias-calor-dan-30-ciento-leche-no-preparados-afrontar-transformaciones-climaticas-20260823_3423575.html",
         "domain": "cope.es",
@@ -368,39 +296,21 @@
         "source": "GDELT"
       },
       {
-        "title": "Heatwaves , drought put European agriculture under mounting pressure",
-        "url": "http://www.europesun.com/news/279258012/heatwaves-drought-put-european-agriculture-under-mounting-pressure",
-        "domain": "europesun.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260822T143000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Heatwaves , drought put European agriculture under mounting pressure",
-        "url": "http://www.parisguardian.com/news/279258012/heatwaves-drought-put-european-agriculture-under-mounting-pressure",
-        "domain": "parisguardian.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260822T153000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Heatwaves , drought put European agriculture under mounting pressure",
-        "url": "http://www.greekherald.com/news/279258012/heatwaves-drought-put-european-agriculture-under-mounting-pressure",
-        "domain": "greekherald.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260822T150000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "El Niño causará CALOR histórico en México 2027 | Fechas y dónde - Grupo Milenio",
-        "url": "https://www.milenio.com/el-clima/calor-historico-en-mexico-2027-el-nino-fechas-y-zonas-con-sequias-smn",
-        "domain": "milenio.com",
+        "title": "La sequía y los recortes de la ayuda internacional ponen a Somalia al borde de una nueva catástrofe humanitaria :  El riesgo de hambruna es serio  ",
+        "url": "https://www.elperiodicoextremadura.com/internacional/2026/08/23/sequia-recortes-ayuda-internacional-somalia-hambruna-133588168.html",
+        "domain": "elperiodicoextremadura.com",
         "language": "Spanish",
         "tone": 0,
-        "seendate": "20260822T183000Z",
+        "seendate": "20260823T164500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Janša : Pri zagotavljanju prihodnosti kmetijstva niso ključna le sredstva , ampak predvsem ljudje",
+        "url": "https://www.rtvslo.si/slovenija/jansa-pri-zagotavljanju-prihodnosti-kmetijstva-niso-kljucna-le-sredstva-ampak-predvsem-ljudje/791672",
+        "domain": "rtvslo.si",
+        "language": "Slovenian",
+        "tone": 0,
+        "seendate": "20260823T133000Z",
         "source": "GDELT"
       },
       {
@@ -413,30 +323,12 @@
         "source": "GDELT"
       },
       {
-        "title": "Economic Watch : Heatwaves , drought put European agriculture under mounting pressure - Xinhua",
-        "url": "https://english.news.cn/20260822/20d21dc1181c4746b48f6e272446e017/c.html",
-        "domain": "english.news.cn",
-        "language": "English",
+        "title": "Janša na Agri : Kmetijstvo je tudi strateška infrastruktura države",
+        "url": "https://siol.net/novice/slovenija/jansa-na-agri-kmetijstvo-je-tudi-strateska-infrastruktura-drzave-699621",
+        "domain": "siol.net",
+        "language": "Slovenian",
         "tone": 0,
-        "seendate": "20260822T134500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Economic Watch : Heatwaves , drought put European agriculture under mounting pressure - Xinhua",
-        "url": "https://english.news.cn/europe/20260822/00e9424833144affad3946228dbb8bfc/c.html",
-        "domain": "english.news.cn",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260822T134500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Economic Watch : Heatwaves , drought put European agriculture under mounting pressure",
-        "url": "http://www.greekherald.com/news/279257987/economic-watch-heatwaves-drought-put-european-agriculture-under-mounting-pressure",
-        "domain": "greekherald.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260822T150000Z",
+        "seendate": "20260823T150000Z",
         "source": "GDELT"
       },
       {
@@ -458,21 +350,21 @@
         "source": "GDELT"
       },
       {
-        "title": "Comisionado residente Pablo José Hernández solicita para Puerto Rico declaración federal de emergencia agrícola ante la sequía",
-        "url": "https://eldiariony.com/2026/08/22/comisionado-residente-pablo-jose-hernandez-solicita-para-puerto-rico-declaracion-federal-de-emergencia-agricola-ante-la-sequia/",
-        "domain": "eldiariony.com",
-        "language": "Spanish",
+        "title": "全国肥料  双交会  为内蒙古旱区农业注入科创活水 - 新闻中心 - 内蒙古新闻网",
+        "url": "https://inews.nmgnews.com.cn/system/2026/08/23/030389647.shtml",
+        "domain": "inews.nmgnews.com.cn",
+        "language": "Chinese",
         "tone": 0,
-        "seendate": "20260822T134500Z",
+        "seendate": "20260823T010000Z",
         "source": "GDELT"
       },
       {
-        "title": "FPÖ – Schnedlitz : „ Wenn ÖVP - Landesparteien und Landeshauptleute nicht sofort eingreifen , sind alle mitschuldig ! ",
-        "url": "https://www.ots.at/presseaussendung/OTS_20260822_OTS0016/fpoe-schnedlitz-wenn-oevp-landesparteien-und-landeshauptleute-nicht-sofort-eingreifen-sind-alle-mitschuldig",
-        "domain": "ots.at",
-        "language": "German",
+        "title": "Danau Semayang di Kukar Surut , Warga Ramai - ramai Tanam Padi , Tradisi Sejak 1982",
+        "url": "https://kaltim.tribunnews.com/tribun-etam/1162589/danau-semayang-di-kukar-surut-warga-ramai-ramai-tanam-padi-tradisi-sejak-1982",
+        "domain": "kaltim.tribunnews.com",
+        "language": "Indonesian",
         "tone": 0,
-        "seendate": "20260822T150000Z",
+        "seendate": "20260823T014500Z",
         "source": "GDELT"
       },
       {
@@ -482,6 +374,114 @@
         "language": "Chinese",
         "tone": 0,
         "seendate": "20260823T061500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Apa , noua resursă de război : regiunile aflate în pragul dezastrului",
+        "url": "https://adevarul.ro/stiri-externe/in-lume/apa-noua-resursa-de-razboi-regiunile-aflate-in-2551600.html",
+        "domain": "adevarul.ro",
+        "language": "Romanian",
+        "tone": 0,
+        "seendate": "20260823T171500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Massive water cuts imposed on three Colorado River states as rates continue to plunge",
+        "url": "https://www.aol.com/articles/massive-water-cuts-imposed-three-173215000.html",
+        "domain": "aol.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260822T193000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "70 proc . gleb w Europie jest w złym stanie . Rolnictwo ma coraz większy problem",
+        "url": "https://www.farmer.pl/produkcja-roslinna/70-proc-gleb-w-europie-jest-w-zlym-stanie-rolnictwo-ma-coraz-wiekszy-problem,182189.html",
+        "domain": "farmer.pl",
+        "language": "Polish",
+        "tone": 0,
+        "seendate": "20260823T080000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Putin hedefi açıkladı !  Pandoranın kutusunu açtı , bizi beklesinler  ",
+        "url": "https://www.internethaber.com/putin-hedefi-acikladi-pandoranin-kutusunu-acti-bizi-beklesinler-2456311h.htm",
+        "domain": "internethaber.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260823T071500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Унгарија останува без вода : Сушата ги оголи езерата и повторно го откри „ Каменот на гладот  ",
+        "url": "https://republika.mk/vesti/svet/ungarija-ostanuva-bez-voda-sushata-gi-ogoli-ezerata-i-povtorno-go-otkri-kamenot-na-gladot/",
+        "domain": "republika.mk",
+        "language": "Macedonian",
+        "tone": 0,
+        "seendate": "20260823T183000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Plan estatal de agua Texas enfrenta desafíos en Corpus Christi",
+        "url": "http://www.elmanana.com/texas/estados-unidos/plan-estatal-de-agua-texas-enfrenta-desafios-en-corpus-christi/6176883",
+        "domain": "elmanana.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260823T181500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Agricultores y ganaderos pueden solicitar desde ya asistencia por sequía - NotiCel - La verdad como es - Noticias de Puerto Rico",
+        "url": "https://noticel.com/noticias/20260823/agricultores-y-ganaderos-pueden-solicitar-desde-ya-asistencia-por-sequia/",
+        "domain": "noticel.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260823T183000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Agricultores y ganaderos pueden solicitar desde ya asistencia por sequía - NotiCel - La verdad como es - Noticias de Puerto Rico",
+        "url": "https://noticel.com/en/noticias/20260823/agricultores-y-ganaderos-pueden-solicitar-desde-ya-asistencia-por-sequia/",
+        "domain": "noticel.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260823T183000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Fotovoltaika celosvětově zdvojnásobí objem výroby každé tři roky",
+        "url": "https://www.ceskenoviny.cz/zpravy/fotovoltaika-celosvetove-zdvojnasobi-objem-vyroby-kazde-tri-roky/2865061",
+        "domain": "ceskenoviny.cz",
+        "language": "Czech",
+        "tone": 0,
+        "seendate": "20260823T133000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Temperature , cosa accadrà in autunno ? ",
+        "url": "https://www.infodata.ilsole24ore.com/2026/08/22/temperature-cosa-accadra-in-autunno/",
+        "domain": "infodata.ilsole24ore.com",
+        "language": "Italian",
+        "tone": 0,
+        "seendate": "20260822T193000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "El calor extremo en Europa dispara las muertes y cambia nuestra forma de vivir",
+        "url": "https://www.ecoticias.com/cambio-climatico/calor-extremo-en-europa-muertes-cambio-climatico",
+        "domain": "ecoticias.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260823T121500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "إندونيسيا تتخذ إجراءات لمواجهة الجفاف في 1229 موقعا وسط ظاهرة النينو",
+        "url": "https://www.shorouknews.com/news/view.aspx?cdate=23082026&id=6d062fed-450a-418a-9ea9-b810a15d8767",
+        "domain": "shorouknews.com",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260823T080000Z",
         "source": "GDELT"
       }
     ],
@@ -580,39 +580,12 @@
       "source": "GDELT"
     },
     {
-      "title": "Κλιματική αλλαγή : Πώς θα παράγουμε τροφή στο μέλλον",
-      "url": "https://www.skai.gr/news/environment/klimatiki-allagi-pos-tha-paragoume-trofi-sto-mellon",
-      "domain": "skai.gr",
-      "language": "Greek",
-      "tone": 0,
-      "seendate": "20260822T131500Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Hitze und Dürre : Wie Landwirte unter dem Klimawandel leiden",
-      "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/landwirtschaft-milchwirtschaft-muss-sich-an-klimawandel-anpassen-konzepte-und-finanzierung-100.html",
-      "domain": "swr.de",
-      "language": "German",
-      "tone": 0,
-      "seendate": "20260822T163000Z",
-      "source": "GDELT"
-    },
-    {
       "title": "Nga thatësira te përmbytjet : Si po ndryshon klima dhe çfarë do të thotë për bujqësinë e Kosovës",
       "url": "https://www.zeri.info/ekonomia/634604/nga-thatesira-te-permbytjet-si-po-ndryshon-klima-dhe-cfare-do-te-thote-per-bujqesine-e-kosoves/",
       "domain": "zeri.info",
       "language": "Albanian",
       "tone": 0,
       "seendate": "20260823T120000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Kementerian PU menangani sebanyak 1 . 229 lokasi kekeringan",
-      "url": "https://www.antaranews.com/berita/5707129/kementerian-pu-menangani-sebanyak-1229-lokasi-kekeringan",
-      "domain": "antaranews.com",
-      "language": "Indonesian",
-      "tone": 0,
-      "seendate": "20260822T173000Z",
       "source": "GDELT"
     },
     {
@@ -626,11 +599,11 @@
     },
     {
       "title": "Nga thatësira te përmbytjet : Si po ndryshon klima dhe çfarë do të thotë për bujqësinë e Kosovës",
-      "url": "https://www.gazetaexpress.com/nga-thatesira-te-permbytjet-si-po-ndryshon-klima-dhe-cfare-do-te-thote-per-bujqesine-e-kosoves/",
-      "domain": "gazetaexpress.com",
+      "url": "https://kallxo.com/lajm/nga-thatesira-te-permbytjet-si-po-ndryshon-klima-dhe-cfare-do-te-thote-per-bujqesine-e-kosoves/",
+      "domain": "kallxo.com",
       "language": "Albanian",
       "tone": 0,
-      "seendate": "20260823T103000Z",
+      "seendate": "20260823T153000Z",
       "source": "GDELT"
     },
     {
@@ -643,12 +616,21 @@
       "source": "GDELT"
     },
     {
-      "title": "Klimawandel : Könnte Europa der globalen Erderwärmung entkommen ? ",
-      "url": "https://www.handelsblatt.com/politik/deutschland/klimawandel-koennte-europa-der-globalen-erderwaermung-entkommen/100240355.html",
-      "domain": "handelsblatt.com",
-      "language": "German",
+      "title": "Nga thatësira te përmbytjet : Si po ndryshon klima dhe çfarë do të thotë për bujqësinë e Kosovës",
+      "url": "https://www.gazetaexpress.com/nga-thatesira-te-permbytjet-si-po-ndryshon-klima-dhe-cfare-do-te-thote-per-bujqesine-e-kosoves/",
+      "domain": "gazetaexpress.com",
+      "language": "Albanian",
       "tone": 0,
-      "seendate": "20260822T153000Z",
+      "seendate": "20260823T103000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Seceta care schimbă regulile în Europa . Ce nu mai pot acoperi fondurile UE",
+      "url": "https://www.capital.ro/seceta-care-schimba-regulile-in-europa-ce-nu-mai-pot-acoperi-fondurile-ue.html",
+      "domain": "capital.ro",
+      "language": "Romanian",
+      "tone": 0,
+      "seendate": "20260823T181500Z",
       "source": "GDELT"
     },
     {
@@ -661,24 +643,6 @@
       "source": "GDELT"
     },
     {
-      "title": "Nataša Pirc Musar : Hrana ni samoumevna",
-      "url": "https://www.zurnal24.si/slovenija/natasa-pirc-musar-hrana-ni-samoumevna-464004",
-      "domain": "zurnal24.si",
-      "language": "Slovenian",
-      "tone": 0,
-      "seendate": "20260822T173000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "Podle Babiše vláda sucho řeší , klimatickou změnu odmítl komentovat",
-      "url": "https://www.idnes.cz/zpravy/domaci/premier-andrej-babis-diskuze-sucho-spory-vlada.A260822_094835_domaci_vank",
-      "domain": "idnes.cz",
-      "language": "Czech",
-      "tone": 0,
-      "seendate": "20260822T143000Z",
-      "source": "GDELT"
-    },
-    {
       "title": "Klimawandel : Europas Heizung schwächelt – kommen kühlere statt heißere Sommer ? ",
       "url": "https://www.handelsblatt.com/politik/deutschland/klimawandel-europas-heizung-schwaechelt-kommen-kuehlere-statt-heissere-sommer/100240355.html",
       "domain": "handelsblatt.com",
@@ -688,21 +652,57 @@
       "source": "GDELT"
     },
     {
-      "title": "El fenómeno de El Niño 2026 impacta al agro brasileño con sequías e inundaciones",
-      "url": "https://www.cadena3.com/noticia/cadena-3-mundo/el-fenomeno-de-el-nino-2026-impacta-al-agro-brasileno-con-sequias-e-inundaciones_586106",
-      "domain": "cadena3.com",
-      "language": "Spanish",
+      "title": "Thatësira , nxehtësi dhe përmbytje , klima po godet bujqësinë në Kosovë",
+      "url": "https://telegrafi.com/thatesira-nxehtesi-dhe-permbytje-klima-po-godet-bujqesine-ne-kosove/",
+      "domain": "telegrafi.com",
+      "language": "Albanian",
       "tone": 0,
-      "seendate": "20260822T143000Z",
+      "seendate": "20260823T173000Z",
       "source": "GDELT"
     },
     {
-      "title": "Chiny mają 820 tys . ha szklarni . Tak budują bezpieczeństwo żywnościowe",
-      "url": "https://www.farmer.pl/fakty/chiny-maja-820-tys-ha-szklarni-tak-buduja-bezpieczenstwo-zywnosciowe,182057.html",
+      "title": "ALARM U HRVATSKOJ : Poljoprivreda pred slomom zbog klimatskih nepogoda , hrana bi mogla biti skuplja za 40 posto",
+      "url": "https://www.slobodna-bosna.ba/vijest/501462/alarm_u_hrvatskoj_poljoprivreda_pred_slomom_zbog_klimatskih_nepogoda_hrana_bi_mogla_biti_skuplja_za_40_posto.html",
+      "domain": "slobodna-bosna.ba",
+      "language": "Croatian",
+      "tone": 0,
+      "seendate": "20260823T120000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "KemenPU Tangani 1 . 229 Titik Kekeringan : 41 Ribu Hektar Sawah & 616 Ribu Jiwa Terbantu",
+      "url": "https://koran-jakarta.com/2026-08-23/kemenpu-tangani-1229-titik-kekeringan-el-nino-41-ribu-hektar-sawah-616-ribu-jiwa-terbantu",
+      "domain": "koran-jakarta.com",
+      "language": "Indonesian",
+      "tone": 0,
+      "seendate": "20260823T033000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Od suchej wiosny po 40 - stopniowe upały . Tak susza odbierała plon",
+      "url": "https://www.farmer.pl/produkcja-roslinna/od-suchej-wiosny-po-40-stopniowe-upaly-tak-susza-odbierala-plon,181189.html",
       "domain": "farmer.pl",
       "language": "Polish",
       "tone": 0,
-      "seendate": "20260822T183000Z",
+      "seendate": "20260823T183000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Irigasi Sepanjang 2 , 4 Km Bantu Petani Cirebon Hadapi Kemarau",
+      "url": "https://rri.co.id/nasional/2674111/irigasi-sepanjang-24-km-bantu-petani-cirebon-hadapi-kemarau",
+      "domain": "rri.co.id",
+      "language": "Indonesian",
+      "tone": 0,
+      "seendate": "20260823T171500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Κλιματική αλλαγή : Πώς θα παράγουμε τροφή στο μέλλον",
+      "url": "https://www.skaikritis.gr/klimatiki-allagi-pos-tha-paragoume-trofi-sto-mellon/",
+      "domain": "skaikritis.gr",
+      "language": "Greek",
+      "tone": 0,
+      "seendate": "20260822T193000Z",
       "source": "GDELT"
     }
   ],
