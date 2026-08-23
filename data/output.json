@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-08-23T02:09:35.878316+00:00",
+    "generated": "2026-08-23T07:09:55.930179+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -71,21 +71,21 @@
         "source": "GDELT"
       },
       {
-        "title": "多地高温干旱 欧洲经济进一步承压",
-        "url": "https://baijiahao.baidu.com/s?id=1874103337060602582",
-        "domain": "baijiahao.baidu.com",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260822T044500Z",
-        "source": "GDELT"
-      },
-      {
         "title": "Kementerian PU menangani sebanyak 1 . 229 lokasi kekeringan",
         "url": "https://www.antaranews.com/berita/5707129/kementerian-pu-menangani-sebanyak-1229-lokasi-kekeringan",
         "domain": "antaranews.com",
         "language": "Indonesian",
         "tone": 0,
         "seendate": "20260822T173000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "The silence before the storm | Capital Newspaper",
+        "url": "https://capitalethiopia.com/2026/08/23/the-silence-before-the-storm/",
+        "domain": "capitalethiopia.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260823T050000Z",
         "source": "GDELT"
       },
       {
@@ -107,12 +107,12 @@
         "source": "GDELT"
       },
       {
-        "title": "Ministrstvo obljublja pospešitev izplačil , dolgoročno več za preventivo",
-        "url": "https://www.delo.si/novice/okolje/ministrstvo-obljublja-pospesitev-izplacil-dolgorocno-vec-za-preventivo",
-        "domain": "delo.si",
-        "language": "Slovenian",
+        "title": "PU Tangani 1 . 229 Lokasi Kekeringan Akibat El Nino",
+        "url": "https://www.tempo.co/ekonomi/pu-tangani-1-229-lokasi-kekeringan-el-nino-2283443",
+        "domain": "tempo.co",
+        "language": "Indonesian",
         "tone": 0,
-        "seendate": "20260822T053000Z",
+        "seendate": "20260823T061500Z",
         "source": "GDELT"
       },
       {
@@ -143,15 +143,6 @@
         "source": "GDELT"
       },
       {
-        "title": "V ospredju letošnjega sejma Agra izzivi kmetovanja v senci podnebnih sprememb",
-        "url": "https://www.rtvslo.si/okolje/kmetijstvo/v-ospredju-letosnjega-sejma-agra-izzivi-kmetovanja-v-senci-podnebnih-sprememb/791577",
-        "domain": "rtvslo.si",
-        "language": "Slovenian",
-        "tone": 0,
-        "seendate": "20260822T061500Z",
-        "source": "GDELT"
-      },
-      {
         "title": "El fenómeno de El Niño 2026 impacta al agro brasileño con sequías e inundaciones",
         "url": "https://www.cadena3.com/noticia/mundo/el-fenomeno-de-el-nino-2026-impacta-al-agro-brasileno-con-sequias-e-inundaciones_586106",
         "domain": "cadena3.com",
@@ -179,21 +170,21 @@
         "source": "GDELT"
       },
       {
+        "title": "KemenPU Tangani 1 . 229 Titik Kekeringan : 41 Ribu Hektar Sawah & 616 Ribu Jiwa Terbantu",
+        "url": "https://koran-jakarta.com/2026-08-23/kemenpu-tangani-1229-titik-kekeringan-el-nino-41-ribu-hektar-sawah-616-ribu-jiwa-terbantu",
+        "domain": "koran-jakarta.com",
+        "language": "Indonesian",
+        "tone": 0,
+        "seendate": "20260823T033000Z",
+        "source": "GDELT"
+      },
+      {
         "title": "LEuropa medievale travolta da 16 alluvioni in due anni : la nuova ricostruzione che riscrive la storia climatica del continente",
         "url": "https://www.imgpress.it/stracult/leuropa-medievale-travolta-da-16-alluvioni-in-due-anni-la-nuova-ricostruzione-che-riscrive-la-storia-climatica-del-continente/",
         "domain": "imgpress.it",
         "language": "Italian",
         "tone": 0,
         "seendate": "20260822T123000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "In Hitze - Arena streiten Grüne und SVP , doch andere machen Eindruck",
-        "url": "https://www.watson.ch/schweiz/reviews/334639926-in-hitze-arena-streiten-gruene-und-svp-doch-andere-machen-eindruck",
-        "domain": "watson.ch",
-        "language": "German",
-        "tone": 0,
-        "seendate": "20260822T053000Z",
         "source": "GDELT"
       },
       {
@@ -230,15 +221,6 @@
         "language": "Romanian",
         "tone": 0,
         "seendate": "20260822T084500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "La sequía en Hungría revela el costo del drenaje de sus recursos hídricos",
-        "url": "https://www.cadena3.com/noticia/mundo/la-sequia-en-hungria-revela-el-costo-del-drenaje-de-sus-recursos-hidricos_586058",
-        "domain": "cadena3.com",
-        "language": "Spanish",
-        "tone": 0,
-        "seendate": "20260822T040000Z",
         "source": "GDELT"
       },
       {
@@ -341,30 +323,12 @@
         "source": "GDELT"
       },
       {
-        "title": "Una nueva política forestal para un país que ya no puede esperar",
-        "url": "https://www.prensalibre.com/opinion/columnasdiarias/una-nueva-politica-forestal-para-un-pais-que-ya-no-puede-esperar/",
-        "domain": "prensalibre.com",
-        "language": "Spanish",
+        "title": "高温影响苹果采收 意大利农业面临气候挑战",
+        "url": "https://world.qianlong.com/2026/0823/8716204.shtml",
+        "domain": "world.qianlong.com",
+        "language": "Chinese",
         "tone": 0,
-        "seendate": "20260822T064500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Sudan farms lie barren as El Nino leaves Nile banks dry",
-        "url": "https://www.yahoo.com/news/science/articles/sudan-farms-lie-barren-el-032502020.html",
-        "domain": "yahoo.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260822T040000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Sudan Farms Lie Barren as El Nino Leaves Nile Banks Dry",
-        "url": "https://english.aawsat.com/arab-world/5309769-sudan-farms-lie-barren-el-nino-leaves-nile-banks-dry",
-        "domain": "english.aawsat.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260822T060000Z",
+        "seendate": "20260823T040000Z",
         "source": "GDELT"
       },
       {
@@ -392,33 +356,6 @@
         "language": "English",
         "tone": 0,
         "seendate": "20260822T174500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Somalia faces another hunger crisis and the UN food agency head says it has far less funds to help",
-        "url": "https://www.twincities.com/2026/08/20/somalia-faces-another-hunger-crisis-and-the-un-food-agency-head-says-it-has-far-less-funds-to-help/",
-        "domain": "twincities.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260822T023000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Danau Semayang di Kukar Surut , Warga Ramai - ramai Tanam Padi , Tradisi Sejak 1982",
-        "url": "https://kaltim.tribunnews.com/tribun-etam/1162589/danau-semayang-di-kukar-surut-warga-ramai-ramai-tanam-padi-tradisi-sejak-1982",
-        "domain": "kaltim.tribunnews.com",
-        "language": "Indonesian",
-        "tone": 0,
-        "seendate": "20260823T014500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "全国肥料  双交会  为内蒙古旱区农业注入科创活水 - 新闻中心 - 内蒙古新闻网",
-        "url": "https://inews.nmgnews.com.cn/system/2026/08/23/030389647.shtml",
-        "domain": "inews.nmgnews.com.cn",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260823T010000Z",
         "source": "GDELT"
       },
       {
@@ -467,21 +404,84 @@
         "source": "GDELT"
       },
       {
-        "title": "Crisi climatica e danni Pioggia battente e vento Scoperchiata una palazzina",
-        "url": "https://www.zazoom.it/2026-08-22/crisi-climatica-e-danni-pioggia-battente-e-vento-scoperchiata-una-palazzina/19592713/",
-        "domain": "zazoom.it",
-        "language": "Italian",
+        "title": "خبير مناخ : استصلاح الأراضي المتدهورة يتطلب تمويلًا وتكنولوجيا وإرادة دولية",
+        "url": "https://www.dostor.org/5675743",
+        "domain": "dostor.org",
+        "language": "Arabic",
         "tone": 0,
-        "seendate": "20260822T040000Z",
+        "seendate": "20260822T103000Z",
         "source": "GDELT"
       },
       {
-        "title": "El Nino bi lahko bil najmočnejši v več kot stoletju",
-        "url": "https://primorske.si/svet/el-nino-bi-lahko-bil-najmocnejsi-v-vec-kot-stoletju/",
-        "domain": "primorske.si",
-        "language": "Slovenian",
+        "title": "Dürre , Hitze , Waldbrände : Der Bundeskanzler und der Preis des Wartens",
+        "url": "https://www.tagesspiegel.de/politik/durre-hitze-waldbrande-der-bundeskanzler-und-der-preis-des-wartens-15971001.html",
+        "domain": "tagesspiegel.de",
+        "language": "German",
         "tone": 0,
-        "seendate": "20260822T053000Z",
+        "seendate": "20260822T124500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Staatshilfen nach Erntekatastrophe ? Leser hin - und hergerissen",
+        "url": "https://www.topagrar.com/management-und-politik/news/staatshilfen-nach-erntekatastrophe-leser-hin-und-hergerissen-20028429.html",
+        "domain": "topagrar.com",
+        "language": "German",
+        "tone": 0,
+        "seendate": "20260822T081500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Vláda chce podle Šebestyána letos navýšit částku na boj se suchem",
+        "url": "https://www.ceskenoviny.cz/zpravy/vlada-chce-podle-sebestyana-letos-navysit-castku-na-boj-se-suchem/2864797",
+        "domain": "ceskenoviny.cz",
+        "language": "Czech",
+        "tone": 0,
+        "seendate": "20260822T114500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Economic Watch : Heatwaves , drought put European agriculture under mounting pressure",
+        "url": "http://www.bignewsnetwork.com/news/279257987/economic-watch-heatwaves-drought-put-european-agriculture-under-mounting-pressure",
+        "domain": "bignewsnetwork.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260822T123000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Economic Watch : Heatwaves , drought put European agriculture under mounting pressure - Xinhua",
+        "url": "https://english.news.cn/20260822/20d21dc1181c4746b48f6e272446e017/c.html",
+        "domain": "english.news.cn",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260822T134500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Economic Watch : Heatwaves , drought put European agriculture under mounting pressure - Xinhua",
+        "url": "https://english.news.cn/europe/20260822/00e9424833144affad3946228dbb8bfc/c.html",
+        "domain": "english.news.cn",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260822T134500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Economic Watch : Heatwaves , drought put European agriculture under mounting pressure",
+        "url": "http://www.greekherald.com/news/279257987/economic-watch-heatwaves-drought-put-european-agriculture-under-mounting-pressure",
+        "domain": "greekherald.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260822T150000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "EE . UU . declara zonas de desastre en las Islas Vírgenes ante la severa sequía",
+        "url": "https://eldiariony.com/2026/08/22/ee-uu-declara-zonas-de-desastre-en-las-islas-virgenes-ante-la-severa-sequia/",
+        "domain": "eldiariony.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260822T230000Z",
         "source": "GDELT"
       }
     ],
@@ -607,21 +607,21 @@
       "source": "GDELT"
     },
     {
-      "title": "多地高温干旱 欧洲经济进一步承压",
-      "url": "https://baijiahao.baidu.com/s?id=1874103337060602582",
-      "domain": "baijiahao.baidu.com",
-      "language": "Chinese",
-      "tone": 0,
-      "seendate": "20260822T044500Z",
-      "source": "GDELT"
-    },
-    {
       "title": "Kementerian PU menangani sebanyak 1 . 229 lokasi kekeringan",
       "url": "https://www.antaranews.com/berita/5707129/kementerian-pu-menangani-sebanyak-1229-lokasi-kekeringan",
       "domain": "antaranews.com",
       "language": "Indonesian",
       "tone": 0,
       "seendate": "20260822T173000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "The silence before the storm | Capital Newspaper",
+      "url": "https://capitalethiopia.com/2026/08/23/the-silence-before-the-storm/",
+      "domain": "capitalethiopia.com",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260823T050000Z",
       "source": "GDELT"
     },
     {
@@ -643,12 +643,12 @@
       "source": "GDELT"
     },
     {
-      "title": "Ministrstvo obljublja pospešitev izplačil , dolgoročno več za preventivo",
-      "url": "https://www.delo.si/novice/okolje/ministrstvo-obljublja-pospesitev-izplacil-dolgorocno-vec-za-preventivo",
-      "domain": "delo.si",
-      "language": "Slovenian",
+      "title": "PU Tangani 1 . 229 Lokasi Kekeringan Akibat El Nino",
+      "url": "https://www.tempo.co/ekonomi/pu-tangani-1-229-lokasi-kekeringan-el-nino-2283443",
+      "domain": "tempo.co",
+      "language": "Indonesian",
       "tone": 0,
-      "seendate": "20260822T053000Z",
+      "seendate": "20260823T061500Z",
       "source": "GDELT"
     },
     {
@@ -679,15 +679,6 @@
       "source": "GDELT"
     },
     {
-      "title": "V ospredju letošnjega sejma Agra izzivi kmetovanja v senci podnebnih sprememb",
-      "url": "https://www.rtvslo.si/okolje/kmetijstvo/v-ospredju-letosnjega-sejma-agra-izzivi-kmetovanja-v-senci-podnebnih-sprememb/791577",
-      "domain": "rtvslo.si",
-      "language": "Slovenian",
-      "tone": 0,
-      "seendate": "20260822T061500Z",
-      "source": "GDELT"
-    },
-    {
       "title": "El fenómeno de El Niño 2026 impacta al agro brasileño con sequías e inundaciones",
       "url": "https://www.cadena3.com/noticia/mundo/el-fenomeno-de-el-nino-2026-impacta-al-agro-brasileno-con-sequias-e-inundaciones_586106",
       "domain": "cadena3.com",
@@ -703,6 +694,15 @@
       "language": "Spanish",
       "tone": 0,
       "seendate": "20260822T143000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Chiny mają 820 tys . ha szklarni . Tak budują bezpieczeństwo żywnościowe",
+      "url": "https://www.farmer.pl/fakty/chiny-maja-820-tys-ha-szklarni-tak-buduja-bezpieczenstwo-zywnosciowe,182057.html",
+      "domain": "farmer.pl",
+      "language": "Polish",
+      "tone": 0,
+      "seendate": "20260822T183000Z",
       "source": "GDELT"
     }
   ],
