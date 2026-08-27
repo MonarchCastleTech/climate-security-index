@@ -2,7 +2,11 @@
 
 [![Pages](https://github.com/MonarchCastleTech/climate-security-index/actions/workflows/pipeline.yml/badge.svg)](https://github.com/MonarchCastleTech/climate-security-index/actions/workflows/pipeline.yml)
 
-Compound climate and security risk indicators from open data.
+Autonomous public-data early warning for climate-security pressure over a 0–90 day horizon. This is not a conflict, famine, displacement, or casualty forecast.
+
+The reproducible score combines NASA POWER agroclimate stress (35%), GDACS multi-hazard impact pressure (25%), NASA EONET event persistence (20%), and FAO food-price pressure (20%). Missing components are excluded and weights renormalized. A five-point concurrence bonus requires climate evidence plus independent food-price elevation.
+
+GitHub Actions runs every six hours, tests before refresh, caches sources for at most 72 hours, preserves last-good output on total physical-source failure, commits compact accepted snapshots, and deploys GitHub Pages. Formulae and evidence are published in `data/output.json`.
 
 **Live dashboard:** https://monarchcastletech.github.io/climate-security-index/
 

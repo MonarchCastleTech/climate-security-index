@@ -1,134 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Climate Security Index &mdash; MCT Intelligence</title>
-  <meta name="description" content="Compound climate and security risk indicators from open data.">
-  <meta name="theme-color" content="#071522">
-  <link rel="canonical" href="https://monarchcastletech.github.io/climate-security-index/">
-  <link rel="icon" href="assets/product-logo.svg?v=2" type="image/svg+xml">
-  <meta property="og:title" content="Climate Security Index">
-  <meta property="og:description" content="Compound climate and security risk indicators from open data.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://monarchcastletech.github.io/climate-security-index/">
-  <meta property="og:image" content="https://monarchcastletech.github.io/climate-security-index/assets/mct-mark.png">
-  <link rel="stylesheet" href="assets/style.css">
-</head>
-<body data-project="climate-security-index">
-  <a class="skip-link" href="#overview">Skip to dashboard</a>
-  <header class="header">
-    <div class="header-brand">
-      <img class="brand-mark" src="assets/mct-mark.png" alt="Monarch Castle Technologies">
-      <img class="product-logo" src="assets/product-logo.svg?v=2" alt="Climate Security Index">
-      <div>
-        <h1 class="visually-hidden">Climate Security Index</h1>
-      </div>
-    </div>
-    <div class="header-meta">
-      <div class="live-dot"></div>
-      <span id="data-mode">Auto-refresh: 6h</span>
-      <span>|</span>
-      <span>Generated: <span id="generated-time">&mdash;</span></span>
-    </div>
-  </header>
-
-  <nav class="nav-tabs" aria-label="Dashboard sections">
-    <a class="nav-tab active" href="#overview">Overview</a>
-    <a class="nav-tab" href="#map">Map</a>
-    <a class="nav-tab" href="#llm-summary">Analysis</a>
-    <a class="nav-tab" href="#sources">Sources</a>
-  </nav>
-
-  <main class="main" id="overview">
-    <div class="alert alert-info" id="status-message">
-      <strong>Intelligence Status:</strong> Compound climate-security risk scoring: drought, food stress, conflict history.
-    </div>
-
-    <div class="stat-grid" id="stat-grid"></div>
-
-    <div class="grid grid-map">
-      <div>
-        <div class="card">
-          <div class="card-header">
-            <div>
-              <div class="card-title">Global Activity Map</div>
-              <div class="card-subtitle">Geolocated coverage Â· updates every 6 hours</div>
-            </div>
-          </div>
-          <div class="map-container" id="map"></div>
-        </div>
-
-        <div class="card" style="margin-top:1.5rem">
-          <div class="card-header">
-            <div>
-              <div class="card-title">Trend Analysis</div>
-              <div class="card-subtitle">Signal activity by hour Â· current snapshot</div>
-            </div>
-          </div>
-          <div class="chart-container" id="timeseries-chart"></div>
-        </div>
-      </div>
-
-      <div class="sidebar">
-        <div class="card">
-          <div class="card-header">
-            <div>
-              <div class="card-title">Source Activity</div>
-              <div class="card-subtitle">Domains ranked by signal count</div>
-            </div>
-          </div>
-          <table class="data-table">
-            <thead>
-              <tr><th>Source</th><th>Tone</th><th>Signals</th><th>Share</th></tr>
-            </thead>
-            <tbody id="entity-rows">
-            </tbody>
-          </table>
-        </div>
-
-        <div class="card">
-          <div class="card-header">
-            <div>
-              <div class="card-title">Recent Events</div>
-              <div class="card-subtitle">Last 24 hours</div>
-            </div>
-          </div>
-          <div id="event-list"></div>
-        </div>
-
-        
-
-        <div class="card">
-          <div class="card-header">
-            <div class="card-title">AI Analysis</div>
-          </div>
-          <div id="llm-summary" style="font-size:0.8125rem;color:var(--text-secondary)">
-            <p>Automated analyst brief will appear here once the next data refresh completes.</p>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-header">
-            <div class="card-title" id="sources">Data Sources</div>
-          </div>
-              <div id="source-tags">
-        <span class="tag-source">Copernicus Sentinel</span>
-              <span class="tag-source">CHIRPS</span>
-              <span class="tag-source">FEWS NET</span>
-              <span class="tag-source">SPEI</span>
-              <span class="tag-source">ACLED</span>
-      </div>
-      </div>
-      </div>
-    </div>
-  </main>
-
-  <footer class="footer">
-    <p>Climate Security Index &mdash; <a href="https://monarchcastletech.github.io/">Monarch Castle Technologies</a></p>
-    <p style="margin-top:0.5rem">Auto-refreshed every 6 hours via GitHub Actions &bull; Source data available in <code>data/</code></p>
-  </footer>
-
-  <script src="assets/app.js"></script>
-</body>
-</html>
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Climate Security Index — MCT Intelligence</title><meta name="description" content="Autonomous public-data early warning for climate-security pressure."><meta name="theme-color" content="#071522">
+  <link rel="canonical" href="https://monarchcastletech.github.io/climate-security-index/"><link rel="icon" href="assets/product-logo.svg?v=4" type="image/svg+xml"><link rel="stylesheet" href="assets/style.css?v=4">
+</head><body data-project="climate-security-index">
+<a class="skip-link" href="#overview">Skip to dashboard</a>
+<header class="header"><div class="header-brand"><img class="brand-mark" src="assets/mct-mark.png" alt="Monarch Castle Technologies"><img class="product-logo" src="assets/product-logo.svg?v=4" alt="Climate Security Index"><h1 class="visually-hidden">Climate Security Index</h1></div><div class="header-meta"><i class="live-dot"></i><span id="data-mode">Loading</span><span>·</span><span id="generated-time">—</span></div></header>
+<nav class="nav-tabs" aria-label="Dashboard sections"><a class="nav-tab active" href="#overview">Early Warning</a><a class="nav-tab" href="#signals">Signals</a><a class="nav-tab" href="#methodology">Methodology</a><a class="nav-tab" href="#sources">Sources</a></nav>
+<main class="main" id="overview">
+  <section class="warning-lead card" aria-labelledby="warning-title"><div><p class="warning-kicker">0–90 day public-data outlook</p><h2 id="warning-title">Climate-security pressure</h2><p class="warning-deck">Agroclimate stress, multi-hazard impact, persistent natural events, and global food-price pressure. Not a conflict, famine, displacement, or casualty forecast.</p></div><div class="warning-score"><strong id="warning-score">—</strong><span>/100</span><b id="warning-level">LOADING</b></div><div class="warning-meta"><div><span>Confidence</span><strong id="warning-confidence">—</strong></div><div><span>Forecast horizon</span><strong id="warning-horizon">—</strong></div><div><span>Cross-domain concurrence</span><strong id="warning-concurrence">—</strong></div><div><span>Data health</span><strong id="warning-health">—</strong></div></div><div class="warning-components" id="warning-components"></div></section>
+  <div class="stat-grid" id="stat-grid"></div>
+  <section class="grid grid-map" id="signals"><div>
+    <div class="card"><div class="card-header"><div><div class="card-title">Agroclimate Sentinel Radar</div><div class="card-subtitle">Latest 30 days against five matched annual windows</div></div></div><div id="sentinel-radar" class="radar-list"></div></div>
+    <div class="card chart-card"><div class="card-header"><div><div class="card-title">Warning History</div><div class="card-subtitle">Accepted autonomous runs · 0–100 scale</div></div></div><div class="chart-container" id="timeseries-chart"></div></div>
+  </div><aside class="sidebar">
+    <div class="card"><div class="card-header"><div><div class="card-title">Food-Price Pressure</div><div class="card-subtitle">FAO nominal global indices</div></div></div><div id="fao-pressure"></div></div>
+    <div class="card"><div class="card-header"><div><div class="card-title">Active Alerts</div><div class="card-subtitle">Components above watch threshold</div></div></div><div id="warning-alerts"></div></div>
+    <div class="card"><div class="card-header"><div><div class="card-title">Current Evidence</div><div class="card-subtitle">NASA, GDACS, and FAO observations</div></div></div><div id="event-list"></div></div>
+  </aside></section>
+  <section class="methodology" id="methodology"><p class="warning-kicker">Reproducible by design</p><h2>Methodology</h2><p>The index estimates public climate-security pressure over the next 0–90 days. It does not predict conflict or humanitarian outcomes. Inputs are public and rules are fixed before each run.</p><div class="method-grid">
+    <article><strong>35%</strong><h3>Agroclimate stress</h3><p>Thirty-day rainfall and maximum-temperature anomalies at eight exposed agricultural/pastoral sentinels versus five matched annual windows from NASA POWER.</p></article>
+    <article><strong>25%</strong><h3>GDACS impact pressure</h3><p>Green, orange, and red multi-hazard alerts, weighted by level and cross-border reach, against a rolling 12-month robust baseline.</p></article>
+    <article><strong>20%</strong><h3>EONET persistence</h3><p>NASA-curated floods, storms, wildfires, drought and related events; open status, category and reported magnitude shape the score.</p></article>
+    <article><strong>20%</strong><h3>Food-price pressure</h3><p>Three-month changes and robust anomalies in FAO headline, cereals, and vegetable-oil indices, with year-on-year context.</p></article>
+  </div><div class="method-note"><strong>Aggregation.</strong> Available components are reweighted to 100%. A five-point bonus requires both elevated climate evidence and the independent FAO price component. This prevents NASA EONET and GDACS overlap from earning multiple bonuses.</div><div class="method-note"><strong>Autonomy.</strong> Sources cache for no more than 72 hours; recent validated components bridge temporary outages. Total physical-source failure preserves the last-good publication. Compact public snapshots avoid repository bloat.</div><div class="method-note"><strong>Reproduction.</strong> GitHub Actions runs every six hours, executes tests, commits accepted output, and deploys the same data shown here. Formulae, evidence, scores, and URLs are in <a href="data/output.json">data/output.json</a>.</div></section>
+  <section class="card sources-card" id="sources"><div class="card-header"><div><div class="card-title">Primary Sources</div><div class="card-subtitle">Official climate, disaster, and food-price data</div></div></div><div class="source-links"><a href="https://power.larc.nasa.gov/docs/services/api/temporal/daily/">NASA POWER</a><a href="https://eonet.gsfc.nasa.gov/docs/v3">NASA EONET</a><a href="https://www.gdacs.org/">GDACS</a><a href="https://www.fao.org/worldfoodsituation/foodpricesindex/en/">FAO Food Price Index</a></div></section>
+</main><footer class="footer"><p>Climate Security Index — <a href="https://monarchcastletech.github.io/">Monarch Castle Technologies</a></p><p>Autonomous six-hour refresh · public methodology · versioned source snapshots</p></footer><script src="assets/app.js?v=4"></script></body></html>

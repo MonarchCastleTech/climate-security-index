@@ -1,26 +1,12 @@
-﻿# Climate Security Index Configuration
 project:
   id: climate-security-index
   name: "Climate Security Index"
-  description: "Compound climate-security risk scoring."
-
-openrouter:
-  model: "nvidia/nemotron-3-super-120b-a12b:free"
-  fallback_model: "z-ai/glm-5.2:free"
-
-news_query: "(climate OR drought OR famine OR agriculture)"
-include_forex: true
-
+  description: "Public-data early warning for climate-security pressure."
 sources:
-  - name: "Google News RSS"
-
+  - name: "NASA POWER Daily API"
+  - name: "NASA EONET v3"
+  - name: "GDACS"
+  - name: "FAO Food Price Index"
 refresh:
   interval_hours: 6
-  retry_attempts: 3
-
-scoring:
-  scale: "1-10"
-  thresholds:
-    high: 7
-    medium: 4
-    low: 0
+  retry_attempts: 5

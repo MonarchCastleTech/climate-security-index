@@ -2,8 +2,133 @@
 """Shared data fetchers for MCT Intelligence projects."""
 import os
 import json
+import csv
+import io
 import requests
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone, timedelta
+from pathlib import Path
+
+CACHE_MAX_AGE = timedelta(hours=72)
+
+
+def _cache_path(name):
+    root = Path(os.path.expanduser("~")) / ".cache" / "climate-security-index"
+    root.mkdir(parents=True, exist_ok=True)
+    return root / f"{name}.json"
+
+
+def _read_recent_cache(name):
+    try:
+        payload = json.loads(_cache_path(name).read_text(encoding="utf-8"))
+        fetched = datetime.fromisoformat(str(payload.get("fetched_at", "")).replace("Z", "+00:00"))
+        if fetched.tzinfo is None:
+            fetched = fetched.replace(tzinfo=timezone.utc)
+        if timedelta(0) <= datetime.now(timezone.utc) - fetched <= CACHE_MAX_AGE:
+            return payload.get("data")
+    except (OSError, ValueError, json.JSONDecodeError):
+        pass
+    return None
+
+
+def _write_cache(name, data):
+    _cache_path(name).write_text(json.dumps({"fetched_at": datetime.now(timezone.utc).isoformat(), "data": data}), encoding="utf-8")
+
+
+def _cached_request(name, fetcher):
+    try:
+        data = fetcher()
+        if not data:
+            raise ValueError(f"{name} returned no data")
+        data["cached"] = False
+        _write_cache(name, data)
+        return data
+    except Exception as exc:
+        print(f"[{name.upper()}] Error: {exc}")
+        cached = _read_recent_cache(name)
+        if cached:
+            cached["cached"] = True
+            return cached
+        return {}
+
+
+def fetch_nasa_eonet():
+    """Fetch 120 days of curated NASA EONET natural-event metadata."""
+    def fetch():
+        response = requests.get("https://eonet.gsfc.nasa.gov/api/v3/events", params={"status": "all", "days": 120, "limit": 1000}, timeout=40, headers={"User-Agent": "climate-security-index/2.0"})
+        response.raise_for_status()
+        events = response.json().get("events", [])
+        return {"events": events, "count": len(events)}
+    return _cached_request("nasa-eonet", fetch)
+
+
+def fetch_gdacs_events():
+    """Fetch current and archive GDACS GeoJSON alerts."""
+    def fetch():
+        base = "https://www.gdacs.org/contentdata/xml/"
+        with ThreadPoolExecutor(max_workers=2) as executor:
+            payloads = list(executor.map(lambda name: requests.get(base + name, timeout=45, headers={"User-Agent": "climate-security-index/2.0"}), ["gdacs_app_feed.json", "gdacs_archive.geojson"]))
+        for response in payloads:
+            response.raise_for_status()
+        rows = [feature for response in payloads for feature in response.json().get("features", [])]
+        deduplicated = {}
+        for feature in rows:
+            props = feature.get("properties", {})
+            key = f"{props.get('eventtype')}|{props.get('eventid')}|{props.get('episodeid')}"
+            deduplicated[key] = feature
+        return {"features": list(deduplicated.values()), "count": len(deduplicated)}
+    return _cached_request("gdacs", fetch)
+
+
+def fetch_fao_food_prices():
+    """Fetch official monthly nominal FAO food-price indices."""
+    def fetch():
+        url = "https://www.fao.org/media/docs/worldfoodsituationlibraries/default-document-library/food_price_indices_data.csv?download=true"
+        response = requests.get(url, timeout=45, headers={"User-Agent": "climate-security-index/2.0"})
+        response.raise_for_status()
+        lines = response.content.decode("latin-1").splitlines()
+        reader = csv.DictReader(io.StringIO("\n".join(lines[2:])))
+        rows = []
+        for row in reader:
+            if not row.get("Date") or not row.get("Food Price Index"):
+                continue
+            try:
+                rows.append({key: (row[key] if key == "Date" else float(row[key])) for key in ("Date", "Food Price Index", "Meat", "Dairy", "Cereals", "Oils", "Sugar")})
+            except (ValueError, TypeError):
+                continue
+        return {"rows": rows, "source_url": url}
+    return _cached_request("fao-food-prices", fetch)
+
+
+CLIMATE_SENTINELS = {
+    "Somalia pastoral belt": (5.0, 45.3), "Ethiopia lowlands": (8.0, 40.0),
+    "Sahel west": (14.5, -1.5), "Lake Chad basin": (12.5, 14.5),
+    "Sudan grain belt": (13.5, 33.5), "Afghanistan drylands": (34.0, 65.0),
+    "Pakistan Indus": (29.0, 70.5), "Central America dry corridor": (14.0, -88.5),
+}
+
+
+def _fetch_power_point(item):
+    name, (lat, lon) = item
+    now = datetime.now(timezone.utc)
+    response = requests.get("https://power.larc.nasa.gov/api/temporal/daily/point", params={
+        "parameters": "PRECTOTCORR,T2M_MAX", "community": "AG", "longitude": lon, "latitude": lat,
+        "start": f"{now.year - 5}0101", "end": now.strftime("%Y%m%d"), "format": "JSON", "time-standard": "UTC",
+    }, timeout=70, headers={"User-Agent": "climate-security-index/2.0"})
+    response.raise_for_status()
+    parameters = response.json().get("properties", {}).get("parameter", {})
+    return {"name": name, "lat": lat, "lon": lon, "precipitation": parameters.get("PRECTOTCORR", {}), "temperature_max": parameters.get("T2M_MAX", {})}
+
+
+def fetch_nasa_power_sentinels():
+    """Fetch five-year daily agroclimate history for fixed exposed regions."""
+    def fetch():
+        with ThreadPoolExecutor(max_workers=4) as executor:
+            points = list(executor.map(_fetch_power_point, CLIMATE_SENTINELS.items()))
+        if len(points) < 6:
+            raise ValueError("insufficient NASA POWER sentinel coverage")
+        return {"points": points, "count": len(points)}
+    return _cached_request("nasa-power", fetch)
 
 def fetch_nasa_firms(api_key=None, region="world", days=1):
     """Fetch NASA FIRMS fire/thermal anomaly data."""

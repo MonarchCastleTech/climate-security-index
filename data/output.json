@@ -1,711 +1,5323 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-08-27T10:03:41.718651+00:00",
+    "generated": "2026-08-27T21:35:47.121236+00:00",
     "mode": "live",
     "sources": [
-      "news_articles",
-      "exchange_rates"
+      "NASA POWER Daily API",
+      "NASA EONET v3",
+      "GDACS",
+      "FAO Food Price Index"
     ],
     "source_notes": [],
-    "version": "1.2.0"
+    "version": "2.0.0"
   },
-  "stats": [
-    {
-      "label": "Articles Tracked",
-      "value": "50",
-      "delta": "live"
-    },
-    {
-      "label": "News Domains",
-      "value": "44",
-      "delta": "deduplicated"
-    },
-    {
-      "label": "Tone Index",
-      "value": "50/100 (neutral)",
-      "delta": "news scale"
-    },
-    {
-      "label": "Live Feeds",
-      "value": "2",
-      "delta": "connected"
-    }
-  ],
-  "live_data": {
-    "news_articles": [
+  "early_warning": {
+    "issued_at": "2026-08-27T21:35:46.372460+00:00",
+    "horizon": "0-90 days",
+    "classification": "climate-security-pressure-not-conflict-or-famine-probability",
+    "score": 63.4,
+    "level": "ELEVATED",
+    "confidence": "HIGH",
+    "confidence_score": 100.0,
+    "components": [
       {
-        "title": "A Blow to U.S. Agriculture",
-        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB0M2J1ZEJyOWM1R0Z6ejZaQWR1c3VENGU0SFJ6ZGhzYUMyTnVUX2NNcmhPeEFOcXczSHNPT1dpLTRlTVJQaW5WWktLYkVJMUtHY3N6WXhBbHptdnhHTHZCMlJwZnI4OXB4?oc=5",
-        "domain": "americanfarmbureaufederation",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T021400Z",
-        "source": "GoogleNews"
+        "id": "agroclimate_stress",
+        "label": "NASA POWER agroclimate stress",
+        "available": true,
+        "score": 96.6,
+        "sentinels_available": 8,
+        "sentinels": [
+          {
+            "name": "Sahel west",
+            "lat": 14.5,
+            "lon": -1.5,
+            "score": 100.0,
+            "rain_30d_mm": 73.3,
+            "rain_ratio": 0.39,
+            "max_temp_c": 38.7,
+            "heat_anomaly_c": 6.1,
+            "observed_through": "2026-08-25"
+          },
+          {
+            "name": "Sudan grain belt",
+            "lat": 13.5,
+            "lon": 33.5,
+            "score": 100.0,
+            "rain_30d_mm": 113.3,
+            "rain_ratio": 0.41,
+            "max_temp_c": 35.8,
+            "heat_anomaly_c": 7.2,
+            "observed_through": "2026-08-25"
+          },
+          {
+            "name": "Lake Chad basin",
+            "lat": 12.5,
+            "lon": 14.5,
+            "score": 89.7,
+            "rain_30d_mm": 109.9,
+            "rain_ratio": 0.41,
+            "max_temp_c": 36.3,
+            "heat_anomaly_c": 4.9,
+            "observed_through": "2026-08-25"
+          },
+          {
+            "name": "Pakistan Indus",
+            "lat": 29.0,
+            "lon": 70.5,
+            "score": 87.3,
+            "rain_30d_mm": 28.1,
+            "rain_ratio": 0.28,
+            "max_temp_c": 43.4,
+            "heat_anomaly_c": 3.7,
+            "observed_through": "2026-08-25"
+          },
+          {
+            "name": "Ethiopia lowlands",
+            "lat": 8.0,
+            "lon": 40.0,
+            "score": 79.0,
+            "rain_30d_mm": 84.3,
+            "rain_ratio": 0.39,
+            "max_temp_c": 27.1,
+            "heat_anomaly_c": 3.6,
+            "observed_through": "2026-08-25"
+          },
+          {
+            "name": "Somalia pastoral belt",
+            "lat": 5.0,
+            "lon": 45.3,
+            "score": 73.1,
+            "rain_30d_mm": 2.2,
+            "rain_ratio": 0.13,
+            "max_temp_c": 35.5,
+            "heat_anomaly_c": 1.2,
+            "observed_through": "2026-08-25"
+          },
+          {
+            "name": "Afghanistan drylands",
+            "lat": 34.0,
+            "lon": 65.0,
+            "score": 69.2,
+            "rain_30d_mm": 0.0,
+            "rain_ratio": 0.01,
+            "max_temp_c": 27.8,
+            "heat_anomaly_c": -0.1,
+            "observed_through": "2026-08-25"
+          },
+          {
+            "name": "Central America dry corridor",
+            "lat": 14.0,
+            "lon": -88.5,
+            "score": 56.0,
+            "rain_30d_mm": 119.7,
+            "rain_ratio": 0.62,
+            "max_temp_c": 32.4,
+            "heat_anomaly_c": 3.0,
+            "observed_through": "2026-08-25"
+          }
+        ],
+        "evidence": [
+          {
+            "name": "Sahel west",
+            "lat": 14.5,
+            "lon": -1.5,
+            "score": 100.0,
+            "rain_30d_mm": 73.3,
+            "rain_ratio": 0.39,
+            "max_temp_c": 38.7,
+            "heat_anomaly_c": 6.1,
+            "observed_through": "2026-08-25"
+          },
+          {
+            "name": "Sudan grain belt",
+            "lat": 13.5,
+            "lon": 33.5,
+            "score": 100.0,
+            "rain_30d_mm": 113.3,
+            "rain_ratio": 0.41,
+            "max_temp_c": 35.8,
+            "heat_anomaly_c": 7.2,
+            "observed_through": "2026-08-25"
+          },
+          {
+            "name": "Lake Chad basin",
+            "lat": 12.5,
+            "lon": 14.5,
+            "score": 89.7,
+            "rain_30d_mm": 109.9,
+            "rain_ratio": 0.41,
+            "max_temp_c": 36.3,
+            "heat_anomaly_c": 4.9,
+            "observed_through": "2026-08-25"
+          }
+        ],
+        "retained": false
       },
       {
-        "title": "West Point Climate Professor Says He Was Fired for Refusing to ‘Defy Science’",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORFVsZTVOTU1oTXpSUGMtbkxaUjRFbWhSZlQ5R1dXbjRwWlNpX3RfVkRrS01aRVhsQm91c280QXhQOVhuVG0tU25rTFhvY3N1S19DeWdURDg2a0NlYk03cF9SeGQ4QUJjOEllVzFtU29ySXBSbXRxYkFYMy1oaF9TYmdOWEZUTGxicW5NWUR5Rm5wZw?oc=5",
-        "domain": "thenewyorktimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260826T230357Z",
-        "source": "GoogleNews"
+        "id": "gdacs_impact_pressure",
+        "label": "GDACS multi-hazard impact pressure",
+        "available": true,
+        "score": 60.0,
+        "current_30d_weight": 219.1,
+        "baseline_months": 12,
+        "baseline_median": 44.1,
+        "anomaly_z": 4.9,
+        "events_considered": 192,
+        "evidence": [
+          {
+            "id": "EQ|1558059",
+            "title": "Earthquake in Indonesia",
+            "date": "2026-08-14T21:58:21+00:00",
+            "alert_level": "Red",
+            "event_type": "EQ",
+            "country": "Indonesia",
+            "weight": 20.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1558059&episodeid=1725109&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1557236",
+            "title": "Earthquake in Colombia",
+            "date": "2026-08-10T12:34:28+00:00",
+            "alert_level": "Red",
+            "event_type": "EQ",
+            "country": "Colombia",
+            "weight": 20.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1557236&episodeid=1724218&eventtype=EQ"
+          },
+          {
+            "id": "TC|1001305",
+            "title": "Tropical Cyclone SAUDEL-26",
+            "date": "2026-08-18T12:00:00+00:00",
+            "alert_level": "Orange",
+            "event_type": "TC",
+            "country": "Japan, China, Northern Mariana Islands",
+            "weight": 9.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=38&eventtype=TC"
+          },
+          {
+            "id": "FL|1104121",
+            "title": "Flood in India",
+            "date": "2026-08-09T01:00:00+00:00",
+            "alert_level": "Orange",
+            "event_type": "FL",
+            "country": "India",
+            "weight": 8.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1104121&episodeid=2&eventtype=FL"
+          },
+          {
+            "id": "FL|1104123",
+            "title": "Flood in China",
+            "date": "2026-08-22T01:00:00+00:00",
+            "alert_level": "Orange",
+            "event_type": "FL",
+            "country": "China",
+            "weight": 8.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1104123&episodeid=4&eventtype=FL"
+          },
+          {
+            "id": "FL|1104081",
+            "title": "Flood in China",
+            "date": "2026-07-31T01:00:00+00:00",
+            "alert_level": "Orange",
+            "event_type": "FL",
+            "country": "China",
+            "weight": 8.0,
+            "url": "no reportlink found"
+          },
+          {
+            "id": "WF|1030252",
+            "title": "Forest fires in Serbia",
+            "date": "2026-08-05T00:00:00+00:00",
+            "alert_level": "Orange",
+            "event_type": "WF",
+            "country": "Serbia",
+            "weight": 8.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1030252&episodeid=40&eventtype=WF"
+          },
+          {
+            "id": "WF|1030410",
+            "title": "Forest fires in Spain",
+            "date": "2026-08-10T00:00:00+00:00",
+            "alert_level": "Orange",
+            "event_type": "WF",
+            "country": "Spain",
+            "weight": 8.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1030410&episodeid=23&eventtype=WF"
+          },
+          {
+            "id": "WF|1030534",
+            "title": "Forest fires in Belgium",
+            "date": "2026-08-14T00:00:00+00:00",
+            "alert_level": "Orange",
+            "event_type": "WF",
+            "country": "Belgium",
+            "weight": 8.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
+          },
+          {
+            "id": "EQ|1556215",
+            "title": "Earthquake in Philippines",
+            "date": "2026-08-05T04:14:06+00:00",
+            "alert_level": "Orange",
+            "event_type": "EQ",
+            "country": "Philippines",
+            "weight": 8.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1556215&episodeid=1723078&eventtype=EQ"
+          },
+          {
+            "id": "WF|1029987",
+            "title": "Forest fires in Greece",
+            "date": "2026-07-31T00:00:00+00:00",
+            "alert_level": "Orange",
+            "event_type": "WF",
+            "country": "Greece",
+            "weight": 8.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1029987&episodeid=18&eventtype=WF"
+          },
+          {
+            "id": "WF|1029958",
+            "title": "Forest fires in Greece",
+            "date": "2026-07-30T00:00:00+00:00",
+            "alert_level": "Orange",
+            "event_type": "WF",
+            "country": "Greece",
+            "weight": 8.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1029958&episodeid=4&eventtype=WF"
+          },
+          {
+            "id": "TC|1001313",
+            "title": "Tropical Cyclone DOLLY-26",
+            "date": "2026-08-27T15:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "Guadeloupe, Antigua and Barbuda, Montserrat",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001313&episodeid=2&eventtype=TC"
+          },
+          {
+            "id": "EQ|1562205",
+            "title": "Earthquake in Eastern Gulf Of Aden",
+            "date": "2026-08-27T21:07:38+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Eastern Gulf Of Aden",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1562205&episodeid=1729645&eventtype=EQ"
+          },
+          {
+            "id": "TC|1001314",
+            "title": "Tropical Cyclone KARINA-26",
+            "date": "2026-08-27T21:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=1&eventtype=TC"
+          }
+        ],
+        "retained": false
       },
       {
-        "title": "From Perception to Action: How Art is Reshaping Climate Narratives",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNFdsYUlEenZXdG5jcUc0U1ltTW1ZMlRXd3dGWnBPRDZXX1pfcFdpSmhjNDR5djN2UGxXSmlZb1lmQkRoc01VNk5RMWl3WGFzOHBuUks2X21TUjhXeGg3ZXRxNVJOMGptbFZTQ05oN3lKQXJvbTlfM0d5aWZ4dnlyYUl2eU1NYWRvQk5ZR09RZ2NpMlE?oc=5",
-        "domain": "unesco",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T073000Z",
-        "source": "GoogleNews"
+        "id": "eonet_hazard_persistence",
+        "label": "NASA EONET hazard persistence",
+        "available": true,
+        "score": 56.0,
+        "current_30d_weight": 3728.4,
+        "baseline_median": 0.0,
+        "anomaly_z": 3728.43,
+        "events_considered": 1000,
+        "evidence": [
+          {
+            "id": "EONET_23452",
+            "title": "Wildfire Ross, Palo Pinto, Texas",
+            "date": "2026-08-24T14:12:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.8,
+            "url": "https://irwin.doi.gov/observer/incidents/2026-TXTXS-267549"
+          },
+          {
+            "id": "EONET_23214",
+            "title": "Wildfire Colwash, Yakima, Washington",
+            "date": "2026-08-22T11:33:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.6,
+            "url": "https://irwin.doi.gov/observer/incidents/2026-WAYAA-000090"
+          },
+          {
+            "id": "EONET_22612",
+            "title": "Wildfire Stallion, Washoe, Nevada",
+            "date": "2026-08-10T13:31:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.6,
+            "url": "https://irwin.doi.gov/observer/incidents/2026-NVTMFX-030698"
+          },
+          {
+            "id": "EONET_22426",
+            "title": "Wildfire NUNAMAKER ROAD, Franklin, Washington",
+            "date": "2026-08-08T14:16:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.5,
+            "url": "https://irwin.doi.gov/observer/incidents/2026-WASPD-260605"
+          },
+          {
+            "id": "EONET_23456",
+            "title": "Wildfire MUSTANG, Malheur, Oregon",
+            "date": "2026-08-25T16:04:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.4,
+            "url": "https://irwin.doi.gov/observer/incidents/2026-ORVAD-260267"
+          },
+          {
+            "id": "EONET_23218",
+            "title": "Wildfire Hawk, Washoe, Nevada",
+            "date": "2026-08-22T14:45:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.4,
+            "url": "https://irwin.doi.gov/observer/incidents/2026-NVRNOX-030739"
+          },
+          {
+            "id": "EONET_23460",
+            "title": "Wildfire Hawk, Washoe, Nevada",
+            "date": "2026-08-22T14:45:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.4,
+            "url": "https://irwin.doi.gov/observer/incidents/2026-NVTMFX-030739"
+          },
+          {
+            "id": "EONET_23224",
+            "title": "Wildfire Chipmunk, Miami-Dade, Florida",
+            "date": "2026-08-21T15:40:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.4,
+            "url": "https://irwin.doi.gov/observer/incidents/2026-FLEVP-002565"
+          },
+          {
+            "id": "EONET_22432",
+            "title": "Wildfire Bug, Lassen, California",
+            "date": "2026-08-08T18:49:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.4,
+            "url": "https://irwin.doi.gov/observer/incidents/2026-NVCCD-030683"
+          },
+          {
+            "id": "EONET_23453",
+            "title": "Wildfire Calico, Humboldt, Nevada",
+            "date": "2026-08-26T17:29:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.3,
+            "url": "https://irwin.doi.gov/observer/incidents/2026-NVHTF-020624"
+          },
+          {
+            "id": "EONET_23457",
+            "title": "Wildfire S-1 VYA, Washoe, Nevada",
+            "date": "2026-08-24T17:03:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.3,
+            "url": "https://irwin.doi.gov/observer/incidents/2026-CANOD-005304"
+          },
+          {
+            "id": "EONET_23458",
+            "title": "Wildfire Oxley, Elko, Nevada",
+            "date": "2026-08-24T14:12:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.3,
+            "url": "https://irwin.doi.gov/observer/incidents/2026-NVEKD-010515"
+          },
+          {
+            "id": "EONET_23451",
+            "title": "Wildfire Camp Creek, Powell, Montana",
+            "date": "2026-08-21T19:25:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.2,
+            "url": "https://irwin.doi.gov/observer/incidents/2026-MTFNF-000393"
+          },
+          {
+            "id": "EONET_23222",
+            "title": "Wildfire Movie Dome, Miami-Dade, Florida",
+            "date": "2026-08-19T19:42:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.2,
+            "url": "https://irwin.doi.gov/observer/incidents/2026-FLEVP-002542"
+          },
+          {
+            "id": "EONET_23379",
+            "title": "Wildfire in Mozambique 1031134",
+            "date": "2026-08-16T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.2,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031134"
+          }
+        ],
+        "retained": false
       },
       {
-        "title": "US declares drought disaster for parts of Puerto Rico as dry conditions persist",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcDVBUHJsQjF4T3ZRU1RrY3lVVnJjTEZSQ0pleGNicWxoREM0WGota0pWMDZQeU1yWkpfOVdBZ1FBZmg5alJua0Utby13alNVSW1zaDNJVWhOWkg3bWNhbnNRZ0dsZjBrckhJOWhNMXZZREpJUDBqbW5BcE03emMtd0pzN0loZ0k3QkZQRUFxa3lSckVNR0ZlQ0lkeHBmLVFxZXByaG4xT08yeWM?oc=5",
-        "domain": "apnews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260826T194200Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "With Puerto Rico’s drought, activists urge Somos to reconsider",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWnVDbVJzZmszRE5pM3gzNU9qbEg3OHhlc3A0TmQwbzF0TTcwZjRkbmtmcTJySGRFZWo2VUJ3elhndmc4U0EwWk43YzFYWUkweXAxby1TUlo3ZnowUzlyVXFjNm9ZdUVFUmVJVG1DbnZudk4xVXpyNVpxdDZRZ3g1UXpvWGMyakpoNHFYWi03WFBOZzlaLUxDdmluM0pQYkZZYklvelc1dG1zOERx?oc=5",
-        "domain": "citystatenewyork",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T090000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "The Biggest Carbon Polluters Are to Blame for Half of U.S. Western Water Lost to Climate Change, ‘Groundbreaking’ Paper Says",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZkpYVFBUVzlHa0tYXy0yYWsyZ2Z3NkpPci0yVlI2ZFZyWjRMVU1tdmZIb3gtenNUX3FLRHNabTZTLTlRT2R0NFNQc1hCQzdBaFAtM3pmUGNXZjd0dEVzU1U3M0V0aS1SZDdWUmEzdnkzX2lsbWZhQUlnbGc2Z05OMk5vRmJfYXBzNU1wcG9KWlN6cXFSRDNwQm9NLUNIVS1mVExycUlmWExpZnM?oc=5",
-        "domain": "insideclimatenews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260825T090000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "LIFE projects showcase how nature-based solutions strengthen climate resilience",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNOEZfU0VrbmVrWF9wSU55ckFOLVpROXNSOUVXVkRkQlVsT3VJWkpKaHFXczdYUzZqMnN0NDRPa1ZMWkV4Z0U0MWVudU43V05GQk4zamE3RG9CTEZKT0t0MWR6NmVyRTZQekRNVUlPVkU3SVg2Q3NPemtTTHRQQ2tna2tXOXZGY2VpR1I5Sml0NnByRlRiR1NBdlhTTkhaTWdzblItM05oeDAxN3JRaDV5M1NoQi1CeFA0Tld1MmpTNTlLLThrMF95N1lwaXl4Wm96MDE4?oc=5",
-        "domain": "europeanclimateinfrastructureandenvironmentexecutiveagency",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T072232Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "‘Forever chemicals’ surge during pilot of Thames Water plan to combat drought",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNU1JlMXdEZ1BBVTBNa0szMDZkM3ZpOVJfVllGQkU1STdpdUZZTHE5X2F0OS1TeEdoNk5vdVF2R3A4Qi1COWVwSVBmcGU4cktjQ0RabjVZejVYd2h5b3UyQzdYdGRvQk5GM2UxVnNEMFcxX2FzMzd5bXFRVFJ2WmxncHJ5OS0tZkxRVFVYTDFscXBQNDQ?oc=5",
-        "domain": "theguardian",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T075900Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Florida pushes publishers to play down climate change in textbooks",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbDBmSnUwNjdKbEV5VmJaclVhTjJRS2ItWGVJTmlVWmdCaFhIME1QR2FheEZsUEN6dnZvSXVnVnphdl82UnBjUXJaU1V5YnpWWHNzMTdFZzNBMWEwRXd4elNGd1BMcF9pdTRXc2ZFcGxIQ1FuMjc5WllKREJFQ1NYTzRKVmlmcXRqMUVhcWhGWklMOW8zck52M0FSaEsweWtNelA5eUUxYmo?oc=5",
-        "domain": "floridaphoenix",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T042822Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Oklahoma water board finds drought, not private dams, behind Cedar Lake drop",
-        "url": "https://news.google.com/rss/articles/CBMigANBVV95cUxNYWNHQWFlbXFvRnZ4em0xR3o0YjB5ekxUa1VqYVlfWlRnU2x3V1Y2a0ZGd2g0RVc2dEgwSXRSV050QzdJc0J1NV83SXhTbUtTRVVjOHBqZ2lheGpkVWdDUHRDdFc3N3EwZUZTOU1rRThReGx6RjEzQTNnNzVfT1FkTmJvNjlOTjY3RzQyWVlnTnpfZEs1bGRWWVF5cGNwSmZxcGxXMXJyYURaM3RjRFNTUi1KaG8xbFBQTlU1R18waThrS3dPYS01YzY5TnVxcFhLWWlkMXB3QU80WXBmZlkxdU5WQmxCU1JmaVYxTngwUDBmV0N4bFNhLVF0ZC1iMk8tUm5VSjRsU1BGYjhuZ2tfemhGZjhFQklQVFludHZTVUVIempfYzdBdUdkTXFrQklUTlFsUHE2Sk80Y3IwSTNpay14OXl1QXhuY1YyR012Uy11QlM5MGhrV2pobEhJelcwVDFfb05CR1hjeGNLQ1pxVTdmRGhadHRJa3pVRG1HQ08?oc=5",
-        "domain": "kokh",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T034540Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Chile’s power shift: lessons from a decade of power sector transformation",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRjkyQ3o3YjJ3cVcwUVN1dkZ1aFY1WW1nekV3d3cyb25fZWw1RENuN2JXY29scmFuMlhsQnJLSnFES08ydTVnNU9rTWQ0ZDlsbjc5WnZuQXAyeHVoNGpKWERkR2doSlVZT3llcVFKcExDZDVVRlQ1TU5LZEdRNnAzbzV0VThXXzdyZ0lqbGE3YW5XNGU1YW50R1hzOWdRaGJjYzlfYzVlekVmVlVURWZ4bE4zSmNXQWxuS1E?oc=5",
-        "domain": "climateactiontracker",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T064149Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Panama and El Salvador declare emergency over El Nino-fuelled drought",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeGhQdmE5WVZSNmIzVGRYRVV6Q1g5T2I2Vmk2XzNWSGZfR1djbnY3bnlyM3dwUm02WmdYVGpkb01LRXhHRWtkY2ZsUjlKSWMycnBwQV9fUTlHMTVtSkp5NXlUZE9tX2tjQnZFMXVLSjQtMTZMZzRtWVlNOHp0bmdfeVprR0xNMXRmck5NT291VWFLNnphOXRMb0RwMW1LWjZHWGc3UTVKX0dXUndUaEZnTnN1SHFJZw?oc=5",
-        "domain": "france24",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260826T123701Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Climate ambition is collective. Our system for delivering it is not",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPY2lKRXFEN0hvTDhvWHpKeExJa3NyVGRuaWNyQU1oZk5MeXh2YjFsekdfYV9QOVQwTEJLWmplbjdoWC1mUEcwS2pRbzBvRWlwMTFFWllOdDAzeVd1S3NETE0yQ0JwRmc5NVY3V2F6VExoU01TbGlBMHgwSFV0a2F3ZGNRSXo4QTJlMU85STRDVVFscTlmMzRYUEpYSQ?oc=5",
-        "domain": "trellisgroup",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T093742Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Could climate change force a rewrite of the world’s recipes?",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQ1dzbmt5ZTZ6RTRCd2xnOHNKZk5lVGV3dlpoOVdLc3BOZWRFV00wSnJ6ZXRsVWVDdzFSd0NlckpMTkd4NmVJSWhFdFV4Q0ZYZXVaUXRlcDkyYjNkOTJ1dnBpME9MSVh5V0lGM041emNHMHFnVnFWQkxyYkJaS01fQVc3ODR3THZ6cVd4S0dBOEtOZkhuVlBFRXI3aEh1VDBtRDVfc3hWQQ?oc=5",
-        "domain": "foodnavigator.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T092602Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Weather Wednesday: Examining Drought Conditions",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQR0VNcS1LTUw3TEZqU1hocFVsN2lYVHRKQmcwUTNKWTZwM1p4T0dtSHlNekNQM3ItSFhobVJnOXFLRGI5bHpvSWZkamVXaVQ3dk5pdm1acUJPTVZkTnJfb3NNbkhJMDc0UGpVYTY4c096MWJGMkJzYmg3STZpSXRTLUgwOFA?oc=5",
-        "domain": "inforum",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T010000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Drought dries out rivers and gardens in Twin Cities metro",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMnFQdnlkNnNqWFdIZWpsYUd6SUFVNHRwMWJGcFNJWFVGYlZRSGY5bmdpc2FhQmVhVmV5Z1l2MFJ3QzBPRWducUl5V09fMkljd0xEUWItSm5EeFlqa2o4UzNPVEhzcmxtX25RVkNFSkpLbkVmeGIzQmR0NkZOTFAxVWJwc0hxVWF4UnAzRzEwSThuVkNIM2R0MWlMekpDMlk?oc=5",
-        "domain": "mprnews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260822T192000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Humboldt County Agriculture Building Undergoes Accessibility Renovations",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVFE5SVY5eWVKUmtKbUJNZFZrUFEyR3ZpZkx4RG1udHFRSTFyYUYwQ0ZCMWRDcm9DTHJEcmt4WmZYLUg5VmJseTVsbzlQMWlWMWltdy1taXEyNTEyeHpvWVp4T2pZcUNGSnlha1BLY1dDbC1OVTdCNkZ4NzFPb211ZWsxUzREbFAwWVFBdEdFSzFGM1lMNE5nOE9hSXpxOWNPZS1MZEduMA?oc=5",
-        "domain": "redheadedblackbelt",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T070138Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Climate change fuels longer, more intense allergy seasons in Georgia",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOS28yVzloeUlDbU92LWp6WVA3SGgwaVdqaXpLVkZsdEtxOWwtdVRzRzV5NnpRbV9aVWp4YWdpeU1xN0ZLSWVYVGhjcnZ4S1lFN010Q21zWTdhMElrcC1pbVJvM0EwSmJzV3FrSlBXWmw0UkxWeWNaOGNOa3lBdjcyREo3Vm9uQ0N2UFZ3RFluUzcwOWpQaldkMWlOSVk2WWJrcmFZN1Z4d1ZrYU9FSTIzQW9mVDNMWjNidTRQSmFZZnJOVkhtSDMzUzZaLVZGTzl1c25QZUdiLUVPclY1dmxVcS14eUNqNk9oZGc?oc=5",
-        "domain": "theaugustachronicle",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T080100Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Screwworm Flies Steer Clear of Agriculture Dept. Traps",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWHVuVXBSUlhDTUs4SnZ4M1pVTm5Oc0RUNjZoWV9NUUROa045UHYydmR6Y2ZKdmZ3Z2pPZjY5ZDVuVUctc1NaMGswSTQ1TEl1NkpsME5BNTUzV2pWM3U1eUZhYThGcFZpQ0VhWVA2WnptZlhzSVBSQU1qXzlNMWlENG5KZmQtXzk4TmVFOFpDNHA?oc=5",
-        "domain": "thenewyorktimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T090149Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "France to relax cheese production rules after drought takes toll on grazing land",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOM3FMS05mZXJwaEhIdWVyWk5FdkpyNTAzci1VUWFud3ZPU2IteF9QZkRickVOaURqaFJMQmhOb2dzOE52S1VwRUJWazAwcHFvLUdTM2Z1U3kzRVFYa0NvNHBhenk5RFJxTXM2RjJ0eEh2QjBLRXRkaklPTUE1Vno0d0lxR2ZteHRadlJTa2JiaTBFVGRXWFl3dE1lWnN0aDYycFllUVhGS3otdDVWclE?oc=5",
-        "domain": "theguardian",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T040100Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "The Climate-Conflict Nexus - Impacts of Climate Stressors, Conflict Dynamics and Vulnerability on Humanitarian Planning",
-        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQcHZxSXNXOFZra2ZtaEJwZHNyRDU1QVUzdFMzOUNMWnNYR2FTUkwxRmFib1RvZlprbFYxcl9ocHloY3ZOVm9pbHRqTmxwU3pYZU9Ybi1ScmtQWTdfdk5lOWxqRFNlMHdhOXM2S1E4SGZ2WTRLT1NGY1A4Rm9nVkhMVXVPTGZfUnllaG1BXzYwMkpJRHAyVndBTkxuS2EweE1fbWtVQkpid2I4WWFIeGxMNGVfc1A3cHFETVVxNzJWLXFiVExMSUZFTTNiSFpiSGs5S0hjeTlRdXJNQU5fWWNaWGRsQlFFZGFaU0dHVQ?oc=5",
-        "domain": "reliefweb",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T082747Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "How the Minnesota State Fair's Agriculture Horticulture building has evolved over 80 years",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdFE0RHZYY25sMFRKZ1F6R1lWMUN3ZUhVWEpDTEJaRmFoRHJ1el95QlRzejBlUTBXek5lVTRtSk1pWkdKQlRjc0NWT2tBUGZ1bzFUTGxVZkhZMWdZSnpqend1QkFFQ19yeVBjVW9IbDZaZVNMRER4THNwYzh0UVp2WG9GdWFVS2N0a1lleVJhX3E4ZXFndzB2RGtn?oc=5",
-        "domain": "cbsnews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T033208Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Floods caused by a glacial collapse kill at least 160 people on Nepal-China border, hundreds missing",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYWZwTFhBM1dBcUQ2WFBWazRIOXpBMHI5R3p1blpsYTdIV2tHQ25mOHo0RGNZNFJOM2hNTEFhbEdaSlNhX1FMRHk2V3lkQkdESmtkTXd0RDR3UUlVaWo5YmoydndfWkVmLW5uZW1ubm02MzZaVHpUTG1ocVF4cmxJZ2ZwUThuVHp5T1ZmTXY4eno0Y0xXbnlHTw?oc=5",
-        "domain": "apnews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T021900Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Children bear the greatest burden of climate-driven heat exposure",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORTRWZUpvWlplX1FRZEVpSUdVY2RWLWZ4MVBLaEFvbEZOQjRzcnlRbWllbENySFRubzV3VGVaQ1BCNmN2aFBoaVFlOGlDbHN6UXhSUE1zamFuUkd5Z1JvMkRhRVhYNEtmOXF6U1g0dGZDMHVxMFQyZWpHMWdwVlJ2akpCV2prMENXb2NSRjF5RVlsRmpaUmVaS3dmelp1by1VT1N5N2p0dDNOY1cyMjNvNy1yaw?oc=5",
-        "domain": "news-medical",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T023700Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Screwworm.gov | Animal and Plant Health Inspection Service",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUzc2WGdFNVZjSHFEWUM2M2ZGYmhIZ0lpd2FiMzlYSVU3eUNQUEl0bHBpNjI3Z1JwOEo3djV1UHJiV3ptREJVRE5jbVNxZTZ3QjZpcFZReWZJTGVBSUhIYlh3aXRjeFo1Ml9DREUyQUEzZ2dheU5COTB5dFNidHNoSkdiQjNtWm1rQnVTeWFpa1RBZ0FnRHJlZw?oc=5",
-        "domain": "aphis.usda.gov",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260824T070000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Drought Exposure Linked to Higher Preterm Birth Risk",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQXROcW1HZjFiNzRTQTRQR050QW4zUGZueldITnk1U3M1TXBNUDdWcGJkWUNYT0xWRzgwT1R5V3RBaTM1eEYwN0JIMjdJaFdhVTY2UGhLZnV2WVdtcVI0OTYwaDVuckFkS25XSGpGcERwUGNWSzlJSGdKMzFjY20zS0hNaEJ3Si1WNHFvUXdhMTYxaVREVjNPdWtKc2RlODdkREhLLUxQWVM?oc=5",
-        "domain": "emj",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T080433Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Hunger crisis threatens Somalia as floods come on top of drought and conflict",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYWIwRTlaTmlvZHBreWtPSFdrMEFJWEhQVlh4RHZqZ1g5cDlTOVp3VzJaZTZXMkVxZlV6Y0gyVUJNdFIyZVFBcV8yMkRaeUgxUE8xcDRMNTBBR2Y2VUJBcmNPQlJXMi1zdkpraTRLYjJ1NWFXYUdTSmtpWGx1UklMc1ZhWTc3MW1Yd3JyYXBsbTUxQnRVeEN6eXNFTktzazRKdUFDN0FGdkpTUQ?oc=5",
-        "domain": "nrc.no",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T072420Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Statement on Regional Drought and the Great Salt Lake",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeXJhN2lpNjkwMS1JaS00SGFfZm1YSUlXVENYb1Y5bERiU3hyS2x4TzdnS3hNRjFONlQ5dUhiY0NnYWtMSnczMm1BTElqVXlpX2Q0djItV1BnbzlYbXFvM2ZKOUdYU2tHODRGc3NPVUEzbG01MGhGbk1NVUxFTC1SNHVQempMaGtRUnJTWDRaZDhkZTQ5emc?oc=5",
-        "domain": "newsroom.churchofjesuschrist.org",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260826T223121Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "082626_covercrop_1600",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOckQ2TThNejlSTjNMRF9fcG52QXB3ZWZvaE80eWlpd3VPazhCWHA4S3hZT0xpR0tPOFlZaGN5Rl9jWnREb3ZIME8tOHpZeFcwQ1ZNRjdxV1RhYmpRMlJ1UTMtY3VtYUxlLU1yaE9kM1A1aVBTUVkyYjVSRHM5MGpMWGg0S1VMM1k4bDdPU0ZrQ253akRaOVpoSXZkdGdhaDhTa0Zn?oc=5",
-        "domain": "yaleclimateconnections",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T093246Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Could climate change force a rewrite of the world’s recipes?",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOd1NBYTRxQ2xZazJBYXhpWkFTYUZrY3pra1ZoVmRZRy1zTlgwVVNrbUtZMWd3T0NHMURVdzlNNnNPUF81MjEtYmZZNjhfQ1c0cGdkY0VkeXhQN1pjb3dIQmVsNnhtZmZiTjNjcU5CdlY1TE1hZ2RPWWtHY1dhSjNWdEZ5UDRLN3lWaUpOdDRVd3k2R2FSNXlZRURTMEQ3TGJKUXk5TkZLb3JhaUw2?oc=5",
-        "domain": "confectionerynews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T092602Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Minnesota drought impact on local farms",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBzcWZDeUNTQ0hBN3Ezc01KYkYtS1ZxaWZCeU9mR0NHTzU3aGNjMXc2SzNmRmZNakpOUnRyek9CbExMMTVJU0lTQzVrMm1fRy1UWnhlLTBqYUJ5SUnSAWBBVV95cUxPZjZseS1zeWF3ZlFLYm9XbUFfMUhuS0x2aXBhOGxSd0FWT0xpWFN0aGw0bjlaYTRMNlR2QnR5YjF4dWc0X2sxWi1XbURSOXdhb1hyc21SMGZEOGJZUW15c1I?oc=5",
-        "domain": "fox9minneapolis-st.paul",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T040920Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Climate change leaves mark on America’s largest reservoir",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQU3NQREZLeGdGRm0xdU5wNGRnTWF0eUYtLWtHVlVXMmFERDlXYXBKRENBcnlodmdlOC1GZjNiUlh0R3BDalQ4V3lTbWV0VWpjUHFEcG5jZHBTWDRDLW1aRXdjWGVUcGpHcGVOSXctRUtFU1owMGJJbnlQSFczVlAyTnFhWUd4dXhQZnRXc2pNc1hXNGNYWjNkX3JJb2lYMzA?oc=5",
-        "domain": "bangkokpost",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T034500Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Climate Crisis Rocks the Water Tower of Asia",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPLTViMFVfWE9BQm5hSkkwSTYzZHJwVmQwaXFwUklBYzlqOU9aNTVNSV9VN0xRZ1lmR1JPWVg1R1BiTEN4UFVnUU9pTllzWWRDWHJrY3F2eFhtaVdUSkY1NmhFdGxuNGZwbW5yWHBEa0xLSDRjU055RzZhdUZFcF9LSkFEWDM?oc=5",
-        "domain": "materiarinnovabilerenewablematter",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T073156Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "image",
-        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPOG5hZ2prcWdONmxRbnZJM1VnNlVGNDRBTkw4d2JnNko2UHNoYzcxd3hhNW43bGptbmlEc2w2WWxzRmlxMGQtbWMzNjh5RjdWM1lzRmltOTFvZmM5M1ZCS3U3N2Qza3E0WUl4VlJ3aE5PZmRaZ2FHTk9xa3A3X3NDcU51Q2J1dWFyRFhiZ2dvcGN1dElaaDRveHdpcXlnb3U4VWh5WGJwSDlzWkoxRDc4aFFTTkhzUzhhWGFkRHdBOGhvZC1FWjNLRXp6MkxoYnZkNUFTMEExbC1XQi00QjUtRC02NDc4TWNBMkhNVHQySC0yMlJnb1laeU9lUQ?oc=5",
-        "domain": "yaleclimateconnections",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T093245Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "The fossil fuel industry is spending record amounts to keep California from regulating it",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeXo1Wktsd0k3N1o5M2hXbDFrdUprc20xLTNmYTI5aG1URW9FWVljckJvVlk2WUVaQWpSaVJwbEdlM0xQaWtrUlUtcFc5ZkVxdHc0WmhxYTVzMGNHbDk3OWZqcU9ZbFRqUlI3VWExaGRGcDIzVmlLVlh1MjhWUzVoU0JjOUZpSFREYkVnbnAtbHkxdW1GVVg4MA?oc=5",
-        "domain": "grist.org",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T081718Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "How sounds, maps and weaving can support climate action",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdWVZUHV4SFJYQkhNTUFxUXJxTTF2MTRRa1lPcFVyV0p5alZOcGc0SHZVZUdyZmRkWEF4c0huejBpWFlFdWxuRkozOUdGS3UwREQwMVBSWkFFTHZ1U2JtY3BPaW1za3VWSnJjTm12cjlFYzRWaDZlSlJIZzNNcm5LZkhlQ2ZFY1lGU0E3a0FJZmRiQXhoTnZQNHhic25hRmlvMG4tc3h4T0JqUQ?oc=5",
-        "domain": "thinklandscape",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T092514Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Weyerhaeuser: How Sustainable Forestry Drives Climate Action",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNREFFWjYyOFcwR2ZUanFaa1JnNk9YRlV4Ukd5X25pbHhnUTdYNnJaUXdwajVKNkNfTm9mNGdNZXhiUjRZQjFQX1dfbEgwQjhPazFlM0I4VkdlMUVsSW1zSF92M1Rjb09JMUhzUWg1OFJyUkY2Q2J6SWVxUGRmQzVvb2lPY3JIbjF6X0lMZVdlWWFyTzlUREloMEVB?oc=5",
-        "domain": "sustainabilitymagazine",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T091646Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Denver Water orders lawn sprinklers off starting Oct. 1 as drought pushes reservoir levels to record lows",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNNDlzWHE3cHMyaFg1S05GNkwwZWFWcS1YYWkycC1COERWMmxsMFFKVnhfbWFkRkhtUE1WMUl5ZlR4SnhVQjRiVy11QnZ5bmNEbGZmTVdXYmExYUNLS2tyWHBNQ3BZWmdWb3p5SXZuUzdaVGNibXBuanVmYm9rRzFDWWtPWnpVTEQzUTNabktZbW5qa1Z6bnplLW9XLWNod1dpRVFKa0RSLU1vV09zaE1lcDZyQ3hFTGdUVWVKYUo4dlRKYzNpM3hUQlkzNWtzVmRHRksyUllid0o?oc=5",
-        "domain": "denver7",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260826T235804Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "The World Inches Toward Catastrophic Climate Events: ‘Bigger Shocks Are on the Way’",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeVFnajZ5LTRHb1YxcE54ZnNHRDNUMmZqZ294MEFyeGQ2eTdNbjdJU3NuclljREY2c3pfZTdJYUQ4elBmMDhzLW93UnlLX255bW1mRDdMQmpBbkxzcTJaZ1JfSVY4YjhuT09FYktHQzdUWjZNSi1reUZweVR2M2J0bktiT2RMM3l2TVFyYkJXbzYxaEZqV0dVdHZTenNoZVVnYkp0MnB2d3Azd0NfVTJEYnc0bVNBbjFjSXRR?oc=5",
-        "domain": "thesanfernandovalleysun",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T031133Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "UI awarded $6M grant for AI agriculture research",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMGdVOXU2aGthSmwwV1B3MFBhcUI3djdkLUFTSlRTLUdiTnRjYXQ1ZFBZS0xLTWxlXzF5Z3RGU1F0MUV1VHhITXVLOFlpbjRtLUEwdGJkRWc3ZEVyck1SNDBlbnhZalI4OHBsbllQTWo2U1dnTGpBbU00NC1uMHdFTnE0RlpvY1NXbWxtNVA1Z2RJTkRPWFViZw?oc=5",
-        "domain": "thelewistontribune",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T071134Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Gaza’s famine one year on: Did the world learn anything?",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV2pSdXFFU2xKejJlRzJFY3pvVnozT08tN3VDS21CR1hsWjVFOEV6Zk9BMmJZcWpuWkRtcTltQk4tMHJDZXJSTWxnR3BfWjloWXhKNDFBd0gySVdhajRDS3pGMVZRYVFFMnptdjhJSVRwcTY3dVlZcV9OdGJCSjFEVXVQdVA0RHBIZnpPRXdzbnlONGtUaThVelRMejZaQdIBowFBVV95cUxQMzlkeVBTUGcwWmlFUlkyMXRYbWZMNmFjbDZTUFdXVXhkS2VDMzd6S3hjdXRRMlNWZG5KekdfUllmemFYdGFZMVBSTnRTSkdjSW1yQVExckwyX1hpX3dmemI2U2lhc21HVlNKOGxLYVAtSGxHX1FjNVQ5NWpxdHpBYXhqTUgta0IyOXhtZ2l0eXJOQnJfSzNYdEFPdWVuN3ctRnpv?oc=5",
-        "domain": "middleeastmonitor",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T070000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Public Editor: We’ve got “historic flooding” and tornadoes. Is this climate change?",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPb2lsZTJjZHdXWGl2QVgtQ1h3WVI3TjR6QkNuYllOa0M5Vlo4a0hMelo1bkxiaW1LZmQwdGpOU3R5WDhySDVVM2VvekpDLUlIOEY0SUtqcHFDaHlWWk4wczdLYTJ3UnBWaXhoQl92OXFGZDBHeWxwTS1ISm80UkxTUzFTZ1ZsWVkwOXBWZnZOZnVWeDhhQUwtMEJVTGt3cFVVUEFr?oc=5",
-        "domain": "mirrorindy",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260825T203220Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Denver Water to cut off lawn watering in October due to drought conditions",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZzl6V0NvdzZmbGs4aDJTTm9sbF8yYXRFWmlmYncwem9qU1RDX2xhcERFQmNUNmEtWGMxcTA3N19FWmo4eWlWbFhhbTlKVWFlb3FoRUxCTXZtS2VmWW5nc3BYa054SVUtcHFOb2lWeUdCSDdQV0YwZFlvZk40clc2SWpVY3pWTWpDQ0xDNEdzb1dGQzQyZFJNWmpBYndYWGZlQ1A0d0RKOE8wSTc4cllYY2ZvT1U?oc=5",
-        "domain": "cbsnews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T024100Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Nepal-Tibet floods: when disaster strikes before communities recover from previous climate extremes, crisis escalates",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPTmkxNlBNaHlWd3RIMTJCSi1SdUlpcnhKVTc4RWVIa3F3cVo2RDdEQlNJS3BXNF9YYjZmSW5RODJ0NzRXY0ItenFCY1RIODNnejJIQnhiclN0SkdrdDRBcjJCYnBjMWFETERaT3hxZ0psQU5VVV9RaGI1UTRLMG1iR3RfSmd0Y0hMRFZXWTY5RGJFZnRUUzJlR2ZoR1l3djRhc1NUOVBpRHJjMjFHcTVkSWNrM0JtTk9ZeUN2b3ZOSWo3U2d1UE5Td19fR2NKdXZuOUtsVW1PbUJXMGhLR0lsUk1lcDM?oc=5",
-        "domain": "theconversation",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260826T152853Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "State approves additional $2 million for livestock water supplies amid drought",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPN0hGaFZWbFVCdkVvUXZsM2twTDZpU3AySG8xZzhQX1ZkU1BFTXgxbVF0T0lJTHdTcmRaRV9ISEJhdVFwazJFcXEtZjU1MEhzaHZzM3FUOGJLaFZGWlluS0dsY1lLcUpDMDI2SGZkNG1PZlloWmhNazFVMUk2SmFNb2NxTExCVXZqTmI1Zm1UeFlhSUhSQVZYSXhqOVpJYTVfWEhDQ08tTnZoMWZjbU54bUV0bVM?oc=5",
-        "domain": "kfyr-tv",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T024004Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "France relaxes rules for three famous cheeses after summer drought",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOV2JEZm9tZjhsX29lNHhpeVlsUmF5YTUzYnY0NUdMUERVNkJ0eEVobHhyV1lGQ3prZ0VlVDhUYmJnU0Q0SjdUZWppX1NFdWNPVDB4Y2ZpQ1VCWEV6a3p2SWdNOGpRdDFRQzZnY3R5SUNxajUxRkJuZHpSczhOQm1CM0Q5YzI4ZU1WN2ltcjFNYjBoZmUwV25qQXk2VExGQXVySnV5SGhQZw?oc=5",
-        "domain": "rfi",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T051603Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "How the Minnesota State Fair's Agriculture Horticulture building has evolved",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOM3Zyb25qUW1oa2I0RDdQRHpQdk5wUkNSeEZEYUdsUWpFNGxSRDl5SVN6czJMYTUzWDNoRTA0M0NEd2ZXSG50dnJhVnJwMTlWT2lIM2F0azliSnUyYnR5WHI5VmpZQ1Y2b0tZdlhLNzIwZ0V2dkRJT2IyMmNKSkFJbmJnc2ZUYWlLaEdmU3VrZTRtcDc5VEwxRnlLM05yUVRpMVBqWjlpdndGNzRXZHZUYlMxSVQ2YWc?oc=5",
-        "domain": "cbsnews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T032000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "West Point professor says he was pushed out for objecting to climate directive",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPeHluLWczQlZQOGQ4eTVORzJ0Q182OURpSUptQnVGN2Q5c0UyNnNScVNBYnJzb3VyVlRUbXJyaHYzcXB5d3pQMHpsdUZqenhaUE45VzNsNW9MTWR2azJPVUJ5UkRwSkgyX3Z2YUhneWRDbzl4TkVfTVlWc3I3ZlUxWjdVbS1QMEFZb3hId1FHUHZhN21KektRc2szN3FsOXRkMjFzeG1xNnQ?oc=5",
-        "domain": "gothamist.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260826T203200Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "The Gaza Famine Narrative Collapsed",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE42dVdtRmhfNzdIZ25VUl9rOVR4dFdVdFZFcDUwQkNGdWktTU9lU2NtQ0VqOTFoQXdPMFpJc1l0eE9uWXZzMVY0UXNzdjI2QkdUd3lBTl9YcUF0blVBeG52RDNRRXlVbGE0ZFhIQkw0RXVuVEl4QjRBdHFZNTh3WXc?oc=5",
-        "domain": "honestreporting",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T083830Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "TEENS SPEAK: Climate for the ages",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRUNSS21nN1VlSlk4NmhnNDQ0YUdtQk1sbmdVcjcwMFU5elV0X2FKcGtoTW1CcGtXeXdvOTRoLWVRZ2ZqekZ6ODlLcExyMEtic1ZHcFVfeVUtTzJFenlYdllaVnZnazhSSGJHQ05aM2hZQ3pPNjR1N3NiUjBpYWdndDFZN3hnakdHQmtsTFNyRmxCcFg0ejJRbHJZdDc4VXhCTG5GSS05WWU0d2FqRng1LXdqWkJNdw?oc=5",
-        "domain": "thedailygazette",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260827T040000Z",
-        "source": "GoogleNews"
+        "id": "food_price_pressure",
+        "label": "FAO food-price pressure",
+        "available": true,
+        "score": 17.2,
+        "latest_month": "2026-07",
+        "metrics": [
+          {
+            "field": "Food Price Index",
+            "latest": 131.1,
+            "three_month_change_pct": 0.08,
+            "year_change_pct": 1.0,
+            "anomaly_z": -0.0,
+            "score": 0.5
+          },
+          {
+            "field": "Cereals",
+            "latest": 113.8,
+            "three_month_change_pct": 2.25,
+            "year_change_pct": 6.85,
+            "anomaly_z": 0.64,
+            "score": 25.0
+          },
+          {
+            "field": "Oils",
+            "latest": 195.7,
+            "three_month_change_pct": 0.93,
+            "year_change_pct": 17.33,
+            "anomaly_z": -0.05,
+            "score": 5.6
+          }
+        ],
+        "evidence": [
+          {
+            "field": "Cereals",
+            "latest": 113.8,
+            "three_month_change_pct": 2.25,
+            "year_change_pct": 6.85,
+            "anomaly_z": 0.64,
+            "score": 25.0
+          },
+          {
+            "field": "Oils",
+            "latest": 195.7,
+            "three_month_change_pct": 0.93,
+            "year_change_pct": 17.33,
+            "anomaly_z": -0.05,
+            "score": 5.6
+          },
+          {
+            "field": "Food Price Index",
+            "latest": 131.1,
+            "three_month_change_pct": 0.08,
+            "year_change_pct": 1.0,
+            "anomaly_z": -0.0,
+            "score": 0.5
+          }
+        ],
+        "retained": false
       }
     ],
-    "exchange_rates": [
+    "concurrence": {
+      "active": false,
+      "climate_components": [
+        "agroclimate_stress",
+        "gdacs_impact_pressure",
+        "eonet_hazard_persistence"
+      ],
+      "food_component_elevated": false,
+      "score_bonus": 0.0
+    },
+    "alerts": [
       {
-        "currency": "USD",
-        "rate": 1
+        "id": "agroclimate_stress",
+        "title": "NASA POWER agroclimate stress",
+        "score": 96.6,
+        "level": "SEVERE"
       },
       {
-        "currency": "AED",
-        "rate": 3.67
+        "id": "gdacs_impact_pressure",
+        "title": "GDACS multi-hazard impact pressure",
+        "score": 60.0,
+        "level": "ELEVATED"
       },
       {
-        "currency": "AFN",
-        "rate": 65.14
+        "id": "eonet_hazard_persistence",
+        "title": "NASA EONET hazard persistence",
+        "score": 56.0,
+        "level": "ELEVATED"
+      }
+    ],
+    "history": [
+      {
+        "timestamp": "2026-08-27T21:35:46.372460+00:00",
+        "score": 63.4,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 96.6,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 17.2
+        }
+      }
+    ],
+    "data_health": {
+      "available_components": 4,
+      "retained_components": [],
+      "power_sentinels": 8,
+      "gdacs_events": 192,
+      "eonet_events": 1000,
+      "fao_latest_month": "2026-07"
+    },
+    "method": {
+      "name": "Climate-security precursor concurrence model v1",
+      "weights": {
+        "agroclimate_stress": 0.35,
+        "gdacs_impact_pressure": 0.25,
+        "eonet_hazard_persistence": 0.2,
+        "food_price_pressure": 0.2
+      },
+      "aggregation": "availability-renormalized weighted mean; five-point bonus requires climate and independent food-price elevation",
+      "warning": "Public climate-security pressure only; not a conflict, famine, displacement, or casualty forecast."
+    },
+    "sources": [
+      {
+        "name": "NASA POWER Daily API",
+        "url": "https://power.larc.nasa.gov/docs/services/api/temporal/daily/"
       },
       {
-        "currency": "ALL",
-        "rate": 79.04
+        "name": "NASA EONET v3",
+        "url": "https://eonet.gsfc.nasa.gov/docs/v3"
       },
       {
-        "currency": "AMD",
-        "rate": 364.34
+        "name": "GDACS",
+        "url": "https://www.gdacs.org/"
       },
       {
-        "currency": "ANG",
-        "rate": 1.79
-      },
-      {
-        "currency": "AOA",
-        "rate": 924.72
-      },
-      {
-        "currency": "ARS",
-        "rate": 1514.16
-      },
-      {
-        "currency": "AUD",
-        "rate": 1.39
-      },
-      {
-        "currency": "AWG",
-        "rate": 1.79
-      },
-      {
-        "currency": "AZN",
-        "rate": 1.7
-      },
-      {
-        "currency": "BAM",
-        "rate": 1.68
-      },
-      {
-        "currency": "BBD",
-        "rate": 2
-      },
-      {
-        "currency": "BDT",
-        "rate": 122.83
-      },
-      {
-        "currency": "BGN",
-        "rate": 1.68
-      },
-      {
-        "currency": "BHD",
-        "rate": 0.376
-      },
-      {
-        "currency": "BIF",
-        "rate": 2989.96
-      },
-      {
-        "currency": "BMD",
-        "rate": 1
-      },
-      {
-        "currency": "BND",
-        "rate": 1.27
-      },
-      {
-        "currency": "BOB",
-        "rate": 11.53
+        "name": "FAO Food Price Index",
+        "url": "https://www.fao.org/worldfoodsituation/foodpricesindex/en/"
       }
     ]
   },
-  "entities": [],
-  "events": [
+  "stats": [
     {
-      "title": "A Blow to U.S. Agriculture",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB0M2J1ZEJyOWM1R0Z6ejZaQWR1c3VENGU0SFJ6ZGhzYUMyTnVUX2NNcmhPeEFOcXczSHNPT1dpLTRlTVJQaW5WWktLYkVJMUtHY3N6WXhBbHptdnhHTHZCMlJwZnI4OXB4?oc=5",
-      "domain": "americanfarmbureaufederation",
-      "language": "",
-      "tone": 0,
-      "seendate": "20260827T021400Z",
-      "source": "GoogleNews"
+      "label": "Climate-Security Pressure",
+      "value": "63.4/100",
+      "delta": "ELEVATED"
     },
     {
-      "title": "West Point Climate Professor Says He Was Fired for Refusing to ‘Defy Science’",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORFVsZTVOTU1oTXpSUGMtbkxaUjRFbWhSZlQ5R1dXbjRwWlNpX3RfVkRrS01aRVhsQm91c280QXhQOVhuVG0tU25rTFhvY3N1S19DeWdURDg2a0NlYk03cF9SeGQ4QUJjOEllVzFtU29ySXBSbXRxYkFYMy1oaF9TYmdOWEZUTGxicW5NWUR5Rm5wZw?oc=5",
-      "domain": "thenewyorktimes",
-      "language": "",
-      "tone": 0,
-      "seendate": "20260826T230357Z",
-      "source": "GoogleNews"
+      "label": "Agroclimate Sentinels",
+      "value": "8",
+      "delta": "five-year daily baselines"
     },
     {
-      "title": "From Perception to Action: How Art is Reshaping Climate Narratives",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNFdsYUlEenZXdG5jcUc0U1ltTW1ZMlRXd3dGWnBPRDZXX1pfcFdpSmhjNDR5djN2UGxXSmlZb1lmQkRoc01VNk5RMWl3WGFzOHBuUks2X21TUjhXeGg3ZXRxNVJOMGptbFZTQ05oN3lKQXJvbTlfM0d5aWZ4dnlyYUl2eU1NYWRvQk5ZR09RZ2NpMlE?oc=5",
-      "domain": "unesco",
-      "language": "",
-      "tone": 0,
-      "seendate": "20260827T073000Z",
-      "source": "GoogleNews"
+      "label": "Hazards Screened",
+      "value": "1192",
+      "delta": "NASA + GDACS"
     },
     {
-      "title": "US declares drought disaster for parts of Puerto Rico as dry conditions persist",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcDVBUHJsQjF4T3ZRU1RrY3lVVnJjTEZSQ0pleGNicWxoREM0WGota0pWMDZQeU1yWkpfOVdBZ1FBZmg5alJua0Utby13alNVSW1zaDNJVWhOWkg3bWNhbnNRZ0dsZjBrckhJOWhNMXZZREpJUDBqbW5BcE03emMtd0pzN0loZ0k3QkZQRUFxa3lSckVNR0ZlQ0lkeHBmLVFxZXByaG4xT08yeWM?oc=5",
-      "domain": "apnews",
-      "language": "",
-      "tone": 0,
-      "seendate": "20260826T194200Z",
-      "source": "GoogleNews"
-    },
-    {
-      "title": "With Puerto Rico’s drought, activists urge Somos to reconsider",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWnVDbVJzZmszRE5pM3gzNU9qbEg3OHhlc3A0TmQwbzF0TTcwZjRkbmtmcTJySGRFZWo2VUJ3elhndmc4U0EwWk43YzFYWUkweXAxby1TUlo3ZnowUzlyVXFjNm9ZdUVFUmVJVG1DbnZudk4xVXpyNVpxdDZRZ3g1UXpvWGMyakpoNHFYWi03WFBOZzlaLUxDdmluM0pQYkZZYklvelc1dG1zOERx?oc=5",
-      "domain": "citystatenewyork",
-      "language": "",
-      "tone": 0,
-      "seendate": "20260827T090000Z",
-      "source": "GoogleNews"
-    },
-    {
-      "title": "The Biggest Carbon Polluters Are to Blame for Half of U.S. Western Water Lost to Climate Change, ‘Groundbreaking’ Paper Says",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZkpYVFBUVzlHa0tYXy0yYWsyZ2Z3NkpPci0yVlI2ZFZyWjRMVU1tdmZIb3gtenNUX3FLRHNabTZTLTlRT2R0NFNQc1hCQzdBaFAtM3pmUGNXZjd0dEVzU1U3M0V0aS1SZDdWUmEzdnkzX2lsbWZhQUlnbGc2Z05OMk5vRmJfYXBzNU1wcG9KWlN6cXFSRDNwQm9NLUNIVS1mVExycUlmWExpZnM?oc=5",
-      "domain": "insideclimatenews",
-      "language": "",
-      "tone": 0,
-      "seendate": "20260825T090000Z",
-      "source": "GoogleNews"
-    },
-    {
-      "title": "LIFE projects showcase how nature-based solutions strengthen climate resilience",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNOEZfU0VrbmVrWF9wSU55ckFOLVpROXNSOUVXVkRkQlVsT3VJWkpKaHFXczdYUzZqMnN0NDRPa1ZMWkV4Z0U0MWVudU43V05GQk4zamE3RG9CTEZKT0t0MWR6NmVyRTZQekRNVUlPVkU3SVg2Q3NPemtTTHRQQ2tna2tXOXZGY2VpR1I5Sml0NnByRlRiR1NBdlhTTkhaTWdzblItM05oeDAxN3JRaDV5M1NoQi1CeFA0Tld1MmpTNTlLLThrMF95N1lwaXl4Wm96MDE4?oc=5",
-      "domain": "europeanclimateinfrastructureandenvironmentexecutiveagency",
-      "language": "",
-      "tone": 0,
-      "seendate": "20260827T072232Z",
-      "source": "GoogleNews"
-    },
-    {
-      "title": "‘Forever chemicals’ surge during pilot of Thames Water plan to combat drought",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNU1JlMXdEZ1BBVTBNa0szMDZkM3ZpOVJfVllGQkU1STdpdUZZTHE5X2F0OS1TeEdoNk5vdVF2R3A4Qi1COWVwSVBmcGU4cktjQ0RabjVZejVYd2h5b3UyQzdYdGRvQk5GM2UxVnNEMFcxX2FzMzd5bXFRVFJ2WmxncHJ5OS0tZkxRVFVYTDFscXBQNDQ?oc=5",
-      "domain": "theguardian",
-      "language": "",
-      "tone": 0,
-      "seendate": "20260827T075900Z",
-      "source": "GoogleNews"
-    },
-    {
-      "title": "Florida pushes publishers to play down climate change in textbooks",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbDBmSnUwNjdKbEV5VmJaclVhTjJRS2ItWGVJTmlVWmdCaFhIME1QR2FheEZsUEN6dnZvSXVnVnphdl82UnBjUXJaU1V5YnpWWHNzMTdFZzNBMWEwRXd4elNGd1BMcF9pdTRXc2ZFcGxIQ1FuMjc5WllKREJFQ1NYTzRKVmlmcXRqMUVhcWhGWklMOW8zck52M0FSaEsweWtNelA5eUUxYmo?oc=5",
-      "domain": "floridaphoenix",
-      "language": "",
-      "tone": 0,
-      "seendate": "20260827T042822Z",
-      "source": "GoogleNews"
-    },
-    {
-      "title": "Oklahoma water board finds drought, not private dams, behind Cedar Lake drop",
-      "url": "https://news.google.com/rss/articles/CBMigANBVV95cUxNYWNHQWFlbXFvRnZ4em0xR3o0YjB5ekxUa1VqYVlfWlRnU2x3V1Y2a0ZGd2g0RVc2dEgwSXRSV050QzdJc0J1NV83SXhTbUtTRVVjOHBqZ2lheGpkVWdDUHRDdFc3N3EwZUZTOU1rRThReGx6RjEzQTNnNzVfT1FkTmJvNjlOTjY3RzQyWVlnTnpfZEs1bGRWWVF5cGNwSmZxcGxXMXJyYURaM3RjRFNTUi1KaG8xbFBQTlU1R18waThrS3dPYS01YzY5TnVxcFhLWWlkMXB3QU80WXBmZlkxdU5WQmxCU1JmaVYxTngwUDBmV0N4bFNhLVF0ZC1iMk8tUm5VSjRsU1BGYjhuZ2tfemhGZjhFQklQVFludHZTVUVIempfYzdBdUdkTXFrQklUTlFsUHE2Sk80Y3IwSTNpay14OXl1QXhuY1YyR012Uy11QlM5MGhrV2pobEhJelcwVDFfb05CR1hjeGNLQ1pxVTdmRGhadHRJa3pVRG1HQ08?oc=5",
-      "domain": "kokh",
-      "language": "",
-      "tone": 0,
-      "seendate": "20260827T034540Z",
-      "source": "GoogleNews"
-    },
-    {
-      "title": "Chile’s power shift: lessons from a decade of power sector transformation",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRjkyQ3o3YjJ3cVcwUVN1dkZ1aFY1WW1nekV3d3cyb25fZWw1RENuN2JXY29scmFuMlhsQnJLSnFES08ydTVnNU9rTWQ0ZDlsbjc5WnZuQXAyeHVoNGpKWERkR2doSlVZT3llcVFKcExDZDVVRlQ1TU5LZEdRNnAzbzV0VThXXzdyZ0lqbGE3YW5XNGU1YW50R1hzOWdRaGJjYzlfYzVlekVmVlVURWZ4bE4zSmNXQWxuS1E?oc=5",
-      "domain": "climateactiontracker",
-      "language": "",
-      "tone": 0,
-      "seendate": "20260827T064149Z",
-      "source": "GoogleNews"
-    },
-    {
-      "title": "Panama and El Salvador declare emergency over El Nino-fuelled drought",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeGhQdmE5WVZSNmIzVGRYRVV6Q1g5T2I2Vmk2XzNWSGZfR1djbnY3bnlyM3dwUm02WmdYVGpkb01LRXhHRWtkY2ZsUjlKSWMycnBwQV9fUTlHMTVtSkp5NXlUZE9tX2tjQnZFMXVLSjQtMTZMZzRtWVlNOHp0bmdfeVprR0xNMXRmck5NT291VWFLNnphOXRMb0RwMW1LWjZHWGc3UTVKX0dXUndUaEZnTnN1SHFJZw?oc=5",
-      "domain": "france24",
-      "language": "",
-      "tone": 0,
-      "seendate": "20260826T123701Z",
-      "source": "GoogleNews"
-    },
-    {
-      "title": "Climate ambition is collective. Our system for delivering it is not",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPY2lKRXFEN0hvTDhvWHpKeExJa3NyVGRuaWNyQU1oZk5MeXh2YjFsekdfYV9QOVQwTEJLWmplbjdoWC1mUEcwS2pRbzBvRWlwMTFFWllOdDAzeVd1S3NETE0yQ0JwRmc5NVY3V2F6VExoU01TbGlBMHgwSFV0a2F3ZGNRSXo4QTJlMU85STRDVVFscTlmMzRYUEpYSQ?oc=5",
-      "domain": "trellisgroup",
-      "language": "",
-      "tone": 0,
-      "seendate": "20260827T093742Z",
-      "source": "GoogleNews"
-    },
-    {
-      "title": "Could climate change force a rewrite of the world’s recipes?",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQ1dzbmt5ZTZ6RTRCd2xnOHNKZk5lVGV3dlpoOVdLc3BOZWRFV00wSnJ6ZXRsVWVDdzFSd0NlckpMTkd4NmVJSWhFdFV4Q0ZYZXVaUXRlcDkyYjNkOTJ1dnBpME9MSVh5V0lGM041emNHMHFnVnFWQkxyYkJaS01fQVc3ODR3THZ6cVd4S0dBOEtOZkhuVlBFRXI3aEh1VDBtRDVfc3hWQQ?oc=5",
-      "domain": "foodnavigator.com",
-      "language": "",
-      "tone": 0,
-      "seendate": "20260827T092602Z",
-      "source": "GoogleNews"
-    },
-    {
-      "title": "Weather Wednesday: Examining Drought Conditions",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQR0VNcS1LTUw3TEZqU1hocFVsN2lYVHRKQmcwUTNKWTZwM1p4T0dtSHlNekNQM3ItSFhobVJnOXFLRGI5bHpvSWZkamVXaVQ3dk5pdm1acUJPTVZkTnJfb3NNbkhJMDc0UGpVYTY4c096MWJGMkJzYmg3STZpSXRTLUgwOFA?oc=5",
-      "domain": "inforum",
-      "language": "",
-      "tone": 0,
-      "seendate": "20260827T010000Z",
-      "source": "GoogleNews"
+      "label": "Model Coverage",
+      "value": "4/4",
+      "delta": "HIGH confidence"
     }
   ],
-  "timeseries": [],
-  "llm_summary": ""
+  "live_data": {
+    "nasa_power": {
+      "count": 8,
+      "cached": false,
+      "retained": false,
+      "sentinels": [
+        {
+          "name": "Sahel west",
+          "lat": 14.5,
+          "lon": -1.5,
+          "score": 100.0,
+          "rain_30d_mm": 73.3,
+          "rain_ratio": 0.39,
+          "max_temp_c": 38.7,
+          "heat_anomaly_c": 6.1,
+          "observed_through": "2026-08-25"
+        },
+        {
+          "name": "Sudan grain belt",
+          "lat": 13.5,
+          "lon": 33.5,
+          "score": 100.0,
+          "rain_30d_mm": 113.3,
+          "rain_ratio": 0.41,
+          "max_temp_c": 35.8,
+          "heat_anomaly_c": 7.2,
+          "observed_through": "2026-08-25"
+        },
+        {
+          "name": "Lake Chad basin",
+          "lat": 12.5,
+          "lon": 14.5,
+          "score": 89.7,
+          "rain_30d_mm": 109.9,
+          "rain_ratio": 0.41,
+          "max_temp_c": 36.3,
+          "heat_anomaly_c": 4.9,
+          "observed_through": "2026-08-25"
+        },
+        {
+          "name": "Pakistan Indus",
+          "lat": 29.0,
+          "lon": 70.5,
+          "score": 87.3,
+          "rain_30d_mm": 28.1,
+          "rain_ratio": 0.28,
+          "max_temp_c": 43.4,
+          "heat_anomaly_c": 3.7,
+          "observed_through": "2026-08-25"
+        },
+        {
+          "name": "Ethiopia lowlands",
+          "lat": 8.0,
+          "lon": 40.0,
+          "score": 79.0,
+          "rain_30d_mm": 84.3,
+          "rain_ratio": 0.39,
+          "max_temp_c": 27.1,
+          "heat_anomaly_c": 3.6,
+          "observed_through": "2026-08-25"
+        },
+        {
+          "name": "Somalia pastoral belt",
+          "lat": 5.0,
+          "lon": 45.3,
+          "score": 73.1,
+          "rain_30d_mm": 2.2,
+          "rain_ratio": 0.13,
+          "max_temp_c": 35.5,
+          "heat_anomaly_c": 1.2,
+          "observed_through": "2026-08-25"
+        },
+        {
+          "name": "Afghanistan drylands",
+          "lat": 34.0,
+          "lon": 65.0,
+          "score": 69.2,
+          "rain_30d_mm": 0.0,
+          "rain_ratio": 0.01,
+          "max_temp_c": 27.8,
+          "heat_anomaly_c": -0.1,
+          "observed_through": "2026-08-25"
+        },
+        {
+          "name": "Central America dry corridor",
+          "lat": 14.0,
+          "lon": -88.5,
+          "score": 56.0,
+          "rain_30d_mm": 119.7,
+          "rain_ratio": 0.62,
+          "max_temp_c": 32.4,
+          "heat_anomaly_c": 3.0,
+          "observed_through": "2026-08-25"
+        }
+      ]
+    },
+    "gdacs": {
+      "count": 192,
+      "cached": false,
+      "retained": false,
+      "compact": true,
+      "events": [
+        {
+          "id": "EQ|1558059",
+          "title": "Earthquake in Indonesia",
+          "date": "2026-08-14T21:58:21+00:00",
+          "alert_level": "Red",
+          "event_type": "EQ",
+          "country": "Indonesia",
+          "weight": 20.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1558059&episodeid=1725109&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1557236",
+          "title": "Earthquake in Colombia",
+          "date": "2026-08-10T12:34:28+00:00",
+          "alert_level": "Red",
+          "event_type": "EQ",
+          "country": "Colombia",
+          "weight": 20.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1557236&episodeid=1724218&eventtype=EQ"
+        },
+        {
+          "id": "TC|1001305",
+          "title": "Tropical Cyclone SAUDEL-26",
+          "date": "2026-08-18T12:00:00+00:00",
+          "alert_level": "Orange",
+          "event_type": "TC",
+          "country": "Japan, China, Northern Mariana Islands",
+          "weight": 9.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=38&eventtype=TC"
+        },
+        {
+          "id": "FL|1104121",
+          "title": "Flood in India",
+          "date": "2026-08-09T01:00:00+00:00",
+          "alert_level": "Orange",
+          "event_type": "FL",
+          "country": "India",
+          "weight": 8.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1104121&episodeid=2&eventtype=FL"
+        },
+        {
+          "id": "FL|1104123",
+          "title": "Flood in China",
+          "date": "2026-08-22T01:00:00+00:00",
+          "alert_level": "Orange",
+          "event_type": "FL",
+          "country": "China",
+          "weight": 8.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1104123&episodeid=4&eventtype=FL"
+        },
+        {
+          "id": "FL|1104081",
+          "title": "Flood in China",
+          "date": "2026-07-31T01:00:00+00:00",
+          "alert_level": "Orange",
+          "event_type": "FL",
+          "country": "China",
+          "weight": 8.0,
+          "url": "no reportlink found"
+        },
+        {
+          "id": "WF|1030252",
+          "title": "Forest fires in Serbia",
+          "date": "2026-08-05T00:00:00+00:00",
+          "alert_level": "Orange",
+          "event_type": "WF",
+          "country": "Serbia",
+          "weight": 8.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1030252&episodeid=40&eventtype=WF"
+        },
+        {
+          "id": "WF|1030410",
+          "title": "Forest fires in Spain",
+          "date": "2026-08-10T00:00:00+00:00",
+          "alert_level": "Orange",
+          "event_type": "WF",
+          "country": "Spain",
+          "weight": 8.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1030410&episodeid=23&eventtype=WF"
+        },
+        {
+          "id": "WF|1030534",
+          "title": "Forest fires in Belgium",
+          "date": "2026-08-14T00:00:00+00:00",
+          "alert_level": "Orange",
+          "event_type": "WF",
+          "country": "Belgium",
+          "weight": 8.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
+        },
+        {
+          "id": "EQ|1556215",
+          "title": "Earthquake in Philippines",
+          "date": "2026-08-05T04:14:06+00:00",
+          "alert_level": "Orange",
+          "event_type": "EQ",
+          "country": "Philippines",
+          "weight": 8.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1556215&episodeid=1723078&eventtype=EQ"
+        },
+        {
+          "id": "WF|1029987",
+          "title": "Forest fires in Greece",
+          "date": "2026-07-31T00:00:00+00:00",
+          "alert_level": "Orange",
+          "event_type": "WF",
+          "country": "Greece",
+          "weight": 8.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1029987&episodeid=18&eventtype=WF"
+        },
+        {
+          "id": "WF|1029958",
+          "title": "Forest fires in Greece",
+          "date": "2026-07-30T00:00:00+00:00",
+          "alert_level": "Orange",
+          "event_type": "WF",
+          "country": "Greece",
+          "weight": 8.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1029958&episodeid=4&eventtype=WF"
+        },
+        {
+          "id": "TC|1001313",
+          "title": "Tropical Cyclone DOLLY-26",
+          "date": "2026-08-27T15:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "Guadeloupe, Antigua and Barbuda, Montserrat",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001313&episodeid=2&eventtype=TC"
+        },
+        {
+          "id": "EQ|1562205",
+          "title": "Earthquake in Eastern Gulf Of Aden",
+          "date": "2026-08-27T21:07:38+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Eastern Gulf Of Aden",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1562205&episodeid=1729645&eventtype=EQ"
+        },
+        {
+          "id": "TC|1001314",
+          "title": "Tropical Cyclone KARINA-26",
+          "date": "2026-08-27T21:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=1&eventtype=TC"
+        }
+      ]
+    },
+    "nasa_eonet": {
+      "count": 1000,
+      "cached": false,
+      "retained": false,
+      "compact": true,
+      "events": [
+        {
+          "id": "EONET_23452",
+          "title": "Wildfire Ross, Palo Pinto, Texas",
+          "date": "2026-08-24T14:12:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.8,
+          "url": "https://irwin.doi.gov/observer/incidents/2026-TXTXS-267549"
+        },
+        {
+          "id": "EONET_23214",
+          "title": "Wildfire Colwash, Yakima, Washington",
+          "date": "2026-08-22T11:33:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.6,
+          "url": "https://irwin.doi.gov/observer/incidents/2026-WAYAA-000090"
+        },
+        {
+          "id": "EONET_22612",
+          "title": "Wildfire Stallion, Washoe, Nevada",
+          "date": "2026-08-10T13:31:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.6,
+          "url": "https://irwin.doi.gov/observer/incidents/2026-NVTMFX-030698"
+        },
+        {
+          "id": "EONET_22426",
+          "title": "Wildfire NUNAMAKER ROAD, Franklin, Washington",
+          "date": "2026-08-08T14:16:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.5,
+          "url": "https://irwin.doi.gov/observer/incidents/2026-WASPD-260605"
+        },
+        {
+          "id": "EONET_23456",
+          "title": "Wildfire MUSTANG, Malheur, Oregon",
+          "date": "2026-08-25T16:04:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.4,
+          "url": "https://irwin.doi.gov/observer/incidents/2026-ORVAD-260267"
+        },
+        {
+          "id": "EONET_23218",
+          "title": "Wildfire Hawk, Washoe, Nevada",
+          "date": "2026-08-22T14:45:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.4,
+          "url": "https://irwin.doi.gov/observer/incidents/2026-NVRNOX-030739"
+        },
+        {
+          "id": "EONET_23460",
+          "title": "Wildfire Hawk, Washoe, Nevada",
+          "date": "2026-08-22T14:45:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.4,
+          "url": "https://irwin.doi.gov/observer/incidents/2026-NVTMFX-030739"
+        },
+        {
+          "id": "EONET_23224",
+          "title": "Wildfire Chipmunk, Miami-Dade, Florida",
+          "date": "2026-08-21T15:40:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.4,
+          "url": "https://irwin.doi.gov/observer/incidents/2026-FLEVP-002565"
+        },
+        {
+          "id": "EONET_22432",
+          "title": "Wildfire Bug, Lassen, California",
+          "date": "2026-08-08T18:49:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.4,
+          "url": "https://irwin.doi.gov/observer/incidents/2026-NVCCD-030683"
+        },
+        {
+          "id": "EONET_23453",
+          "title": "Wildfire Calico, Humboldt, Nevada",
+          "date": "2026-08-26T17:29:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.3,
+          "url": "https://irwin.doi.gov/observer/incidents/2026-NVHTF-020624"
+        },
+        {
+          "id": "EONET_23457",
+          "title": "Wildfire S-1 VYA, Washoe, Nevada",
+          "date": "2026-08-24T17:03:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.3,
+          "url": "https://irwin.doi.gov/observer/incidents/2026-CANOD-005304"
+        },
+        {
+          "id": "EONET_23458",
+          "title": "Wildfire Oxley, Elko, Nevada",
+          "date": "2026-08-24T14:12:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.3,
+          "url": "https://irwin.doi.gov/observer/incidents/2026-NVEKD-010515"
+        },
+        {
+          "id": "EONET_23451",
+          "title": "Wildfire Camp Creek, Powell, Montana",
+          "date": "2026-08-21T19:25:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.2,
+          "url": "https://irwin.doi.gov/observer/incidents/2026-MTFNF-000393"
+        },
+        {
+          "id": "EONET_23222",
+          "title": "Wildfire Movie Dome, Miami-Dade, Florida",
+          "date": "2026-08-19T19:42:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.2,
+          "url": "https://irwin.doi.gov/observer/incidents/2026-FLEVP-002542"
+        },
+        {
+          "id": "EONET_23379",
+          "title": "Wildfire in Mozambique 1031134",
+          "date": "2026-08-16T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.2,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031134"
+        }
+      ]
+    },
+    "fao_food_prices": {
+      "rows": [
+        {
+          "Date": "1990-01",
+          "Food Price Index": 64.4,
+          "Meat": 74.3,
+          "Dairy": 53.5,
+          "Cereals": 64.1,
+          "Oils": 44.59,
+          "Sugar": 87.9
+        },
+        {
+          "Date": "1990-02",
+          "Food Price Index": 64.7,
+          "Meat": 76.8,
+          "Dairy": 52.2,
+          "Cereals": 62.2,
+          "Oils": 44.5,
+          "Sugar": 90.7
+        },
+        {
+          "Date": "1990-03",
+          "Food Price Index": 64.0,
+          "Meat": 78.5,
+          "Dairy": 41.4,
+          "Cereals": 61.3,
+          "Oils": 45.75,
+          "Sugar": 95.1
+        },
+        {
+          "Date": "1990-04",
+          "Food Price Index": 66.0,
+          "Meat": 81.2,
+          "Dairy": 48.4,
+          "Cereals": 62.8,
+          "Oils": 44.02,
+          "Sugar": 94.3
+        },
+        {
+          "Date": "1990-05",
+          "Food Price Index": 64.6,
+          "Meat": 81.8,
+          "Dairy": 39.2,
+          "Cereals": 62.0,
+          "Oils": 45.5,
+          "Sugar": 90.4
+        },
+        {
+          "Date": "1990-06",
+          "Food Price Index": 64.1,
+          "Meat": 84.2,
+          "Dairy": 39.2,
+          "Cereals": 60.7,
+          "Oils": 43.8,
+          "Sugar": 80.3
+        },
+        {
+          "Date": "1990-07",
+          "Food Price Index": 62.9,
+          "Meat": 84.5,
+          "Dairy": 39.2,
+          "Cereals": 57.9,
+          "Oils": 43.72,
+          "Sugar": 74.2
+        },
+        {
+          "Date": "1990-08",
+          "Food Price Index": 61.8,
+          "Meat": 84.5,
+          "Dairy": 36.8,
+          "Cereals": 55.7,
+          "Oils": 45.37,
+          "Sugar": 67.6
+        },
+        {
+          "Date": "1990-09",
+          "Food Price Index": 61.3,
+          "Meat": 85.5,
+          "Dairy": 38.1,
+          "Cereals": 52.5,
+          "Oils": 44.79,
+          "Sugar": 68.5
+        },
+        {
+          "Date": "1990-10",
+          "Food Price Index": 61.4,
+          "Meat": 86.2,
+          "Dairy": 38.9,
+          "Cereals": 52.8,
+          "Oils": 45.72,
+          "Sugar": 60.8
+        },
+        {
+          "Date": "1990-11",
+          "Food Price Index": 62.3,
+          "Meat": 87.6,
+          "Dairy": 39.4,
+          "Cereals": 52.4,
+          "Oils": 48.3,
+          "Sugar": 62.3
+        },
+        {
+          "Date": "1990-12",
+          "Food Price Index": 62.2,
+          "Meat": 84.4,
+          "Dairy": 45.1,
+          "Cereals": 52.6,
+          "Oils": 49.6,
+          "Sugar": 60.3
+        },
+        {
+          "Date": "1991-01",
+          "Food Price Index": 61.0,
+          "Meat": 80.5,
+          "Dairy": 46.9,
+          "Cereals": 53.7,
+          "Oils": 49.47,
+          "Sugar": 54.5
+        },
+        {
+          "Date": "1991-02",
+          "Food Price Index": 61.8,
+          "Meat": 82.4,
+          "Dairy": 46.7,
+          "Cereals": 55.2,
+          "Oils": 48.42,
+          "Sugar": 52.7
+        },
+        {
+          "Date": "1991-03",
+          "Food Price Index": 62.3,
+          "Meat": 81.6,
+          "Dairy": 45.8,
+          "Cereals": 57.3,
+          "Oils": 48.75,
+          "Sugar": 56.6
+        },
+        {
+          "Date": "1991-04",
+          "Food Price Index": 61.0,
+          "Meat": 80.5,
+          "Dairy": 42.8,
+          "Cereals": 57.6,
+          "Oils": 47.0,
+          "Sugar": 52.7
+        },
+        {
+          "Date": "1991-05",
+          "Food Price Index": 60.8,
+          "Meat": 82.0,
+          "Dairy": 42.1,
+          "Cereals": 57.2,
+          "Oils": 46.56,
+          "Sugar": 46.9
+        },
+        {
+          "Date": "1991-06",
+          "Food Price Index": 61.3,
+          "Meat": 81.3,
+          "Dairy": 43.4,
+          "Cereals": 56.5,
+          "Oils": 46.73,
+          "Sugar": 56.9
+        },
+        {
+          "Date": "1991-07",
+          "Food Price Index": 62.2,
+          "Meat": 83.6,
+          "Dairy": 40.4,
+          "Cereals": 55.7,
+          "Oils": 48.22,
+          "Sugar": 63.8
+        },
+        {
+          "Date": "1991-08",
+          "Food Price Index": 61.8,
+          "Meat": 80.4,
+          "Dairy": 41.7,
+          "Cereals": 58.3,
+          "Oils": 48.81,
+          "Sugar": 58.5
+        },
+        {
+          "Date": "1991-09",
+          "Food Price Index": 62.4,
+          "Meat": 80.6,
+          "Dairy": 45.4,
+          "Cereals": 58.8,
+          "Oils": 48.58,
+          "Sugar": 57.5
+        },
+        {
+          "Date": "1991-10",
+          "Food Price Index": 64.5,
+          "Meat": 83.0,
+          "Dairy": 48.8,
+          "Cereals": 60.6,
+          "Oils": 51.13,
+          "Sugar": 56.4
+        },
+        {
+          "Date": "1991-11",
+          "Food Price Index": 64.6,
+          "Meat": 82.6,
+          "Dairy": 50.8,
+          "Cereals": 60.8,
+          "Oils": 51.79,
+          "Sugar": 53.6
+        },
+        {
+          "Date": "1991-12",
+          "Food Price Index": 64.3,
+          "Meat": 79.2,
+          "Dairy": 50.8,
+          "Cereals": 62.7,
+          "Oils": 52.63,
+          "Sugar": 55.7
+        },
+        {
+          "Date": "1992-01",
+          "Food Price Index": 65.1,
+          "Meat": 80.2,
+          "Dairy": 52.9,
+          "Cereals": 63.9,
+          "Oils": 52.84,
+          "Sugar": 51.5
+        },
+        {
+          "Date": "1992-02",
+          "Food Price Index": 65.9,
+          "Meat": 81.6,
+          "Dairy": 52.9,
+          "Cereals": 66.5,
+          "Oils": 51.96,
+          "Sugar": 48.5
+        },
+        {
+          "Date": "1992-03",
+          "Food Price Index": 66.5,
+          "Meat": 82.4,
+          "Dairy": 52.4,
+          "Cereals": 65.9,
+          "Oils": 54.08,
+          "Sugar": 50.9
+        },
+        {
+          "Date": "1992-04",
+          "Food Price Index": 64.8,
+          "Meat": 78.3,
+          "Dairy": 52.4,
+          "Cereals": 63.0,
+          "Oils": 53.95,
+          "Sugar": 58.5
+        },
+        {
+          "Date": "1992-05",
+          "Food Price Index": 65.1,
+          "Meat": 78.9,
+          "Dairy": 54.6,
+          "Cereals": 62.0,
+          "Oils": 54.02,
+          "Sugar": 59.3
+        },
+        {
+          "Date": "1992-06",
+          "Food Price Index": 65.9,
+          "Meat": 78.9,
+          "Dairy": 57.7,
+          "Cereals": 61.8,
+          "Oils": 54.82,
+          "Sugar": 64.1
+        },
+        {
+          "Date": "1992-07",
+          "Food Price Index": 64.7,
+          "Meat": 79.5,
+          "Dairy": 58.1,
+          "Cereals": 58.5,
+          "Oils": 51.93,
+          "Sugar": 63.8
+        },
+        {
+          "Date": "1992-08",
+          "Food Price Index": 63.1,
+          "Meat": 78.6,
+          "Dairy": 56.6,
+          "Cereals": 56.1,
+          "Oils": 51.02,
+          "Sugar": 60.8
+        },
+        {
+          "Date": "1992-09",
+          "Food Price Index": 63.8,
+          "Meat": 78.1,
+          "Dairy": 58.1,
+          "Cereals": 58.3,
+          "Oils": 52.2,
+          "Sugar": 57.6
+        },
+        {
+          "Date": "1992-10",
+          "Food Price Index": 61.8,
+          "Meat": 74.4,
+          "Dairy": 54.9,
+          "Cereals": 58.2,
+          "Oils": 52.22,
+          "Sugar": 53.9
+        },
+        {
+          "Date": "1992-11",
+          "Food Price Index": 62.7,
+          "Meat": 76.2,
+          "Dairy": 53.8,
+          "Cereals": 58.8,
+          "Oils": 53.88,
+          "Sugar": 53.0
+        },
+        {
+          "Date": "1992-12",
+          "Food Price Index": 61.3,
+          "Meat": 73.7,
+          "Dairy": 53.2,
+          "Cereals": 58.5,
+          "Oils": 53.0,
+          "Sugar": 50.4
+        },
+        {
+          "Date": "1993-01",
+          "Food Price Index": 61.6,
+          "Meat": 73.4,
+          "Dairy": 53.3,
+          "Cereals": 59.1,
+          "Oils": 53.98,
+          "Sugar": 51.0
+        },
+        {
+          "Date": "1993-02",
+          "Food Price Index": 61.4,
+          "Meat": 72.9,
+          "Dairy": 54.0,
+          "Cereals": 58.1,
+          "Oils": 54.24,
+          "Sugar": 53.0
+        },
+        {
+          "Date": "1993-03",
+          "Food Price Index": 63.2,
+          "Meat": 76.5,
+          "Dairy": 53.3,
+          "Cereals": 57.8,
+          "Oils": 53.05,
+          "Sugar": 65.7
+        },
+        {
+          "Date": "1993-04",
+          "Food Price Index": 62.8,
+          "Meat": 75.7,
+          "Dairy": 52.4,
+          "Cereals": 57.3,
+          "Oils": 52.83,
+          "Sugar": 69.0
+        },
+        {
+          "Date": "1993-05",
+          "Food Price Index": 62.4,
+          "Meat": 76.0,
+          "Dairy": 51.7,
+          "Cereals": 55.4,
+          "Oils": 51.9,
+          "Sugar": 73.2
+        },
+        {
+          "Date": "1993-06",
+          "Food Price Index": 61.8,
+          "Meat": 78.6,
+          "Dairy": 51.8,
+          "Cereals": 52.8,
+          "Oils": 51.24,
+          "Sugar": 64.3
+        },
+        {
+          "Date": "1993-07",
+          "Food Price Index": 62.2,
+          "Meat": 78.1,
+          "Dairy": 49.7,
+          "Cereals": 55.8,
+          "Oils": 53.28,
+          "Sugar": 59.9
+        },
+        {
+          "Date": "1993-08",
+          "Food Price Index": 60.9,
+          "Meat": 74.8,
+          "Dairy": 48.0,
+          "Cereals": 56.6,
+          "Oils": 52.61,
+          "Sugar": 57.8
+        },
+        {
+          "Date": "1993-09",
+          "Food Price Index": 61.2,
+          "Meat": 75.1,
+          "Dairy": 45.1,
+          "Cereals": 58.4,
+          "Oils": 52.54,
+          "Sugar": 59.0
+        },
+        {
+          "Date": "1993-10",
+          "Food Price Index": 61.5,
+          "Meat": 74.5,
+          "Dairy": 41.0,
+          "Cereals": 61.4,
+          "Oils": 52.12,
+          "Sugar": 63.7
+        },
+        {
+          "Date": "1993-11",
+          "Food Price Index": 63.4,
+          "Meat": 73.6,
+          "Dairy": 41.2,
+          "Cereals": 66.7,
+          "Oils": 56.22,
+          "Sugar": 62.6
+        },
+        {
+          "Date": "1993-12",
+          "Food Price Index": 64.7,
+          "Meat": 71.1,
+          "Dairy": 41.8,
+          "Cereals": 68.9,
+          "Oils": 63.58,
+          "Sugar": 65.1
+        },
+        {
+          "Date": "1994-01",
+          "Food Price Index": 64.8,
+          "Meat": 70.2,
+          "Dairy": 45.5,
+          "Cereals": 68.6,
+          "Oils": 63.88,
+          "Sugar": 63.7
+        },
+        {
+          "Date": "1994-02",
+          "Food Price Index": 64.5,
+          "Meat": 72.1,
+          "Dairy": 45.4,
+          "Cereals": 66.8,
+          "Oils": 60.4,
+          "Sugar": 67.0
+        },
+        {
+          "Date": "1994-03",
+          "Food Price Index": 64.8,
+          "Meat": 73.4,
+          "Dairy": 46.0,
+          "Cereals": 64.1,
+          "Oils": 61.31,
+          "Sugar": 72.7
+        },
+        {
+          "Date": "1994-04",
+          "Food Price Index": 64.1,
+          "Meat": 74.0,
+          "Dairy": 42.3,
+          "Cereals": 62.4,
+          "Oils": 63.66,
+          "Sugar": 68.1
+        },
+        {
+          "Date": "1994-05",
+          "Food Price Index": 65.9,
+          "Meat": 77.0,
+          "Dairy": 42.3,
+          "Cereals": 62.0,
+          "Oils": 67.78,
+          "Sugar": 71.7
+        },
+        {
+          "Date": "1994-06",
+          "Food Price Index": 65.5,
+          "Meat": 75.4,
+          "Dairy": 45.1,
+          "Cereals": 60.1,
+          "Oils": 68.47,
+          "Sugar": 74.6
+        },
+        {
+          "Date": "1994-07",
+          "Food Price Index": 64.2,
+          "Meat": 75.9,
+          "Dairy": 45.6,
+          "Cereals": 56.0,
+          "Oils": 67.15,
+          "Sugar": 72.8
+        },
+        {
+          "Date": "1994-08",
+          "Food Price Index": 66.6,
+          "Meat": 77.7,
+          "Dairy": 46.6,
+          "Cereals": 57.5,
+          "Oils": 73.33,
+          "Sugar": 74.9
+        },
+        {
+          "Date": "1994-09",
+          "Food Price Index": 69.6,
+          "Meat": 78.8,
+          "Dairy": 49.9,
+          "Cereals": 60.2,
+          "Oils": 80.5,
+          "Sugar": 77.9
+        },
+        {
+          "Date": "1994-10",
+          "Food Price Index": 70.3,
+          "Meat": 79.2,
+          "Dairy": 52.0,
+          "Cereals": 61.7,
+          "Oils": 79.0,
+          "Sugar": 78.9
+        },
+        {
+          "Date": "1994-11",
+          "Food Price Index": 73.6,
+          "Meat": 83.0,
+          "Dairy": 53.2,
+          "Cereals": 61.1,
+          "Oils": 88.31,
+          "Sugar": 86.3
+        },
+        {
+          "Date": "1994-12",
+          "Food Price Index": 73.3,
+          "Meat": 78.9,
+          "Dairy": 55.0,
+          "Cereals": 62.7,
+          "Oils": 88.62,
+          "Sugar": 90.8
+        },
+        {
+          "Date": "1995-01",
+          "Food Price Index": 73.0,
+          "Meat": 79.1,
+          "Dairy": 58.9,
+          "Cereals": 62.9,
+          "Oils": 82.66,
+          "Sugar": 91.3
+        },
+        {
+          "Date": "1995-02",
+          "Food Price Index": 74.7,
+          "Meat": 84.0,
+          "Dairy": 61.1,
+          "Cereals": 62.5,
+          "Oils": 82.67,
+          "Sugar": 89.2
+        },
+        {
+          "Date": "1995-03",
+          "Food Price Index": 75.5,
+          "Meat": 85.1,
+          "Dairy": 61.8,
+          "Cereals": 62.2,
+          "Oils": 84.42,
+          "Sugar": 90.3
+        },
+        {
+          "Date": "1995-04",
+          "Food Price Index": 74.3,
+          "Meat": 85.9,
+          "Dairy": 61.1,
+          "Cereals": 62.7,
+          "Oils": 77.94,
+          "Sugar": 84.8
+        },
+        {
+          "Date": "1995-05",
+          "Food Price Index": 74.1,
+          "Meat": 84.1,
+          "Dairy": 61.2,
+          "Cereals": 64.9,
+          "Oils": 76.79,
+          "Sugar": 83.7
+        },
+        {
+          "Date": "1995-06",
+          "Food Price Index": 75.3,
+          "Meat": 81.7,
+          "Dairy": 61.2,
+          "Cereals": 69.1,
+          "Oils": 80.33,
+          "Sugar": 86.8
+        },
+        {
+          "Date": "1995-07",
+          "Food Price Index": 79.6,
+          "Meat": 87.8,
+          "Dairy": 64.6,
+          "Cereals": 74.0,
+          "Oils": 83.96,
+          "Sugar": 84.1
+        },
+        {
+          "Date": "1995-08",
+          "Food Price Index": 78.1,
+          "Meat": 87.4,
+          "Dairy": 64.3,
+          "Cereals": 72.6,
+          "Oils": 79.95,
+          "Sugar": 80.3
+        },
+        {
+          "Date": "1995-09",
+          "Food Price Index": 78.5,
+          "Meat": 89.0,
+          "Dairy": 64.3,
+          "Cereals": 75.9,
+          "Oils": 76.28,
+          "Sugar": 72.3
+        },
+        {
+          "Date": "1995-10",
+          "Food Price Index": 80.5,
+          "Meat": 89.2,
+          "Dairy": 64.8,
+          "Cereals": 80.2,
+          "Oils": 79.95,
+          "Sugar": 73.3
+        },
+        {
+          "Date": "1995-11",
+          "Food Price Index": 80.0,
+          "Meat": 87.9,
+          "Dairy": 64.8,
+          "Cereals": 80.5,
+          "Oils": 78.99,
+          "Sugar": 74.1
+        },
+        {
+          "Date": "1995-12",
+          "Food Price Index": 78.2,
+          "Meat": 81.8,
+          "Dairy": 64.4,
+          "Cereals": 82.7,
+          "Oils": 75.58,
+          "Sugar": 76.2
+        },
+        {
+          "Date": "1996-01",
+          "Food Price Index": 77.1,
+          "Meat": 80.3,
+          "Dairy": 64.3,
+          "Cereals": 83.3,
+          "Oils": 70.75,
+          "Sugar": 77.5
+        },
+        {
+          "Date": "1996-02",
+          "Food Price Index": 77.6,
+          "Meat": 80.3,
+          "Dairy": 64.2,
+          "Cereals": 85.7,
+          "Oils": 68.63,
+          "Sugar": 79.3
+        },
+        {
+          "Date": "1996-03",
+          "Food Price Index": 78.7,
+          "Meat": 83.2,
+          "Dairy": 63.0,
+          "Cereals": 86.9,
+          "Oils": 68.17,
+          "Sugar": 79.9
+        },
+        {
+          "Date": "1996-04",
+          "Food Price Index": 80.9,
+          "Meat": 81.2,
+          "Dairy": 62.7,
+          "Cereals": 95.3,
+          "Oils": 73.56,
+          "Sugar": 74.1
+        },
+        {
+          "Date": "1996-05",
+          "Food Price Index": 82.5,
+          "Meat": 83.6,
+          "Dairy": 61.0,
+          "Cereals": 100.0,
+          "Oils": 73.37,
+          "Sugar": 70.5
+        },
+        {
+          "Date": "1996-06",
+          "Food Price Index": 80.7,
+          "Meat": 84.1,
+          "Dairy": 61.1,
+          "Cereals": 94.3,
+          "Oils": 68.85,
+          "Sugar": 75.3
+        },
+        {
+          "Date": "1996-07",
+          "Food Price Index": 80.5,
+          "Meat": 87.1,
+          "Dairy": 61.3,
+          "Cereals": 91.1,
+          "Oils": 66.07,
+          "Sugar": 79.3
+        },
+        {
+          "Date": "1996-08",
+          "Food Price Index": 80.1,
+          "Meat": 89.7,
+          "Dairy": 60.7,
+          "Cereals": 85.8,
+          "Oils": 69.1,
+          "Sugar": 76.6
+        },
+        {
+          "Date": "1996-09",
+          "Food Price Index": 77.1,
+          "Meat": 89.3,
+          "Dairy": 60.1,
+          "Cereals": 75.3,
+          "Oils": 71.47,
+          "Sugar": 73.8
+        },
+        {
+          "Date": "1996-10",
+          "Food Price Index": 74.4,
+          "Meat": 86.6,
+          "Dairy": 61.0,
+          "Cereals": 71.1,
+          "Oils": 69.08,
+          "Sugar": 68.8
+        },
+        {
+          "Date": "1996-11",
+          "Food Price Index": 72.7,
+          "Meat": 85.4,
+          "Dairy": 59.9,
+          "Cereals": 67.4,
+          "Oils": 70.01,
+          "Sugar": 66.3
+        },
+        {
+          "Date": "1996-12",
+          "Food Price Index": 71.5,
+          "Meat": 81.5,
+          "Dairy": 60.2,
+          "Cereals": 67.6,
+          "Oils": 70.17,
+          "Sugar": 66.5
+        },
+        {
+          "Date": "1997-01",
+          "Food Price Index": 71.0,
+          "Meat": 79.1,
+          "Dairy": 60.3,
+          "Cereals": 68.1,
+          "Oils": 70.76,
+          "Sugar": 66.2
+        },
+        {
+          "Date": "1997-02",
+          "Food Price Index": 71.2,
+          "Meat": 79.4,
+          "Dairy": 59.5,
+          "Cereals": 68.4,
+          "Oils": 71.49,
+          "Sugar": 66.9
+        },
+        {
+          "Date": "1997-03",
+          "Food Price Index": 73.0,
+          "Meat": 83.1,
+          "Dairy": 59.3,
+          "Cereals": 70.6,
+          "Oils": 70.32,
+          "Sugar": 68.8
+        },
+        {
+          "Date": "1997-04",
+          "Food Price Index": 73.5,
+          "Meat": 83.9,
+          "Dairy": 59.1,
+          "Cereals": 70.8,
+          "Oils": 71.11,
+          "Sugar": 69.9
+        },
+        {
+          "Date": "1997-05",
+          "Food Price Index": 72.9,
+          "Meat": 83.8,
+          "Dairy": 58.8,
+          "Cereals": 68.8,
+          "Oils": 71.65,
+          "Sugar": 68.9
+        },
+        {
+          "Date": "1997-06",
+          "Food Price Index": 70.3,
+          "Meat": 80.4,
+          "Dairy": 58.6,
+          "Cereals": 65.2,
+          "Oils": 68.96,
+          "Sugar": 70.7
+        },
+        {
+          "Date": "1997-07",
+          "Food Price Index": 68.6,
+          "Meat": 79.7,
+          "Dairy": 58.1,
+          "Cereals": 62.4,
+          "Oils": 65.53,
+          "Sugar": 69.4
+        },
+        {
+          "Date": "1997-08",
+          "Food Price Index": 70.0,
+          "Meat": 80.6,
+          "Dairy": 57.8,
+          "Cereals": 65.7,
+          "Oils": 65.4,
+          "Sugar": 72.4
+        },
+        {
+          "Date": "1997-09",
+          "Food Price Index": 70.1,
+          "Meat": 80.2,
+          "Dairy": 59.0,
+          "Cereals": 65.1,
+          "Oils": 67.96,
+          "Sugar": 70.1
+        },
+        {
+          "Date": "1997-10",
+          "Food Price Index": 69.9,
+          "Meat": 75.8,
+          "Dairy": 60.8,
+          "Cereals": 65.6,
+          "Oils": 72.78,
+          "Sugar": 70.6
+        },
+        {
+          "Date": "1997-11",
+          "Food Price Index": 70.5,
+          "Meat": 76.0,
+          "Dairy": 61.0,
+          "Cereals": 64.2,
+          "Oils": 76.71,
+          "Sugar": 74.3
+        },
+        {
+          "Date": "1997-12",
+          "Food Price Index": 68.1,
+          "Meat": 69.8,
+          "Dairy": 61.0,
+          "Cereals": 63.4,
+          "Oils": 75.55,
+          "Sugar": 76.3
+        },
+        {
+          "Date": "1998-01",
+          "Food Price Index": 67.5,
+          "Meat": 67.7,
+          "Dairy": 60.9,
+          "Cereals": 62.7,
+          "Oils": 79.26,
+          "Sugar": 71.5
+        },
+        {
+          "Date": "1998-02",
+          "Food Price Index": 67.7,
+          "Meat": 68.7,
+          "Dairy": 59.7,
+          "Cereals": 62.7,
+          "Oils": 81.88,
+          "Sugar": 66.3
+        },
+        {
+          "Date": "1998-03",
+          "Food Price Index": 67.6,
+          "Meat": 68.4,
+          "Dairy": 57.8,
+          "Cereals": 63.2,
+          "Oils": 84.68,
+          "Sugar": 60.9
+        },
+        {
+          "Date": "1998-04",
+          "Food Price Index": 67.0,
+          "Meat": 68.4,
+          "Dairy": 57.6,
+          "Cereals": 60.8,
+          "Oils": 86.01,
+          "Sugar": 60.0
+        },
+        {
+          "Date": "1998-05",
+          "Food Price Index": 66.6,
+          "Meat": 66.8,
+          "Dairy": 56.5,
+          "Cereals": 60.2,
+          "Oils": 89.97,
+          "Sugar": 57.1
+        },
+        {
+          "Date": "1998-06",
+          "Food Price Index": 64.4,
+          "Meat": 66.7,
+          "Dairy": 55.6,
+          "Cereals": 59.0,
+          "Oils": 82.76,
+          "Sugar": 50.1
+        },
+        {
+          "Date": "1998-07",
+          "Food Price Index": 64.4,
+          "Meat": 67.0,
+          "Dairy": 55.3,
+          "Cereals": 57.5,
+          "Oils": 83.56,
+          "Sugar": 53.5
+        },
+        {
+          "Date": "1998-08",
+          "Food Price Index": 62.6,
+          "Meat": 64.8,
+          "Dairy": 55.4,
+          "Cereals": 54.1,
+          "Oils": 83.17,
+          "Sugar": 52.5
+        },
+        {
+          "Date": "1998-09",
+          "Food Price Index": 62.1,
+          "Meat": 65.1,
+          "Dairy": 53.9,
+          "Cereals": 53.9,
+          "Oils": 84.56,
+          "Sugar": 44.7
+        },
+        {
+          "Date": "1998-10",
+          "Food Price Index": 62.9,
+          "Meat": 64.7,
+          "Dairy": 52.1,
+          "Cereals": 57.7,
+          "Oils": 84.44,
+          "Sugar": 46.2
+        },
+        {
+          "Date": "1998-11",
+          "Food Price Index": 62.8,
+          "Meat": 63.2,
+          "Dairy": 52.1,
+          "Cereals": 58.2,
+          "Oils": 84.31,
+          "Sugar": 49.9
+        },
+        {
+          "Date": "1998-12",
+          "Food Price Index": 62.2,
+          "Meat": 63.8,
+          "Dairy": 52.3,
+          "Cereals": 56.8,
+          "Oils": 82.04,
+          "Sugar": 50.0
+        },
+        {
+          "Date": "1999-01",
+          "Food Price Index": 61.2,
+          "Meat": 62.7,
+          "Dairy": 52.4,
+          "Cereals": 57.1,
+          "Oils": 77.31,
+          "Sugar": 50.2
+        },
+        {
+          "Date": "1999-02",
+          "Food Price Index": 58.6,
+          "Meat": 63.3,
+          "Dairy": 51.5,
+          "Cereals": 54.9,
+          "Oils": 68.4,
+          "Sugar": 42.2
+        },
+        {
+          "Date": "1999-03",
+          "Food Price Index": 57.2,
+          "Meat": 63.4,
+          "Dairy": 50.7,
+          "Cereals": 55.2,
+          "Oils": 62.31,
+          "Sugar": 37.3
+        },
+        {
+          "Date": "1999-04",
+          "Food Price Index": 56.0,
+          "Meat": 61.7,
+          "Dairy": 48.0,
+          "Cereals": 53.7,
+          "Oils": 64.88,
+          "Sugar": 33.5
+        },
+        {
+          "Date": "1999-05",
+          "Food Price Index": 55.6,
+          "Meat": 62.2,
+          "Dairy": 47.4,
+          "Cereals": 52.8,
+          "Oils": 62.26,
+          "Sugar": 35.6
+        },
+        {
+          "Date": "1999-06",
+          "Food Price Index": 54.8,
+          "Meat": 62.7,
+          "Dairy": 47.1,
+          "Cereals": 53.6,
+          "Oils": 54.79,
+          "Sugar": 37.3
+        },
+        {
+          "Date": "1999-07",
+          "Food Price Index": 52.8,
+          "Meat": 62.9,
+          "Dairy": 46.4,
+          "Cereals": 51.4,
+          "Oils": 48.63,
+          "Sugar": 33.3
+        },
+        {
+          "Date": "1999-08",
+          "Food Price Index": 54.6,
+          "Meat": 64.8,
+          "Dairy": 46.4,
+          "Cereals": 53.0,
+          "Oils": 52.29,
+          "Sugar": 35.6
+        },
+        {
+          "Date": "1999-09",
+          "Food Price Index": 54.8,
+          "Meat": 63.4,
+          "Dairy": 46.8,
+          "Cereals": 52.6,
+          "Oils": 54.07,
+          "Sugar": 41.3
+        },
+        {
+          "Date": "1999-10",
+          "Food Price Index": 53.5,
+          "Meat": 60.7,
+          "Dairy": 47.0,
+          "Cereals": 51.5,
+          "Oils": 52.96,
+          "Sugar": 41.9
+        },
+        {
+          "Date": "1999-11",
+          "Food Price Index": 53.5,
+          "Meat": 61.8,
+          "Dairy": 47.5,
+          "Cereals": 51.3,
+          "Oils": 51.32,
+          "Sugar": 40.2
+        },
+        {
+          "Date": "1999-12",
+          "Food Price Index": 52.1,
+          "Meat": 59.5,
+          "Dairy": 48.5,
+          "Cereals": 50.4,
+          "Oils": 49.49,
+          "Sugar": 37.2
+        },
+        {
+          "Date": "2000-01",
+          "Food Price Index": 52.8,
+          "Meat": 60.6,
+          "Dairy": 50.2,
+          "Cereals": 52.1,
+          "Oils": 48.58,
+          "Sugar": 34.7
+        },
+        {
+          "Date": "2000-02",
+          "Food Price Index": 52.5,
+          "Meat": 60.9,
+          "Dairy": 50.4,
+          "Cereals": 52.2,
+          "Oils": 46.37,
+          "Sugar": 32.7
+        },
+        {
+          "Date": "2000-03",
+          "Food Price Index": 53.1,
+          "Meat": 62.8,
+          "Dairy": 50.1,
+          "Cereals": 51.7,
+          "Oils": 47.82,
+          "Sugar": 31.8
+        },
+        {
+          "Date": "2000-04",
+          "Food Price Index": 53.7,
+          "Meat": 62.3,
+          "Dairy": 50.4,
+          "Cereals": 51.8,
+          "Oils": 49.5,
+          "Sugar": 37.3
+        },
+        {
+          "Date": "2000-05",
+          "Food Price Index": 54.0,
+          "Meat": 63.3,
+          "Dairy": 50.9,
+          "Cereals": 52.8,
+          "Oils": 44.49,
+          "Sugar": 42.8
+        },
+        {
+          "Date": "2000-06",
+          "Food Price Index": 54.2,
+          "Meat": 63.0,
+          "Dairy": 53.8,
+          "Cereals": 51.4,
+          "Oils": 42.93,
+          "Sugar": 51.8
+        },
+        {
+          "Date": "2000-07",
+          "Food Price Index": 54.4,
+          "Meat": 62.7,
+          "Dairy": 55.6,
+          "Cereals": 49.8,
+          "Oils": 42.67,
+          "Sugar": 59.6
+        },
+        {
+          "Date": "2000-08",
+          "Food Price Index": 53.5,
+          "Meat": 60.3,
+          "Dairy": 56.0,
+          "Cereals": 48.6,
+          "Oils": 41.7,
+          "Sugar": 64.6
+        },
+        {
+          "Date": "2000-09",
+          "Food Price Index": 52.9,
+          "Meat": 59.4,
+          "Dairy": 57.4,
+          "Cereals": 49.4,
+          "Oils": 38.47,
+          "Sugar": 62.1
+        },
+        {
+          "Date": "2000-10",
+          "Food Price Index": 53.7,
+          "Meat": 59.5,
+          "Dairy": 59.1,
+          "Cereals": 51.2,
+          "Oils": 36.38,
+          "Sugar": 66.5
+        },
+        {
+          "Date": "2000-11",
+          "Food Price Index": 54.2,
+          "Meat": 60.4,
+          "Dairy": 59.6,
+          "Cereals": 52.1,
+          "Oils": 37.67,
+          "Sugar": 61.5
+        },
+        {
+          "Date": "2000-12",
+          "Food Price Index": 54.8,
+          "Meat": 60.4,
+          "Dairy": 60.1,
+          "Cereals": 53.7,
+          "Oils": 38.14,
+          "Sugar": 62.0
+        },
+        {
+          "Date": "2001-01",
+          "Food Price Index": 54.1,
+          "Meat": 58.3,
+          "Dairy": 59.7,
+          "Cereals": 53.9,
+          "Oils": 37.27,
+          "Sugar": 63.9
+        },
+        {
+          "Date": "2001-02",
+          "Food Price Index": 54.6,
+          "Meat": 62.0,
+          "Dairy": 59.5,
+          "Cereals": 53.0,
+          "Oils": 35.83,
+          "Sugar": 61.1
+        },
+        {
+          "Date": "2001-03",
+          "Food Price Index": 55.5,
+          "Meat": 64.9,
+          "Dairy": 59.7,
+          "Cereals": 52.2,
+          "Oils": 38.2,
+          "Sugar": 57.4
+        },
+        {
+          "Date": "2001-04",
+          "Food Price Index": 55.0,
+          "Meat": 65.3,
+          "Dairy": 59.5,
+          "Cereals": 51.0,
+          "Oils": 38.03,
+          "Sugar": 54.1
+        },
+        {
+          "Date": "2001-05",
+          "Food Price Index": 55.8,
+          "Meat": 65.6,
+          "Dairy": 62.0,
+          "Cereals": 51.7,
+          "Oils": 36.57,
+          "Sugar": 59.3
+        },
+        {
+          "Date": "2001-06",
+          "Food Price Index": 55.2,
+          "Meat": 63.8,
+          "Dairy": 62.4,
+          "Cereals": 51.0,
+          "Oils": 38.85,
+          "Sugar": 56.0
+        },
+        {
+          "Date": "2001-07",
+          "Food Price Index": 56.9,
+          "Meat": 64.1,
+          "Dairy": 62.9,
+          "Cereals": 51.7,
+          "Oils": 47.44,
+          "Sugar": 54.4
+        },
+        {
+          "Date": "2001-08",
+          "Food Price Index": 57.0,
+          "Meat": 64.4,
+          "Dairy": 62.5,
+          "Cereals": 51.6,
+          "Oils": 50.02,
+          "Sugar": 50.2
+        },
+        {
+          "Date": "2001-09",
+          "Food Price Index": 55.8,
+          "Meat": 64.3,
+          "Dairy": 62.1,
+          "Cereals": 51.2,
+          "Oils": 45.4,
+          "Sugar": 47.3
+        },
+        {
+          "Date": "2001-10",
+          "Food Price Index": 54.5,
+          "Meat": 62.4,
+          "Dairy": 62.8,
+          "Cereals": 51.0,
+          "Oils": 43.3,
+          "Sugar": 42.0
+        },
+        {
+          "Date": "2001-11",
+          "Food Price Index": 55.1,
+          "Meat": 60.6,
+          "Dairy": 60.6,
+          "Cereals": 51.9,
+          "Oils": 48.27,
+          "Sugar": 47.5
+        },
+        {
+          "Date": "2001-12",
+          "Food Price Index": 54.6,
+          "Meat": 59.2,
+          "Dairy": 56.9,
+          "Cereals": 52.0,
+          "Oils": 50.61,
+          "Sugar": 48.5
+        },
+        {
+          "Date": "2002-01",
+          "Food Price Index": 53.8,
+          "Meat": 59.4,
+          "Dairy": 53.0,
+          "Cereals": 51.7,
+          "Oils": 49.26,
+          "Sugar": 48.2
+        },
+        {
+          "Date": "2002-02",
+          "Food Price Index": 52.0,
+          "Meat": 57.6,
+          "Dairy": 52.8,
+          "Cereals": 50.4,
+          "Oils": 47.79,
+          "Sugar": 40.5
+        },
+        {
+          "Date": "2002-03",
+          "Food Price Index": 52.3,
+          "Meat": 60.1,
+          "Dairy": 50.7,
+          "Cereals": 49.6,
+          "Oils": 47.62,
+          "Sugar": 41.4
+        },
+        {
+          "Date": "2002-04",
+          "Food Price Index": 51.4,
+          "Meat": 57.2,
+          "Dairy": 48.9,
+          "Cereals": 49.3,
+          "Oils": 48.97,
+          "Sugar": 42.6
+        },
+        {
+          "Date": "2002-05",
+          "Food Price Index": 50.8,
+          "Meat": 56.2,
+          "Dairy": 44.8,
+          "Cereals": 50.2,
+          "Oils": 51.64,
+          "Sugar": 37.6
+        },
+        {
+          "Date": "2002-06",
+          "Food Price Index": 51.6,
+          "Meat": 56.3,
+          "Dairy": 42.9,
+          "Cereals": 52.0,
+          "Oils": 55.8,
+          "Sugar": 35.6
+        },
+        {
+          "Date": "2002-07",
+          "Food Price Index": 52.3,
+          "Meat": 55.9,
+          "Dairy": 40.6,
+          "Cereals": 54.6,
+          "Oils": 56.15,
+          "Sugar": 39.5
+        },
+        {
+          "Date": "2002-08",
+          "Food Price Index": 53.7,
+          "Meat": 55.8,
+          "Dairy": 40.1,
+          "Cereals": 58.1,
+          "Oils": 59.65,
+          "Sugar": 39.0
+        },
+        {
+          "Date": "2002-09",
+          "Food Price Index": 55.1,
+          "Meat": 55.1,
+          "Dairy": 41.6,
+          "Cereals": 63.8,
+          "Oils": 56.68,
+          "Sugar": 43.1
+        },
+        {
+          "Date": "2002-10",
+          "Food Price Index": 55.5,
+          "Meat": 53.5,
+          "Dairy": 42.9,
+          "Cereals": 64.4,
+          "Oils": 58.76,
+          "Sugar": 46.5
+        },
+        {
+          "Date": "2002-11",
+          "Food Price Index": 56.6,
+          "Meat": 53.9,
+          "Dairy": 45.5,
+          "Cereals": 63.0,
+          "Oils": 63.91,
+          "Sugar": 48.5
+        },
+        {
+          "Date": "2002-12",
+          "Food Price Index": 56.0,
+          "Meat": 52.3,
+          "Dairy": 49.3,
+          "Cereals": 59.8,
+          "Oils": 65.51,
+          "Sugar": 49.2
+        },
+        {
+          "Date": "2003-01",
+          "Food Price Index": 56.2,
+          "Meat": 53.9,
+          "Dairy": 51.3,
+          "Cereals": 58.0,
+          "Oils": 64.32,
+          "Sugar": 50.7
+        },
+        {
+          "Date": "2003-02",
+          "Food Price Index": 56.9,
+          "Meat": 55.1,
+          "Dairy": 53.1,
+          "Cereals": 57.8,
+          "Oils": 62.35,
+          "Sugar": 55.7
+        },
+        {
+          "Date": "2003-03",
+          "Food Price Index": 55.9,
+          "Meat": 55.7,
+          "Dairy": 53.7,
+          "Cereals": 56.5,
+          "Oils": 59.23,
+          "Sugar": 50.9
+        },
+        {
+          "Date": "2003-04",
+          "Food Price Index": 55.9,
+          "Meat": 56.7,
+          "Dairy": 52.7,
+          "Cereals": 56.4,
+          "Oils": 59.57,
+          "Sugar": 48.0
+        },
+        {
+          "Date": "2003-05",
+          "Food Price Index": 56.7,
+          "Meat": 57.4,
+          "Dairy": 52.6,
+          "Cereals": 58.2,
+          "Oils": 61.09,
+          "Sugar": 44.4
+        },
+        {
+          "Date": "2003-06",
+          "Food Price Index": 56.4,
+          "Meat": 57.3,
+          "Dairy": 52.6,
+          "Cereals": 57.7,
+          "Oils": 61.96,
+          "Sugar": 41.6
+        },
+        {
+          "Date": "2003-07",
+          "Food Price Index": 57.1,
+          "Meat": 61.5,
+          "Dairy": 53.2,
+          "Cereals": 56.5,
+          "Oils": 58.84,
+          "Sugar": 42.3
+        },
+        {
+          "Date": "2003-08",
+          "Food Price Index": 57.8,
+          "Meat": 61.4,
+          "Dairy": 53.6,
+          "Cereals": 59.9,
+          "Oils": 57.09,
+          "Sugar": 42.3
+        },
+        {
+          "Date": "2003-09",
+          "Food Price Index": 59.0,
+          "Meat": 63.7,
+          "Dairy": 55.2,
+          "Cereals": 60.5,
+          "Oils": 59.33,
+          "Sugar": 37.0
+        },
+        {
+          "Date": "2003-10",
+          "Food Price Index": 60.6,
+          "Meat": 63.6,
+          "Dairy": 57.6,
+          "Cereals": 60.6,
+          "Oils": 67.39,
+          "Sugar": 36.9
+        },
+        {
+          "Date": "2003-11",
+          "Food Price Index": 62.0,
+          "Meat": 62.9,
+          "Dairy": 58.6,
+          "Cereals": 64.8,
+          "Oils": 68.83,
+          "Sugar": 37.6
+        },
+        {
+          "Date": "2003-12",
+          "Food Price Index": 62.9,
+          "Meat": 62.5,
+          "Dairy": 59.7,
+          "Cereals": 65.7,
+          "Oils": 71.56,
+          "Sugar": 38.9
+        },
+        {
+          "Date": "2004-01",
+          "Food Price Index": 64.7,
+          "Meat": 67.2,
+          "Dairy": 60.9,
+          "Cereals": 66.9,
+          "Oils": 71.22,
+          "Sugar": 35.9
+        },
+        {
+          "Date": "2004-02",
+          "Food Price Index": 65.5,
+          "Meat": 65.1,
+          "Dairy": 64.3,
+          "Cereals": 67.5,
+          "Oils": 76.06,
+          "Sugar": 36.2
+        },
+        {
+          "Date": "2004-03",
+          "Food Price Index": 67.1,
+          "Meat": 67.6,
+          "Dairy": 65.2,
+          "Cereals": 68.5,
+          "Oils": 76.73,
+          "Sugar": 40.0
+        },
+        {
+          "Date": "2004-04",
+          "Food Price Index": 67.7,
+          "Meat": 67.5,
+          "Dairy": 65.8,
+          "Cereals": 70.2,
+          "Oils": 76.45,
+          "Sugar": 40.7
+        },
+        {
+          "Date": "2004-05",
+          "Food Price Index": 66.8,
+          "Meat": 67.0,
+          "Dairy": 67.8,
+          "Cereals": 68.8,
+          "Oils": 73.52,
+          "Sugar": 39.2
+        },
+        {
+          "Date": "2004-06",
+          "Food Price Index": 66.4,
+          "Meat": 69.9,
+          "Dairy": 70.7,
+          "Cereals": 66.4,
+          "Oils": 66.06,
+          "Sugar": 42.9
+        },
+        {
+          "Date": "2004-07",
+          "Food Price Index": 65.8,
+          "Meat": 71.6,
+          "Dairy": 72.6,
+          "Cereals": 60.7,
+          "Oils": 64.82,
+          "Sugar": 49.0
+        },
+        {
+          "Date": "2004-08",
+          "Food Price Index": 64.8,
+          "Meat": 69.8,
+          "Dairy": 72.7,
+          "Cereals": 59.1,
+          "Oils": 65.44,
+          "Sugar": 46.9
+        },
+        {
+          "Date": "2004-09",
+          "Food Price Index": 65.4,
+          "Meat": 70.2,
+          "Dairy": 73.3,
+          "Cereals": 60.0,
+          "Oils": 66.27,
+          "Sugar": 47.6
+        },
+        {
+          "Date": "2004-10",
+          "Food Price Index": 64.9,
+          "Meat": 68.2,
+          "Dairy": 73.8,
+          "Cereals": 59.3,
+          "Oils": 65.8,
+          "Sugar": 52.3
+        },
+        {
+          "Date": "2004-11",
+          "Food Price Index": 65.7,
+          "Meat": 69.2,
+          "Dairy": 75.1,
+          "Cereals": 60.0,
+          "Oils": 66.94,
+          "Sugar": 50.5
+        },
+        {
+          "Date": "2004-12",
+          "Food Price Index": 66.0,
+          "Meat": 69.9,
+          "Dairy": 75.8,
+          "Cereals": 60.5,
+          "Oils": 66.02,
+          "Sugar": 51.0
+        },
+        {
+          "Date": "2005-01",
+          "Food Price Index": 65.8,
+          "Meat": 69.9,
+          "Dairy": 76.2,
+          "Cereals": 60.5,
+          "Oils": 63.15,
+          "Sugar": 54.0
+        },
+        {
+          "Date": "2005-02",
+          "Food Price Index": 66.2,
+          "Meat": 71.1,
+          "Dairy": 76.7,
+          "Cereals": 60.3,
+          "Oils": 62.27,
+          "Sugar": 56.3
+        },
+        {
+          "Date": "2005-03",
+          "Food Price Index": 67.5,
+          "Meat": 71.7,
+          "Dairy": 77.0,
+          "Cereals": 61.5,
+          "Oils": 66.74,
+          "Sugar": 55.0
+        },
+        {
+          "Date": "2005-04",
+          "Food Price Index": 66.0,
+          "Meat": 70.4,
+          "Dairy": 76.2,
+          "Cereals": 59.5,
+          "Oils": 65.07,
+          "Sugar": 53.2
+        },
+        {
+          "Date": "2005-05",
+          "Food Price Index": 66.5,
+          "Meat": 72.6,
+          "Dairy": 76.5,
+          "Cereals": 59.4,
+          "Oils": 64.23,
+          "Sugar": 53.1
+        },
+        {
+          "Date": "2005-06",
+          "Food Price Index": 67.4,
+          "Meat": 73.6,
+          "Dairy": 76.4,
+          "Cereals": 60.2,
+          "Oils": 64.64,
+          "Sugar": 56.0
+        },
+        {
+          "Date": "2005-07",
+          "Food Price Index": 67.7,
+          "Meat": 72.6,
+          "Dairy": 77.1,
+          "Cereals": 61.2,
+          "Oils": 64.44,
+          "Sugar": 59.7
+        },
+        {
+          "Date": "2005-08",
+          "Food Price Index": 67.6,
+          "Meat": 72.8,
+          "Dairy": 78.3,
+          "Cereals": 60.9,
+          "Oils": 62.51,
+          "Sugar": 61.5
+        },
+        {
+          "Date": "2005-09",
+          "Food Price Index": 68.6,
+          "Meat": 73.9,
+          "Dairy": 78.7,
+          "Cereals": 61.5,
+          "Oils": 64.0,
+          "Sugar": 63.8
+        },
+        {
+          "Date": "2005-10",
+          "Food Price Index": 69.5,
+          "Meat": 73.8,
+          "Dairy": 78.5,
+          "Cereals": 62.1,
+          "Oils": 66.81,
+          "Sugar": 68.8
+        },
+        {
+          "Date": "2005-11",
+          "Food Price Index": 69.0,
+          "Meat": 74.1,
+          "Dairy": 78.0,
+          "Cereals": 60.6,
+          "Oils": 65.44,
+          "Sugar": 70.4
+        },
+        {
+          "Date": "2005-12",
+          "Food Price Index": 69.8,
+          "Meat": 74.4,
+          "Dairy": 76.9,
+          "Cereals": 61.5,
+          "Oils": 63.49,
+          "Sugar": 82.6
+        },
+        {
+          "Date": "2006-01",
+          "Food Price Index": 69.8,
+          "Meat": 71.2,
+          "Dairy": 74.3,
+          "Cereals": 62.7,
+          "Oils": 63.67,
+          "Sugar": 97.5
+        },
+        {
+          "Date": "2006-02",
+          "Food Price Index": 70.8,
+          "Meat": 68.8,
+          "Dairy": 74.5,
+          "Cereals": 64.8,
+          "Oils": 64.99,
+          "Sugar": 111.1
+        },
+        {
+          "Date": "2006-03",
+          "Food Price Index": 69.8,
+          "Meat": 68.0,
+          "Dairy": 73.1,
+          "Cereals": 63.9,
+          "Oils": 65.16,
+          "Sugar": 106.7
+        },
+        {
+          "Date": "2006-04",
+          "Food Price Index": 70.1,
+          "Meat": 67.4,
+          "Dairy": 71.6,
+          "Cereals": 65.1,
+          "Oils": 66.76,
+          "Sugar": 108.2
+        },
+        {
+          "Date": "2006-05",
+          "Food Price Index": 71.3,
+          "Meat": 69.0,
+          "Dairy": 71.3,
+          "Cereals": 67.8,
+          "Oils": 68.28,
+          "Sugar": 104.1
+        },
+        {
+          "Date": "2006-06",
+          "Food Price Index": 71.4,
+          "Meat": 71.3,
+          "Dairy": 71.0,
+          "Cereals": 67.8,
+          "Oils": 67.94,
+          "Sugar": 95.3
+        },
+        {
+          "Date": "2006-07",
+          "Food Price Index": 73.2,
+          "Meat": 72.7,
+          "Dairy": 71.3,
+          "Cereals": 69.9,
+          "Oils": 70.45,
+          "Sugar": 99.3
+        },
+        {
+          "Date": "2006-08",
+          "Food Price Index": 73.1,
+          "Meat": 74.8,
+          "Dairy": 70.3,
+          "Cereals": 69.6,
+          "Oils": 73.55,
+          "Sugar": 83.2
+        },
+        {
+          "Date": "2006-09",
+          "Food Price Index": 73.2,
+          "Meat": 75.3,
+          "Dairy": 70.3,
+          "Cereals": 72.5,
+          "Oils": 71.7,
+          "Sugar": 74.8
+        },
+        {
+          "Date": "2006-10",
+          "Food Price Index": 75.1,
+          "Meat": 74.3,
+          "Dairy": 71.9,
+          "Cereals": 79.9,
+          "Oils": 72.7,
+          "Sugar": 72.0
+        },
+        {
+          "Date": "2006-11",
+          "Food Price Index": 77.7,
+          "Meat": 72.6,
+          "Dairy": 75.4,
+          "Cereals": 85.3,
+          "Oils": 78.35,
+          "Sugar": 72.9
+        },
+        {
+          "Date": "2006-12",
+          "Food Price Index": 78.8,
+          "Meat": 71.3,
+          "Dairy": 81.7,
+          "Cereals": 85.4,
+          "Oils": 83.01,
+          "Sugar": 71.6
+        },
+        {
+          "Date": "2007-01",
+          "Food Price Index": 78.5,
+          "Meat": 70.7,
+          "Dairy": 84.2,
+          "Cereals": 85.1,
+          "Oils": 82.27,
+          "Sugar": 67.8
+        },
+        {
+          "Date": "2007-02",
+          "Food Price Index": 80.0,
+          "Meat": 72.2,
+          "Dairy": 88.3,
+          "Cereals": 87.0,
+          "Oils": 82.87,
+          "Sugar": 65.4
+        },
+        {
+          "Date": "2007-03",
+          "Food Price Index": 81.1,
+          "Meat": 73.9,
+          "Dairy": 91.8,
+          "Cereals": 86.4,
+          "Oils": 84.42,
+          "Sugar": 64.6
+        },
+        {
+          "Date": "2007-04",
+          "Food Price Index": 83.9,
+          "Meat": 75.8,
+          "Dairy": 102.0,
+          "Cereals": 85.1,
+          "Oils": 92.76,
+          "Sugar": 60.2
+        },
+        {
+          "Date": "2007-05",
+          "Food Price Index": 86.5,
+          "Meat": 77.5,
+          "Dairy": 105.3,
+          "Cereals": 86.6,
+          "Oils": 100.25,
+          "Sugar": 58.4
+        },
+        {
+          "Date": "2007-06",
+          "Food Price Index": 91.4,
+          "Meat": 78.8,
+          "Dairy": 121.0,
+          "Cereals": 91.9,
+          "Oils": 104.92,
+          "Sugar": 57.5
+        },
+        {
+          "Date": "2007-07",
+          "Food Price Index": 95.5,
+          "Meat": 79.9,
+          "Dairy": 135.0,
+          "Cereals": 94.9,
+          "Oils": 108.58,
+          "Sugar": 62.9
+        },
+        {
+          "Date": "2007-08",
+          "Food Price Index": 99.1,
+          "Meat": 79.9,
+          "Dairy": 141.5,
+          "Cereals": 102.1,
+          "Oils": 112.8,
+          "Sugar": 60.7
+        },
+        {
+          "Date": "2007-09",
+          "Food Price Index": 105.3,
+          "Meat": 81.4,
+          "Dairy": 145.1,
+          "Cereals": 117.2,
+          "Oils": 118.25,
+          "Sugar": 60.4
+        },
+        {
+          "Date": "2007-10",
+          "Food Price Index": 107.9,
+          "Meat": 80.1,
+          "Dairy": 148.0,
+          "Cereals": 121.3,
+          "Oils": 125.85,
+          "Sugar": 61.9
+        },
+        {
+          "Date": "2007-11",
+          "Food Price Index": 110.8,
+          "Meat": 81.1,
+          "Dairy": 154.0,
+          "Cereals": 121.0,
+          "Oils": 136.25,
+          "Sugar": 62.5
+        },
+        {
+          "Date": "2007-12",
+          "Food Price Index": 114.7,
+          "Meat": 81.8,
+          "Dairy": 152.6,
+          "Cereals": 132.2,
+          "Oils": 138.56,
+          "Sugar": 66.3
+        },
+        {
+          "Date": "2008-01",
+          "Food Price Index": 120.4,
+          "Meat": 82.8,
+          "Dairy": 150.6,
+          "Cereals": 141.0,
+          "Oils": 154.1,
+          "Sugar": 74.1
+        },
+        {
+          "Date": "2008-02",
+          "Food Price Index": 128.4,
+          "Meat": 80.6,
+          "Dairy": 149.9,
+          "Cereals": 160.8,
+          "Oils": 168.63,
+          "Sugar": 83.6
+        },
+        {
+          "Date": "2008-03",
+          "Food Price Index": 132.4,
+          "Meat": 85.6,
+          "Dairy": 152.6,
+          "Cereals": 163.3,
+          "Oils": 176.6,
+          "Sugar": 81.7
+        },
+        {
+          "Date": "2008-04",
+          "Food Price Index": 130.7,
+          "Meat": 87.0,
+          "Dairy": 148.9,
+          "Cereals": 162.7,
+          "Oils": 169.41,
+          "Sugar": 77.7
+        },
+        {
+          "Date": "2008-05",
+          "Food Price Index": 130.3,
+          "Meat": 91.8,
+          "Dairy": 144.3,
+          "Cereals": 157.4,
+          "Oils": 172.02,
+          "Sugar": 74.7
+        },
+        {
+          "Date": "2008-06",
+          "Food Price Index": 132.7,
+          "Meat": 93.6,
+          "Dairy": 143.9,
+          "Cereals": 160.3,
+          "Oils": 178.32,
+          "Sugar": 75.0
+        },
+        {
+          "Date": "2008-07",
+          "Food Price Index": 130.2,
+          "Meat": 100.4,
+          "Dairy": 144.1,
+          "Cereals": 148.2,
+          "Oils": 164.8,
+          "Sugar": 88.1
+        },
+        {
+          "Date": "2008-08",
+          "Food Price Index": 121.2,
+          "Meat": 102.1,
+          "Dairy": 133.5,
+          "Cereals": 136.5,
+          "Oils": 135.62,
+          "Sugar": 90.4
+        },
+        {
+          "Date": "2008-09",
+          "Food Price Index": 112.8,
+          "Meat": 100.9,
+          "Dairy": 120.5,
+          "Cereals": 125.3,
+          "Oils": 120.59,
+          "Sugar": 83.7
+        },
+        {
+          "Date": "2008-10",
+          "Food Price Index": 97.8,
+          "Meat": 95.7,
+          "Dairy": 107.0,
+          "Cereals": 104.9,
+          "Oils": 92.21,
+          "Sugar": 73.6
+        },
+        {
+          "Date": "2008-11",
+          "Food Price Index": 89.7,
+          "Meat": 87.9,
+          "Dairy": 97.8,
+          "Cereals": 96.0,
+          "Oils": 82.03,
+          "Sugar": 74.9
+        },
+        {
+          "Date": "2008-12",
+          "Food Price Index": 86.3,
+          "Meat": 81.8,
+          "Dairy": 94.9,
+          "Cereals": 95.1,
+          "Oils": 78.55,
+          "Sugar": 72.7
+        },
+        {
+          "Date": "2009-01",
+          "Food Price Index": 86.7,
+          "Meat": 78.1,
+          "Dairy": 88.2,
+          "Cereals": 100.4,
+          "Oils": 82.78,
+          "Sugar": 77.4
+        },
+        {
+          "Date": "2009-02",
+          "Food Price Index": 84.5,
+          "Meat": 76.0,
+          "Dairy": 82.6,
+          "Cereals": 97.2,
+          "Oils": 82.24,
+          "Sugar": 81.9
+        },
+        {
+          "Date": "2009-03",
+          "Food Price Index": 84.3,
+          "Meat": 76.1,
+          "Dairy": 80.9,
+          "Cereals": 97.2,
+          "Oils": 81.49,
+          "Sugar": 82.9
+        },
+        {
+          "Date": "2009-04",
+          "Food Price Index": 87.4,
+          "Meat": 78.5,
+          "Dairy": 80.4,
+          "Cereals": 98.1,
+          "Oils": 93.8,
+          "Sugar": 84.5
+        },
+        {
+          "Date": "2009-05",
+          "Food Price Index": 93.5,
+          "Meat": 81.3,
+          "Dairy": 83.5,
+          "Cereals": 103.3,
+          "Oils": 106.61,
+          "Sugar": 99.4
+        },
+        {
+          "Date": "2009-06",
+          "Food Price Index": 93.4,
+          "Meat": 83.4,
+          "Dairy": 84.7,
+          "Cereals": 103.0,
+          "Oils": 100.72,
+          "Sugar": 101.7
+        },
+        {
+          "Date": "2009-07",
+          "Food Price Index": 90.7,
+          "Meat": 85.2,
+          "Dairy": 85.1,
+          "Cereals": 94.5,
+          "Oils": 89.9,
+          "Sugar": 114.0
+        },
+        {
+          "Date": "2009-08",
+          "Food Price Index": 93.5,
+          "Meat": 85.4,
+          "Dairy": 88.0,
+          "Cereals": 91.9,
+          "Oils": 97.85,
+          "Sugar": 138.8
+        },
+        {
+          "Date": "2009-09",
+          "Food Price Index": 93.1,
+          "Meat": 84.5,
+          "Dairy": 95.1,
+          "Cereals": 89.8,
+          "Oils": 93.25,
+          "Sugar": 142.6
+        },
+        {
+          "Date": "2009-10",
+          "Food Price Index": 94.8,
+          "Meat": 82.6,
+          "Dairy": 102.7,
+          "Cereals": 93.8,
+          "Oils": 95.17,
+          "Sugar": 140.1
+        },
+        {
+          "Date": "2009-11",
+          "Food Price Index": 98.9,
+          "Meat": 83.9,
+          "Dairy": 113.1,
+          "Cereals": 98.0,
+          "Oils": 101.76,
+          "Sugar": 137.8
+        },
+        {
+          "Date": "2009-12",
+          "Food Price Index": 100.8,
+          "Meat": 84.5,
+          "Dairy": 112.8,
+          "Cereals": 99.0,
+          "Oils": 107.56,
+          "Sugar": 145.6
+        },
+        {
+          "Date": "2010-01",
+          "Food Price Index": 101.8,
+          "Meat": 86.0,
+          "Dairy": 109.0,
+          "Cereals": 98.4,
+          "Oils": 107.1,
+          "Sugar": 163.8
+        },
+        {
+          "Date": "2010-02",
+          "Food Price Index": 99.3,
+          "Meat": 86.5,
+          "Dairy": 101.6,
+          "Cereals": 94.0,
+          "Oils": 107.31,
+          "Sugar": 157.4
+        },
+        {
+          "Date": "2010-03",
+          "Food Price Index": 96.5,
+          "Meat": 87.5,
+          "Dairy": 101.6,
+          "Cereals": 91.8,
+          "Oils": 110.33,
+          "Sugar": 115.5
+        },
+        {
+          "Date": "2010-04",
+          "Food Price Index": 97.1,
+          "Meat": 90.1,
+          "Dairy": 109.7,
+          "Cereals": 90.7,
+          "Oils": 109.36,
+          "Sugar": 101.8
+        },
+        {
+          "Date": "2010-05",
+          "Food Price Index": 96.4,
+          "Meat": 90.1,
+          "Dairy": 111.8,
+          "Cereals": 90.6,
+          "Oils": 107.17,
+          "Sugar": 94.1
+        },
+        {
+          "Date": "2010-06",
+          "Food Price Index": 95.9,
+          "Meat": 91.2,
+          "Dairy": 110.4,
+          "Cereals": 87.8,
+          "Oils": 106.03,
+          "Sugar": 98.1
+        },
+        {
+          "Date": "2010-07",
+          "Food Price Index": 100.0,
+          "Meat": 92.0,
+          "Dairy": 112.8,
+          "Cereals": 95.3,
+          "Oils": 110.13,
+          "Sugar": 107.9
+        },
+        {
+          "Date": "2010-08",
+          "Food Price Index": 107.8,
+          "Meat": 92.9,
+          "Dairy": 112.3,
+          "Cereals": 112.9,
+          "Oils": 121.81,
+          "Sugar": 114.6
+        },
+        {
+          "Date": "2010-09",
+          "Food Price Index": 114.1,
+          "Meat": 92.5,
+          "Dairy": 116.0,
+          "Cereals": 125.9,
+          "Oils": 124.85,
+          "Sugar": 138.7
+        },
+        {
+          "Date": "2010-10",
+          "Food Price Index": 120.1,
+          "Meat": 93.9,
+          "Dairy": 121.4,
+          "Cereals": 130.6,
+          "Oils": 139.18,
+          "Sugar": 152.3
+        },
+        {
+          "Date": "2010-11",
+          "Food Price Index": 124.2,
+          "Meat": 96.4,
+          "Dairy": 118.7,
+          "Cereals": 132.4,
+          "Oils": 153.87,
+          "Sugar": 162.8
+        },
+        {
+          "Date": "2010-12",
+          "Food Price Index": 129.4,
+          "Meat": 97.5,
+          "Dairy": 117.4,
+          "Cereals": 139.7,
+          "Oils": 166.26,
+          "Sugar": 173.8
+        },
+        {
+          "Date": "2011-01",
+          "Food Price Index": 133.8,
+          "Meat": 97.9,
+          "Dairy": 122.8,
+          "Cereals": 144.9,
+          "Oils": 174.49,
+          "Sugar": 183.2
+        },
+        {
+          "Date": "2011-02",
+          "Food Price Index": 137.7,
+          "Meat": 100.5,
+          "Dairy": 130.3,
+          "Cereals": 151.4,
+          "Oils": 175.43,
+          "Sugar": 182.4
+        },
+        {
+          "Date": "2011-03",
+          "Food Price Index": 134.3,
+          "Meat": 103.6,
+          "Dairy": 135.8,
+          "Cereals": 145.5,
+          "Oils": 163.11,
+          "Sugar": 162.4
+        },
+        {
+          "Date": "2011-04",
+          "Food Price Index": 136.3,
+          "Meat": 107.5,
+          "Dairy": 134.5,
+          "Cereals": 151.7,
+          "Oils": 162.79,
+          "Sugar": 150.7
+        },
+        {
+          "Date": "2011-05",
+          "Food Price Index": 135.1,
+          "Meat": 108.0,
+          "Dairy": 134.2,
+          "Cereals": 150.9,
+          "Oils": 162.4,
+          "Sugar": 136.2
+        },
+        {
+          "Date": "2011-06",
+          "Food Price Index": 134.8,
+          "Meat": 106.2,
+          "Dairy": 135.3,
+          "Cereals": 147.1,
+          "Oils": 160.78,
+          "Sugar": 156.0
+        },
+        {
+          "Date": "2011-07",
+          "Food Price Index": 133.0,
+          "Meat": 105.8,
+          "Dairy": 133.6,
+          "Cereals": 140.5,
+          "Oils": 156.05,
+          "Sugar": 174.6
+        },
+        {
+          "Date": "2011-08",
+          "Food Price Index": 132.7,
+          "Meat": 104.9,
+          "Dairy": 131.9,
+          "Cereals": 144.9,
+          "Oils": 151.48,
+          "Sugar": 171.7
+        },
+        {
+          "Date": "2011-09",
+          "Food Price Index": 130.1,
+          "Meat": 106.1,
+          "Dairy": 127.1,
+          "Cereals": 140.5,
+          "Oils": 147.82,
+          "Sugar": 165.3
+        },
+        {
+          "Date": "2011-10",
+          "Food Price Index": 125.6,
+          "Meat": 105.9,
+          "Dairy": 126.2,
+          "Cereals": 133.1,
+          "Oils": 137.99,
+          "Sugar": 157.5
+        },
+        {
+          "Date": "2011-11",
+          "Food Price Index": 125.9,
+          "Meat": 107.8,
+          "Dairy": 125.1,
+          "Cereals": 130.9,
+          "Oils": 144.96,
+          "Sugar": 148.2
+        },
+        {
+          "Date": "2011-12",
+          "Food Price Index": 121.9,
+          "Meat": 106.1,
+          "Dairy": 122.0,
+          "Cereals": 124.4,
+          "Oils": 140.45,
+          "Sugar": 142.6
+        },
+        {
+          "Date": "2012-01",
+          "Food Price Index": 122.2,
+          "Meat": 102.6,
+          "Dairy": 120.3,
+          "Cereals": 127.2,
+          "Oils": 144.33,
+          "Sugar": 145.8
+        },
+        {
+          "Date": "2012-02",
+          "Food Price Index": 125.3,
+          "Meat": 105.5,
+          "Dairy": 121.2,
+          "Cereals": 131.1,
+          "Oils": 148.34,
+          "Sugar": 149.3
+        },
+        {
+          "Date": "2012-03",
+          "Food Price Index": 125.7,
+          "Meat": 106.2,
+          "Dairy": 118.1,
+          "Cereals": 130.6,
+          "Oils": 152.47,
+          "Sugar": 149.1
+        },
+        {
+          "Date": "2012-04",
+          "Food Price Index": 124.4,
+          "Meat": 105.8,
+          "Dairy": 112.5,
+          "Cereals": 129.1,
+          "Oils": 156.29,
+          "Sugar": 141.3
+        },
+        {
+          "Date": "2012-05",
+          "Food Price Index": 119.0,
+          "Meat": 103.7,
+          "Dairy": 105.5,
+          "Cereals": 126.3,
+          "Oils": 144.4,
+          "Sugar": 128.5
+        },
+        {
+          "Date": "2012-06",
+          "Food Price Index": 115.8,
+          "Meat": 101.1,
+          "Dairy": 102.3,
+          "Cereals": 125.3,
+          "Oils": 135.26,
+          "Sugar": 126.7
+        },
+        {
+          "Date": "2012-07",
+          "Food Price Index": 122.0,
+          "Meat": 99.8,
+          "Dairy": 99.7,
+          "Cereals": 143.9,
+          "Oils": 138.56,
+          "Sugar": 141.4
+        },
+        {
+          "Date": "2012-08",
+          "Food Price Index": 123.2,
+          "Meat": 102.5,
+          "Dairy": 102.0,
+          "Cereals": 147.1,
+          "Oils": 138.31,
+          "Sugar": 129.2
+        },
+        {
+          "Date": "2012-09",
+          "Food Price Index": 125.1,
+          "Meat": 106.7,
+          "Dairy": 111.0,
+          "Cereals": 146.8,
+          "Oils": 136.93,
+          "Sugar": 123.7
+        },
+        {
+          "Date": "2012-10",
+          "Food Price Index": 124.0,
+          "Meat": 107.9,
+          "Dairy": 114.2,
+          "Cereals": 146.5,
+          "Oils": 124.9,
+          "Sugar": 125.7
+        },
+        {
+          "Date": "2012-11",
+          "Food Price Index": 123.5,
+          "Meat": 107.4,
+          "Dairy": 114.9,
+          "Cereals": 148.5,
+          "Oils": 121.52,
+          "Sugar": 119.7
+        },
+        {
+          "Date": "2012-12",
+          "Food Price Index": 122.8,
+          "Meat": 107.2,
+          "Dairy": 118.1,
+          "Cereals": 146.4,
+          "Oils": 118.38,
+          "Sugar": 119.5
+        },
+        {
+          "Date": "2013-01",
+          "Food Price Index": 123.4,
+          "Meat": 106.6,
+          "Dairy": 121.0,
+          "Cereals": 145.2,
+          "Oils": 124.28,
+          "Sugar": 116.8
+        },
+        {
+          "Date": "2013-02",
+          "Food Price Index": 123.3,
+          "Meat": 107.8,
+          "Dairy": 123.8,
+          "Cereals": 142.3,
+          "Oils": 125.55,
+          "Sugar": 113.0
+        },
+        {
+          "Date": "2013-03",
+          "Food Price Index": 122.9,
+          "Meat": 108.2,
+          "Dairy": 128.0,
+          "Cereals": 139.9,
+          "Oils": 122.38,
+          "Sugar": 114.3
+        },
+        {
+          "Date": "2013-04",
+          "Food Price Index": 122.9,
+          "Meat": 108.8,
+          "Dairy": 140.8,
+          "Cereals": 134.9,
+          "Oils": 120.64,
+          "Sugar": 110.2
+        },
+        {
+          "Date": "2013-05",
+          "Food Price Index": 122.2,
+          "Meat": 105.7,
+          "Dairy": 140.0,
+          "Cereals": 136.4,
+          "Oils": 121.05,
+          "Sugar": 109.1
+        },
+        {
+          "Date": "2013-06",
+          "Food Price Index": 120.9,
+          "Meat": 105.0,
+          "Dairy": 140.3,
+          "Cereals": 133.8,
+          "Oils": 120.68,
+          "Sugar": 105.8
+        },
+        {
+          "Date": "2013-07",
+          "Food Price Index": 118.0,
+          "Meat": 104.7,
+          "Dairy": 141.0,
+          "Cereals": 126.4,
+          "Oils": 116.22,
+          "Sugar": 104.2
+        },
+        {
+          "Date": "2013-08",
+          "Food Price Index": 116.2,
+          "Meat": 105.5,
+          "Dairy": 145.6,
+          "Cereals": 119.2,
+          "Oils": 111.89,
+          "Sugar": 105.4
+        },
+        {
+          "Date": "2013-09",
+          "Food Price Index": 116.4,
+          "Meat": 106.0,
+          "Dairy": 149.0,
+          "Cereals": 116.7,
+          "Oils": 112.92,
+          "Sugar": 107.5
+        },
+        {
+          "Date": "2013-10",
+          "Food Price Index": 118.7,
+          "Meat": 106.3,
+          "Dairy": 153.0,
+          "Cereals": 118.7,
+          "Oils": 116.04,
+          "Sugar": 115.5
+        },
+        {
+          "Date": "2013-11",
+          "Food Price Index": 118.6,
+          "Meat": 105.4,
+          "Dairy": 151.9,
+          "Cereals": 118.0,
+          "Oils": 121.97,
+          "Sugar": 109.3
+        },
+        {
+          "Date": "2013-12",
+          "Food Price Index": 118.2,
+          "Meat": 104.7,
+          "Dairy": 156.5,
+          "Cereals": 117.9,
+          "Oils": 120.38,
+          "Sugar": 102.4
+        },
+        {
+          "Date": "2014-01",
+          "Food Price Index": 116.2,
+          "Meat": 103.2,
+          "Dairy": 156.2,
+          "Cereals": 117.0,
+          "Oils": 115.58,
+          "Sugar": 96.7
+        },
+        {
+          "Date": "2014-02",
+          "Food Price Index": 118.6,
+          "Meat": 104.1,
+          "Dairy": 156.4,
+          "Cereals": 119.7,
+          "Oils": 120.84,
+          "Sugar": 102.6
+        },
+        {
+          "Date": "2014-03",
+          "Food Price Index": 122.1,
+          "Meat": 106.3,
+          "Dairy": 154.8,
+          "Cereals": 125.4,
+          "Oils": 125.38,
+          "Sugar": 110.8
+        },
+        {
+          "Date": "2014-04",
+          "Food Price Index": 121.5,
+          "Meat": 109.7,
+          "Dairy": 147.3,
+          "Cereals": 125.5,
+          "Oils": 121.53,
+          "Sugar": 109.0
+        },
+        {
+          "Date": "2014-05",
+          "Food Price Index": 121.2,
+          "Meat": 111.7,
+          "Dairy": 141.8,
+          "Cereals": 125.2,
+          "Oils": 119.18,
+          "Sugar": 113.1
+        },
+        {
+          "Date": "2014-06",
+          "Food Price Index": 119.2,
+          "Meat": 116.0,
+          "Dairy": 136.1,
+          "Cereals": 118.7,
+          "Oils": 115.22,
+          "Sugar": 112.5
+        },
+        {
+          "Date": "2014-07",
+          "Food Price Index": 116.3,
+          "Meat": 117.4,
+          "Dairy": 130.2,
+          "Cereals": 112.2,
+          "Oils": 110.63,
+          "Sugar": 113.0
+        },
+        {
+          "Date": "2014-08",
+          "Food Price Index": 112.8,
+          "Meat": 118.5,
+          "Dairy": 120.6,
+          "Cereals": 110.4,
+          "Oils": 101.65,
+          "Sugar": 106.6
+        },
+        {
+          "Date": "2014-09",
+          "Food Price Index": 109.2,
+          "Meat": 117.5,
+          "Dairy": 110.8,
+          "Cereals": 107.4,
+          "Oils": 98.55,
+          "Sugar": 99.5
+        },
+        {
+          "Date": "2014-10",
+          "Food Price Index": 109.3,
+          "Meat": 117.1,
+          "Dairy": 107.1,
+          "Cereals": 108.2,
+          "Oils": 100.09,
+          "Sugar": 103.6
+        },
+        {
+          "Date": "2014-11",
+          "Food Price Index": 108.1,
+          "Meat": 114.8,
+          "Dairy": 102.6,
+          "Cereals": 109.3,
+          "Oils": 100.85,
+          "Sugar": 100.2
+        },
+        {
+          "Date": "2014-12",
+          "Food Price Index": 105.2,
+          "Meat": 108.9,
+          "Dairy": 98.5,
+          "Cereals": 110.9,
+          "Oils": 97.89,
+          "Sugar": 94.8
+        },
+        {
+          "Date": "2015-01",
+          "Food Price Index": 101.0,
+          "Meat": 104.6,
+          "Dairy": 92.4,
+          "Cereals": 105.9,
+          "Oils": 95.0,
+          "Sugar": 95.0
+        },
+        {
+          "Date": "2015-02",
+          "Food Price Index": 98.7,
+          "Meat": 101.3,
+          "Dairy": 95.2,
+          "Cereals": 101.6,
+          "Oils": 95.18,
+          "Sugar": 90.3
+        },
+        {
+          "Date": "2015-03",
+          "Food Price Index": 95.7,
+          "Meat": 97.1,
+          "Dairy": 95.1,
+          "Cereals": 99.5,
+          "Oils": 92.62,
+          "Sugar": 82.0
+        },
+        {
+          "Date": "2015-04",
+          "Food Price Index": 94.6,
+          "Meat": 97.4,
+          "Dairy": 90.6,
+          "Cereals": 98.2,
+          "Oils": 91.87,
+          "Sugar": 80.9
+        },
+        {
+          "Date": "2015-05",
+          "Food Price Index": 95.0,
+          "Meat": 99.6,
+          "Dairy": 89.9,
+          "Cereals": 95.7,
+          "Oils": 94.49,
+          "Sugar": 82.6
+        },
+        {
+          "Date": "2015-06",
+          "Food Price Index": 94.6,
+          "Meat": 98.7,
+          "Dairy": 87.7,
+          "Cereals": 96.7,
+          "Oils": 95.89,
+          "Sugar": 77.1
+        },
+        {
+          "Date": "2015-07",
+          "Food Price Index": 93.8,
+          "Meat": 99.0,
+          "Dairy": 82.2,
+          "Cereals": 98.9,
+          "Oils": 90.43,
+          "Sugar": 79.0
+        },
+        {
+          "Date": "2015-08",
+          "Food Price Index": 89.5,
+          "Meat": 99.0,
+          "Dairy": 79.9,
+          "Cereals": 91.9,
+          "Oils": 82.29,
+          "Sugar": 71.2
+        },
+        {
+          "Date": "2015-09",
+          "Food Price Index": 88.9,
+          "Meat": 96.7,
+          "Dairy": 83.2,
+          "Cereals": 90.5,
+          "Oils": 81.96,
+          "Sugar": 73.4
+        },
+        {
+          "Date": "2015-10",
+          "Food Price Index": 90.3,
+          "Meat": 92.1,
+          "Dairy": 88.0,
+          "Cereals": 91.7,
+          "Oils": 87.76,
+          "Sugar": 86.1
+        },
+        {
+          "Date": "2015-11",
+          "Food Price Index": 87.7,
+          "Meat": 89.2,
+          "Dairy": 80.5,
+          "Cereals": 90.5,
+          "Oils": 85.13,
+          "Sugar": 90.0
+        },
+        {
+          "Date": "2015-12",
+          "Food Price Index": 87.0,
+          "Meat": 86.8,
+          "Dairy": 81.0,
+          "Cereals": 89.4,
+          "Oils": 86.68,
+          "Sugar": 90.6
+        },
+        {
+          "Date": "2016-01",
+          "Food Price Index": 84.9,
+          "Meat": 84.4,
+          "Dairy": 79.4,
+          "Cereals": 87.6,
+          "Oils": 85.29,
+          "Sugar": 86.9
+        },
+        {
+          "Date": "2016-02",
+          "Food Price Index": 86.1,
+          "Meat": 86.0,
+          "Dairy": 78.8,
+          "Cereals": 87.3,
+          "Oils": 92.15,
+          "Sugar": 81.6
+        },
+        {
+          "Date": "2016-03",
+          "Food Price Index": 87.4,
+          "Meat": 86.1,
+          "Dairy": 76.7,
+          "Cereals": 86.5,
+          "Oils": 97.34,
+          "Sugar": 95.5
+        },
+        {
+          "Date": "2016-04",
+          "Food Price Index": 89.1,
+          "Meat": 87.7,
+          "Dairy": 77.1,
+          "Cereals": 88.4,
+          "Oils": 101.17,
+          "Sugar": 93.9
+        },
+        {
+          "Date": "2016-05",
+          "Food Price Index": 90.6,
+          "Meat": 90.2,
+          "Dairy": 72.7,
+          "Cereals": 91.1,
+          "Oils": 99.56,
+          "Sugar": 104.8
+        },
+        {
+          "Date": "2016-06",
+          "Food Price Index": 93.8,
+          "Meat": 94.1,
+          "Dairy": 73.9,
+          "Cereals": 94.1,
+          "Oils": 97.93,
+          "Sugar": 120.4
+        },
+        {
+          "Date": "2016-07",
+          "Food Price Index": 93.0,
+          "Meat": 95.3,
+          "Dairy": 76.0,
+          "Cereals": 90.4,
+          "Oils": 94.9,
+          "Sugar": 121.6
+        },
+        {
+          "Date": "2016-08",
+          "Food Price Index": 95.3,
+          "Meat": 96.4,
+          "Dairy": 81.8,
+          "Cereals": 89.3,
+          "Oils": 102.39,
+          "Sugar": 124.6
+        },
+        {
+          "Date": "2016-09",
+          "Food Price Index": 96.1,
+          "Meat": 94.9,
+          "Dairy": 90.9,
+          "Cereals": 86.3,
+          "Oils": 104.32,
+          "Sugar": 132.9
+        },
+        {
+          "Date": "2016-10",
+          "Food Price Index": 95.9,
+          "Meat": 93.0,
+          "Dairy": 93.8,
+          "Cereals": 86.7,
+          "Oils": 101.85,
+          "Sugar": 137.5
+        },
+        {
+          "Date": "2016-11",
+          "Food Price Index": 96.0,
+          "Meat": 93.9,
+          "Dairy": 94.5,
+          "Cereals": 86.0,
+          "Oils": 106.16,
+          "Sugar": 125.2
+        },
+        {
+          "Date": "2016-12",
+          "Food Price Index": 95.3,
+          "Meat": 91.2,
+          "Dairy": 96.2,
+          "Cereals": 86.1,
+          "Oils": 110.26,
+          "Sugar": 114.5
+        },
+        {
+          "Date": "2017-01",
+          "Food Price Index": 97.8,
+          "Meat": 92.2,
+          "Dairy": 98.6,
+          "Cereals": 88.7,
+          "Oils": 112.19,
+          "Sugar": 125.8
+        },
+        {
+          "Date": "2017-02",
+          "Food Price Index": 98.1,
+          "Meat": 94.0,
+          "Dairy": 99.2,
+          "Cereals": 90.0,
+          "Oils": 107.97,
+          "Sugar": 125.6
+        },
+        {
+          "Date": "2017-03",
+          "Food Price Index": 96.2,
+          "Meat": 95.4,
+          "Dairy": 100.6,
+          "Cereals": 87.9,
+          "Oils": 101.59,
+          "Sugar": 111.9
+        },
+        {
+          "Date": "2017-04",
+          "Food Price Index": 95.0,
+          "Meat": 97.3,
+          "Dairy": 100.0,
+          "Cereals": 86.9,
+          "Oils": 97.58,
+          "Sugar": 101.7
+        },
+        {
+          "Date": "2017-05",
+          "Food Price Index": 97.3,
+          "Meat": 99.3,
+          "Dairy": 104.8,
+          "Cereals": 88.3,
+          "Oils": 101.96,
+          "Sugar": 99.4
+        },
+        {
+          "Date": "2017-06",
+          "Food Price Index": 97.8,
+          "Meat": 100.1,
+          "Dairy": 109.7,
+          "Cereals": 92.4,
+          "Oils": 97.47,
+          "Sugar": 86.0
+        },
+        {
+          "Date": "2017-07",
+          "Food Price Index": 100.0,
+          "Meat": 100.6,
+          "Dairy": 113.9,
+          "Cereals": 96.9,
+          "Oils": 96.66,
+          "Sugar": 90.5
+        },
+        {
+          "Date": "2017-08",
+          "Food Price Index": 99.2,
+          "Meat": 100.0,
+          "Dairy": 116.9,
+          "Cereals": 92.3,
+          "Oils": 99.16,
+          "Sugar": 88.9
+        },
+        {
+          "Date": "2017-09",
+          "Food Price Index": 99.7,
+          "Meat": 98.6,
+          "Dairy": 118.4,
+          "Cereals": 92.1,
+          "Oils": 103.83,
+          "Sugar": 89.0
+        },
+        {
+          "Date": "2017-10",
+          "Food Price Index": 98.8,
+          "Meat": 98.2,
+          "Dairy": 115.4,
+          "Cereals": 91.8,
+          "Oils": 102.68,
+          "Sugar": 88.7
+        },
+        {
+          "Date": "2017-11",
+          "Food Price Index": 98.8,
+          "Meat": 98.0,
+          "Dairy": 111.4,
+          "Cereals": 92.1,
+          "Oils": 103.85,
+          "Sugar": 92.7
+        },
+        {
+          "Date": "2017-12",
+          "Food Price Index": 96.4,
+          "Meat": 96.0,
+          "Dairy": 107.3,
+          "Cereals": 92.4,
+          "Oils": 97.96,
+          "Sugar": 89.0
+        },
+        {
+          "Date": "2018-01",
+          "Food Price Index": 96.7,
+          "Meat": 95.3,
+          "Dairy": 106.0,
+          "Cereals": 95.2,
+          "Oils": 98.25,
+          "Sugar": 87.2
+        },
+        {
+          "Date": "2018-02",
+          "Food Price Index": 97.8,
+          "Meat": 96.6,
+          "Dairy": 108.8,
+          "Cereals": 98.4,
+          "Oils": 95.6,
+          "Sugar": 83.9
+        },
+        {
+          "Date": "2018-03",
+          "Food Price Index": 98.8,
+          "Meat": 96.6,
+          "Dairy": 111.3,
+          "Cereals": 101.8,
+          "Oils": 95.36,
+          "Sugar": 80.9
+        },
+        {
+          "Date": "2018-04",
+          "Food Price Index": 98.4,
+          "Meat": 95.4,
+          "Dairy": 110.0,
+          "Cereals": 104.0,
+          "Oils": 94.02,
+          "Sugar": 76.8
+        },
+        {
+          "Date": "2018-05",
+          "Food Price Index": 98.5,
+          "Meat": 94.9,
+          "Dairy": 111.4,
+          "Cereals": 105.5,
+          "Oils": 92.15,
+          "Sugar": 76.4
+        },
+        {
+          "Date": "2018-06",
+          "Food Price Index": 96.8,
+          "Meat": 94.7,
+          "Dairy": 112.3,
+          "Cereals": 100.8,
+          "Oils": 89.33,
+          "Sugar": 77.4
+        },
+        {
+          "Date": "2018-07",
+          "Food Price Index": 95.0,
+          "Meat": 94.3,
+          "Dairy": 110.1,
+          "Cereals": 98.7,
+          "Oils": 86.9,
+          "Sugar": 72.5
+        },
+        {
+          "Date": "2018-08",
+          "Food Price Index": 95.8,
+          "Meat": 95.4,
+          "Dairy": 108.5,
+          "Cereals": 103.5,
+          "Oils": 84.43,
+          "Sugar": 68.6
+        },
+        {
+          "Date": "2018-09",
+          "Food Price Index": 94.0,
+          "Meat": 93.4,
+          "Dairy": 108.3,
+          "Cereals": 100.3,
+          "Oils": 82.33,
+          "Sugar": 70.4
+        },
+        {
+          "Date": "2018-10",
+          "Food Price Index": 93.2,
+          "Meat": 91.9,
+          "Dairy": 102.8,
+          "Cereals": 100.9,
+          "Oils": 81.33,
+          "Sugar": 76.5
+        },
+        {
+          "Date": "2018-11",
+          "Food Price Index": 91.9,
+          "Meat": 92.1,
+          "Dairy": 100.0,
+          "Cereals": 99.6,
+          "Oils": 76.59,
+          "Sugar": 79.9
+        },
+        {
+          "Date": "2018-12",
+          "Food Price Index": 92.0,
+          "Meat": 92.3,
+          "Dairy": 97.8,
+          "Cereals": 101.1,
+          "Oils": 76.84,
+          "Sugar": 78.3
+        },
+        {
+          "Date": "2019-01",
+          "Food Price Index": 93.1,
+          "Meat": 91.6,
+          "Dairy": 100.9,
+          "Cereals": 101.8,
+          "Oils": 80.26,
+          "Sugar": 79.3
+        },
+        {
+          "Date": "2019-02",
+          "Food Price Index": 93.8,
+          "Meat": 92.5,
+          "Dairy": 103.8,
+          "Cereals": 100.7,
+          "Oils": 81.78,
+          "Sugar": 80.3
+        },
+        {
+          "Date": "2019-03",
+          "Food Price Index": 93.0,
+          "Meat": 94.0,
+          "Dairy": 105.6,
+          "Cereals": 97.5,
+          "Oils": 78.41,
+          "Sugar": 78.7
+        },
+        {
+          "Date": "2019-04",
+          "Food Price Index": 93.5,
+          "Meat": 97.3,
+          "Dairy": 106.1,
+          "Cereals": 94.6,
+          "Oils": 79.11,
+          "Sugar": 79.3
+        },
+        {
+          "Date": "2019-05",
+          "Food Price Index": 94.2,
+          "Meat": 100.2,
+          "Dairy": 106.6,
+          "Cereals": 94.4,
+          "Oils": 78.5,
+          "Sugar": 76.7
+        },
+        {
+          "Date": "2019-06",
+          "Food Price Index": 95.4,
+          "Meat": 101.2,
+          "Dairy": 102.9,
+          "Cereals": 99.2,
+          "Oils": 77.46,
+          "Sugar": 79.9
+        },
+        {
+          "Date": "2019-07",
+          "Food Price Index": 95.1,
+          "Meat": 102.3,
+          "Dairy": 101.1,
+          "Cereals": 97.6,
+          "Oils": 78.09,
+          "Sugar": 79.4
+        },
+        {
+          "Date": "2019-08",
+          "Food Price Index": 93.8,
+          "Meat": 101.6,
+          "Dairy": 100.3,
+          "Cereals": 92.6,
+          "Oils": 82.59,
+          "Sugar": 76.2
+        },
+        {
+          "Date": "2019-09",
+          "Food Price Index": 93.2,
+          "Meat": 100.6,
+          "Dairy": 99.6,
+          "Cereals": 91.8,
+          "Oils": 83.89,
+          "Sugar": 73.5
+        },
+        {
+          "Date": "2019-10",
+          "Food Price Index": 95.0,
+          "Meat": 100.9,
+          "Dairy": 100.8,
+          "Cereals": 96.0,
+          "Oils": 84.11,
+          "Sugar": 77.8
+        },
+        {
+          "Date": "2019-11",
+          "Food Price Index": 98.2,
+          "Meat": 105.4,
+          "Dairy": 102.5,
+          "Cereals": 95.6,
+          "Oils": 93.16,
+          "Sugar": 79.2
+        },
+        {
+          "Date": "2019-12",
+          "Food Price Index": 100.8,
+          "Meat": 106.0,
+          "Dairy": 103.5,
+          "Cereals": 97.4,
+          "Oils": 101.5,
+          "Sugar": 83.0
+        },
+        {
+          "Date": "2020-01",
+          "Food Price Index": 102.5,
+          "Meat": 103.5,
+          "Dairy": 103.8,
+          "Cereals": 100.7,
+          "Oils": 108.73,
+          "Sugar": 87.5
+        },
+        {
+          "Date": "2020-02",
+          "Food Price Index": 99.6,
+          "Meat": 101.0,
+          "Dairy": 102.8,
+          "Cereals": 99.6,
+          "Oils": 97.55,
+          "Sugar": 91.4
+        },
+        {
+          "Date": "2020-03",
+          "Food Price Index": 95.2,
+          "Meat": 99.5,
+          "Dairy": 101.6,
+          "Cereals": 98.0,
+          "Oils": 85.42,
+          "Sugar": 73.9
+        },
+        {
+          "Date": "2020-04",
+          "Food Price Index": 92.4,
+          "Meat": 96.5,
+          "Dairy": 95.9,
+          "Cereals": 99.6,
+          "Oils": 81.18,
+          "Sugar": 63.2
+        },
+        {
+          "Date": "2020-05",
+          "Food Price Index": 91.2,
+          "Meat": 95.4,
+          "Dairy": 94.5,
+          "Cereals": 98.0,
+          "Oils": 77.77,
+          "Sugar": 67.8
+        },
+        {
+          "Date": "2020-06",
+          "Food Price Index": 93.1,
+          "Meat": 94.5,
+          "Dairy": 98.3,
+          "Cereals": 97.3,
+          "Oils": 86.61,
+          "Sugar": 74.9
+        },
+        {
+          "Date": "2020-07",
+          "Food Price Index": 93.8,
+          "Meat": 91.4,
+          "Dairy": 101.8,
+          "Cereals": 97.3,
+          "Oils": 93.2,
+          "Sugar": 76.0
+        },
+        {
+          "Date": "2020-08",
+          "Food Price Index": 95.7,
+          "Meat": 91.4,
+          "Dairy": 102.1,
+          "Cereals": 99.2,
+          "Oils": 98.7,
+          "Sugar": 81.1
+        },
+        {
+          "Date": "2020-09",
+          "Food Price Index": 97.9,
+          "Meat": 91.2,
+          "Dairy": 102.3,
+          "Cereals": 104.3,
+          "Oils": 104.6,
+          "Sugar": 79.0
+        },
+        {
+          "Date": "2020-10",
+          "Food Price Index": 101.3,
+          "Meat": 91.6,
+          "Dairy": 104.5,
+          "Cereals": 112.1,
+          "Oils": 106.45,
+          "Sugar": 84.7
+        },
+        {
+          "Date": "2020-11",
+          "Food Price Index": 105.5,
+          "Meat": 93.1,
+          "Dairy": 105.4,
+          "Cereals": 114.8,
+          "Oils": 121.9,
+          "Sugar": 87.5
+        },
+        {
+          "Date": "2020-12",
+          "Food Price Index": 108.5,
+          "Meat": 94.7,
+          "Dairy": 108.7,
+          "Cereals": 116.4,
+          "Oils": 131.2,
+          "Sugar": 87.1
+        },
+        {
+          "Date": "2021-01",
+          "Food Price Index": 113.5,
+          "Meat": 95.9,
+          "Dairy": 111.1,
+          "Cereals": 125.0,
+          "Oils": 138.87,
+          "Sugar": 94.2
+        },
+        {
+          "Date": "2021-02",
+          "Food Price Index": 116.5,
+          "Meat": 97.7,
+          "Dairy": 112.8,
+          "Cereals": 126.1,
+          "Oils": 147.46,
+          "Sugar": 100.2
+        },
+        {
+          "Date": "2021-03",
+          "Food Price Index": 119.1,
+          "Meat": 100.5,
+          "Dairy": 117.2,
+          "Cereals": 123.9,
+          "Oils": 159.3,
+          "Sugar": 96.2
+        },
+        {
+          "Date": "2021-04",
+          "Food Price Index": 122.1,
+          "Meat": 104.4,
+          "Dairy": 119.0,
+          "Cereals": 126.2,
+          "Oils": 162.19,
+          "Sugar": 100.0
+        },
+        {
+          "Date": "2021-05",
+          "Food Price Index": 128.4,
+          "Meat": 108.1,
+          "Dairy": 121.2,
+          "Cereals": 133.7,
+          "Oils": 174.9,
+          "Sugar": 106.8
+        },
+        {
+          "Date": "2021-06",
+          "Food Price Index": 125.4,
+          "Meat": 110.9,
+          "Dairy": 120.1,
+          "Cereals": 130.3,
+          "Oils": 157.7,
+          "Sugar": 107.7
+        },
+        {
+          "Date": "2021-07",
+          "Food Price Index": 124.4,
+          "Meat": 113.3,
+          "Dairy": 117.2,
+          "Cereals": 126.3,
+          "Oils": 155.5,
+          "Sugar": 109.6
+        },
+        {
+          "Date": "2021-08",
+          "Food Price Index": 128.0,
+          "Meat": 113.1,
+          "Dairy": 117.2,
+          "Cereals": 130.4,
+          "Oils": 165.9,
+          "Sugar": 120.5
+        },
+        {
+          "Date": "2021-09",
+          "Food Price Index": 129.1,
+          "Meat": 112.1,
+          "Dairy": 119.2,
+          "Cereals": 132.8,
+          "Oils": 168.6,
+          "Sugar": 121.2
+        },
+        {
+          "Date": "2021-10",
+          "Food Price Index": 133.3,
+          "Meat": 111.6,
+          "Dairy": 122.6,
+          "Cereals": 137.1,
+          "Oils": 184.8,
+          "Sugar": 119.1
+        },
+        {
+          "Date": "2021-11",
+          "Food Price Index": 135.4,
+          "Meat": 112.4,
+          "Dairy": 127.2,
+          "Cereals": 141.4,
+          "Oils": 184.6,
+          "Sugar": 120.2
+        },
+        {
+          "Date": "2021-12",
+          "Food Price Index": 133.7,
+          "Meat": 110.5,
+          "Dairy": 130.4,
+          "Cereals": 140.5,
+          "Oils": 178.5,
+          "Sugar": 116.4
+        },
+        {
+          "Date": "2022-01",
+          "Food Price Index": 135.7,
+          "Meat": 111.7,
+          "Dairy": 134.3,
+          "Cereals": 140.6,
+          "Oils": 185.9,
+          "Sugar": 112.7
+        },
+        {
+          "Date": "2022-02",
+          "Food Price Index": 141.7,
+          "Meat": 113.7,
+          "Dairy": 145.0,
+          "Cereals": 145.3,
+          "Oils": 201.7,
+          "Sugar": 110.5
+        },
+        {
+          "Date": "2022-03",
+          "Food Price Index": 160.2,
+          "Meat": 119.3,
+          "Dairy": 149.6,
+          "Cereals": 170.1,
+          "Oils": 251.8,
+          "Sugar": 117.9
+        },
+        {
+          "Date": "2022-04",
+          "Food Price Index": 158.8,
+          "Meat": 121.3,
+          "Dairy": 150.7,
+          "Cereals": 169.7,
+          "Oils": 237.5,
+          "Sugar": 121.5
+        },
+        {
+          "Date": "2022-05",
+          "Food Price Index": 158.7,
+          "Meat": 122.5,
+          "Dairy": 149.7,
+          "Cereals": 173.5,
+          "Oils": 229.2,
+          "Sugar": 120.4
+        },
+        {
+          "Date": "2022-06",
+          "Food Price Index": 155.7,
+          "Meat": 125.4,
+          "Dairy": 158.2,
+          "Cereals": 166.3,
+          "Oils": 211.8,
+          "Sugar": 117.3
+        },
+        {
+          "Date": "2022-07",
+          "Food Price Index": 141.6,
+          "Meat": 123.3,
+          "Dairy": 155.6,
+          "Cereals": 147.3,
+          "Oils": 168.8,
+          "Sugar": 112.8
+        },
+        {
+          "Date": "2022-08",
+          "Food Price Index": 138.7,
+          "Meat": 120.3,
+          "Dairy": 153.1,
+          "Cereals": 145.6,
+          "Oils": 163.3,
+          "Sugar": 110.5
+        },
+        {
+          "Date": "2022-09",
+          "Food Price Index": 137.3,
+          "Meat": 119.9,
+          "Dairy": 152.8,
+          "Cereals": 147.9,
+          "Oils": 152.6,
+          "Sugar": 109.7
+        },
+        {
+          "Date": "2022-10",
+          "Food Price Index": 136.7,
+          "Meat": 116.5,
+          "Dairy": 149.2,
+          "Cereals": 152.3,
+          "Oils": 151.3,
+          "Sugar": 108.6
+        },
+        {
+          "Date": "2022-11",
+          "Food Price Index": 136.0,
+          "Meat": 114.1,
+          "Dairy": 147.4,
+          "Cereals": 150.1,
+          "Oils": 154.7,
+          "Sugar": 114.4
+        },
+        {
+          "Date": "2022-12",
+          "Food Price Index": 133.1,
+          "Meat": 111.9,
+          "Dairy": 148.6,
+          "Cereals": 147.3,
+          "Oils": 144.6,
+          "Sugar": 117.2
+        },
+        {
+          "Date": "2023-01",
+          "Food Price Index": 131.4,
+          "Meat": 110.5,
+          "Dairy": 144.7,
+          "Cereals": 147.5,
+          "Oils": 140.4,
+          "Sugar": 116.8
+        },
+        {
+          "Date": "2023-02",
+          "Food Price Index": 130.7,
+          "Meat": 112.1,
+          "Dairy": 138.7,
+          "Cereals": 146.7,
+          "Oils": 135.9,
+          "Sugar": 125.2
+        },
+        {
+          "Date": "2023-03",
+          "Food Price Index": 128.0,
+          "Meat": 114.1,
+          "Dairy": 135.3,
+          "Cereals": 138.6,
+          "Oils": 131.8,
+          "Sugar": 127.0
+        },
+        {
+          "Date": "2023-04",
+          "Food Price Index": 128.4,
+          "Meat": 116.0,
+          "Dairy": 129.3,
+          "Cereals": 136.1,
+          "Oils": 130.0,
+          "Sugar": 149.4
+        },
+        {
+          "Date": "2023-05",
+          "Food Price Index": 124.5,
+          "Meat": 117.4,
+          "Dairy": 121.7,
+          "Cereals": 129.3,
+          "Oils": 118.7,
+          "Sugar": 157.2
+        },
+        {
+          "Date": "2023-06",
+          "Food Price Index": 123.0,
+          "Meat": 118.6,
+          "Dairy": 119.9,
+          "Cereals": 126.6,
+          "Oils": 115.8,
+          "Sugar": 152.2
+        },
+        {
+          "Date": "2023-07",
+          "Food Price Index": 124.4,
+          "Meat": 117.9,
+          "Dairy": 119.1,
+          "Cereals": 125.9,
+          "Oils": 129.8,
+          "Sugar": 146.3
+        },
+        {
+          "Date": "2023-08",
+          "Food Price Index": 121.8,
+          "Meat": 114.5,
+          "Dairy": 114.3,
+          "Cereals": 125.0,
+          "Oils": 125.8,
+          "Sugar": 148.2
+        },
+        {
+          "Date": "2023-09",
+          "Food Price Index": 121.7,
+          "Meat": 113.4,
+          "Dairy": 112.0,
+          "Cereals": 126.3,
+          "Oils": 120.9,
+          "Sugar": 162.7
+        },
+        {
+          "Date": "2023-10",
+          "Food Price Index": 120.7,
+          "Meat": 112.0,
+          "Dairy": 114.6,
+          "Cereals": 124.8,
+          "Oils": 120.0,
+          "Sugar": 159.2
+        },
+        {
+          "Date": "2023-11",
+          "Food Price Index": 120.6,
+          "Meat": 111.6,
+          "Dairy": 116.5,
+          "Cereals": 121.0,
+          "Oils": 124.1,
+          "Sugar": 161.4
+        },
+        {
+          "Date": "2023-12",
+          "Food Price Index": 119.1,
+          "Meat": 111.2,
+          "Dairy": 118.7,
+          "Cereals": 122.8,
+          "Oils": 122.3,
+          "Sugar": 134.2
+        },
+        {
+          "Date": "2024-01",
+          "Food Price Index": 117.6,
+          "Meat": 108.9,
+          "Dairy": 118.7,
+          "Cereals": 119.9,
+          "Oils": 122.5,
+          "Sugar": 136.4
+        },
+        {
+          "Date": "2024-02",
+          "Food Price Index": 117.4,
+          "Meat": 112.5,
+          "Dairy": 120.7,
+          "Cereals": 113.8,
+          "Oils": 120.9,
+          "Sugar": 140.8
+        },
+        {
+          "Date": "2024-03",
+          "Food Price Index": 118.9,
+          "Meat": 114.9,
+          "Dairy": 124.0,
+          "Cereals": 110.9,
+          "Oils": 130.6,
+          "Sugar": 133.4
+        },
+        {
+          "Date": "2024-04",
+          "Food Price Index": 119.2,
+          "Meat": 116.6,
+          "Dairy": 123.8,
+          "Cereals": 111.6,
+          "Oils": 130.9,
+          "Sugar": 126.6
+        },
+        {
+          "Date": "2024-05",
+          "Food Price Index": 120.5,
+          "Meat": 116.7,
+          "Dairy": 126.3,
+          "Cereals": 118.7,
+          "Oils": 127.8,
+          "Sugar": 117.1
+        },
+        {
+          "Date": "2024-06",
+          "Food Price Index": 121.0,
+          "Meat": 118.1,
+          "Dairy": 127.9,
+          "Cereals": 115.2,
+          "Oils": 131.8,
+          "Sugar": 119.4
+        },
+        {
+          "Date": "2024-07",
+          "Food Price Index": 120.9,
+          "Meat": 120.0,
+          "Dairy": 127.8,
+          "Cereals": 110.7,
+          "Oils": 135.0,
+          "Sugar": 119.5
+        },
+        {
+          "Date": "2024-08",
+          "Food Price Index": 121.7,
+          "Meat": 122.0,
+          "Dairy": 131.3,
+          "Cereals": 110.2,
+          "Oils": 136.1,
+          "Sugar": 113.9
+        },
+        {
+          "Date": "2024-09",
+          "Food Price Index": 124.6,
+          "Meat": 119.9,
+          "Dairy": 136.5,
+          "Cereals": 113.6,
+          "Oils": 142.4,
+          "Sugar": 126.3
+        },
+        {
+          "Date": "2024-10",
+          "Food Price Index": 126.9,
+          "Meat": 119.2,
+          "Dairy": 138.6,
+          "Cereals": 114.4,
+          "Oils": 152.7,
+          "Sugar": 129.6
+        },
+        {
+          "Date": "2024-11",
+          "Food Price Index": 127.7,
+          "Meat": 118.7,
+          "Dairy": 139.8,
+          "Cereals": 111.4,
+          "Oils": 164.1,
+          "Sugar": 126.4
+        },
+        {
+          "Date": "2024-12",
+          "Food Price Index": 127.3,
+          "Meat": 119.6,
+          "Dairy": 141.2,
+          "Cereals": 111.4,
+          "Oils": 162.1,
+          "Sugar": 119.3
+        },
+        {
+          "Date": "2025-01",
+          "Food Price Index": 124.6,
+          "Meat": 116.6,
+          "Dairy": 143.1,
+          "Cereals": 111.8,
+          "Oils": 153.0,
+          "Sugar": 111.2
+        },
+        {
+          "Date": "2025-02",
+          "Food Price Index": 126.6,
+          "Meat": 116.9,
+          "Dairy": 147.7,
+          "Cereals": 112.6,
+          "Oils": 156.0,
+          "Sugar": 118.5
+        },
+        {
+          "Date": "2025-03",
+          "Food Price Index": 127.2,
+          "Meat": 118.3,
+          "Dairy": 148.7,
+          "Cereals": 109.7,
+          "Oils": 161.8,
+          "Sugar": 116.9
+        },
+        {
+          "Date": "2025-04",
+          "Food Price Index": 128.2,
+          "Meat": 121.6,
+          "Dairy": 151.7,
+          "Cereals": 110.9,
+          "Oils": 158.0,
+          "Sugar": 112.3
+        },
+        {
+          "Date": "2025-05",
+          "Food Price Index": 127.1,
+          "Meat": 122.8,
+          "Dairy": 153.6,
+          "Cereals": 109.0,
+          "Oils": 152.2,
+          "Sugar": 109.4
+        },
+        {
+          "Date": "2025-06",
+          "Food Price Index": 128.1,
+          "Meat": 126.0,
+          "Dairy": 155.5,
+          "Cereals": 107.3,
+          "Oils": 155.7,
+          "Sugar": 103.6
+        },
+        {
+          "Date": "2025-07",
+          "Food Price Index": 129.8,
+          "Meat": 126.6,
+          "Dairy": 154.6,
+          "Cereals": 106.5,
+          "Oils": 166.8,
+          "Sugar": 103.3
+        },
+        {
+          "Date": "2025-08",
+          "Food Price Index": 130.0,
+          "Meat": 127.8,
+          "Dairy": 152.2,
+          "Cereals": 105.6,
+          "Oils": 169.1,
+          "Sugar": 103.6
+        },
+        {
+          "Date": "2025-09",
+          "Food Price Index": 128.6,
+          "Meat": 127.9,
+          "Dairy": 147.2,
+          "Cereals": 104.8,
+          "Oils": 167.9,
+          "Sugar": 99.4
+        },
+        {
+          "Date": "2025-10",
+          "Food Price Index": 126.4,
+          "Meat": 125.0,
+          "Dairy": 141.7,
+          "Cereals": 103.8,
+          "Oils": 169.4,
+          "Sugar": 94.1
+        },
+        {
+          "Date": "2025-11",
+          "Food Price Index": 125.2,
+          "Meat": 125.5,
+          "Dairy": 136.2,
+          "Cereals": 105.6,
+          "Oils": 165.0,
+          "Sugar": 88.6
+        },
+        {
+          "Date": "2025-12",
+          "Food Price Index": 124.5,
+          "Meat": 124.8,
+          "Dairy": 128.2,
+          "Cereals": 107.2,
+          "Oils": 165.2,
+          "Sugar": 90.7
+        },
+        {
+          "Date": "2026-01",
+          "Food Price Index": 124.1,
+          "Meat": 124.9,
+          "Dairy": 120.9,
+          "Cereals": 107.5,
+          "Oils": 168.6,
+          "Sugar": 89.8
+        },
+        {
+          "Date": "2026-02",
+          "Food Price Index": 125.5,
+          "Meat": 126.5,
+          "Dairy": 119.4,
+          "Cereals": 108.7,
+          "Oils": 174.2,
+          "Sugar": 86.2
+        },
+        {
+          "Date": "2026-03",
+          "Food Price Index": 128.7,
+          "Meat": 128.0,
+          "Dairy": 121.2,
+          "Cereals": 110.4,
+          "Oils": 183.1,
+          "Sugar": 92.8
+        },
+        {
+          "Date": "2026-04",
+          "Food Price Index": 131.0,
+          "Meat": 130.4,
+          "Dairy": 119.7,
+          "Cereals": 111.3,
+          "Oils": 193.9,
+          "Sugar": 88.5
+        },
+        {
+          "Date": "2026-05",
+          "Food Price Index": 131.0,
+          "Meat": 131.3,
+          "Dairy": 119.1,
+          "Cereals": 114.2,
+          "Oils": 185.0,
+          "Sugar": 95.1
+        },
+        {
+          "Date": "2026-06",
+          "Food Price Index": 130.3,
+          "Meat": 131.3,
+          "Dairy": 117.0,
+          "Cereals": 110.0,
+          "Oils": 192.0,
+          "Sugar": 90.0
+        },
+        {
+          "Date": "2026-07",
+          "Food Price Index": 131.1,
+          "Meat": 127.7,
+          "Dairy": 116.2,
+          "Cereals": 113.8,
+          "Oils": 195.7,
+          "Sugar": 95.0
+        }
+      ],
+      "source_url": "https://www.fao.org/media/docs/worldfoodsituationlibraries/default-document-library/food_price_indices_data.csv?download=true",
+      "cached": false
+    }
+  },
+  "events": [
+    {
+      "name": "Sahel west",
+      "lat": 14.5,
+      "lon": -1.5,
+      "score": 100.0,
+      "rain_30d_mm": 73.3,
+      "rain_ratio": 0.39,
+      "max_temp_c": 38.7,
+      "heat_anomaly_c": 6.1,
+      "observed_through": "2026-08-25"
+    },
+    {
+      "name": "Sudan grain belt",
+      "lat": 13.5,
+      "lon": 33.5,
+      "score": 100.0,
+      "rain_30d_mm": 113.3,
+      "rain_ratio": 0.41,
+      "max_temp_c": 35.8,
+      "heat_anomaly_c": 7.2,
+      "observed_through": "2026-08-25"
+    },
+    {
+      "name": "Lake Chad basin",
+      "lat": 12.5,
+      "lon": 14.5,
+      "score": 89.7,
+      "rain_30d_mm": 109.9,
+      "rain_ratio": 0.41,
+      "max_temp_c": 36.3,
+      "heat_anomaly_c": 4.9,
+      "observed_through": "2026-08-25"
+    },
+    {
+      "id": "EQ|1558059",
+      "title": "Earthquake in Indonesia",
+      "date": "2026-08-14T21:58:21+00:00",
+      "alert_level": "Red",
+      "event_type": "EQ",
+      "country": "Indonesia",
+      "weight": 20.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1558059&episodeid=1725109&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1557236",
+      "title": "Earthquake in Colombia",
+      "date": "2026-08-10T12:34:28+00:00",
+      "alert_level": "Red",
+      "event_type": "EQ",
+      "country": "Colombia",
+      "weight": 20.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1557236&episodeid=1724218&eventtype=EQ"
+    },
+    {
+      "id": "TC|1001305",
+      "title": "Tropical Cyclone SAUDEL-26",
+      "date": "2026-08-18T12:00:00+00:00",
+      "alert_level": "Orange",
+      "event_type": "TC",
+      "country": "Japan, China, Northern Mariana Islands",
+      "weight": 9.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=38&eventtype=TC"
+    },
+    {
+      "id": "FL|1104121",
+      "title": "Flood in India",
+      "date": "2026-08-09T01:00:00+00:00",
+      "alert_level": "Orange",
+      "event_type": "FL",
+      "country": "India",
+      "weight": 8.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1104121&episodeid=2&eventtype=FL"
+    },
+    {
+      "id": "FL|1104123",
+      "title": "Flood in China",
+      "date": "2026-08-22T01:00:00+00:00",
+      "alert_level": "Orange",
+      "event_type": "FL",
+      "country": "China",
+      "weight": 8.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1104123&episodeid=4&eventtype=FL"
+    },
+    {
+      "id": "FL|1104081",
+      "title": "Flood in China",
+      "date": "2026-07-31T01:00:00+00:00",
+      "alert_level": "Orange",
+      "event_type": "FL",
+      "country": "China",
+      "weight": 8.0,
+      "url": "no reportlink found"
+    },
+    {
+      "id": "WF|1030252",
+      "title": "Forest fires in Serbia",
+      "date": "2026-08-05T00:00:00+00:00",
+      "alert_level": "Orange",
+      "event_type": "WF",
+      "country": "Serbia",
+      "weight": 8.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1030252&episodeid=40&eventtype=WF"
+    },
+    {
+      "id": "WF|1030410",
+      "title": "Forest fires in Spain",
+      "date": "2026-08-10T00:00:00+00:00",
+      "alert_level": "Orange",
+      "event_type": "WF",
+      "country": "Spain",
+      "weight": 8.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1030410&episodeid=23&eventtype=WF"
+    },
+    {
+      "id": "WF|1030534",
+      "title": "Forest fires in Belgium",
+      "date": "2026-08-14T00:00:00+00:00",
+      "alert_level": "Orange",
+      "event_type": "WF",
+      "country": "Belgium",
+      "weight": 8.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
+    },
+    {
+      "id": "EQ|1556215",
+      "title": "Earthquake in Philippines",
+      "date": "2026-08-05T04:14:06+00:00",
+      "alert_level": "Orange",
+      "event_type": "EQ",
+      "country": "Philippines",
+      "weight": 8.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1556215&episodeid=1723078&eventtype=EQ"
+    },
+    {
+      "id": "WF|1029987",
+      "title": "Forest fires in Greece",
+      "date": "2026-07-31T00:00:00+00:00",
+      "alert_level": "Orange",
+      "event_type": "WF",
+      "country": "Greece",
+      "weight": 8.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1029987&episodeid=18&eventtype=WF"
+    },
+    {
+      "id": "WF|1029958",
+      "title": "Forest fires in Greece",
+      "date": "2026-07-30T00:00:00+00:00",
+      "alert_level": "Orange",
+      "event_type": "WF",
+      "country": "Greece",
+      "weight": 8.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1029958&episodeid=4&eventtype=WF"
+    },
+    {
+      "id": "TC|1001313",
+      "title": "Tropical Cyclone DOLLY-26",
+      "date": "2026-08-27T15:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "Guadeloupe, Antigua and Barbuda, Montserrat",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001313&episodeid=2&eventtype=TC"
+    },
+    {
+      "id": "EQ|1562205",
+      "title": "Earthquake in Eastern Gulf Of Aden",
+      "date": "2026-08-27T21:07:38+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Eastern Gulf Of Aden",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1562205&episodeid=1729645&eventtype=EQ"
+    },
+    {
+      "id": "TC|1001314",
+      "title": "Tropical Cyclone KARINA-26",
+      "date": "2026-08-27T21:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=1&eventtype=TC"
+    },
+    {
+      "id": "EONET_23452",
+      "title": "Wildfire Ross, Palo Pinto, Texas",
+      "date": "2026-08-24T14:12:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.8,
+      "url": "https://irwin.doi.gov/observer/incidents/2026-TXTXS-267549"
+    },
+    {
+      "id": "EONET_23214",
+      "title": "Wildfire Colwash, Yakima, Washington",
+      "date": "2026-08-22T11:33:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.6,
+      "url": "https://irwin.doi.gov/observer/incidents/2026-WAYAA-000090"
+    },
+    {
+      "id": "EONET_22612",
+      "title": "Wildfire Stallion, Washoe, Nevada",
+      "date": "2026-08-10T13:31:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.6,
+      "url": "https://irwin.doi.gov/observer/incidents/2026-NVTMFX-030698"
+    },
+    {
+      "id": "EONET_22426",
+      "title": "Wildfire NUNAMAKER ROAD, Franklin, Washington",
+      "date": "2026-08-08T14:16:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.5,
+      "url": "https://irwin.doi.gov/observer/incidents/2026-WASPD-260605"
+    },
+    {
+      "id": "EONET_23456",
+      "title": "Wildfire MUSTANG, Malheur, Oregon",
+      "date": "2026-08-25T16:04:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.4,
+      "url": "https://irwin.doi.gov/observer/incidents/2026-ORVAD-260267"
+    },
+    {
+      "id": "EONET_23218",
+      "title": "Wildfire Hawk, Washoe, Nevada",
+      "date": "2026-08-22T14:45:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.4,
+      "url": "https://irwin.doi.gov/observer/incidents/2026-NVRNOX-030739"
+    },
+    {
+      "id": "EONET_23460",
+      "title": "Wildfire Hawk, Washoe, Nevada",
+      "date": "2026-08-22T14:45:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.4,
+      "url": "https://irwin.doi.gov/observer/incidents/2026-NVTMFX-030739"
+    },
+    {
+      "id": "EONET_23224",
+      "title": "Wildfire Chipmunk, Miami-Dade, Florida",
+      "date": "2026-08-21T15:40:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.4,
+      "url": "https://irwin.doi.gov/observer/incidents/2026-FLEVP-002565"
+    },
+    {
+      "id": "EONET_22432",
+      "title": "Wildfire Bug, Lassen, California",
+      "date": "2026-08-08T18:49:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.4,
+      "url": "https://irwin.doi.gov/observer/incidents/2026-NVCCD-030683"
+    },
+    {
+      "id": "EONET_23453",
+      "title": "Wildfire Calico, Humboldt, Nevada",
+      "date": "2026-08-26T17:29:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.3,
+      "url": "https://irwin.doi.gov/observer/incidents/2026-NVHTF-020624"
+    },
+    {
+      "id": "EONET_23457",
+      "title": "Wildfire S-1 VYA, Washoe, Nevada",
+      "date": "2026-08-24T17:03:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.3,
+      "url": "https://irwin.doi.gov/observer/incidents/2026-CANOD-005304"
+    },
+    {
+      "id": "EONET_23458",
+      "title": "Wildfire Oxley, Elko, Nevada",
+      "date": "2026-08-24T14:12:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.3,
+      "url": "https://irwin.doi.gov/observer/incidents/2026-NVEKD-010515"
+    }
+  ]
 }
