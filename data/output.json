@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-08-27T21:35:47.121236+00:00",
+    "generated": "2026-08-27T21:41:24.820853+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,7 +13,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-08-27T21:35:46.372460+00:00",
+    "issued_at": "2026-08-27T21:41:24.575665+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 63.4,
@@ -297,11 +297,11 @@
           },
           {
             "id": "EQ|1562205",
-            "title": "Earthquake in Eastern Gulf Of Aden",
+            "title": "Earthquake in Yemen",
             "date": "2026-08-27T21:07:38+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Eastern Gulf Of Aden",
+            "country": "Yemen",
             "weight": 1.0,
             "url": "https://www.gdacs.org/report.aspx?eventid=1562205&episodeid=1729645&eventtype=EQ"
           },
@@ -574,7 +574,7 @@
     ],
     "history": [
       {
-        "timestamp": "2026-08-27T21:35:46.372460+00:00",
+        "timestamp": "2026-08-27T21:41:24.575665+00:00",
         "score": 63.4,
         "level": "ELEVATED",
         "components": {
@@ -879,11 +879,11 @@
         },
         {
           "id": "EQ|1562205",
-          "title": "Earthquake in Eastern Gulf Of Aden",
+          "title": "Earthquake in Yemen",
           "date": "2026-08-27T21:07:38+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Eastern Gulf Of Aden",
+          "country": "Yemen",
           "weight": 1.0,
           "url": "https://www.gdacs.org/report.aspx?eventid=1562205&episodeid=1729645&eventtype=EQ"
         },
@@ -5181,11 +5181,11 @@
     },
     {
       "id": "EQ|1562205",
-      "title": "Earthquake in Eastern Gulf Of Aden",
+      "title": "Earthquake in Yemen",
       "date": "2026-08-27T21:07:38+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Eastern Gulf Of Aden",
+      "country": "Yemen",
       "weight": 1.0,
       "url": "https://www.gdacs.org/report.aspx?eventid=1562205&episodeid=1729645&eventtype=EQ"
     },
