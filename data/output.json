@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-08-28T11:26:33.385975+00:00",
+    "generated": "2026-08-28T22:23:09.867001+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,7 +13,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-08-28T11:26:33.255692+00:00",
+    "issued_at": "2026-08-28T22:23:09.633390+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 63.2,
@@ -159,7 +159,7 @@
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 234.1,
+        "current_30d_weight": 234.0,
         "baseline_months": 12,
         "baseline_median": 44.1,
         "anomaly_z": 5.32,
@@ -306,14 +306,14 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1029958&episodeid=4&eventtype=WF"
           },
           {
-            "id": "TC|1001313",
-            "title": "Tropical Cyclone DOLLY-26",
-            "date": "2026-08-27T15:00:00+00:00",
+            "id": "TC|1001314",
+            "title": "Tropical Cyclone KARINA-26",
+            "date": "2026-08-27T21:00:00+00:00",
             "alert_level": "Green",
             "event_type": "TC",
-            "country": "Guadeloupe, Antigua and Barbuda, Montserrat, Saint Kitts and Nevis",
-            "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001313&episodeid=4&eventtype=TC"
+            "country": "",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=5&eventtype=TC"
           }
         ],
         "retained": false
@@ -323,9 +323,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 3728.3,
+        "current_30d_weight": 3729.3,
         "baseline_median": 0.0,
-        "anomaly_z": 3728.32,
+        "anomaly_z": 3729.34,
         "events_considered": 1000,
         "evidence": [
           {
@@ -586,6 +586,17 @@
       },
       {
         "timestamp": "2026-08-28T11:26:33.255692+00:00",
+        "score": 63.2,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 95.8,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 17.2
+        }
+      },
+      {
+        "timestamp": "2026-08-28T22:23:09.633390+00:00",
         "score": 63.2,
         "level": "ELEVATED",
         "components": {
@@ -899,14 +910,14 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1029958&episodeid=4&eventtype=WF"
         },
         {
-          "id": "TC|1001313",
-          "title": "Tropical Cyclone DOLLY-26",
-          "date": "2026-08-27T15:00:00+00:00",
+          "id": "TC|1001314",
+          "title": "Tropical Cyclone KARINA-26",
+          "date": "2026-08-27T21:00:00+00:00",
           "alert_level": "Green",
           "event_type": "TC",
-          "country": "Guadeloupe, Antigua and Barbuda, Montserrat, Saint Kitts and Nevis",
-          "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001313&episodeid=4&eventtype=TC"
+          "country": "",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=5&eventtype=TC"
         }
       ]
     },
@@ -5201,14 +5212,14 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1029958&episodeid=4&eventtype=WF"
     },
     {
-      "id": "TC|1001313",
-      "title": "Tropical Cyclone DOLLY-26",
-      "date": "2026-08-27T15:00:00+00:00",
+      "id": "TC|1001314",
+      "title": "Tropical Cyclone KARINA-26",
+      "date": "2026-08-27T21:00:00+00:00",
       "alert_level": "Green",
       "event_type": "TC",
-      "country": "Guadeloupe, Antigua and Barbuda, Montserrat, Saint Kitts and Nevis",
-      "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001313&episodeid=4&eventtype=TC"
+      "country": "",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=5&eventtype=TC"
     },
     {
       "id": "EONET_23452",
