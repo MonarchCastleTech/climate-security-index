@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-08-28T22:23:09.867001+00:00",
+    "generated": "2026-08-29T07:07:11.236166+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,10 +13,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-08-28T22:23:09.633390+00:00",
+    "issued_at": "2026-08-29T07:07:11.005308+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
-    "score": 63.2,
+    "score": 63.5,
     "level": "ELEVATED",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -25,131 +25,131 @@
         "id": "agroclimate_stress",
         "label": "NASA POWER agroclimate stress",
         "available": true,
-        "score": 95.8,
+        "score": 96.8,
         "sentinels_available": 8,
         "sentinels": [
-          {
-            "name": "Sahel west",
-            "lat": 14.5,
-            "lon": -1.5,
-            "score": 100.0,
-            "rain_30d_mm": 79.4,
-            "rain_ratio": 0.43,
-            "max_temp_c": 38.7,
-            "heat_anomaly_c": 6.1,
-            "observed_through": "2026-08-26"
-          },
           {
             "name": "Sudan grain belt",
             "lat": 13.5,
             "lon": 33.5,
             "score": 100.0,
-            "rain_30d_mm": 113.8,
-            "rain_ratio": 0.43,
-            "max_temp_c": 36.1,
-            "heat_anomaly_c": 7.4,
-            "observed_through": "2026-08-26"
+            "rain_30d_mm": 111.5,
+            "rain_ratio": 0.42,
+            "max_temp_c": 36.3,
+            "heat_anomaly_c": 7.7,
+            "observed_through": "2026-08-27"
           },
           {
-            "name": "Pakistan Indus",
-            "lat": 29.0,
-            "lon": 70.5,
-            "score": 87.5,
-            "rain_30d_mm": 28.1,
-            "rain_ratio": 0.29,
-            "max_temp_c": 43.5,
-            "heat_anomaly_c": 3.8,
-            "observed_through": "2026-08-26"
+            "name": "Sahel west",
+            "lat": 14.5,
+            "lon": -1.5,
+            "score": 99.1,
+            "rain_30d_mm": 83.6,
+            "rain_ratio": 0.44,
+            "max_temp_c": 38.5,
+            "heat_anomaly_c": 6.0,
+            "observed_through": "2026-08-27"
           },
           {
             "name": "Lake Chad basin",
             "lat": 12.5,
             "lon": 14.5,
-            "score": 87.2,
-            "rain_30d_mm": 116.2,
-            "rain_ratio": 0.46,
-            "max_temp_c": 36.4,
-            "heat_anomaly_c": 5.0,
-            "observed_through": "2026-08-26"
-          },
-          {
-            "name": "Ethiopia lowlands",
-            "lat": 8.0,
-            "lon": 40.0,
-            "score": 78.4,
-            "rain_30d_mm": 83.2,
-            "rain_ratio": 0.4,
-            "max_temp_c": 27.1,
-            "heat_anomaly_c": 3.6,
-            "observed_through": "2026-08-26"
-          },
-          {
-            "name": "Somalia pastoral belt",
-            "lat": 5.0,
-            "lon": 45.3,
-            "score": 71.7,
-            "rain_30d_mm": 2.5,
-            "rain_ratio": 0.14,
-            "max_temp_c": 35.5,
-            "heat_anomaly_c": 1.2,
-            "observed_through": "2026-08-26"
-          },
-          {
-            "name": "Afghanistan drylands",
-            "lat": 34.0,
-            "lon": 65.0,
-            "score": 69.2,
-            "rain_30d_mm": 0.0,
-            "rain_ratio": 0.01,
-            "max_temp_c": 27.8,
-            "heat_anomaly_c": -0.1,
-            "observed_through": "2026-08-26"
-          },
-          {
-            "name": "Central America dry corridor",
-            "lat": 14.0,
-            "lon": -88.5,
-            "score": 54.0,
-            "rain_30d_mm": 122.8,
-            "rain_ratio": 0.64,
-            "max_temp_c": 32.3,
-            "heat_anomaly_c": 2.9,
-            "observed_through": "2026-08-26"
-          }
-        ],
-        "evidence": [
-          {
-            "name": "Sahel west",
-            "lat": 14.5,
-            "lon": -1.5,
-            "score": 100.0,
-            "rain_30d_mm": 79.4,
-            "rain_ratio": 0.43,
-            "max_temp_c": 38.7,
-            "heat_anomaly_c": 6.1,
-            "observed_through": "2026-08-26"
-          },
-          {
-            "name": "Sudan grain belt",
-            "lat": 13.5,
-            "lon": 33.5,
-            "score": 100.0,
-            "rain_30d_mm": 113.8,
-            "rain_ratio": 0.43,
-            "max_temp_c": 36.1,
-            "heat_anomaly_c": 7.4,
-            "observed_through": "2026-08-26"
+            "score": 91.2,
+            "rain_30d_mm": 112.3,
+            "rain_ratio": 0.44,
+            "max_temp_c": 36.6,
+            "heat_anomaly_c": 5.2,
+            "observed_through": "2026-08-27"
           },
           {
             "name": "Pakistan Indus",
             "lat": 29.0,
             "lon": 70.5,
-            "score": 87.5,
+            "score": 89.2,
             "rain_30d_mm": 28.1,
-            "rain_ratio": 0.29,
-            "max_temp_c": 43.5,
-            "heat_anomaly_c": 3.8,
-            "observed_through": "2026-08-26"
+            "rain_ratio": 0.28,
+            "max_temp_c": 43.4,
+            "heat_anomaly_c": 3.9,
+            "observed_through": "2026-08-27"
+          },
+          {
+            "name": "Ethiopia lowlands",
+            "lat": 8.0,
+            "lon": 40.0,
+            "score": 80.3,
+            "rain_30d_mm": 81.7,
+            "rain_ratio": 0.38,
+            "max_temp_c": 27.2,
+            "heat_anomaly_c": 3.7,
+            "observed_through": "2026-08-27"
+          },
+          {
+            "name": "Afghanistan drylands",
+            "lat": 34.0,
+            "lon": 65.0,
+            "score": 70.6,
+            "rain_30d_mm": 0.0,
+            "rain_ratio": 0.0,
+            "max_temp_c": 27.7,
+            "heat_anomaly_c": 0.1,
+            "observed_through": "2026-08-27"
+          },
+          {
+            "name": "Somalia pastoral belt",
+            "lat": 5.0,
+            "lon": 45.3,
+            "score": 65.8,
+            "rain_30d_mm": 3.6,
+            "rain_ratio": 0.21,
+            "max_temp_c": 35.5,
+            "heat_anomaly_c": 1.0,
+            "observed_through": "2026-08-27"
+          },
+          {
+            "name": "Central America dry corridor",
+            "lat": 14.0,
+            "lon": -88.5,
+            "score": 54.1,
+            "rain_30d_mm": 120.2,
+            "rain_ratio": 0.62,
+            "max_temp_c": 32.1,
+            "heat_anomaly_c": 2.7,
+            "observed_through": "2026-08-27"
+          }
+        ],
+        "evidence": [
+          {
+            "name": "Sudan grain belt",
+            "lat": 13.5,
+            "lon": 33.5,
+            "score": 100.0,
+            "rain_30d_mm": 111.5,
+            "rain_ratio": 0.42,
+            "max_temp_c": 36.3,
+            "heat_anomaly_c": 7.7,
+            "observed_through": "2026-08-27"
+          },
+          {
+            "name": "Sahel west",
+            "lat": 14.5,
+            "lon": -1.5,
+            "score": 99.1,
+            "rain_30d_mm": 83.6,
+            "rain_ratio": 0.44,
+            "max_temp_c": 38.5,
+            "heat_anomaly_c": 6.0,
+            "observed_through": "2026-08-27"
+          },
+          {
+            "name": "Lake Chad basin",
+            "lat": 12.5,
+            "lon": 14.5,
+            "score": 91.2,
+            "rain_30d_mm": 112.3,
+            "rain_ratio": 0.44,
+            "max_temp_c": 36.6,
+            "heat_anomaly_c": 5.2,
+            "observed_through": "2026-08-27"
           }
         ],
         "retained": false
@@ -159,10 +159,10 @@
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 234.0,
+        "current_30d_weight": 226.0,
         "baseline_months": 12,
         "baseline_median": 44.1,
-        "anomaly_z": 5.32,
+        "anomaly_z": 5.09,
         "events_considered": 192,
         "evidence": [
           {
@@ -296,24 +296,24 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1029987&episodeid=18&eventtype=WF"
           },
           {
-            "id": "WF|1029958",
-            "title": "Forest fires in Greece",
-            "date": "2026-07-30T00:00:00+00:00",
-            "alert_level": "Orange",
-            "event_type": "WF",
-            "country": "Greece",
-            "weight": 8.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1029958&episodeid=4&eventtype=WF"
+            "id": "EQ|1562434",
+            "title": "Earthquake in Philippines",
+            "date": "2026-08-29T06:32:54+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Philippines",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1562434&episodeid=1729907&eventtype=EQ"
           },
           {
-            "id": "TC|1001314",
-            "title": "Tropical Cyclone KARINA-26",
-            "date": "2026-08-27T21:00:00+00:00",
+            "id": "EQ|1562430",
+            "title": "Earthquake in Southwest Indian Ridge",
+            "date": "2026-08-29T05:40:06+00:00",
             "alert_level": "Green",
-            "event_type": "TC",
-            "country": "",
+            "event_type": "EQ",
+            "country": "Southwest Indian Ridge",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=5&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1562430&episodeid=1729900&eventtype=EQ"
           }
         ],
         "retained": false
@@ -556,7 +556,7 @@
       {
         "id": "agroclimate_stress",
         "title": "NASA POWER agroclimate stress",
-        "score": 95.8,
+        "score": 96.8,
         "level": "SEVERE"
       },
       {
@@ -605,6 +605,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 17.2
         }
+      },
+      {
+        "timestamp": "2026-08-29T07:07:11.005308+00:00",
+        "score": 63.5,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 96.8,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 17.2
+        }
       }
     ],
     "data_health": {
@@ -648,7 +659,7 @@
   "stats": [
     {
       "label": "Climate-Security Pressure",
-      "value": "63.2/100",
+      "value": "63.5/100",
       "delta": "ELEVATED"
     },
     {
@@ -674,92 +685,92 @@
       "retained": false,
       "sentinels": [
         {
-          "name": "Sahel west",
-          "lat": 14.5,
-          "lon": -1.5,
-          "score": 100.0,
-          "rain_30d_mm": 79.4,
-          "rain_ratio": 0.43,
-          "max_temp_c": 38.7,
-          "heat_anomaly_c": 6.1,
-          "observed_through": "2026-08-26"
-        },
-        {
           "name": "Sudan grain belt",
           "lat": 13.5,
           "lon": 33.5,
           "score": 100.0,
-          "rain_30d_mm": 113.8,
-          "rain_ratio": 0.43,
-          "max_temp_c": 36.1,
-          "heat_anomaly_c": 7.4,
-          "observed_through": "2026-08-26"
+          "rain_30d_mm": 111.5,
+          "rain_ratio": 0.42,
+          "max_temp_c": 36.3,
+          "heat_anomaly_c": 7.7,
+          "observed_through": "2026-08-27"
         },
         {
-          "name": "Pakistan Indus",
-          "lat": 29.0,
-          "lon": 70.5,
-          "score": 87.5,
-          "rain_30d_mm": 28.1,
-          "rain_ratio": 0.29,
-          "max_temp_c": 43.5,
-          "heat_anomaly_c": 3.8,
-          "observed_through": "2026-08-26"
+          "name": "Sahel west",
+          "lat": 14.5,
+          "lon": -1.5,
+          "score": 99.1,
+          "rain_30d_mm": 83.6,
+          "rain_ratio": 0.44,
+          "max_temp_c": 38.5,
+          "heat_anomaly_c": 6.0,
+          "observed_through": "2026-08-27"
         },
         {
           "name": "Lake Chad basin",
           "lat": 12.5,
           "lon": 14.5,
-          "score": 87.2,
-          "rain_30d_mm": 116.2,
-          "rain_ratio": 0.46,
-          "max_temp_c": 36.4,
-          "heat_anomaly_c": 5.0,
-          "observed_through": "2026-08-26"
+          "score": 91.2,
+          "rain_30d_mm": 112.3,
+          "rain_ratio": 0.44,
+          "max_temp_c": 36.6,
+          "heat_anomaly_c": 5.2,
+          "observed_through": "2026-08-27"
+        },
+        {
+          "name": "Pakistan Indus",
+          "lat": 29.0,
+          "lon": 70.5,
+          "score": 89.2,
+          "rain_30d_mm": 28.1,
+          "rain_ratio": 0.28,
+          "max_temp_c": 43.4,
+          "heat_anomaly_c": 3.9,
+          "observed_through": "2026-08-27"
         },
         {
           "name": "Ethiopia lowlands",
           "lat": 8.0,
           "lon": 40.0,
-          "score": 78.4,
-          "rain_30d_mm": 83.2,
-          "rain_ratio": 0.4,
-          "max_temp_c": 27.1,
-          "heat_anomaly_c": 3.6,
-          "observed_through": "2026-08-26"
-        },
-        {
-          "name": "Somalia pastoral belt",
-          "lat": 5.0,
-          "lon": 45.3,
-          "score": 71.7,
-          "rain_30d_mm": 2.5,
-          "rain_ratio": 0.14,
-          "max_temp_c": 35.5,
-          "heat_anomaly_c": 1.2,
-          "observed_through": "2026-08-26"
+          "score": 80.3,
+          "rain_30d_mm": 81.7,
+          "rain_ratio": 0.38,
+          "max_temp_c": 27.2,
+          "heat_anomaly_c": 3.7,
+          "observed_through": "2026-08-27"
         },
         {
           "name": "Afghanistan drylands",
           "lat": 34.0,
           "lon": 65.0,
-          "score": 69.2,
+          "score": 70.6,
           "rain_30d_mm": 0.0,
-          "rain_ratio": 0.01,
-          "max_temp_c": 27.8,
-          "heat_anomaly_c": -0.1,
-          "observed_through": "2026-08-26"
+          "rain_ratio": 0.0,
+          "max_temp_c": 27.7,
+          "heat_anomaly_c": 0.1,
+          "observed_through": "2026-08-27"
+        },
+        {
+          "name": "Somalia pastoral belt",
+          "lat": 5.0,
+          "lon": 45.3,
+          "score": 65.8,
+          "rain_30d_mm": 3.6,
+          "rain_ratio": 0.21,
+          "max_temp_c": 35.5,
+          "heat_anomaly_c": 1.0,
+          "observed_through": "2026-08-27"
         },
         {
           "name": "Central America dry corridor",
           "lat": 14.0,
           "lon": -88.5,
-          "score": 54.0,
-          "rain_30d_mm": 122.8,
-          "rain_ratio": 0.64,
-          "max_temp_c": 32.3,
-          "heat_anomaly_c": 2.9,
-          "observed_through": "2026-08-26"
+          "score": 54.1,
+          "rain_30d_mm": 120.2,
+          "rain_ratio": 0.62,
+          "max_temp_c": 32.1,
+          "heat_anomaly_c": 2.7,
+          "observed_through": "2026-08-27"
         }
       ]
     },
@@ -900,24 +911,24 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1029987&episodeid=18&eventtype=WF"
         },
         {
-          "id": "WF|1029958",
-          "title": "Forest fires in Greece",
-          "date": "2026-07-30T00:00:00+00:00",
-          "alert_level": "Orange",
-          "event_type": "WF",
-          "country": "Greece",
-          "weight": 8.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1029958&episodeid=4&eventtype=WF"
+          "id": "EQ|1562434",
+          "title": "Earthquake in Philippines",
+          "date": "2026-08-29T06:32:54+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Philippines",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1562434&episodeid=1729907&eventtype=EQ"
         },
         {
-          "id": "TC|1001314",
-          "title": "Tropical Cyclone KARINA-26",
-          "date": "2026-08-27T21:00:00+00:00",
+          "id": "EQ|1562430",
+          "title": "Earthquake in Southwest Indian Ridge",
+          "date": "2026-08-29T05:40:06+00:00",
           "alert_level": "Green",
-          "event_type": "TC",
-          "country": "",
+          "event_type": "EQ",
+          "country": "Southwest Indian Ridge",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=5&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1562430&episodeid=1729900&eventtype=EQ"
         }
       ]
     },
@@ -5039,37 +5050,37 @@
   },
   "events": [
     {
-      "name": "Sahel west",
-      "lat": 14.5,
-      "lon": -1.5,
-      "score": 100.0,
-      "rain_30d_mm": 79.4,
-      "rain_ratio": 0.43,
-      "max_temp_c": 38.7,
-      "heat_anomaly_c": 6.1,
-      "observed_through": "2026-08-26"
-    },
-    {
       "name": "Sudan grain belt",
       "lat": 13.5,
       "lon": 33.5,
       "score": 100.0,
-      "rain_30d_mm": 113.8,
-      "rain_ratio": 0.43,
-      "max_temp_c": 36.1,
-      "heat_anomaly_c": 7.4,
-      "observed_through": "2026-08-26"
+      "rain_30d_mm": 111.5,
+      "rain_ratio": 0.42,
+      "max_temp_c": 36.3,
+      "heat_anomaly_c": 7.7,
+      "observed_through": "2026-08-27"
     },
     {
-      "name": "Pakistan Indus",
-      "lat": 29.0,
-      "lon": 70.5,
-      "score": 87.5,
-      "rain_30d_mm": 28.1,
-      "rain_ratio": 0.29,
-      "max_temp_c": 43.5,
-      "heat_anomaly_c": 3.8,
-      "observed_through": "2026-08-26"
+      "name": "Sahel west",
+      "lat": 14.5,
+      "lon": -1.5,
+      "score": 99.1,
+      "rain_30d_mm": 83.6,
+      "rain_ratio": 0.44,
+      "max_temp_c": 38.5,
+      "heat_anomaly_c": 6.0,
+      "observed_through": "2026-08-27"
+    },
+    {
+      "name": "Lake Chad basin",
+      "lat": 12.5,
+      "lon": 14.5,
+      "score": 91.2,
+      "rain_30d_mm": 112.3,
+      "rain_ratio": 0.44,
+      "max_temp_c": 36.6,
+      "heat_anomaly_c": 5.2,
+      "observed_through": "2026-08-27"
     },
     {
       "id": "EQ|1558059",
@@ -5202,24 +5213,24 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1029987&episodeid=18&eventtype=WF"
     },
     {
-      "id": "WF|1029958",
-      "title": "Forest fires in Greece",
-      "date": "2026-07-30T00:00:00+00:00",
-      "alert_level": "Orange",
-      "event_type": "WF",
-      "country": "Greece",
-      "weight": 8.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1029958&episodeid=4&eventtype=WF"
+      "id": "EQ|1562434",
+      "title": "Earthquake in Philippines",
+      "date": "2026-08-29T06:32:54+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Philippines",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1562434&episodeid=1729907&eventtype=EQ"
     },
     {
-      "id": "TC|1001314",
-      "title": "Tropical Cyclone KARINA-26",
-      "date": "2026-08-27T21:00:00+00:00",
+      "id": "EQ|1562430",
+      "title": "Earthquake in Southwest Indian Ridge",
+      "date": "2026-08-29T05:40:06+00:00",
       "alert_level": "Green",
-      "event_type": "TC",
-      "country": "",
+      "event_type": "EQ",
+      "country": "Southwest Indian Ridge",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=5&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1562430&episodeid=1729900&eventtype=EQ"
     },
     {
       "id": "EONET_23452",
