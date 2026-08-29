@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-08-29T16:44:39.675949+00:00",
+    "generated": "2026-08-29T20:57:24.267416+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,7 +13,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-08-29T16:44:39.442339+00:00",
+    "issued_at": "2026-08-29T20:57:24.015136+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 63.5,
@@ -296,24 +296,24 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1029987&episodeid=18&eventtype=WF"
           },
           {
-            "id": "EQ|1562491",
-            "title": "Earthquake in Japan",
-            "date": "2026-08-29T15:17:06+00:00",
+            "id": "TC|1001314",
+            "title": "Tropical Cyclone KARINA-26",
+            "date": "2026-08-27T21:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Japan",
+            "event_type": "TC",
+            "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1562491&episodeid=1729978&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=9&eventtype=TC"
           },
           {
-            "id": "EQ|1562489",
-            "title": "Earthquake in South Of Alaska",
-            "date": "2026-08-29T15:16:55+00:00",
+            "id": "TC|1001315",
+            "title": "Tropical Cyclone LOWELL-26",
+            "date": "2026-08-27T21:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "South Of Alaska",
+            "event_type": "TC",
+            "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1562489&episodeid=1729969&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=9&eventtype=TC"
           }
         ],
         "retained": false
@@ -627,6 +627,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 17.2
         }
+      },
+      {
+        "timestamp": "2026-08-29T20:57:24.015136+00:00",
+        "score": 63.5,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 96.8,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 17.2
+        }
       }
     ],
     "data_health": {
@@ -922,24 +933,24 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1029987&episodeid=18&eventtype=WF"
         },
         {
-          "id": "EQ|1562491",
-          "title": "Earthquake in Japan",
-          "date": "2026-08-29T15:17:06+00:00",
+          "id": "TC|1001314",
+          "title": "Tropical Cyclone KARINA-26",
+          "date": "2026-08-27T21:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Japan",
+          "event_type": "TC",
+          "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1562491&episodeid=1729978&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=9&eventtype=TC"
         },
         {
-          "id": "EQ|1562489",
-          "title": "Earthquake in South Of Alaska",
-          "date": "2026-08-29T15:16:55+00:00",
+          "id": "TC|1001315",
+          "title": "Tropical Cyclone LOWELL-26",
+          "date": "2026-08-27T21:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "South Of Alaska",
+          "event_type": "TC",
+          "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1562489&episodeid=1729969&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=9&eventtype=TC"
         }
       ]
     },
@@ -5224,24 +5235,24 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1029987&episodeid=18&eventtype=WF"
     },
     {
-      "id": "EQ|1562491",
-      "title": "Earthquake in Japan",
-      "date": "2026-08-29T15:17:06+00:00",
+      "id": "TC|1001314",
+      "title": "Tropical Cyclone KARINA-26",
+      "date": "2026-08-27T21:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Japan",
+      "event_type": "TC",
+      "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1562491&episodeid=1729978&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=9&eventtype=TC"
     },
     {
-      "id": "EQ|1562489",
-      "title": "Earthquake in South Of Alaska",
-      "date": "2026-08-29T15:16:55+00:00",
+      "id": "TC|1001315",
+      "title": "Tropical Cyclone LOWELL-26",
+      "date": "2026-08-27T21:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "South Of Alaska",
+      "event_type": "TC",
+      "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1562489&episodeid=1729969&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=9&eventtype=TC"
     },
     {
       "id": "EONET_23452",
