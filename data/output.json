@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-08-29T07:07:11.236166+00:00",
+    "generated": "2026-08-29T16:44:39.675949+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,7 +13,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-08-29T07:07:11.005308+00:00",
+    "issued_at": "2026-08-29T16:44:39.442339+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 63.5,
@@ -159,11 +159,11 @@
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 226.0,
+        "current_30d_weight": 228.0,
         "baseline_months": 12,
         "baseline_median": 44.1,
-        "anomaly_z": 5.09,
-        "events_considered": 192,
+        "anomaly_z": 5.26,
+        "events_considered": 195,
         "evidence": [
           {
             "id": "EQ|1558059",
@@ -296,24 +296,24 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1029987&episodeid=18&eventtype=WF"
           },
           {
-            "id": "EQ|1562434",
-            "title": "Earthquake in Philippines",
-            "date": "2026-08-29T06:32:54+00:00",
+            "id": "EQ|1562491",
+            "title": "Earthquake in Japan",
+            "date": "2026-08-29T15:17:06+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Philippines",
+            "country": "Japan",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1562434&episodeid=1729907&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1562491&episodeid=1729978&eventtype=EQ"
           },
           {
-            "id": "EQ|1562430",
-            "title": "Earthquake in Southwest Indian Ridge",
-            "date": "2026-08-29T05:40:06+00:00",
+            "id": "EQ|1562489",
+            "title": "Earthquake in South Of Alaska",
+            "date": "2026-08-29T15:16:55+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Southwest Indian Ridge",
+            "country": "South Of Alaska",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1562430&episodeid=1729900&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1562489&episodeid=1729969&eventtype=EQ"
           }
         ],
         "retained": false
@@ -323,9 +323,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 3729.3,
+        "current_30d_weight": 3727.8,
         "baseline_median": 0.0,
-        "anomaly_z": 3729.34,
+        "anomaly_z": 3727.76,
         "events_considered": 1000,
         "evidence": [
           {
@@ -616,13 +616,24 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 17.2
         }
+      },
+      {
+        "timestamp": "2026-08-29T16:44:39.442339+00:00",
+        "score": 63.5,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 96.8,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 17.2
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
       "power_sentinels": 8,
-      "gdacs_events": 192,
+      "gdacs_events": 195,
       "eonet_events": 1000,
       "fao_latest_month": "2026-07"
     },
@@ -669,7 +680,7 @@
     },
     {
       "label": "Hazards Screened",
-      "value": "1192",
+      "value": "1195",
       "delta": "NASA + GDACS"
     },
     {
@@ -775,7 +786,7 @@
       ]
     },
     "gdacs": {
-      "count": 192,
+      "count": 195,
       "cached": false,
       "retained": false,
       "compact": true,
@@ -911,24 +922,24 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1029987&episodeid=18&eventtype=WF"
         },
         {
-          "id": "EQ|1562434",
-          "title": "Earthquake in Philippines",
-          "date": "2026-08-29T06:32:54+00:00",
+          "id": "EQ|1562491",
+          "title": "Earthquake in Japan",
+          "date": "2026-08-29T15:17:06+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Philippines",
+          "country": "Japan",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1562434&episodeid=1729907&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1562491&episodeid=1729978&eventtype=EQ"
         },
         {
-          "id": "EQ|1562430",
-          "title": "Earthquake in Southwest Indian Ridge",
-          "date": "2026-08-29T05:40:06+00:00",
+          "id": "EQ|1562489",
+          "title": "Earthquake in South Of Alaska",
+          "date": "2026-08-29T15:16:55+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Southwest Indian Ridge",
+          "country": "South Of Alaska",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1562430&episodeid=1729900&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1562489&episodeid=1729969&eventtype=EQ"
         }
       ]
     },
@@ -5213,24 +5224,24 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1029987&episodeid=18&eventtype=WF"
     },
     {
-      "id": "EQ|1562434",
-      "title": "Earthquake in Philippines",
-      "date": "2026-08-29T06:32:54+00:00",
+      "id": "EQ|1562491",
+      "title": "Earthquake in Japan",
+      "date": "2026-08-29T15:17:06+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Philippines",
+      "country": "Japan",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1562434&episodeid=1729907&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1562491&episodeid=1729978&eventtype=EQ"
     },
     {
-      "id": "EQ|1562430",
-      "title": "Earthquake in Southwest Indian Ridge",
-      "date": "2026-08-29T05:40:06+00:00",
+      "id": "EQ|1562489",
+      "title": "Earthquake in South Of Alaska",
+      "date": "2026-08-29T15:16:55+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Southwest Indian Ridge",
+      "country": "South Of Alaska",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1562430&episodeid=1729900&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1562489&episodeid=1729969&eventtype=EQ"
     },
     {
       "id": "EONET_23452",
