@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-08-30T11:57:15.871239+00:00",
+    "generated": "2026-08-30T16:43:03.217630+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,7 +13,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-08-30T11:57:15.682070+00:00",
+    "issued_at": "2026-08-30T16:43:02.978079+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 63.9,
@@ -246,16 +246,6 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1030252&episodeid=40&eventtype=WF"
           },
           {
-            "id": "WF|1030410",
-            "title": "Forest fires in Spain",
-            "date": "2026-08-10T00:00:00+00:00",
-            "alert_level": "Orange",
-            "event_type": "WF",
-            "country": "Spain",
-            "weight": 8.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1030410&episodeid=23&eventtype=WF"
-          },
-          {
             "id": "WF|1030534",
             "title": "Forest fires in Belgium",
             "date": "2026-08-14T00:00:00+00:00",
@@ -264,6 +254,16 @@
             "country": "Belgium",
             "weight": 8.0,
             "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
+          },
+          {
+            "id": "WF|1030410",
+            "title": "Forest fires in Spain",
+            "date": "2026-08-10T00:00:00+00:00",
+            "alert_level": "Orange",
+            "event_type": "WF",
+            "country": "Spain",
+            "weight": 8.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1030410&episodeid=23&eventtype=WF"
           },
           {
             "id": "EQ|1556215",
@@ -276,34 +276,14 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1556215&episodeid=1723078&eventtype=EQ"
           },
           {
-            "id": "EQ|1562608",
-            "title": "Earthquake in South Of Fiji Islands",
-            "date": "2026-08-30T09:13:55+00:00",
+            "id": "EQ|1562649",
+            "title": "Earthquake in Chile",
+            "date": "2026-08-30T16:04:07+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "South Of Fiji Islands",
+            "country": "Chile",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1562608&episodeid=1730099&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1562607",
-            "title": "Earthquake in Kermadec Islands, New Zealand",
-            "date": "2026-08-30T09:02:09+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Kermadec Islands, New Zealand",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1562607&episodeid=1730097&eventtype=EQ"
-          },
-          {
-            "id": "TC|1001314",
-            "title": "Tropical Cyclone KARINA-26",
-            "date": "2026-08-27T21:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=11&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1562649&episodeid=1730145&eventtype=EQ"
           },
           {
             "id": "TC|1001315",
@@ -313,7 +293,27 @@
             "event_type": "TC",
             "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=11&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=12&eventtype=TC"
+          },
+          {
+            "id": "TC|1001314",
+            "title": "Tropical Cyclone KARINA-26",
+            "date": "2026-08-27T21:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=12&eventtype=TC"
+          },
+          {
+            "id": "TC|1001312",
+            "title": "Tropical Cyclone ETAU-26",
+            "date": "2026-08-27T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001312&episodeid=15&eventtype=TC"
           }
         ],
         "retained": false
@@ -323,9 +323,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 3727.8,
+        "current_30d_weight": 3728.3,
         "baseline_median": 0.0,
-        "anomaly_z": 3727.76,
+        "anomaly_z": 3728.29,
         "events_considered": 1000,
         "evidence": [
           {
@@ -660,6 +660,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 17.2
         }
+      },
+      {
+        "timestamp": "2026-08-30T16:43:02.978079+00:00",
+        "score": 63.9,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 97.9,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 17.2
+        }
       }
     ],
     "data_health": {
@@ -905,16 +916,6 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1030252&episodeid=40&eventtype=WF"
         },
         {
-          "id": "WF|1030410",
-          "title": "Forest fires in Spain",
-          "date": "2026-08-10T00:00:00+00:00",
-          "alert_level": "Orange",
-          "event_type": "WF",
-          "country": "Spain",
-          "weight": 8.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1030410&episodeid=23&eventtype=WF"
-        },
-        {
           "id": "WF|1030534",
           "title": "Forest fires in Belgium",
           "date": "2026-08-14T00:00:00+00:00",
@@ -923,6 +924,16 @@
           "country": "Belgium",
           "weight": 8.0,
           "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
+        },
+        {
+          "id": "WF|1030410",
+          "title": "Forest fires in Spain",
+          "date": "2026-08-10T00:00:00+00:00",
+          "alert_level": "Orange",
+          "event_type": "WF",
+          "country": "Spain",
+          "weight": 8.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1030410&episodeid=23&eventtype=WF"
         },
         {
           "id": "EQ|1556215",
@@ -935,34 +946,14 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1556215&episodeid=1723078&eventtype=EQ"
         },
         {
-          "id": "EQ|1562608",
-          "title": "Earthquake in South Of Fiji Islands",
-          "date": "2026-08-30T09:13:55+00:00",
+          "id": "EQ|1562649",
+          "title": "Earthquake in Chile",
+          "date": "2026-08-30T16:04:07+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "South Of Fiji Islands",
+          "country": "Chile",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1562608&episodeid=1730099&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1562607",
-          "title": "Earthquake in Kermadec Islands, New Zealand",
-          "date": "2026-08-30T09:02:09+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Kermadec Islands, New Zealand",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1562607&episodeid=1730097&eventtype=EQ"
-        },
-        {
-          "id": "TC|1001314",
-          "title": "Tropical Cyclone KARINA-26",
-          "date": "2026-08-27T21:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=11&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1562649&episodeid=1730145&eventtype=EQ"
         },
         {
           "id": "TC|1001315",
@@ -972,7 +963,27 @@
           "event_type": "TC",
           "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=11&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=12&eventtype=TC"
+        },
+        {
+          "id": "TC|1001314",
+          "title": "Tropical Cyclone KARINA-26",
+          "date": "2026-08-27T21:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=12&eventtype=TC"
+        },
+        {
+          "id": "TC|1001312",
+          "title": "Tropical Cyclone ETAU-26",
+          "date": "2026-08-27T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001312&episodeid=15&eventtype=TC"
         }
       ]
     },
@@ -5207,16 +5218,6 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1030252&episodeid=40&eventtype=WF"
     },
     {
-      "id": "WF|1030410",
-      "title": "Forest fires in Spain",
-      "date": "2026-08-10T00:00:00+00:00",
-      "alert_level": "Orange",
-      "event_type": "WF",
-      "country": "Spain",
-      "weight": 8.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1030410&episodeid=23&eventtype=WF"
-    },
-    {
       "id": "WF|1030534",
       "title": "Forest fires in Belgium",
       "date": "2026-08-14T00:00:00+00:00",
@@ -5225,6 +5226,16 @@
       "country": "Belgium",
       "weight": 8.0,
       "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
+    },
+    {
+      "id": "WF|1030410",
+      "title": "Forest fires in Spain",
+      "date": "2026-08-10T00:00:00+00:00",
+      "alert_level": "Orange",
+      "event_type": "WF",
+      "country": "Spain",
+      "weight": 8.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1030410&episodeid=23&eventtype=WF"
     },
     {
       "id": "EQ|1556215",
@@ -5237,34 +5248,14 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1556215&episodeid=1723078&eventtype=EQ"
     },
     {
-      "id": "EQ|1562608",
-      "title": "Earthquake in South Of Fiji Islands",
-      "date": "2026-08-30T09:13:55+00:00",
+      "id": "EQ|1562649",
+      "title": "Earthquake in Chile",
+      "date": "2026-08-30T16:04:07+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "South Of Fiji Islands",
+      "country": "Chile",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1562608&episodeid=1730099&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1562607",
-      "title": "Earthquake in Kermadec Islands, New Zealand",
-      "date": "2026-08-30T09:02:09+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Kermadec Islands, New Zealand",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1562607&episodeid=1730097&eventtype=EQ"
-    },
-    {
-      "id": "TC|1001314",
-      "title": "Tropical Cyclone KARINA-26",
-      "date": "2026-08-27T21:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=11&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1562649&episodeid=1730145&eventtype=EQ"
     },
     {
       "id": "TC|1001315",
@@ -5274,7 +5265,27 @@
       "event_type": "TC",
       "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=11&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=12&eventtype=TC"
+    },
+    {
+      "id": "TC|1001314",
+      "title": "Tropical Cyclone KARINA-26",
+      "date": "2026-08-27T21:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=12&eventtype=TC"
+    },
+    {
+      "id": "TC|1001312",
+      "title": "Tropical Cyclone ETAU-26",
+      "date": "2026-08-27T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001312&episodeid=15&eventtype=TC"
     },
     {
       "id": "EONET_23452",
