@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-08-29T20:57:24.267416+00:00",
+    "generated": "2026-08-30T05:27:20.811739+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,10 +13,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-08-29T20:57:24.015136+00:00",
+    "issued_at": "2026-08-30T05:27:20.618643+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
-    "score": 63.5,
+    "score": 63.9,
     "level": "ELEVATED",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -25,7 +25,7 @@
         "id": "agroclimate_stress",
         "label": "NASA POWER agroclimate stress",
         "available": true,
-        "score": 96.8,
+        "score": 97.9,
         "sentinels_available": 8,
         "sentinels": [
           {
@@ -33,88 +33,88 @@
             "lat": 13.5,
             "lon": 33.5,
             "score": 100.0,
-            "rain_30d_mm": 111.5,
-            "rain_ratio": 0.42,
-            "max_temp_c": 36.3,
+            "rain_30d_mm": 108.5,
+            "rain_ratio": 0.41,
+            "max_temp_c": 36.2,
             "heat_anomaly_c": 7.7,
-            "observed_through": "2026-08-27"
+            "observed_through": "2026-08-28"
           },
           {
             "name": "Sahel west",
             "lat": 14.5,
             "lon": -1.5,
-            "score": 99.1,
-            "rain_30d_mm": 83.6,
-            "rain_ratio": 0.44,
+            "score": 98.4,
+            "rain_30d_mm": 85.1,
+            "rain_ratio": 0.46,
             "max_temp_c": 38.5,
             "heat_anomaly_c": 6.0,
-            "observed_through": "2026-08-27"
+            "observed_through": "2026-08-28"
           },
           {
             "name": "Lake Chad basin",
             "lat": 12.5,
             "lon": 14.5,
-            "score": 91.2,
-            "rain_30d_mm": 112.3,
-            "rain_ratio": 0.44,
-            "max_temp_c": 36.6,
-            "heat_anomaly_c": 5.2,
-            "observed_through": "2026-08-27"
+            "score": 95.2,
+            "rain_30d_mm": 108.9,
+            "rain_ratio": 0.43,
+            "max_temp_c": 36.8,
+            "heat_anomaly_c": 5.5,
+            "observed_through": "2026-08-28"
           },
           {
             "name": "Pakistan Indus",
             "lat": 29.0,
             "lon": 70.5,
-            "score": 89.2,
+            "score": 89.7,
             "rain_30d_mm": 28.1,
             "rain_ratio": 0.28,
             "max_temp_c": 43.4,
             "heat_anomaly_c": 3.9,
-            "observed_through": "2026-08-27"
+            "observed_through": "2026-08-28"
           },
           {
             "name": "Ethiopia lowlands",
             "lat": 8.0,
             "lon": 40.0,
-            "score": 80.3,
-            "rain_30d_mm": 81.7,
-            "rain_ratio": 0.38,
-            "max_temp_c": 27.2,
-            "heat_anomaly_c": 3.7,
-            "observed_through": "2026-08-27"
+            "score": 84.3,
+            "rain_30d_mm": 76.1,
+            "rain_ratio": 0.35,
+            "max_temp_c": 27.4,
+            "heat_anomaly_c": 3.9,
+            "observed_through": "2026-08-28"
           },
           {
             "name": "Afghanistan drylands",
             "lat": 34.0,
             "lon": 65.0,
-            "score": 70.6,
+            "score": 71.6,
             "rain_30d_mm": 0.0,
             "rain_ratio": 0.0,
             "max_temp_c": 27.7,
-            "heat_anomaly_c": 0.1,
-            "observed_through": "2026-08-27"
+            "heat_anomaly_c": 0.2,
+            "observed_through": "2026-08-28"
           },
           {
             "name": "Somalia pastoral belt",
             "lat": 5.0,
             "lon": 45.3,
-            "score": 65.8,
+            "score": 65.1,
             "rain_30d_mm": 3.6,
             "rain_ratio": 0.21,
             "max_temp_c": 35.5,
             "heat_anomaly_c": 1.0,
-            "observed_through": "2026-08-27"
+            "observed_through": "2026-08-28"
           },
           {
             "name": "Central America dry corridor",
             "lat": 14.0,
             "lon": -88.5,
-            "score": 54.1,
-            "rain_30d_mm": 120.2,
-            "rain_ratio": 0.62,
+            "score": 50.9,
+            "rain_30d_mm": 121.9,
+            "rain_ratio": 0.66,
             "max_temp_c": 32.1,
             "heat_anomaly_c": 2.7,
-            "observed_through": "2026-08-27"
+            "observed_through": "2026-08-28"
           }
         ],
         "evidence": [
@@ -123,33 +123,33 @@
             "lat": 13.5,
             "lon": 33.5,
             "score": 100.0,
-            "rain_30d_mm": 111.5,
-            "rain_ratio": 0.42,
-            "max_temp_c": 36.3,
+            "rain_30d_mm": 108.5,
+            "rain_ratio": 0.41,
+            "max_temp_c": 36.2,
             "heat_anomaly_c": 7.7,
-            "observed_through": "2026-08-27"
+            "observed_through": "2026-08-28"
           },
           {
             "name": "Sahel west",
             "lat": 14.5,
             "lon": -1.5,
-            "score": 99.1,
-            "rain_30d_mm": 83.6,
-            "rain_ratio": 0.44,
+            "score": 98.4,
+            "rain_30d_mm": 85.1,
+            "rain_ratio": 0.46,
             "max_temp_c": 38.5,
             "heat_anomaly_c": 6.0,
-            "observed_through": "2026-08-27"
+            "observed_through": "2026-08-28"
           },
           {
             "name": "Lake Chad basin",
             "lat": 12.5,
             "lon": 14.5,
-            "score": 91.2,
-            "rain_30d_mm": 112.3,
-            "rain_ratio": 0.44,
-            "max_temp_c": 36.6,
-            "heat_anomaly_c": 5.2,
-            "observed_through": "2026-08-27"
+            "score": 95.2,
+            "rain_30d_mm": 108.9,
+            "rain_ratio": 0.43,
+            "max_temp_c": 36.8,
+            "heat_anomaly_c": 5.5,
+            "observed_through": "2026-08-28"
           }
         ],
         "retained": false
@@ -159,10 +159,10 @@
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 228.0,
+        "current_30d_weight": 212.0,
         "baseline_months": 12,
-        "baseline_median": 44.1,
-        "anomaly_z": 5.26,
+        "baseline_median": 41.2,
+        "anomaly_z": 4.76,
         "events_considered": 195,
         "evidence": [
           {
@@ -236,16 +236,6 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1104121&episodeid=2&eventtype=FL"
           },
           {
-            "id": "FL|1104081",
-            "title": "Flood in China",
-            "date": "2026-07-31T01:00:00+00:00",
-            "alert_level": "Orange",
-            "event_type": "FL",
-            "country": "China",
-            "weight": 8.0,
-            "url": "no reportlink found"
-          },
-          {
             "id": "WF|1030252",
             "title": "Forest fires in Serbia",
             "date": "2026-08-05T00:00:00+00:00",
@@ -286,14 +276,14 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1556215&episodeid=1723078&eventtype=EQ"
           },
           {
-            "id": "WF|1029987",
-            "title": "Forest fires in Greece",
-            "date": "2026-07-31T00:00:00+00:00",
-            "alert_level": "Orange",
-            "event_type": "WF",
-            "country": "Greece",
-            "weight": 8.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1029987&episodeid=18&eventtype=WF"
+            "id": "EQ|1562581",
+            "title": "Earthquake in South Sandwich Islands Region",
+            "date": "2026-08-30T03:55:28+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "South Sandwich Islands Region",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1562581&episodeid=1730067&eventtype=EQ"
           },
           {
             "id": "TC|1001314",
@@ -303,7 +293,7 @@
             "event_type": "TC",
             "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=9&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=10&eventtype=TC"
           },
           {
             "id": "TC|1001315",
@@ -313,7 +303,17 @@
             "event_type": "TC",
             "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=9&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=10&eventtype=TC"
+          },
+          {
+            "id": "EQ|1562550",
+            "title": "Earthquake in Japan",
+            "date": "2026-08-30T00:14:19+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Japan",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1562550&episodeid=1730063&eventtype=EQ"
           }
         ],
         "retained": false
@@ -556,7 +556,7 @@
       {
         "id": "agroclimate_stress",
         "title": "NASA POWER agroclimate stress",
-        "score": 96.8,
+        "score": 97.9,
         "level": "SEVERE"
       },
       {
@@ -638,6 +638,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 17.2
         }
+      },
+      {
+        "timestamp": "2026-08-30T05:27:20.618643+00:00",
+        "score": 63.9,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 97.9,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 17.2
+        }
       }
     ],
     "data_health": {
@@ -681,7 +692,7 @@
   "stats": [
     {
       "label": "Climate-Security Pressure",
-      "value": "63.5/100",
+      "value": "63.9/100",
       "delta": "ELEVATED"
     },
     {
@@ -711,88 +722,88 @@
           "lat": 13.5,
           "lon": 33.5,
           "score": 100.0,
-          "rain_30d_mm": 111.5,
-          "rain_ratio": 0.42,
-          "max_temp_c": 36.3,
+          "rain_30d_mm": 108.5,
+          "rain_ratio": 0.41,
+          "max_temp_c": 36.2,
           "heat_anomaly_c": 7.7,
-          "observed_through": "2026-08-27"
+          "observed_through": "2026-08-28"
         },
         {
           "name": "Sahel west",
           "lat": 14.5,
           "lon": -1.5,
-          "score": 99.1,
-          "rain_30d_mm": 83.6,
-          "rain_ratio": 0.44,
+          "score": 98.4,
+          "rain_30d_mm": 85.1,
+          "rain_ratio": 0.46,
           "max_temp_c": 38.5,
           "heat_anomaly_c": 6.0,
-          "observed_through": "2026-08-27"
+          "observed_through": "2026-08-28"
         },
         {
           "name": "Lake Chad basin",
           "lat": 12.5,
           "lon": 14.5,
-          "score": 91.2,
-          "rain_30d_mm": 112.3,
-          "rain_ratio": 0.44,
-          "max_temp_c": 36.6,
-          "heat_anomaly_c": 5.2,
-          "observed_through": "2026-08-27"
+          "score": 95.2,
+          "rain_30d_mm": 108.9,
+          "rain_ratio": 0.43,
+          "max_temp_c": 36.8,
+          "heat_anomaly_c": 5.5,
+          "observed_through": "2026-08-28"
         },
         {
           "name": "Pakistan Indus",
           "lat": 29.0,
           "lon": 70.5,
-          "score": 89.2,
+          "score": 89.7,
           "rain_30d_mm": 28.1,
           "rain_ratio": 0.28,
           "max_temp_c": 43.4,
           "heat_anomaly_c": 3.9,
-          "observed_through": "2026-08-27"
+          "observed_through": "2026-08-28"
         },
         {
           "name": "Ethiopia lowlands",
           "lat": 8.0,
           "lon": 40.0,
-          "score": 80.3,
-          "rain_30d_mm": 81.7,
-          "rain_ratio": 0.38,
-          "max_temp_c": 27.2,
-          "heat_anomaly_c": 3.7,
-          "observed_through": "2026-08-27"
+          "score": 84.3,
+          "rain_30d_mm": 76.1,
+          "rain_ratio": 0.35,
+          "max_temp_c": 27.4,
+          "heat_anomaly_c": 3.9,
+          "observed_through": "2026-08-28"
         },
         {
           "name": "Afghanistan drylands",
           "lat": 34.0,
           "lon": 65.0,
-          "score": 70.6,
+          "score": 71.6,
           "rain_30d_mm": 0.0,
           "rain_ratio": 0.0,
           "max_temp_c": 27.7,
-          "heat_anomaly_c": 0.1,
-          "observed_through": "2026-08-27"
+          "heat_anomaly_c": 0.2,
+          "observed_through": "2026-08-28"
         },
         {
           "name": "Somalia pastoral belt",
           "lat": 5.0,
           "lon": 45.3,
-          "score": 65.8,
+          "score": 65.1,
           "rain_30d_mm": 3.6,
           "rain_ratio": 0.21,
           "max_temp_c": 35.5,
           "heat_anomaly_c": 1.0,
-          "observed_through": "2026-08-27"
+          "observed_through": "2026-08-28"
         },
         {
           "name": "Central America dry corridor",
           "lat": 14.0,
           "lon": -88.5,
-          "score": 54.1,
-          "rain_30d_mm": 120.2,
-          "rain_ratio": 0.62,
+          "score": 50.9,
+          "rain_30d_mm": 121.9,
+          "rain_ratio": 0.66,
           "max_temp_c": 32.1,
           "heat_anomaly_c": 2.7,
-          "observed_through": "2026-08-27"
+          "observed_through": "2026-08-28"
         }
       ]
     },
@@ -873,16 +884,6 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1104121&episodeid=2&eventtype=FL"
         },
         {
-          "id": "FL|1104081",
-          "title": "Flood in China",
-          "date": "2026-07-31T01:00:00+00:00",
-          "alert_level": "Orange",
-          "event_type": "FL",
-          "country": "China",
-          "weight": 8.0,
-          "url": "no reportlink found"
-        },
-        {
           "id": "WF|1030252",
           "title": "Forest fires in Serbia",
           "date": "2026-08-05T00:00:00+00:00",
@@ -923,14 +924,14 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1556215&episodeid=1723078&eventtype=EQ"
         },
         {
-          "id": "WF|1029987",
-          "title": "Forest fires in Greece",
-          "date": "2026-07-31T00:00:00+00:00",
-          "alert_level": "Orange",
-          "event_type": "WF",
-          "country": "Greece",
-          "weight": 8.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1029987&episodeid=18&eventtype=WF"
+          "id": "EQ|1562581",
+          "title": "Earthquake in South Sandwich Islands Region",
+          "date": "2026-08-30T03:55:28+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "South Sandwich Islands Region",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1562581&episodeid=1730067&eventtype=EQ"
         },
         {
           "id": "TC|1001314",
@@ -940,7 +941,7 @@
           "event_type": "TC",
           "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=9&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=10&eventtype=TC"
         },
         {
           "id": "TC|1001315",
@@ -950,7 +951,17 @@
           "event_type": "TC",
           "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=9&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=10&eventtype=TC"
+        },
+        {
+          "id": "EQ|1562550",
+          "title": "Earthquake in Japan",
+          "date": "2026-08-30T00:14:19+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Japan",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1562550&episodeid=1730063&eventtype=EQ"
         }
       ]
     },
@@ -5076,33 +5087,33 @@
       "lat": 13.5,
       "lon": 33.5,
       "score": 100.0,
-      "rain_30d_mm": 111.5,
-      "rain_ratio": 0.42,
-      "max_temp_c": 36.3,
+      "rain_30d_mm": 108.5,
+      "rain_ratio": 0.41,
+      "max_temp_c": 36.2,
       "heat_anomaly_c": 7.7,
-      "observed_through": "2026-08-27"
+      "observed_through": "2026-08-28"
     },
     {
       "name": "Sahel west",
       "lat": 14.5,
       "lon": -1.5,
-      "score": 99.1,
-      "rain_30d_mm": 83.6,
-      "rain_ratio": 0.44,
+      "score": 98.4,
+      "rain_30d_mm": 85.1,
+      "rain_ratio": 0.46,
       "max_temp_c": 38.5,
       "heat_anomaly_c": 6.0,
-      "observed_through": "2026-08-27"
+      "observed_through": "2026-08-28"
     },
     {
       "name": "Lake Chad basin",
       "lat": 12.5,
       "lon": 14.5,
-      "score": 91.2,
-      "rain_30d_mm": 112.3,
-      "rain_ratio": 0.44,
-      "max_temp_c": 36.6,
-      "heat_anomaly_c": 5.2,
-      "observed_through": "2026-08-27"
+      "score": 95.2,
+      "rain_30d_mm": 108.9,
+      "rain_ratio": 0.43,
+      "max_temp_c": 36.8,
+      "heat_anomaly_c": 5.5,
+      "observed_through": "2026-08-28"
     },
     {
       "id": "EQ|1558059",
@@ -5175,16 +5186,6 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1104121&episodeid=2&eventtype=FL"
     },
     {
-      "id": "FL|1104081",
-      "title": "Flood in China",
-      "date": "2026-07-31T01:00:00+00:00",
-      "alert_level": "Orange",
-      "event_type": "FL",
-      "country": "China",
-      "weight": 8.0,
-      "url": "no reportlink found"
-    },
-    {
       "id": "WF|1030252",
       "title": "Forest fires in Serbia",
       "date": "2026-08-05T00:00:00+00:00",
@@ -5225,14 +5226,14 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1556215&episodeid=1723078&eventtype=EQ"
     },
     {
-      "id": "WF|1029987",
-      "title": "Forest fires in Greece",
-      "date": "2026-07-31T00:00:00+00:00",
-      "alert_level": "Orange",
-      "event_type": "WF",
-      "country": "Greece",
-      "weight": 8.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1029987&episodeid=18&eventtype=WF"
+      "id": "EQ|1562581",
+      "title": "Earthquake in South Sandwich Islands Region",
+      "date": "2026-08-30T03:55:28+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "South Sandwich Islands Region",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1562581&episodeid=1730067&eventtype=EQ"
     },
     {
       "id": "TC|1001314",
@@ -5242,7 +5243,7 @@
       "event_type": "TC",
       "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=9&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=10&eventtype=TC"
     },
     {
       "id": "TC|1001315",
@@ -5252,7 +5253,17 @@
       "event_type": "TC",
       "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=9&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=10&eventtype=TC"
+    },
+    {
+      "id": "EQ|1562550",
+      "title": "Earthquake in Japan",
+      "date": "2026-08-30T00:14:19+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Japan",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1562550&episodeid=1730063&eventtype=EQ"
     },
     {
       "id": "EONET_23452",
