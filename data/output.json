@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-08-31T05:39:43.820719+00:00",
+    "generated": "2026-08-31T13:55:57.099062+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,7 +13,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-08-31T05:39:43.584581+00:00",
+    "issued_at": "2026-08-31T13:55:56.852424+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 64.4,
@@ -159,11 +159,11 @@
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 212.0,
+        "current_30d_weight": 201.0,
         "baseline_months": 12,
-        "baseline_median": 51.2,
-        "anomaly_z": 3.17,
-        "events_considered": 195,
+        "baseline_median": 51.9,
+        "anomaly_z": 3.2,
+        "events_considered": 194,
         "evidence": [
           {
             "id": "EQ|1558059",
@@ -196,6 +196,16 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=39&eventtype=TC"
           },
           {
+            "id": "FL|1104121",
+            "title": "Flood in India",
+            "date": "2026-08-09T01:00:00+00:00",
+            "alert_level": "Orange",
+            "event_type": "FL",
+            "country": "India",
+            "weight": 8.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1104121&episodeid=10&eventtype=FL"
+          },
+          {
             "id": "EQ|1562260",
             "title": "Earthquake in China",
             "date": "2026-08-28T05:13:35+00:00",
@@ -226,16 +236,6 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1104123&episodeid=4&eventtype=FL"
           },
           {
-            "id": "FL|1104121",
-            "title": "Flood in India",
-            "date": "2026-08-09T01:00:00+00:00",
-            "alert_level": "Orange",
-            "event_type": "FL",
-            "country": "India",
-            "weight": 8.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1104121&episodeid=2&eventtype=FL"
-          },
-          {
             "id": "WF|1030252",
             "title": "Forest fires in Serbia",
             "date": "2026-08-05T00:00:00+00:00",
@@ -244,16 +244,6 @@
             "country": "Serbia",
             "weight": 8.0,
             "url": "https://www.gdacs.org/report.aspx?eventid=1030252&episodeid=40&eventtype=WF"
-          },
-          {
-            "id": "WF|1030534",
-            "title": "Forest fires in Belgium",
-            "date": "2026-08-14T00:00:00+00:00",
-            "alert_level": "Orange",
-            "event_type": "WF",
-            "country": "Belgium",
-            "weight": 8.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
           },
           {
             "id": "WF|1030410",
@@ -266,6 +256,16 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1030410&episodeid=23&eventtype=WF"
           },
           {
+            "id": "WF|1030534",
+            "title": "Forest fires in Belgium",
+            "date": "2026-08-14T00:00:00+00:00",
+            "alert_level": "Orange",
+            "event_type": "WF",
+            "country": "Belgium",
+            "weight": 8.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
+          },
+          {
             "id": "EQ|1556215",
             "title": "Earthquake in Philippines",
             "date": "2026-08-05T04:14:06+00:00",
@@ -276,34 +276,24 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1556215&episodeid=1723078&eventtype=EQ"
           },
           {
-            "id": "EQ|1562724",
-            "title": "Earthquake in South Of Fiji Islands",
-            "date": "2026-08-31T04:38:22+00:00",
+            "id": "EQ|1562775",
+            "title": "Earthquake in Peru",
+            "date": "2026-08-31T11:53:26+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "South Of Fiji Islands",
+            "country": "Peru",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1562724&episodeid=1730238&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1562775&episodeid=1730292&eventtype=EQ"
           },
           {
-            "id": "EQ|1562722",
-            "title": "Earthquake in Philippines",
-            "date": "2026-08-31T04:04:34+00:00",
+            "id": "EQ|1562755",
+            "title": "Earthquake in Russian Federation",
+            "date": "2026-08-31T09:19:57+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Philippines",
+            "country": "Russian Federation",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1562722&episodeid=1730235&eventtype=EQ"
-          },
-          {
-            "id": "TC|1001315",
-            "title": "Tropical Cyclone LOWELL-26",
-            "date": "2026-08-27T21:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=14&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1562755&episodeid=1730275&eventtype=EQ"
           },
           {
             "id": "TC|1001314",
@@ -313,7 +303,17 @@
             "event_type": "TC",
             "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=15&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=16&eventtype=TC"
+          },
+          {
+            "id": "TC|1001315",
+            "title": "Tropical Cyclone LOWELL-26",
+            "date": "2026-08-27T21:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=15&eventtype=TC"
           }
         ],
         "retained": false
@@ -323,9 +323,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 3726.3,
+        "current_30d_weight": 3725.8,
         "baseline_median": 0.0,
-        "anomaly_z": 3726.25,
+        "anomaly_z": 3725.8,
         "events_considered": 1000,
         "evidence": [
           {
@@ -693,13 +693,24 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 17.2
         }
+      },
+      {
+        "timestamp": "2026-08-31T13:55:56.852424+00:00",
+        "score": 64.4,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 99.4,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 17.2
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
       "power_sentinels": 8,
-      "gdacs_events": 195,
+      "gdacs_events": 194,
       "eonet_events": 1000,
       "fao_latest_month": "2026-07"
     },
@@ -746,7 +757,7 @@
     },
     {
       "label": "Hazards Screened",
-      "value": "1195",
+      "value": "1194",
       "delta": "NASA + GDACS"
     },
     {
@@ -852,7 +863,7 @@
       ]
     },
     "gdacs": {
-      "count": 195,
+      "count": 194,
       "cached": false,
       "retained": false,
       "compact": true,
@@ -888,6 +899,16 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=39&eventtype=TC"
         },
         {
+          "id": "FL|1104121",
+          "title": "Flood in India",
+          "date": "2026-08-09T01:00:00+00:00",
+          "alert_level": "Orange",
+          "event_type": "FL",
+          "country": "India",
+          "weight": 8.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1104121&episodeid=10&eventtype=FL"
+        },
+        {
           "id": "EQ|1562260",
           "title": "Earthquake in China",
           "date": "2026-08-28T05:13:35+00:00",
@@ -918,16 +939,6 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1104123&episodeid=4&eventtype=FL"
         },
         {
-          "id": "FL|1104121",
-          "title": "Flood in India",
-          "date": "2026-08-09T01:00:00+00:00",
-          "alert_level": "Orange",
-          "event_type": "FL",
-          "country": "India",
-          "weight": 8.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1104121&episodeid=2&eventtype=FL"
-        },
-        {
           "id": "WF|1030252",
           "title": "Forest fires in Serbia",
           "date": "2026-08-05T00:00:00+00:00",
@@ -936,16 +947,6 @@
           "country": "Serbia",
           "weight": 8.0,
           "url": "https://www.gdacs.org/report.aspx?eventid=1030252&episodeid=40&eventtype=WF"
-        },
-        {
-          "id": "WF|1030534",
-          "title": "Forest fires in Belgium",
-          "date": "2026-08-14T00:00:00+00:00",
-          "alert_level": "Orange",
-          "event_type": "WF",
-          "country": "Belgium",
-          "weight": 8.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
         },
         {
           "id": "WF|1030410",
@@ -958,6 +959,16 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1030410&episodeid=23&eventtype=WF"
         },
         {
+          "id": "WF|1030534",
+          "title": "Forest fires in Belgium",
+          "date": "2026-08-14T00:00:00+00:00",
+          "alert_level": "Orange",
+          "event_type": "WF",
+          "country": "Belgium",
+          "weight": 8.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
+        },
+        {
           "id": "EQ|1556215",
           "title": "Earthquake in Philippines",
           "date": "2026-08-05T04:14:06+00:00",
@@ -968,34 +979,24 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1556215&episodeid=1723078&eventtype=EQ"
         },
         {
-          "id": "EQ|1562724",
-          "title": "Earthquake in South Of Fiji Islands",
-          "date": "2026-08-31T04:38:22+00:00",
+          "id": "EQ|1562775",
+          "title": "Earthquake in Peru",
+          "date": "2026-08-31T11:53:26+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "South Of Fiji Islands",
+          "country": "Peru",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1562724&episodeid=1730238&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1562775&episodeid=1730292&eventtype=EQ"
         },
         {
-          "id": "EQ|1562722",
-          "title": "Earthquake in Philippines",
-          "date": "2026-08-31T04:04:34+00:00",
+          "id": "EQ|1562755",
+          "title": "Earthquake in Russian Federation",
+          "date": "2026-08-31T09:19:57+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Philippines",
+          "country": "Russian Federation",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1562722&episodeid=1730235&eventtype=EQ"
-        },
-        {
-          "id": "TC|1001315",
-          "title": "Tropical Cyclone LOWELL-26",
-          "date": "2026-08-27T21:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=14&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1562755&episodeid=1730275&eventtype=EQ"
         },
         {
           "id": "TC|1001314",
@@ -1005,7 +1006,17 @@
           "event_type": "TC",
           "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=15&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=16&eventtype=TC"
+        },
+        {
+          "id": "TC|1001315",
+          "title": "Tropical Cyclone LOWELL-26",
+          "date": "2026-08-27T21:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=15&eventtype=TC"
         }
       ]
     },
@@ -5190,6 +5201,16 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=39&eventtype=TC"
     },
     {
+      "id": "FL|1104121",
+      "title": "Flood in India",
+      "date": "2026-08-09T01:00:00+00:00",
+      "alert_level": "Orange",
+      "event_type": "FL",
+      "country": "India",
+      "weight": 8.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1104121&episodeid=10&eventtype=FL"
+    },
+    {
       "id": "EQ|1562260",
       "title": "Earthquake in China",
       "date": "2026-08-28T05:13:35+00:00",
@@ -5220,16 +5241,6 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1104123&episodeid=4&eventtype=FL"
     },
     {
-      "id": "FL|1104121",
-      "title": "Flood in India",
-      "date": "2026-08-09T01:00:00+00:00",
-      "alert_level": "Orange",
-      "event_type": "FL",
-      "country": "India",
-      "weight": 8.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1104121&episodeid=2&eventtype=FL"
-    },
-    {
       "id": "WF|1030252",
       "title": "Forest fires in Serbia",
       "date": "2026-08-05T00:00:00+00:00",
@@ -5238,16 +5249,6 @@
       "country": "Serbia",
       "weight": 8.0,
       "url": "https://www.gdacs.org/report.aspx?eventid=1030252&episodeid=40&eventtype=WF"
-    },
-    {
-      "id": "WF|1030534",
-      "title": "Forest fires in Belgium",
-      "date": "2026-08-14T00:00:00+00:00",
-      "alert_level": "Orange",
-      "event_type": "WF",
-      "country": "Belgium",
-      "weight": 8.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
     },
     {
       "id": "WF|1030410",
@@ -5260,6 +5261,16 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1030410&episodeid=23&eventtype=WF"
     },
     {
+      "id": "WF|1030534",
+      "title": "Forest fires in Belgium",
+      "date": "2026-08-14T00:00:00+00:00",
+      "alert_level": "Orange",
+      "event_type": "WF",
+      "country": "Belgium",
+      "weight": 8.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
+    },
+    {
       "id": "EQ|1556215",
       "title": "Earthquake in Philippines",
       "date": "2026-08-05T04:14:06+00:00",
@@ -5270,34 +5281,24 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1556215&episodeid=1723078&eventtype=EQ"
     },
     {
-      "id": "EQ|1562724",
-      "title": "Earthquake in South Of Fiji Islands",
-      "date": "2026-08-31T04:38:22+00:00",
+      "id": "EQ|1562775",
+      "title": "Earthquake in Peru",
+      "date": "2026-08-31T11:53:26+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "South Of Fiji Islands",
+      "country": "Peru",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1562724&episodeid=1730238&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1562775&episodeid=1730292&eventtype=EQ"
     },
     {
-      "id": "EQ|1562722",
-      "title": "Earthquake in Philippines",
-      "date": "2026-08-31T04:04:34+00:00",
+      "id": "EQ|1562755",
+      "title": "Earthquake in Russian Federation",
+      "date": "2026-08-31T09:19:57+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Philippines",
+      "country": "Russian Federation",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1562722&episodeid=1730235&eventtype=EQ"
-    },
-    {
-      "id": "TC|1001315",
-      "title": "Tropical Cyclone LOWELL-26",
-      "date": "2026-08-27T21:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=14&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1562755&episodeid=1730275&eventtype=EQ"
     },
     {
       "id": "TC|1001314",
@@ -5307,7 +5308,17 @@
       "event_type": "TC",
       "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=15&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=16&eventtype=TC"
+    },
+    {
+      "id": "TC|1001315",
+      "title": "Tropical Cyclone LOWELL-26",
+      "date": "2026-08-27T21:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=15&eventtype=TC"
     },
     {
       "id": "EONET_23452",
