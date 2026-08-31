@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-08-30T21:09:08.753809+00:00",
+    "generated": "2026-08-31T05:39:43.820719+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,10 +13,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-08-30T21:09:08.569702+00:00",
+    "issued_at": "2026-08-31T05:39:43.584581+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
-    "score": 63.9,
+    "score": 64.4,
     "level": "ELEVATED",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -25,131 +25,131 @@
         "id": "agroclimate_stress",
         "label": "NASA POWER agroclimate stress",
         "available": true,
-        "score": 97.9,
+        "score": 99.4,
         "sentinels_available": 8,
         "sentinels": [
+          {
+            "name": "Sahel west",
+            "lat": 14.5,
+            "lon": -1.5,
+            "score": 100.0,
+            "rain_30d_mm": 68.3,
+            "rain_ratio": 0.37,
+            "max_temp_c": 38.7,
+            "heat_anomaly_c": 6.4,
+            "observed_through": "2026-08-29"
+          },
           {
             "name": "Sudan grain belt",
             "lat": 13.5,
             "lon": 33.5,
             "score": 100.0,
-            "rain_30d_mm": 108.5,
-            "rain_ratio": 0.41,
-            "max_temp_c": 36.2,
-            "heat_anomaly_c": 7.7,
-            "observed_through": "2026-08-28"
-          },
-          {
-            "name": "Sahel west",
-            "lat": 14.5,
-            "lon": -1.5,
-            "score": 98.4,
-            "rain_30d_mm": 85.1,
-            "rain_ratio": 0.46,
-            "max_temp_c": 38.5,
-            "heat_anomaly_c": 6.0,
-            "observed_through": "2026-08-28"
+            "rain_30d_mm": 101.7,
+            "rain_ratio": 0.38,
+            "max_temp_c": 36.5,
+            "heat_anomaly_c": 8.0,
+            "observed_through": "2026-08-29"
           },
           {
             "name": "Lake Chad basin",
             "lat": 12.5,
             "lon": 14.5,
-            "score": 95.2,
-            "rain_30d_mm": 108.9,
-            "rain_ratio": 0.43,
-            "max_temp_c": 36.8,
-            "heat_anomaly_c": 5.5,
-            "observed_through": "2026-08-28"
+            "score": 98.3,
+            "rain_30d_mm": 108.5,
+            "rain_ratio": 0.42,
+            "max_temp_c": 37.0,
+            "heat_anomaly_c": 5.8,
+            "observed_through": "2026-08-29"
           },
           {
             "name": "Pakistan Indus",
             "lat": 29.0,
             "lon": 70.5,
-            "score": 89.7,
+            "score": 87.6,
             "rain_30d_mm": 28.1,
-            "rain_ratio": 0.28,
+            "rain_ratio": 0.31,
             "max_temp_c": 43.4,
             "heat_anomaly_c": 3.9,
-            "observed_through": "2026-08-28"
+            "observed_through": "2026-08-29"
           },
           {
             "name": "Ethiopia lowlands",
             "lat": 8.0,
             "lon": 40.0,
-            "score": 84.3,
-            "rain_30d_mm": 76.1,
-            "rain_ratio": 0.35,
+            "score": 86.0,
+            "rain_30d_mm": 76.3,
+            "rain_ratio": 0.34,
             "max_temp_c": 27.4,
-            "heat_anomaly_c": 3.9,
-            "observed_through": "2026-08-28"
+            "heat_anomaly_c": 4.0,
+            "observed_through": "2026-08-29"
           },
           {
             "name": "Afghanistan drylands",
             "lat": 34.0,
             "lon": 65.0,
-            "score": 71.6,
+            "score": 72.3,
             "rain_30d_mm": 0.0,
             "rain_ratio": 0.0,
             "max_temp_c": 27.7,
             "heat_anomaly_c": 0.2,
-            "observed_through": "2026-08-28"
+            "observed_through": "2026-08-29"
           },
           {
             "name": "Somalia pastoral belt",
             "lat": 5.0,
             "lon": 45.3,
-            "score": 65.1,
-            "rain_30d_mm": 3.6,
-            "rain_ratio": 0.21,
+            "score": 63.5,
+            "rain_30d_mm": 3.7,
+            "rain_ratio": 0.22,
             "max_temp_c": 35.5,
-            "heat_anomaly_c": 1.0,
-            "observed_through": "2026-08-28"
+            "heat_anomaly_c": 0.9,
+            "observed_through": "2026-08-29"
           },
           {
             "name": "Central America dry corridor",
             "lat": 14.0,
             "lon": -88.5,
-            "score": 50.9,
-            "rain_30d_mm": 121.9,
-            "rain_ratio": 0.66,
-            "max_temp_c": 32.1,
+            "score": 49.9,
+            "rain_30d_mm": 125.4,
+            "rain_ratio": 0.67,
+            "max_temp_c": 32.0,
             "heat_anomaly_c": 2.7,
-            "observed_through": "2026-08-28"
+            "observed_through": "2026-08-29"
           }
         ],
         "evidence": [
+          {
+            "name": "Sahel west",
+            "lat": 14.5,
+            "lon": -1.5,
+            "score": 100.0,
+            "rain_30d_mm": 68.3,
+            "rain_ratio": 0.37,
+            "max_temp_c": 38.7,
+            "heat_anomaly_c": 6.4,
+            "observed_through": "2026-08-29"
+          },
           {
             "name": "Sudan grain belt",
             "lat": 13.5,
             "lon": 33.5,
             "score": 100.0,
-            "rain_30d_mm": 108.5,
-            "rain_ratio": 0.41,
-            "max_temp_c": 36.2,
-            "heat_anomaly_c": 7.7,
-            "observed_through": "2026-08-28"
-          },
-          {
-            "name": "Sahel west",
-            "lat": 14.5,
-            "lon": -1.5,
-            "score": 98.4,
-            "rain_30d_mm": 85.1,
-            "rain_ratio": 0.46,
-            "max_temp_c": 38.5,
-            "heat_anomaly_c": 6.0,
-            "observed_through": "2026-08-28"
+            "rain_30d_mm": 101.7,
+            "rain_ratio": 0.38,
+            "max_temp_c": 36.5,
+            "heat_anomaly_c": 8.0,
+            "observed_through": "2026-08-29"
           },
           {
             "name": "Lake Chad basin",
             "lat": 12.5,
             "lon": 14.5,
-            "score": 95.2,
-            "rain_30d_mm": 108.9,
-            "rain_ratio": 0.43,
-            "max_temp_c": 36.8,
-            "heat_anomaly_c": 5.5,
-            "observed_through": "2026-08-28"
+            "score": 98.3,
+            "rain_30d_mm": 108.5,
+            "rain_ratio": 0.42,
+            "max_temp_c": 37.0,
+            "heat_anomaly_c": 5.8,
+            "observed_through": "2026-08-29"
           }
         ],
         "retained": false
@@ -276,6 +276,26 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1556215&episodeid=1723078&eventtype=EQ"
           },
           {
+            "id": "EQ|1562724",
+            "title": "Earthquake in South Of Fiji Islands",
+            "date": "2026-08-31T04:38:22+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "South Of Fiji Islands",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1562724&episodeid=1730238&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1562722",
+            "title": "Earthquake in Philippines",
+            "date": "2026-08-31T04:04:34+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Philippines",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1562722&episodeid=1730235&eventtype=EQ"
+          },
+          {
             "id": "TC|1001315",
             "title": "Tropical Cyclone LOWELL-26",
             "date": "2026-08-27T21:00:00+00:00",
@@ -283,7 +303,7 @@
             "event_type": "TC",
             "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=13&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=14&eventtype=TC"
           },
           {
             "id": "TC|1001314",
@@ -293,27 +313,7 @@
             "event_type": "TC",
             "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=13&eventtype=TC"
-          },
-          {
-            "id": "EQ|1562670",
-            "title": "Earthquake in Papua New Guinea",
-            "date": "2026-08-30T18:18:49+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Papua New Guinea",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1562670&episodeid=1730169&eventtype=EQ"
-          },
-          {
-            "id": "TC|1001312",
-            "title": "Tropical Cyclone ETAU-26",
-            "date": "2026-08-27T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001312&episodeid=16&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=15&eventtype=TC"
           }
         ],
         "retained": false
@@ -323,9 +323,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 3728.3,
+        "current_30d_weight": 3726.3,
         "baseline_median": 0.0,
-        "anomaly_z": 3728.29,
+        "anomaly_z": 3726.25,
         "events_considered": 1000,
         "evidence": [
           {
@@ -556,7 +556,7 @@
       {
         "id": "agroclimate_stress",
         "title": "NASA POWER agroclimate stress",
-        "score": 97.9,
+        "score": 99.4,
         "level": "SEVERE"
       },
       {
@@ -682,6 +682,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 17.2
         }
+      },
+      {
+        "timestamp": "2026-08-31T05:39:43.584581+00:00",
+        "score": 64.4,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 99.4,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 17.2
+        }
       }
     ],
     "data_health": {
@@ -725,7 +736,7 @@
   "stats": [
     {
       "label": "Climate-Security Pressure",
-      "value": "63.9/100",
+      "value": "64.4/100",
       "delta": "ELEVATED"
     },
     {
@@ -751,92 +762,92 @@
       "retained": false,
       "sentinels": [
         {
+          "name": "Sahel west",
+          "lat": 14.5,
+          "lon": -1.5,
+          "score": 100.0,
+          "rain_30d_mm": 68.3,
+          "rain_ratio": 0.37,
+          "max_temp_c": 38.7,
+          "heat_anomaly_c": 6.4,
+          "observed_through": "2026-08-29"
+        },
+        {
           "name": "Sudan grain belt",
           "lat": 13.5,
           "lon": 33.5,
           "score": 100.0,
-          "rain_30d_mm": 108.5,
-          "rain_ratio": 0.41,
-          "max_temp_c": 36.2,
-          "heat_anomaly_c": 7.7,
-          "observed_through": "2026-08-28"
-        },
-        {
-          "name": "Sahel west",
-          "lat": 14.5,
-          "lon": -1.5,
-          "score": 98.4,
-          "rain_30d_mm": 85.1,
-          "rain_ratio": 0.46,
-          "max_temp_c": 38.5,
-          "heat_anomaly_c": 6.0,
-          "observed_through": "2026-08-28"
+          "rain_30d_mm": 101.7,
+          "rain_ratio": 0.38,
+          "max_temp_c": 36.5,
+          "heat_anomaly_c": 8.0,
+          "observed_through": "2026-08-29"
         },
         {
           "name": "Lake Chad basin",
           "lat": 12.5,
           "lon": 14.5,
-          "score": 95.2,
-          "rain_30d_mm": 108.9,
-          "rain_ratio": 0.43,
-          "max_temp_c": 36.8,
-          "heat_anomaly_c": 5.5,
-          "observed_through": "2026-08-28"
+          "score": 98.3,
+          "rain_30d_mm": 108.5,
+          "rain_ratio": 0.42,
+          "max_temp_c": 37.0,
+          "heat_anomaly_c": 5.8,
+          "observed_through": "2026-08-29"
         },
         {
           "name": "Pakistan Indus",
           "lat": 29.0,
           "lon": 70.5,
-          "score": 89.7,
+          "score": 87.6,
           "rain_30d_mm": 28.1,
-          "rain_ratio": 0.28,
+          "rain_ratio": 0.31,
           "max_temp_c": 43.4,
           "heat_anomaly_c": 3.9,
-          "observed_through": "2026-08-28"
+          "observed_through": "2026-08-29"
         },
         {
           "name": "Ethiopia lowlands",
           "lat": 8.0,
           "lon": 40.0,
-          "score": 84.3,
-          "rain_30d_mm": 76.1,
-          "rain_ratio": 0.35,
+          "score": 86.0,
+          "rain_30d_mm": 76.3,
+          "rain_ratio": 0.34,
           "max_temp_c": 27.4,
-          "heat_anomaly_c": 3.9,
-          "observed_through": "2026-08-28"
+          "heat_anomaly_c": 4.0,
+          "observed_through": "2026-08-29"
         },
         {
           "name": "Afghanistan drylands",
           "lat": 34.0,
           "lon": 65.0,
-          "score": 71.6,
+          "score": 72.3,
           "rain_30d_mm": 0.0,
           "rain_ratio": 0.0,
           "max_temp_c": 27.7,
           "heat_anomaly_c": 0.2,
-          "observed_through": "2026-08-28"
+          "observed_through": "2026-08-29"
         },
         {
           "name": "Somalia pastoral belt",
           "lat": 5.0,
           "lon": 45.3,
-          "score": 65.1,
-          "rain_30d_mm": 3.6,
-          "rain_ratio": 0.21,
+          "score": 63.5,
+          "rain_30d_mm": 3.7,
+          "rain_ratio": 0.22,
           "max_temp_c": 35.5,
-          "heat_anomaly_c": 1.0,
-          "observed_through": "2026-08-28"
+          "heat_anomaly_c": 0.9,
+          "observed_through": "2026-08-29"
         },
         {
           "name": "Central America dry corridor",
           "lat": 14.0,
           "lon": -88.5,
-          "score": 50.9,
-          "rain_30d_mm": 121.9,
-          "rain_ratio": 0.66,
-          "max_temp_c": 32.1,
+          "score": 49.9,
+          "rain_30d_mm": 125.4,
+          "rain_ratio": 0.67,
+          "max_temp_c": 32.0,
           "heat_anomaly_c": 2.7,
-          "observed_through": "2026-08-28"
+          "observed_through": "2026-08-29"
         }
       ]
     },
@@ -957,6 +968,26 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1556215&episodeid=1723078&eventtype=EQ"
         },
         {
+          "id": "EQ|1562724",
+          "title": "Earthquake in South Of Fiji Islands",
+          "date": "2026-08-31T04:38:22+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "South Of Fiji Islands",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1562724&episodeid=1730238&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1562722",
+          "title": "Earthquake in Philippines",
+          "date": "2026-08-31T04:04:34+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Philippines",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1562722&episodeid=1730235&eventtype=EQ"
+        },
+        {
           "id": "TC|1001315",
           "title": "Tropical Cyclone LOWELL-26",
           "date": "2026-08-27T21:00:00+00:00",
@@ -964,7 +995,7 @@
           "event_type": "TC",
           "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=13&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=14&eventtype=TC"
         },
         {
           "id": "TC|1001314",
@@ -974,27 +1005,7 @@
           "event_type": "TC",
           "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=13&eventtype=TC"
-        },
-        {
-          "id": "EQ|1562670",
-          "title": "Earthquake in Papua New Guinea",
-          "date": "2026-08-30T18:18:49+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Papua New Guinea",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1562670&episodeid=1730169&eventtype=EQ"
-        },
-        {
-          "id": "TC|1001312",
-          "title": "Tropical Cyclone ETAU-26",
-          "date": "2026-08-27T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001312&episodeid=16&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=15&eventtype=TC"
         }
       ]
     },
@@ -5116,37 +5127,37 @@
   },
   "events": [
     {
+      "name": "Sahel west",
+      "lat": 14.5,
+      "lon": -1.5,
+      "score": 100.0,
+      "rain_30d_mm": 68.3,
+      "rain_ratio": 0.37,
+      "max_temp_c": 38.7,
+      "heat_anomaly_c": 6.4,
+      "observed_through": "2026-08-29"
+    },
+    {
       "name": "Sudan grain belt",
       "lat": 13.5,
       "lon": 33.5,
       "score": 100.0,
-      "rain_30d_mm": 108.5,
-      "rain_ratio": 0.41,
-      "max_temp_c": 36.2,
-      "heat_anomaly_c": 7.7,
-      "observed_through": "2026-08-28"
-    },
-    {
-      "name": "Sahel west",
-      "lat": 14.5,
-      "lon": -1.5,
-      "score": 98.4,
-      "rain_30d_mm": 85.1,
-      "rain_ratio": 0.46,
-      "max_temp_c": 38.5,
-      "heat_anomaly_c": 6.0,
-      "observed_through": "2026-08-28"
+      "rain_30d_mm": 101.7,
+      "rain_ratio": 0.38,
+      "max_temp_c": 36.5,
+      "heat_anomaly_c": 8.0,
+      "observed_through": "2026-08-29"
     },
     {
       "name": "Lake Chad basin",
       "lat": 12.5,
       "lon": 14.5,
-      "score": 95.2,
-      "rain_30d_mm": 108.9,
-      "rain_ratio": 0.43,
-      "max_temp_c": 36.8,
-      "heat_anomaly_c": 5.5,
-      "observed_through": "2026-08-28"
+      "score": 98.3,
+      "rain_30d_mm": 108.5,
+      "rain_ratio": 0.42,
+      "max_temp_c": 37.0,
+      "heat_anomaly_c": 5.8,
+      "observed_through": "2026-08-29"
     },
     {
       "id": "EQ|1558059",
@@ -5259,6 +5270,26 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1556215&episodeid=1723078&eventtype=EQ"
     },
     {
+      "id": "EQ|1562724",
+      "title": "Earthquake in South Of Fiji Islands",
+      "date": "2026-08-31T04:38:22+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "South Of Fiji Islands",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1562724&episodeid=1730238&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1562722",
+      "title": "Earthquake in Philippines",
+      "date": "2026-08-31T04:04:34+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Philippines",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1562722&episodeid=1730235&eventtype=EQ"
+    },
+    {
       "id": "TC|1001315",
       "title": "Tropical Cyclone LOWELL-26",
       "date": "2026-08-27T21:00:00+00:00",
@@ -5266,7 +5297,7 @@
       "event_type": "TC",
       "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=13&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=14&eventtype=TC"
     },
     {
       "id": "TC|1001314",
@@ -5276,27 +5307,7 @@
       "event_type": "TC",
       "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=13&eventtype=TC"
-    },
-    {
-      "id": "EQ|1562670",
-      "title": "Earthquake in Papua New Guinea",
-      "date": "2026-08-30T18:18:49+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Papua New Guinea",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1562670&episodeid=1730169&eventtype=EQ"
-    },
-    {
-      "id": "TC|1001312",
-      "title": "Tropical Cyclone ETAU-26",
-      "date": "2026-08-27T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001312&episodeid=16&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=15&eventtype=TC"
     },
     {
       "id": "EONET_23452",
