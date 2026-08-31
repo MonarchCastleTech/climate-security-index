@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-08-31T13:55:57.099062+00:00",
+    "generated": "2026-08-31T22:52:57.734021+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,7 +13,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-08-31T13:55:56.852424+00:00",
+    "issued_at": "2026-08-31T22:52:57.571085+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 64.4,
@@ -161,9 +161,9 @@
         "score": 60.0,
         "current_30d_weight": 201.0,
         "baseline_months": 12,
-        "baseline_median": 51.9,
-        "anomaly_z": 3.2,
-        "events_considered": 194,
+        "baseline_median": 45.9,
+        "anomaly_z": 4.11,
+        "events_considered": 193,
         "evidence": [
           {
             "id": "EQ|1558059",
@@ -246,16 +246,6 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1030252&episodeid=40&eventtype=WF"
           },
           {
-            "id": "WF|1030410",
-            "title": "Forest fires in Spain",
-            "date": "2026-08-10T00:00:00+00:00",
-            "alert_level": "Orange",
-            "event_type": "WF",
-            "country": "Spain",
-            "weight": 8.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1030410&episodeid=23&eventtype=WF"
-          },
-          {
             "id": "WF|1030534",
             "title": "Forest fires in Belgium",
             "date": "2026-08-14T00:00:00+00:00",
@@ -264,6 +254,16 @@
             "country": "Belgium",
             "weight": 8.0,
             "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
+          },
+          {
+            "id": "WF|1030410",
+            "title": "Forest fires in Spain",
+            "date": "2026-08-10T00:00:00+00:00",
+            "alert_level": "Orange",
+            "event_type": "WF",
+            "country": "Spain",
+            "weight": 8.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1030410&episodeid=23&eventtype=WF"
           },
           {
             "id": "EQ|1556215",
@@ -276,26 +276,6 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1556215&episodeid=1723078&eventtype=EQ"
           },
           {
-            "id": "EQ|1562775",
-            "title": "Earthquake in Peru",
-            "date": "2026-08-31T11:53:26+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Peru",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1562775&episodeid=1730292&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1562755",
-            "title": "Earthquake in Russian Federation",
-            "date": "2026-08-31T09:19:57+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Russian Federation",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1562755&episodeid=1730275&eventtype=EQ"
-          },
-          {
             "id": "TC|1001314",
             "title": "Tropical Cyclone KARINA-26",
             "date": "2026-08-27T21:00:00+00:00",
@@ -303,7 +283,7 @@
             "event_type": "TC",
             "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=16&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=18&eventtype=TC"
           },
           {
             "id": "TC|1001315",
@@ -313,7 +293,27 @@
             "event_type": "TC",
             "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=15&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=17&eventtype=TC"
+          },
+          {
+            "id": "TC|1001316",
+            "title": "Tropical Cyclone FIVE-26",
+            "date": "2026-08-31T15:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "United States",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=2&eventtype=TC"
+          },
+          {
+            "id": "EQ|1562824",
+            "title": "Earthquake in Solomon Is.",
+            "date": "2026-08-31T20:00:29+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Solomon Is.",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1562824&episodeid=1730344&eventtype=EQ"
           }
         ],
         "retained": false
@@ -323,9 +323,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 3725.8,
+        "current_30d_weight": 3720.1,
         "baseline_median": 0.0,
-        "anomaly_z": 3725.8,
+        "anomaly_z": 3720.1,
         "events_considered": 1000,
         "evidence": [
           {
@@ -357,16 +357,6 @@
             ],
             "weight": 4.6,
             "url": "https://irwin.doi.gov/observer/incidents/2026-NVTMFX-030698"
-          },
-          {
-            "id": "EONET_22426",
-            "title": "Wildfire NUNAMAKER ROAD, Franklin, Washington",
-            "date": "2026-08-08T14:16:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.5,
-            "url": "https://irwin.doi.gov/observer/incidents/2026-WASPD-260605"
           },
           {
             "id": "EONET_23456",
@@ -407,16 +397,6 @@
             ],
             "weight": 4.4,
             "url": "https://irwin.doi.gov/observer/incidents/2026-FLEVP-002565"
-          },
-          {
-            "id": "EONET_22432",
-            "title": "Wildfire Bug, Lassen, California",
-            "date": "2026-08-08T18:49:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.4,
-            "url": "https://irwin.doi.gov/observer/incidents/2026-NVCCD-030683"
           },
           {
             "id": "EONET_23453",
@@ -477,6 +457,26 @@
             ],
             "weight": 4.2,
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031134"
+          },
+          {
+            "id": "EONET_22795",
+            "title": "Wildfire Shoshone, Churchill, Nevada",
+            "date": "2026-08-15T17:48:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.2,
+            "url": "https://irwin.doi.gov/observer/incidents/2026-NVCCD-030721"
+          },
+          {
+            "id": "EONET_22961",
+            "title": "Wildfire in The Democratic Republic of Congo 1030758",
+            "date": "2026-08-14T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.2,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1030758"
           }
         ],
         "retained": false
@@ -704,13 +704,24 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 17.2
         }
+      },
+      {
+        "timestamp": "2026-08-31T22:52:57.571085+00:00",
+        "score": 64.4,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 99.4,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 17.2
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
       "power_sentinels": 8,
-      "gdacs_events": 194,
+      "gdacs_events": 193,
       "eonet_events": 1000,
       "fao_latest_month": "2026-07"
     },
@@ -757,7 +768,7 @@
     },
     {
       "label": "Hazards Screened",
-      "value": "1194",
+      "value": "1193",
       "delta": "NASA + GDACS"
     },
     {
@@ -863,7 +874,7 @@
       ]
     },
     "gdacs": {
-      "count": 194,
+      "count": 193,
       "cached": false,
       "retained": false,
       "compact": true,
@@ -949,16 +960,6 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1030252&episodeid=40&eventtype=WF"
         },
         {
-          "id": "WF|1030410",
-          "title": "Forest fires in Spain",
-          "date": "2026-08-10T00:00:00+00:00",
-          "alert_level": "Orange",
-          "event_type": "WF",
-          "country": "Spain",
-          "weight": 8.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1030410&episodeid=23&eventtype=WF"
-        },
-        {
           "id": "WF|1030534",
           "title": "Forest fires in Belgium",
           "date": "2026-08-14T00:00:00+00:00",
@@ -967,6 +968,16 @@
           "country": "Belgium",
           "weight": 8.0,
           "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
+        },
+        {
+          "id": "WF|1030410",
+          "title": "Forest fires in Spain",
+          "date": "2026-08-10T00:00:00+00:00",
+          "alert_level": "Orange",
+          "event_type": "WF",
+          "country": "Spain",
+          "weight": 8.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1030410&episodeid=23&eventtype=WF"
         },
         {
           "id": "EQ|1556215",
@@ -979,26 +990,6 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1556215&episodeid=1723078&eventtype=EQ"
         },
         {
-          "id": "EQ|1562775",
-          "title": "Earthquake in Peru",
-          "date": "2026-08-31T11:53:26+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Peru",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1562775&episodeid=1730292&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1562755",
-          "title": "Earthquake in Russian Federation",
-          "date": "2026-08-31T09:19:57+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Russian Federation",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1562755&episodeid=1730275&eventtype=EQ"
-        },
-        {
           "id": "TC|1001314",
           "title": "Tropical Cyclone KARINA-26",
           "date": "2026-08-27T21:00:00+00:00",
@@ -1006,7 +997,7 @@
           "event_type": "TC",
           "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=16&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=18&eventtype=TC"
         },
         {
           "id": "TC|1001315",
@@ -1016,7 +1007,27 @@
           "event_type": "TC",
           "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=15&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=17&eventtype=TC"
+        },
+        {
+          "id": "TC|1001316",
+          "title": "Tropical Cyclone FIVE-26",
+          "date": "2026-08-31T15:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "United States",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=2&eventtype=TC"
+        },
+        {
+          "id": "EQ|1562824",
+          "title": "Earthquake in Solomon Is.",
+          "date": "2026-08-31T20:00:29+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Solomon Is.",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1562824&episodeid=1730344&eventtype=EQ"
         }
       ]
     },
@@ -1057,16 +1068,6 @@
           "url": "https://irwin.doi.gov/observer/incidents/2026-NVTMFX-030698"
         },
         {
-          "id": "EONET_22426",
-          "title": "Wildfire NUNAMAKER ROAD, Franklin, Washington",
-          "date": "2026-08-08T14:16:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.5,
-          "url": "https://irwin.doi.gov/observer/incidents/2026-WASPD-260605"
-        },
-        {
           "id": "EONET_23456",
           "title": "Wildfire MUSTANG, Malheur, Oregon",
           "date": "2026-08-25T16:04:00+00:00",
@@ -1105,16 +1106,6 @@
           ],
           "weight": 4.4,
           "url": "https://irwin.doi.gov/observer/incidents/2026-FLEVP-002565"
-        },
-        {
-          "id": "EONET_22432",
-          "title": "Wildfire Bug, Lassen, California",
-          "date": "2026-08-08T18:49:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.4,
-          "url": "https://irwin.doi.gov/observer/incidents/2026-NVCCD-030683"
         },
         {
           "id": "EONET_23453",
@@ -1175,6 +1166,26 @@
           ],
           "weight": 4.2,
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031134"
+        },
+        {
+          "id": "EONET_22795",
+          "title": "Wildfire Shoshone, Churchill, Nevada",
+          "date": "2026-08-15T17:48:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.2,
+          "url": "https://irwin.doi.gov/observer/incidents/2026-NVCCD-030721"
+        },
+        {
+          "id": "EONET_22961",
+          "title": "Wildfire in The Democratic Republic of Congo 1030758",
+          "date": "2026-08-14T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.2,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1030758"
         }
       ]
     },
@@ -5251,16 +5262,6 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1030252&episodeid=40&eventtype=WF"
     },
     {
-      "id": "WF|1030410",
-      "title": "Forest fires in Spain",
-      "date": "2026-08-10T00:00:00+00:00",
-      "alert_level": "Orange",
-      "event_type": "WF",
-      "country": "Spain",
-      "weight": 8.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1030410&episodeid=23&eventtype=WF"
-    },
-    {
       "id": "WF|1030534",
       "title": "Forest fires in Belgium",
       "date": "2026-08-14T00:00:00+00:00",
@@ -5269,6 +5270,16 @@
       "country": "Belgium",
       "weight": 8.0,
       "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
+    },
+    {
+      "id": "WF|1030410",
+      "title": "Forest fires in Spain",
+      "date": "2026-08-10T00:00:00+00:00",
+      "alert_level": "Orange",
+      "event_type": "WF",
+      "country": "Spain",
+      "weight": 8.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1030410&episodeid=23&eventtype=WF"
     },
     {
       "id": "EQ|1556215",
@@ -5281,26 +5292,6 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1556215&episodeid=1723078&eventtype=EQ"
     },
     {
-      "id": "EQ|1562775",
-      "title": "Earthquake in Peru",
-      "date": "2026-08-31T11:53:26+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Peru",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1562775&episodeid=1730292&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1562755",
-      "title": "Earthquake in Russian Federation",
-      "date": "2026-08-31T09:19:57+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Russian Federation",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1562755&episodeid=1730275&eventtype=EQ"
-    },
-    {
       "id": "TC|1001314",
       "title": "Tropical Cyclone KARINA-26",
       "date": "2026-08-27T21:00:00+00:00",
@@ -5308,7 +5299,7 @@
       "event_type": "TC",
       "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=16&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=18&eventtype=TC"
     },
     {
       "id": "TC|1001315",
@@ -5318,7 +5309,27 @@
       "event_type": "TC",
       "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=15&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=17&eventtype=TC"
+    },
+    {
+      "id": "TC|1001316",
+      "title": "Tropical Cyclone FIVE-26",
+      "date": "2026-08-31T15:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "United States",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=2&eventtype=TC"
+    },
+    {
+      "id": "EQ|1562824",
+      "title": "Earthquake in Solomon Is.",
+      "date": "2026-08-31T20:00:29+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Solomon Is.",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1562824&episodeid=1730344&eventtype=EQ"
     },
     {
       "id": "EONET_23452",
@@ -5349,16 +5360,6 @@
       ],
       "weight": 4.6,
       "url": "https://irwin.doi.gov/observer/incidents/2026-NVTMFX-030698"
-    },
-    {
-      "id": "EONET_22426",
-      "title": "Wildfire NUNAMAKER ROAD, Franklin, Washington",
-      "date": "2026-08-08T14:16:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.5,
-      "url": "https://irwin.doi.gov/observer/incidents/2026-WASPD-260605"
     },
     {
       "id": "EONET_23456",
@@ -5401,16 +5402,6 @@
       "url": "https://irwin.doi.gov/observer/incidents/2026-FLEVP-002565"
     },
     {
-      "id": "EONET_22432",
-      "title": "Wildfire Bug, Lassen, California",
-      "date": "2026-08-08T18:49:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.4,
-      "url": "https://irwin.doi.gov/observer/incidents/2026-NVCCD-030683"
-    },
-    {
       "id": "EONET_23453",
       "title": "Wildfire Calico, Humboldt, Nevada",
       "date": "2026-08-26T17:29:00+00:00",
@@ -5439,6 +5430,26 @@
       ],
       "weight": 4.3,
       "url": "https://irwin.doi.gov/observer/incidents/2026-NVEKD-010515"
+    },
+    {
+      "id": "EONET_23451",
+      "title": "Wildfire Camp Creek, Powell, Montana",
+      "date": "2026-08-21T19:25:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.2,
+      "url": "https://irwin.doi.gov/observer/incidents/2026-MTFNF-000393"
+    },
+    {
+      "id": "EONET_23222",
+      "title": "Wildfire Movie Dome, Miami-Dade, Florida",
+      "date": "2026-08-19T19:42:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.2,
+      "url": "https://irwin.doi.gov/observer/incidents/2026-FLEVP-002542"
     }
   ]
 }
