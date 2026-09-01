@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-09-01T11:42:02.926454+00:00",
+    "generated": "2026-09-01T16:42:23.036553+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,7 +13,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-01T11:42:02.662858+00:00",
+    "issued_at": "2026-09-01T16:42:22.797943+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 64.6,
@@ -159,12 +159,22 @@
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 210.0,
+        "current_30d_weight": 222.0,
         "baseline_months": 12,
         "baseline_median": 45.2,
-        "anomaly_z": 3.94,
-        "events_considered": 192,
+        "anomaly_z": 4.15,
+        "events_considered": 191,
         "evidence": [
+          {
+            "id": "FL|1104124",
+            "title": "Flood in Nepal",
+            "date": "2026-08-26T01:00:00+00:00",
+            "alert_level": "Red",
+            "event_type": "FL",
+            "country": "Nepal",
+            "weight": 20.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1104124&episodeid=1&eventtype=FL"
+          },
           {
             "id": "EQ|1558059",
             "title": "Earthquake in Indonesia",
@@ -193,7 +203,7 @@
             "event_type": "TC",
             "country": "Japan, China, Northern Mariana Islands",
             "weight": 9.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=40&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=41&eventtype=TC"
           },
           {
             "id": "FL|1104121",
@@ -214,16 +224,6 @@
             "country": "China",
             "weight": 8.0,
             "url": "https://www.gdacs.org/report.aspx?eventid=1562260&episodeid=1729706&eventtype=EQ"
-          },
-          {
-            "id": "FL|1104124",
-            "title": "Flood in Nepal",
-            "date": "2026-08-26T01:00:00+00:00",
-            "alert_level": "Orange",
-            "event_type": "FL",
-            "country": "Nepal",
-            "weight": 8.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1104124&episodeid=1&eventtype=FL"
           },
           {
             "id": "FL|1104123",
@@ -276,26 +276,6 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1556215&episodeid=1723078&eventtype=EQ"
           },
           {
-            "id": "EQ|1562932",
-            "title": "Earthquake in Tonga",
-            "date": "2026-09-01T10:34:42+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Tonga",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1562932&episodeid=1730472&eventtype=EQ"
-          },
-          {
-            "id": "TC|1001317",
-            "title": "Tropical Cyclone MARIE-26",
-            "date": "2026-09-01T09:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "Mexico",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=1&eventtype=TC"
-          },
-          {
             "id": "TC|1001316",
             "title": "Tropical Cyclone EDOUARD-26",
             "date": "2026-08-31T15:00:00+00:00",
@@ -303,7 +283,7 @@
             "event_type": "TC",
             "country": "United States",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=4&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=5&eventtype=TC"
           },
           {
             "id": "TC|1001315",
@@ -313,7 +293,27 @@
             "event_type": "TC",
             "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=19&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=20&eventtype=TC"
+          },
+          {
+            "id": "TC|1001314",
+            "title": "Tropical Cyclone KARINA-26",
+            "date": "2026-08-27T21:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=21&eventtype=TC"
+          },
+          {
+            "id": "EQ|1562953",
+            "title": "Earthquake in Philippines",
+            "date": "2026-09-01T13:22:30+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Philippines",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1562953&episodeid=1730490&eventtype=EQ"
           }
         ],
         "retained": false
@@ -323,9 +323,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 3720.6,
+        "current_30d_weight": 3715.9,
         "baseline_median": 0.0,
-        "anomaly_z": 3720.55,
+        "anomaly_z": 3715.89,
         "events_considered": 1000,
         "evidence": [
           {
@@ -737,13 +737,24 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 17.2
         }
+      },
+      {
+        "timestamp": "2026-09-01T16:42:22.797943+00:00",
+        "score": 64.6,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 100.0,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 17.2
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
       "power_sentinels": 8,
-      "gdacs_events": 192,
+      "gdacs_events": 191,
       "eonet_events": 1000,
       "fao_latest_month": "2026-07"
     },
@@ -790,7 +801,7 @@
     },
     {
       "label": "Hazards Screened",
-      "value": "1192",
+      "value": "1191",
       "delta": "NASA + GDACS"
     },
     {
@@ -896,11 +907,21 @@
       ]
     },
     "gdacs": {
-      "count": 192,
+      "count": 191,
       "cached": false,
       "retained": false,
       "compact": true,
       "events": [
+        {
+          "id": "FL|1104124",
+          "title": "Flood in Nepal",
+          "date": "2026-08-26T01:00:00+00:00",
+          "alert_level": "Red",
+          "event_type": "FL",
+          "country": "Nepal",
+          "weight": 20.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1104124&episodeid=1&eventtype=FL"
+        },
         {
           "id": "EQ|1558059",
           "title": "Earthquake in Indonesia",
@@ -929,7 +950,7 @@
           "event_type": "TC",
           "country": "Japan, China, Northern Mariana Islands",
           "weight": 9.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=40&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=41&eventtype=TC"
         },
         {
           "id": "FL|1104121",
@@ -950,16 +971,6 @@
           "country": "China",
           "weight": 8.0,
           "url": "https://www.gdacs.org/report.aspx?eventid=1562260&episodeid=1729706&eventtype=EQ"
-        },
-        {
-          "id": "FL|1104124",
-          "title": "Flood in Nepal",
-          "date": "2026-08-26T01:00:00+00:00",
-          "alert_level": "Orange",
-          "event_type": "FL",
-          "country": "Nepal",
-          "weight": 8.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1104124&episodeid=1&eventtype=FL"
         },
         {
           "id": "FL|1104123",
@@ -1012,26 +1023,6 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1556215&episodeid=1723078&eventtype=EQ"
         },
         {
-          "id": "EQ|1562932",
-          "title": "Earthquake in Tonga",
-          "date": "2026-09-01T10:34:42+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Tonga",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1562932&episodeid=1730472&eventtype=EQ"
-        },
-        {
-          "id": "TC|1001317",
-          "title": "Tropical Cyclone MARIE-26",
-          "date": "2026-09-01T09:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "Mexico",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=1&eventtype=TC"
-        },
-        {
           "id": "TC|1001316",
           "title": "Tropical Cyclone EDOUARD-26",
           "date": "2026-08-31T15:00:00+00:00",
@@ -1039,7 +1030,7 @@
           "event_type": "TC",
           "country": "United States",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=4&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=5&eventtype=TC"
         },
         {
           "id": "TC|1001315",
@@ -1049,7 +1040,27 @@
           "event_type": "TC",
           "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=19&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=20&eventtype=TC"
+        },
+        {
+          "id": "TC|1001314",
+          "title": "Tropical Cyclone KARINA-26",
+          "date": "2026-08-27T21:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=21&eventtype=TC"
+        },
+        {
+          "id": "EQ|1562953",
+          "title": "Earthquake in Philippines",
+          "date": "2026-09-01T13:22:30+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Philippines",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1562953&episodeid=1730490&eventtype=EQ"
         }
       ]
     },
@@ -5204,6 +5215,16 @@
       "observed_through": "2026-08-30"
     },
     {
+      "id": "FL|1104124",
+      "title": "Flood in Nepal",
+      "date": "2026-08-26T01:00:00+00:00",
+      "alert_level": "Red",
+      "event_type": "FL",
+      "country": "Nepal",
+      "weight": 20.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1104124&episodeid=1&eventtype=FL"
+    },
+    {
       "id": "EQ|1558059",
       "title": "Earthquake in Indonesia",
       "date": "2026-08-14T21:58:21+00:00",
@@ -5231,7 +5252,7 @@
       "event_type": "TC",
       "country": "Japan, China, Northern Mariana Islands",
       "weight": 9.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=40&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=41&eventtype=TC"
     },
     {
       "id": "FL|1104121",
@@ -5252,16 +5273,6 @@
       "country": "China",
       "weight": 8.0,
       "url": "https://www.gdacs.org/report.aspx?eventid=1562260&episodeid=1729706&eventtype=EQ"
-    },
-    {
-      "id": "FL|1104124",
-      "title": "Flood in Nepal",
-      "date": "2026-08-26T01:00:00+00:00",
-      "alert_level": "Orange",
-      "event_type": "FL",
-      "country": "Nepal",
-      "weight": 8.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1104124&episodeid=1&eventtype=FL"
     },
     {
       "id": "FL|1104123",
@@ -5314,26 +5325,6 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1556215&episodeid=1723078&eventtype=EQ"
     },
     {
-      "id": "EQ|1562932",
-      "title": "Earthquake in Tonga",
-      "date": "2026-09-01T10:34:42+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Tonga",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1562932&episodeid=1730472&eventtype=EQ"
-    },
-    {
-      "id": "TC|1001317",
-      "title": "Tropical Cyclone MARIE-26",
-      "date": "2026-09-01T09:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "Mexico",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=1&eventtype=TC"
-    },
-    {
       "id": "TC|1001316",
       "title": "Tropical Cyclone EDOUARD-26",
       "date": "2026-08-31T15:00:00+00:00",
@@ -5341,7 +5332,7 @@
       "event_type": "TC",
       "country": "United States",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=4&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=5&eventtype=TC"
     },
     {
       "id": "TC|1001315",
@@ -5351,7 +5342,27 @@
       "event_type": "TC",
       "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=19&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=20&eventtype=TC"
+    },
+    {
+      "id": "TC|1001314",
+      "title": "Tropical Cyclone KARINA-26",
+      "date": "2026-08-27T21:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=21&eventtype=TC"
+    },
+    {
+      "id": "EQ|1562953",
+      "title": "Earthquake in Philippines",
+      "date": "2026-09-01T13:22:30+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Philippines",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1562953&episodeid=1730490&eventtype=EQ"
     },
     {
       "id": "EONET_23452",
