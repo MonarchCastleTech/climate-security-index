@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-08-31T22:52:57.734021+00:00",
+    "generated": "2026-09-01T05:13:37.075140+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,10 +13,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-08-31T22:52:57.571085+00:00",
+    "issued_at": "2026-09-01T05:13:36.824362+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
-    "score": 64.4,
+    "score": 64.6,
     "level": "ELEVATED",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -25,7 +25,7 @@
         "id": "agroclimate_stress",
         "label": "NASA POWER agroclimate stress",
         "available": true,
-        "score": 99.4,
+        "score": 100.0,
         "sentinels_available": 8,
         "sentinels": [
           {
@@ -33,55 +33,55 @@
             "lat": 14.5,
             "lon": -1.5,
             "score": 100.0,
-            "rain_30d_mm": 68.3,
-            "rain_ratio": 0.37,
-            "max_temp_c": 38.7,
-            "heat_anomaly_c": 6.4,
-            "observed_through": "2026-08-29"
+            "rain_30d_mm": 68.1,
+            "rain_ratio": 0.36,
+            "max_temp_c": 38.9,
+            "heat_anomaly_c": 6.6,
+            "observed_through": "2026-08-30"
+          },
+          {
+            "name": "Lake Chad basin",
+            "lat": 12.5,
+            "lon": 14.5,
+            "score": 100.0,
+            "rain_30d_mm": 107.8,
+            "rain_ratio": 0.41,
+            "max_temp_c": 37.1,
+            "heat_anomaly_c": 5.9,
+            "observed_through": "2026-08-30"
           },
           {
             "name": "Sudan grain belt",
             "lat": 13.5,
             "lon": 33.5,
             "score": 100.0,
-            "rain_30d_mm": 101.7,
+            "rain_30d_mm": 100.7,
             "rain_ratio": 0.38,
-            "max_temp_c": 36.5,
-            "heat_anomaly_c": 8.0,
-            "observed_through": "2026-08-29"
-          },
-          {
-            "name": "Lake Chad basin",
-            "lat": 12.5,
-            "lon": 14.5,
-            "score": 98.3,
-            "rain_30d_mm": 108.5,
-            "rain_ratio": 0.42,
-            "max_temp_c": 37.0,
-            "heat_anomaly_c": 5.8,
-            "observed_through": "2026-08-29"
+            "max_temp_c": 36.8,
+            "heat_anomaly_c": 8.2,
+            "observed_through": "2026-08-30"
           },
           {
             "name": "Pakistan Indus",
             "lat": 29.0,
             "lon": 70.5,
-            "score": 87.6,
-            "rain_30d_mm": 28.1,
+            "score": 86.8,
+            "rain_30d_mm": 27.8,
             "rain_ratio": 0.31,
-            "max_temp_c": 43.4,
-            "heat_anomaly_c": 3.9,
-            "observed_through": "2026-08-29"
+            "max_temp_c": 43.2,
+            "heat_anomaly_c": 3.8,
+            "observed_through": "2026-08-30"
           },
           {
             "name": "Ethiopia lowlands",
             "lat": 8.0,
             "lon": 40.0,
-            "score": 86.0,
-            "rain_30d_mm": 76.3,
-            "rain_ratio": 0.34,
+            "score": 85.1,
+            "rain_30d_mm": 77.4,
+            "rain_ratio": 0.35,
             "max_temp_c": 27.4,
             "heat_anomaly_c": 4.0,
-            "observed_through": "2026-08-29"
+            "observed_through": "2026-08-30"
           },
           {
             "name": "Afghanistan drylands",
@@ -90,31 +90,31 @@
             "score": 72.3,
             "rain_30d_mm": 0.0,
             "rain_ratio": 0.0,
-            "max_temp_c": 27.7,
+            "max_temp_c": 27.6,
             "heat_anomaly_c": 0.2,
-            "observed_through": "2026-08-29"
+            "observed_through": "2026-08-30"
           },
           {
             "name": "Somalia pastoral belt",
             "lat": 5.0,
             "lon": 45.3,
-            "score": 63.5,
-            "rain_30d_mm": 3.7,
-            "rain_ratio": 0.22,
-            "max_temp_c": 35.5,
-            "heat_anomaly_c": 0.9,
-            "observed_through": "2026-08-29"
+            "score": 54.0,
+            "rain_30d_mm": 5.6,
+            "rain_ratio": 0.34,
+            "max_temp_c": 35.4,
+            "heat_anomaly_c": 0.8,
+            "observed_through": "2026-08-30"
           },
           {
             "name": "Central America dry corridor",
             "lat": 14.0,
             "lon": -88.5,
-            "score": 49.9,
-            "rain_30d_mm": 125.4,
-            "rain_ratio": 0.67,
-            "max_temp_c": 32.0,
-            "heat_anomaly_c": 2.7,
-            "observed_through": "2026-08-29"
+            "score": 46.9,
+            "rain_30d_mm": 130.4,
+            "rain_ratio": 0.7,
+            "max_temp_c": 31.9,
+            "heat_anomaly_c": 2.6,
+            "observed_through": "2026-08-30"
           }
         ],
         "evidence": [
@@ -123,33 +123,33 @@
             "lat": 14.5,
             "lon": -1.5,
             "score": 100.0,
-            "rain_30d_mm": 68.3,
-            "rain_ratio": 0.37,
-            "max_temp_c": 38.7,
-            "heat_anomaly_c": 6.4,
-            "observed_through": "2026-08-29"
+            "rain_30d_mm": 68.1,
+            "rain_ratio": 0.36,
+            "max_temp_c": 38.9,
+            "heat_anomaly_c": 6.6,
+            "observed_through": "2026-08-30"
+          },
+          {
+            "name": "Lake Chad basin",
+            "lat": 12.5,
+            "lon": 14.5,
+            "score": 100.0,
+            "rain_30d_mm": 107.8,
+            "rain_ratio": 0.41,
+            "max_temp_c": 37.1,
+            "heat_anomaly_c": 5.9,
+            "observed_through": "2026-08-30"
           },
           {
             "name": "Sudan grain belt",
             "lat": 13.5,
             "lon": 33.5,
             "score": 100.0,
-            "rain_30d_mm": 101.7,
+            "rain_30d_mm": 100.7,
             "rain_ratio": 0.38,
-            "max_temp_c": 36.5,
-            "heat_anomaly_c": 8.0,
-            "observed_through": "2026-08-29"
-          },
-          {
-            "name": "Lake Chad basin",
-            "lat": 12.5,
-            "lon": 14.5,
-            "score": 98.3,
-            "rain_30d_mm": 108.5,
-            "rain_ratio": 0.42,
-            "max_temp_c": 37.0,
-            "heat_anomaly_c": 5.8,
-            "observed_through": "2026-08-29"
+            "max_temp_c": 36.8,
+            "heat_anomaly_c": 8.2,
+            "observed_through": "2026-08-30"
           }
         ],
         "retained": false
@@ -159,10 +159,10 @@
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 201.0,
+        "current_30d_weight": 211.0,
         "baseline_months": 12,
-        "baseline_median": 45.9,
-        "anomaly_z": 4.11,
+        "baseline_median": 41.2,
+        "anomaly_z": 4.73,
         "events_considered": 193,
         "evidence": [
           {
@@ -276,14 +276,14 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1556215&episodeid=1723078&eventtype=EQ"
           },
           {
-            "id": "TC|1001314",
-            "title": "Tropical Cyclone KARINA-26",
-            "date": "2026-08-27T21:00:00+00:00",
+            "id": "TC|1001316",
+            "title": "Tropical Cyclone EDOUARD-26",
+            "date": "2026-08-31T15:00:00+00:00",
             "alert_level": "Green",
             "event_type": "TC",
-            "country": "",
+            "country": "United States",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=18&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=3&eventtype=TC"
           },
           {
             "id": "TC|1001315",
@@ -293,27 +293,27 @@
             "event_type": "TC",
             "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=17&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=18&eventtype=TC"
           },
           {
-            "id": "TC|1001316",
-            "title": "Tropical Cyclone FIVE-26",
-            "date": "2026-08-31T15:00:00+00:00",
+            "id": "TC|1001314",
+            "title": "Tropical Cyclone KARINA-26",
+            "date": "2026-08-27T21:00:00+00:00",
             "alert_level": "Green",
             "event_type": "TC",
-            "country": "United States",
+            "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=2&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=19&eventtype=TC"
           },
           {
-            "id": "EQ|1562824",
-            "title": "Earthquake in Solomon Is.",
-            "date": "2026-08-31T20:00:29+00:00",
+            "id": "EQ|1562855",
+            "title": "Earthquake in Fiji",
+            "date": "2026-09-01T01:29:10+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Solomon Is.",
+            "country": "Fiji",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1562824&episodeid=1730344&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1562855&episodeid=1730378&eventtype=EQ"
           }
         ],
         "retained": false
@@ -323,9 +323,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 3720.1,
+        "current_30d_weight": 3720.5,
         "baseline_median": 0.0,
-        "anomaly_z": 3720.1,
+        "anomaly_z": 3720.47,
         "events_considered": 1000,
         "evidence": [
           {
@@ -357,6 +357,26 @@
             ],
             "weight": 4.6,
             "url": "https://irwin.doi.gov/observer/incidents/2026-NVTMFX-030698"
+          },
+          {
+            "id": "EONET_23670",
+            "title": "Wildfire Wildhorse, Lincoln, Idaho",
+            "date": "2026-08-24T19:18:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.5,
+            "url": "https://irwin.doi.gov/observer/incidents/2026-IDTFD-000216"
+          },
+          {
+            "id": "EONET_23681",
+            "title": "Wildfire Plaskett, Monterey, California",
+            "date": "2026-08-26T12:46:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.4,
+            "url": "https://irwin.doi.gov/observer/incidents/2026-CALPF-002475"
           },
           {
             "id": "EONET_23456",
@@ -399,6 +419,16 @@
             "url": "https://irwin.doi.gov/observer/incidents/2026-FLEVP-002565"
           },
           {
+            "id": "EONET_23668",
+            "title": "Wildfire Brushy Canyon, Box Elder, Utah",
+            "date": "2026-08-27T01:42:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.3,
+            "url": "https://irwin.doi.gov/observer/incidents/2026-UTBRS-200695"
+          },
+          {
             "id": "EONET_23453",
             "title": "Wildfire Calico, Humboldt, Nevada",
             "date": "2026-08-26T17:29:00+00:00",
@@ -407,6 +437,16 @@
             ],
             "weight": 4.3,
             "url": "https://irwin.doi.gov/observer/incidents/2026-NVHTF-020624"
+          },
+          {
+            "id": "EONET_23663",
+            "title": "Wildfire Blue Eagle, Churchill, Nevada",
+            "date": "2026-08-25T14:39:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.3,
+            "url": "https://irwin.doi.gov/observer/incidents/2026-NVCCD-030758"
           },
           {
             "id": "EONET_23457",
@@ -429,54 +469,14 @@
             "url": "https://irwin.doi.gov/observer/incidents/2026-NVEKD-010515"
           },
           {
-            "id": "EONET_23451",
-            "title": "Wildfire Camp Creek, Powell, Montana",
-            "date": "2026-08-21T19:25:00+00:00",
+            "id": "EONET_23667",
+            "title": "Wildfire FLINT, Owyhee, Idaho",
+            "date": "2026-08-24T17:48:00+00:00",
             "categories": [
               "wildfires"
             ],
             "weight": 4.2,
-            "url": "https://irwin.doi.gov/observer/incidents/2026-MTFNF-000393"
-          },
-          {
-            "id": "EONET_23222",
-            "title": "Wildfire Movie Dome, Miami-Dade, Florida",
-            "date": "2026-08-19T19:42:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.2,
-            "url": "https://irwin.doi.gov/observer/incidents/2026-FLEVP-002542"
-          },
-          {
-            "id": "EONET_23379",
-            "title": "Wildfire in Mozambique 1031134",
-            "date": "2026-08-16T19:00:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.2,
-            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031134"
-          },
-          {
-            "id": "EONET_22795",
-            "title": "Wildfire Shoshone, Churchill, Nevada",
-            "date": "2026-08-15T17:48:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.2,
-            "url": "https://irwin.doi.gov/observer/incidents/2026-NVCCD-030721"
-          },
-          {
-            "id": "EONET_22961",
-            "title": "Wildfire in The Democratic Republic of Congo 1030758",
-            "date": "2026-08-14T19:00:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.2,
-            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1030758"
+            "url": "https://irwin.doi.gov/observer/incidents/2026-IDBOD-000994"
           }
         ],
         "retained": false
@@ -556,7 +556,7 @@
       {
         "id": "agroclimate_stress",
         "title": "NASA POWER agroclimate stress",
-        "score": 99.4,
+        "score": 100.0,
         "level": "SEVERE"
       },
       {
@@ -715,6 +715,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 17.2
         }
+      },
+      {
+        "timestamp": "2026-09-01T05:13:36.824362+00:00",
+        "score": 64.6,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 100.0,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 17.2
+        }
       }
     ],
     "data_health": {
@@ -758,7 +769,7 @@
   "stats": [
     {
       "label": "Climate-Security Pressure",
-      "value": "64.4/100",
+      "value": "64.6/100",
       "delta": "ELEVATED"
     },
     {
@@ -788,55 +799,55 @@
           "lat": 14.5,
           "lon": -1.5,
           "score": 100.0,
-          "rain_30d_mm": 68.3,
-          "rain_ratio": 0.37,
-          "max_temp_c": 38.7,
-          "heat_anomaly_c": 6.4,
-          "observed_through": "2026-08-29"
+          "rain_30d_mm": 68.1,
+          "rain_ratio": 0.36,
+          "max_temp_c": 38.9,
+          "heat_anomaly_c": 6.6,
+          "observed_through": "2026-08-30"
+        },
+        {
+          "name": "Lake Chad basin",
+          "lat": 12.5,
+          "lon": 14.5,
+          "score": 100.0,
+          "rain_30d_mm": 107.8,
+          "rain_ratio": 0.41,
+          "max_temp_c": 37.1,
+          "heat_anomaly_c": 5.9,
+          "observed_through": "2026-08-30"
         },
         {
           "name": "Sudan grain belt",
           "lat": 13.5,
           "lon": 33.5,
           "score": 100.0,
-          "rain_30d_mm": 101.7,
+          "rain_30d_mm": 100.7,
           "rain_ratio": 0.38,
-          "max_temp_c": 36.5,
-          "heat_anomaly_c": 8.0,
-          "observed_through": "2026-08-29"
-        },
-        {
-          "name": "Lake Chad basin",
-          "lat": 12.5,
-          "lon": 14.5,
-          "score": 98.3,
-          "rain_30d_mm": 108.5,
-          "rain_ratio": 0.42,
-          "max_temp_c": 37.0,
-          "heat_anomaly_c": 5.8,
-          "observed_through": "2026-08-29"
+          "max_temp_c": 36.8,
+          "heat_anomaly_c": 8.2,
+          "observed_through": "2026-08-30"
         },
         {
           "name": "Pakistan Indus",
           "lat": 29.0,
           "lon": 70.5,
-          "score": 87.6,
-          "rain_30d_mm": 28.1,
+          "score": 86.8,
+          "rain_30d_mm": 27.8,
           "rain_ratio": 0.31,
-          "max_temp_c": 43.4,
-          "heat_anomaly_c": 3.9,
-          "observed_through": "2026-08-29"
+          "max_temp_c": 43.2,
+          "heat_anomaly_c": 3.8,
+          "observed_through": "2026-08-30"
         },
         {
           "name": "Ethiopia lowlands",
           "lat": 8.0,
           "lon": 40.0,
-          "score": 86.0,
-          "rain_30d_mm": 76.3,
-          "rain_ratio": 0.34,
+          "score": 85.1,
+          "rain_30d_mm": 77.4,
+          "rain_ratio": 0.35,
           "max_temp_c": 27.4,
           "heat_anomaly_c": 4.0,
-          "observed_through": "2026-08-29"
+          "observed_through": "2026-08-30"
         },
         {
           "name": "Afghanistan drylands",
@@ -845,31 +856,31 @@
           "score": 72.3,
           "rain_30d_mm": 0.0,
           "rain_ratio": 0.0,
-          "max_temp_c": 27.7,
+          "max_temp_c": 27.6,
           "heat_anomaly_c": 0.2,
-          "observed_through": "2026-08-29"
+          "observed_through": "2026-08-30"
         },
         {
           "name": "Somalia pastoral belt",
           "lat": 5.0,
           "lon": 45.3,
-          "score": 63.5,
-          "rain_30d_mm": 3.7,
-          "rain_ratio": 0.22,
-          "max_temp_c": 35.5,
-          "heat_anomaly_c": 0.9,
-          "observed_through": "2026-08-29"
+          "score": 54.0,
+          "rain_30d_mm": 5.6,
+          "rain_ratio": 0.34,
+          "max_temp_c": 35.4,
+          "heat_anomaly_c": 0.8,
+          "observed_through": "2026-08-30"
         },
         {
           "name": "Central America dry corridor",
           "lat": 14.0,
           "lon": -88.5,
-          "score": 49.9,
-          "rain_30d_mm": 125.4,
-          "rain_ratio": 0.67,
-          "max_temp_c": 32.0,
-          "heat_anomaly_c": 2.7,
-          "observed_through": "2026-08-29"
+          "score": 46.9,
+          "rain_30d_mm": 130.4,
+          "rain_ratio": 0.7,
+          "max_temp_c": 31.9,
+          "heat_anomaly_c": 2.6,
+          "observed_through": "2026-08-30"
         }
       ]
     },
@@ -990,14 +1001,14 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1556215&episodeid=1723078&eventtype=EQ"
         },
         {
-          "id": "TC|1001314",
-          "title": "Tropical Cyclone KARINA-26",
-          "date": "2026-08-27T21:00:00+00:00",
+          "id": "TC|1001316",
+          "title": "Tropical Cyclone EDOUARD-26",
+          "date": "2026-08-31T15:00:00+00:00",
           "alert_level": "Green",
           "event_type": "TC",
-          "country": "",
+          "country": "United States",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=18&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=3&eventtype=TC"
         },
         {
           "id": "TC|1001315",
@@ -1007,27 +1018,27 @@
           "event_type": "TC",
           "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=17&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=18&eventtype=TC"
         },
         {
-          "id": "TC|1001316",
-          "title": "Tropical Cyclone FIVE-26",
-          "date": "2026-08-31T15:00:00+00:00",
+          "id": "TC|1001314",
+          "title": "Tropical Cyclone KARINA-26",
+          "date": "2026-08-27T21:00:00+00:00",
           "alert_level": "Green",
           "event_type": "TC",
-          "country": "United States",
+          "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=2&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=19&eventtype=TC"
         },
         {
-          "id": "EQ|1562824",
-          "title": "Earthquake in Solomon Is.",
-          "date": "2026-08-31T20:00:29+00:00",
+          "id": "EQ|1562855",
+          "title": "Earthquake in Fiji",
+          "date": "2026-09-01T01:29:10+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Solomon Is.",
+          "country": "Fiji",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1562824&episodeid=1730344&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1562855&episodeid=1730378&eventtype=EQ"
         }
       ]
     },
@@ -1066,6 +1077,26 @@
           ],
           "weight": 4.6,
           "url": "https://irwin.doi.gov/observer/incidents/2026-NVTMFX-030698"
+        },
+        {
+          "id": "EONET_23670",
+          "title": "Wildfire Wildhorse, Lincoln, Idaho",
+          "date": "2026-08-24T19:18:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.5,
+          "url": "https://irwin.doi.gov/observer/incidents/2026-IDTFD-000216"
+        },
+        {
+          "id": "EONET_23681",
+          "title": "Wildfire Plaskett, Monterey, California",
+          "date": "2026-08-26T12:46:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.4,
+          "url": "https://irwin.doi.gov/observer/incidents/2026-CALPF-002475"
         },
         {
           "id": "EONET_23456",
@@ -1108,6 +1139,16 @@
           "url": "https://irwin.doi.gov/observer/incidents/2026-FLEVP-002565"
         },
         {
+          "id": "EONET_23668",
+          "title": "Wildfire Brushy Canyon, Box Elder, Utah",
+          "date": "2026-08-27T01:42:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.3,
+          "url": "https://irwin.doi.gov/observer/incidents/2026-UTBRS-200695"
+        },
+        {
           "id": "EONET_23453",
           "title": "Wildfire Calico, Humboldt, Nevada",
           "date": "2026-08-26T17:29:00+00:00",
@@ -1116,6 +1157,16 @@
           ],
           "weight": 4.3,
           "url": "https://irwin.doi.gov/observer/incidents/2026-NVHTF-020624"
+        },
+        {
+          "id": "EONET_23663",
+          "title": "Wildfire Blue Eagle, Churchill, Nevada",
+          "date": "2026-08-25T14:39:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.3,
+          "url": "https://irwin.doi.gov/observer/incidents/2026-NVCCD-030758"
         },
         {
           "id": "EONET_23457",
@@ -1138,54 +1189,14 @@
           "url": "https://irwin.doi.gov/observer/incidents/2026-NVEKD-010515"
         },
         {
-          "id": "EONET_23451",
-          "title": "Wildfire Camp Creek, Powell, Montana",
-          "date": "2026-08-21T19:25:00+00:00",
+          "id": "EONET_23667",
+          "title": "Wildfire FLINT, Owyhee, Idaho",
+          "date": "2026-08-24T17:48:00+00:00",
           "categories": [
             "wildfires"
           ],
           "weight": 4.2,
-          "url": "https://irwin.doi.gov/observer/incidents/2026-MTFNF-000393"
-        },
-        {
-          "id": "EONET_23222",
-          "title": "Wildfire Movie Dome, Miami-Dade, Florida",
-          "date": "2026-08-19T19:42:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.2,
-          "url": "https://irwin.doi.gov/observer/incidents/2026-FLEVP-002542"
-        },
-        {
-          "id": "EONET_23379",
-          "title": "Wildfire in Mozambique 1031134",
-          "date": "2026-08-16T19:00:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.2,
-          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031134"
-        },
-        {
-          "id": "EONET_22795",
-          "title": "Wildfire Shoshone, Churchill, Nevada",
-          "date": "2026-08-15T17:48:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.2,
-          "url": "https://irwin.doi.gov/observer/incidents/2026-NVCCD-030721"
-        },
-        {
-          "id": "EONET_22961",
-          "title": "Wildfire in The Democratic Republic of Congo 1030758",
-          "date": "2026-08-14T19:00:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.2,
-          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1030758"
+          "url": "https://irwin.doi.gov/observer/incidents/2026-IDBOD-000994"
         }
       ]
     },
@@ -5153,33 +5164,33 @@
       "lat": 14.5,
       "lon": -1.5,
       "score": 100.0,
-      "rain_30d_mm": 68.3,
-      "rain_ratio": 0.37,
-      "max_temp_c": 38.7,
-      "heat_anomaly_c": 6.4,
-      "observed_through": "2026-08-29"
+      "rain_30d_mm": 68.1,
+      "rain_ratio": 0.36,
+      "max_temp_c": 38.9,
+      "heat_anomaly_c": 6.6,
+      "observed_through": "2026-08-30"
+    },
+    {
+      "name": "Lake Chad basin",
+      "lat": 12.5,
+      "lon": 14.5,
+      "score": 100.0,
+      "rain_30d_mm": 107.8,
+      "rain_ratio": 0.41,
+      "max_temp_c": 37.1,
+      "heat_anomaly_c": 5.9,
+      "observed_through": "2026-08-30"
     },
     {
       "name": "Sudan grain belt",
       "lat": 13.5,
       "lon": 33.5,
       "score": 100.0,
-      "rain_30d_mm": 101.7,
+      "rain_30d_mm": 100.7,
       "rain_ratio": 0.38,
-      "max_temp_c": 36.5,
-      "heat_anomaly_c": 8.0,
-      "observed_through": "2026-08-29"
-    },
-    {
-      "name": "Lake Chad basin",
-      "lat": 12.5,
-      "lon": 14.5,
-      "score": 98.3,
-      "rain_30d_mm": 108.5,
-      "rain_ratio": 0.42,
-      "max_temp_c": 37.0,
-      "heat_anomaly_c": 5.8,
-      "observed_through": "2026-08-29"
+      "max_temp_c": 36.8,
+      "heat_anomaly_c": 8.2,
+      "observed_through": "2026-08-30"
     },
     {
       "id": "EQ|1558059",
@@ -5292,14 +5303,14 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1556215&episodeid=1723078&eventtype=EQ"
     },
     {
-      "id": "TC|1001314",
-      "title": "Tropical Cyclone KARINA-26",
-      "date": "2026-08-27T21:00:00+00:00",
+      "id": "TC|1001316",
+      "title": "Tropical Cyclone EDOUARD-26",
+      "date": "2026-08-31T15:00:00+00:00",
       "alert_level": "Green",
       "event_type": "TC",
-      "country": "",
+      "country": "United States",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=18&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=3&eventtype=TC"
     },
     {
       "id": "TC|1001315",
@@ -5309,27 +5320,27 @@
       "event_type": "TC",
       "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=17&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=18&eventtype=TC"
     },
     {
-      "id": "TC|1001316",
-      "title": "Tropical Cyclone FIVE-26",
-      "date": "2026-08-31T15:00:00+00:00",
+      "id": "TC|1001314",
+      "title": "Tropical Cyclone KARINA-26",
+      "date": "2026-08-27T21:00:00+00:00",
       "alert_level": "Green",
       "event_type": "TC",
-      "country": "United States",
+      "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=2&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=19&eventtype=TC"
     },
     {
-      "id": "EQ|1562824",
-      "title": "Earthquake in Solomon Is.",
-      "date": "2026-08-31T20:00:29+00:00",
+      "id": "EQ|1562855",
+      "title": "Earthquake in Fiji",
+      "date": "2026-09-01T01:29:10+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Solomon Is.",
+      "country": "Fiji",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1562824&episodeid=1730344&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1562855&episodeid=1730378&eventtype=EQ"
     },
     {
       "id": "EONET_23452",
@@ -5360,6 +5371,26 @@
       ],
       "weight": 4.6,
       "url": "https://irwin.doi.gov/observer/incidents/2026-NVTMFX-030698"
+    },
+    {
+      "id": "EONET_23670",
+      "title": "Wildfire Wildhorse, Lincoln, Idaho",
+      "date": "2026-08-24T19:18:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.5,
+      "url": "https://irwin.doi.gov/observer/incidents/2026-IDTFD-000216"
+    },
+    {
+      "id": "EONET_23681",
+      "title": "Wildfire Plaskett, Monterey, California",
+      "date": "2026-08-26T12:46:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.4,
+      "url": "https://irwin.doi.gov/observer/incidents/2026-CALPF-002475"
     },
     {
       "id": "EONET_23456",
@@ -5402,6 +5433,16 @@
       "url": "https://irwin.doi.gov/observer/incidents/2026-FLEVP-002565"
     },
     {
+      "id": "EONET_23668",
+      "title": "Wildfire Brushy Canyon, Box Elder, Utah",
+      "date": "2026-08-27T01:42:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.3,
+      "url": "https://irwin.doi.gov/observer/incidents/2026-UTBRS-200695"
+    },
+    {
       "id": "EONET_23453",
       "title": "Wildfire Calico, Humboldt, Nevada",
       "date": "2026-08-26T17:29:00+00:00",
@@ -5412,44 +5453,14 @@
       "url": "https://irwin.doi.gov/observer/incidents/2026-NVHTF-020624"
     },
     {
-      "id": "EONET_23457",
-      "title": "Wildfire S-1 VYA, Washoe, Nevada",
-      "date": "2026-08-24T17:03:00+00:00",
+      "id": "EONET_23663",
+      "title": "Wildfire Blue Eagle, Churchill, Nevada",
+      "date": "2026-08-25T14:39:00+00:00",
       "categories": [
         "wildfires"
       ],
       "weight": 4.3,
-      "url": "https://irwin.doi.gov/observer/incidents/2026-CANOD-005304"
-    },
-    {
-      "id": "EONET_23458",
-      "title": "Wildfire Oxley, Elko, Nevada",
-      "date": "2026-08-24T14:12:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.3,
-      "url": "https://irwin.doi.gov/observer/incidents/2026-NVEKD-010515"
-    },
-    {
-      "id": "EONET_23451",
-      "title": "Wildfire Camp Creek, Powell, Montana",
-      "date": "2026-08-21T19:25:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.2,
-      "url": "https://irwin.doi.gov/observer/incidents/2026-MTFNF-000393"
-    },
-    {
-      "id": "EONET_23222",
-      "title": "Wildfire Movie Dome, Miami-Dade, Florida",
-      "date": "2026-08-19T19:42:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.2,
-      "url": "https://irwin.doi.gov/observer/incidents/2026-FLEVP-002542"
+      "url": "https://irwin.doi.gov/observer/incidents/2026-NVCCD-030758"
     }
   ]
 }
