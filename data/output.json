@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-09-01T21:04:23.348935+00:00",
+    "generated": "2026-09-02T04:38:16.506300+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,7 +13,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-01T21:04:23.049886+00:00",
+    "issued_at": "2026-09-02T04:38:16.262205+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 64.6,
@@ -33,88 +33,88 @@
             "lat": 14.5,
             "lon": -1.5,
             "score": 100.0,
-            "rain_30d_mm": 68.1,
-            "rain_ratio": 0.36,
-            "max_temp_c": 38.9,
-            "heat_anomaly_c": 6.6,
-            "observed_through": "2026-08-30"
+            "rain_30d_mm": 63.8,
+            "rain_ratio": 0.35,
+            "max_temp_c": 39.0,
+            "heat_anomaly_c": 6.7,
+            "observed_through": "2026-08-31"
           },
           {
             "name": "Lake Chad basin",
             "lat": 12.5,
             "lon": 14.5,
             "score": 100.0,
-            "rain_30d_mm": 107.8,
+            "rain_30d_mm": 107.5,
             "rain_ratio": 0.41,
             "max_temp_c": 37.1,
             "heat_anomaly_c": 5.9,
-            "observed_through": "2026-08-30"
+            "observed_through": "2026-08-31"
           },
           {
             "name": "Sudan grain belt",
             "lat": 13.5,
             "lon": 33.5,
             "score": 100.0,
-            "rain_30d_mm": 100.7,
-            "rain_ratio": 0.38,
-            "max_temp_c": 36.8,
-            "heat_anomaly_c": 8.2,
-            "observed_through": "2026-08-30"
+            "rain_30d_mm": 98.2,
+            "rain_ratio": 0.39,
+            "max_temp_c": 36.9,
+            "heat_anomaly_c": 8.3,
+            "observed_through": "2026-08-31"
           },
           {
             "name": "Pakistan Indus",
             "lat": 29.0,
             "lon": 70.5,
-            "score": 86.8,
-            "rain_30d_mm": 27.8,
-            "rain_ratio": 0.31,
-            "max_temp_c": 43.2,
-            "heat_anomaly_c": 3.8,
-            "observed_through": "2026-08-30"
+            "score": 90.7,
+            "rain_30d_mm": 24.3,
+            "rain_ratio": 0.27,
+            "max_temp_c": 43.3,
+            "heat_anomaly_c": 3.9,
+            "observed_through": "2026-08-31"
           },
           {
             "name": "Ethiopia lowlands",
             "lat": 8.0,
             "lon": 40.0,
-            "score": 85.1,
-            "rain_30d_mm": 77.4,
+            "score": 85.6,
+            "rain_30d_mm": 75.1,
             "rain_ratio": 0.35,
             "max_temp_c": 27.4,
             "heat_anomaly_c": 4.0,
-            "observed_through": "2026-08-30"
+            "observed_through": "2026-08-31"
           },
           {
             "name": "Afghanistan drylands",
             "lat": 34.0,
             "lon": 65.0,
-            "score": 72.3,
+            "score": 72.5,
             "rain_30d_mm": 0.0,
             "rain_ratio": 0.0,
             "max_temp_c": 27.6,
             "heat_anomaly_c": 0.2,
-            "observed_through": "2026-08-30"
+            "observed_through": "2026-08-31"
           },
           {
             "name": "Somalia pastoral belt",
             "lat": 5.0,
             "lon": 45.3,
-            "score": 54.0,
-            "rain_30d_mm": 5.6,
-            "rain_ratio": 0.34,
+            "score": 51.4,
+            "rain_30d_mm": 5.7,
+            "rain_ratio": 0.36,
             "max_temp_c": 35.4,
-            "heat_anomaly_c": 0.8,
-            "observed_through": "2026-08-30"
+            "heat_anomaly_c": 0.7,
+            "observed_through": "2026-08-31"
           },
           {
             "name": "Central America dry corridor",
             "lat": 14.0,
             "lon": -88.5,
-            "score": 46.9,
-            "rain_30d_mm": 130.4,
-            "rain_ratio": 0.7,
-            "max_temp_c": 31.9,
-            "heat_anomaly_c": 2.6,
-            "observed_through": "2026-08-30"
+            "score": 44.6,
+            "rain_30d_mm": 136.3,
+            "rain_ratio": 0.72,
+            "max_temp_c": 31.7,
+            "heat_anomaly_c": 2.5,
+            "observed_through": "2026-08-31"
           }
         ],
         "evidence": [
@@ -123,33 +123,33 @@
             "lat": 14.5,
             "lon": -1.5,
             "score": 100.0,
-            "rain_30d_mm": 68.1,
-            "rain_ratio": 0.36,
-            "max_temp_c": 38.9,
-            "heat_anomaly_c": 6.6,
-            "observed_through": "2026-08-30"
+            "rain_30d_mm": 63.8,
+            "rain_ratio": 0.35,
+            "max_temp_c": 39.0,
+            "heat_anomaly_c": 6.7,
+            "observed_through": "2026-08-31"
           },
           {
             "name": "Lake Chad basin",
             "lat": 12.5,
             "lon": 14.5,
             "score": 100.0,
-            "rain_30d_mm": 107.8,
+            "rain_30d_mm": 107.5,
             "rain_ratio": 0.41,
             "max_temp_c": 37.1,
             "heat_anomaly_c": 5.9,
-            "observed_through": "2026-08-30"
+            "observed_through": "2026-08-31"
           },
           {
             "name": "Sudan grain belt",
             "lat": 13.5,
             "lon": 33.5,
             "score": 100.0,
-            "rain_30d_mm": 100.7,
-            "rain_ratio": 0.38,
-            "max_temp_c": 36.8,
-            "heat_anomaly_c": 8.2,
-            "observed_through": "2026-08-30"
+            "rain_30d_mm": 98.2,
+            "rain_ratio": 0.39,
+            "max_temp_c": 36.9,
+            "heat_anomaly_c": 8.3,
+            "observed_through": "2026-08-31"
           }
         ],
         "retained": false
@@ -203,7 +203,7 @@
             "event_type": "TC",
             "country": "Japan, China, Northern Mariana Islands",
             "weight": 9.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=41&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=43&eventtype=TC"
           },
           {
             "id": "FL|1104121",
@@ -246,16 +246,6 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1030252&episodeid=40&eventtype=WF"
           },
           {
-            "id": "WF|1030534",
-            "title": "Forest fires in Belgium",
-            "date": "2026-08-14T00:00:00+00:00",
-            "alert_level": "Orange",
-            "event_type": "WF",
-            "country": "Belgium",
-            "weight": 8.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
-          },
-          {
             "id": "WF|1030410",
             "title": "Forest fires in Spain",
             "date": "2026-08-10T00:00:00+00:00",
@@ -264,6 +254,16 @@
             "country": "Spain",
             "weight": 8.0,
             "url": "https://www.gdacs.org/report.aspx?eventid=1030410&episodeid=23&eventtype=WF"
+          },
+          {
+            "id": "WF|1030534",
+            "title": "Forest fires in Belgium",
+            "date": "2026-08-14T00:00:00+00:00",
+            "alert_level": "Orange",
+            "event_type": "WF",
+            "country": "Belgium",
+            "weight": 8.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
           },
           {
             "id": "EQ|1556215",
@@ -276,34 +276,24 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1556215&episodeid=1723078&eventtype=EQ"
           },
           {
-            "id": "EQ|1563009",
-            "title": "Earthquake in Japan",
-            "date": "2026-09-01T19:21:23+00:00",
+            "id": "TC|1001314",
+            "title": "Tropical Cyclone KARINA-26",
+            "date": "2026-08-27T21:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Japan",
+            "event_type": "TC",
+            "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1563009&episodeid=1730564&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=23&eventtype=TC"
           },
           {
-            "id": "EQ|1562999",
-            "title": "Earthquake in Vanuatu",
-            "date": "2026-09-01T18:37:29+00:00",
+            "id": "TC|1001315",
+            "title": "Tropical Cyclone LOWELL-26",
+            "date": "2026-08-27T21:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Vanuatu",
+            "event_type": "TC",
+            "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1562999&episodeid=1730538&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1562998",
-            "title": "Earthquake in Indonesia",
-            "date": "2026-09-01T18:11:46+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Indonesia",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1562998&episodeid=1730550&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=23&eventtype=TC"
           },
           {
             "id": "TC|1001316",
@@ -313,7 +303,17 @@
             "event_type": "TC",
             "country": "United States",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=5&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=7&eventtype=TC"
+          },
+          {
+            "id": "TC|1001317",
+            "title": "Tropical Cyclone MARIE-26",
+            "date": "2026-09-01T09:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "Mexico",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=4&eventtype=TC"
           }
         ],
         "retained": false
@@ -323,9 +323,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 3715.9,
+        "current_30d_weight": 3716.0,
         "baseline_median": 0.0,
-        "anomaly_z": 3715.89,
+        "anomaly_z": 3715.99,
         "events_considered": 1000,
         "evidence": [
           {
@@ -759,6 +759,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 17.2
         }
+      },
+      {
+        "timestamp": "2026-09-02T04:38:16.262205+00:00",
+        "score": 64.6,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 100.0,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 17.2
+        }
       }
     ],
     "data_health": {
@@ -832,88 +843,88 @@
           "lat": 14.5,
           "lon": -1.5,
           "score": 100.0,
-          "rain_30d_mm": 68.1,
-          "rain_ratio": 0.36,
-          "max_temp_c": 38.9,
-          "heat_anomaly_c": 6.6,
-          "observed_through": "2026-08-30"
+          "rain_30d_mm": 63.8,
+          "rain_ratio": 0.35,
+          "max_temp_c": 39.0,
+          "heat_anomaly_c": 6.7,
+          "observed_through": "2026-08-31"
         },
         {
           "name": "Lake Chad basin",
           "lat": 12.5,
           "lon": 14.5,
           "score": 100.0,
-          "rain_30d_mm": 107.8,
+          "rain_30d_mm": 107.5,
           "rain_ratio": 0.41,
           "max_temp_c": 37.1,
           "heat_anomaly_c": 5.9,
-          "observed_through": "2026-08-30"
+          "observed_through": "2026-08-31"
         },
         {
           "name": "Sudan grain belt",
           "lat": 13.5,
           "lon": 33.5,
           "score": 100.0,
-          "rain_30d_mm": 100.7,
-          "rain_ratio": 0.38,
-          "max_temp_c": 36.8,
-          "heat_anomaly_c": 8.2,
-          "observed_through": "2026-08-30"
+          "rain_30d_mm": 98.2,
+          "rain_ratio": 0.39,
+          "max_temp_c": 36.9,
+          "heat_anomaly_c": 8.3,
+          "observed_through": "2026-08-31"
         },
         {
           "name": "Pakistan Indus",
           "lat": 29.0,
           "lon": 70.5,
-          "score": 86.8,
-          "rain_30d_mm": 27.8,
-          "rain_ratio": 0.31,
-          "max_temp_c": 43.2,
-          "heat_anomaly_c": 3.8,
-          "observed_through": "2026-08-30"
+          "score": 90.7,
+          "rain_30d_mm": 24.3,
+          "rain_ratio": 0.27,
+          "max_temp_c": 43.3,
+          "heat_anomaly_c": 3.9,
+          "observed_through": "2026-08-31"
         },
         {
           "name": "Ethiopia lowlands",
           "lat": 8.0,
           "lon": 40.0,
-          "score": 85.1,
-          "rain_30d_mm": 77.4,
+          "score": 85.6,
+          "rain_30d_mm": 75.1,
           "rain_ratio": 0.35,
           "max_temp_c": 27.4,
           "heat_anomaly_c": 4.0,
-          "observed_through": "2026-08-30"
+          "observed_through": "2026-08-31"
         },
         {
           "name": "Afghanistan drylands",
           "lat": 34.0,
           "lon": 65.0,
-          "score": 72.3,
+          "score": 72.5,
           "rain_30d_mm": 0.0,
           "rain_ratio": 0.0,
           "max_temp_c": 27.6,
           "heat_anomaly_c": 0.2,
-          "observed_through": "2026-08-30"
+          "observed_through": "2026-08-31"
         },
         {
           "name": "Somalia pastoral belt",
           "lat": 5.0,
           "lon": 45.3,
-          "score": 54.0,
-          "rain_30d_mm": 5.6,
-          "rain_ratio": 0.34,
+          "score": 51.4,
+          "rain_30d_mm": 5.7,
+          "rain_ratio": 0.36,
           "max_temp_c": 35.4,
-          "heat_anomaly_c": 0.8,
-          "observed_through": "2026-08-30"
+          "heat_anomaly_c": 0.7,
+          "observed_through": "2026-08-31"
         },
         {
           "name": "Central America dry corridor",
           "lat": 14.0,
           "lon": -88.5,
-          "score": 46.9,
-          "rain_30d_mm": 130.4,
-          "rain_ratio": 0.7,
-          "max_temp_c": 31.9,
-          "heat_anomaly_c": 2.6,
-          "observed_through": "2026-08-30"
+          "score": 44.6,
+          "rain_30d_mm": 136.3,
+          "rain_ratio": 0.72,
+          "max_temp_c": 31.7,
+          "heat_anomaly_c": 2.5,
+          "observed_through": "2026-08-31"
         }
       ]
     },
@@ -961,7 +972,7 @@
           "event_type": "TC",
           "country": "Japan, China, Northern Mariana Islands",
           "weight": 9.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=41&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=43&eventtype=TC"
         },
         {
           "id": "FL|1104121",
@@ -1004,16 +1015,6 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1030252&episodeid=40&eventtype=WF"
         },
         {
-          "id": "WF|1030534",
-          "title": "Forest fires in Belgium",
-          "date": "2026-08-14T00:00:00+00:00",
-          "alert_level": "Orange",
-          "event_type": "WF",
-          "country": "Belgium",
-          "weight": 8.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
-        },
-        {
           "id": "WF|1030410",
           "title": "Forest fires in Spain",
           "date": "2026-08-10T00:00:00+00:00",
@@ -1022,6 +1023,16 @@
           "country": "Spain",
           "weight": 8.0,
           "url": "https://www.gdacs.org/report.aspx?eventid=1030410&episodeid=23&eventtype=WF"
+        },
+        {
+          "id": "WF|1030534",
+          "title": "Forest fires in Belgium",
+          "date": "2026-08-14T00:00:00+00:00",
+          "alert_level": "Orange",
+          "event_type": "WF",
+          "country": "Belgium",
+          "weight": 8.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
         },
         {
           "id": "EQ|1556215",
@@ -1034,34 +1045,24 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1556215&episodeid=1723078&eventtype=EQ"
         },
         {
-          "id": "EQ|1563009",
-          "title": "Earthquake in Japan",
-          "date": "2026-09-01T19:21:23+00:00",
+          "id": "TC|1001314",
+          "title": "Tropical Cyclone KARINA-26",
+          "date": "2026-08-27T21:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Japan",
+          "event_type": "TC",
+          "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1563009&episodeid=1730564&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=23&eventtype=TC"
         },
         {
-          "id": "EQ|1562999",
-          "title": "Earthquake in Vanuatu",
-          "date": "2026-09-01T18:37:29+00:00",
+          "id": "TC|1001315",
+          "title": "Tropical Cyclone LOWELL-26",
+          "date": "2026-08-27T21:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Vanuatu",
+          "event_type": "TC",
+          "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1562999&episodeid=1730538&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1562998",
-          "title": "Earthquake in Indonesia",
-          "date": "2026-09-01T18:11:46+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Indonesia",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1562998&episodeid=1730550&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=23&eventtype=TC"
         },
         {
           "id": "TC|1001316",
@@ -1071,7 +1072,17 @@
           "event_type": "TC",
           "country": "United States",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=5&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=7&eventtype=TC"
+        },
+        {
+          "id": "TC|1001317",
+          "title": "Tropical Cyclone MARIE-26",
+          "date": "2026-09-01T09:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "Mexico",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=4&eventtype=TC"
         }
       ]
     },
@@ -5197,33 +5208,33 @@
       "lat": 14.5,
       "lon": -1.5,
       "score": 100.0,
-      "rain_30d_mm": 68.1,
-      "rain_ratio": 0.36,
-      "max_temp_c": 38.9,
-      "heat_anomaly_c": 6.6,
-      "observed_through": "2026-08-30"
+      "rain_30d_mm": 63.8,
+      "rain_ratio": 0.35,
+      "max_temp_c": 39.0,
+      "heat_anomaly_c": 6.7,
+      "observed_through": "2026-08-31"
     },
     {
       "name": "Lake Chad basin",
       "lat": 12.5,
       "lon": 14.5,
       "score": 100.0,
-      "rain_30d_mm": 107.8,
+      "rain_30d_mm": 107.5,
       "rain_ratio": 0.41,
       "max_temp_c": 37.1,
       "heat_anomaly_c": 5.9,
-      "observed_through": "2026-08-30"
+      "observed_through": "2026-08-31"
     },
     {
       "name": "Sudan grain belt",
       "lat": 13.5,
       "lon": 33.5,
       "score": 100.0,
-      "rain_30d_mm": 100.7,
-      "rain_ratio": 0.38,
-      "max_temp_c": 36.8,
-      "heat_anomaly_c": 8.2,
-      "observed_through": "2026-08-30"
+      "rain_30d_mm": 98.2,
+      "rain_ratio": 0.39,
+      "max_temp_c": 36.9,
+      "heat_anomaly_c": 8.3,
+      "observed_through": "2026-08-31"
     },
     {
       "id": "FL|1104124",
@@ -5263,7 +5274,7 @@
       "event_type": "TC",
       "country": "Japan, China, Northern Mariana Islands",
       "weight": 9.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=41&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=43&eventtype=TC"
     },
     {
       "id": "FL|1104121",
@@ -5306,16 +5317,6 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1030252&episodeid=40&eventtype=WF"
     },
     {
-      "id": "WF|1030534",
-      "title": "Forest fires in Belgium",
-      "date": "2026-08-14T00:00:00+00:00",
-      "alert_level": "Orange",
-      "event_type": "WF",
-      "country": "Belgium",
-      "weight": 8.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
-    },
-    {
       "id": "WF|1030410",
       "title": "Forest fires in Spain",
       "date": "2026-08-10T00:00:00+00:00",
@@ -5324,6 +5325,16 @@
       "country": "Spain",
       "weight": 8.0,
       "url": "https://www.gdacs.org/report.aspx?eventid=1030410&episodeid=23&eventtype=WF"
+    },
+    {
+      "id": "WF|1030534",
+      "title": "Forest fires in Belgium",
+      "date": "2026-08-14T00:00:00+00:00",
+      "alert_level": "Orange",
+      "event_type": "WF",
+      "country": "Belgium",
+      "weight": 8.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
     },
     {
       "id": "EQ|1556215",
@@ -5336,34 +5347,24 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1556215&episodeid=1723078&eventtype=EQ"
     },
     {
-      "id": "EQ|1563009",
-      "title": "Earthquake in Japan",
-      "date": "2026-09-01T19:21:23+00:00",
+      "id": "TC|1001314",
+      "title": "Tropical Cyclone KARINA-26",
+      "date": "2026-08-27T21:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Japan",
+      "event_type": "TC",
+      "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1563009&episodeid=1730564&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=23&eventtype=TC"
     },
     {
-      "id": "EQ|1562999",
-      "title": "Earthquake in Vanuatu",
-      "date": "2026-09-01T18:37:29+00:00",
+      "id": "TC|1001315",
+      "title": "Tropical Cyclone LOWELL-26",
+      "date": "2026-08-27T21:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Vanuatu",
+      "event_type": "TC",
+      "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1562999&episodeid=1730538&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1562998",
-      "title": "Earthquake in Indonesia",
-      "date": "2026-09-01T18:11:46+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Indonesia",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1562998&episodeid=1730550&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=23&eventtype=TC"
     },
     {
       "id": "TC|1001316",
@@ -5373,7 +5374,17 @@
       "event_type": "TC",
       "country": "United States",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=5&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=7&eventtype=TC"
+    },
+    {
+      "id": "TC|1001317",
+      "title": "Tropical Cyclone MARIE-26",
+      "date": "2026-09-01T09:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "Mexico",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=4&eventtype=TC"
     },
     {
       "id": "EONET_23452",
