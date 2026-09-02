@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-09-02T11:22:09.217165+00:00",
+    "generated": "2026-09-02T16:37:11.468657+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,7 +13,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-02T11:22:08.992338+00:00",
+    "issued_at": "2026-09-02T16:37:11.218600+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 64.6,
@@ -159,11 +159,11 @@
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 223.0,
+        "current_30d_weight": 224.0,
         "baseline_months": 12,
         "baseline_median": 45.2,
-        "anomaly_z": 4.17,
-        "events_considered": 192,
+        "anomaly_z": 4.2,
+        "events_considered": 193,
         "evidence": [
           {
             "id": "FL|1104124",
@@ -203,7 +203,7 @@
             "event_type": "TC",
             "country": "Japan, China, Northern Mariana Islands",
             "weight": 9.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=44&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=45&eventtype=TC"
           },
           {
             "id": "FL|1104121",
@@ -276,26 +276,6 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1556215&episodeid=1723078&eventtype=EQ"
           },
           {
-            "id": "EQ|1563152",
-            "title": "Earthquake in South Sandwich Islands Region",
-            "date": "2026-09-02T10:54:02+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "South Sandwich Islands Region",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1563152&episodeid=1730710&eventtype=EQ"
-          },
-          {
-            "id": "TC|1001317",
-            "title": "Tropical Cyclone MARIE-26",
-            "date": "2026-09-01T09:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "Mexico",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=5&eventtype=TC"
-          },
-          {
             "id": "TC|1001314",
             "title": "Tropical Cyclone KARINA-26",
             "date": "2026-08-27T21:00:00+00:00",
@@ -303,7 +283,7 @@
             "event_type": "TC",
             "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=24&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=25&eventtype=TC"
           },
           {
             "id": "TC|1001315",
@@ -313,7 +293,27 @@
             "event_type": "TC",
             "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=24&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=25&eventtype=TC"
+          },
+          {
+            "id": "TC|1001317",
+            "title": "Tropical Cyclone MARIE-26",
+            "date": "2026-09-01T09:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "Mexico",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=6&eventtype=TC"
+          },
+          {
+            "id": "EQ|1563178",
+            "title": "Earthquake in Volcano Islands, Japan Region",
+            "date": "2026-09-02T13:53:02+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Volcano Islands, Japan Region",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1563178&episodeid=1730761&eventtype=EQ"
           }
         ],
         "retained": false
@@ -323,9 +323,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 3716.0,
+        "current_30d_weight": 3718.6,
         "baseline_median": 0.0,
-        "anomaly_z": 3716.02,
+        "anomaly_z": 3718.58,
         "events_considered": 1000,
         "evidence": [
           {
@@ -347,16 +347,6 @@
             ],
             "weight": 4.6,
             "url": "https://irwin.doi.gov/observer/incidents/2026-WAYAA-000090"
-          },
-          {
-            "id": "EONET_22612",
-            "title": "Wildfire Stallion, Washoe, Nevada",
-            "date": "2026-08-10T13:31:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.6,
-            "url": "https://irwin.doi.gov/observer/incidents/2026-NVTMFX-030698"
           },
           {
             "id": "EONET_23670",
@@ -477,6 +467,16 @@
             ],
             "weight": 4.2,
             "url": "https://irwin.doi.gov/observer/incidents/2026-IDBOD-000994"
+          },
+          {
+            "id": "EONET_23451",
+            "title": "Wildfire Camp Creek, Powell, Montana",
+            "date": "2026-08-21T19:25:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.2,
+            "url": "https://irwin.doi.gov/observer/incidents/2026-MTFNF-000393"
           }
         ],
         "retained": false
@@ -781,13 +781,24 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 17.2
         }
+      },
+      {
+        "timestamp": "2026-09-02T16:37:11.218600+00:00",
+        "score": 64.6,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 100.0,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 17.2
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
       "power_sentinels": 8,
-      "gdacs_events": 192,
+      "gdacs_events": 193,
       "eonet_events": 1000,
       "fao_latest_month": "2026-07"
     },
@@ -834,7 +845,7 @@
     },
     {
       "label": "Hazards Screened",
-      "value": "1192",
+      "value": "1193",
       "delta": "NASA + GDACS"
     },
     {
@@ -940,7 +951,7 @@
       ]
     },
     "gdacs": {
-      "count": 192,
+      "count": 193,
       "cached": false,
       "retained": false,
       "compact": true,
@@ -983,7 +994,7 @@
           "event_type": "TC",
           "country": "Japan, China, Northern Mariana Islands",
           "weight": 9.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=44&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=45&eventtype=TC"
         },
         {
           "id": "FL|1104121",
@@ -1056,26 +1067,6 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1556215&episodeid=1723078&eventtype=EQ"
         },
         {
-          "id": "EQ|1563152",
-          "title": "Earthquake in South Sandwich Islands Region",
-          "date": "2026-09-02T10:54:02+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "South Sandwich Islands Region",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1563152&episodeid=1730710&eventtype=EQ"
-        },
-        {
-          "id": "TC|1001317",
-          "title": "Tropical Cyclone MARIE-26",
-          "date": "2026-09-01T09:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "Mexico",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=5&eventtype=TC"
-        },
-        {
           "id": "TC|1001314",
           "title": "Tropical Cyclone KARINA-26",
           "date": "2026-08-27T21:00:00+00:00",
@@ -1083,7 +1074,7 @@
           "event_type": "TC",
           "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=24&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=25&eventtype=TC"
         },
         {
           "id": "TC|1001315",
@@ -1093,7 +1084,27 @@
           "event_type": "TC",
           "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=24&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=25&eventtype=TC"
+        },
+        {
+          "id": "TC|1001317",
+          "title": "Tropical Cyclone MARIE-26",
+          "date": "2026-09-01T09:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "Mexico",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=6&eventtype=TC"
+        },
+        {
+          "id": "EQ|1563178",
+          "title": "Earthquake in Volcano Islands, Japan Region",
+          "date": "2026-09-02T13:53:02+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Volcano Islands, Japan Region",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1563178&episodeid=1730761&eventtype=EQ"
         }
       ]
     },
@@ -1122,16 +1133,6 @@
           ],
           "weight": 4.6,
           "url": "https://irwin.doi.gov/observer/incidents/2026-WAYAA-000090"
-        },
-        {
-          "id": "EONET_22612",
-          "title": "Wildfire Stallion, Washoe, Nevada",
-          "date": "2026-08-10T13:31:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.6,
-          "url": "https://irwin.doi.gov/observer/incidents/2026-NVTMFX-030698"
         },
         {
           "id": "EONET_23670",
@@ -1252,6 +1253,16 @@
           ],
           "weight": 4.2,
           "url": "https://irwin.doi.gov/observer/incidents/2026-IDBOD-000994"
+        },
+        {
+          "id": "EONET_23451",
+          "title": "Wildfire Camp Creek, Powell, Montana",
+          "date": "2026-08-21T19:25:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.2,
+          "url": "https://irwin.doi.gov/observer/incidents/2026-MTFNF-000393"
         }
       ]
     },
@@ -5285,7 +5296,7 @@
       "event_type": "TC",
       "country": "Japan, China, Northern Mariana Islands",
       "weight": 9.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=44&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=45&eventtype=TC"
     },
     {
       "id": "FL|1104121",
@@ -5358,26 +5369,6 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1556215&episodeid=1723078&eventtype=EQ"
     },
     {
-      "id": "EQ|1563152",
-      "title": "Earthquake in South Sandwich Islands Region",
-      "date": "2026-09-02T10:54:02+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "South Sandwich Islands Region",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1563152&episodeid=1730710&eventtype=EQ"
-    },
-    {
-      "id": "TC|1001317",
-      "title": "Tropical Cyclone MARIE-26",
-      "date": "2026-09-01T09:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "Mexico",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=5&eventtype=TC"
-    },
-    {
       "id": "TC|1001314",
       "title": "Tropical Cyclone KARINA-26",
       "date": "2026-08-27T21:00:00+00:00",
@@ -5385,7 +5376,7 @@
       "event_type": "TC",
       "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=24&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=25&eventtype=TC"
     },
     {
       "id": "TC|1001315",
@@ -5395,7 +5386,27 @@
       "event_type": "TC",
       "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=24&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=25&eventtype=TC"
+    },
+    {
+      "id": "TC|1001317",
+      "title": "Tropical Cyclone MARIE-26",
+      "date": "2026-09-01T09:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "Mexico",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=6&eventtype=TC"
+    },
+    {
+      "id": "EQ|1563178",
+      "title": "Earthquake in Volcano Islands, Japan Region",
+      "date": "2026-09-02T13:53:02+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Volcano Islands, Japan Region",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1563178&episodeid=1730761&eventtype=EQ"
     },
     {
       "id": "EONET_23452",
@@ -5416,16 +5427,6 @@
       ],
       "weight": 4.6,
       "url": "https://irwin.doi.gov/observer/incidents/2026-WAYAA-000090"
-    },
-    {
-      "id": "EONET_22612",
-      "title": "Wildfire Stallion, Washoe, Nevada",
-      "date": "2026-08-10T13:31:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.6,
-      "url": "https://irwin.doi.gov/observer/incidents/2026-NVTMFX-030698"
     },
     {
       "id": "EONET_23670",
@@ -5516,6 +5517,16 @@
       ],
       "weight": 4.3,
       "url": "https://irwin.doi.gov/observer/incidents/2026-NVCCD-030758"
+    },
+    {
+      "id": "EONET_23457",
+      "title": "Wildfire S-1 VYA, Washoe, Nevada",
+      "date": "2026-08-24T17:03:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.3,
+      "url": "https://irwin.doi.gov/observer/incidents/2026-CANOD-005304"
     }
   ]
 }
