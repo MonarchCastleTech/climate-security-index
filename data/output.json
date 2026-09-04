@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-09-03T21:04:50.883420+00:00",
+    "generated": "2026-09-04T04:37:40.390640+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,7 +13,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-03T21:04:50.642962+00:00",
+    "issued_at": "2026-09-04T04:37:40.143475+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 64.6,
@@ -159,10 +159,10 @@
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 223.1,
+        "current_30d_weight": 207.0,
         "baseline_months": 12,
-        "baseline_median": 45.2,
-        "anomaly_z": 4.18,
+        "baseline_median": 54.2,
+        "anomaly_z": 3.0,
         "events_considered": 193,
         "evidence": [
           {
@@ -236,16 +236,6 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1104123&episodeid=4&eventtype=FL"
           },
           {
-            "id": "WF|1030252",
-            "title": "Forest fires in Serbia",
-            "date": "2026-08-05T00:00:00+00:00",
-            "alert_level": "Orange",
-            "event_type": "WF",
-            "country": "Serbia",
-            "weight": 8.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1030252&episodeid=40&eventtype=WF"
-          },
-          {
             "id": "WF|1030534",
             "title": "Forest fires in Belgium",
             "date": "2026-08-14T00:00:00+00:00",
@@ -266,24 +256,24 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1030410&episodeid=23&eventtype=WF"
           },
           {
-            "id": "EQ|1556215",
-            "title": "Earthquake in Philippines",
-            "date": "2026-08-05T04:14:06+00:00",
-            "alert_level": "Orange",
-            "event_type": "EQ",
-            "country": "Philippines",
-            "weight": 8.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1556215&episodeid=1723078&eventtype=EQ"
+            "id": "TC|1001317",
+            "title": "Tropical Cyclone MARIE-26",
+            "date": "2026-09-01T09:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "Mexico",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=12&eventtype=TC"
           },
           {
-            "id": "WF|1031503",
-            "title": "Forest fires in Mozambique, Tanzania",
-            "date": "2026-08-31T00:00:00+00:00",
+            "id": "TC|1001315",
+            "title": "Tropical Cyclone LOWELL-26",
+            "date": "2026-08-27T21:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Mozambique, Tanzania",
-            "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1031503&episodeid=2&eventtype=WF"
+            "event_type": "TC",
+            "country": "United States",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=31&eventtype=TC"
           },
           {
             "id": "TC|1001314",
@@ -293,27 +283,37 @@
             "event_type": "TC",
             "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=30&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=31&eventtype=TC"
           },
           {
-            "id": "EQ|1563451",
-            "title": "Earthquake in United States",
-            "date": "2026-09-03T20:21:15+00:00",
+            "id": "EQ|1563463",
+            "title": "Earthquake in Chile",
+            "date": "2026-09-03T21:18:21+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "United States",
+            "country": "Chile",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1563451&episodeid=1731051&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1563463&episodeid=1731065&eventtype=EQ"
           },
           {
-            "id": "EQ|1563424",
-            "title": "Earthquake in United States",
-            "date": "2026-09-03T18:45:39+00:00",
+            "id": "EQ|1563462",
+            "title": "Earthquake in Indonesia",
+            "date": "2026-09-03T21:05:15+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "United States",
+            "country": "Indonesia",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1563424&episodeid=1731024&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1563462&episodeid=1731070&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1563465",
+            "title": "Earthquake in Indonesia",
+            "date": "2026-09-03T21:00:10+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Indonesia",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1563465&episodeid=1731068&eventtype=EQ"
           }
         ],
         "retained": false
@@ -325,7 +325,7 @@
         "score": 56.0,
         "current_30d_weight": 3717.0,
         "baseline_median": 0.0,
-        "anomaly_z": 3717.02,
+        "anomaly_z": 3716.98,
         "events_considered": 1000,
         "evidence": [
           {
@@ -847,6 +847,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 17.2
         }
+      },
+      {
+        "timestamp": "2026-09-04T04:37:40.143475+00:00",
+        "score": 64.6,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 100.0,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 17.2
+        }
       }
     ],
     "data_health": {
@@ -1082,16 +1093,6 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1104123&episodeid=4&eventtype=FL"
         },
         {
-          "id": "WF|1030252",
-          "title": "Forest fires in Serbia",
-          "date": "2026-08-05T00:00:00+00:00",
-          "alert_level": "Orange",
-          "event_type": "WF",
-          "country": "Serbia",
-          "weight": 8.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1030252&episodeid=40&eventtype=WF"
-        },
-        {
           "id": "WF|1030534",
           "title": "Forest fires in Belgium",
           "date": "2026-08-14T00:00:00+00:00",
@@ -1112,24 +1113,24 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1030410&episodeid=23&eventtype=WF"
         },
         {
-          "id": "EQ|1556215",
-          "title": "Earthquake in Philippines",
-          "date": "2026-08-05T04:14:06+00:00",
-          "alert_level": "Orange",
-          "event_type": "EQ",
-          "country": "Philippines",
-          "weight": 8.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1556215&episodeid=1723078&eventtype=EQ"
+          "id": "TC|1001317",
+          "title": "Tropical Cyclone MARIE-26",
+          "date": "2026-09-01T09:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "Mexico",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=12&eventtype=TC"
         },
         {
-          "id": "WF|1031503",
-          "title": "Forest fires in Mozambique, Tanzania",
-          "date": "2026-08-31T00:00:00+00:00",
+          "id": "TC|1001315",
+          "title": "Tropical Cyclone LOWELL-26",
+          "date": "2026-08-27T21:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Mozambique, Tanzania",
-          "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031503&episodeid=2&eventtype=WF"
+          "event_type": "TC",
+          "country": "United States",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=31&eventtype=TC"
         },
         {
           "id": "TC|1001314",
@@ -1139,27 +1140,37 @@
           "event_type": "TC",
           "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=30&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=31&eventtype=TC"
         },
         {
-          "id": "EQ|1563451",
-          "title": "Earthquake in United States",
-          "date": "2026-09-03T20:21:15+00:00",
+          "id": "EQ|1563463",
+          "title": "Earthquake in Chile",
+          "date": "2026-09-03T21:18:21+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "United States",
+          "country": "Chile",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1563451&episodeid=1731051&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1563463&episodeid=1731065&eventtype=EQ"
         },
         {
-          "id": "EQ|1563424",
-          "title": "Earthquake in United States",
-          "date": "2026-09-03T18:45:39+00:00",
+          "id": "EQ|1563462",
+          "title": "Earthquake in Indonesia",
+          "date": "2026-09-03T21:05:15+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "United States",
+          "country": "Indonesia",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1563424&episodeid=1731024&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1563462&episodeid=1731070&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1563465",
+          "title": "Earthquake in Indonesia",
+          "date": "2026-09-03T21:00:10+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Indonesia",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1563465&episodeid=1731068&eventtype=EQ"
         }
       ]
     },
@@ -5384,16 +5395,6 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1104123&episodeid=4&eventtype=FL"
     },
     {
-      "id": "WF|1030252",
-      "title": "Forest fires in Serbia",
-      "date": "2026-08-05T00:00:00+00:00",
-      "alert_level": "Orange",
-      "event_type": "WF",
-      "country": "Serbia",
-      "weight": 8.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1030252&episodeid=40&eventtype=WF"
-    },
-    {
       "id": "WF|1030534",
       "title": "Forest fires in Belgium",
       "date": "2026-08-14T00:00:00+00:00",
@@ -5414,24 +5415,24 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1030410&episodeid=23&eventtype=WF"
     },
     {
-      "id": "EQ|1556215",
-      "title": "Earthquake in Philippines",
-      "date": "2026-08-05T04:14:06+00:00",
-      "alert_level": "Orange",
-      "event_type": "EQ",
-      "country": "Philippines",
-      "weight": 8.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1556215&episodeid=1723078&eventtype=EQ"
+      "id": "TC|1001317",
+      "title": "Tropical Cyclone MARIE-26",
+      "date": "2026-09-01T09:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "Mexico",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=12&eventtype=TC"
     },
     {
-      "id": "WF|1031503",
-      "title": "Forest fires in Mozambique, Tanzania",
-      "date": "2026-08-31T00:00:00+00:00",
+      "id": "TC|1001315",
+      "title": "Tropical Cyclone LOWELL-26",
+      "date": "2026-08-27T21:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Mozambique, Tanzania",
-      "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1031503&episodeid=2&eventtype=WF"
+      "event_type": "TC",
+      "country": "United States",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=31&eventtype=TC"
     },
     {
       "id": "TC|1001314",
@@ -5441,27 +5442,37 @@
       "event_type": "TC",
       "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=30&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=31&eventtype=TC"
     },
     {
-      "id": "EQ|1563451",
-      "title": "Earthquake in United States",
-      "date": "2026-09-03T20:21:15+00:00",
+      "id": "EQ|1563463",
+      "title": "Earthquake in Chile",
+      "date": "2026-09-03T21:18:21+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "United States",
+      "country": "Chile",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1563451&episodeid=1731051&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1563463&episodeid=1731065&eventtype=EQ"
     },
     {
-      "id": "EQ|1563424",
-      "title": "Earthquake in United States",
-      "date": "2026-09-03T18:45:39+00:00",
+      "id": "EQ|1563462",
+      "title": "Earthquake in Indonesia",
+      "date": "2026-09-03T21:05:15+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "United States",
+      "country": "Indonesia",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1563424&episodeid=1731024&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1563462&episodeid=1731070&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1563465",
+      "title": "Earthquake in Indonesia",
+      "date": "2026-09-03T21:00:10+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Indonesia",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1563465&episodeid=1731068&eventtype=EQ"
     },
     {
       "id": "EONET_23452",
