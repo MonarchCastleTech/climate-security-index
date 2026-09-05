@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-09-05T04:33:43.804595+00:00",
+    "generated": "2026-09-05T10:38:37.446581+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,7 +13,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-05T04:33:43.185807+00:00",
+    "issued_at": "2026-09-05T10:38:37.211934+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 73.8,
@@ -159,10 +159,10 @@
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 209.0,
+        "current_30d_weight": 208.0,
         "baseline_months": 12,
-        "baseline_median": 44.2,
-        "anomaly_z": 4.02,
+        "baseline_median": 46.2,
+        "anomaly_z": 3.68,
         "events_considered": 193,
         "evidence": [
           {
@@ -263,7 +263,7 @@
             "event_type": "TC",
             "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=35&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=36&eventtype=TC"
           },
           {
             "id": "TC|1001315",
@@ -273,7 +273,7 @@
             "event_type": "TC",
             "country": "United States",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=36&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=37&eventtype=TC"
           },
           {
             "id": "TC|1001317",
@@ -283,37 +283,37 @@
             "event_type": "TC",
             "country": "Mexico",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=16&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=17&eventtype=TC"
           },
           {
-            "id": "EQ|1563712",
-            "title": "Earthquake in Kermadec Islands, New Zealand",
-            "date": "2026-09-05T01:41:01+00:00",
+            "id": "EQ|1563749",
+            "title": "Earthquake in Indonesia",
+            "date": "2026-09-05T06:34:55+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Kermadec Islands, New Zealand",
+            "country": "Indonesia",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1563712&episodeid=1731338&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1563749&episodeid=1731380&eventtype=EQ"
           },
           {
-            "id": "FL|1104140",
-            "title": "Flood in Japan",
-            "date": "2026-09-03T01:00:00+00:00",
+            "id": "TC|1001318",
+            "title": "Tropical Cyclone KROVANH-26",
+            "date": "2026-09-01T06:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "FL",
+            "event_type": "TC",
             "country": "Japan",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1104140&episodeid=1&eventtype=FL"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001318&episodeid=17&eventtype=TC"
           },
           {
-            "id": "EQ|1563702",
-            "title": "Earthquake in Off East Coast Of Honshu, Japan",
-            "date": "2026-09-05T00:22:45+00:00",
+            "id": "TC|1001319",
+            "title": "Tropical Cyclone TWENTYTHREE-26",
+            "date": "2026-09-04T12:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Off East Coast Of Honshu, Japan",
+            "event_type": "TC",
+            "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1563702&episodeid=1731326&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001319&episodeid=4&eventtype=TC"
           }
         ],
         "retained": false
@@ -325,7 +325,7 @@
         "score": 56.0,
         "current_30d_weight": 3714.2,
         "baseline_median": 0.0,
-        "anomaly_z": 3714.18,
+        "anomaly_z": 3714.16,
         "events_considered": 1000,
         "evidence": [
           {
@@ -908,6 +908,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-09-05T10:38:37.211934+00:00",
+        "score": 73.8,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 100.0,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -1170,7 +1181,7 @@
           "event_type": "TC",
           "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=35&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=36&eventtype=TC"
         },
         {
           "id": "TC|1001315",
@@ -1180,7 +1191,7 @@
           "event_type": "TC",
           "country": "United States",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=36&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=37&eventtype=TC"
         },
         {
           "id": "TC|1001317",
@@ -1190,37 +1201,37 @@
           "event_type": "TC",
           "country": "Mexico",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=16&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=17&eventtype=TC"
         },
         {
-          "id": "EQ|1563712",
-          "title": "Earthquake in Kermadec Islands, New Zealand",
-          "date": "2026-09-05T01:41:01+00:00",
+          "id": "EQ|1563749",
+          "title": "Earthquake in Indonesia",
+          "date": "2026-09-05T06:34:55+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Kermadec Islands, New Zealand",
+          "country": "Indonesia",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1563712&episodeid=1731338&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1563749&episodeid=1731380&eventtype=EQ"
         },
         {
-          "id": "FL|1104140",
-          "title": "Flood in Japan",
-          "date": "2026-09-03T01:00:00+00:00",
+          "id": "TC|1001318",
+          "title": "Tropical Cyclone KROVANH-26",
+          "date": "2026-09-01T06:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "FL",
+          "event_type": "TC",
           "country": "Japan",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1104140&episodeid=1&eventtype=FL"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001318&episodeid=17&eventtype=TC"
         },
         {
-          "id": "EQ|1563702",
-          "title": "Earthquake in Off East Coast Of Honshu, Japan",
-          "date": "2026-09-05T00:22:45+00:00",
+          "id": "TC|1001319",
+          "title": "Tropical Cyclone TWENTYTHREE-26",
+          "date": "2026-09-04T12:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Off East Coast Of Honshu, Japan",
+          "event_type": "TC",
+          "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1563702&episodeid=1731326&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001319&episodeid=4&eventtype=TC"
         }
       ]
     },
@@ -5481,7 +5492,7 @@
       "event_type": "TC",
       "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=35&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=36&eventtype=TC"
     },
     {
       "id": "TC|1001315",
@@ -5491,7 +5502,7 @@
       "event_type": "TC",
       "country": "United States",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=36&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=37&eventtype=TC"
     },
     {
       "id": "TC|1001317",
@@ -5501,37 +5512,37 @@
       "event_type": "TC",
       "country": "Mexico",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=16&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=17&eventtype=TC"
     },
     {
-      "id": "EQ|1563712",
-      "title": "Earthquake in Kermadec Islands, New Zealand",
-      "date": "2026-09-05T01:41:01+00:00",
+      "id": "EQ|1563749",
+      "title": "Earthquake in Indonesia",
+      "date": "2026-09-05T06:34:55+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Kermadec Islands, New Zealand",
+      "country": "Indonesia",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1563712&episodeid=1731338&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1563749&episodeid=1731380&eventtype=EQ"
     },
     {
-      "id": "FL|1104140",
-      "title": "Flood in Japan",
-      "date": "2026-09-03T01:00:00+00:00",
+      "id": "TC|1001318",
+      "title": "Tropical Cyclone KROVANH-26",
+      "date": "2026-09-01T06:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "FL",
+      "event_type": "TC",
       "country": "Japan",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1104140&episodeid=1&eventtype=FL"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001318&episodeid=17&eventtype=TC"
     },
     {
-      "id": "EQ|1563702",
-      "title": "Earthquake in Off East Coast Of Honshu, Japan",
-      "date": "2026-09-05T00:22:45+00:00",
+      "id": "TC|1001319",
+      "title": "Tropical Cyclone TWENTYTHREE-26",
+      "date": "2026-09-04T12:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Off East Coast Of Honshu, Japan",
+      "event_type": "TC",
+      "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1563702&episodeid=1731326&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001319&episodeid=4&eventtype=TC"
     },
     {
       "id": "EONET_23452",
