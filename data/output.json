@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-09-07T12:38:33.091431+00:00",
+    "generated": "2026-09-07T21:33:05.902606+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,7 +13,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-07T12:38:32.845681+00:00",
+    "issued_at": "2026-09-07T21:33:05.650695+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 73.8,
@@ -159,7 +159,7 @@
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 216.1,
+        "current_30d_weight": 216.0,
         "baseline_months": 12,
         "baseline_median": 46.2,
         "anomaly_z": 3.86,
@@ -266,14 +266,24 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
           },
           {
-            "id": "WF|1031678",
-            "title": "Forest fires in Zambia, Zimbabwe",
-            "date": "2026-08-30T00:00:00+00:00",
+            "id": "TC|1001317",
+            "title": "Tropical Cyclone MARIE-26",
+            "date": "2026-09-01T09:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Zambia, Zimbabwe",
-            "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1031678&episodeid=6&eventtype=WF"
+            "event_type": "TC",
+            "country": "Mexico",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=27&eventtype=TC"
+          },
+          {
+            "id": "TC|1001318",
+            "title": "Tropical Cyclone KROVANH-26",
+            "date": "2026-09-01T06:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "Japan",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001318&episodeid=26&eventtype=TC"
           },
           {
             "id": "TC|1001315",
@@ -296,24 +306,14 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1564048&episodeid=1731719&eventtype=EQ"
           },
           {
-            "id": "EQ|1564031",
-            "title": "Earthquake in Kermadec Islands Region",
-            "date": "2026-09-07T02:30:21+00:00",
+            "id": "TC|1001314",
+            "title": "Tropical Cyclone KARINA-26",
+            "date": "2026-08-27T21:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Kermadec Islands Region",
+            "event_type": "TC",
+            "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1564031&episodeid=1731701&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1564043",
-            "title": "Earthquake in South Of Fiji Islands",
-            "date": "2026-09-07T02:29:41+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "South Of Fiji Islands",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1564043&episodeid=1731713&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=43&eventtype=TC"
           }
         ],
         "retained": false
@@ -323,9 +323,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 3724.8,
+        "current_30d_weight": 3733.5,
         "baseline_median": 0.0,
-        "anomaly_z": 3724.79,
+        "anomaly_z": 3733.54,
         "events_considered": 1000,
         "evidence": [
           {
@@ -1007,6 +1007,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-09-07T21:33:05.650695+00:00",
+        "score": 73.8,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 100.0,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -1272,14 +1283,24 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
         },
         {
-          "id": "WF|1031678",
-          "title": "Forest fires in Zambia, Zimbabwe",
-          "date": "2026-08-30T00:00:00+00:00",
+          "id": "TC|1001317",
+          "title": "Tropical Cyclone MARIE-26",
+          "date": "2026-09-01T09:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Zambia, Zimbabwe",
-          "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031678&episodeid=6&eventtype=WF"
+          "event_type": "TC",
+          "country": "Mexico",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=27&eventtype=TC"
+        },
+        {
+          "id": "TC|1001318",
+          "title": "Tropical Cyclone KROVANH-26",
+          "date": "2026-09-01T06:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "Japan",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001318&episodeid=26&eventtype=TC"
         },
         {
           "id": "TC|1001315",
@@ -1302,24 +1323,14 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1564048&episodeid=1731719&eventtype=EQ"
         },
         {
-          "id": "EQ|1564031",
-          "title": "Earthquake in Kermadec Islands Region",
-          "date": "2026-09-07T02:30:21+00:00",
+          "id": "TC|1001314",
+          "title": "Tropical Cyclone KARINA-26",
+          "date": "2026-08-27T21:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Kermadec Islands Region",
+          "event_type": "TC",
+          "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1564031&episodeid=1731701&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1564043",
-          "title": "Earthquake in South Of Fiji Islands",
-          "date": "2026-09-07T02:29:41+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "South Of Fiji Islands",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1564043&episodeid=1731713&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=43&eventtype=TC"
         }
       ]
     },
@@ -5583,14 +5594,24 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
     },
     {
-      "id": "WF|1031678",
-      "title": "Forest fires in Zambia, Zimbabwe",
-      "date": "2026-08-30T00:00:00+00:00",
+      "id": "TC|1001317",
+      "title": "Tropical Cyclone MARIE-26",
+      "date": "2026-09-01T09:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Zambia, Zimbabwe",
-      "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1031678&episodeid=6&eventtype=WF"
+      "event_type": "TC",
+      "country": "Mexico",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=27&eventtype=TC"
+    },
+    {
+      "id": "TC|1001318",
+      "title": "Tropical Cyclone KROVANH-26",
+      "date": "2026-09-01T06:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "Japan",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001318&episodeid=26&eventtype=TC"
     },
     {
       "id": "TC|1001315",
@@ -5613,24 +5634,14 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1564048&episodeid=1731719&eventtype=EQ"
     },
     {
-      "id": "EQ|1564031",
-      "title": "Earthquake in Kermadec Islands Region",
-      "date": "2026-09-07T02:30:21+00:00",
+      "id": "TC|1001314",
+      "title": "Tropical Cyclone KARINA-26",
+      "date": "2026-08-27T21:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Kermadec Islands Region",
+      "event_type": "TC",
+      "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1564031&episodeid=1731701&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1564043",
-      "title": "Earthquake in South Of Fiji Islands",
-      "date": "2026-09-07T02:29:41+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "South Of Fiji Islands",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1564043&episodeid=1731713&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=43&eventtype=TC"
     },
     {
       "id": "EONET_23452",
