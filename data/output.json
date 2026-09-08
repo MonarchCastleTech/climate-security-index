@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-09-08T04:41:07.764321+00:00",
+    "generated": "2026-09-08T11:22:47.794280+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,7 +13,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-08T04:41:07.386379+00:00",
+    "issued_at": "2026-09-08T11:22:47.544334+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 73.8,
@@ -263,7 +263,7 @@
             "event_type": "TC",
             "country": "United States",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=48&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=49&eventtype=TC"
           },
           {
             "id": "TC|1001317",
@@ -273,7 +273,37 @@
             "event_type": "TC",
             "country": "Mexico",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=28&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=29&eventtype=TC"
+          },
+          {
+            "id": "EQ|1564231",
+            "title": "Earthquake in South Sandwich Islands Region",
+            "date": "2026-09-08T06:50:46+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "South Sandwich Islands Region",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1564231&episodeid=1731913&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1564232",
+            "title": "Earthquake in Venezuela",
+            "date": "2026-09-08T06:49:48+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Venezuela",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1564232&episodeid=1731917&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1564210",
+            "title": "Earthquake in Indonesia",
+            "date": "2026-09-08T04:40:28+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Indonesia",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1564210&episodeid=1731891&eventtype=EQ"
           },
           {
             "id": "EQ|1564205",
@@ -284,36 +314,6 @@
             "country": "Russia",
             "weight": 1.0,
             "url": "https://www.gdacs.org/report.aspx?eventid=1564205&episodeid=1731885&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1564184",
-            "title": "Earthquake in South Of Fiji Islands",
-            "date": "2026-09-08T01:39:35+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "South Of Fiji Islands",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1564184&episodeid=1731863&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1564175",
-            "title": "Earthquake in Vanuatu",
-            "date": "2026-09-08T00:52:02+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Vanuatu",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1564175&episodeid=1731852&eventtype=EQ"
-          },
-          {
-            "id": "TC|1001318",
-            "title": "Tropical Cyclone KROVANH-26",
-            "date": "2026-09-01T06:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "Japan",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001318&episodeid=28&eventtype=TC"
           }
         ],
         "retained": false
@@ -323,9 +323,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 3733.5,
+        "current_30d_weight": 3733.4,
         "baseline_median": 0.0,
-        "anomaly_z": 3733.48,
+        "anomaly_z": 3733.45,
         "events_considered": 1000,
         "evidence": [
           {
@@ -1029,6 +1029,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-09-08T11:22:47.544334+00:00",
+        "score": 73.8,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 100.0,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -1291,7 +1302,7 @@
           "event_type": "TC",
           "country": "United States",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=48&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=49&eventtype=TC"
         },
         {
           "id": "TC|1001317",
@@ -1301,7 +1312,37 @@
           "event_type": "TC",
           "country": "Mexico",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=28&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=29&eventtype=TC"
+        },
+        {
+          "id": "EQ|1564231",
+          "title": "Earthquake in South Sandwich Islands Region",
+          "date": "2026-09-08T06:50:46+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "South Sandwich Islands Region",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1564231&episodeid=1731913&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1564232",
+          "title": "Earthquake in Venezuela",
+          "date": "2026-09-08T06:49:48+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Venezuela",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1564232&episodeid=1731917&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1564210",
+          "title": "Earthquake in Indonesia",
+          "date": "2026-09-08T04:40:28+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Indonesia",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1564210&episodeid=1731891&eventtype=EQ"
         },
         {
           "id": "EQ|1564205",
@@ -1312,36 +1353,6 @@
           "country": "Russia",
           "weight": 1.0,
           "url": "https://www.gdacs.org/report.aspx?eventid=1564205&episodeid=1731885&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1564184",
-          "title": "Earthquake in South Of Fiji Islands",
-          "date": "2026-09-08T01:39:35+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "South Of Fiji Islands",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1564184&episodeid=1731863&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1564175",
-          "title": "Earthquake in Vanuatu",
-          "date": "2026-09-08T00:52:02+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Vanuatu",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1564175&episodeid=1731852&eventtype=EQ"
-        },
-        {
-          "id": "TC|1001318",
-          "title": "Tropical Cyclone KROVANH-26",
-          "date": "2026-09-01T06:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "Japan",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001318&episodeid=28&eventtype=TC"
         }
       ]
     },
@@ -5602,7 +5613,7 @@
       "event_type": "TC",
       "country": "United States",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=48&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=49&eventtype=TC"
     },
     {
       "id": "TC|1001317",
@@ -5612,7 +5623,37 @@
       "event_type": "TC",
       "country": "Mexico",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=28&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=29&eventtype=TC"
+    },
+    {
+      "id": "EQ|1564231",
+      "title": "Earthquake in South Sandwich Islands Region",
+      "date": "2026-09-08T06:50:46+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "South Sandwich Islands Region",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1564231&episodeid=1731913&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1564232",
+      "title": "Earthquake in Venezuela",
+      "date": "2026-09-08T06:49:48+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Venezuela",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1564232&episodeid=1731917&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1564210",
+      "title": "Earthquake in Indonesia",
+      "date": "2026-09-08T04:40:28+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Indonesia",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1564210&episodeid=1731891&eventtype=EQ"
     },
     {
       "id": "EQ|1564205",
@@ -5623,36 +5664,6 @@
       "country": "Russia",
       "weight": 1.0,
       "url": "https://www.gdacs.org/report.aspx?eventid=1564205&episodeid=1731885&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1564184",
-      "title": "Earthquake in South Of Fiji Islands",
-      "date": "2026-09-08T01:39:35+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "South Of Fiji Islands",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1564184&episodeid=1731863&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1564175",
-      "title": "Earthquake in Vanuatu",
-      "date": "2026-09-08T00:52:02+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Vanuatu",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1564175&episodeid=1731852&eventtype=EQ"
-    },
-    {
-      "id": "TC|1001318",
-      "title": "Tropical Cyclone KROVANH-26",
-      "date": "2026-09-01T06:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "Japan",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001318&episodeid=28&eventtype=TC"
     },
     {
       "id": "EONET_23452",
