@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-09-08T11:22:47.794280+00:00",
+    "generated": "2026-09-08T16:40:44.658729+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,7 +13,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-08T11:22:47.544334+00:00",
+    "issued_at": "2026-09-08T16:40:44.380426+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 73.8,
@@ -162,7 +162,7 @@
         "current_30d_weight": 208.0,
         "baseline_months": 12,
         "baseline_median": 46.2,
-        "anomaly_z": 3.62,
+        "anomaly_z": 3.19,
         "events_considered": 191,
         "evidence": [
           {
@@ -256,6 +256,26 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
           },
           {
+            "id": "EQ|1564286",
+            "title": "Earthquake in Tonga",
+            "date": "2026-09-08T15:43:57+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Tonga",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1564286&episodeid=1731976&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1564284",
+            "title": "Earthquake in Indonesia",
+            "date": "2026-09-08T15:36:35+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Indonesia",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1564284&episodeid=1731972&eventtype=EQ"
+          },
+          {
             "id": "TC|1001315",
             "title": "Tropical Cyclone LOWELL-26",
             "date": "2026-08-27T21:00:00+00:00",
@@ -263,7 +283,7 @@
             "event_type": "TC",
             "country": "United States",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=49&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=50&eventtype=TC"
           },
           {
             "id": "TC|1001317",
@@ -273,47 +293,27 @@
             "event_type": "TC",
             "country": "Mexico",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=29&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=30&eventtype=TC"
           },
           {
-            "id": "EQ|1564231",
-            "title": "Earthquake in South Sandwich Islands Region",
-            "date": "2026-09-08T06:50:46+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "South Sandwich Islands Region",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1564231&episodeid=1731913&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1564232",
-            "title": "Earthquake in Venezuela",
-            "date": "2026-09-08T06:49:48+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Venezuela",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1564232&episodeid=1731917&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1564210",
-            "title": "Earthquake in Indonesia",
-            "date": "2026-09-08T04:40:28+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Indonesia",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1564210&episodeid=1731891&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1564205",
+            "id": "EQ|1564285",
             "title": "Earthquake in Russia",
-            "date": "2026-09-08T02:34:20+00:00",
+            "date": "2026-09-08T14:13:09+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
             "country": "Russia",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1564205&episodeid=1731885&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1564285&episodeid=1731974&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1564280",
+            "title": "Earthquake in Chile",
+            "date": "2026-09-08T13:42:08+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Chile",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1564280&episodeid=1731967&eventtype=EQ"
           }
         ],
         "retained": false
@@ -323,9 +323,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 3733.4,
+        "current_30d_weight": 3731.7,
         "baseline_median": 0.0,
-        "anomaly_z": 3733.45,
+        "anomaly_z": 3731.71,
         "events_considered": 1000,
         "evidence": [
           {
@@ -357,6 +357,16 @@
             ],
             "weight": 4.5,
             "url": "https://irwin.doi.gov/observer/incidents/2026-IDTFD-000216"
+          },
+          {
+            "id": "EONET_24095",
+            "title": "Incident Complex Rattlesnake Complex, Prairie, Montana",
+            "date": "2026-09-04T12:59:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.4,
+            "url": "https://irwin.doi.gov/observer/incidents/2026-MTEAS-000786"
           },
           {
             "id": "EONET_23681",
@@ -409,6 +419,16 @@
             "url": "https://irwin.doi.gov/observer/incidents/2026-FLEVP-002565"
           },
           {
+            "id": "EONET_24138",
+            "title": "Wildfire in Angola 1031805",
+            "date": "2026-08-30T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.3,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031805"
+          },
+          {
             "id": "EONET_23668",
             "title": "Wildfire Brushy Canyon, Box Elder, Utah",
             "date": "2026-08-27T01:42:00+00:00",
@@ -449,16 +469,6 @@
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031654"
           },
           {
-            "id": "EONET_23457",
-            "title": "Wildfire S-1 VYA, Washoe, Nevada",
-            "date": "2026-08-24T17:03:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.3,
-            "url": "https://irwin.doi.gov/observer/incidents/2026-CANOD-005304"
-          },
-          {
             "id": "EONET_23458",
             "title": "Wildfire Oxley, Elko, Nevada",
             "date": "2026-08-24T14:12:00+00:00",
@@ -467,16 +477,6 @@
             ],
             "weight": 4.3,
             "url": "https://irwin.doi.gov/observer/incidents/2026-NVEKD-010515"
-          },
-          {
-            "id": "EONET_23667",
-            "title": "Wildfire FLINT, Owyhee, Idaho",
-            "date": "2026-08-24T17:48:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.2,
-            "url": "https://irwin.doi.gov/observer/incidents/2026-IDBOD-000994"
           }
         ],
         "retained": false
@@ -1040,6 +1040,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-09-08T16:40:44.380426+00:00",
+        "score": 73.8,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 100.0,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -1295,6 +1306,26 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
         },
         {
+          "id": "EQ|1564286",
+          "title": "Earthquake in Tonga",
+          "date": "2026-09-08T15:43:57+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Tonga",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1564286&episodeid=1731976&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1564284",
+          "title": "Earthquake in Indonesia",
+          "date": "2026-09-08T15:36:35+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Indonesia",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1564284&episodeid=1731972&eventtype=EQ"
+        },
+        {
           "id": "TC|1001315",
           "title": "Tropical Cyclone LOWELL-26",
           "date": "2026-08-27T21:00:00+00:00",
@@ -1302,7 +1333,7 @@
           "event_type": "TC",
           "country": "United States",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=49&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=50&eventtype=TC"
         },
         {
           "id": "TC|1001317",
@@ -1312,47 +1343,27 @@
           "event_type": "TC",
           "country": "Mexico",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=29&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=30&eventtype=TC"
         },
         {
-          "id": "EQ|1564231",
-          "title": "Earthquake in South Sandwich Islands Region",
-          "date": "2026-09-08T06:50:46+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "South Sandwich Islands Region",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1564231&episodeid=1731913&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1564232",
-          "title": "Earthquake in Venezuela",
-          "date": "2026-09-08T06:49:48+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Venezuela",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1564232&episodeid=1731917&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1564210",
-          "title": "Earthquake in Indonesia",
-          "date": "2026-09-08T04:40:28+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Indonesia",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1564210&episodeid=1731891&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1564205",
+          "id": "EQ|1564285",
           "title": "Earthquake in Russia",
-          "date": "2026-09-08T02:34:20+00:00",
+          "date": "2026-09-08T14:13:09+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
           "country": "Russia",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1564205&episodeid=1731885&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1564285&episodeid=1731974&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1564280",
+          "title": "Earthquake in Chile",
+          "date": "2026-09-08T13:42:08+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Chile",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1564280&episodeid=1731967&eventtype=EQ"
         }
       ]
     },
@@ -1391,6 +1402,16 @@
           ],
           "weight": 4.5,
           "url": "https://irwin.doi.gov/observer/incidents/2026-IDTFD-000216"
+        },
+        {
+          "id": "EONET_24095",
+          "title": "Incident Complex Rattlesnake Complex, Prairie, Montana",
+          "date": "2026-09-04T12:59:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.4,
+          "url": "https://irwin.doi.gov/observer/incidents/2026-MTEAS-000786"
         },
         {
           "id": "EONET_23681",
@@ -1443,6 +1464,16 @@
           "url": "https://irwin.doi.gov/observer/incidents/2026-FLEVP-002565"
         },
         {
+          "id": "EONET_24138",
+          "title": "Wildfire in Angola 1031805",
+          "date": "2026-08-30T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.3,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031805"
+        },
+        {
           "id": "EONET_23668",
           "title": "Wildfire Brushy Canyon, Box Elder, Utah",
           "date": "2026-08-27T01:42:00+00:00",
@@ -1483,16 +1514,6 @@
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031654"
         },
         {
-          "id": "EONET_23457",
-          "title": "Wildfire S-1 VYA, Washoe, Nevada",
-          "date": "2026-08-24T17:03:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.3,
-          "url": "https://irwin.doi.gov/observer/incidents/2026-CANOD-005304"
-        },
-        {
           "id": "EONET_23458",
           "title": "Wildfire Oxley, Elko, Nevada",
           "date": "2026-08-24T14:12:00+00:00",
@@ -1501,16 +1522,6 @@
           ],
           "weight": 4.3,
           "url": "https://irwin.doi.gov/observer/incidents/2026-NVEKD-010515"
-        },
-        {
-          "id": "EONET_23667",
-          "title": "Wildfire FLINT, Owyhee, Idaho",
-          "date": "2026-08-24T17:48:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.2,
-          "url": "https://irwin.doi.gov/observer/incidents/2026-IDBOD-000994"
         }
       ]
     },
@@ -5606,6 +5617,26 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
     },
     {
+      "id": "EQ|1564286",
+      "title": "Earthquake in Tonga",
+      "date": "2026-09-08T15:43:57+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Tonga",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1564286&episodeid=1731976&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1564284",
+      "title": "Earthquake in Indonesia",
+      "date": "2026-09-08T15:36:35+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Indonesia",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1564284&episodeid=1731972&eventtype=EQ"
+    },
+    {
       "id": "TC|1001315",
       "title": "Tropical Cyclone LOWELL-26",
       "date": "2026-08-27T21:00:00+00:00",
@@ -5613,7 +5644,7 @@
       "event_type": "TC",
       "country": "United States",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=49&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=50&eventtype=TC"
     },
     {
       "id": "TC|1001317",
@@ -5623,47 +5654,27 @@
       "event_type": "TC",
       "country": "Mexico",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=29&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=30&eventtype=TC"
     },
     {
-      "id": "EQ|1564231",
-      "title": "Earthquake in South Sandwich Islands Region",
-      "date": "2026-09-08T06:50:46+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "South Sandwich Islands Region",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1564231&episodeid=1731913&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1564232",
-      "title": "Earthquake in Venezuela",
-      "date": "2026-09-08T06:49:48+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Venezuela",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1564232&episodeid=1731917&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1564210",
-      "title": "Earthquake in Indonesia",
-      "date": "2026-09-08T04:40:28+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Indonesia",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1564210&episodeid=1731891&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1564205",
+      "id": "EQ|1564285",
       "title": "Earthquake in Russia",
-      "date": "2026-09-08T02:34:20+00:00",
+      "date": "2026-09-08T14:13:09+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
       "country": "Russia",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1564205&episodeid=1731885&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1564285&episodeid=1731974&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1564280",
+      "title": "Earthquake in Chile",
+      "date": "2026-09-08T13:42:08+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Chile",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1564280&episodeid=1731967&eventtype=EQ"
     },
     {
       "id": "EONET_23452",
@@ -5694,6 +5705,16 @@
       ],
       "weight": 4.5,
       "url": "https://irwin.doi.gov/observer/incidents/2026-IDTFD-000216"
+    },
+    {
+      "id": "EONET_24095",
+      "title": "Incident Complex Rattlesnake Complex, Prairie, Montana",
+      "date": "2026-09-04T12:59:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.4,
+      "url": "https://irwin.doi.gov/observer/incidents/2026-MTEAS-000786"
     },
     {
       "id": "EONET_23681",
@@ -5746,6 +5767,16 @@
       "url": "https://irwin.doi.gov/observer/incidents/2026-FLEVP-002565"
     },
     {
+      "id": "EONET_24138",
+      "title": "Wildfire in Angola 1031805",
+      "date": "2026-08-30T19:00:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.3,
+      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031805"
+    },
+    {
       "id": "EONET_23668",
       "title": "Wildfire Brushy Canyon, Box Elder, Utah",
       "date": "2026-08-27T01:42:00+00:00",
@@ -5764,26 +5795,6 @@
       ],
       "weight": 4.3,
       "url": "https://irwin.doi.gov/observer/incidents/2026-NVHTF-020624"
-    },
-    {
-      "id": "EONET_23663",
-      "title": "Wildfire Blue Eagle, Churchill, Nevada",
-      "date": "2026-08-25T14:39:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.3,
-      "url": "https://irwin.doi.gov/observer/incidents/2026-NVCCD-030758"
-    },
-    {
-      "id": "EONET_23994",
-      "title": "Wildfire in Mozambique 1031654",
-      "date": "2026-08-24T19:00:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.3,
-      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031654"
     }
   ]
 }
