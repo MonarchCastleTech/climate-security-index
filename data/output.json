@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-09-09T16:40:59.969281+00:00",
+    "generated": "2026-09-09T20:57:43.228972+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,7 +13,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-09T16:40:59.765418+00:00",
+    "issued_at": "2026-09-09T20:57:42.991199+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 73.8,
@@ -236,14 +236,44 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
           },
           {
-            "id": "FL|1104140",
-            "title": "Flood in Japan",
-            "date": "2026-09-02T01:00:00+00:00",
+            "id": "EQ|1564464",
+            "title": "Earthquake in Vanuatu",
+            "date": "2026-09-09T19:15:11+00:00",
             "alert_level": "Green",
-            "event_type": "FL",
-            "country": "Japan",
+            "event_type": "EQ",
+            "country": "Vanuatu",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1104140&episodeid=5&eventtype=FL"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1564464&episodeid=1732170&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1564455",
+            "title": "Earthquake in Fiji",
+            "date": "2026-09-09T18:19:02+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Fiji",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1564455&episodeid=1732160&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1564445",
+            "title": "Earthquake in Vanuatu",
+            "date": "2026-09-09T17:18:45+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Vanuatu",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1564445&episodeid=1732149&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1564440",
+            "title": "Earthquake in Vanuatu",
+            "date": "2026-09-09T17:01:52+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Vanuatu",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1564440&episodeid=1732148&eventtype=EQ"
           },
           {
             "id": "EQ|1564410",
@@ -284,36 +314,6 @@
             "country": "Indonesia",
             "weight": 1.0,
             "url": "https://www.gdacs.org/report.aspx?eventid=1564380&episodeid=1732079&eventtype=EQ"
-          },
-          {
-            "id": "TC|1001318",
-            "title": "Tropical Cyclone KROVANH-26",
-            "date": "2026-09-01T06:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "Japan",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001318&episodeid=33&eventtype=TC"
-          },
-          {
-            "id": "TC|1001315",
-            "title": "Tropical Cyclone LOWELL-26",
-            "date": "2026-08-27T21:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "United States",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=52&eventtype=TC"
-          },
-          {
-            "id": "FL|1104122",
-            "title": "Flood in Thailand",
-            "date": "2026-08-18T01:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "FL",
-            "country": "Thailand",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1104122&episodeid=20&eventtype=FL"
           }
         ],
         "retained": false
@@ -1095,6 +1095,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-09-09T20:57:42.991199+00:00",
+        "score": 73.8,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 100.0,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -1330,14 +1341,44 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
         },
         {
-          "id": "FL|1104140",
-          "title": "Flood in Japan",
-          "date": "2026-09-02T01:00:00+00:00",
+          "id": "EQ|1564464",
+          "title": "Earthquake in Vanuatu",
+          "date": "2026-09-09T19:15:11+00:00",
           "alert_level": "Green",
-          "event_type": "FL",
-          "country": "Japan",
+          "event_type": "EQ",
+          "country": "Vanuatu",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1104140&episodeid=5&eventtype=FL"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1564464&episodeid=1732170&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1564455",
+          "title": "Earthquake in Fiji",
+          "date": "2026-09-09T18:19:02+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Fiji",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1564455&episodeid=1732160&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1564445",
+          "title": "Earthquake in Vanuatu",
+          "date": "2026-09-09T17:18:45+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Vanuatu",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1564445&episodeid=1732149&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1564440",
+          "title": "Earthquake in Vanuatu",
+          "date": "2026-09-09T17:01:52+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Vanuatu",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1564440&episodeid=1732148&eventtype=EQ"
         },
         {
           "id": "EQ|1564410",
@@ -1378,36 +1419,6 @@
           "country": "Indonesia",
           "weight": 1.0,
           "url": "https://www.gdacs.org/report.aspx?eventid=1564380&episodeid=1732079&eventtype=EQ"
-        },
-        {
-          "id": "TC|1001318",
-          "title": "Tropical Cyclone KROVANH-26",
-          "date": "2026-09-01T06:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "Japan",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001318&episodeid=33&eventtype=TC"
-        },
-        {
-          "id": "TC|1001315",
-          "title": "Tropical Cyclone LOWELL-26",
-          "date": "2026-08-27T21:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "United States",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=52&eventtype=TC"
-        },
-        {
-          "id": "FL|1104122",
-          "title": "Flood in Thailand",
-          "date": "2026-08-18T01:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "FL",
-          "country": "Thailand",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1104122&episodeid=20&eventtype=FL"
         }
       ]
     },
@@ -5641,14 +5652,44 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
     },
     {
-      "id": "FL|1104140",
-      "title": "Flood in Japan",
-      "date": "2026-09-02T01:00:00+00:00",
+      "id": "EQ|1564464",
+      "title": "Earthquake in Vanuatu",
+      "date": "2026-09-09T19:15:11+00:00",
       "alert_level": "Green",
-      "event_type": "FL",
-      "country": "Japan",
+      "event_type": "EQ",
+      "country": "Vanuatu",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1104140&episodeid=5&eventtype=FL"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1564464&episodeid=1732170&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1564455",
+      "title": "Earthquake in Fiji",
+      "date": "2026-09-09T18:19:02+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Fiji",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1564455&episodeid=1732160&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1564445",
+      "title": "Earthquake in Vanuatu",
+      "date": "2026-09-09T17:18:45+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Vanuatu",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1564445&episodeid=1732149&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1564440",
+      "title": "Earthquake in Vanuatu",
+      "date": "2026-09-09T17:01:52+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Vanuatu",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1564440&episodeid=1732148&eventtype=EQ"
     },
     {
       "id": "EQ|1564410",
@@ -5689,36 +5730,6 @@
       "country": "Indonesia",
       "weight": 1.0,
       "url": "https://www.gdacs.org/report.aspx?eventid=1564380&episodeid=1732079&eventtype=EQ"
-    },
-    {
-      "id": "TC|1001318",
-      "title": "Tropical Cyclone KROVANH-26",
-      "date": "2026-09-01T06:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "Japan",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001318&episodeid=33&eventtype=TC"
-    },
-    {
-      "id": "TC|1001315",
-      "title": "Tropical Cyclone LOWELL-26",
-      "date": "2026-08-27T21:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "United States",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=52&eventtype=TC"
-    },
-    {
-      "id": "FL|1104122",
-      "title": "Flood in Thailand",
-      "date": "2026-08-18T01:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "FL",
-      "country": "Thailand",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1104122&episodeid=20&eventtype=FL"
     },
     {
       "id": "EONET_23452",
