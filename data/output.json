@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-09-10T04:46:38.978113+00:00",
+    "generated": "2026-09-10T11:23:21.030903+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,7 +13,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-10T04:46:38.736987+00:00",
+    "issued_at": "2026-09-10T11:23:20.745874+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 73.8,
@@ -159,10 +159,10 @@
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 179.0,
+        "current_30d_weight": 178.0,
         "baseline_months": 12,
         "baseline_median": 50.2,
-        "anomaly_z": 2.28,
+        "anomaly_z": 2.26,
         "events_considered": 192,
         "evidence": [
           {
@@ -236,6 +236,26 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
           },
           {
+            "id": "EQ|1564561",
+            "title": "Earthquake in Peru",
+            "date": "2026-09-10T10:39:36+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Peru",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1564561&episodeid=1732277&eventtype=EQ"
+          },
+          {
+            "id": "TC|1001320",
+            "title": "Tropical Cyclone NORBERT-26",
+            "date": "2026-09-09T21:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=3&eventtype=TC"
+          },
+          {
             "id": "TC|1001315",
             "title": "Tropical Cyclone LOWELL-26",
             "date": "2026-08-27T21:00:00+00:00",
@@ -243,77 +263,57 @@
             "event_type": "TC",
             "country": "United States",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=56&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=57&eventtype=TC"
           },
           {
-            "id": "EQ|1564471",
-            "title": "Earthquake in Mid-Indian Ridge",
-            "date": "2026-09-09T21:29:54+00:00",
+            "id": "EQ|1564542",
+            "title": "Earthquake in Costa Rica",
+            "date": "2026-09-10T08:26:53+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Mid-Indian Ridge",
+            "country": "Costa Rica",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1564471&episodeid=1732237&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1564542&episodeid=1732257&eventtype=EQ"
           },
           {
-            "id": "TC|1001320",
-            "title": "Tropical Cyclone FOURTEEN-E-26",
-            "date": "2026-09-09T21:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=1&eventtype=TC"
-          },
-          {
-            "id": "EQ|1564469",
-            "title": "Earthquake in Vanuatu",
-            "date": "2026-09-09T20:21:13+00:00",
+            "id": "EQ|1564534",
+            "title": "Earthquake in Peru",
+            "date": "2026-09-10T06:42:40+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Vanuatu",
+            "country": "Peru",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1564469&episodeid=1732177&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1564534&episodeid=1732247&eventtype=EQ"
           },
           {
-            "id": "EQ|1564472",
-            "title": "Earthquake in Tajikistan",
-            "date": "2026-09-09T20:17:13+00:00",
+            "id": "FL|1104147",
+            "title": "Flood in Islamic Republic of Iran",
+            "date": "2026-09-07T01:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Tajikistan",
+            "event_type": "FL",
+            "country": "Islamic Republic of Iran",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1564472&episodeid=1732182&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1104147&episodeid=3&eventtype=FL"
           },
           {
-            "id": "EQ|1564464",
-            "title": "Earthquake in Vanuatu",
-            "date": "2026-09-09T19:15:11+00:00",
+            "id": "WF|1031869",
+            "title": "Forest fires in Brazil",
+            "date": "2026-09-06T00:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Vanuatu",
+            "event_type": "WF",
+            "country": "Brazil",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1564464&episodeid=1732170&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1031869&episodeid=1&eventtype=WF"
           },
           {
-            "id": "EQ|1564455",
-            "title": "Earthquake in Fiji",
-            "date": "2026-09-09T18:19:02+00:00",
+            "id": "WF|1031868",
+            "title": "Forest fires in Papua New Guinea",
+            "date": "2026-09-06T00:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Fiji",
+            "event_type": "WF",
+            "country": "Papua New Guinea",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1564455&episodeid=1732160&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1564445",
-            "title": "Earthquake in Vanuatu",
-            "date": "2026-09-09T17:18:45+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Vanuatu",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1564445&episodeid=1732149&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1031868&episodeid=1&eventtype=WF"
           }
         ],
         "retained": false
@@ -323,9 +323,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 3730.4,
+        "current_30d_weight": 3730.5,
         "baseline_median": 0.0,
-        "anomaly_z": 3730.45,
+        "anomaly_z": 3730.5,
         "events_considered": 1000,
         "evidence": [
           {
@@ -1117,6 +1117,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-09-10T11:23:20.745874+00:00",
+        "score": 73.8,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 100.0,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -1352,6 +1363,26 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
         },
         {
+          "id": "EQ|1564561",
+          "title": "Earthquake in Peru",
+          "date": "2026-09-10T10:39:36+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Peru",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1564561&episodeid=1732277&eventtype=EQ"
+        },
+        {
+          "id": "TC|1001320",
+          "title": "Tropical Cyclone NORBERT-26",
+          "date": "2026-09-09T21:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=3&eventtype=TC"
+        },
+        {
           "id": "TC|1001315",
           "title": "Tropical Cyclone LOWELL-26",
           "date": "2026-08-27T21:00:00+00:00",
@@ -1359,77 +1390,57 @@
           "event_type": "TC",
           "country": "United States",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=56&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=57&eventtype=TC"
         },
         {
-          "id": "EQ|1564471",
-          "title": "Earthquake in Mid-Indian Ridge",
-          "date": "2026-09-09T21:29:54+00:00",
+          "id": "EQ|1564542",
+          "title": "Earthquake in Costa Rica",
+          "date": "2026-09-10T08:26:53+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Mid-Indian Ridge",
+          "country": "Costa Rica",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1564471&episodeid=1732237&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1564542&episodeid=1732257&eventtype=EQ"
         },
         {
-          "id": "TC|1001320",
-          "title": "Tropical Cyclone FOURTEEN-E-26",
-          "date": "2026-09-09T21:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=1&eventtype=TC"
-        },
-        {
-          "id": "EQ|1564469",
-          "title": "Earthquake in Vanuatu",
-          "date": "2026-09-09T20:21:13+00:00",
+          "id": "EQ|1564534",
+          "title": "Earthquake in Peru",
+          "date": "2026-09-10T06:42:40+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Vanuatu",
+          "country": "Peru",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1564469&episodeid=1732177&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1564534&episodeid=1732247&eventtype=EQ"
         },
         {
-          "id": "EQ|1564472",
-          "title": "Earthquake in Tajikistan",
-          "date": "2026-09-09T20:17:13+00:00",
+          "id": "FL|1104147",
+          "title": "Flood in Islamic Republic of Iran",
+          "date": "2026-09-07T01:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Tajikistan",
+          "event_type": "FL",
+          "country": "Islamic Republic of Iran",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1564472&episodeid=1732182&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1104147&episodeid=3&eventtype=FL"
         },
         {
-          "id": "EQ|1564464",
-          "title": "Earthquake in Vanuatu",
-          "date": "2026-09-09T19:15:11+00:00",
+          "id": "WF|1031869",
+          "title": "Forest fires in Brazil",
+          "date": "2026-09-06T00:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Vanuatu",
+          "event_type": "WF",
+          "country": "Brazil",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1564464&episodeid=1732170&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031869&episodeid=1&eventtype=WF"
         },
         {
-          "id": "EQ|1564455",
-          "title": "Earthquake in Fiji",
-          "date": "2026-09-09T18:19:02+00:00",
+          "id": "WF|1031868",
+          "title": "Forest fires in Papua New Guinea",
+          "date": "2026-09-06T00:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Fiji",
+          "event_type": "WF",
+          "country": "Papua New Guinea",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1564455&episodeid=1732160&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1564445",
-          "title": "Earthquake in Vanuatu",
-          "date": "2026-09-09T17:18:45+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Vanuatu",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1564445&episodeid=1732149&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031868&episodeid=1&eventtype=WF"
         }
       ]
     },
@@ -5663,6 +5674,26 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
     },
     {
+      "id": "EQ|1564561",
+      "title": "Earthquake in Peru",
+      "date": "2026-09-10T10:39:36+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Peru",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1564561&episodeid=1732277&eventtype=EQ"
+    },
+    {
+      "id": "TC|1001320",
+      "title": "Tropical Cyclone NORBERT-26",
+      "date": "2026-09-09T21:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=3&eventtype=TC"
+    },
+    {
       "id": "TC|1001315",
       "title": "Tropical Cyclone LOWELL-26",
       "date": "2026-08-27T21:00:00+00:00",
@@ -5670,77 +5701,57 @@
       "event_type": "TC",
       "country": "United States",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=56&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=57&eventtype=TC"
     },
     {
-      "id": "EQ|1564471",
-      "title": "Earthquake in Mid-Indian Ridge",
-      "date": "2026-09-09T21:29:54+00:00",
+      "id": "EQ|1564542",
+      "title": "Earthquake in Costa Rica",
+      "date": "2026-09-10T08:26:53+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Mid-Indian Ridge",
+      "country": "Costa Rica",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1564471&episodeid=1732237&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1564542&episodeid=1732257&eventtype=EQ"
     },
     {
-      "id": "TC|1001320",
-      "title": "Tropical Cyclone FOURTEEN-E-26",
-      "date": "2026-09-09T21:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=1&eventtype=TC"
-    },
-    {
-      "id": "EQ|1564469",
-      "title": "Earthquake in Vanuatu",
-      "date": "2026-09-09T20:21:13+00:00",
+      "id": "EQ|1564534",
+      "title": "Earthquake in Peru",
+      "date": "2026-09-10T06:42:40+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Vanuatu",
+      "country": "Peru",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1564469&episodeid=1732177&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1564534&episodeid=1732247&eventtype=EQ"
     },
     {
-      "id": "EQ|1564472",
-      "title": "Earthquake in Tajikistan",
-      "date": "2026-09-09T20:17:13+00:00",
+      "id": "FL|1104147",
+      "title": "Flood in Islamic Republic of Iran",
+      "date": "2026-09-07T01:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Tajikistan",
+      "event_type": "FL",
+      "country": "Islamic Republic of Iran",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1564472&episodeid=1732182&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1104147&episodeid=3&eventtype=FL"
     },
     {
-      "id": "EQ|1564464",
-      "title": "Earthquake in Vanuatu",
-      "date": "2026-09-09T19:15:11+00:00",
+      "id": "WF|1031869",
+      "title": "Forest fires in Brazil",
+      "date": "2026-09-06T00:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Vanuatu",
+      "event_type": "WF",
+      "country": "Brazil",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1564464&episodeid=1732170&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1031869&episodeid=1&eventtype=WF"
     },
     {
-      "id": "EQ|1564455",
-      "title": "Earthquake in Fiji",
-      "date": "2026-09-09T18:19:02+00:00",
+      "id": "WF|1031868",
+      "title": "Forest fires in Papua New Guinea",
+      "date": "2026-09-06T00:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Fiji",
+      "event_type": "WF",
+      "country": "Papua New Guinea",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1564455&episodeid=1732160&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1564445",
-      "title": "Earthquake in Vanuatu",
-      "date": "2026-09-09T17:18:45+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Vanuatu",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1564445&episodeid=1732149&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1031868&episodeid=1&eventtype=WF"
     },
     {
       "id": "EONET_23452",
