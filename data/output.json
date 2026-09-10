@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-09-10T11:23:21.030903+00:00",
+    "generated": "2026-09-10T16:26:24.446166+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,7 +13,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-10T11:23:20.745874+00:00",
+    "issued_at": "2026-09-10T16:26:24.211521+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 73.8,
@@ -159,10 +159,10 @@
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 178.0,
+        "current_30d_weight": 181.0,
         "baseline_months": 12,
         "baseline_median": 50.2,
-        "anomaly_z": 2.26,
+        "anomaly_z": 2.31,
         "events_considered": 192,
         "evidence": [
           {
@@ -236,16 +236,6 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
           },
           {
-            "id": "EQ|1564561",
-            "title": "Earthquake in Peru",
-            "date": "2026-09-10T10:39:36+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Peru",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1564561&episodeid=1732277&eventtype=EQ"
-          },
-          {
             "id": "TC|1001320",
             "title": "Tropical Cyclone NORBERT-26",
             "date": "2026-09-09T21:00:00+00:00",
@@ -253,7 +243,7 @@
             "event_type": "TC",
             "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=3&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=4&eventtype=TC"
           },
           {
             "id": "TC|1001315",
@@ -263,7 +253,47 @@
             "event_type": "TC",
             "country": "United States",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=57&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=58&eventtype=TC"
+          },
+          {
+            "id": "EQ|1564592",
+            "title": "Earthquake in Mexico",
+            "date": "2026-09-10T13:29:03+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Mexico",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1564592&episodeid=1732314&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1564589",
+            "title": "Earthquake in South Of Mariana Islands",
+            "date": "2026-09-10T13:28:15+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "South Of Mariana Islands",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1564589&episodeid=1732306&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1564577",
+            "title": "Earthquake in Bolivia",
+            "date": "2026-09-10T12:05:53+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Bolivia",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1564577&episodeid=1732293&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1564561",
+            "title": "Earthquake in Peru",
+            "date": "2026-09-10T10:39:36+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Peru",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1564561&episodeid=1732277&eventtype=EQ"
           },
           {
             "id": "EQ|1564542",
@@ -284,36 +314,6 @@
             "country": "Peru",
             "weight": 1.0,
             "url": "https://www.gdacs.org/report.aspx?eventid=1564534&episodeid=1732247&eventtype=EQ"
-          },
-          {
-            "id": "FL|1104147",
-            "title": "Flood in Islamic Republic of Iran",
-            "date": "2026-09-07T01:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "FL",
-            "country": "Islamic Republic of Iran",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1104147&episodeid=3&eventtype=FL"
-          },
-          {
-            "id": "WF|1031869",
-            "title": "Forest fires in Brazil",
-            "date": "2026-09-06T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Brazil",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1031869&episodeid=1&eventtype=WF"
-          },
-          {
-            "id": "WF|1031868",
-            "title": "Forest fires in Papua New Guinea",
-            "date": "2026-09-06T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Papua New Guinea",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1031868&episodeid=1&eventtype=WF"
           }
         ],
         "retained": false
@@ -323,9 +323,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 3730.5,
+        "current_30d_weight": 3726.7,
         "baseline_median": 0.0,
-        "anomaly_z": 3730.5,
+        "anomaly_z": 3726.65,
         "events_considered": 1000,
         "evidence": [
           {
@@ -1128,6 +1128,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-09-10T16:26:24.211521+00:00",
+        "score": 73.8,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 100.0,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -1363,16 +1374,6 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
         },
         {
-          "id": "EQ|1564561",
-          "title": "Earthquake in Peru",
-          "date": "2026-09-10T10:39:36+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Peru",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1564561&episodeid=1732277&eventtype=EQ"
-        },
-        {
           "id": "TC|1001320",
           "title": "Tropical Cyclone NORBERT-26",
           "date": "2026-09-09T21:00:00+00:00",
@@ -1380,7 +1381,7 @@
           "event_type": "TC",
           "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=3&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=4&eventtype=TC"
         },
         {
           "id": "TC|1001315",
@@ -1390,7 +1391,47 @@
           "event_type": "TC",
           "country": "United States",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=57&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=58&eventtype=TC"
+        },
+        {
+          "id": "EQ|1564592",
+          "title": "Earthquake in Mexico",
+          "date": "2026-09-10T13:29:03+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Mexico",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1564592&episodeid=1732314&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1564589",
+          "title": "Earthquake in South Of Mariana Islands",
+          "date": "2026-09-10T13:28:15+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "South Of Mariana Islands",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1564589&episodeid=1732306&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1564577",
+          "title": "Earthquake in Bolivia",
+          "date": "2026-09-10T12:05:53+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Bolivia",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1564577&episodeid=1732293&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1564561",
+          "title": "Earthquake in Peru",
+          "date": "2026-09-10T10:39:36+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Peru",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1564561&episodeid=1732277&eventtype=EQ"
         },
         {
           "id": "EQ|1564542",
@@ -1411,36 +1452,6 @@
           "country": "Peru",
           "weight": 1.0,
           "url": "https://www.gdacs.org/report.aspx?eventid=1564534&episodeid=1732247&eventtype=EQ"
-        },
-        {
-          "id": "FL|1104147",
-          "title": "Flood in Islamic Republic of Iran",
-          "date": "2026-09-07T01:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "FL",
-          "country": "Islamic Republic of Iran",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1104147&episodeid=3&eventtype=FL"
-        },
-        {
-          "id": "WF|1031869",
-          "title": "Forest fires in Brazil",
-          "date": "2026-09-06T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Brazil",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031869&episodeid=1&eventtype=WF"
-        },
-        {
-          "id": "WF|1031868",
-          "title": "Forest fires in Papua New Guinea",
-          "date": "2026-09-06T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Papua New Guinea",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031868&episodeid=1&eventtype=WF"
         }
       ]
     },
@@ -5674,16 +5685,6 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
     },
     {
-      "id": "EQ|1564561",
-      "title": "Earthquake in Peru",
-      "date": "2026-09-10T10:39:36+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Peru",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1564561&episodeid=1732277&eventtype=EQ"
-    },
-    {
       "id": "TC|1001320",
       "title": "Tropical Cyclone NORBERT-26",
       "date": "2026-09-09T21:00:00+00:00",
@@ -5691,7 +5692,7 @@
       "event_type": "TC",
       "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=3&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=4&eventtype=TC"
     },
     {
       "id": "TC|1001315",
@@ -5701,7 +5702,47 @@
       "event_type": "TC",
       "country": "United States",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=57&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=58&eventtype=TC"
+    },
+    {
+      "id": "EQ|1564592",
+      "title": "Earthquake in Mexico",
+      "date": "2026-09-10T13:29:03+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Mexico",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1564592&episodeid=1732314&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1564589",
+      "title": "Earthquake in South Of Mariana Islands",
+      "date": "2026-09-10T13:28:15+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "South Of Mariana Islands",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1564589&episodeid=1732306&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1564577",
+      "title": "Earthquake in Bolivia",
+      "date": "2026-09-10T12:05:53+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Bolivia",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1564577&episodeid=1732293&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1564561",
+      "title": "Earthquake in Peru",
+      "date": "2026-09-10T10:39:36+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Peru",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1564561&episodeid=1732277&eventtype=EQ"
     },
     {
       "id": "EQ|1564542",
@@ -5722,36 +5763,6 @@
       "country": "Peru",
       "weight": 1.0,
       "url": "https://www.gdacs.org/report.aspx?eventid=1564534&episodeid=1732247&eventtype=EQ"
-    },
-    {
-      "id": "FL|1104147",
-      "title": "Flood in Islamic Republic of Iran",
-      "date": "2026-09-07T01:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "FL",
-      "country": "Islamic Republic of Iran",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1104147&episodeid=3&eventtype=FL"
-    },
-    {
-      "id": "WF|1031869",
-      "title": "Forest fires in Brazil",
-      "date": "2026-09-06T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Brazil",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1031869&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF|1031868",
-      "title": "Forest fires in Papua New Guinea",
-      "date": "2026-09-06T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Papua New Guinea",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1031868&episodeid=1&eventtype=WF"
     },
     {
       "id": "EONET_23452",
