@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-09-11T04:44:32.771097+00:00",
+    "generated": "2026-09-11T11:25:31.760674+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,7 +13,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-11T04:44:32.567643+00:00",
+    "issued_at": "2026-09-11T11:25:31.488840+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 73.8,
@@ -159,10 +159,10 @@
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 181.0,
+        "current_30d_weight": 179.0,
         "baseline_months": 12,
-        "baseline_median": 50.2,
-        "anomaly_z": 2.31,
+        "baseline_median": 46.2,
+        "anomaly_z": 2.62,
         "events_considered": 192,
         "evidence": [
           {
@@ -236,14 +236,14 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
           },
           {
-            "id": "TC|1001315",
-            "title": "Tropical Cyclone LOWELL-26",
-            "date": "2026-08-27T21:00:00+00:00",
+            "id": "EQ|1564755",
+            "title": "Earthquake in Andreanof Islands, Aleutian Is.",
+            "date": "2026-09-11T10:47:12+00:00",
             "alert_level": "Green",
-            "event_type": "TC",
-            "country": "United States",
+            "event_type": "EQ",
+            "country": "Andreanof Islands, Aleutian Is.",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=60&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1564755&episodeid=1732485&eventtype=EQ"
           },
           {
             "id": "TC|1001320",
@@ -253,7 +253,17 @@
             "event_type": "TC",
             "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=6&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=7&eventtype=TC"
+          },
+          {
+            "id": "TC|1001315",
+            "title": "Tropical Cyclone LOWELL-26",
+            "date": "2026-08-27T21:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "United States",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=60&eventtype=TC"
           },
           {
             "id": "EQ|1564711",
@@ -266,54 +276,44 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1564711&episodeid=1732438&eventtype=EQ"
           },
           {
-            "id": "EQ|1564677",
-            "title": "Earthquake in Vanuatu",
-            "date": "2026-09-10T22:54:14+00:00",
+            "id": "FL|1104149",
+            "title": "Flood in France",
+            "date": "2026-09-09T01:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Vanuatu",
+            "event_type": "FL",
+            "country": "France",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1564677&episodeid=1732403&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1104149&episodeid=1&eventtype=FL"
           },
           {
-            "id": "EQ|1564642",
-            "title": "Earthquake in Indonesia",
-            "date": "2026-09-10T18:44:40+00:00",
+            "id": "WF|1031895",
+            "title": "Forest fires in Australia",
+            "date": "2026-09-05T00:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Indonesia",
+            "event_type": "WF",
+            "country": "Australia",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1564642&episodeid=1732369&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1031895&episodeid=1&eventtype=WF"
           },
           {
-            "id": "EQ|1564637",
-            "title": "Earthquake in Southern East Pacific Rise",
-            "date": "2026-09-10T18:21:18+00:00",
+            "id": "WF|1031894",
+            "title": "Forest fires in Brazil",
+            "date": "2026-09-08T00:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Southern East Pacific Rise",
+            "event_type": "WF",
+            "country": "Brazil",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1564637&episodeid=1732363&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1031894&episodeid=2&eventtype=WF"
           },
           {
-            "id": "EQ|1564592",
-            "title": "Earthquake in Mexico",
-            "date": "2026-09-10T13:29:03+00:00",
+            "id": "WF|1031892",
+            "title": "Forest fires in Namibia",
+            "date": "2026-09-09T00:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Mexico",
+            "event_type": "WF",
+            "country": "Namibia",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1564592&episodeid=1732314&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1564589",
-            "title": "Earthquake in South Of Mariana Islands",
-            "date": "2026-09-10T13:28:15+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "South Of Mariana Islands",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1564589&episodeid=1732306&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1031892&episodeid=3&eventtype=WF"
           }
         ],
         "retained": false
@@ -323,9 +323,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 3726.6,
+        "current_30d_weight": 3726.7,
         "baseline_median": 0.0,
-        "anomaly_z": 3726.64,
+        "anomaly_z": 3726.69,
         "events_considered": 1000,
         "evidence": [
           {
@@ -1161,6 +1161,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-09-11T11:25:31.488840+00:00",
+        "score": 73.8,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 100.0,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -1396,14 +1407,14 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
         },
         {
-          "id": "TC|1001315",
-          "title": "Tropical Cyclone LOWELL-26",
-          "date": "2026-08-27T21:00:00+00:00",
+          "id": "EQ|1564755",
+          "title": "Earthquake in Andreanof Islands, Aleutian Is.",
+          "date": "2026-09-11T10:47:12+00:00",
           "alert_level": "Green",
-          "event_type": "TC",
-          "country": "United States",
+          "event_type": "EQ",
+          "country": "Andreanof Islands, Aleutian Is.",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=60&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1564755&episodeid=1732485&eventtype=EQ"
         },
         {
           "id": "TC|1001320",
@@ -1413,7 +1424,17 @@
           "event_type": "TC",
           "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=6&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=7&eventtype=TC"
+        },
+        {
+          "id": "TC|1001315",
+          "title": "Tropical Cyclone LOWELL-26",
+          "date": "2026-08-27T21:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "United States",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=60&eventtype=TC"
         },
         {
           "id": "EQ|1564711",
@@ -1426,54 +1447,44 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1564711&episodeid=1732438&eventtype=EQ"
         },
         {
-          "id": "EQ|1564677",
-          "title": "Earthquake in Vanuatu",
-          "date": "2026-09-10T22:54:14+00:00",
+          "id": "FL|1104149",
+          "title": "Flood in France",
+          "date": "2026-09-09T01:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Vanuatu",
+          "event_type": "FL",
+          "country": "France",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1564677&episodeid=1732403&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1104149&episodeid=1&eventtype=FL"
         },
         {
-          "id": "EQ|1564642",
-          "title": "Earthquake in Indonesia",
-          "date": "2026-09-10T18:44:40+00:00",
+          "id": "WF|1031895",
+          "title": "Forest fires in Australia",
+          "date": "2026-09-05T00:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Indonesia",
+          "event_type": "WF",
+          "country": "Australia",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1564642&episodeid=1732369&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031895&episodeid=1&eventtype=WF"
         },
         {
-          "id": "EQ|1564637",
-          "title": "Earthquake in Southern East Pacific Rise",
-          "date": "2026-09-10T18:21:18+00:00",
+          "id": "WF|1031894",
+          "title": "Forest fires in Brazil",
+          "date": "2026-09-08T00:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Southern East Pacific Rise",
+          "event_type": "WF",
+          "country": "Brazil",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1564637&episodeid=1732363&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031894&episodeid=2&eventtype=WF"
         },
         {
-          "id": "EQ|1564592",
-          "title": "Earthquake in Mexico",
-          "date": "2026-09-10T13:29:03+00:00",
+          "id": "WF|1031892",
+          "title": "Forest fires in Namibia",
+          "date": "2026-09-09T00:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Mexico",
+          "event_type": "WF",
+          "country": "Namibia",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1564592&episodeid=1732314&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1564589",
-          "title": "Earthquake in South Of Mariana Islands",
-          "date": "2026-09-10T13:28:15+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "South Of Mariana Islands",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1564589&episodeid=1732306&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1031892&episodeid=3&eventtype=WF"
         }
       ]
     },
@@ -5707,14 +5718,14 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
     },
     {
-      "id": "TC|1001315",
-      "title": "Tropical Cyclone LOWELL-26",
-      "date": "2026-08-27T21:00:00+00:00",
+      "id": "EQ|1564755",
+      "title": "Earthquake in Andreanof Islands, Aleutian Is.",
+      "date": "2026-09-11T10:47:12+00:00",
       "alert_level": "Green",
-      "event_type": "TC",
-      "country": "United States",
+      "event_type": "EQ",
+      "country": "Andreanof Islands, Aleutian Is.",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=60&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1564755&episodeid=1732485&eventtype=EQ"
     },
     {
       "id": "TC|1001320",
@@ -5724,7 +5735,17 @@
       "event_type": "TC",
       "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=6&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=7&eventtype=TC"
+    },
+    {
+      "id": "TC|1001315",
+      "title": "Tropical Cyclone LOWELL-26",
+      "date": "2026-08-27T21:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "United States",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=60&eventtype=TC"
     },
     {
       "id": "EQ|1564711",
@@ -5737,54 +5758,44 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1564711&episodeid=1732438&eventtype=EQ"
     },
     {
-      "id": "EQ|1564677",
-      "title": "Earthquake in Vanuatu",
-      "date": "2026-09-10T22:54:14+00:00",
+      "id": "FL|1104149",
+      "title": "Flood in France",
+      "date": "2026-09-09T01:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Vanuatu",
+      "event_type": "FL",
+      "country": "France",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1564677&episodeid=1732403&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1104149&episodeid=1&eventtype=FL"
     },
     {
-      "id": "EQ|1564642",
-      "title": "Earthquake in Indonesia",
-      "date": "2026-09-10T18:44:40+00:00",
+      "id": "WF|1031895",
+      "title": "Forest fires in Australia",
+      "date": "2026-09-05T00:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Indonesia",
+      "event_type": "WF",
+      "country": "Australia",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1564642&episodeid=1732369&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1031895&episodeid=1&eventtype=WF"
     },
     {
-      "id": "EQ|1564637",
-      "title": "Earthquake in Southern East Pacific Rise",
-      "date": "2026-09-10T18:21:18+00:00",
+      "id": "WF|1031894",
+      "title": "Forest fires in Brazil",
+      "date": "2026-09-08T00:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Southern East Pacific Rise",
+      "event_type": "WF",
+      "country": "Brazil",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1564637&episodeid=1732363&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1031894&episodeid=2&eventtype=WF"
     },
     {
-      "id": "EQ|1564592",
-      "title": "Earthquake in Mexico",
-      "date": "2026-09-10T13:29:03+00:00",
+      "id": "WF|1031892",
+      "title": "Forest fires in Namibia",
+      "date": "2026-09-09T00:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Mexico",
+      "event_type": "WF",
+      "country": "Namibia",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1564592&episodeid=1732314&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1564589",
-      "title": "Earthquake in South Of Mariana Islands",
-      "date": "2026-09-10T13:28:15+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "South Of Mariana Islands",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1564589&episodeid=1732306&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1031892&episodeid=3&eventtype=WF"
     },
     {
       "id": "EONET_23452",
