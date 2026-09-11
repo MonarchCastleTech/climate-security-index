@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-09-11T11:25:31.760674+00:00",
+    "generated": "2026-09-11T16:30:59.660884+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,7 +13,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-11T11:25:31.488840+00:00",
+    "issued_at": "2026-09-11T16:30:59.434147+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 73.8,
@@ -236,6 +236,26 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
           },
           {
+            "id": "TC|1001320",
+            "title": "Tropical Cyclone NORBERT-26",
+            "date": "2026-09-09T21:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=8&eventtype=TC"
+          },
+          {
+            "id": "EQ|1564759",
+            "title": "Earthquake in Indonesia",
+            "date": "2026-09-11T11:56:23+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Indonesia",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1564759&episodeid=1732490&eventtype=EQ"
+          },
+          {
             "id": "EQ|1564755",
             "title": "Earthquake in Andreanof Islands, Aleutian Is.",
             "date": "2026-09-11T10:47:12+00:00",
@@ -246,14 +266,14 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1564755&episodeid=1732485&eventtype=EQ"
           },
           {
-            "id": "TC|1001320",
-            "title": "Tropical Cyclone NORBERT-26",
-            "date": "2026-09-09T21:00:00+00:00",
+            "id": "EQ|1564742",
+            "title": "Earthquake in United States",
+            "date": "2026-09-11T07:31:45+00:00",
             "alert_level": "Green",
-            "event_type": "TC",
-            "country": "",
+            "event_type": "EQ",
+            "country": "United States",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=7&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1564742&episodeid=1732503&eventtype=EQ"
           },
           {
             "id": "TC|1001315",
@@ -286,34 +306,14 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1104149&episodeid=1&eventtype=FL"
           },
           {
-            "id": "WF|1031895",
-            "title": "Forest fires in Australia",
-            "date": "2026-09-05T00:00:00+00:00",
+            "id": "FL|1104151",
+            "title": "Flood in Spain",
+            "date": "2026-09-09T01:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Australia",
+            "event_type": "FL",
+            "country": "Spain",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1031895&episodeid=1&eventtype=WF"
-          },
-          {
-            "id": "WF|1031894",
-            "title": "Forest fires in Brazil",
-            "date": "2026-09-08T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Brazil",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1031894&episodeid=2&eventtype=WF"
-          },
-          {
-            "id": "WF|1031892",
-            "title": "Forest fires in Namibia",
-            "date": "2026-09-09T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Namibia",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1031892&episodeid=3&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1104151&episodeid=1&eventtype=FL"
           }
         ],
         "retained": false
@@ -323,9 +323,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 3726.7,
+        "current_30d_weight": 3723.3,
         "baseline_median": 0.0,
-        "anomaly_z": 3726.69,
+        "anomaly_z": 3723.27,
         "events_considered": 1000,
         "evidence": [
           {
@@ -1172,6 +1172,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-09-11T16:30:59.434147+00:00",
+        "score": 73.8,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 100.0,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -1407,6 +1418,26 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
         },
         {
+          "id": "TC|1001320",
+          "title": "Tropical Cyclone NORBERT-26",
+          "date": "2026-09-09T21:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=8&eventtype=TC"
+        },
+        {
+          "id": "EQ|1564759",
+          "title": "Earthquake in Indonesia",
+          "date": "2026-09-11T11:56:23+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Indonesia",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1564759&episodeid=1732490&eventtype=EQ"
+        },
+        {
           "id": "EQ|1564755",
           "title": "Earthquake in Andreanof Islands, Aleutian Is.",
           "date": "2026-09-11T10:47:12+00:00",
@@ -1417,14 +1448,14 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1564755&episodeid=1732485&eventtype=EQ"
         },
         {
-          "id": "TC|1001320",
-          "title": "Tropical Cyclone NORBERT-26",
-          "date": "2026-09-09T21:00:00+00:00",
+          "id": "EQ|1564742",
+          "title": "Earthquake in United States",
+          "date": "2026-09-11T07:31:45+00:00",
           "alert_level": "Green",
-          "event_type": "TC",
-          "country": "",
+          "event_type": "EQ",
+          "country": "United States",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=7&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1564742&episodeid=1732503&eventtype=EQ"
         },
         {
           "id": "TC|1001315",
@@ -1457,34 +1488,14 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1104149&episodeid=1&eventtype=FL"
         },
         {
-          "id": "WF|1031895",
-          "title": "Forest fires in Australia",
-          "date": "2026-09-05T00:00:00+00:00",
+          "id": "FL|1104151",
+          "title": "Flood in Spain",
+          "date": "2026-09-09T01:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Australia",
+          "event_type": "FL",
+          "country": "Spain",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031895&episodeid=1&eventtype=WF"
-        },
-        {
-          "id": "WF|1031894",
-          "title": "Forest fires in Brazil",
-          "date": "2026-09-08T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Brazil",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031894&episodeid=2&eventtype=WF"
-        },
-        {
-          "id": "WF|1031892",
-          "title": "Forest fires in Namibia",
-          "date": "2026-09-09T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Namibia",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1031892&episodeid=3&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1104151&episodeid=1&eventtype=FL"
         }
       ]
     },
@@ -5718,6 +5729,26 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
     },
     {
+      "id": "TC|1001320",
+      "title": "Tropical Cyclone NORBERT-26",
+      "date": "2026-09-09T21:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=8&eventtype=TC"
+    },
+    {
+      "id": "EQ|1564759",
+      "title": "Earthquake in Indonesia",
+      "date": "2026-09-11T11:56:23+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Indonesia",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1564759&episodeid=1732490&eventtype=EQ"
+    },
+    {
       "id": "EQ|1564755",
       "title": "Earthquake in Andreanof Islands, Aleutian Is.",
       "date": "2026-09-11T10:47:12+00:00",
@@ -5728,14 +5759,14 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1564755&episodeid=1732485&eventtype=EQ"
     },
     {
-      "id": "TC|1001320",
-      "title": "Tropical Cyclone NORBERT-26",
-      "date": "2026-09-09T21:00:00+00:00",
+      "id": "EQ|1564742",
+      "title": "Earthquake in United States",
+      "date": "2026-09-11T07:31:45+00:00",
       "alert_level": "Green",
-      "event_type": "TC",
-      "country": "",
+      "event_type": "EQ",
+      "country": "United States",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=7&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1564742&episodeid=1732503&eventtype=EQ"
     },
     {
       "id": "TC|1001315",
@@ -5768,34 +5799,14 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1104149&episodeid=1&eventtype=FL"
     },
     {
-      "id": "WF|1031895",
-      "title": "Forest fires in Australia",
-      "date": "2026-09-05T00:00:00+00:00",
+      "id": "FL|1104151",
+      "title": "Flood in Spain",
+      "date": "2026-09-09T01:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Australia",
+      "event_type": "FL",
+      "country": "Spain",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1031895&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF|1031894",
-      "title": "Forest fires in Brazil",
-      "date": "2026-09-08T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Brazil",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1031894&episodeid=2&eventtype=WF"
-    },
-    {
-      "id": "WF|1031892",
-      "title": "Forest fires in Namibia",
-      "date": "2026-09-09T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Namibia",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1031892&episodeid=3&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1104151&episodeid=1&eventtype=FL"
     },
     {
       "id": "EONET_23452",
