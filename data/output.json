@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-09-12T10:50:38.503652+00:00",
+    "generated": "2026-09-12T15:34:05.824616+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,7 +13,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-12T10:50:38.315944+00:00",
+    "issued_at": "2026-09-12T15:34:05.590408+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 73.8,
@@ -236,6 +236,36 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
           },
           {
+            "id": "TC|1001320",
+            "title": "Tropical Cyclone NORBERT-26",
+            "date": "2026-09-09T21:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=12&eventtype=TC"
+          },
+          {
+            "id": "EQ|1564903",
+            "title": "Earthquake in Colombia",
+            "date": "2026-09-12T11:16:12+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Colombia",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1564903&episodeid=1732655&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1564901",
+            "title": "Earthquake in South Sandwich Islands Region",
+            "date": "2026-09-12T11:05:46+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "South Sandwich Islands Region",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1564901&episodeid=1732652&eventtype=EQ"
+          },
+          {
             "id": "EQ|1564888",
             "title": "Earthquake in Vanuatu",
             "date": "2026-09-12T09:35:46+00:00",
@@ -244,16 +274,6 @@
             "country": "Vanuatu",
             "weight": 1.0,
             "url": "https://www.gdacs.org/report.aspx?eventid=1564888&episodeid=1732638&eventtype=EQ"
-          },
-          {
-            "id": "TC|1001320",
-            "title": "Tropical Cyclone NORBERT-26",
-            "date": "2026-09-09T21:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=11&eventtype=TC"
           },
           {
             "id": "EQ|1564885",
@@ -294,26 +314,6 @@
             "country": "Indonesia",
             "weight": 1.0,
             "url": "https://www.gdacs.org/report.aspx?eventid=1564851&episodeid=1732595&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1564841",
-            "title": "Earthquake in Panama",
-            "date": "2026-09-12T01:59:50+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Panama",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1564841&episodeid=1732586&eventtype=EQ"
-          },
-          {
-            "id": "FL|1104152",
-            "title": "Flood in Slovenia",
-            "date": "2026-09-10T01:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "FL",
-            "country": "Slovenia",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1104152&episodeid=1&eventtype=FL"
           }
         ],
         "retained": false
@@ -323,9 +323,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 3723.2,
+        "current_30d_weight": 3725.1,
         "baseline_median": 0.0,
-        "anomaly_z": 3723.25,
+        "anomaly_z": 3725.14,
         "events_considered": 1000,
         "evidence": [
           {
@@ -1216,6 +1216,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-09-12T15:34:05.590408+00:00",
+        "score": 73.8,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 100.0,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -1451,6 +1462,36 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
         },
         {
+          "id": "TC|1001320",
+          "title": "Tropical Cyclone NORBERT-26",
+          "date": "2026-09-09T21:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=12&eventtype=TC"
+        },
+        {
+          "id": "EQ|1564903",
+          "title": "Earthquake in Colombia",
+          "date": "2026-09-12T11:16:12+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Colombia",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1564903&episodeid=1732655&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1564901",
+          "title": "Earthquake in South Sandwich Islands Region",
+          "date": "2026-09-12T11:05:46+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "South Sandwich Islands Region",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1564901&episodeid=1732652&eventtype=EQ"
+        },
+        {
           "id": "EQ|1564888",
           "title": "Earthquake in Vanuatu",
           "date": "2026-09-12T09:35:46+00:00",
@@ -1459,16 +1500,6 @@
           "country": "Vanuatu",
           "weight": 1.0,
           "url": "https://www.gdacs.org/report.aspx?eventid=1564888&episodeid=1732638&eventtype=EQ"
-        },
-        {
-          "id": "TC|1001320",
-          "title": "Tropical Cyclone NORBERT-26",
-          "date": "2026-09-09T21:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=11&eventtype=TC"
         },
         {
           "id": "EQ|1564885",
@@ -1509,26 +1540,6 @@
           "country": "Indonesia",
           "weight": 1.0,
           "url": "https://www.gdacs.org/report.aspx?eventid=1564851&episodeid=1732595&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1564841",
-          "title": "Earthquake in Panama",
-          "date": "2026-09-12T01:59:50+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Panama",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1564841&episodeid=1732586&eventtype=EQ"
-        },
-        {
-          "id": "FL|1104152",
-          "title": "Flood in Slovenia",
-          "date": "2026-09-10T01:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "FL",
-          "country": "Slovenia",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1104152&episodeid=1&eventtype=FL"
         }
       ]
     },
@@ -5762,6 +5773,36 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=5&eventtype=WF"
     },
     {
+      "id": "TC|1001320",
+      "title": "Tropical Cyclone NORBERT-26",
+      "date": "2026-09-09T21:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=12&eventtype=TC"
+    },
+    {
+      "id": "EQ|1564903",
+      "title": "Earthquake in Colombia",
+      "date": "2026-09-12T11:16:12+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Colombia",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1564903&episodeid=1732655&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1564901",
+      "title": "Earthquake in South Sandwich Islands Region",
+      "date": "2026-09-12T11:05:46+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "South Sandwich Islands Region",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1564901&episodeid=1732652&eventtype=EQ"
+    },
+    {
       "id": "EQ|1564888",
       "title": "Earthquake in Vanuatu",
       "date": "2026-09-12T09:35:46+00:00",
@@ -5770,16 +5811,6 @@
       "country": "Vanuatu",
       "weight": 1.0,
       "url": "https://www.gdacs.org/report.aspx?eventid=1564888&episodeid=1732638&eventtype=EQ"
-    },
-    {
-      "id": "TC|1001320",
-      "title": "Tropical Cyclone NORBERT-26",
-      "date": "2026-09-09T21:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=11&eventtype=TC"
     },
     {
       "id": "EQ|1564885",
@@ -5820,26 +5851,6 @@
       "country": "Indonesia",
       "weight": 1.0,
       "url": "https://www.gdacs.org/report.aspx?eventid=1564851&episodeid=1732595&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1564841",
-      "title": "Earthquake in Panama",
-      "date": "2026-09-12T01:59:50+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Panama",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1564841&episodeid=1732586&eventtype=EQ"
-    },
-    {
-      "id": "FL|1104152",
-      "title": "Flood in Slovenia",
-      "date": "2026-09-10T01:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "FL",
-      "country": "Slovenia",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1104152&episodeid=1&eventtype=FL"
     },
     {
       "id": "EONET_23452",
