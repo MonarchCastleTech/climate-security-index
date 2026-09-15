@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-09-14T21:51:46.310511+00:00",
+    "generated": "2026-09-15T04:57:56.573081+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,7 +13,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-14T21:51:46.066223+00:00",
+    "issued_at": "2026-09-15T04:57:56.354694+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 73.8,
@@ -33,88 +33,88 @@
             "lat": 14.5,
             "lon": -1.5,
             "score": 100.0,
-            "rain_30d_mm": 55.7,
-            "rain_ratio": 0.39,
-            "max_temp_c": 39.3,
-            "heat_anomaly_c": 7.0,
-            "observed_through": "2026-09-12"
+            "rain_30d_mm": 53.6,
+            "rain_ratio": 0.38,
+            "max_temp_c": 39.5,
+            "heat_anomaly_c": 7.1,
+            "observed_through": "2026-09-13"
           },
           {
             "name": "Lake Chad basin",
             "lat": 12.5,
             "lon": 14.5,
             "score": 100.0,
-            "rain_30d_mm": 89.8,
-            "rain_ratio": 0.38,
+            "rain_30d_mm": 86.7,
+            "rain_ratio": 0.37,
             "max_temp_c": 37.3,
             "heat_anomaly_c": 6.0,
-            "observed_through": "2026-09-12"
+            "observed_through": "2026-09-13"
           },
           {
             "name": "Sudan grain belt",
             "lat": 13.5,
             "lon": 33.5,
             "score": 100.0,
-            "rain_30d_mm": 97.6,
+            "rain_30d_mm": 99.3,
             "rain_ratio": 0.49,
-            "max_temp_c": 37.5,
+            "max_temp_c": 37.6,
             "heat_anomaly_c": 8.6,
-            "observed_through": "2026-09-12"
+            "observed_through": "2026-09-13"
           },
           {
             "name": "Pakistan Indus",
             "lat": 29.0,
             "lon": 70.5,
             "score": 100.0,
-            "rain_30d_mm": 5.4,
+            "rain_30d_mm": 5.5,
             "rain_ratio": 0.08,
-            "max_temp_c": 43.4,
-            "heat_anomaly_c": 4.3,
-            "observed_through": "2026-09-12"
+            "max_temp_c": 43.3,
+            "heat_anomaly_c": 4.2,
+            "observed_through": "2026-09-13"
           },
           {
             "name": "Ethiopia lowlands",
             "lat": 8.0,
             "lon": 40.0,
-            "score": 87.5,
-            "rain_30d_mm": 64.5,
-            "rain_ratio": 0.39,
+            "score": 87.1,
+            "rain_30d_mm": 65.8,
+            "rain_ratio": 0.4,
             "max_temp_c": 27.9,
             "heat_anomaly_c": 4.5,
-            "observed_through": "2026-09-12"
+            "observed_through": "2026-09-13"
           },
           {
             "name": "Afghanistan drylands",
             "lat": 34.0,
             "lon": 65.0,
-            "score": 75.6,
+            "score": 76.0,
             "rain_30d_mm": 0.0,
             "rain_ratio": 0.0,
-            "max_temp_c": 26.8,
+            "max_temp_c": 26.7,
             "heat_anomaly_c": 0.6,
-            "observed_through": "2026-09-12"
+            "observed_through": "2026-09-13"
           },
           {
             "name": "Central America dry corridor",
             "lat": 14.0,
             "lon": -88.5,
-            "score": 45.0,
-            "rain_30d_mm": 152.7,
+            "score": 45.4,
+            "rain_30d_mm": 153.4,
             "rain_ratio": 0.76,
             "max_temp_c": 31.8,
             "heat_anomaly_c": 2.8,
-            "observed_through": "2026-09-12"
+            "observed_through": "2026-09-13"
           },
           {
             "name": "Somalia pastoral belt",
             "lat": 5.0,
             "lon": 45.3,
-            "score": 0.7,
-            "rain_30d_mm": 11.5,
-            "rain_ratio": 1.2,
-            "max_temp_c": 35.7,
+            "score": 0.8,
+            "rain_30d_mm": 11.6,
+            "rain_ratio": 1.25,
+            "max_temp_c": 35.8,
             "heat_anomaly_c": 0.1,
-            "observed_through": "2026-09-12"
+            "observed_through": "2026-09-13"
           }
         ],
         "evidence": [
@@ -123,33 +123,33 @@
             "lat": 14.5,
             "lon": -1.5,
             "score": 100.0,
-            "rain_30d_mm": 55.7,
-            "rain_ratio": 0.39,
-            "max_temp_c": 39.3,
-            "heat_anomaly_c": 7.0,
-            "observed_through": "2026-09-12"
+            "rain_30d_mm": 53.6,
+            "rain_ratio": 0.38,
+            "max_temp_c": 39.5,
+            "heat_anomaly_c": 7.1,
+            "observed_through": "2026-09-13"
           },
           {
             "name": "Lake Chad basin",
             "lat": 12.5,
             "lon": 14.5,
             "score": 100.0,
-            "rain_30d_mm": 89.8,
-            "rain_ratio": 0.38,
+            "rain_30d_mm": 86.7,
+            "rain_ratio": 0.37,
             "max_temp_c": 37.3,
             "heat_anomaly_c": 6.0,
-            "observed_through": "2026-09-12"
+            "observed_through": "2026-09-13"
           },
           {
             "name": "Sudan grain belt",
             "lat": 13.5,
             "lon": 33.5,
             "score": 100.0,
-            "rain_30d_mm": 97.6,
+            "rain_30d_mm": 99.3,
             "rain_ratio": 0.49,
-            "max_temp_c": 37.5,
+            "max_temp_c": 37.6,
             "heat_anomaly_c": 8.6,
-            "observed_through": "2026-09-12"
+            "observed_through": "2026-09-13"
           }
         ],
         "retained": false
@@ -323,9 +323,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 3723.8,
+        "current_30d_weight": 3723.7,
         "baseline_median": 0.0,
-        "anomaly_z": 3723.77,
+        "anomaly_z": 3723.73,
         "events_considered": 1000,
         "evidence": [
           {
@@ -1315,6 +1315,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-09-15T04:57:56.354694+00:00",
+        "score": 73.8,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 100.0,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -1388,88 +1399,88 @@
           "lat": 14.5,
           "lon": -1.5,
           "score": 100.0,
-          "rain_30d_mm": 55.7,
-          "rain_ratio": 0.39,
-          "max_temp_c": 39.3,
-          "heat_anomaly_c": 7.0,
-          "observed_through": "2026-09-12"
+          "rain_30d_mm": 53.6,
+          "rain_ratio": 0.38,
+          "max_temp_c": 39.5,
+          "heat_anomaly_c": 7.1,
+          "observed_through": "2026-09-13"
         },
         {
           "name": "Lake Chad basin",
           "lat": 12.5,
           "lon": 14.5,
           "score": 100.0,
-          "rain_30d_mm": 89.8,
-          "rain_ratio": 0.38,
+          "rain_30d_mm": 86.7,
+          "rain_ratio": 0.37,
           "max_temp_c": 37.3,
           "heat_anomaly_c": 6.0,
-          "observed_through": "2026-09-12"
+          "observed_through": "2026-09-13"
         },
         {
           "name": "Sudan grain belt",
           "lat": 13.5,
           "lon": 33.5,
           "score": 100.0,
-          "rain_30d_mm": 97.6,
+          "rain_30d_mm": 99.3,
           "rain_ratio": 0.49,
-          "max_temp_c": 37.5,
+          "max_temp_c": 37.6,
           "heat_anomaly_c": 8.6,
-          "observed_through": "2026-09-12"
+          "observed_through": "2026-09-13"
         },
         {
           "name": "Pakistan Indus",
           "lat": 29.0,
           "lon": 70.5,
           "score": 100.0,
-          "rain_30d_mm": 5.4,
+          "rain_30d_mm": 5.5,
           "rain_ratio": 0.08,
-          "max_temp_c": 43.4,
-          "heat_anomaly_c": 4.3,
-          "observed_through": "2026-09-12"
+          "max_temp_c": 43.3,
+          "heat_anomaly_c": 4.2,
+          "observed_through": "2026-09-13"
         },
         {
           "name": "Ethiopia lowlands",
           "lat": 8.0,
           "lon": 40.0,
-          "score": 87.5,
-          "rain_30d_mm": 64.5,
-          "rain_ratio": 0.39,
+          "score": 87.1,
+          "rain_30d_mm": 65.8,
+          "rain_ratio": 0.4,
           "max_temp_c": 27.9,
           "heat_anomaly_c": 4.5,
-          "observed_through": "2026-09-12"
+          "observed_through": "2026-09-13"
         },
         {
           "name": "Afghanistan drylands",
           "lat": 34.0,
           "lon": 65.0,
-          "score": 75.6,
+          "score": 76.0,
           "rain_30d_mm": 0.0,
           "rain_ratio": 0.0,
-          "max_temp_c": 26.8,
+          "max_temp_c": 26.7,
           "heat_anomaly_c": 0.6,
-          "observed_through": "2026-09-12"
+          "observed_through": "2026-09-13"
         },
         {
           "name": "Central America dry corridor",
           "lat": 14.0,
           "lon": -88.5,
-          "score": 45.0,
-          "rain_30d_mm": 152.7,
+          "score": 45.4,
+          "rain_30d_mm": 153.4,
           "rain_ratio": 0.76,
           "max_temp_c": 31.8,
           "heat_anomaly_c": 2.8,
-          "observed_through": "2026-09-12"
+          "observed_through": "2026-09-13"
         },
         {
           "name": "Somalia pastoral belt",
           "lat": 5.0,
           "lon": 45.3,
-          "score": 0.7,
-          "rain_30d_mm": 11.5,
-          "rain_ratio": 1.2,
-          "max_temp_c": 35.7,
+          "score": 0.8,
+          "rain_30d_mm": 11.6,
+          "rain_ratio": 1.25,
+          "max_temp_c": 35.8,
           "heat_anomaly_c": 0.1,
-          "observed_through": "2026-09-12"
+          "observed_through": "2026-09-13"
         }
       ]
     },
@@ -5762,33 +5773,33 @@
       "lat": 14.5,
       "lon": -1.5,
       "score": 100.0,
-      "rain_30d_mm": 55.7,
-      "rain_ratio": 0.39,
-      "max_temp_c": 39.3,
-      "heat_anomaly_c": 7.0,
-      "observed_through": "2026-09-12"
+      "rain_30d_mm": 53.6,
+      "rain_ratio": 0.38,
+      "max_temp_c": 39.5,
+      "heat_anomaly_c": 7.1,
+      "observed_through": "2026-09-13"
     },
     {
       "name": "Lake Chad basin",
       "lat": 12.5,
       "lon": 14.5,
       "score": 100.0,
-      "rain_30d_mm": 89.8,
-      "rain_ratio": 0.38,
+      "rain_30d_mm": 86.7,
+      "rain_ratio": 0.37,
       "max_temp_c": 37.3,
       "heat_anomaly_c": 6.0,
-      "observed_through": "2026-09-12"
+      "observed_through": "2026-09-13"
     },
     {
       "name": "Sudan grain belt",
       "lat": 13.5,
       "lon": 33.5,
       "score": 100.0,
-      "rain_30d_mm": 97.6,
+      "rain_30d_mm": 99.3,
       "rain_ratio": 0.49,
-      "max_temp_c": 37.5,
+      "max_temp_c": 37.6,
       "heat_anomaly_c": 8.6,
-      "observed_through": "2026-09-12"
+      "observed_through": "2026-09-13"
     },
     {
       "id": "FL|1104124",
