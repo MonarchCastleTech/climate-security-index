@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-09-17T17:02:12.376063+00:00",
+    "generated": "2026-09-17T21:25:02.248134+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,7 +13,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-17T17:02:12.189825+00:00",
+    "issued_at": "2026-09-17T21:25:02.015393+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 73.8,
@@ -216,6 +216,36 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1104151&episodeid=3&eventtype=FL"
           },
           {
+            "id": "EQ|1566717",
+            "title": "Earthquake in Northern Mid-Atlantic Ridge",
+            "date": "2026-09-17T19:19:06+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Northern Mid-Atlantic Ridge",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1566717&episodeid=1734556&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1566714",
+            "title": "Earthquake in Indonesia",
+            "date": "2026-09-17T19:17:33+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Indonesia",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1566714&episodeid=1734559&eventtype=EQ"
+          },
+          {
+            "id": "TC|1001322",
+            "title": "Tropical Cyclone DUJUAN-26",
+            "date": "2026-09-15T12:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "Japan",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001322&episodeid=10&eventtype=TC"
+          },
+          {
             "id": "EQ|1566678",
             "title": "Earthquake in Fox Islands, Aleutian Islands",
             "date": "2026-09-17T14:19:52+00:00",
@@ -234,16 +264,6 @@
             "country": "Russia",
             "weight": 1.0,
             "url": "https://www.gdacs.org/report.aspx?eventid=1566661&episodeid=1734511&eventtype=EQ"
-          },
-          {
-            "id": "TC|1001322",
-            "title": "Tropical Cyclone DUJUAN-26",
-            "date": "2026-09-15T12:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "Japan",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001322&episodeid=9&eventtype=TC"
           },
           {
             "id": "EQ|1566624",
@@ -294,26 +314,6 @@
             "country": "Northern Molucca Sea",
             "weight": 1.0,
             "url": "https://www.gdacs.org/report.aspx?eventid=1566609&episodeid=1734436&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1566608",
-            "title": "Earthquake in Guatemala",
-            "date": "2026-09-17T05:24:31+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Guatemala",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1566608&episodeid=1734459&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1566600",
-            "title": "Earthquake in Tonga",
-            "date": "2026-09-17T04:06:53+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Tonga",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1566600&episodeid=1734426&eventtype=EQ"
           }
         ],
         "retained": false
@@ -323,9 +323,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 3736.1,
+        "current_30d_weight": 3729.8,
         "baseline_median": 0.0,
-        "anomaly_z": 3736.1,
+        "anomaly_z": 3729.82,
         "events_considered": 1000,
         "evidence": [
           {
@@ -357,6 +357,26 @@
             ],
             "weight": 4.5,
             "url": "https://irwin.doi.gov/observer/incidents/2026-IDTFD-000216"
+          },
+          {
+            "id": "EONET_24487",
+            "title": "Wildfire Davis Coulee, Big Horn, Montana",
+            "date": "2026-09-14T11:43:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.4,
+            "url": "https://irwin.doi.gov/observer/incidents/2026-MTCRA-261393"
+          },
+          {
+            "id": "EONET_24498",
+            "title": "Wildfire Star Lake, Jefferson, Texas",
+            "date": "2026-09-11T19:36:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.4,
+            "url": "https://irwin.doi.gov/observer/incidents/2026-TXMCR-000378"
           },
           {
             "id": "EONET_24095",
@@ -409,16 +429,6 @@
             "url": "https://irwin.doi.gov/observer/incidents/2026-NVTMFX-030739"
           },
           {
-            "id": "EONET_23224",
-            "title": "Wildfire Chipmunk, Miami-Dade, Florida",
-            "date": "2026-08-21T15:40:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.4,
-            "url": "https://irwin.doi.gov/observer/incidents/2026-FLEVP-002565"
-          },
-          {
             "id": "EONET_24325",
             "title": "Wildfire in Australia 1032001",
             "date": "2026-09-14T19:00:00+00:00",
@@ -467,16 +477,6 @@
             ],
             "weight": 4.3,
             "url": "https://irwin.doi.gov/observer/incidents/2026-NVHTF-020624"
-          },
-          {
-            "id": "EONET_23663",
-            "title": "Wildfire Blue Eagle, Churchill, Nevada",
-            "date": "2026-08-25T14:39:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.3,
-            "url": "https://irwin.doi.gov/observer/incidents/2026-NVCCD-030758"
           }
         ],
         "retained": false
@@ -1436,6 +1436,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-09-17T21:25:02.015393+00:00",
+        "score": 73.8,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 100.0,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -1651,6 +1662,36 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1104151&episodeid=3&eventtype=FL"
         },
         {
+          "id": "EQ|1566717",
+          "title": "Earthquake in Northern Mid-Atlantic Ridge",
+          "date": "2026-09-17T19:19:06+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Northern Mid-Atlantic Ridge",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1566717&episodeid=1734556&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1566714",
+          "title": "Earthquake in Indonesia",
+          "date": "2026-09-17T19:17:33+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Indonesia",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1566714&episodeid=1734559&eventtype=EQ"
+        },
+        {
+          "id": "TC|1001322",
+          "title": "Tropical Cyclone DUJUAN-26",
+          "date": "2026-09-15T12:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "Japan",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001322&episodeid=10&eventtype=TC"
+        },
+        {
           "id": "EQ|1566678",
           "title": "Earthquake in Fox Islands, Aleutian Islands",
           "date": "2026-09-17T14:19:52+00:00",
@@ -1669,16 +1710,6 @@
           "country": "Russia",
           "weight": 1.0,
           "url": "https://www.gdacs.org/report.aspx?eventid=1566661&episodeid=1734511&eventtype=EQ"
-        },
-        {
-          "id": "TC|1001322",
-          "title": "Tropical Cyclone DUJUAN-26",
-          "date": "2026-09-15T12:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "Japan",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001322&episodeid=9&eventtype=TC"
         },
         {
           "id": "EQ|1566624",
@@ -1729,26 +1760,6 @@
           "country": "Northern Molucca Sea",
           "weight": 1.0,
           "url": "https://www.gdacs.org/report.aspx?eventid=1566609&episodeid=1734436&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1566608",
-          "title": "Earthquake in Guatemala",
-          "date": "2026-09-17T05:24:31+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Guatemala",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1566608&episodeid=1734459&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1566600",
-          "title": "Earthquake in Tonga",
-          "date": "2026-09-17T04:06:53+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Tonga",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1566600&episodeid=1734426&eventtype=EQ"
         }
       ]
     },
@@ -1787,6 +1798,26 @@
           ],
           "weight": 4.5,
           "url": "https://irwin.doi.gov/observer/incidents/2026-IDTFD-000216"
+        },
+        {
+          "id": "EONET_24487",
+          "title": "Wildfire Davis Coulee, Big Horn, Montana",
+          "date": "2026-09-14T11:43:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.4,
+          "url": "https://irwin.doi.gov/observer/incidents/2026-MTCRA-261393"
+        },
+        {
+          "id": "EONET_24498",
+          "title": "Wildfire Star Lake, Jefferson, Texas",
+          "date": "2026-09-11T19:36:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.4,
+          "url": "https://irwin.doi.gov/observer/incidents/2026-TXMCR-000378"
         },
         {
           "id": "EONET_24095",
@@ -1839,16 +1870,6 @@
           "url": "https://irwin.doi.gov/observer/incidents/2026-NVTMFX-030739"
         },
         {
-          "id": "EONET_23224",
-          "title": "Wildfire Chipmunk, Miami-Dade, Florida",
-          "date": "2026-08-21T15:40:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.4,
-          "url": "https://irwin.doi.gov/observer/incidents/2026-FLEVP-002565"
-        },
-        {
           "id": "EONET_24325",
           "title": "Wildfire in Australia 1032001",
           "date": "2026-09-14T19:00:00+00:00",
@@ -1897,16 +1918,6 @@
           ],
           "weight": 4.3,
           "url": "https://irwin.doi.gov/observer/incidents/2026-NVHTF-020624"
-        },
-        {
-          "id": "EONET_23663",
-          "title": "Wildfire Blue Eagle, Churchill, Nevada",
-          "date": "2026-08-25T14:39:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.3,
-          "url": "https://irwin.doi.gov/observer/incidents/2026-NVCCD-030758"
         }
       ]
     },
@@ -5962,6 +5973,36 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1104151&episodeid=3&eventtype=FL"
     },
     {
+      "id": "EQ|1566717",
+      "title": "Earthquake in Northern Mid-Atlantic Ridge",
+      "date": "2026-09-17T19:19:06+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Northern Mid-Atlantic Ridge",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1566717&episodeid=1734556&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1566714",
+      "title": "Earthquake in Indonesia",
+      "date": "2026-09-17T19:17:33+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Indonesia",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1566714&episodeid=1734559&eventtype=EQ"
+    },
+    {
+      "id": "TC|1001322",
+      "title": "Tropical Cyclone DUJUAN-26",
+      "date": "2026-09-15T12:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "Japan",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001322&episodeid=10&eventtype=TC"
+    },
+    {
       "id": "EQ|1566678",
       "title": "Earthquake in Fox Islands, Aleutian Islands",
       "date": "2026-09-17T14:19:52+00:00",
@@ -5980,16 +6021,6 @@
       "country": "Russia",
       "weight": 1.0,
       "url": "https://www.gdacs.org/report.aspx?eventid=1566661&episodeid=1734511&eventtype=EQ"
-    },
-    {
-      "id": "TC|1001322",
-      "title": "Tropical Cyclone DUJUAN-26",
-      "date": "2026-09-15T12:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "Japan",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001322&episodeid=9&eventtype=TC"
     },
     {
       "id": "EQ|1566624",
@@ -6042,26 +6073,6 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1566609&episodeid=1734436&eventtype=EQ"
     },
     {
-      "id": "EQ|1566608",
-      "title": "Earthquake in Guatemala",
-      "date": "2026-09-17T05:24:31+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Guatemala",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1566608&episodeid=1734459&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1566600",
-      "title": "Earthquake in Tonga",
-      "date": "2026-09-17T04:06:53+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Tonga",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1566600&episodeid=1734426&eventtype=EQ"
-    },
-    {
       "id": "EONET_23452",
       "title": "Wildfire Ross, Palo Pinto, Texas",
       "date": "2026-08-24T14:12:00+00:00",
@@ -6090,6 +6101,26 @@
       ],
       "weight": 4.5,
       "url": "https://irwin.doi.gov/observer/incidents/2026-IDTFD-000216"
+    },
+    {
+      "id": "EONET_24487",
+      "title": "Wildfire Davis Coulee, Big Horn, Montana",
+      "date": "2026-09-14T11:43:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.4,
+      "url": "https://irwin.doi.gov/observer/incidents/2026-MTCRA-261393"
+    },
+    {
+      "id": "EONET_24498",
+      "title": "Wildfire Star Lake, Jefferson, Texas",
+      "date": "2026-09-11T19:36:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.4,
+      "url": "https://irwin.doi.gov/observer/incidents/2026-TXMCR-000378"
     },
     {
       "id": "EONET_24095",
@@ -6142,16 +6173,6 @@
       "url": "https://irwin.doi.gov/observer/incidents/2026-NVTMFX-030739"
     },
     {
-      "id": "EONET_23224",
-      "title": "Wildfire Chipmunk, Miami-Dade, Florida",
-      "date": "2026-08-21T15:40:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.4,
-      "url": "https://irwin.doi.gov/observer/incidents/2026-FLEVP-002565"
-    },
-    {
       "id": "EONET_24325",
       "title": "Wildfire in Australia 1032001",
       "date": "2026-09-14T19:00:00+00:00",
@@ -6170,16 +6191,6 @@
       ],
       "weight": 4.3,
       "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031985"
-    },
-    {
-      "id": "EONET_24138",
-      "title": "Wildfire in Angola 1031805",
-      "date": "2026-08-30T19:00:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.3,
-      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031805"
     }
   ]
 }
