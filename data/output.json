@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-09-17T11:45:33.701265+00:00",
+    "generated": "2026-09-17T17:02:12.376063+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,7 +13,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-17T11:45:33.456300+00:00",
+    "issued_at": "2026-09-17T17:02:12.189825+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 73.8,
@@ -159,10 +159,10 @@
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 137.0,
+        "current_30d_weight": 144.0,
         "baseline_months": 12,
-        "baseline_median": 46.9,
-        "anomaly_z": 3.11,
+        "baseline_median": 46.4,
+        "anomaly_z": 3.07,
         "events_considered": 191,
         "evidence": [
           {
@@ -174,16 +174,6 @@
             "country": "Nepal",
             "weight": 20.0,
             "url": "https://www.gdacs.org/report.aspx?eventid=1104124&episodeid=1&eventtype=FL"
-          },
-          {
-            "id": "TC|1001305",
-            "title": "Tropical Cyclone SAUDEL-26",
-            "date": "2026-08-18T12:00:00+00:00",
-            "alert_level": "Orange",
-            "event_type": "TC",
-            "country": "Japan, China, Northern Mariana Islands",
-            "weight": 9.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=47&eventtype=TC"
           },
           {
             "id": "VO|1000148",
@@ -216,104 +206,114 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1104123&episodeid=4&eventtype=FL"
           },
           {
-            "id": "EQ|1565245",
-            "title": "Earthquake in Colombia",
-            "date": "2026-09-14T20:02:04+00:00",
+            "id": "FL|1104151",
+            "title": "Flood in Spain",
+            "date": "2026-09-09T01:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Colombia",
+            "event_type": "FL",
+            "country": "Spain",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1565245&episodeid=1733032&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1104151&episodeid=3&eventtype=FL"
           },
           {
-            "id": "EQ|1565242",
-            "title": "Earthquake in Peru",
-            "date": "2026-09-14T19:16:49+00:00",
+            "id": "EQ|1566678",
+            "title": "Earthquake in Fox Islands, Aleutian Islands",
+            "date": "2026-09-17T14:19:52+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Peru",
+            "country": "Fox Islands, Aleutian Islands",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1565242&episodeid=1733027&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1566678&episodeid=1734522&eventtype=EQ"
           },
           {
-            "id": "EQ|1565239",
-            "title": "Earthquake in Indonesia",
-            "date": "2026-09-14T17:55:15+00:00",
+            "id": "EQ|1566661",
+            "title": "Earthquake in Russia",
+            "date": "2026-09-17T13:30:49+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Indonesia",
+            "country": "Russia",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1565239&episodeid=1733021&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1566661&episodeid=1734511&eventtype=EQ"
           },
           {
-            "id": "EQ|1565232",
-            "title": "Earthquake in Solomon Islands",
-            "date": "2026-09-14T16:15:05+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Solomon Islands",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1565232&episodeid=1733013&eventtype=EQ"
-          },
-          {
-            "id": "TC|1001321",
-            "title": "Tropical Cyclone FIFTEEN-E-26",
-            "date": "2026-09-13T21:00:00+00:00",
+            "id": "TC|1001322",
+            "title": "Tropical Cyclone DUJUAN-26",
+            "date": "2026-09-15T12:00:00+00:00",
             "alert_level": "Green",
             "event_type": "TC",
-            "country": "",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=4&eventtype=TC"
-          },
-          {
-            "id": "TC|1001320",
-            "title": "Tropical Cyclone NORBERT-26",
-            "date": "2026-09-09T21:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=20&eventtype=TC"
-          },
-          {
-            "id": "EQ|1565204",
-            "title": "Earthquake in Japan",
-            "date": "2026-09-14T10:59:54+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
             "country": "Japan",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1565204&episodeid=1732985&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001322&episodeid=9&eventtype=TC"
           },
           {
-            "id": "EQ|1565203",
+            "id": "EQ|1566624",
             "title": "Earthquake in Indonesia",
-            "date": "2026-09-14T10:58:03+00:00",
+            "date": "2026-09-17T08:28:25+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
             "country": "Indonesia",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1565203&episodeid=1732984&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1566624&episodeid=1734464&eventtype=EQ"
           },
           {
-            "id": "EQ|1565193",
-            "title": "Earthquake in South Of Java, Indonesia",
-            "date": "2026-09-14T09:27:38+00:00",
+            "id": "EQ|1566614",
+            "title": "Earthquake in South Atlantic Ocean",
+            "date": "2026-09-17T06:48:41+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "South Of Java, Indonesia",
+            "country": "South Atlantic Ocean",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1565193&episodeid=1732972&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1566614&episodeid=1734443&eventtype=EQ"
           },
           {
-            "id": "EQ|1565181",
-            "title": "Earthquake in Off East Coast Of Honshu, Japan",
-            "date": "2026-09-14T07:33:04+00:00",
+            "id": "EQ|1566612",
+            "title": "Earthquake in Samoa Islands Region",
+            "date": "2026-09-17T06:42:41+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Off East Coast Of Honshu, Japan",
+            "country": "Samoa Islands Region",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1565181&episodeid=1732963&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1566612&episodeid=1734442&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1566611",
+            "title": "Earthquake in Vanuatu",
+            "date": "2026-09-17T06:32:13+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Vanuatu",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1566611&episodeid=1734439&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1566609",
+            "title": "Earthquake in Northern Molucca Sea",
+            "date": "2026-09-17T06:20:48+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Northern Molucca Sea",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1566609&episodeid=1734436&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1566608",
+            "title": "Earthquake in Guatemala",
+            "date": "2026-09-17T05:24:31+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Guatemala",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1566608&episodeid=1734459&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1566600",
+            "title": "Earthquake in Tonga",
+            "date": "2026-09-17T04:06:53+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Tonga",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1566600&episodeid=1734426&eventtype=EQ"
           }
         ],
         "retained": false
@@ -323,9 +323,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 3720.9,
+        "current_30d_weight": 3736.1,
         "baseline_median": 0.0,
-        "anomaly_z": 3720.85,
+        "anomaly_z": 3736.1,
         "events_considered": 1000,
         "evidence": [
           {
@@ -419,6 +419,26 @@
             "url": "https://irwin.doi.gov/observer/incidents/2026-FLEVP-002565"
           },
           {
+            "id": "EONET_24325",
+            "title": "Wildfire in Australia 1032001",
+            "date": "2026-09-14T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.3,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032001"
+          },
+          {
+            "id": "EONET_24469",
+            "title": "Wildfire in Mozambique 1031985",
+            "date": "2026-09-02T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.3,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031985"
+          },
+          {
             "id": "EONET_24138",
             "title": "Wildfire in Angola 1031805",
             "date": "2026-08-30T19:00:00+00:00",
@@ -457,26 +477,6 @@
             ],
             "weight": 4.3,
             "url": "https://irwin.doi.gov/observer/incidents/2026-NVCCD-030758"
-          },
-          {
-            "id": "EONET_23994",
-            "title": "Wildfire in Mozambique 1031654",
-            "date": "2026-08-24T19:00:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.3,
-            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031654"
-          },
-          {
-            "id": "EONET_23458",
-            "title": "Wildfire Oxley, Elko, Nevada",
-            "date": "2026-08-24T14:12:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.3,
-            "url": "https://irwin.doi.gov/observer/incidents/2026-NVEKD-010515"
           }
         ],
         "retained": false
@@ -1425,6 +1425,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-09-17T17:02:12.189825+00:00",
+        "score": 73.8,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 100.0,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -1600,16 +1611,6 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1104124&episodeid=1&eventtype=FL"
         },
         {
-          "id": "TC|1001305",
-          "title": "Tropical Cyclone SAUDEL-26",
-          "date": "2026-08-18T12:00:00+00:00",
-          "alert_level": "Orange",
-          "event_type": "TC",
-          "country": "Japan, China, Northern Mariana Islands",
-          "weight": 9.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=47&eventtype=TC"
-        },
-        {
           "id": "VO|1000148",
           "title": "Eruption  Krakatau",
           "date": "2026-09-04T21:00:00+00:00",
@@ -1640,104 +1641,114 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1104123&episodeid=4&eventtype=FL"
         },
         {
-          "id": "EQ|1565245",
-          "title": "Earthquake in Colombia",
-          "date": "2026-09-14T20:02:04+00:00",
+          "id": "FL|1104151",
+          "title": "Flood in Spain",
+          "date": "2026-09-09T01:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Colombia",
+          "event_type": "FL",
+          "country": "Spain",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1565245&episodeid=1733032&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1104151&episodeid=3&eventtype=FL"
         },
         {
-          "id": "EQ|1565242",
-          "title": "Earthquake in Peru",
-          "date": "2026-09-14T19:16:49+00:00",
+          "id": "EQ|1566678",
+          "title": "Earthquake in Fox Islands, Aleutian Islands",
+          "date": "2026-09-17T14:19:52+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Peru",
+          "country": "Fox Islands, Aleutian Islands",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1565242&episodeid=1733027&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1566678&episodeid=1734522&eventtype=EQ"
         },
         {
-          "id": "EQ|1565239",
-          "title": "Earthquake in Indonesia",
-          "date": "2026-09-14T17:55:15+00:00",
+          "id": "EQ|1566661",
+          "title": "Earthquake in Russia",
+          "date": "2026-09-17T13:30:49+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Indonesia",
+          "country": "Russia",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1565239&episodeid=1733021&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1566661&episodeid=1734511&eventtype=EQ"
         },
         {
-          "id": "EQ|1565232",
-          "title": "Earthquake in Solomon Islands",
-          "date": "2026-09-14T16:15:05+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Solomon Islands",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1565232&episodeid=1733013&eventtype=EQ"
-        },
-        {
-          "id": "TC|1001321",
-          "title": "Tropical Cyclone FIFTEEN-E-26",
-          "date": "2026-09-13T21:00:00+00:00",
+          "id": "TC|1001322",
+          "title": "Tropical Cyclone DUJUAN-26",
+          "date": "2026-09-15T12:00:00+00:00",
           "alert_level": "Green",
           "event_type": "TC",
-          "country": "",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=4&eventtype=TC"
-        },
-        {
-          "id": "TC|1001320",
-          "title": "Tropical Cyclone NORBERT-26",
-          "date": "2026-09-09T21:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=20&eventtype=TC"
-        },
-        {
-          "id": "EQ|1565204",
-          "title": "Earthquake in Japan",
-          "date": "2026-09-14T10:59:54+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
           "country": "Japan",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1565204&episodeid=1732985&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001322&episodeid=9&eventtype=TC"
         },
         {
-          "id": "EQ|1565203",
+          "id": "EQ|1566624",
           "title": "Earthquake in Indonesia",
-          "date": "2026-09-14T10:58:03+00:00",
+          "date": "2026-09-17T08:28:25+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
           "country": "Indonesia",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1565203&episodeid=1732984&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1566624&episodeid=1734464&eventtype=EQ"
         },
         {
-          "id": "EQ|1565193",
-          "title": "Earthquake in South Of Java, Indonesia",
-          "date": "2026-09-14T09:27:38+00:00",
+          "id": "EQ|1566614",
+          "title": "Earthquake in South Atlantic Ocean",
+          "date": "2026-09-17T06:48:41+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "South Of Java, Indonesia",
+          "country": "South Atlantic Ocean",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1565193&episodeid=1732972&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1566614&episodeid=1734443&eventtype=EQ"
         },
         {
-          "id": "EQ|1565181",
-          "title": "Earthquake in Off East Coast Of Honshu, Japan",
-          "date": "2026-09-14T07:33:04+00:00",
+          "id": "EQ|1566612",
+          "title": "Earthquake in Samoa Islands Region",
+          "date": "2026-09-17T06:42:41+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Off East Coast Of Honshu, Japan",
+          "country": "Samoa Islands Region",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1565181&episodeid=1732963&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1566612&episodeid=1734442&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1566611",
+          "title": "Earthquake in Vanuatu",
+          "date": "2026-09-17T06:32:13+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Vanuatu",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1566611&episodeid=1734439&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1566609",
+          "title": "Earthquake in Northern Molucca Sea",
+          "date": "2026-09-17T06:20:48+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Northern Molucca Sea",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1566609&episodeid=1734436&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1566608",
+          "title": "Earthquake in Guatemala",
+          "date": "2026-09-17T05:24:31+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Guatemala",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1566608&episodeid=1734459&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1566600",
+          "title": "Earthquake in Tonga",
+          "date": "2026-09-17T04:06:53+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Tonga",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1566600&episodeid=1734426&eventtype=EQ"
         }
       ]
     },
@@ -1838,6 +1849,26 @@
           "url": "https://irwin.doi.gov/observer/incidents/2026-FLEVP-002565"
         },
         {
+          "id": "EONET_24325",
+          "title": "Wildfire in Australia 1032001",
+          "date": "2026-09-14T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.3,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032001"
+        },
+        {
+          "id": "EONET_24469",
+          "title": "Wildfire in Mozambique 1031985",
+          "date": "2026-09-02T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.3,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031985"
+        },
+        {
           "id": "EONET_24138",
           "title": "Wildfire in Angola 1031805",
           "date": "2026-08-30T19:00:00+00:00",
@@ -1876,26 +1907,6 @@
           ],
           "weight": 4.3,
           "url": "https://irwin.doi.gov/observer/incidents/2026-NVCCD-030758"
-        },
-        {
-          "id": "EONET_23994",
-          "title": "Wildfire in Mozambique 1031654",
-          "date": "2026-08-24T19:00:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.3,
-          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031654"
-        },
-        {
-          "id": "EONET_23458",
-          "title": "Wildfire Oxley, Elko, Nevada",
-          "date": "2026-08-24T14:12:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.3,
-          "url": "https://irwin.doi.gov/observer/incidents/2026-NVEKD-010515"
         }
       ]
     },
@@ -5911,16 +5922,6 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1104124&episodeid=1&eventtype=FL"
     },
     {
-      "id": "TC|1001305",
-      "title": "Tropical Cyclone SAUDEL-26",
-      "date": "2026-08-18T12:00:00+00:00",
-      "alert_level": "Orange",
-      "event_type": "TC",
-      "country": "Japan, China, Northern Mariana Islands",
-      "weight": 9.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=47&eventtype=TC"
-    },
-    {
       "id": "VO|1000148",
       "title": "Eruption  Krakatau",
       "date": "2026-09-04T21:00:00+00:00",
@@ -5951,104 +5952,114 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1104123&episodeid=4&eventtype=FL"
     },
     {
-      "id": "EQ|1565245",
-      "title": "Earthquake in Colombia",
-      "date": "2026-09-14T20:02:04+00:00",
+      "id": "FL|1104151",
+      "title": "Flood in Spain",
+      "date": "2026-09-09T01:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Colombia",
+      "event_type": "FL",
+      "country": "Spain",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1565245&episodeid=1733032&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1104151&episodeid=3&eventtype=FL"
     },
     {
-      "id": "EQ|1565242",
-      "title": "Earthquake in Peru",
-      "date": "2026-09-14T19:16:49+00:00",
+      "id": "EQ|1566678",
+      "title": "Earthquake in Fox Islands, Aleutian Islands",
+      "date": "2026-09-17T14:19:52+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Peru",
+      "country": "Fox Islands, Aleutian Islands",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1565242&episodeid=1733027&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1566678&episodeid=1734522&eventtype=EQ"
     },
     {
-      "id": "EQ|1565239",
-      "title": "Earthquake in Indonesia",
-      "date": "2026-09-14T17:55:15+00:00",
+      "id": "EQ|1566661",
+      "title": "Earthquake in Russia",
+      "date": "2026-09-17T13:30:49+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Indonesia",
+      "country": "Russia",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1565239&episodeid=1733021&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1566661&episodeid=1734511&eventtype=EQ"
     },
     {
-      "id": "EQ|1565232",
-      "title": "Earthquake in Solomon Islands",
-      "date": "2026-09-14T16:15:05+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Solomon Islands",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1565232&episodeid=1733013&eventtype=EQ"
-    },
-    {
-      "id": "TC|1001321",
-      "title": "Tropical Cyclone FIFTEEN-E-26",
-      "date": "2026-09-13T21:00:00+00:00",
+      "id": "TC|1001322",
+      "title": "Tropical Cyclone DUJUAN-26",
+      "date": "2026-09-15T12:00:00+00:00",
       "alert_level": "Green",
       "event_type": "TC",
-      "country": "",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=4&eventtype=TC"
-    },
-    {
-      "id": "TC|1001320",
-      "title": "Tropical Cyclone NORBERT-26",
-      "date": "2026-09-09T21:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=20&eventtype=TC"
-    },
-    {
-      "id": "EQ|1565204",
-      "title": "Earthquake in Japan",
-      "date": "2026-09-14T10:59:54+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
       "country": "Japan",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1565204&episodeid=1732985&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001322&episodeid=9&eventtype=TC"
     },
     {
-      "id": "EQ|1565203",
+      "id": "EQ|1566624",
       "title": "Earthquake in Indonesia",
-      "date": "2026-09-14T10:58:03+00:00",
+      "date": "2026-09-17T08:28:25+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
       "country": "Indonesia",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1565203&episodeid=1732984&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1566624&episodeid=1734464&eventtype=EQ"
     },
     {
-      "id": "EQ|1565193",
-      "title": "Earthquake in South Of Java, Indonesia",
-      "date": "2026-09-14T09:27:38+00:00",
+      "id": "EQ|1566614",
+      "title": "Earthquake in South Atlantic Ocean",
+      "date": "2026-09-17T06:48:41+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "South Of Java, Indonesia",
+      "country": "South Atlantic Ocean",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1565193&episodeid=1732972&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1566614&episodeid=1734443&eventtype=EQ"
     },
     {
-      "id": "EQ|1565181",
-      "title": "Earthquake in Off East Coast Of Honshu, Japan",
-      "date": "2026-09-14T07:33:04+00:00",
+      "id": "EQ|1566612",
+      "title": "Earthquake in Samoa Islands Region",
+      "date": "2026-09-17T06:42:41+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Off East Coast Of Honshu, Japan",
+      "country": "Samoa Islands Region",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1565181&episodeid=1732963&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1566612&episodeid=1734442&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1566611",
+      "title": "Earthquake in Vanuatu",
+      "date": "2026-09-17T06:32:13+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Vanuatu",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1566611&episodeid=1734439&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1566609",
+      "title": "Earthquake in Northern Molucca Sea",
+      "date": "2026-09-17T06:20:48+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Northern Molucca Sea",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1566609&episodeid=1734436&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1566608",
+      "title": "Earthquake in Guatemala",
+      "date": "2026-09-17T05:24:31+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Guatemala",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1566608&episodeid=1734459&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1566600",
+      "title": "Earthquake in Tonga",
+      "date": "2026-09-17T04:06:53+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Tonga",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1566600&episodeid=1734426&eventtype=EQ"
     },
     {
       "id": "EONET_23452",
@@ -6141,6 +6152,26 @@
       "url": "https://irwin.doi.gov/observer/incidents/2026-FLEVP-002565"
     },
     {
+      "id": "EONET_24325",
+      "title": "Wildfire in Australia 1032001",
+      "date": "2026-09-14T19:00:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.3,
+      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032001"
+    },
+    {
+      "id": "EONET_24469",
+      "title": "Wildfire in Mozambique 1031985",
+      "date": "2026-09-02T19:00:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.3,
+      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031985"
+    },
+    {
       "id": "EONET_24138",
       "title": "Wildfire in Angola 1031805",
       "date": "2026-08-30T19:00:00+00:00",
@@ -6149,26 +6180,6 @@
       ],
       "weight": 4.3,
       "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031805"
-    },
-    {
-      "id": "EONET_23668",
-      "title": "Wildfire Brushy Canyon, Box Elder, Utah",
-      "date": "2026-08-27T01:42:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.3,
-      "url": "https://irwin.doi.gov/observer/incidents/2026-UTBRS-200695"
-    },
-    {
-      "id": "EONET_23453",
-      "title": "Wildfire Calico, Humboldt, Nevada",
-      "date": "2026-08-26T17:29:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.3,
-      "url": "https://irwin.doi.gov/observer/incidents/2026-NVHTF-020624"
     }
   ]
 }
