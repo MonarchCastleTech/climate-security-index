@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-09-22T11:42:55.690277+00:00",
+    "generated": "2026-09-22T16:59:14.208200+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,7 +13,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-22T11:42:55.443040+00:00",
+    "issued_at": "2026-09-22T16:59:14.016763+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 73.1,
@@ -196,6 +196,56 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1562260&episodeid=1729706&eventtype=EQ"
           },
           {
+            "id": "TC|1001323",
+            "title": "Tropical Cyclone FAY-26",
+            "date": "2026-09-19T15:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=13&eventtype=TC"
+          },
+          {
+            "id": "TC|1001324",
+            "title": "Tropical Cyclone ODALYS-26",
+            "date": "2026-09-20T09:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=10&eventtype=TC"
+          },
+          {
+            "id": "TC|1001325",
+            "title": "Tropical Cyclone POLO-26",
+            "date": "2026-09-21T03:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "Mexico",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=8&eventtype=TC"
+          },
+          {
+            "id": "EQ|1567508",
+            "title": "Earthquake in Russian Federation",
+            "date": "2026-09-22T13:56:15+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Russian Federation",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1567508&episodeid=1735471&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1567494",
+            "title": "Earthquake in Guatemala",
+            "date": "2026-09-22T11:43:45+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Guatemala",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1567494&episodeid=1735427&eventtype=EQ"
+          },
+          {
             "id": "EQ|1567485",
             "title": "Earthquake in Japan",
             "date": "2026-09-22T10:46:22+00:00",
@@ -214,36 +264,6 @@
             "country": "Indonesia",
             "weight": 1.0,
             "url": "https://www.gdacs.org/report.aspx?eventid=1567484&episodeid=1735415&eventtype=EQ"
-          },
-          {
-            "id": "TC|1001323",
-            "title": "Tropical Cyclone FAY-26",
-            "date": "2026-09-19T15:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=12&eventtype=TC"
-          },
-          {
-            "id": "TC|1001324",
-            "title": "Tropical Cyclone ODALYS-26",
-            "date": "2026-09-20T09:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=9&eventtype=TC"
-          },
-          {
-            "id": "TC|1001325",
-            "title": "Tropical Cyclone POLO-26",
-            "date": "2026-09-21T03:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "Mexico",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=7&eventtype=TC"
           },
           {
             "id": "EQ|1567465",
@@ -294,26 +314,6 @@
             "country": "Indonesia",
             "weight": 1.0,
             "url": "https://www.gdacs.org/report.aspx?eventid=1567442&episodeid=1735367&eventtype=EQ"
-          },
-          {
-            "id": "FL|1104182",
-            "title": "Flood in Japan",
-            "date": "2026-09-20T01:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "FL",
-            "country": "Japan",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1104182&episodeid=1&eventtype=FL"
-          },
-          {
-            "id": "FL|1104184",
-            "title": "Flood in Malaysia",
-            "date": "2026-09-20T01:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "FL",
-            "country": "Malaysia",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1104184&episodeid=1&eventtype=FL"
           }
         ],
         "retained": false
@@ -323,9 +323,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 3705.8,
+        "current_30d_weight": 3701.0,
         "baseline_median": 0.0,
-        "anomaly_z": 3705.83,
+        "anomaly_z": 3700.97,
         "events_considered": 1000,
         "evidence": [
           {
@@ -1634,6 +1634,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-09-22T16:59:14.016763+00:00",
+        "score": 73.1,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 98.5,
+          "gdacs_impact_pressure": 59.5,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -1829,6 +1840,56 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1562260&episodeid=1729706&eventtype=EQ"
         },
         {
+          "id": "TC|1001323",
+          "title": "Tropical Cyclone FAY-26",
+          "date": "2026-09-19T15:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=13&eventtype=TC"
+        },
+        {
+          "id": "TC|1001324",
+          "title": "Tropical Cyclone ODALYS-26",
+          "date": "2026-09-20T09:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=10&eventtype=TC"
+        },
+        {
+          "id": "TC|1001325",
+          "title": "Tropical Cyclone POLO-26",
+          "date": "2026-09-21T03:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "Mexico",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=8&eventtype=TC"
+        },
+        {
+          "id": "EQ|1567508",
+          "title": "Earthquake in Russian Federation",
+          "date": "2026-09-22T13:56:15+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Russian Federation",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1567508&episodeid=1735471&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1567494",
+          "title": "Earthquake in Guatemala",
+          "date": "2026-09-22T11:43:45+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Guatemala",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1567494&episodeid=1735427&eventtype=EQ"
+        },
+        {
           "id": "EQ|1567485",
           "title": "Earthquake in Japan",
           "date": "2026-09-22T10:46:22+00:00",
@@ -1847,36 +1908,6 @@
           "country": "Indonesia",
           "weight": 1.0,
           "url": "https://www.gdacs.org/report.aspx?eventid=1567484&episodeid=1735415&eventtype=EQ"
-        },
-        {
-          "id": "TC|1001323",
-          "title": "Tropical Cyclone FAY-26",
-          "date": "2026-09-19T15:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=12&eventtype=TC"
-        },
-        {
-          "id": "TC|1001324",
-          "title": "Tropical Cyclone ODALYS-26",
-          "date": "2026-09-20T09:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=9&eventtype=TC"
-        },
-        {
-          "id": "TC|1001325",
-          "title": "Tropical Cyclone POLO-26",
-          "date": "2026-09-21T03:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "Mexico",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=7&eventtype=TC"
         },
         {
           "id": "EQ|1567465",
@@ -1927,26 +1958,6 @@
           "country": "Indonesia",
           "weight": 1.0,
           "url": "https://www.gdacs.org/report.aspx?eventid=1567442&episodeid=1735367&eventtype=EQ"
-        },
-        {
-          "id": "FL|1104182",
-          "title": "Flood in Japan",
-          "date": "2026-09-20T01:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "FL",
-          "country": "Japan",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1104182&episodeid=1&eventtype=FL"
-        },
-        {
-          "id": "FL|1104184",
-          "title": "Flood in Malaysia",
-          "date": "2026-09-20T01:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "FL",
-          "country": "Malaysia",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1104184&episodeid=1&eventtype=FL"
         }
       ]
     },
@@ -6140,6 +6151,56 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1562260&episodeid=1729706&eventtype=EQ"
     },
     {
+      "id": "TC|1001323",
+      "title": "Tropical Cyclone FAY-26",
+      "date": "2026-09-19T15:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=13&eventtype=TC"
+    },
+    {
+      "id": "TC|1001324",
+      "title": "Tropical Cyclone ODALYS-26",
+      "date": "2026-09-20T09:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=10&eventtype=TC"
+    },
+    {
+      "id": "TC|1001325",
+      "title": "Tropical Cyclone POLO-26",
+      "date": "2026-09-21T03:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "Mexico",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=8&eventtype=TC"
+    },
+    {
+      "id": "EQ|1567508",
+      "title": "Earthquake in Russian Federation",
+      "date": "2026-09-22T13:56:15+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Russian Federation",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1567508&episodeid=1735471&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1567494",
+      "title": "Earthquake in Guatemala",
+      "date": "2026-09-22T11:43:45+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Guatemala",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1567494&episodeid=1735427&eventtype=EQ"
+    },
+    {
       "id": "EQ|1567485",
       "title": "Earthquake in Japan",
       "date": "2026-09-22T10:46:22+00:00",
@@ -6158,36 +6219,6 @@
       "country": "Indonesia",
       "weight": 1.0,
       "url": "https://www.gdacs.org/report.aspx?eventid=1567484&episodeid=1735415&eventtype=EQ"
-    },
-    {
-      "id": "TC|1001323",
-      "title": "Tropical Cyclone FAY-26",
-      "date": "2026-09-19T15:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=12&eventtype=TC"
-    },
-    {
-      "id": "TC|1001324",
-      "title": "Tropical Cyclone ODALYS-26",
-      "date": "2026-09-20T09:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=9&eventtype=TC"
-    },
-    {
-      "id": "TC|1001325",
-      "title": "Tropical Cyclone POLO-26",
-      "date": "2026-09-21T03:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "Mexico",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=7&eventtype=TC"
     },
     {
       "id": "EQ|1567465",
@@ -6238,26 +6269,6 @@
       "country": "Indonesia",
       "weight": 1.0,
       "url": "https://www.gdacs.org/report.aspx?eventid=1567442&episodeid=1735367&eventtype=EQ"
-    },
-    {
-      "id": "FL|1104182",
-      "title": "Flood in Japan",
-      "date": "2026-09-20T01:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "FL",
-      "country": "Japan",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1104182&episodeid=1&eventtype=FL"
-    },
-    {
-      "id": "FL|1104184",
-      "title": "Flood in Malaysia",
-      "date": "2026-09-20T01:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "FL",
-      "country": "Malaysia",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1104184&episodeid=1&eventtype=FL"
     },
     {
       "id": "EONET_24487",
