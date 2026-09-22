@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-09-22T05:00:33.479412+00:00",
+    "generated": "2026-09-22T11:42:55.690277+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,10 +13,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-22T05:00:33.234015+00:00",
+    "issued_at": "2026-09-22T11:42:55.443040+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
-    "score": 72.7,
+    "score": 73.1,
     "level": "ELEVATED",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -158,12 +158,12 @@
         "id": "gdacs_impact_pressure",
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
-        "score": 57.6,
-        "current_30d_weight": 119.0,
+        "score": 59.5,
+        "current_30d_weight": 133.0,
         "baseline_months": 12,
-        "baseline_median": 62.5,
-        "anomaly_z": 1.13,
-        "events_considered": 186,
+        "baseline_median": 52.6,
+        "anomaly_z": 1.55,
+        "events_considered": 187,
         "evidence": [
           {
             "id": "FL|1104124",
@@ -196,6 +196,96 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1562260&episodeid=1729706&eventtype=EQ"
           },
           {
+            "id": "EQ|1567485",
+            "title": "Earthquake in Japan",
+            "date": "2026-09-22T10:46:22+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Japan",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1567485&episodeid=1735417&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1567484",
+            "title": "Earthquake in Indonesia",
+            "date": "2026-09-22T10:30:19+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Indonesia",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1567484&episodeid=1735415&eventtype=EQ"
+          },
+          {
+            "id": "TC|1001323",
+            "title": "Tropical Cyclone FAY-26",
+            "date": "2026-09-19T15:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=12&eventtype=TC"
+          },
+          {
+            "id": "TC|1001324",
+            "title": "Tropical Cyclone ODALYS-26",
+            "date": "2026-09-20T09:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=9&eventtype=TC"
+          },
+          {
+            "id": "TC|1001325",
+            "title": "Tropical Cyclone POLO-26",
+            "date": "2026-09-21T03:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "Mexico",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=7&eventtype=TC"
+          },
+          {
+            "id": "EQ|1567465",
+            "title": "Earthquake in Philippines",
+            "date": "2026-09-22T06:48:09+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Philippines",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1567465&episodeid=1735395&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1567458",
+            "title": "Earthquake in Volcano Islands, Japan Region",
+            "date": "2026-09-22T06:11:10+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Volcano Islands, Japan Region",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1567458&episodeid=1735387&eventtype=EQ"
+          },
+          {
+            "id": "TC|1001322",
+            "title": "Tropical Cyclone DUJUAN-26",
+            "date": "2026-09-15T12:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "Japan",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001322&episodeid=28&eventtype=TC"
+          },
+          {
+            "id": "EQ|1567452",
+            "title": "Earthquake in Volcano Islands, Japan Region",
+            "date": "2026-09-22T05:18:24+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Volcano Islands, Japan Region",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1567452&episodeid=1735380&eventtype=EQ"
+          },
+          {
             "id": "EQ|1567442",
             "title": "Earthquake in Indonesia",
             "date": "2026-09-22T03:36:25+00:00",
@@ -206,114 +296,24 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1567442&episodeid=1735367&eventtype=EQ"
           },
           {
-            "id": "TC|1001325",
-            "title": "Tropical Cyclone POLO-26",
-            "date": "2026-09-21T03:00:00+00:00",
+            "id": "FL|1104182",
+            "title": "Flood in Japan",
+            "date": "2026-09-20T01:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "TC",
-            "country": "Mexico",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=6&eventtype=TC"
-          },
-          {
-            "id": "TC|1001324",
-            "title": "Tropical Cyclone ODALYS-26",
-            "date": "2026-09-20T09:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=8&eventtype=TC"
-          },
-          {
-            "id": "TC|1001323",
-            "title": "Tropical Cyclone FAY-26",
-            "date": "2026-09-19T15:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=11&eventtype=TC"
-          },
-          {
-            "id": "EQ|1567401",
-            "title": "Earthquake in Philippines",
-            "date": "2026-09-22T00:08:04+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Philippines",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1567401&episodeid=1735374&eventtype=EQ"
-          },
-          {
-            "id": "TC|1001322",
-            "title": "Tropical Cyclone DUJUAN-26",
-            "date": "2026-09-15T12:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
+            "event_type": "FL",
             "country": "Japan",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001322&episodeid=27&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1104182&episodeid=1&eventtype=FL"
           },
           {
-            "id": "EQ|1567397",
-            "title": "Earthquake in Philippines",
-            "date": "2026-09-21T23:48:13+00:00",
+            "id": "FL|1104184",
+            "title": "Flood in Malaysia",
+            "date": "2026-09-20T01:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Philippines",
+            "event_type": "FL",
+            "country": "Malaysia",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1567397&episodeid=1735371&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1567395",
-            "title": "Earthquake in Japan",
-            "date": "2026-09-21T22:29:59+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Japan",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1567395&episodeid=1735364&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1567380",
-            "title": "Earthquake in South Sandwich Islands Region",
-            "date": "2026-09-21T21:37:05+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "South Sandwich Islands Region",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1567380&episodeid=1735348&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1567364",
-            "title": "Earthquake in Colombia",
-            "date": "2026-09-21T18:48:44+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Colombia",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1567364&episodeid=1735284&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1567333",
-            "title": "Earthquake in Southeast Of Honshu, Japan",
-            "date": "2026-09-21T15:56:20+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Southeast Of Honshu, Japan",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1567333&episodeid=1735251&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1567297",
-            "title": "Earthquake in Japan",
-            "date": "2026-09-21T13:38:32+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Japan",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1567297&episodeid=1735214&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1104184&episodeid=1&eventtype=FL"
           }
         ],
         "retained": false
@@ -325,7 +325,7 @@
         "score": 56.0,
         "current_30d_weight": 3705.8,
         "baseline_median": 0.0,
-        "anomaly_z": 3705.75,
+        "anomaly_z": 3705.83,
         "events_considered": 1000,
         "evidence": [
           {
@@ -562,7 +562,7 @@
       {
         "id": "gdacs_impact_pressure",
         "title": "GDACS multi-hazard impact pressure",
-        "score": 57.6,
+        "score": 59.5,
         "level": "ELEVATED"
       },
       {
@@ -1623,13 +1623,24 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-09-22T11:42:55.443040+00:00",
+        "score": 73.1,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 98.5,
+          "gdacs_impact_pressure": 59.5,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
       "power_sentinels": 8,
-      "gdacs_events": 186,
+      "gdacs_events": 187,
       "eonet_events": 1000,
       "fao_latest_month": "2026-08"
     },
@@ -1666,7 +1677,7 @@
   "stats": [
     {
       "label": "Climate-Security Pressure",
-      "value": "72.7/100",
+      "value": "73.1/100",
       "delta": "ELEVATED"
     },
     {
@@ -1676,7 +1687,7 @@
     },
     {
       "label": "Hazards Screened",
-      "value": "1186",
+      "value": "1187",
       "delta": "NASA + GDACS"
     },
     {
@@ -1782,7 +1793,7 @@
       ]
     },
     "gdacs": {
-      "count": 186,
+      "count": 187,
       "cached": false,
       "retained": false,
       "compact": true,
@@ -1818,6 +1829,96 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1562260&episodeid=1729706&eventtype=EQ"
         },
         {
+          "id": "EQ|1567485",
+          "title": "Earthquake in Japan",
+          "date": "2026-09-22T10:46:22+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Japan",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1567485&episodeid=1735417&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1567484",
+          "title": "Earthquake in Indonesia",
+          "date": "2026-09-22T10:30:19+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Indonesia",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1567484&episodeid=1735415&eventtype=EQ"
+        },
+        {
+          "id": "TC|1001323",
+          "title": "Tropical Cyclone FAY-26",
+          "date": "2026-09-19T15:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=12&eventtype=TC"
+        },
+        {
+          "id": "TC|1001324",
+          "title": "Tropical Cyclone ODALYS-26",
+          "date": "2026-09-20T09:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=9&eventtype=TC"
+        },
+        {
+          "id": "TC|1001325",
+          "title": "Tropical Cyclone POLO-26",
+          "date": "2026-09-21T03:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "Mexico",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=7&eventtype=TC"
+        },
+        {
+          "id": "EQ|1567465",
+          "title": "Earthquake in Philippines",
+          "date": "2026-09-22T06:48:09+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Philippines",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1567465&episodeid=1735395&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1567458",
+          "title": "Earthquake in Volcano Islands, Japan Region",
+          "date": "2026-09-22T06:11:10+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Volcano Islands, Japan Region",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1567458&episodeid=1735387&eventtype=EQ"
+        },
+        {
+          "id": "TC|1001322",
+          "title": "Tropical Cyclone DUJUAN-26",
+          "date": "2026-09-15T12:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "Japan",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001322&episodeid=28&eventtype=TC"
+        },
+        {
+          "id": "EQ|1567452",
+          "title": "Earthquake in Volcano Islands, Japan Region",
+          "date": "2026-09-22T05:18:24+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Volcano Islands, Japan Region",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1567452&episodeid=1735380&eventtype=EQ"
+        },
+        {
           "id": "EQ|1567442",
           "title": "Earthquake in Indonesia",
           "date": "2026-09-22T03:36:25+00:00",
@@ -1828,114 +1929,24 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1567442&episodeid=1735367&eventtype=EQ"
         },
         {
-          "id": "TC|1001325",
-          "title": "Tropical Cyclone POLO-26",
-          "date": "2026-09-21T03:00:00+00:00",
+          "id": "FL|1104182",
+          "title": "Flood in Japan",
+          "date": "2026-09-20T01:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "TC",
-          "country": "Mexico",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=6&eventtype=TC"
-        },
-        {
-          "id": "TC|1001324",
-          "title": "Tropical Cyclone ODALYS-26",
-          "date": "2026-09-20T09:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=8&eventtype=TC"
-        },
-        {
-          "id": "TC|1001323",
-          "title": "Tropical Cyclone FAY-26",
-          "date": "2026-09-19T15:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=11&eventtype=TC"
-        },
-        {
-          "id": "EQ|1567401",
-          "title": "Earthquake in Philippines",
-          "date": "2026-09-22T00:08:04+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Philippines",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1567401&episodeid=1735374&eventtype=EQ"
-        },
-        {
-          "id": "TC|1001322",
-          "title": "Tropical Cyclone DUJUAN-26",
-          "date": "2026-09-15T12:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
+          "event_type": "FL",
           "country": "Japan",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001322&episodeid=27&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1104182&episodeid=1&eventtype=FL"
         },
         {
-          "id": "EQ|1567397",
-          "title": "Earthquake in Philippines",
-          "date": "2026-09-21T23:48:13+00:00",
+          "id": "FL|1104184",
+          "title": "Flood in Malaysia",
+          "date": "2026-09-20T01:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Philippines",
+          "event_type": "FL",
+          "country": "Malaysia",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1567397&episodeid=1735371&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1567395",
-          "title": "Earthquake in Japan",
-          "date": "2026-09-21T22:29:59+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Japan",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1567395&episodeid=1735364&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1567380",
-          "title": "Earthquake in South Sandwich Islands Region",
-          "date": "2026-09-21T21:37:05+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "South Sandwich Islands Region",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1567380&episodeid=1735348&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1567364",
-          "title": "Earthquake in Colombia",
-          "date": "2026-09-21T18:48:44+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Colombia",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1567364&episodeid=1735284&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1567333",
-          "title": "Earthquake in Southeast Of Honshu, Japan",
-          "date": "2026-09-21T15:56:20+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Southeast Of Honshu, Japan",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1567333&episodeid=1735251&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1567297",
-          "title": "Earthquake in Japan",
-          "date": "2026-09-21T13:38:32+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Japan",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1567297&episodeid=1735214&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1104184&episodeid=1&eventtype=FL"
         }
       ]
     },
@@ -6129,6 +6140,96 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1562260&episodeid=1729706&eventtype=EQ"
     },
     {
+      "id": "EQ|1567485",
+      "title": "Earthquake in Japan",
+      "date": "2026-09-22T10:46:22+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Japan",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1567485&episodeid=1735417&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1567484",
+      "title": "Earthquake in Indonesia",
+      "date": "2026-09-22T10:30:19+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Indonesia",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1567484&episodeid=1735415&eventtype=EQ"
+    },
+    {
+      "id": "TC|1001323",
+      "title": "Tropical Cyclone FAY-26",
+      "date": "2026-09-19T15:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=12&eventtype=TC"
+    },
+    {
+      "id": "TC|1001324",
+      "title": "Tropical Cyclone ODALYS-26",
+      "date": "2026-09-20T09:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=9&eventtype=TC"
+    },
+    {
+      "id": "TC|1001325",
+      "title": "Tropical Cyclone POLO-26",
+      "date": "2026-09-21T03:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "Mexico",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=7&eventtype=TC"
+    },
+    {
+      "id": "EQ|1567465",
+      "title": "Earthquake in Philippines",
+      "date": "2026-09-22T06:48:09+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Philippines",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1567465&episodeid=1735395&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1567458",
+      "title": "Earthquake in Volcano Islands, Japan Region",
+      "date": "2026-09-22T06:11:10+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Volcano Islands, Japan Region",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1567458&episodeid=1735387&eventtype=EQ"
+    },
+    {
+      "id": "TC|1001322",
+      "title": "Tropical Cyclone DUJUAN-26",
+      "date": "2026-09-15T12:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "Japan",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001322&episodeid=28&eventtype=TC"
+    },
+    {
+      "id": "EQ|1567452",
+      "title": "Earthquake in Volcano Islands, Japan Region",
+      "date": "2026-09-22T05:18:24+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Volcano Islands, Japan Region",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1567452&episodeid=1735380&eventtype=EQ"
+    },
+    {
       "id": "EQ|1567442",
       "title": "Earthquake in Indonesia",
       "date": "2026-09-22T03:36:25+00:00",
@@ -6139,114 +6240,24 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1567442&episodeid=1735367&eventtype=EQ"
     },
     {
-      "id": "TC|1001325",
-      "title": "Tropical Cyclone POLO-26",
-      "date": "2026-09-21T03:00:00+00:00",
+      "id": "FL|1104182",
+      "title": "Flood in Japan",
+      "date": "2026-09-20T01:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "TC",
-      "country": "Mexico",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=6&eventtype=TC"
-    },
-    {
-      "id": "TC|1001324",
-      "title": "Tropical Cyclone ODALYS-26",
-      "date": "2026-09-20T09:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=8&eventtype=TC"
-    },
-    {
-      "id": "TC|1001323",
-      "title": "Tropical Cyclone FAY-26",
-      "date": "2026-09-19T15:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=11&eventtype=TC"
-    },
-    {
-      "id": "EQ|1567401",
-      "title": "Earthquake in Philippines",
-      "date": "2026-09-22T00:08:04+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Philippines",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1567401&episodeid=1735374&eventtype=EQ"
-    },
-    {
-      "id": "TC|1001322",
-      "title": "Tropical Cyclone DUJUAN-26",
-      "date": "2026-09-15T12:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
+      "event_type": "FL",
       "country": "Japan",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001322&episodeid=27&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1104182&episodeid=1&eventtype=FL"
     },
     {
-      "id": "EQ|1567397",
-      "title": "Earthquake in Philippines",
-      "date": "2026-09-21T23:48:13+00:00",
+      "id": "FL|1104184",
+      "title": "Flood in Malaysia",
+      "date": "2026-09-20T01:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Philippines",
+      "event_type": "FL",
+      "country": "Malaysia",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1567397&episodeid=1735371&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1567395",
-      "title": "Earthquake in Japan",
-      "date": "2026-09-21T22:29:59+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Japan",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1567395&episodeid=1735364&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1567380",
-      "title": "Earthquake in South Sandwich Islands Region",
-      "date": "2026-09-21T21:37:05+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "South Sandwich Islands Region",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1567380&episodeid=1735348&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1567364",
-      "title": "Earthquake in Colombia",
-      "date": "2026-09-21T18:48:44+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Colombia",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1567364&episodeid=1735284&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1567333",
-      "title": "Earthquake in Southeast Of Honshu, Japan",
-      "date": "2026-09-21T15:56:20+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Southeast Of Honshu, Japan",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1567333&episodeid=1735251&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1567297",
-      "title": "Earthquake in Japan",
-      "date": "2026-09-21T13:38:32+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Japan",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1567297&episodeid=1735214&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1104184&episodeid=1&eventtype=FL"
     },
     {
       "id": "EONET_24487",
