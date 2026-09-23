@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-09-23T11:41:48.167562+00:00",
+    "generated": "2026-09-23T17:04:51.102355+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,7 +13,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-23T11:41:48.020744+00:00",
+    "issued_at": "2026-09-23T17:04:50.863313+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 72.5,
@@ -206,6 +206,96 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1104186&episodeid=1&eventtype=FL"
           },
           {
+            "id": "TC|1001325",
+            "title": "Tropical Cyclone POLO-26",
+            "date": "2026-09-21T03:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "Mexico",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=12&eventtype=TC"
+          },
+          {
+            "id": "TC|1001324",
+            "title": "Tropical Cyclone ODALYS-26",
+            "date": "2026-09-20T09:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=14&eventtype=TC"
+          },
+          {
+            "id": "TC|1001321",
+            "title": "Tropical Cyclone FIFTEEN-E-26",
+            "date": "2026-09-13T21:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "United States",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=12&eventtype=TC"
+          },
+          {
+            "id": "EQ|1567681",
+            "title": "Earthquake in South Of Fiji Islands",
+            "date": "2026-09-23T14:45:35+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "South Of Fiji Islands",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1567681&episodeid=1735629&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1567678",
+            "title": "Earthquake in Tonga",
+            "date": "2026-09-23T14:41:02+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Tonga",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1567678&episodeid=1735624&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1567659",
+            "title": "Earthquake in Mariana Islands Region",
+            "date": "2026-09-23T13:01:51+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Mariana Islands Region",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1567659&episodeid=1735606&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1567655",
+            "title": "Earthquake in Indonesia",
+            "date": "2026-09-23T12:23:20+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Indonesia",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1567655&episodeid=1735602&eventtype=EQ"
+          },
+          {
+            "id": "TC|1001327",
+            "title": "Tropical Cyclone SURIGAE-26",
+            "date": "2026-09-23T06:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001327&episodeid=2&eventtype=TC"
+          },
+          {
+            "id": "TC|1001326",
+            "title": "Tropical Cyclone ONE-26",
+            "date": "2026-09-22T18:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "India",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=4&eventtype=TC"
+          },
+          {
             "id": "EQ|1567644",
             "title": "Earthquake in Argentina",
             "date": "2026-09-23T09:21:14+00:00",
@@ -216,36 +306,6 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1567644&episodeid=1735587&eventtype=EQ"
           },
           {
-            "id": "TC|1001325",
-            "title": "Tropical Cyclone POLO-26",
-            "date": "2026-09-21T03:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "Mexico",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=11&eventtype=TC"
-          },
-          {
-            "id": "TC|1001321",
-            "title": "Tropical Cyclone FIFTEEN-E-26",
-            "date": "2026-09-13T21:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "United States",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=11&eventtype=TC"
-          },
-          {
-            "id": "TC|1001324",
-            "title": "Tropical Cyclone ODALYS-26",
-            "date": "2026-09-20T09:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=13&eventtype=TC"
-          },
-          {
             "id": "EQ|1567643",
             "title": "Earthquake in Scotia Sea",
             "date": "2026-09-23T08:41:58+00:00",
@@ -254,66 +314,6 @@
             "country": "Scotia Sea",
             "weight": 1.0,
             "url": "https://www.gdacs.org/report.aspx?eventid=1567643&episodeid=1735584&eventtype=EQ"
-          },
-          {
-            "id": "TC|1001327",
-            "title": "Tropical Cyclone TWENTYFIVE-26",
-            "date": "2026-09-23T06:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001327&episodeid=1&eventtype=TC"
-          },
-          {
-            "id": "TC|1001326",
-            "title": "Tropical Cyclone ONE-26",
-            "date": "2026-09-22T18:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "India",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=3&eventtype=TC"
-          },
-          {
-            "id": "EQ|1567628",
-            "title": "Earthquake in Tajikistan",
-            "date": "2026-09-23T05:46:11+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Tajikistan",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1567628&episodeid=1735568&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1567592",
-            "title": "Earthquake in Indonesia",
-            "date": "2026-09-23T02:02:43+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Indonesia",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1567592&episodeid=1735547&eventtype=EQ"
-          },
-          {
-            "id": "WF|1032346",
-            "title": "Forest fires in Australia",
-            "date": "2026-09-22T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Australia",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1032346&episodeid=1&eventtype=WF"
-          },
-          {
-            "id": "WF|1032347",
-            "title": "Forest fires in Zimbabwe",
-            "date": "2026-09-20T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Zimbabwe",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1032347&episodeid=1&eventtype=WF"
           }
         ],
         "retained": false
@@ -323,9 +323,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 3701.0,
+        "current_30d_weight": 3695.0,
         "baseline_median": 0.0,
-        "anomaly_z": 3701.01,
+        "anomaly_z": 3694.98,
         "events_considered": 1000,
         "evidence": [
           {
@@ -357,16 +357,6 @@
             ],
             "weight": 4.4,
             "url": "https://irwin.doi.gov/observer/incidents/2026-MTEAS-000786"
-          },
-          {
-            "id": "EONET_23681",
-            "title": "Wildfire Plaskett, Monterey, California",
-            "date": "2026-08-26T12:46:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.4,
-            "url": "https://irwin.doi.gov/observer/incidents/2026-CALPF-002475"
           },
           {
             "id": "EONET_24325",
@@ -407,16 +397,6 @@
             ],
             "weight": 4.3,
             "url": "https://irwin.doi.gov/observer/incidents/2026-UTBRS-200695"
-          },
-          {
-            "id": "EONET_23453",
-            "title": "Wildfire Calico, Humboldt, Nevada",
-            "date": "2026-08-26T17:29:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.3,
-            "url": "https://irwin.doi.gov/observer/incidents/2026-NVHTF-020624"
           },
           {
             "id": "EONET_24481",
@@ -477,6 +457,26 @@
             ],
             "weight": 4.1,
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032283"
+          },
+          {
+            "id": "EONET_24719",
+            "title": "Prescribed Fire D2 Dye RX, Coconino, Arizona",
+            "date": "2026-09-17T17:44:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.1,
+            "url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000955"
+          },
+          {
+            "id": "EONET_24348",
+            "title": "Wildfire in Australia 1031990",
+            "date": "2026-09-12T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.1,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031990"
           }
         ],
         "retained": false
@@ -1678,6 +1678,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-09-23T17:04:50.863313+00:00",
+        "score": 72.5,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 97.7,
+          "gdacs_impact_pressure": 58.2,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -1883,6 +1894,96 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1104186&episodeid=1&eventtype=FL"
         },
         {
+          "id": "TC|1001325",
+          "title": "Tropical Cyclone POLO-26",
+          "date": "2026-09-21T03:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "Mexico",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=12&eventtype=TC"
+        },
+        {
+          "id": "TC|1001324",
+          "title": "Tropical Cyclone ODALYS-26",
+          "date": "2026-09-20T09:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=14&eventtype=TC"
+        },
+        {
+          "id": "TC|1001321",
+          "title": "Tropical Cyclone FIFTEEN-E-26",
+          "date": "2026-09-13T21:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "United States",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=12&eventtype=TC"
+        },
+        {
+          "id": "EQ|1567681",
+          "title": "Earthquake in South Of Fiji Islands",
+          "date": "2026-09-23T14:45:35+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "South Of Fiji Islands",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1567681&episodeid=1735629&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1567678",
+          "title": "Earthquake in Tonga",
+          "date": "2026-09-23T14:41:02+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Tonga",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1567678&episodeid=1735624&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1567659",
+          "title": "Earthquake in Mariana Islands Region",
+          "date": "2026-09-23T13:01:51+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Mariana Islands Region",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1567659&episodeid=1735606&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1567655",
+          "title": "Earthquake in Indonesia",
+          "date": "2026-09-23T12:23:20+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Indonesia",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1567655&episodeid=1735602&eventtype=EQ"
+        },
+        {
+          "id": "TC|1001327",
+          "title": "Tropical Cyclone SURIGAE-26",
+          "date": "2026-09-23T06:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001327&episodeid=2&eventtype=TC"
+        },
+        {
+          "id": "TC|1001326",
+          "title": "Tropical Cyclone ONE-26",
+          "date": "2026-09-22T18:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "India",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=4&eventtype=TC"
+        },
+        {
           "id": "EQ|1567644",
           "title": "Earthquake in Argentina",
           "date": "2026-09-23T09:21:14+00:00",
@@ -1893,36 +1994,6 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1567644&episodeid=1735587&eventtype=EQ"
         },
         {
-          "id": "TC|1001325",
-          "title": "Tropical Cyclone POLO-26",
-          "date": "2026-09-21T03:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "Mexico",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=11&eventtype=TC"
-        },
-        {
-          "id": "TC|1001321",
-          "title": "Tropical Cyclone FIFTEEN-E-26",
-          "date": "2026-09-13T21:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "United States",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=11&eventtype=TC"
-        },
-        {
-          "id": "TC|1001324",
-          "title": "Tropical Cyclone ODALYS-26",
-          "date": "2026-09-20T09:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=13&eventtype=TC"
-        },
-        {
           "id": "EQ|1567643",
           "title": "Earthquake in Scotia Sea",
           "date": "2026-09-23T08:41:58+00:00",
@@ -1931,66 +2002,6 @@
           "country": "Scotia Sea",
           "weight": 1.0,
           "url": "https://www.gdacs.org/report.aspx?eventid=1567643&episodeid=1735584&eventtype=EQ"
-        },
-        {
-          "id": "TC|1001327",
-          "title": "Tropical Cyclone TWENTYFIVE-26",
-          "date": "2026-09-23T06:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001327&episodeid=1&eventtype=TC"
-        },
-        {
-          "id": "TC|1001326",
-          "title": "Tropical Cyclone ONE-26",
-          "date": "2026-09-22T18:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "India",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=3&eventtype=TC"
-        },
-        {
-          "id": "EQ|1567628",
-          "title": "Earthquake in Tajikistan",
-          "date": "2026-09-23T05:46:11+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Tajikistan",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1567628&episodeid=1735568&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1567592",
-          "title": "Earthquake in Indonesia",
-          "date": "2026-09-23T02:02:43+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Indonesia",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1567592&episodeid=1735547&eventtype=EQ"
-        },
-        {
-          "id": "WF|1032346",
-          "title": "Forest fires in Australia",
-          "date": "2026-09-22T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Australia",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032346&episodeid=1&eventtype=WF"
-        },
-        {
-          "id": "WF|1032347",
-          "title": "Forest fires in Zimbabwe",
-          "date": "2026-09-20T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Zimbabwe",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032347&episodeid=1&eventtype=WF"
         }
       ]
     },
@@ -2031,16 +2042,6 @@
           "url": "https://irwin.doi.gov/observer/incidents/2026-MTEAS-000786"
         },
         {
-          "id": "EONET_23681",
-          "title": "Wildfire Plaskett, Monterey, California",
-          "date": "2026-08-26T12:46:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.4,
-          "url": "https://irwin.doi.gov/observer/incidents/2026-CALPF-002475"
-        },
-        {
           "id": "EONET_24325",
           "title": "Wildfire in Australia 1032001",
           "date": "2026-09-14T19:00:00+00:00",
@@ -2079,16 +2080,6 @@
           ],
           "weight": 4.3,
           "url": "https://irwin.doi.gov/observer/incidents/2026-UTBRS-200695"
-        },
-        {
-          "id": "EONET_23453",
-          "title": "Wildfire Calico, Humboldt, Nevada",
-          "date": "2026-08-26T17:29:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.3,
-          "url": "https://irwin.doi.gov/observer/incidents/2026-NVHTF-020624"
         },
         {
           "id": "EONET_24481",
@@ -2149,6 +2140,26 @@
           ],
           "weight": 4.1,
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032283"
+        },
+        {
+          "id": "EONET_24719",
+          "title": "Prescribed Fire D2 Dye RX, Coconino, Arizona",
+          "date": "2026-09-17T17:44:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.1,
+          "url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000955"
+        },
+        {
+          "id": "EONET_24348",
+          "title": "Wildfire in Australia 1031990",
+          "date": "2026-09-12T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.1,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031990"
         }
       ]
     },
@@ -6194,6 +6205,96 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1104186&episodeid=1&eventtype=FL"
     },
     {
+      "id": "TC|1001325",
+      "title": "Tropical Cyclone POLO-26",
+      "date": "2026-09-21T03:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "Mexico",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=12&eventtype=TC"
+    },
+    {
+      "id": "TC|1001324",
+      "title": "Tropical Cyclone ODALYS-26",
+      "date": "2026-09-20T09:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=14&eventtype=TC"
+    },
+    {
+      "id": "TC|1001321",
+      "title": "Tropical Cyclone FIFTEEN-E-26",
+      "date": "2026-09-13T21:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "United States",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=12&eventtype=TC"
+    },
+    {
+      "id": "EQ|1567681",
+      "title": "Earthquake in South Of Fiji Islands",
+      "date": "2026-09-23T14:45:35+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "South Of Fiji Islands",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1567681&episodeid=1735629&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1567678",
+      "title": "Earthquake in Tonga",
+      "date": "2026-09-23T14:41:02+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Tonga",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1567678&episodeid=1735624&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1567659",
+      "title": "Earthquake in Mariana Islands Region",
+      "date": "2026-09-23T13:01:51+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Mariana Islands Region",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1567659&episodeid=1735606&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1567655",
+      "title": "Earthquake in Indonesia",
+      "date": "2026-09-23T12:23:20+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Indonesia",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1567655&episodeid=1735602&eventtype=EQ"
+    },
+    {
+      "id": "TC|1001327",
+      "title": "Tropical Cyclone SURIGAE-26",
+      "date": "2026-09-23T06:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001327&episodeid=2&eventtype=TC"
+    },
+    {
+      "id": "TC|1001326",
+      "title": "Tropical Cyclone ONE-26",
+      "date": "2026-09-22T18:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "India",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=4&eventtype=TC"
+    },
+    {
       "id": "EQ|1567644",
       "title": "Earthquake in Argentina",
       "date": "2026-09-23T09:21:14+00:00",
@@ -6204,36 +6305,6 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1567644&episodeid=1735587&eventtype=EQ"
     },
     {
-      "id": "TC|1001325",
-      "title": "Tropical Cyclone POLO-26",
-      "date": "2026-09-21T03:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "Mexico",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=11&eventtype=TC"
-    },
-    {
-      "id": "TC|1001321",
-      "title": "Tropical Cyclone FIFTEEN-E-26",
-      "date": "2026-09-13T21:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "United States",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=11&eventtype=TC"
-    },
-    {
-      "id": "TC|1001324",
-      "title": "Tropical Cyclone ODALYS-26",
-      "date": "2026-09-20T09:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=13&eventtype=TC"
-    },
-    {
       "id": "EQ|1567643",
       "title": "Earthquake in Scotia Sea",
       "date": "2026-09-23T08:41:58+00:00",
@@ -6242,66 +6313,6 @@
       "country": "Scotia Sea",
       "weight": 1.0,
       "url": "https://www.gdacs.org/report.aspx?eventid=1567643&episodeid=1735584&eventtype=EQ"
-    },
-    {
-      "id": "TC|1001327",
-      "title": "Tropical Cyclone TWENTYFIVE-26",
-      "date": "2026-09-23T06:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001327&episodeid=1&eventtype=TC"
-    },
-    {
-      "id": "TC|1001326",
-      "title": "Tropical Cyclone ONE-26",
-      "date": "2026-09-22T18:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "India",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=3&eventtype=TC"
-    },
-    {
-      "id": "EQ|1567628",
-      "title": "Earthquake in Tajikistan",
-      "date": "2026-09-23T05:46:11+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Tajikistan",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1567628&episodeid=1735568&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1567592",
-      "title": "Earthquake in Indonesia",
-      "date": "2026-09-23T02:02:43+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Indonesia",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1567592&episodeid=1735547&eventtype=EQ"
-    },
-    {
-      "id": "WF|1032346",
-      "title": "Forest fires in Australia",
-      "date": "2026-09-22T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Australia",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1032346&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF|1032347",
-      "title": "Forest fires in Zimbabwe",
-      "date": "2026-09-20T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Zimbabwe",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1032347&episodeid=1&eventtype=WF"
     },
     {
       "id": "EONET_24487",
@@ -6332,16 +6343,6 @@
       ],
       "weight": 4.4,
       "url": "https://irwin.doi.gov/observer/incidents/2026-MTEAS-000786"
-    },
-    {
-      "id": "EONET_23681",
-      "title": "Wildfire Plaskett, Monterey, California",
-      "date": "2026-08-26T12:46:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.4,
-      "url": "https://irwin.doi.gov/observer/incidents/2026-CALPF-002475"
     },
     {
       "id": "EONET_24325",
@@ -6384,16 +6385,6 @@
       "url": "https://irwin.doi.gov/observer/incidents/2026-UTBRS-200695"
     },
     {
-      "id": "EONET_23453",
-      "title": "Wildfire Calico, Humboldt, Nevada",
-      "date": "2026-08-26T17:29:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.3,
-      "url": "https://irwin.doi.gov/observer/incidents/2026-NVHTF-020624"
-    },
-    {
       "id": "EONET_24481",
       "title": "Wildfire Dry River, Sutton, Texas",
       "date": "2026-09-15T16:59:00+00:00",
@@ -6422,6 +6413,26 @@
       ],
       "weight": 4.2,
       "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031975"
+    },
+    {
+      "id": "EONET_24281",
+      "title": "Wildfire in Zambia 1031929",
+      "date": "2026-09-04T19:00:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.2,
+      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031929"
+    },
+    {
+      "id": "EONET_24168",
+      "title": "Wildfire in Zambia 1031831",
+      "date": "2026-09-01T19:00:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.2,
+      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031831"
     }
   ]
 }
