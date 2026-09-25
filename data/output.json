@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-09-25T11:54:28.734970+00:00",
+    "generated": "2026-09-25T17:15:14.234013+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,7 +13,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-25T11:54:28.495957+00:00",
+    "issued_at": "2026-09-25T17:15:13.974308+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 69.8,
@@ -163,7 +163,7 @@
         "baseline_months": 12,
         "baseline_median": 48.1,
         "anomaly_z": 1.74,
-        "events_considered": 185,
+        "events_considered": 184,
         "evidence": [
           {
             "id": "TC|1001325",
@@ -173,7 +173,7 @@
             "event_type": "TC",
             "country": "Mexico",
             "weight": 8.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=19&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=20&eventtype=TC"
           },
           {
             "id": "TC|1001326",
@@ -216,14 +216,14 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1104190&episodeid=1&eventtype=FL"
           },
           {
-            "id": "EQ|1568009",
-            "title": "Earthquake in Vanuatu Islands Region",
-            "date": "2026-09-25T11:12:15+00:00",
+            "id": "EQ|1568047",
+            "title": "Earthquake in Chile",
+            "date": "2026-09-25T15:29:09+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Vanuatu Islands Region",
+            "country": "Chile",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1568009&episodeid=1735980&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1568047&episodeid=1736023&eventtype=EQ"
           },
           {
             "id": "TC|1001328",
@@ -233,7 +233,7 @@
             "event_type": "TC",
             "country": "Cape Verde",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001328&episodeid=2&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001328&episodeid=3&eventtype=TC"
           },
           {
             "id": "TC|1001324",
@@ -243,7 +243,7 @@
             "event_type": "TC",
             "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=21&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=23&eventtype=TC"
           },
           {
             "id": "TC|1001323",
@@ -253,7 +253,7 @@
             "event_type": "TC",
             "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=21&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=22&eventtype=TC"
           },
           {
             "id": "TC|1001321",
@@ -263,7 +263,27 @@
             "event_type": "TC",
             "country": "United States",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=19&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=20&eventtype=TC"
+          },
+          {
+            "id": "EQ|1568042",
+            "title": "Earthquake in Indonesia",
+            "date": "2026-09-25T13:47:26+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Indonesia",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1568042&episodeid=1736016&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1568018",
+            "title": "Earthquake in Drake Passage",
+            "date": "2026-09-25T12:37:16+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Drake Passage",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1568018&episodeid=1735991&eventtype=EQ"
           },
           {
             "id": "TC|1001327",
@@ -273,47 +293,27 @@
             "event_type": "TC",
             "country": "Japan",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001327&episodeid=9&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001327&episodeid=10&eventtype=TC"
           },
           {
-            "id": "EQ|1567951",
-            "title": "Earthquake in Indonesia",
-            "date": "2026-09-25T04:27:40+00:00",
+            "id": "EQ|1568011",
+            "title": "Earthquake in India",
+            "date": "2026-09-25T11:53:21+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Indonesia",
+            "country": "India",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1567951&episodeid=1735920&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1568011&episodeid=1735987&eventtype=EQ"
           },
           {
-            "id": "FL|1104183",
-            "title": "Flood in Türkiye",
-            "date": "2026-09-18T01:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "FL",
-            "country": "Türkiye",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1104183&episodeid=2&eventtype=FL"
-          },
-          {
-            "id": "EQ|1567948",
-            "title": "Earthquake in Colombia",
-            "date": "2026-09-25T00:57:07+00:00",
+            "id": "EQ|1568009",
+            "title": "Earthquake in Vanuatu Islands Region",
+            "date": "2026-09-25T11:12:15+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Colombia",
+            "country": "Vanuatu Islands Region",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1567948&episodeid=1735916&eventtype=EQ"
-          },
-          {
-            "id": "WF|1032394",
-            "title": "Forest fires in Papua New Guinea",
-            "date": "2026-09-19T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Papua New Guinea",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1032394&episodeid=1&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1568009&episodeid=1735980&eventtype=EQ"
           }
         ],
         "retained": false
@@ -323,9 +323,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 3693.0,
+        "current_30d_weight": 3699.0,
         "baseline_median": 0.0,
-        "anomaly_z": 3693.02,
+        "anomaly_z": 3699.03,
         "events_considered": 1000,
         "evidence": [
           {
@@ -387,16 +387,6 @@
             ],
             "weight": 4.3,
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031805"
-          },
-          {
-            "id": "EONET_23668",
-            "title": "Wildfire Brushy Canyon, Box Elder, Utah",
-            "date": "2026-08-27T01:42:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.3,
-            "url": "https://irwin.doi.gov/observer/incidents/2026-UTBRS-200695"
           },
           {
             "id": "EONET_24481",
@@ -477,6 +467,16 @@
             ],
             "weight": 4.1,
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031990"
+          },
+          {
+            "id": "EONET_24351",
+            "title": "Wildfire in Namibia 1031966",
+            "date": "2026-09-12T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.1,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031966"
           }
         ],
         "retained": false
@@ -1766,13 +1766,24 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-09-25T17:15:13.974308+00:00",
+        "score": 69.8,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 88.7,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
       "power_sentinels": 8,
-      "gdacs_events": 185,
+      "gdacs_events": 184,
       "eonet_events": 1000,
       "fao_latest_month": "2026-08"
     },
@@ -1819,7 +1830,7 @@
     },
     {
       "label": "Hazards Screened",
-      "value": "1185",
+      "value": "1184",
       "delta": "NASA + GDACS"
     },
     {
@@ -1925,7 +1936,7 @@
       ]
     },
     "gdacs": {
-      "count": 185,
+      "count": 184,
       "cached": false,
       "retained": false,
       "compact": true,
@@ -1938,7 +1949,7 @@
           "event_type": "TC",
           "country": "Mexico",
           "weight": 8.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=19&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=20&eventtype=TC"
         },
         {
           "id": "TC|1001326",
@@ -1981,14 +1992,14 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1104190&episodeid=1&eventtype=FL"
         },
         {
-          "id": "EQ|1568009",
-          "title": "Earthquake in Vanuatu Islands Region",
-          "date": "2026-09-25T11:12:15+00:00",
+          "id": "EQ|1568047",
+          "title": "Earthquake in Chile",
+          "date": "2026-09-25T15:29:09+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Vanuatu Islands Region",
+          "country": "Chile",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1568009&episodeid=1735980&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1568047&episodeid=1736023&eventtype=EQ"
         },
         {
           "id": "TC|1001328",
@@ -1998,7 +2009,7 @@
           "event_type": "TC",
           "country": "Cape Verde",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001328&episodeid=2&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001328&episodeid=3&eventtype=TC"
         },
         {
           "id": "TC|1001324",
@@ -2008,7 +2019,7 @@
           "event_type": "TC",
           "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=21&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=23&eventtype=TC"
         },
         {
           "id": "TC|1001323",
@@ -2018,7 +2029,7 @@
           "event_type": "TC",
           "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=21&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=22&eventtype=TC"
         },
         {
           "id": "TC|1001321",
@@ -2028,7 +2039,27 @@
           "event_type": "TC",
           "country": "United States",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=19&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=20&eventtype=TC"
+        },
+        {
+          "id": "EQ|1568042",
+          "title": "Earthquake in Indonesia",
+          "date": "2026-09-25T13:47:26+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Indonesia",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1568042&episodeid=1736016&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1568018",
+          "title": "Earthquake in Drake Passage",
+          "date": "2026-09-25T12:37:16+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Drake Passage",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1568018&episodeid=1735991&eventtype=EQ"
         },
         {
           "id": "TC|1001327",
@@ -2038,47 +2069,27 @@
           "event_type": "TC",
           "country": "Japan",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001327&episodeid=9&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001327&episodeid=10&eventtype=TC"
         },
         {
-          "id": "EQ|1567951",
-          "title": "Earthquake in Indonesia",
-          "date": "2026-09-25T04:27:40+00:00",
+          "id": "EQ|1568011",
+          "title": "Earthquake in India",
+          "date": "2026-09-25T11:53:21+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Indonesia",
+          "country": "India",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1567951&episodeid=1735920&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1568011&episodeid=1735987&eventtype=EQ"
         },
         {
-          "id": "FL|1104183",
-          "title": "Flood in Türkiye",
-          "date": "2026-09-18T01:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "FL",
-          "country": "Türkiye",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1104183&episodeid=2&eventtype=FL"
-        },
-        {
-          "id": "EQ|1567948",
-          "title": "Earthquake in Colombia",
-          "date": "2026-09-25T00:57:07+00:00",
+          "id": "EQ|1568009",
+          "title": "Earthquake in Vanuatu Islands Region",
+          "date": "2026-09-25T11:12:15+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Colombia",
+          "country": "Vanuatu Islands Region",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1567948&episodeid=1735916&eventtype=EQ"
-        },
-        {
-          "id": "WF|1032394",
-          "title": "Forest fires in Papua New Guinea",
-          "date": "2026-09-19T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Papua New Guinea",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032394&episodeid=1&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1568009&episodeid=1735980&eventtype=EQ"
         }
       ]
     },
@@ -2147,16 +2158,6 @@
           ],
           "weight": 4.3,
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031805"
-        },
-        {
-          "id": "EONET_23668",
-          "title": "Wildfire Brushy Canyon, Box Elder, Utah",
-          "date": "2026-08-27T01:42:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.3,
-          "url": "https://irwin.doi.gov/observer/incidents/2026-UTBRS-200695"
         },
         {
           "id": "EONET_24481",
@@ -2237,6 +2238,16 @@
           ],
           "weight": 4.1,
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031990"
+        },
+        {
+          "id": "EONET_24351",
+          "title": "Wildfire in Namibia 1031966",
+          "date": "2026-09-12T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.1,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031966"
         }
       ]
     },
@@ -6249,7 +6260,7 @@
       "event_type": "TC",
       "country": "Mexico",
       "weight": 8.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=19&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=20&eventtype=TC"
     },
     {
       "id": "TC|1001326",
@@ -6292,14 +6303,14 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1104190&episodeid=1&eventtype=FL"
     },
     {
-      "id": "EQ|1568009",
-      "title": "Earthquake in Vanuatu Islands Region",
-      "date": "2026-09-25T11:12:15+00:00",
+      "id": "EQ|1568047",
+      "title": "Earthquake in Chile",
+      "date": "2026-09-25T15:29:09+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Vanuatu Islands Region",
+      "country": "Chile",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1568009&episodeid=1735980&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1568047&episodeid=1736023&eventtype=EQ"
     },
     {
       "id": "TC|1001328",
@@ -6309,7 +6320,7 @@
       "event_type": "TC",
       "country": "Cape Verde",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001328&episodeid=2&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001328&episodeid=3&eventtype=TC"
     },
     {
       "id": "TC|1001324",
@@ -6319,7 +6330,7 @@
       "event_type": "TC",
       "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=21&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=23&eventtype=TC"
     },
     {
       "id": "TC|1001323",
@@ -6329,7 +6340,7 @@
       "event_type": "TC",
       "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=21&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=22&eventtype=TC"
     },
     {
       "id": "TC|1001321",
@@ -6339,7 +6350,27 @@
       "event_type": "TC",
       "country": "United States",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=19&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=20&eventtype=TC"
+    },
+    {
+      "id": "EQ|1568042",
+      "title": "Earthquake in Indonesia",
+      "date": "2026-09-25T13:47:26+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Indonesia",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1568042&episodeid=1736016&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1568018",
+      "title": "Earthquake in Drake Passage",
+      "date": "2026-09-25T12:37:16+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Drake Passage",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1568018&episodeid=1735991&eventtype=EQ"
     },
     {
       "id": "TC|1001327",
@@ -6349,47 +6380,27 @@
       "event_type": "TC",
       "country": "Japan",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001327&episodeid=9&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001327&episodeid=10&eventtype=TC"
     },
     {
-      "id": "EQ|1567951",
-      "title": "Earthquake in Indonesia",
-      "date": "2026-09-25T04:27:40+00:00",
+      "id": "EQ|1568011",
+      "title": "Earthquake in India",
+      "date": "2026-09-25T11:53:21+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Indonesia",
+      "country": "India",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1567951&episodeid=1735920&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1568011&episodeid=1735987&eventtype=EQ"
     },
     {
-      "id": "FL|1104183",
-      "title": "Flood in Türkiye",
-      "date": "2026-09-18T01:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "FL",
-      "country": "Türkiye",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1104183&episodeid=2&eventtype=FL"
-    },
-    {
-      "id": "EQ|1567948",
-      "title": "Earthquake in Colombia",
-      "date": "2026-09-25T00:57:07+00:00",
+      "id": "EQ|1568009",
+      "title": "Earthquake in Vanuatu Islands Region",
+      "date": "2026-09-25T11:12:15+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Colombia",
+      "country": "Vanuatu Islands Region",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1567948&episodeid=1735916&eventtype=EQ"
-    },
-    {
-      "id": "WF|1032394",
-      "title": "Forest fires in Papua New Guinea",
-      "date": "2026-09-19T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Papua New Guinea",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1032394&episodeid=1&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1568009&episodeid=1735980&eventtype=EQ"
     },
     {
       "id": "EONET_24487",
@@ -6452,16 +6463,6 @@
       "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031805"
     },
     {
-      "id": "EONET_23668",
-      "title": "Wildfire Brushy Canyon, Box Elder, Utah",
-      "date": "2026-08-27T01:42:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.3,
-      "url": "https://irwin.doi.gov/observer/incidents/2026-UTBRS-200695"
-    },
-    {
       "id": "EONET_24481",
       "title": "Wildfire Dry River, Sutton, Texas",
       "date": "2026-09-15T16:59:00+00:00",
@@ -6510,6 +6511,16 @@
       ],
       "weight": 4.2,
       "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031831"
+    },
+    {
+      "id": "EONET_24682",
+      "title": "Wildfire in Australia 1032283",
+      "date": "2026-09-18T19:00:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.1,
+      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032283"
     }
   ]
 }
