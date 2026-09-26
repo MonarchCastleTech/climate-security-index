@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-09-26T11:28:31.847673+00:00",
+    "generated": "2026-09-26T16:26:24.299457+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,10 +13,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-26T11:28:31.622114+00:00",
+    "issued_at": "2026-09-26T16:26:24.167655+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
-    "score": 69.3,
+    "score": 69.8,
     "level": "ELEVATED",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -158,11 +158,11 @@
         "id": "gdacs_impact_pressure",
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
-        "score": 57.8,
-        "current_30d_weight": 121.0,
+        "score": 59.9,
+        "current_30d_weight": 123.0,
         "baseline_months": 12,
-        "baseline_median": 57.6,
-        "anomaly_z": 1.17,
+        "baseline_median": 53.6,
+        "anomaly_z": 1.63,
         "events_considered": 184,
         "evidence": [
           {
@@ -196,44 +196,14 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1562260&episodeid=1729706&eventtype=EQ"
           },
           {
-            "id": "EQ|1568161",
-            "title": "Earthquake in North Indian Ocean",
-            "date": "2026-09-26T10:53:15+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "North Indian Ocean",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1568161&episodeid=1736166&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1568157",
+            "id": "EQ|1568194",
             "title": "Earthquake in New Caledonia",
-            "date": "2026-09-26T10:21:05+00:00",
+            "date": "2026-09-26T15:01:36+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
             "country": "New Caledonia",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1568157&episodeid=1736163&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1568152",
-            "title": "Earthquake in New Caledonia",
-            "date": "2026-09-26T09:10:31+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "New Caledonia",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1568152&episodeid=1736153&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1568151",
-            "title": "Earthquake in New Caledonia",
-            "date": "2026-09-26T09:07:19+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "New Caledonia",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1568151&episodeid=1736156&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1568194&episodeid=1736207&eventtype=EQ"
           },
           {
             "id": "TC|1001328",
@@ -243,7 +213,7 @@
             "event_type": "TC",
             "country": "Cape Verde",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001328&episodeid=6&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001328&episodeid=7&eventtype=TC"
           },
           {
             "id": "TC|1001321",
@@ -253,7 +223,7 @@
             "event_type": "TC",
             "country": "United States",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=23&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=24&eventtype=TC"
           },
           {
             "id": "TC|1001323",
@@ -263,7 +233,7 @@
             "event_type": "TC",
             "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=25&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=26&eventtype=TC"
           },
           {
             "id": "TC|1001324",
@@ -273,7 +243,7 @@
             "event_type": "TC",
             "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=26&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=27&eventtype=TC"
           },
           {
             "id": "TC|1001325",
@@ -283,37 +253,67 @@
             "event_type": "TC",
             "country": "Mexico",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=23&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=24&eventtype=TC"
           },
           {
-            "id": "EQ|1568150",
+            "id": "EQ|1568187",
+            "title": "Earthquake in Papua New Guinea",
+            "date": "2026-09-26T14:08:17+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Papua New Guinea",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1568187&episodeid=1736201&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1568188",
             "title": "Earthquake in New Caledonia",
-            "date": "2026-09-26T08:54:03+00:00",
+            "date": "2026-09-26T13:48:50+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
             "country": "New Caledonia",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1568150&episodeid=1736149&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1568188&episodeid=1736198&eventtype=EQ"
           },
           {
-            "id": "EQ|1568148",
+            "id": "EQ|1568174",
+            "title": "Earthquake in Indonesia",
+            "date": "2026-09-26T13:38:15+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Indonesia",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1568174&episodeid=1736205&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1568171",
             "title": "Earthquake in New Caledonia",
-            "date": "2026-09-26T08:24:58+00:00",
+            "date": "2026-09-26T12:14:20+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
             "country": "New Caledonia",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1568148&episodeid=1736145&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1568171&episodeid=1736179&eventtype=EQ"
           },
           {
-            "id": "EQ|1568144",
+            "id": "EQ|1568172",
             "title": "Earthquake in New Caledonia",
-            "date": "2026-09-26T07:22:12+00:00",
+            "date": "2026-09-26T12:11:01+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
             "country": "New Caledonia",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1568144&episodeid=1736140&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1568172&episodeid=1736181&eventtype=EQ"
+          },
+          {
+            "id": "TC|1001327",
+            "title": "Tropical Cyclone SURIGAE-26",
+            "date": "2026-09-23T06:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "Japan",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001327&episodeid=14&eventtype=TC"
           }
         ],
         "retained": false
@@ -323,9 +323,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 3699.1,
+        "current_30d_weight": 3690.6,
         "baseline_median": 0.0,
-        "anomaly_z": 3699.13,
+        "anomaly_z": 3690.59,
         "events_considered": 1000,
         "evidence": [
           {
@@ -439,6 +439,16 @@
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031831"
           },
           {
+            "id": "EONET_24845",
+            "title": "Wildfire in Angola 1032396",
+            "date": "2026-09-20T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.1,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032396"
+          },
+          {
             "id": "EONET_24682",
             "title": "Wildfire in Australia 1032283",
             "date": "2026-09-18T19:00:00+00:00",
@@ -467,16 +477,6 @@
             ],
             "weight": 4.1,
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031990"
-          },
-          {
-            "id": "EONET_24351",
-            "title": "Wildfire in Namibia 1031966",
-            "date": "2026-09-12T19:00:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.1,
-            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031966"
           }
         ],
         "retained": false
@@ -562,7 +562,7 @@
       {
         "id": "gdacs_impact_pressure",
         "title": "GDACS multi-hazard impact pressure",
-        "score": 57.8,
+        "score": 59.9,
         "level": "ELEVATED"
       },
       {
@@ -1810,6 +1810,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-09-26T16:26:24.167655+00:00",
+        "score": 69.8,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 88.7,
+          "gdacs_impact_pressure": 59.9,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -1853,7 +1864,7 @@
   "stats": [
     {
       "label": "Climate-Security Pressure",
-      "value": "69.3/100",
+      "value": "69.8/100",
       "delta": "ELEVATED"
     },
     {
@@ -2005,44 +2016,14 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1562260&episodeid=1729706&eventtype=EQ"
         },
         {
-          "id": "EQ|1568161",
-          "title": "Earthquake in North Indian Ocean",
-          "date": "2026-09-26T10:53:15+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "North Indian Ocean",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1568161&episodeid=1736166&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1568157",
+          "id": "EQ|1568194",
           "title": "Earthquake in New Caledonia",
-          "date": "2026-09-26T10:21:05+00:00",
+          "date": "2026-09-26T15:01:36+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
           "country": "New Caledonia",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1568157&episodeid=1736163&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1568152",
-          "title": "Earthquake in New Caledonia",
-          "date": "2026-09-26T09:10:31+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "New Caledonia",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1568152&episodeid=1736153&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1568151",
-          "title": "Earthquake in New Caledonia",
-          "date": "2026-09-26T09:07:19+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "New Caledonia",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1568151&episodeid=1736156&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1568194&episodeid=1736207&eventtype=EQ"
         },
         {
           "id": "TC|1001328",
@@ -2052,7 +2033,7 @@
           "event_type": "TC",
           "country": "Cape Verde",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001328&episodeid=6&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001328&episodeid=7&eventtype=TC"
         },
         {
           "id": "TC|1001321",
@@ -2062,7 +2043,7 @@
           "event_type": "TC",
           "country": "United States",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=23&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=24&eventtype=TC"
         },
         {
           "id": "TC|1001323",
@@ -2072,7 +2053,7 @@
           "event_type": "TC",
           "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=25&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=26&eventtype=TC"
         },
         {
           "id": "TC|1001324",
@@ -2082,7 +2063,7 @@
           "event_type": "TC",
           "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=26&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=27&eventtype=TC"
         },
         {
           "id": "TC|1001325",
@@ -2092,37 +2073,67 @@
           "event_type": "TC",
           "country": "Mexico",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=23&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=24&eventtype=TC"
         },
         {
-          "id": "EQ|1568150",
+          "id": "EQ|1568187",
+          "title": "Earthquake in Papua New Guinea",
+          "date": "2026-09-26T14:08:17+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Papua New Guinea",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1568187&episodeid=1736201&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1568188",
           "title": "Earthquake in New Caledonia",
-          "date": "2026-09-26T08:54:03+00:00",
+          "date": "2026-09-26T13:48:50+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
           "country": "New Caledonia",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1568150&episodeid=1736149&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1568188&episodeid=1736198&eventtype=EQ"
         },
         {
-          "id": "EQ|1568148",
+          "id": "EQ|1568174",
+          "title": "Earthquake in Indonesia",
+          "date": "2026-09-26T13:38:15+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Indonesia",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1568174&episodeid=1736205&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1568171",
           "title": "Earthquake in New Caledonia",
-          "date": "2026-09-26T08:24:58+00:00",
+          "date": "2026-09-26T12:14:20+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
           "country": "New Caledonia",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1568148&episodeid=1736145&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1568171&episodeid=1736179&eventtype=EQ"
         },
         {
-          "id": "EQ|1568144",
+          "id": "EQ|1568172",
           "title": "Earthquake in New Caledonia",
-          "date": "2026-09-26T07:22:12+00:00",
+          "date": "2026-09-26T12:11:01+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
           "country": "New Caledonia",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1568144&episodeid=1736140&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1568172&episodeid=1736181&eventtype=EQ"
+        },
+        {
+          "id": "TC|1001327",
+          "title": "Tropical Cyclone SURIGAE-26",
+          "date": "2026-09-23T06:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "Japan",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001327&episodeid=14&eventtype=TC"
         }
       ]
     },
@@ -2243,6 +2254,16 @@
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031831"
         },
         {
+          "id": "EONET_24845",
+          "title": "Wildfire in Angola 1032396",
+          "date": "2026-09-20T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.1,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032396"
+        },
+        {
           "id": "EONET_24682",
           "title": "Wildfire in Australia 1032283",
           "date": "2026-09-18T19:00:00+00:00",
@@ -2271,16 +2292,6 @@
           ],
           "weight": 4.1,
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031990"
-        },
-        {
-          "id": "EONET_24351",
-          "title": "Wildfire in Namibia 1031966",
-          "date": "2026-09-12T19:00:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.1,
-          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031966"
         }
       ]
     },
@@ -6316,44 +6327,14 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1562260&episodeid=1729706&eventtype=EQ"
     },
     {
-      "id": "EQ|1568161",
-      "title": "Earthquake in North Indian Ocean",
-      "date": "2026-09-26T10:53:15+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "North Indian Ocean",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1568161&episodeid=1736166&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1568157",
+      "id": "EQ|1568194",
       "title": "Earthquake in New Caledonia",
-      "date": "2026-09-26T10:21:05+00:00",
+      "date": "2026-09-26T15:01:36+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
       "country": "New Caledonia",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1568157&episodeid=1736163&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1568152",
-      "title": "Earthquake in New Caledonia",
-      "date": "2026-09-26T09:10:31+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "New Caledonia",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1568152&episodeid=1736153&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1568151",
-      "title": "Earthquake in New Caledonia",
-      "date": "2026-09-26T09:07:19+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "New Caledonia",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1568151&episodeid=1736156&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1568194&episodeid=1736207&eventtype=EQ"
     },
     {
       "id": "TC|1001328",
@@ -6363,7 +6344,7 @@
       "event_type": "TC",
       "country": "Cape Verde",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001328&episodeid=6&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001328&episodeid=7&eventtype=TC"
     },
     {
       "id": "TC|1001321",
@@ -6373,7 +6354,7 @@
       "event_type": "TC",
       "country": "United States",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=23&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=24&eventtype=TC"
     },
     {
       "id": "TC|1001323",
@@ -6383,7 +6364,7 @@
       "event_type": "TC",
       "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=25&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=26&eventtype=TC"
     },
     {
       "id": "TC|1001324",
@@ -6393,7 +6374,7 @@
       "event_type": "TC",
       "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=26&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=27&eventtype=TC"
     },
     {
       "id": "TC|1001325",
@@ -6403,37 +6384,67 @@
       "event_type": "TC",
       "country": "Mexico",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=23&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=24&eventtype=TC"
     },
     {
-      "id": "EQ|1568150",
+      "id": "EQ|1568187",
+      "title": "Earthquake in Papua New Guinea",
+      "date": "2026-09-26T14:08:17+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Papua New Guinea",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1568187&episodeid=1736201&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1568188",
       "title": "Earthquake in New Caledonia",
-      "date": "2026-09-26T08:54:03+00:00",
+      "date": "2026-09-26T13:48:50+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
       "country": "New Caledonia",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1568150&episodeid=1736149&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1568188&episodeid=1736198&eventtype=EQ"
     },
     {
-      "id": "EQ|1568148",
+      "id": "EQ|1568174",
+      "title": "Earthquake in Indonesia",
+      "date": "2026-09-26T13:38:15+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Indonesia",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1568174&episodeid=1736205&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1568171",
       "title": "Earthquake in New Caledonia",
-      "date": "2026-09-26T08:24:58+00:00",
+      "date": "2026-09-26T12:14:20+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
       "country": "New Caledonia",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1568148&episodeid=1736145&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1568171&episodeid=1736179&eventtype=EQ"
     },
     {
-      "id": "EQ|1568144",
+      "id": "EQ|1568172",
       "title": "Earthquake in New Caledonia",
-      "date": "2026-09-26T07:22:12+00:00",
+      "date": "2026-09-26T12:11:01+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
       "country": "New Caledonia",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1568144&episodeid=1736140&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1568172&episodeid=1736181&eventtype=EQ"
+    },
+    {
+      "id": "TC|1001327",
+      "title": "Tropical Cyclone SURIGAE-26",
+      "date": "2026-09-23T06:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "Japan",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001327&episodeid=14&eventtype=TC"
     },
     {
       "id": "EONET_24487",
@@ -6546,14 +6557,14 @@
       "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031831"
     },
     {
-      "id": "EONET_24682",
-      "title": "Wildfire in Australia 1032283",
-      "date": "2026-09-18T19:00:00+00:00",
+      "id": "EONET_24845",
+      "title": "Wildfire in Angola 1032396",
+      "date": "2026-09-20T19:00:00+00:00",
       "categories": [
         "wildfires"
       ],
       "weight": 4.1,
-      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032283"
+      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032396"
     }
   ]
 }
