@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-09-27T12:06:26.240791+00:00",
+    "generated": "2026-09-27T17:00:07.680209+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,10 +13,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-27T12:06:25.993479+00:00",
+    "issued_at": "2026-09-27T17:00:07.502030+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
-    "score": 69.0,
+    "score": 69.2,
     "level": "ELEVATED",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -158,13 +158,23 @@
         "id": "gdacs_impact_pressure",
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
-        "score": 58.8,
-        "current_30d_weight": 113.0,
+        "score": 59.5,
+        "current_30d_weight": 120.0,
         "baseline_months": 12,
         "baseline_median": 53.6,
-        "anomaly_z": 1.4,
+        "anomaly_z": 1.56,
         "events_considered": 184,
         "evidence": [
+          {
+            "id": "TC|1001325",
+            "title": "Tropical Cyclone POLO-26",
+            "date": "2026-09-21T03:00:00+00:00",
+            "alert_level": "Orange",
+            "event_type": "TC",
+            "country": "Mexico",
+            "weight": 8.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=28&eventtype=TC"
+          },
           {
             "id": "TC|1001326",
             "title": "Tropical Cyclone ONE-26",
@@ -193,7 +203,7 @@
             "event_type": "TC",
             "country": "United States",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=27&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=28&eventtype=TC"
           },
           {
             "id": "TC|1001324",
@@ -203,7 +213,7 @@
             "event_type": "TC",
             "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=30&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=31&eventtype=TC"
           },
           {
             "id": "TC|1001323",
@@ -213,17 +223,7 @@
             "event_type": "TC",
             "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=29&eventtype=TC"
-          },
-          {
-            "id": "TC|1001325",
-            "title": "Tropical Cyclone POLO-26",
-            "date": "2026-09-21T03:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "Mexico",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=27&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=30&eventtype=TC"
           },
           {
             "id": "TC|1001329",
@@ -233,7 +233,17 @@
             "event_type": "TC",
             "country": "Mexico",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=1&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=2&eventtype=TC"
+          },
+          {
+            "id": "TC|1001327",
+            "title": "Tropical Cyclone SURIGAE-26",
+            "date": "2026-09-23T06:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "Japan",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001327&episodeid=18&eventtype=TC"
           },
           {
             "id": "EQ|1568275",
@@ -254,16 +264,6 @@
             "country": "United States",
             "weight": 1.0,
             "url": "https://www.gdacs.org/report.aspx?eventid=1568267&episodeid=1736306&eventtype=EQ"
-          },
-          {
-            "id": "TC|1001327",
-            "title": "Tropical Cyclone SURIGAE-26",
-            "date": "2026-09-23T06:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "Japan",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001327&episodeid=17&eventtype=TC"
           },
           {
             "id": "EQ|1568258",
@@ -323,9 +323,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 3604.5,
+        "current_30d_weight": 3678.7,
         "baseline_median": 0.0,
-        "anomaly_z": 3604.48,
+        "anomaly_z": 3678.67,
         "events_considered": 1000,
         "evidence": [
           {
@@ -562,7 +562,7 @@
       {
         "id": "gdacs_impact_pressure",
         "title": "GDACS multi-hazard impact pressure",
-        "score": 58.8,
+        "score": 59.5,
         "level": "ELEVATED"
       },
       {
@@ -1854,6 +1854,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-09-27T17:00:07.502030+00:00",
+        "score": 69.2,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 87.3,
+          "gdacs_impact_pressure": 59.5,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -1897,7 +1908,7 @@
   "stats": [
     {
       "label": "Climate-Security Pressure",
-      "value": "69.0/100",
+      "value": "69.2/100",
       "delta": "ELEVATED"
     },
     {
@@ -2019,6 +2030,16 @@
       "compact": true,
       "events": [
         {
+          "id": "TC|1001325",
+          "title": "Tropical Cyclone POLO-26",
+          "date": "2026-09-21T03:00:00+00:00",
+          "alert_level": "Orange",
+          "event_type": "TC",
+          "country": "Mexico",
+          "weight": 8.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=28&eventtype=TC"
+        },
+        {
           "id": "TC|1001326",
           "title": "Tropical Cyclone ONE-26",
           "date": "2026-09-22T18:00:00+00:00",
@@ -2046,7 +2067,7 @@
           "event_type": "TC",
           "country": "United States",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=27&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=28&eventtype=TC"
         },
         {
           "id": "TC|1001324",
@@ -2056,7 +2077,7 @@
           "event_type": "TC",
           "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=30&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=31&eventtype=TC"
         },
         {
           "id": "TC|1001323",
@@ -2066,17 +2087,7 @@
           "event_type": "TC",
           "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=29&eventtype=TC"
-        },
-        {
-          "id": "TC|1001325",
-          "title": "Tropical Cyclone POLO-26",
-          "date": "2026-09-21T03:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "Mexico",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=27&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=30&eventtype=TC"
         },
         {
           "id": "TC|1001329",
@@ -2086,7 +2097,17 @@
           "event_type": "TC",
           "country": "Mexico",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=1&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=2&eventtype=TC"
+        },
+        {
+          "id": "TC|1001327",
+          "title": "Tropical Cyclone SURIGAE-26",
+          "date": "2026-09-23T06:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "Japan",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001327&episodeid=18&eventtype=TC"
         },
         {
           "id": "EQ|1568275",
@@ -2107,16 +2128,6 @@
           "country": "United States",
           "weight": 1.0,
           "url": "https://www.gdacs.org/report.aspx?eventid=1568267&episodeid=1736306&eventtype=EQ"
-        },
-        {
-          "id": "TC|1001327",
-          "title": "Tropical Cyclone SURIGAE-26",
-          "date": "2026-09-23T06:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "Japan",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001327&episodeid=17&eventtype=TC"
         },
         {
           "id": "EQ|1568258",
@@ -6330,6 +6341,16 @@
       "observed_through": "2026-09-25"
     },
     {
+      "id": "TC|1001325",
+      "title": "Tropical Cyclone POLO-26",
+      "date": "2026-09-21T03:00:00+00:00",
+      "alert_level": "Orange",
+      "event_type": "TC",
+      "country": "Mexico",
+      "weight": 8.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=28&eventtype=TC"
+    },
+    {
       "id": "TC|1001326",
       "title": "Tropical Cyclone ONE-26",
       "date": "2026-09-22T18:00:00+00:00",
@@ -6357,7 +6378,7 @@
       "event_type": "TC",
       "country": "United States",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=27&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=28&eventtype=TC"
     },
     {
       "id": "TC|1001324",
@@ -6367,7 +6388,7 @@
       "event_type": "TC",
       "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=30&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=31&eventtype=TC"
     },
     {
       "id": "TC|1001323",
@@ -6377,17 +6398,7 @@
       "event_type": "TC",
       "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=29&eventtype=TC"
-    },
-    {
-      "id": "TC|1001325",
-      "title": "Tropical Cyclone POLO-26",
-      "date": "2026-09-21T03:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "Mexico",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=27&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=30&eventtype=TC"
     },
     {
       "id": "TC|1001329",
@@ -6397,7 +6408,17 @@
       "event_type": "TC",
       "country": "Mexico",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=1&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=2&eventtype=TC"
+    },
+    {
+      "id": "TC|1001327",
+      "title": "Tropical Cyclone SURIGAE-26",
+      "date": "2026-09-23T06:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "Japan",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001327&episodeid=18&eventtype=TC"
     },
     {
       "id": "EQ|1568275",
@@ -6418,16 +6439,6 @@
       "country": "United States",
       "weight": 1.0,
       "url": "https://www.gdacs.org/report.aspx?eventid=1568267&episodeid=1736306&eventtype=EQ"
-    },
-    {
-      "id": "TC|1001327",
-      "title": "Tropical Cyclone SURIGAE-26",
-      "date": "2026-09-23T06:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "Japan",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001327&episodeid=17&eventtype=TC"
     },
     {
       "id": "EQ|1568258",
