@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-09-28T05:27:58.490670+00:00",
+    "generated": "2026-09-28T14:00:14.166275+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,10 +13,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-28T05:27:58.358187+00:00",
+    "issued_at": "2026-09-28T14:00:14.021572+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
-    "score": 69.0,
+    "score": 68.8,
     "level": "ELEVATED",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -158,22 +158,22 @@
         "id": "gdacs_impact_pressure",
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
-        "score": 59.4,
-        "current_30d_weight": 132.0,
+        "score": 58.4,
+        "current_30d_weight": 121.1,
         "baseline_months": 12,
         "baseline_median": 57.6,
-        "anomaly_z": 1.54,
+        "anomaly_z": 1.31,
         "events_considered": 184,
         "evidence": [
           {
             "id": "TC|1001325",
             "title": "Tropical Cyclone POLO-26",
             "date": "2026-09-21T03:00:00+00:00",
-            "alert_level": "Red",
+            "alert_level": "Orange",
             "event_type": "TC",
             "country": "Mexico",
-            "weight": 20.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=30&eventtype=TC"
+            "weight": 8.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=31&eventtype=TC"
           },
           {
             "id": "TC|1001326",
@@ -196,64 +196,64 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1000148&episodeid=1&eventtype=VO"
           },
           {
-            "id": "EQ|1568424",
-            "title": "Earthquake in Northwest Of Kuril Islands",
-            "date": "2026-09-28T04:42:56+00:00",
+            "id": "WF|1032450",
+            "title": "Forest fires in Suriname, Brazil",
+            "date": "2026-09-24T00:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Northwest Of Kuril Islands",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1568424&episodeid=1736486&eventtype=EQ"
+            "event_type": "WF",
+            "country": "Suriname, Brazil",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032450&episodeid=2&eventtype=WF"
           },
           {
-            "id": "EQ|1568425",
-            "title": "Earthquake in South Sandwich Islands Region",
-            "date": "2026-09-28T04:41:33+00:00",
+            "id": "FL|1104178",
+            "title": "Flood in Guinea",
+            "date": "2026-09-18T01:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "South Sandwich Islands Region",
+            "event_type": "FL",
+            "country": "Guinea",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1568425&episodeid=1736489&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1104178&episodeid=4&eventtype=FL"
           },
           {
-            "id": "EQ|1568423",
-            "title": "Earthquake in Vancouver Island, Canada Region",
-            "date": "2026-09-28T04:41:21+00:00",
+            "id": "EQ|1568477",
+            "title": "Earthquake in North Of Svalbard",
+            "date": "2026-09-28T13:22:39+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Vancouver Island, Canada Region",
+            "country": "North Of Svalbard",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1568423&episodeid=1736484&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1568477&episodeid=1736553&eventtype=EQ"
           },
           {
-            "id": "EQ|1568414",
-            "title": "Earthquake in South Sandwich Islands Region",
-            "date": "2026-09-28T03:43:44+00:00",
+            "id": "EQ|1568474",
+            "title": "Earthquake in Fiji",
+            "date": "2026-09-28T12:14:24+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "South Sandwich Islands Region",
+            "country": "Fiji",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1568414&episodeid=1736471&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1568474&episodeid=1736549&eventtype=EQ"
           },
           {
-            "id": "EQ|1568412",
-            "title": "Earthquake in New Caledonia",
-            "date": "2026-09-28T03:25:06+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "New Caledonia",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1568412&episodeid=1736467&eventtype=EQ"
-          },
-          {
-            "id": "TC|1001321",
-            "title": "Tropical Cyclone NOLO-26",
-            "date": "2026-09-13T21:00:00+00:00",
+            "id": "TC|1001327",
+            "title": "Tropical Cyclone SURIGAE-26",
+            "date": "2026-09-23T06:00:00+00:00",
             "alert_level": "Green",
             "event_type": "TC",
-            "country": "United States",
+            "country": "Japan",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=30&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001327&episodeid=22&eventtype=TC"
+          },
+          {
+            "id": "EQ|1568457",
+            "title": "Earthquake in Canada",
+            "date": "2026-09-28T09:13:39+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Canada",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1568457&episodeid=1736531&eventtype=EQ"
           },
           {
             "id": "TC|1001323",
@@ -263,7 +263,17 @@
             "event_type": "TC",
             "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=32&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=33&eventtype=TC"
+          },
+          {
+            "id": "TC|1001321",
+            "title": "Tropical Cyclone NOLO-26",
+            "date": "2026-09-13T21:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "United States",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=31&eventtype=TC"
           },
           {
             "id": "TC|1001329",
@@ -273,47 +283,37 @@
             "event_type": "TC",
             "country": "Mexico",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=4&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=5&eventtype=TC"
           },
           {
-            "id": "EQ|1568409",
-            "title": "Earthquake in Vancouver Island, Canada Region",
-            "date": "2026-09-28T02:53:43+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Vancouver Island, Canada Region",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1568409&episodeid=1736470&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1568389",
+            "id": "EQ|1568450",
             "title": "Earthquake in Philippines",
-            "date": "2026-09-28T00:54:43+00:00",
+            "date": "2026-09-28T08:16:13+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
             "country": "Philippines",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1568389&episodeid=1736482&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1568450&episodeid=1736534&eventtype=EQ"
           },
           {
-            "id": "EQ|1568416",
+            "id": "EQ|1568451",
+            "title": "Earthquake in New Zealand",
+            "date": "2026-09-28T06:37:56+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "New Zealand",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1568451&episodeid=1736522&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1568434",
             "title": "Earthquake in New Caledonia",
-            "date": "2026-09-28T00:47:33+00:00",
+            "date": "2026-09-28T05:45:29+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
             "country": "New Caledonia",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1568416&episodeid=1736474&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1568407",
-            "title": "Earthquake in Russian Federation",
-            "date": "2026-09-28T00:37:59+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Russian Federation",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1568407&episodeid=1736462&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1568434&episodeid=1736501&eventtype=EQ"
           }
         ],
         "retained": false
@@ -325,7 +325,7 @@
         "score": 56.0,
         "current_30d_weight": 3567.8,
         "baseline_median": 0.0,
-        "anomaly_z": 3567.8,
+        "anomaly_z": 3567.83,
         "events_considered": 1000,
         "evidence": [
           {
@@ -562,7 +562,7 @@
       {
         "id": "gdacs_impact_pressure",
         "title": "GDACS multi-hazard impact pressure",
-        "score": 59.4,
+        "score": 58.4,
         "level": "ELEVATED"
       },
       {
@@ -1887,6 +1887,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-09-28T14:00:14.021572+00:00",
+        "score": 68.8,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 86.8,
+          "gdacs_impact_pressure": 58.4,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -1930,7 +1941,7 @@
   "stats": [
     {
       "label": "Climate-Security Pressure",
-      "value": "69.0/100",
+      "value": "68.8/100",
       "delta": "ELEVATED"
     },
     {
@@ -2055,11 +2066,11 @@
           "id": "TC|1001325",
           "title": "Tropical Cyclone POLO-26",
           "date": "2026-09-21T03:00:00+00:00",
-          "alert_level": "Red",
+          "alert_level": "Orange",
           "event_type": "TC",
           "country": "Mexico",
-          "weight": 20.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=30&eventtype=TC"
+          "weight": 8.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=31&eventtype=TC"
         },
         {
           "id": "TC|1001326",
@@ -2082,64 +2093,64 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1000148&episodeid=1&eventtype=VO"
         },
         {
-          "id": "EQ|1568424",
-          "title": "Earthquake in Northwest Of Kuril Islands",
-          "date": "2026-09-28T04:42:56+00:00",
+          "id": "WF|1032450",
+          "title": "Forest fires in Suriname, Brazil",
+          "date": "2026-09-24T00:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Northwest Of Kuril Islands",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1568424&episodeid=1736486&eventtype=EQ"
+          "event_type": "WF",
+          "country": "Suriname, Brazil",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032450&episodeid=2&eventtype=WF"
         },
         {
-          "id": "EQ|1568425",
-          "title": "Earthquake in South Sandwich Islands Region",
-          "date": "2026-09-28T04:41:33+00:00",
+          "id": "FL|1104178",
+          "title": "Flood in Guinea",
+          "date": "2026-09-18T01:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "South Sandwich Islands Region",
+          "event_type": "FL",
+          "country": "Guinea",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1568425&episodeid=1736489&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1104178&episodeid=4&eventtype=FL"
         },
         {
-          "id": "EQ|1568423",
-          "title": "Earthquake in Vancouver Island, Canada Region",
-          "date": "2026-09-28T04:41:21+00:00",
+          "id": "EQ|1568477",
+          "title": "Earthquake in North Of Svalbard",
+          "date": "2026-09-28T13:22:39+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Vancouver Island, Canada Region",
+          "country": "North Of Svalbard",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1568423&episodeid=1736484&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1568477&episodeid=1736553&eventtype=EQ"
         },
         {
-          "id": "EQ|1568414",
-          "title": "Earthquake in South Sandwich Islands Region",
-          "date": "2026-09-28T03:43:44+00:00",
+          "id": "EQ|1568474",
+          "title": "Earthquake in Fiji",
+          "date": "2026-09-28T12:14:24+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "South Sandwich Islands Region",
+          "country": "Fiji",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1568414&episodeid=1736471&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1568474&episodeid=1736549&eventtype=EQ"
         },
         {
-          "id": "EQ|1568412",
-          "title": "Earthquake in New Caledonia",
-          "date": "2026-09-28T03:25:06+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "New Caledonia",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1568412&episodeid=1736467&eventtype=EQ"
-        },
-        {
-          "id": "TC|1001321",
-          "title": "Tropical Cyclone NOLO-26",
-          "date": "2026-09-13T21:00:00+00:00",
+          "id": "TC|1001327",
+          "title": "Tropical Cyclone SURIGAE-26",
+          "date": "2026-09-23T06:00:00+00:00",
           "alert_level": "Green",
           "event_type": "TC",
-          "country": "United States",
+          "country": "Japan",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=30&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001327&episodeid=22&eventtype=TC"
+        },
+        {
+          "id": "EQ|1568457",
+          "title": "Earthquake in Canada",
+          "date": "2026-09-28T09:13:39+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Canada",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1568457&episodeid=1736531&eventtype=EQ"
         },
         {
           "id": "TC|1001323",
@@ -2149,7 +2160,17 @@
           "event_type": "TC",
           "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=32&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=33&eventtype=TC"
+        },
+        {
+          "id": "TC|1001321",
+          "title": "Tropical Cyclone NOLO-26",
+          "date": "2026-09-13T21:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "United States",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=31&eventtype=TC"
         },
         {
           "id": "TC|1001329",
@@ -2159,47 +2180,37 @@
           "event_type": "TC",
           "country": "Mexico",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=4&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=5&eventtype=TC"
         },
         {
-          "id": "EQ|1568409",
-          "title": "Earthquake in Vancouver Island, Canada Region",
-          "date": "2026-09-28T02:53:43+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Vancouver Island, Canada Region",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1568409&episodeid=1736470&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1568389",
+          "id": "EQ|1568450",
           "title": "Earthquake in Philippines",
-          "date": "2026-09-28T00:54:43+00:00",
+          "date": "2026-09-28T08:16:13+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
           "country": "Philippines",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1568389&episodeid=1736482&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1568450&episodeid=1736534&eventtype=EQ"
         },
         {
-          "id": "EQ|1568416",
+          "id": "EQ|1568451",
+          "title": "Earthquake in New Zealand",
+          "date": "2026-09-28T06:37:56+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "New Zealand",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1568451&episodeid=1736522&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1568434",
           "title": "Earthquake in New Caledonia",
-          "date": "2026-09-28T00:47:33+00:00",
+          "date": "2026-09-28T05:45:29+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
           "country": "New Caledonia",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1568416&episodeid=1736474&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1568407",
-          "title": "Earthquake in Russian Federation",
-          "date": "2026-09-28T00:37:59+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Russian Federation",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1568407&episodeid=1736462&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1568434&episodeid=1736501&eventtype=EQ"
         }
       ]
     },
@@ -6366,11 +6377,11 @@
       "id": "TC|1001325",
       "title": "Tropical Cyclone POLO-26",
       "date": "2026-09-21T03:00:00+00:00",
-      "alert_level": "Red",
+      "alert_level": "Orange",
       "event_type": "TC",
       "country": "Mexico",
-      "weight": 20.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=30&eventtype=TC"
+      "weight": 8.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=31&eventtype=TC"
     },
     {
       "id": "TC|1001326",
@@ -6393,64 +6404,64 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1000148&episodeid=1&eventtype=VO"
     },
     {
-      "id": "EQ|1568424",
-      "title": "Earthquake in Northwest Of Kuril Islands",
-      "date": "2026-09-28T04:42:56+00:00",
+      "id": "WF|1032450",
+      "title": "Forest fires in Suriname, Brazil",
+      "date": "2026-09-24T00:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Northwest Of Kuril Islands",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1568424&episodeid=1736486&eventtype=EQ"
+      "event_type": "WF",
+      "country": "Suriname, Brazil",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1032450&episodeid=2&eventtype=WF"
     },
     {
-      "id": "EQ|1568425",
-      "title": "Earthquake in South Sandwich Islands Region",
-      "date": "2026-09-28T04:41:33+00:00",
+      "id": "FL|1104178",
+      "title": "Flood in Guinea",
+      "date": "2026-09-18T01:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "South Sandwich Islands Region",
+      "event_type": "FL",
+      "country": "Guinea",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1568425&episodeid=1736489&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1104178&episodeid=4&eventtype=FL"
     },
     {
-      "id": "EQ|1568423",
-      "title": "Earthquake in Vancouver Island, Canada Region",
-      "date": "2026-09-28T04:41:21+00:00",
+      "id": "EQ|1568477",
+      "title": "Earthquake in North Of Svalbard",
+      "date": "2026-09-28T13:22:39+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Vancouver Island, Canada Region",
+      "country": "North Of Svalbard",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1568423&episodeid=1736484&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1568477&episodeid=1736553&eventtype=EQ"
     },
     {
-      "id": "EQ|1568414",
-      "title": "Earthquake in South Sandwich Islands Region",
-      "date": "2026-09-28T03:43:44+00:00",
+      "id": "EQ|1568474",
+      "title": "Earthquake in Fiji",
+      "date": "2026-09-28T12:14:24+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "South Sandwich Islands Region",
+      "country": "Fiji",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1568414&episodeid=1736471&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1568474&episodeid=1736549&eventtype=EQ"
     },
     {
-      "id": "EQ|1568412",
-      "title": "Earthquake in New Caledonia",
-      "date": "2026-09-28T03:25:06+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "New Caledonia",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1568412&episodeid=1736467&eventtype=EQ"
-    },
-    {
-      "id": "TC|1001321",
-      "title": "Tropical Cyclone NOLO-26",
-      "date": "2026-09-13T21:00:00+00:00",
+      "id": "TC|1001327",
+      "title": "Tropical Cyclone SURIGAE-26",
+      "date": "2026-09-23T06:00:00+00:00",
       "alert_level": "Green",
       "event_type": "TC",
-      "country": "United States",
+      "country": "Japan",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=30&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001327&episodeid=22&eventtype=TC"
+    },
+    {
+      "id": "EQ|1568457",
+      "title": "Earthquake in Canada",
+      "date": "2026-09-28T09:13:39+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Canada",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1568457&episodeid=1736531&eventtype=EQ"
     },
     {
       "id": "TC|1001323",
@@ -6460,7 +6471,17 @@
       "event_type": "TC",
       "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=32&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=33&eventtype=TC"
+    },
+    {
+      "id": "TC|1001321",
+      "title": "Tropical Cyclone NOLO-26",
+      "date": "2026-09-13T21:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "United States",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=31&eventtype=TC"
     },
     {
       "id": "TC|1001329",
@@ -6470,47 +6491,37 @@
       "event_type": "TC",
       "country": "Mexico",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=4&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=5&eventtype=TC"
     },
     {
-      "id": "EQ|1568409",
-      "title": "Earthquake in Vancouver Island, Canada Region",
-      "date": "2026-09-28T02:53:43+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Vancouver Island, Canada Region",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1568409&episodeid=1736470&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1568389",
+      "id": "EQ|1568450",
       "title": "Earthquake in Philippines",
-      "date": "2026-09-28T00:54:43+00:00",
+      "date": "2026-09-28T08:16:13+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
       "country": "Philippines",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1568389&episodeid=1736482&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1568450&episodeid=1736534&eventtype=EQ"
     },
     {
-      "id": "EQ|1568416",
+      "id": "EQ|1568451",
+      "title": "Earthquake in New Zealand",
+      "date": "2026-09-28T06:37:56+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "New Zealand",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1568451&episodeid=1736522&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1568434",
       "title": "Earthquake in New Caledonia",
-      "date": "2026-09-28T00:47:33+00:00",
+      "date": "2026-09-28T05:45:29+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
       "country": "New Caledonia",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1568416&episodeid=1736474&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1568407",
-      "title": "Earthquake in Russian Federation",
-      "date": "2026-09-28T00:37:59+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Russian Federation",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1568407&episodeid=1736462&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1568434&episodeid=1736501&eventtype=EQ"
     },
     {
       "id": "EONET_24487",
