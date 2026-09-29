@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-09-29T12:56:58.788862+00:00",
+    "generated": "2026-09-29T22:18:35.880544+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,7 +13,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-29T12:56:58.547135+00:00",
+    "issued_at": "2026-09-29T22:18:35.695200+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 69.9,
@@ -173,7 +173,7 @@
             "event_type": "TC",
             "country": "Mexico",
             "weight": 20.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=35&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=37&eventtype=TC"
           },
           {
             "id": "TC|1001326",
@@ -206,44 +206,14 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1032475&episodeid=2&eventtype=WF"
           },
           {
-            "id": "EQ|1568600",
-            "title": "Earthquake in United States",
-            "date": "2026-09-29T11:36:37+00:00",
+            "id": "TC|1001331",
+            "title": "Tropical Cyclone NINETEEN-E-26",
+            "date": "2026-09-29T15:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "United States",
+            "event_type": "TC",
+            "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1568600&episodeid=1736692&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1568602",
-            "title": "Earthquake in Vanuatu",
-            "date": "2026-09-29T11:27:48+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Vanuatu",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1568602&episodeid=1736691&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1568597",
-            "title": "Earthquake in New Caledonia",
-            "date": "2026-09-29T10:42:57+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "New Caledonia",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1568597&episodeid=1736684&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1568591",
-            "title": "Earthquake in Peru",
-            "date": "2026-09-29T10:22:14+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Peru",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1568591&episodeid=1736681&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001331&episodeid=2&eventtype=TC"
           },
           {
             "id": "TC|1001330",
@@ -253,17 +223,17 @@
             "event_type": "TC",
             "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001330&episodeid=4&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001330&episodeid=6&eventtype=TC"
           },
           {
-            "id": "TC|1001321",
-            "title": "Tropical Cyclone NOLO-26",
-            "date": "2026-09-13T21:00:00+00:00",
+            "id": "TC|1001329",
+            "title": "Tropical Cyclone RACHEL-26",
+            "date": "2026-09-27T09:00:00+00:00",
             "alert_level": "Green",
             "event_type": "TC",
-            "country": "United States",
+            "country": "Mexico",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=35&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=11&eventtype=TC"
           },
           {
             "id": "TC|1001323",
@@ -273,37 +243,27 @@
             "event_type": "TC",
             "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=37&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=39&eventtype=TC"
           },
           {
-            "id": "TC|1001329",
-            "title": "Tropical Cyclone RACHEL-26",
-            "date": "2026-09-27T09:00:00+00:00",
+            "id": "TC|1001321",
+            "title": "Tropical Cyclone NOLO-26",
+            "date": "2026-09-13T21:00:00+00:00",
             "alert_level": "Green",
             "event_type": "TC",
-            "country": "",
+            "country": "United States",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=9&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=37&eventtype=TC"
           },
           {
-            "id": "EQ|1568585",
-            "title": "Earthquake in Mexico",
-            "date": "2026-09-29T08:21:56+00:00",
+            "id": "EQ|1568681",
+            "title": "Earthquake in Philippines",
+            "date": "2026-09-29T20:45:50+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Mexico",
+            "country": "Philippines",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1568585&episodeid=1736696&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1568573",
-            "title": "Earthquake in South Sandwich Islands Region",
-            "date": "2026-09-29T06:38:49+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "South Sandwich Islands Region",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1568573&episodeid=1736659&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1568681&episodeid=1736783&eventtype=EQ"
           },
           {
             "id": "TC|1001327",
@@ -313,7 +273,47 @@
             "event_type": "TC",
             "country": "Japan",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001327&episodeid=25&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001327&episodeid=27&eventtype=TC"
+          },
+          {
+            "id": "EQ|1568655",
+            "title": "Earthquake in Tonga",
+            "date": "2026-09-29T16:12:56+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Tonga",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1568655&episodeid=1736753&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1568648",
+            "title": "Earthquake in West Chile Rise",
+            "date": "2026-09-29T15:31:18+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "West Chile Rise",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1568648&episodeid=1736762&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1568660",
+            "title": "Earthquake in South Sandwich Islands Region",
+            "date": "2026-09-29T15:17:18+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "South Sandwich Islands Region",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1568660&episodeid=1736760&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1568636",
+            "title": "Earthquake in Indonesia",
+            "date": "2026-09-29T14:14:06+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Indonesia",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1568636&episodeid=1736735&eventtype=EQ"
           }
         ],
         "retained": false
@@ -323,9 +323,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 3376.2,
+        "current_30d_weight": 3254.2,
         "baseline_median": 0.0,
-        "anomaly_z": 3376.21,
+        "anomaly_z": 3254.16,
         "events_considered": 1000,
         "evidence": [
           {
@@ -379,16 +379,6 @@
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031985"
           },
           {
-            "id": "EONET_24138",
-            "title": "Wildfire in Angola 1031805",
-            "date": "2026-08-30T19:00:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.3,
-            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031805"
-          },
-          {
             "id": "EONET_24481",
             "title": "Wildfire Dry River, Sutton, Texas",
             "date": "2026-09-15T16:59:00+00:00",
@@ -437,6 +427,16 @@
             ],
             "weight": 4.2,
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031831"
+          },
+          {
+            "id": "EONET_24917",
+            "title": "Wildfire in Angola 1032458",
+            "date": "2026-09-25T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.1,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032458"
           },
           {
             "id": "EONET_24845",
@@ -1931,6 +1931,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-09-29T22:18:35.695200+00:00",
+        "score": 69.9,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 88.8,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -2103,7 +2114,7 @@
           "event_type": "TC",
           "country": "Mexico",
           "weight": 20.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=35&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=37&eventtype=TC"
         },
         {
           "id": "TC|1001326",
@@ -2136,44 +2147,14 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1032475&episodeid=2&eventtype=WF"
         },
         {
-          "id": "EQ|1568600",
-          "title": "Earthquake in United States",
-          "date": "2026-09-29T11:36:37+00:00",
+          "id": "TC|1001331",
+          "title": "Tropical Cyclone NINETEEN-E-26",
+          "date": "2026-09-29T15:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "United States",
+          "event_type": "TC",
+          "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1568600&episodeid=1736692&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1568602",
-          "title": "Earthquake in Vanuatu",
-          "date": "2026-09-29T11:27:48+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Vanuatu",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1568602&episodeid=1736691&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1568597",
-          "title": "Earthquake in New Caledonia",
-          "date": "2026-09-29T10:42:57+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "New Caledonia",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1568597&episodeid=1736684&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1568591",
-          "title": "Earthquake in Peru",
-          "date": "2026-09-29T10:22:14+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Peru",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1568591&episodeid=1736681&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001331&episodeid=2&eventtype=TC"
         },
         {
           "id": "TC|1001330",
@@ -2183,17 +2164,17 @@
           "event_type": "TC",
           "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001330&episodeid=4&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001330&episodeid=6&eventtype=TC"
         },
         {
-          "id": "TC|1001321",
-          "title": "Tropical Cyclone NOLO-26",
-          "date": "2026-09-13T21:00:00+00:00",
+          "id": "TC|1001329",
+          "title": "Tropical Cyclone RACHEL-26",
+          "date": "2026-09-27T09:00:00+00:00",
           "alert_level": "Green",
           "event_type": "TC",
-          "country": "United States",
+          "country": "Mexico",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=35&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=11&eventtype=TC"
         },
         {
           "id": "TC|1001323",
@@ -2203,37 +2184,27 @@
           "event_type": "TC",
           "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=37&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=39&eventtype=TC"
         },
         {
-          "id": "TC|1001329",
-          "title": "Tropical Cyclone RACHEL-26",
-          "date": "2026-09-27T09:00:00+00:00",
+          "id": "TC|1001321",
+          "title": "Tropical Cyclone NOLO-26",
+          "date": "2026-09-13T21:00:00+00:00",
           "alert_level": "Green",
           "event_type": "TC",
-          "country": "",
+          "country": "United States",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=9&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=37&eventtype=TC"
         },
         {
-          "id": "EQ|1568585",
-          "title": "Earthquake in Mexico",
-          "date": "2026-09-29T08:21:56+00:00",
+          "id": "EQ|1568681",
+          "title": "Earthquake in Philippines",
+          "date": "2026-09-29T20:45:50+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Mexico",
+          "country": "Philippines",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1568585&episodeid=1736696&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1568573",
-          "title": "Earthquake in South Sandwich Islands Region",
-          "date": "2026-09-29T06:38:49+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "South Sandwich Islands Region",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1568573&episodeid=1736659&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1568681&episodeid=1736783&eventtype=EQ"
         },
         {
           "id": "TC|1001327",
@@ -2243,7 +2214,47 @@
           "event_type": "TC",
           "country": "Japan",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001327&episodeid=25&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001327&episodeid=27&eventtype=TC"
+        },
+        {
+          "id": "EQ|1568655",
+          "title": "Earthquake in Tonga",
+          "date": "2026-09-29T16:12:56+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Tonga",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1568655&episodeid=1736753&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1568648",
+          "title": "Earthquake in West Chile Rise",
+          "date": "2026-09-29T15:31:18+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "West Chile Rise",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1568648&episodeid=1736762&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1568660",
+          "title": "Earthquake in South Sandwich Islands Region",
+          "date": "2026-09-29T15:17:18+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "South Sandwich Islands Region",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1568660&episodeid=1736760&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1568636",
+          "title": "Earthquake in Indonesia",
+          "date": "2026-09-29T14:14:06+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Indonesia",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1568636&episodeid=1736735&eventtype=EQ"
         }
       ]
     },
@@ -2304,16 +2315,6 @@
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031985"
         },
         {
-          "id": "EONET_24138",
-          "title": "Wildfire in Angola 1031805",
-          "date": "2026-08-30T19:00:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.3,
-          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031805"
-        },
-        {
           "id": "EONET_24481",
           "title": "Wildfire Dry River, Sutton, Texas",
           "date": "2026-09-15T16:59:00+00:00",
@@ -2362,6 +2363,16 @@
           ],
           "weight": 4.2,
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031831"
+        },
+        {
+          "id": "EONET_24917",
+          "title": "Wildfire in Angola 1032458",
+          "date": "2026-09-25T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.1,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032458"
         },
         {
           "id": "EONET_24845",
@@ -6414,7 +6425,7 @@
       "event_type": "TC",
       "country": "Mexico",
       "weight": 20.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=35&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=37&eventtype=TC"
     },
     {
       "id": "TC|1001326",
@@ -6447,44 +6458,14 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1032475&episodeid=2&eventtype=WF"
     },
     {
-      "id": "EQ|1568600",
-      "title": "Earthquake in United States",
-      "date": "2026-09-29T11:36:37+00:00",
+      "id": "TC|1001331",
+      "title": "Tropical Cyclone NINETEEN-E-26",
+      "date": "2026-09-29T15:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "United States",
+      "event_type": "TC",
+      "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1568600&episodeid=1736692&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1568602",
-      "title": "Earthquake in Vanuatu",
-      "date": "2026-09-29T11:27:48+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Vanuatu",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1568602&episodeid=1736691&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1568597",
-      "title": "Earthquake in New Caledonia",
-      "date": "2026-09-29T10:42:57+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "New Caledonia",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1568597&episodeid=1736684&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1568591",
-      "title": "Earthquake in Peru",
-      "date": "2026-09-29T10:22:14+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Peru",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1568591&episodeid=1736681&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001331&episodeid=2&eventtype=TC"
     },
     {
       "id": "TC|1001330",
@@ -6494,17 +6475,17 @@
       "event_type": "TC",
       "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001330&episodeid=4&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001330&episodeid=6&eventtype=TC"
     },
     {
-      "id": "TC|1001321",
-      "title": "Tropical Cyclone NOLO-26",
-      "date": "2026-09-13T21:00:00+00:00",
+      "id": "TC|1001329",
+      "title": "Tropical Cyclone RACHEL-26",
+      "date": "2026-09-27T09:00:00+00:00",
       "alert_level": "Green",
       "event_type": "TC",
-      "country": "United States",
+      "country": "Mexico",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=35&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=11&eventtype=TC"
     },
     {
       "id": "TC|1001323",
@@ -6514,37 +6495,27 @@
       "event_type": "TC",
       "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=37&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=39&eventtype=TC"
     },
     {
-      "id": "TC|1001329",
-      "title": "Tropical Cyclone RACHEL-26",
-      "date": "2026-09-27T09:00:00+00:00",
+      "id": "TC|1001321",
+      "title": "Tropical Cyclone NOLO-26",
+      "date": "2026-09-13T21:00:00+00:00",
       "alert_level": "Green",
       "event_type": "TC",
-      "country": "",
+      "country": "United States",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=9&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=37&eventtype=TC"
     },
     {
-      "id": "EQ|1568585",
-      "title": "Earthquake in Mexico",
-      "date": "2026-09-29T08:21:56+00:00",
+      "id": "EQ|1568681",
+      "title": "Earthquake in Philippines",
+      "date": "2026-09-29T20:45:50+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Mexico",
+      "country": "Philippines",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1568585&episodeid=1736696&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1568573",
-      "title": "Earthquake in South Sandwich Islands Region",
-      "date": "2026-09-29T06:38:49+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "South Sandwich Islands Region",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1568573&episodeid=1736659&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1568681&episodeid=1736783&eventtype=EQ"
     },
     {
       "id": "TC|1001327",
@@ -6554,7 +6525,47 @@
       "event_type": "TC",
       "country": "Japan",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001327&episodeid=25&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001327&episodeid=27&eventtype=TC"
+    },
+    {
+      "id": "EQ|1568655",
+      "title": "Earthquake in Tonga",
+      "date": "2026-09-29T16:12:56+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Tonga",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1568655&episodeid=1736753&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1568648",
+      "title": "Earthquake in West Chile Rise",
+      "date": "2026-09-29T15:31:18+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "West Chile Rise",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1568648&episodeid=1736762&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1568660",
+      "title": "Earthquake in South Sandwich Islands Region",
+      "date": "2026-09-29T15:17:18+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "South Sandwich Islands Region",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1568660&episodeid=1736760&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1568636",
+      "title": "Earthquake in Indonesia",
+      "date": "2026-09-29T14:14:06+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Indonesia",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1568636&episodeid=1736735&eventtype=EQ"
     },
     {
       "id": "EONET_24487",
@@ -6607,16 +6618,6 @@
       "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031985"
     },
     {
-      "id": "EONET_24138",
-      "title": "Wildfire in Angola 1031805",
-      "date": "2026-08-30T19:00:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.3,
-      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031805"
-    },
-    {
       "id": "EONET_24481",
       "title": "Wildfire Dry River, Sutton, Texas",
       "date": "2026-09-15T16:59:00+00:00",
@@ -6665,6 +6666,16 @@
       ],
       "weight": 4.2,
       "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031831"
+    },
+    {
+      "id": "EONET_24917",
+      "title": "Wildfire in Angola 1032458",
+      "date": "2026-09-25T19:00:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.1,
+      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032458"
     },
     {
       "id": "EONET_24845",
