@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-09-30T12:38:51.923228+00:00",
+    "generated": "2026-09-30T22:18:42.777335+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,7 +13,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-09-30T12:38:51.685305+00:00",
+    "issued_at": "2026-09-30T22:18:42.661534+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 70.5,
@@ -159,11 +159,11 @@
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 135.1,
+        "current_30d_weight": 123.1,
         "baseline_months": 12,
-        "baseline_median": 46.4,
-        "anomaly_z": 2.0,
-        "events_considered": 183,
+        "baseline_median": 44.3,
+        "anomaly_z": 2.83,
+        "events_considered": 182,
         "evidence": [
           {
             "id": "TC|1001325",
@@ -203,7 +203,7 @@
             "event_type": "WF",
             "country": "Papua New Guinea, Indonesia",
             "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1032475&episodeid=4&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032475&episodeid=5&eventtype=WF"
           },
           {
             "id": "FL|1104202",
@@ -216,14 +216,24 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1104202&episodeid=1&eventtype=FL"
           },
           {
-            "id": "EQ|1568757",
-            "title": "Earthquake in Indonesia",
-            "date": "2026-09-30T10:58:50+00:00",
+            "id": "EQ|1568826",
+            "title": "Earthquake in Costa Rica",
+            "date": "2026-09-30T21:55:27+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Indonesia",
+            "country": "Costa Rica",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1568757&episodeid=1736889&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1568826&episodeid=1736967&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1568825",
+            "title": "Earthquake in Japan",
+            "date": "2026-09-30T21:11:57+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Japan",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1568825&episodeid=1736965&eventtype=EQ"
           },
           {
             "id": "TC|1001331",
@@ -233,17 +243,7 @@
             "event_type": "TC",
             "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001331&episodeid=4&eventtype=TC"
-          },
-          {
-            "id": "TC|1001330",
-            "title": "Tropical Cyclone HANNA-26",
-            "date": "2026-09-28T15:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001330&episodeid=8&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001331&episodeid=6&eventtype=TC"
           },
           {
             "id": "TC|1001329",
@@ -253,7 +253,7 @@
             "event_type": "TC",
             "country": "Mexico",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=13&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=15&eventtype=TC"
           },
           {
             "id": "TC|1001321",
@@ -263,47 +263,47 @@
             "event_type": "TC",
             "country": "United States",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=39&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=41&eventtype=TC"
           },
           {
-            "id": "EQ|1568740",
-            "title": "Earthquake in Papua New Guinea",
-            "date": "2026-09-30T08:15:17+00:00",
+            "id": "EQ|1568803",
+            "title": "Earthquake in Russia",
+            "date": "2026-09-30T18:36:22+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Papua New Guinea",
+            "country": "Russia",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1568740&episodeid=1736864&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1568803&episodeid=1736941&eventtype=EQ"
           },
           {
-            "id": "EQ|1568736",
-            "title": "Earthquake in Balleny Islands Region",
-            "date": "2026-09-30T07:07:16+00:00",
+            "id": "EQ|1568801",
+            "title": "Earthquake in Russia",
+            "date": "2026-09-30T18:21:19+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Balleny Islands Region",
+            "country": "Russia",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1568736&episodeid=1736858&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1568735",
-            "title": "Earthquake in New Caledonia",
-            "date": "2026-09-30T06:50:03+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "New Caledonia",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1568735&episodeid=1736855&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1568801&episodeid=1736938&eventtype=EQ"
           },
           {
             "id": "TC|1001332",
-            "title": "Tropical Cyclone TWENTYSIX-26",
+            "title": "Tropical Cyclone CHOI-WAN-26",
             "date": "2026-09-30T00:00:00+00:00",
             "alert_level": "Green",
             "event_type": "TC",
             "country": "Northern Mariana Islands",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001332&episodeid=2&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001332&episodeid=4&eventtype=TC"
+          },
+          {
+            "id": "TC|1001330",
+            "title": "Tropical Cyclone HANNA-26",
+            "date": "2026-09-28T15:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001330&episodeid=9&eventtype=TC"
           },
           {
             "id": "TC|1001327",
@@ -313,7 +313,7 @@
             "event_type": "TC",
             "country": "Japan",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001327&episodeid=29&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001327&episodeid=30&eventtype=TC"
           }
         ],
         "retained": false
@@ -323,9 +323,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 3253.8,
+        "current_30d_weight": 3149.7,
         "baseline_median": 0.0,
-        "anomaly_z": 3253.85,
+        "anomaly_z": 3149.7,
         "events_considered": 1000,
         "evidence": [
           {
@@ -449,6 +449,16 @@
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032396"
           },
           {
+            "id": "EONET_24959",
+            "title": "Wildfire in Papua New Guinea 1032503",
+            "date": "2026-09-20T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.1,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032503"
+          },
+          {
             "id": "EONET_24682",
             "title": "Wildfire in Australia 1032283",
             "date": "2026-09-18T19:00:00+00:00",
@@ -467,16 +477,6 @@
             ],
             "weight": 4.1,
             "url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000955"
-          },
-          {
-            "id": "EONET_24348",
-            "title": "Wildfire in Australia 1031990",
-            "date": "2026-09-12T19:00:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.1,
-            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031990"
           }
         ],
         "retained": false
@@ -1964,13 +1964,24 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-09-30T22:18:42.661534+00:00",
+        "score": 70.5,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 90.6,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
       "power_sentinels": 8,
-      "gdacs_events": 183,
+      "gdacs_events": 182,
       "eonet_events": 1000,
       "fao_latest_month": "2026-08"
     },
@@ -2017,7 +2028,7 @@
     },
     {
       "label": "Hazards Screened",
-      "value": "1183",
+      "value": "1182",
       "delta": "NASA + GDACS"
     },
     {
@@ -2123,7 +2134,7 @@
       ]
     },
     "gdacs": {
-      "count": 183,
+      "count": 182,
       "cached": false,
       "retained": false,
       "compact": true,
@@ -2166,7 +2177,7 @@
           "event_type": "WF",
           "country": "Papua New Guinea, Indonesia",
           "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032475&episodeid=4&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032475&episodeid=5&eventtype=WF"
         },
         {
           "id": "FL|1104202",
@@ -2179,14 +2190,24 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1104202&episodeid=1&eventtype=FL"
         },
         {
-          "id": "EQ|1568757",
-          "title": "Earthquake in Indonesia",
-          "date": "2026-09-30T10:58:50+00:00",
+          "id": "EQ|1568826",
+          "title": "Earthquake in Costa Rica",
+          "date": "2026-09-30T21:55:27+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Indonesia",
+          "country": "Costa Rica",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1568757&episodeid=1736889&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1568826&episodeid=1736967&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1568825",
+          "title": "Earthquake in Japan",
+          "date": "2026-09-30T21:11:57+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Japan",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1568825&episodeid=1736965&eventtype=EQ"
         },
         {
           "id": "TC|1001331",
@@ -2196,17 +2217,7 @@
           "event_type": "TC",
           "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001331&episodeid=4&eventtype=TC"
-        },
-        {
-          "id": "TC|1001330",
-          "title": "Tropical Cyclone HANNA-26",
-          "date": "2026-09-28T15:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001330&episodeid=8&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001331&episodeid=6&eventtype=TC"
         },
         {
           "id": "TC|1001329",
@@ -2216,7 +2227,7 @@
           "event_type": "TC",
           "country": "Mexico",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=13&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=15&eventtype=TC"
         },
         {
           "id": "TC|1001321",
@@ -2226,47 +2237,47 @@
           "event_type": "TC",
           "country": "United States",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=39&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=41&eventtype=TC"
         },
         {
-          "id": "EQ|1568740",
-          "title": "Earthquake in Papua New Guinea",
-          "date": "2026-09-30T08:15:17+00:00",
+          "id": "EQ|1568803",
+          "title": "Earthquake in Russia",
+          "date": "2026-09-30T18:36:22+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Papua New Guinea",
+          "country": "Russia",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1568740&episodeid=1736864&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1568803&episodeid=1736941&eventtype=EQ"
         },
         {
-          "id": "EQ|1568736",
-          "title": "Earthquake in Balleny Islands Region",
-          "date": "2026-09-30T07:07:16+00:00",
+          "id": "EQ|1568801",
+          "title": "Earthquake in Russia",
+          "date": "2026-09-30T18:21:19+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Balleny Islands Region",
+          "country": "Russia",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1568736&episodeid=1736858&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1568735",
-          "title": "Earthquake in New Caledonia",
-          "date": "2026-09-30T06:50:03+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "New Caledonia",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1568735&episodeid=1736855&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1568801&episodeid=1736938&eventtype=EQ"
         },
         {
           "id": "TC|1001332",
-          "title": "Tropical Cyclone TWENTYSIX-26",
+          "title": "Tropical Cyclone CHOI-WAN-26",
           "date": "2026-09-30T00:00:00+00:00",
           "alert_level": "Green",
           "event_type": "TC",
           "country": "Northern Mariana Islands",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001332&episodeid=2&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001332&episodeid=4&eventtype=TC"
+        },
+        {
+          "id": "TC|1001330",
+          "title": "Tropical Cyclone HANNA-26",
+          "date": "2026-09-28T15:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001330&episodeid=9&eventtype=TC"
         },
         {
           "id": "TC|1001327",
@@ -2276,7 +2287,7 @@
           "event_type": "TC",
           "country": "Japan",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001327&episodeid=29&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001327&episodeid=30&eventtype=TC"
         }
       ]
     },
@@ -2407,6 +2418,16 @@
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032396"
         },
         {
+          "id": "EONET_24959",
+          "title": "Wildfire in Papua New Guinea 1032503",
+          "date": "2026-09-20T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.1,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032503"
+        },
+        {
           "id": "EONET_24682",
           "title": "Wildfire in Australia 1032283",
           "date": "2026-09-18T19:00:00+00:00",
@@ -2425,16 +2446,6 @@
           ],
           "weight": 4.1,
           "url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000955"
-        },
-        {
-          "id": "EONET_24348",
-          "title": "Wildfire in Australia 1031990",
-          "date": "2026-09-12T19:00:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.1,
-          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031990"
         }
       ]
     },
@@ -6477,7 +6488,7 @@
       "event_type": "WF",
       "country": "Papua New Guinea, Indonesia",
       "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1032475&episodeid=4&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1032475&episodeid=5&eventtype=WF"
     },
     {
       "id": "FL|1104202",
@@ -6490,14 +6501,24 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1104202&episodeid=1&eventtype=FL"
     },
     {
-      "id": "EQ|1568757",
-      "title": "Earthquake in Indonesia",
-      "date": "2026-09-30T10:58:50+00:00",
+      "id": "EQ|1568826",
+      "title": "Earthquake in Costa Rica",
+      "date": "2026-09-30T21:55:27+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Indonesia",
+      "country": "Costa Rica",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1568757&episodeid=1736889&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1568826&episodeid=1736967&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1568825",
+      "title": "Earthquake in Japan",
+      "date": "2026-09-30T21:11:57+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Japan",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1568825&episodeid=1736965&eventtype=EQ"
     },
     {
       "id": "TC|1001331",
@@ -6507,17 +6528,7 @@
       "event_type": "TC",
       "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001331&episodeid=4&eventtype=TC"
-    },
-    {
-      "id": "TC|1001330",
-      "title": "Tropical Cyclone HANNA-26",
-      "date": "2026-09-28T15:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001330&episodeid=8&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001331&episodeid=6&eventtype=TC"
     },
     {
       "id": "TC|1001329",
@@ -6527,7 +6538,7 @@
       "event_type": "TC",
       "country": "Mexico",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=13&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=15&eventtype=TC"
     },
     {
       "id": "TC|1001321",
@@ -6537,47 +6548,47 @@
       "event_type": "TC",
       "country": "United States",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=39&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=41&eventtype=TC"
     },
     {
-      "id": "EQ|1568740",
-      "title": "Earthquake in Papua New Guinea",
-      "date": "2026-09-30T08:15:17+00:00",
+      "id": "EQ|1568803",
+      "title": "Earthquake in Russia",
+      "date": "2026-09-30T18:36:22+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Papua New Guinea",
+      "country": "Russia",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1568740&episodeid=1736864&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1568803&episodeid=1736941&eventtype=EQ"
     },
     {
-      "id": "EQ|1568736",
-      "title": "Earthquake in Balleny Islands Region",
-      "date": "2026-09-30T07:07:16+00:00",
+      "id": "EQ|1568801",
+      "title": "Earthquake in Russia",
+      "date": "2026-09-30T18:21:19+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Balleny Islands Region",
+      "country": "Russia",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1568736&episodeid=1736858&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1568735",
-      "title": "Earthquake in New Caledonia",
-      "date": "2026-09-30T06:50:03+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "New Caledonia",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1568735&episodeid=1736855&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1568801&episodeid=1736938&eventtype=EQ"
     },
     {
       "id": "TC|1001332",
-      "title": "Tropical Cyclone TWENTYSIX-26",
+      "title": "Tropical Cyclone CHOI-WAN-26",
       "date": "2026-09-30T00:00:00+00:00",
       "alert_level": "Green",
       "event_type": "TC",
       "country": "Northern Mariana Islands",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001332&episodeid=2&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001332&episodeid=4&eventtype=TC"
+    },
+    {
+      "id": "TC|1001330",
+      "title": "Tropical Cyclone HANNA-26",
+      "date": "2026-09-28T15:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001330&episodeid=9&eventtype=TC"
     },
     {
       "id": "TC|1001327",
@@ -6587,7 +6598,7 @@
       "event_type": "TC",
       "country": "Japan",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001327&episodeid=29&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001327&episodeid=30&eventtype=TC"
     },
     {
       "id": "EONET_24487",
