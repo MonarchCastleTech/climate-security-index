@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-10-03T05:21:54.666835+00:00",
+    "generated": "2026-10-03T11:42:44.662733+00:00",
     "mode": "partial",
     "sources": [
       "NASA POWER Daily API",
@@ -13,7 +13,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-03T05:21:54.435740+00:00",
+    "issued_at": "2026-10-03T11:42:44.416500+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 68.8,
@@ -159,10 +159,10 @@
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 135.2,
+        "current_30d_weight": 134.2,
         "baseline_months": 12,
         "baseline_median": 36.2,
-        "anomaly_z": 3.48,
+        "anomaly_z": 3.45,
         "events_considered": 182,
         "evidence": [
           {
@@ -203,7 +203,7 @@
             "event_type": "WF",
             "country": "Papua New Guinea, Indonesia",
             "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1032475&episodeid=11&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032475&episodeid=12&eventtype=WF"
           },
           {
             "id": "WF|1032527",
@@ -223,7 +223,7 @@
             "event_type": "TC",
             "country": "United States",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=50&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=51&eventtype=TC"
           },
           {
             "id": "TC|1001329",
@@ -233,7 +233,27 @@
             "event_type": "TC",
             "country": "Mexico",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=24&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=25&eventtype=TC"
+          },
+          {
+            "id": "EQ|1569217",
+            "title": "Earthquake in Japan",
+            "date": "2026-10-03T06:05:21+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Japan",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1569217&episodeid=1737406&eventtype=EQ"
+          },
+          {
+            "id": "TC|1001332",
+            "title": "Tropical Cyclone CHOI-WAN-26",
+            "date": "2026-09-30T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "Guam, Northern Mariana Islands",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001332&episodeid=14&eventtype=TC"
           },
           {
             "id": "EQ|1569206",
@@ -244,6 +264,16 @@
             "country": "Off East Coast Of Kamchatka",
             "weight": 1.0,
             "url": "https://www.gdacs.org/report.aspx?eventid=1569206&episodeid=1737394&eventtype=EQ"
+          },
+          {
+            "id": "FL|1104207",
+            "title": "Flood in Malaysia",
+            "date": "2026-10-01T01:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "FL",
+            "country": "Malaysia",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1104207&episodeid=1&eventtype=FL"
           },
           {
             "id": "EQ|1569179",
@@ -266,54 +296,24 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1569178&episodeid=1737368&eventtype=EQ"
           },
           {
-            "id": "TC|1001332",
-            "title": "Tropical Cyclone CHOI-WAN-26",
+            "id": "WF|1032517",
+            "title": "Forest fires in Brazil",
             "date": "2026-09-30T00:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "TC",
-            "country": "Guam, Northern Mariana Islands",
+            "event_type": "WF",
+            "country": "Brazil",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001332&episodeid=13&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032517&episodeid=6&eventtype=WF"
           },
           {
-            "id": "EQ|1569182",
-            "title": "Earthquake in Russia",
-            "date": "2026-10-02T23:59:26+00:00",
+            "id": "WF|1032518",
+            "title": "Forest fires in Australia",
+            "date": "2026-09-27T00:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Russia",
+            "event_type": "WF",
+            "country": "Australia",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1569182&episodeid=1737367&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1569180",
-            "title": "Earthquake in Russia",
-            "date": "2026-10-02T23:54:13+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Russia",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1569180&episodeid=1737364&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1569163",
-            "title": "Earthquake in Off East Coast Of Kamchatka",
-            "date": "2026-10-02T20:54:15+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Off East Coast Of Kamchatka",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1569163&episodeid=1737344&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1569159",
-            "title": "Earthquake in Russia",
-            "date": "2026-10-02T20:27:27+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Russia",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1569159&episodeid=1737353&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032518&episodeid=8&eventtype=WF"
           }
         ],
         "retained": false
@@ -323,9 +323,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 3063.4,
+        "current_30d_weight": 3060.6,
         "baseline_median": 0.0,
-        "anomaly_z": 3063.37,
+        "anomaly_z": 3060.61,
         "events_considered": 1000,
         "evidence": [
           {
@@ -2052,6 +2052,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-10-03T11:42:44.416500+00:00",
+        "score": 68.8,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 85.9,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -2256,7 +2267,7 @@
           "event_type": "WF",
           "country": "Papua New Guinea, Indonesia",
           "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032475&episodeid=11&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032475&episodeid=12&eventtype=WF"
         },
         {
           "id": "WF|1032527",
@@ -2276,7 +2287,7 @@
           "event_type": "TC",
           "country": "United States",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=50&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=51&eventtype=TC"
         },
         {
           "id": "TC|1001329",
@@ -2286,7 +2297,27 @@
           "event_type": "TC",
           "country": "Mexico",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=24&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=25&eventtype=TC"
+        },
+        {
+          "id": "EQ|1569217",
+          "title": "Earthquake in Japan",
+          "date": "2026-10-03T06:05:21+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Japan",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1569217&episodeid=1737406&eventtype=EQ"
+        },
+        {
+          "id": "TC|1001332",
+          "title": "Tropical Cyclone CHOI-WAN-26",
+          "date": "2026-09-30T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "Guam, Northern Mariana Islands",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001332&episodeid=14&eventtype=TC"
         },
         {
           "id": "EQ|1569206",
@@ -2297,6 +2328,16 @@
           "country": "Off East Coast Of Kamchatka",
           "weight": 1.0,
           "url": "https://www.gdacs.org/report.aspx?eventid=1569206&episodeid=1737394&eventtype=EQ"
+        },
+        {
+          "id": "FL|1104207",
+          "title": "Flood in Malaysia",
+          "date": "2026-10-01T01:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "FL",
+          "country": "Malaysia",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1104207&episodeid=1&eventtype=FL"
         },
         {
           "id": "EQ|1569179",
@@ -2319,54 +2360,24 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1569178&episodeid=1737368&eventtype=EQ"
         },
         {
-          "id": "TC|1001332",
-          "title": "Tropical Cyclone CHOI-WAN-26",
+          "id": "WF|1032517",
+          "title": "Forest fires in Brazil",
           "date": "2026-09-30T00:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "TC",
-          "country": "Guam, Northern Mariana Islands",
+          "event_type": "WF",
+          "country": "Brazil",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001332&episodeid=13&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032517&episodeid=6&eventtype=WF"
         },
         {
-          "id": "EQ|1569182",
-          "title": "Earthquake in Russia",
-          "date": "2026-10-02T23:59:26+00:00",
+          "id": "WF|1032518",
+          "title": "Forest fires in Australia",
+          "date": "2026-09-27T00:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Russia",
+          "event_type": "WF",
+          "country": "Australia",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1569182&episodeid=1737367&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1569180",
-          "title": "Earthquake in Russia",
-          "date": "2026-10-02T23:54:13+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Russia",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1569180&episodeid=1737364&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1569163",
-          "title": "Earthquake in Off East Coast Of Kamchatka",
-          "date": "2026-10-02T20:54:15+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Off East Coast Of Kamchatka",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1569163&episodeid=1737344&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1569159",
-          "title": "Earthquake in Russia",
-          "date": "2026-10-02T20:27:27+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Russia",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1569159&episodeid=1737353&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032518&episodeid=8&eventtype=WF"
         }
       ]
     },
@@ -6567,7 +6578,7 @@
       "event_type": "WF",
       "country": "Papua New Guinea, Indonesia",
       "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1032475&episodeid=11&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1032475&episodeid=12&eventtype=WF"
     },
     {
       "id": "WF|1032527",
@@ -6587,7 +6598,7 @@
       "event_type": "TC",
       "country": "United States",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=50&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=51&eventtype=TC"
     },
     {
       "id": "TC|1001329",
@@ -6597,7 +6608,27 @@
       "event_type": "TC",
       "country": "Mexico",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=24&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=25&eventtype=TC"
+    },
+    {
+      "id": "EQ|1569217",
+      "title": "Earthquake in Japan",
+      "date": "2026-10-03T06:05:21+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Japan",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1569217&episodeid=1737406&eventtype=EQ"
+    },
+    {
+      "id": "TC|1001332",
+      "title": "Tropical Cyclone CHOI-WAN-26",
+      "date": "2026-09-30T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "Guam, Northern Mariana Islands",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001332&episodeid=14&eventtype=TC"
     },
     {
       "id": "EQ|1569206",
@@ -6608,6 +6639,16 @@
       "country": "Off East Coast Of Kamchatka",
       "weight": 1.0,
       "url": "https://www.gdacs.org/report.aspx?eventid=1569206&episodeid=1737394&eventtype=EQ"
+    },
+    {
+      "id": "FL|1104207",
+      "title": "Flood in Malaysia",
+      "date": "2026-10-01T01:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "FL",
+      "country": "Malaysia",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1104207&episodeid=1&eventtype=FL"
     },
     {
       "id": "EQ|1569179",
@@ -6630,54 +6671,24 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1569178&episodeid=1737368&eventtype=EQ"
     },
     {
-      "id": "TC|1001332",
-      "title": "Tropical Cyclone CHOI-WAN-26",
+      "id": "WF|1032517",
+      "title": "Forest fires in Brazil",
       "date": "2026-09-30T00:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "TC",
-      "country": "Guam, Northern Mariana Islands",
+      "event_type": "WF",
+      "country": "Brazil",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001332&episodeid=13&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1032517&episodeid=6&eventtype=WF"
     },
     {
-      "id": "EQ|1569182",
-      "title": "Earthquake in Russia",
-      "date": "2026-10-02T23:59:26+00:00",
+      "id": "WF|1032518",
+      "title": "Forest fires in Australia",
+      "date": "2026-09-27T00:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Russia",
+      "event_type": "WF",
+      "country": "Australia",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1569182&episodeid=1737367&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1569180",
-      "title": "Earthquake in Russia",
-      "date": "2026-10-02T23:54:13+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Russia",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1569180&episodeid=1737364&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1569163",
-      "title": "Earthquake in Off East Coast Of Kamchatka",
-      "date": "2026-10-02T20:54:15+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Off East Coast Of Kamchatka",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1569163&episodeid=1737344&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1569159",
-      "title": "Earthquake in Russia",
-      "date": "2026-10-02T20:27:27+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Russia",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1569159&episodeid=1737353&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1032518&episodeid=8&eventtype=WF"
     },
     {
       "id": "EONET_24487",
