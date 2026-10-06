@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-10-06T00:05:25.100066+00:00",
+    "generated": "2026-10-06T06:24:57.577423+00:00",
     "mode": "partial",
     "sources": [
       "NASA POWER Daily API",
@@ -15,10 +15,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-06T00:05:24.960224+00:00",
+    "issued_at": "2026-10-06T06:24:57.099537+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
-    "score": 66.1,
+    "score": 66.7,
     "level": "ELEVATED",
     "confidence": "HIGH",
     "confidence_score": 97.0,
@@ -27,96 +27,96 @@
         "id": "agroclimate_stress",
         "label": "NASA POWER agroclimate stress",
         "available": true,
-        "score": 78.0,
+        "score": 79.9,
         "sentinels_available": 8,
         "sentinels": [
           {
             "name": "Sudan grain belt",
             "lat": 13.5,
             "lon": 33.5,
-            "score": 99.1,
-            "rain_30d_mm": 101.2,
-            "rain_ratio": 0.79,
-            "max_temp_c": 38.5,
+            "score": 100.0,
+            "rain_30d_mm": 95.0,
+            "rain_ratio": 0.75,
+            "max_temp_c": 38.6,
             "heat_anomaly_c": 8.5,
-            "observed_through": "2026-10-03"
+            "observed_through": "2026-10-04"
           },
           {
             "name": "Ethiopia lowlands",
             "lat": 8.0,
             "lon": 40.0,
-            "score": 87.7,
-            "rain_30d_mm": 75.4,
+            "score": 87.9,
+            "rain_30d_mm": 76.0,
             "rain_ratio": 0.39,
-            "max_temp_c": 27.3,
+            "max_temp_c": 27.2,
             "heat_anomaly_c": 4.5,
-            "observed_through": "2026-10-03"
+            "observed_through": "2026-10-04"
           },
           {
             "name": "Lake Chad basin",
             "lat": 12.5,
             "lon": 14.5,
-            "score": 47.2,
-            "rain_30d_mm": 87.1,
-            "rain_ratio": 0.99,
-            "max_temp_c": 37.4,
-            "heat_anomaly_c": 4.6,
-            "observed_through": "2026-10-03"
+            "score": 51.9,
+            "rain_30d_mm": 86.7,
+            "rain_ratio": 0.92,
+            "max_temp_c": 37.5,
+            "heat_anomaly_c": 4.7,
+            "observed_through": "2026-10-04"
           },
           {
             "name": "Sahel west",
             "lat": 14.5,
             "lon": -1.5,
-            "score": 43.1,
-            "rain_30d_mm": 76.3,
-            "rain_ratio": 1.0,
-            "max_temp_c": 38.3,
-            "heat_anomaly_c": 4.3,
-            "observed_through": "2026-10-03"
+            "score": 40.8,
+            "rain_30d_mm": 77.2,
+            "rain_ratio": 1.12,
+            "max_temp_c": 38.2,
+            "heat_anomaly_c": 4.1,
+            "observed_through": "2026-10-04"
           },
           {
             "name": "Pakistan Indus",
             "lat": 29.0,
             "lon": 70.5,
-            "score": 24.9,
+            "score": 24.2,
             "rain_30d_mm": 12.9,
-            "rain_ratio": 1.16,
+            "rain_ratio": 1.14,
             "max_temp_c": 42.4,
-            "heat_anomaly_c": 2.5,
-            "observed_through": "2026-10-03"
+            "heat_anomaly_c": 2.4,
+            "observed_through": "2026-10-04"
           },
           {
             "name": "Central America dry corridor",
             "lat": 14.0,
             "lon": -88.5,
-            "score": 14.5,
-            "rain_30d_mm": 335.0,
-            "rain_ratio": 1.28,
-            "max_temp_c": 29.9,
-            "heat_anomaly_c": 1.5,
-            "observed_through": "2026-10-03"
+            "score": 13.3,
+            "rain_30d_mm": 357.0,
+            "rain_ratio": 1.35,
+            "max_temp_c": 29.8,
+            "heat_anomaly_c": 1.3,
+            "observed_through": "2026-10-04"
           },
           {
             "name": "Afghanistan drylands",
             "lat": 34.0,
             "lon": 65.0,
-            "score": 0.3,
+            "score": 1.5,
             "rain_30d_mm": 1.7,
             "rain_ratio": 1.0,
-            "max_temp_c": 23.7,
-            "heat_anomaly_c": 0.0,
-            "observed_through": "2026-10-03"
+            "max_temp_c": 23.6,
+            "heat_anomaly_c": 0.2,
+            "observed_through": "2026-10-04"
           },
           {
             "name": "Somalia pastoral belt",
             "lat": 5.0,
             "lon": 45.3,
             "score": 0.0,
-            "rain_30d_mm": 44.5,
-            "rain_ratio": 5.78,
-            "max_temp_c": 36.2,
-            "heat_anomaly_c": -0.8,
-            "observed_through": "2026-10-03"
+            "rain_30d_mm": 57.0,
+            "rain_ratio": 6.18,
+            "max_temp_c": 36.1,
+            "heat_anomaly_c": -0.9,
+            "observed_through": "2026-10-04"
           }
         ],
         "evidence": [
@@ -124,34 +124,34 @@
             "name": "Sudan grain belt",
             "lat": 13.5,
             "lon": 33.5,
-            "score": 99.1,
-            "rain_30d_mm": 101.2,
-            "rain_ratio": 0.79,
-            "max_temp_c": 38.5,
+            "score": 100.0,
+            "rain_30d_mm": 95.0,
+            "rain_ratio": 0.75,
+            "max_temp_c": 38.6,
             "heat_anomaly_c": 8.5,
-            "observed_through": "2026-10-03"
+            "observed_through": "2026-10-04"
           },
           {
             "name": "Ethiopia lowlands",
             "lat": 8.0,
             "lon": 40.0,
-            "score": 87.7,
-            "rain_30d_mm": 75.4,
+            "score": 87.9,
+            "rain_30d_mm": 76.0,
             "rain_ratio": 0.39,
-            "max_temp_c": 27.3,
+            "max_temp_c": 27.2,
             "heat_anomaly_c": 4.5,
-            "observed_through": "2026-10-03"
+            "observed_through": "2026-10-04"
           },
           {
             "name": "Lake Chad basin",
             "lat": 12.5,
             "lon": 14.5,
-            "score": 47.2,
-            "rain_30d_mm": 87.1,
-            "rain_ratio": 0.99,
-            "max_temp_c": 37.4,
-            "heat_anomaly_c": 4.6,
-            "observed_through": "2026-10-03"
+            "score": 51.9,
+            "rain_30d_mm": 86.7,
+            "rain_ratio": 0.92,
+            "max_temp_c": 37.5,
+            "heat_anomaly_c": 4.7,
+            "observed_through": "2026-10-04"
           }
         ],
         "retained": false
@@ -228,6 +228,46 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1104191&episodeid=1&eventtype=FL"
           },
           {
+            "id": "EQ|1569728",
+            "title": "Earthquake in Micronesia",
+            "date": "2026-10-06T04:40:28+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Micronesia",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1569728&episodeid=1737980&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1569726",
+            "title": "Earthquake in Southeast Of Honshu, Japan",
+            "date": "2026-10-06T04:28:36+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Southeast Of Honshu, Japan",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1569726&episodeid=1737977&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1569721",
+            "title": "Earthquake in Indonesia",
+            "date": "2026-10-06T03:42:43+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Indonesia",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1569721&episodeid=1737971&eventtype=EQ"
+          },
+          {
+            "id": "TC|1001329",
+            "title": "Tropical Cyclone RACHEL-26",
+            "date": "2026-09-27T09:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "Mexico",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=36&eventtype=TC"
+          },
+          {
             "id": "FL|1104203",
             "title": "Flood in Senegal",
             "date": "2026-09-27T01:00:00+00:00",
@@ -238,34 +278,14 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1104203&episodeid=2&eventtype=FL"
           },
           {
-            "id": "TC|1001329",
-            "title": "Tropical Cyclone RACHEL-26",
-            "date": "2026-09-27T09:00:00+00:00",
+            "id": "TC|1001332",
+            "title": "Tropical Cyclone CHOI-WAN-26",
+            "date": "2026-09-30T00:00:00+00:00",
             "alert_level": "Green",
             "event_type": "TC",
-            "country": "Mexico",
+            "country": "Guam, Northern Mariana Islands",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=35&eventtype=TC"
-          },
-          {
-            "id": "EQ|1569669",
-            "title": "Earthquake in South Of Fiji Islands",
-            "date": "2026-10-05T20:22:59+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "South Of Fiji Islands",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1569669&episodeid=1737910&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1569664",
-            "title": "Earthquake in Ethiopia",
-            "date": "2026-10-05T19:47:55+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Ethiopia",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1569664&episodeid=1737905&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001332&episodeid=25&eventtype=TC"
           },
           {
             "id": "TC|1001333",
@@ -275,47 +295,27 @@
             "event_type": "TC",
             "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001333&episodeid=4&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001333&episodeid=5&eventtype=TC"
           },
           {
-            "id": "TC|1001332",
-            "title": "Tropical Cyclone CHOI-WAN-26",
-            "date": "2026-09-30T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "Guam, Northern Mariana Islands",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001332&episodeid=24&eventtype=TC"
-          },
-          {
-            "id": "EQ|1569644",
-            "title": "Earthquake in Iceland",
-            "date": "2026-10-05T17:28:24+00:00",
+            "id": "EQ|1569686",
+            "title": "Earthquake in India",
+            "date": "2026-10-05T22:53:42+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Iceland",
+            "country": "India",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1569644&episodeid=1737885&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1569686&episodeid=1737968&eventtype=EQ"
           },
           {
-            "id": "EQ|1569616",
-            "title": "Earthquake in Japan",
-            "date": "2026-10-05T13:30:45+00:00",
+            "id": "EQ|1569719",
+            "title": "Earthquake in Papua New Guinea",
+            "date": "2026-10-05T22:48:53+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Japan",
+            "country": "Papua New Guinea",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1569616&episodeid=1737858&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1569605",
-            "title": "Earthquake in Vanuatu",
-            "date": "2026-10-05T11:47:07+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Vanuatu",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1569605&episodeid=1737843&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1569719&episodeid=1737967&eventtype=EQ"
           }
         ],
         "retained": false
@@ -327,7 +327,7 @@
         "score": 56.0,
         "current_30d_weight": 2894.8,
         "baseline_median": 0.0,
-        "anomaly_z": 2894.78,
+        "anomaly_z": 2894.76,
         "events_considered": 1000,
         "evidence": [
           {
@@ -558,7 +558,7 @@
       {
         "id": "agroclimate_stress",
         "title": "NASA POWER agroclimate stress",
-        "score": 78.0,
+        "score": 79.9,
         "level": "SEVERE"
       },
       {
@@ -2153,6 +2153,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-10-06T06:24:57.099537+00:00",
+        "score": 66.7,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 79.9,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -2198,7 +2209,7 @@
   "stats": [
     {
       "label": "Climate-Security Pressure",
-      "value": "66.1/100",
+      "value": "66.7/100",
       "delta": "ELEVATED"
     },
     {
@@ -2227,89 +2238,89 @@
           "name": "Sudan grain belt",
           "lat": 13.5,
           "lon": 33.5,
-          "score": 99.1,
-          "rain_30d_mm": 101.2,
-          "rain_ratio": 0.79,
-          "max_temp_c": 38.5,
+          "score": 100.0,
+          "rain_30d_mm": 95.0,
+          "rain_ratio": 0.75,
+          "max_temp_c": 38.6,
           "heat_anomaly_c": 8.5,
-          "observed_through": "2026-10-03"
+          "observed_through": "2026-10-04"
         },
         {
           "name": "Ethiopia lowlands",
           "lat": 8.0,
           "lon": 40.0,
-          "score": 87.7,
-          "rain_30d_mm": 75.4,
+          "score": 87.9,
+          "rain_30d_mm": 76.0,
           "rain_ratio": 0.39,
-          "max_temp_c": 27.3,
+          "max_temp_c": 27.2,
           "heat_anomaly_c": 4.5,
-          "observed_through": "2026-10-03"
+          "observed_through": "2026-10-04"
         },
         {
           "name": "Lake Chad basin",
           "lat": 12.5,
           "lon": 14.5,
-          "score": 47.2,
-          "rain_30d_mm": 87.1,
-          "rain_ratio": 0.99,
-          "max_temp_c": 37.4,
-          "heat_anomaly_c": 4.6,
-          "observed_through": "2026-10-03"
+          "score": 51.9,
+          "rain_30d_mm": 86.7,
+          "rain_ratio": 0.92,
+          "max_temp_c": 37.5,
+          "heat_anomaly_c": 4.7,
+          "observed_through": "2026-10-04"
         },
         {
           "name": "Sahel west",
           "lat": 14.5,
           "lon": -1.5,
-          "score": 43.1,
-          "rain_30d_mm": 76.3,
-          "rain_ratio": 1.0,
-          "max_temp_c": 38.3,
-          "heat_anomaly_c": 4.3,
-          "observed_through": "2026-10-03"
+          "score": 40.8,
+          "rain_30d_mm": 77.2,
+          "rain_ratio": 1.12,
+          "max_temp_c": 38.2,
+          "heat_anomaly_c": 4.1,
+          "observed_through": "2026-10-04"
         },
         {
           "name": "Pakistan Indus",
           "lat": 29.0,
           "lon": 70.5,
-          "score": 24.9,
+          "score": 24.2,
           "rain_30d_mm": 12.9,
-          "rain_ratio": 1.16,
+          "rain_ratio": 1.14,
           "max_temp_c": 42.4,
-          "heat_anomaly_c": 2.5,
-          "observed_through": "2026-10-03"
+          "heat_anomaly_c": 2.4,
+          "observed_through": "2026-10-04"
         },
         {
           "name": "Central America dry corridor",
           "lat": 14.0,
           "lon": -88.5,
-          "score": 14.5,
-          "rain_30d_mm": 335.0,
-          "rain_ratio": 1.28,
-          "max_temp_c": 29.9,
-          "heat_anomaly_c": 1.5,
-          "observed_through": "2026-10-03"
+          "score": 13.3,
+          "rain_30d_mm": 357.0,
+          "rain_ratio": 1.35,
+          "max_temp_c": 29.8,
+          "heat_anomaly_c": 1.3,
+          "observed_through": "2026-10-04"
         },
         {
           "name": "Afghanistan drylands",
           "lat": 34.0,
           "lon": 65.0,
-          "score": 0.3,
+          "score": 1.5,
           "rain_30d_mm": 1.7,
           "rain_ratio": 1.0,
-          "max_temp_c": 23.7,
-          "heat_anomaly_c": 0.0,
-          "observed_through": "2026-10-03"
+          "max_temp_c": 23.6,
+          "heat_anomaly_c": 0.2,
+          "observed_through": "2026-10-04"
         },
         {
           "name": "Somalia pastoral belt",
           "lat": 5.0,
           "lon": 45.3,
           "score": 0.0,
-          "rain_30d_mm": 44.5,
-          "rain_ratio": 5.78,
-          "max_temp_c": 36.2,
-          "heat_anomaly_c": -0.8,
-          "observed_through": "2026-10-03"
+          "rain_30d_mm": 57.0,
+          "rain_ratio": 6.18,
+          "max_temp_c": 36.1,
+          "heat_anomaly_c": -0.9,
+          "observed_through": "2026-10-04"
         }
       ]
     },
@@ -2380,6 +2391,46 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1104191&episodeid=1&eventtype=FL"
         },
         {
+          "id": "EQ|1569728",
+          "title": "Earthquake in Micronesia",
+          "date": "2026-10-06T04:40:28+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Micronesia",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1569728&episodeid=1737980&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1569726",
+          "title": "Earthquake in Southeast Of Honshu, Japan",
+          "date": "2026-10-06T04:28:36+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Southeast Of Honshu, Japan",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1569726&episodeid=1737977&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1569721",
+          "title": "Earthquake in Indonesia",
+          "date": "2026-10-06T03:42:43+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Indonesia",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1569721&episodeid=1737971&eventtype=EQ"
+        },
+        {
+          "id": "TC|1001329",
+          "title": "Tropical Cyclone RACHEL-26",
+          "date": "2026-09-27T09:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "Mexico",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=36&eventtype=TC"
+        },
+        {
           "id": "FL|1104203",
           "title": "Flood in Senegal",
           "date": "2026-09-27T01:00:00+00:00",
@@ -2390,34 +2441,14 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1104203&episodeid=2&eventtype=FL"
         },
         {
-          "id": "TC|1001329",
-          "title": "Tropical Cyclone RACHEL-26",
-          "date": "2026-09-27T09:00:00+00:00",
+          "id": "TC|1001332",
+          "title": "Tropical Cyclone CHOI-WAN-26",
+          "date": "2026-09-30T00:00:00+00:00",
           "alert_level": "Green",
           "event_type": "TC",
-          "country": "Mexico",
+          "country": "Guam, Northern Mariana Islands",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=35&eventtype=TC"
-        },
-        {
-          "id": "EQ|1569669",
-          "title": "Earthquake in South Of Fiji Islands",
-          "date": "2026-10-05T20:22:59+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "South Of Fiji Islands",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1569669&episodeid=1737910&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1569664",
-          "title": "Earthquake in Ethiopia",
-          "date": "2026-10-05T19:47:55+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Ethiopia",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1569664&episodeid=1737905&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001332&episodeid=25&eventtype=TC"
         },
         {
           "id": "TC|1001333",
@@ -2427,47 +2458,27 @@
           "event_type": "TC",
           "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001333&episodeid=4&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001333&episodeid=5&eventtype=TC"
         },
         {
-          "id": "TC|1001332",
-          "title": "Tropical Cyclone CHOI-WAN-26",
-          "date": "2026-09-30T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "Guam, Northern Mariana Islands",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001332&episodeid=24&eventtype=TC"
-        },
-        {
-          "id": "EQ|1569644",
-          "title": "Earthquake in Iceland",
-          "date": "2026-10-05T17:28:24+00:00",
+          "id": "EQ|1569686",
+          "title": "Earthquake in India",
+          "date": "2026-10-05T22:53:42+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Iceland",
+          "country": "India",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1569644&episodeid=1737885&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1569686&episodeid=1737968&eventtype=EQ"
         },
         {
-          "id": "EQ|1569616",
-          "title": "Earthquake in Japan",
-          "date": "2026-10-05T13:30:45+00:00",
+          "id": "EQ|1569719",
+          "title": "Earthquake in Papua New Guinea",
+          "date": "2026-10-05T22:48:53+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Japan",
+          "country": "Papua New Guinea",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1569616&episodeid=1737858&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1569605",
-          "title": "Earthquake in Vanuatu",
-          "date": "2026-10-05T11:47:07+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Vanuatu",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1569605&episodeid=1737843&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1569719&episodeid=1737967&eventtype=EQ"
         }
       ]
     },
@@ -6602,34 +6613,34 @@
       "name": "Sudan grain belt",
       "lat": 13.5,
       "lon": 33.5,
-      "score": 99.1,
-      "rain_30d_mm": 101.2,
-      "rain_ratio": 0.79,
-      "max_temp_c": 38.5,
+      "score": 100.0,
+      "rain_30d_mm": 95.0,
+      "rain_ratio": 0.75,
+      "max_temp_c": 38.6,
       "heat_anomaly_c": 8.5,
-      "observed_through": "2026-10-03"
+      "observed_through": "2026-10-04"
     },
     {
       "name": "Ethiopia lowlands",
       "lat": 8.0,
       "lon": 40.0,
-      "score": 87.7,
-      "rain_30d_mm": 75.4,
+      "score": 87.9,
+      "rain_30d_mm": 76.0,
       "rain_ratio": 0.39,
-      "max_temp_c": 27.3,
+      "max_temp_c": 27.2,
       "heat_anomaly_c": 4.5,
-      "observed_through": "2026-10-03"
+      "observed_through": "2026-10-04"
     },
     {
       "name": "Lake Chad basin",
       "lat": 12.5,
       "lon": 14.5,
-      "score": 47.2,
-      "rain_30d_mm": 87.1,
-      "rain_ratio": 0.99,
-      "max_temp_c": 37.4,
-      "heat_anomaly_c": 4.6,
-      "observed_through": "2026-10-03"
+      "score": 51.9,
+      "rain_30d_mm": 86.7,
+      "rain_ratio": 0.92,
+      "max_temp_c": 37.5,
+      "heat_anomaly_c": 4.7,
+      "observed_through": "2026-10-04"
     },
     {
       "id": "TC|1001325",
@@ -6692,6 +6703,46 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1104191&episodeid=1&eventtype=FL"
     },
     {
+      "id": "EQ|1569728",
+      "title": "Earthquake in Micronesia",
+      "date": "2026-10-06T04:40:28+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Micronesia",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1569728&episodeid=1737980&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1569726",
+      "title": "Earthquake in Southeast Of Honshu, Japan",
+      "date": "2026-10-06T04:28:36+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Southeast Of Honshu, Japan",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1569726&episodeid=1737977&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1569721",
+      "title": "Earthquake in Indonesia",
+      "date": "2026-10-06T03:42:43+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Indonesia",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1569721&episodeid=1737971&eventtype=EQ"
+    },
+    {
+      "id": "TC|1001329",
+      "title": "Tropical Cyclone RACHEL-26",
+      "date": "2026-09-27T09:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "Mexico",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=36&eventtype=TC"
+    },
+    {
       "id": "FL|1104203",
       "title": "Flood in Senegal",
       "date": "2026-09-27T01:00:00+00:00",
@@ -6702,34 +6753,14 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1104203&episodeid=2&eventtype=FL"
     },
     {
-      "id": "TC|1001329",
-      "title": "Tropical Cyclone RACHEL-26",
-      "date": "2026-09-27T09:00:00+00:00",
+      "id": "TC|1001332",
+      "title": "Tropical Cyclone CHOI-WAN-26",
+      "date": "2026-09-30T00:00:00+00:00",
       "alert_level": "Green",
       "event_type": "TC",
-      "country": "Mexico",
+      "country": "Guam, Northern Mariana Islands",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=35&eventtype=TC"
-    },
-    {
-      "id": "EQ|1569669",
-      "title": "Earthquake in South Of Fiji Islands",
-      "date": "2026-10-05T20:22:59+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "South Of Fiji Islands",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1569669&episodeid=1737910&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1569664",
-      "title": "Earthquake in Ethiopia",
-      "date": "2026-10-05T19:47:55+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Ethiopia",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1569664&episodeid=1737905&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001332&episodeid=25&eventtype=TC"
     },
     {
       "id": "TC|1001333",
@@ -6739,47 +6770,27 @@
       "event_type": "TC",
       "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001333&episodeid=4&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001333&episodeid=5&eventtype=TC"
     },
     {
-      "id": "TC|1001332",
-      "title": "Tropical Cyclone CHOI-WAN-26",
-      "date": "2026-09-30T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "Guam, Northern Mariana Islands",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001332&episodeid=24&eventtype=TC"
-    },
-    {
-      "id": "EQ|1569644",
-      "title": "Earthquake in Iceland",
-      "date": "2026-10-05T17:28:24+00:00",
+      "id": "EQ|1569686",
+      "title": "Earthquake in India",
+      "date": "2026-10-05T22:53:42+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Iceland",
+      "country": "India",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1569644&episodeid=1737885&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1569686&episodeid=1737968&eventtype=EQ"
     },
     {
-      "id": "EQ|1569616",
-      "title": "Earthquake in Japan",
-      "date": "2026-10-05T13:30:45+00:00",
+      "id": "EQ|1569719",
+      "title": "Earthquake in Papua New Guinea",
+      "date": "2026-10-05T22:48:53+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Japan",
+      "country": "Papua New Guinea",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1569616&episodeid=1737858&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1569605",
-      "title": "Earthquake in Vanuatu",
-      "date": "2026-10-05T11:47:07+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Vanuatu",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1569605&episodeid=1737843&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1569719&episodeid=1737967&eventtype=EQ"
     },
     {
       "id": "EONET_24487",
