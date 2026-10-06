@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-10-05T14:45:32.919597+00:00",
+    "generated": "2026-10-06T00:05:25.100066+00:00",
     "mode": "partial",
     "sources": [
       "NASA POWER Daily API",
@@ -15,10 +15,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-05T14:45:32.670145+00:00",
+    "issued_at": "2026-10-06T00:05:24.960224+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
-    "score": 65.9,
+    "score": 66.1,
     "level": "ELEVATED",
     "confidence": "HIGH",
     "confidence_score": 97.0,
@@ -160,12 +160,12 @@
         "id": "gdacs_impact_pressure",
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
-        "score": 59.2,
+        "score": 60.0,
         "current_30d_weight": 128.2,
         "baseline_months": 12,
-        "baseline_median": 51.4,
-        "anomaly_z": 1.49,
-        "events_considered": 182,
+        "baseline_median": 46.2,
+        "anomaly_z": 1.87,
+        "events_considered": 181,
         "evidence": [
           {
             "id": "TC|1001325",
@@ -195,7 +195,7 @@
             "event_type": "WF",
             "country": "Papua New Guinea, Indonesia",
             "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1032475&episodeid=16&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032475&episodeid=17&eventtype=WF"
           },
           {
             "id": "WF|1032527",
@@ -205,7 +205,7 @@
             "event_type": "WF",
             "country": "Papua New Guinea, Indonesia",
             "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1032527&episodeid=7&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032527&episodeid=9&eventtype=WF"
           },
           {
             "id": "FL|1104169",
@@ -238,6 +238,66 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1104203&episodeid=2&eventtype=FL"
           },
           {
+            "id": "TC|1001329",
+            "title": "Tropical Cyclone RACHEL-26",
+            "date": "2026-09-27T09:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "Mexico",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=35&eventtype=TC"
+          },
+          {
+            "id": "EQ|1569669",
+            "title": "Earthquake in South Of Fiji Islands",
+            "date": "2026-10-05T20:22:59+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "South Of Fiji Islands",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1569669&episodeid=1737910&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1569664",
+            "title": "Earthquake in Ethiopia",
+            "date": "2026-10-05T19:47:55+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Ethiopia",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1569664&episodeid=1737905&eventtype=EQ"
+          },
+          {
+            "id": "TC|1001333",
+            "title": "Tropical Cyclone KOGUMA-26",
+            "date": "2026-10-05T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001333&episodeid=4&eventtype=TC"
+          },
+          {
+            "id": "TC|1001332",
+            "title": "Tropical Cyclone CHOI-WAN-26",
+            "date": "2026-09-30T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "Guam, Northern Mariana Islands",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001332&episodeid=24&eventtype=TC"
+          },
+          {
+            "id": "EQ|1569644",
+            "title": "Earthquake in Iceland",
+            "date": "2026-10-05T17:28:24+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Iceland",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1569644&episodeid=1737885&eventtype=EQ"
+          },
+          {
             "id": "EQ|1569616",
             "title": "Earthquake in Japan",
             "date": "2026-10-05T13:30:45+00:00",
@@ -248,26 +308,6 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1569616&episodeid=1737858&eventtype=EQ"
           },
           {
-            "id": "TC|1001333",
-            "title": "Tropical Cyclone KOGUMA-26",
-            "date": "2026-10-05T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001333&episodeid=3&eventtype=TC"
-          },
-          {
-            "id": "TC|1001332",
-            "title": "Tropical Cyclone CHOI-WAN-26",
-            "date": "2026-09-30T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "Guam, Northern Mariana Islands",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001332&episodeid=23&eventtype=TC"
-          },
-          {
             "id": "EQ|1569605",
             "title": "Earthquake in Vanuatu",
             "date": "2026-10-05T11:47:07+00:00",
@@ -276,46 +316,6 @@
             "country": "Vanuatu",
             "weight": 1.0,
             "url": "https://www.gdacs.org/report.aspx?eventid=1569605&episodeid=1737843&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1569600",
-            "title": "Earthquake in Mariana Islands Region",
-            "date": "2026-10-05T10:52:09+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Mariana Islands Region",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1569600&episodeid=1737839&eventtype=EQ"
-          },
-          {
-            "id": "TC|1001329",
-            "title": "Tropical Cyclone RACHEL-26",
-            "date": "2026-09-27T09:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "Mexico",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=33&eventtype=TC"
-          },
-          {
-            "id": "EQ|1569576",
-            "title": "Earthquake in Volcano Islands, Japan Region",
-            "date": "2026-10-05T07:13:38+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Volcano Islands, Japan Region",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1569576&episodeid=1737812&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1569572",
-            "title": "Earthquake in Indonesia",
-            "date": "2026-10-05T06:14:15+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Indonesia",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1569572&episodeid=1737807&eventtype=EQ"
           }
         ],
         "retained": false
@@ -325,9 +325,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 2943.1,
+        "current_30d_weight": 2894.8,
         "baseline_median": 0.0,
-        "anomaly_z": 2943.14,
+        "anomaly_z": 2894.78,
         "events_considered": 1000,
         "evidence": [
           {
@@ -389,6 +389,16 @@
             ],
             "weight": 4.2,
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031975"
+          },
+          {
+            "id": "EONET_25043",
+            "title": "Prescribed Fire D3 Bear RX, Greenlee, Arizona",
+            "date": "2026-10-02T17:58:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.1,
+            "url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000967"
           },
           {
             "id": "EONET_24963",
@@ -469,16 +479,6 @@
             ],
             "weight": 4.1,
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031966"
-          },
-          {
-            "id": "EONET_24352",
-            "title": "Wildfire in Angola 1031968",
-            "date": "2026-09-12T19:00:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.1,
-            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031968"
           }
         ],
         "retained": false
@@ -564,7 +564,7 @@
       {
         "id": "gdacs_impact_pressure",
         "title": "GDACS multi-hazard impact pressure",
-        "score": 59.2,
+        "score": 60.0,
         "level": "ELEVATED"
       },
       {
@@ -2142,6 +2142,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-10-06T00:05:24.960224+00:00",
+        "score": 66.1,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 78.0,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -2150,7 +2161,7 @@
         "food_price_pressure"
       ],
       "power_sentinels": 8,
-      "gdacs_events": 182,
+      "gdacs_events": 181,
       "eonet_events": 1000,
       "fao_latest_month": "2026-08"
     },
@@ -2187,7 +2198,7 @@
   "stats": [
     {
       "label": "Climate-Security Pressure",
-      "value": "65.9/100",
+      "value": "66.1/100",
       "delta": "ELEVATED"
     },
     {
@@ -2197,7 +2208,7 @@
     },
     {
       "label": "Hazards Screened",
-      "value": "1182",
+      "value": "1181",
       "delta": "NASA + GDACS"
     },
     {
@@ -2303,7 +2314,7 @@
       ]
     },
     "gdacs": {
-      "count": 182,
+      "count": 181,
       "cached": false,
       "retained": false,
       "compact": true,
@@ -2336,7 +2347,7 @@
           "event_type": "WF",
           "country": "Papua New Guinea, Indonesia",
           "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032475&episodeid=16&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032475&episodeid=17&eventtype=WF"
         },
         {
           "id": "WF|1032527",
@@ -2346,7 +2357,7 @@
           "event_type": "WF",
           "country": "Papua New Guinea, Indonesia",
           "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032527&episodeid=7&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032527&episodeid=9&eventtype=WF"
         },
         {
           "id": "FL|1104169",
@@ -2379,6 +2390,66 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1104203&episodeid=2&eventtype=FL"
         },
         {
+          "id": "TC|1001329",
+          "title": "Tropical Cyclone RACHEL-26",
+          "date": "2026-09-27T09:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "Mexico",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=35&eventtype=TC"
+        },
+        {
+          "id": "EQ|1569669",
+          "title": "Earthquake in South Of Fiji Islands",
+          "date": "2026-10-05T20:22:59+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "South Of Fiji Islands",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1569669&episodeid=1737910&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1569664",
+          "title": "Earthquake in Ethiopia",
+          "date": "2026-10-05T19:47:55+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Ethiopia",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1569664&episodeid=1737905&eventtype=EQ"
+        },
+        {
+          "id": "TC|1001333",
+          "title": "Tropical Cyclone KOGUMA-26",
+          "date": "2026-10-05T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001333&episodeid=4&eventtype=TC"
+        },
+        {
+          "id": "TC|1001332",
+          "title": "Tropical Cyclone CHOI-WAN-26",
+          "date": "2026-09-30T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "Guam, Northern Mariana Islands",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001332&episodeid=24&eventtype=TC"
+        },
+        {
+          "id": "EQ|1569644",
+          "title": "Earthquake in Iceland",
+          "date": "2026-10-05T17:28:24+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Iceland",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1569644&episodeid=1737885&eventtype=EQ"
+        },
+        {
           "id": "EQ|1569616",
           "title": "Earthquake in Japan",
           "date": "2026-10-05T13:30:45+00:00",
@@ -2389,26 +2460,6 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1569616&episodeid=1737858&eventtype=EQ"
         },
         {
-          "id": "TC|1001333",
-          "title": "Tropical Cyclone KOGUMA-26",
-          "date": "2026-10-05T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001333&episodeid=3&eventtype=TC"
-        },
-        {
-          "id": "TC|1001332",
-          "title": "Tropical Cyclone CHOI-WAN-26",
-          "date": "2026-09-30T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "Guam, Northern Mariana Islands",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001332&episodeid=23&eventtype=TC"
-        },
-        {
           "id": "EQ|1569605",
           "title": "Earthquake in Vanuatu",
           "date": "2026-10-05T11:47:07+00:00",
@@ -2417,46 +2468,6 @@
           "country": "Vanuatu",
           "weight": 1.0,
           "url": "https://www.gdacs.org/report.aspx?eventid=1569605&episodeid=1737843&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1569600",
-          "title": "Earthquake in Mariana Islands Region",
-          "date": "2026-10-05T10:52:09+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Mariana Islands Region",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1569600&episodeid=1737839&eventtype=EQ"
-        },
-        {
-          "id": "TC|1001329",
-          "title": "Tropical Cyclone RACHEL-26",
-          "date": "2026-09-27T09:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "Mexico",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=33&eventtype=TC"
-        },
-        {
-          "id": "EQ|1569576",
-          "title": "Earthquake in Volcano Islands, Japan Region",
-          "date": "2026-10-05T07:13:38+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Volcano Islands, Japan Region",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1569576&episodeid=1737812&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1569572",
-          "title": "Earthquake in Indonesia",
-          "date": "2026-10-05T06:14:15+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Indonesia",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1569572&episodeid=1737807&eventtype=EQ"
         }
       ]
     },
@@ -2525,6 +2536,16 @@
           ],
           "weight": 4.2,
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031975"
+        },
+        {
+          "id": "EONET_25043",
+          "title": "Prescribed Fire D3 Bear RX, Greenlee, Arizona",
+          "date": "2026-10-02T17:58:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.1,
+          "url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000967"
         },
         {
           "id": "EONET_24963",
@@ -2605,16 +2626,6 @@
           ],
           "weight": 4.1,
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031966"
-        },
-        {
-          "id": "EONET_24352",
-          "title": "Wildfire in Angola 1031968",
-          "date": "2026-09-12T19:00:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.1,
-          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031968"
         }
       ]
     },
@@ -6648,7 +6659,7 @@
       "event_type": "WF",
       "country": "Papua New Guinea, Indonesia",
       "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1032475&episodeid=16&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1032475&episodeid=17&eventtype=WF"
     },
     {
       "id": "WF|1032527",
@@ -6658,7 +6669,7 @@
       "event_type": "WF",
       "country": "Papua New Guinea, Indonesia",
       "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1032527&episodeid=7&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1032527&episodeid=9&eventtype=WF"
     },
     {
       "id": "FL|1104169",
@@ -6691,6 +6702,66 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1104203&episodeid=2&eventtype=FL"
     },
     {
+      "id": "TC|1001329",
+      "title": "Tropical Cyclone RACHEL-26",
+      "date": "2026-09-27T09:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "Mexico",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=35&eventtype=TC"
+    },
+    {
+      "id": "EQ|1569669",
+      "title": "Earthquake in South Of Fiji Islands",
+      "date": "2026-10-05T20:22:59+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "South Of Fiji Islands",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1569669&episodeid=1737910&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1569664",
+      "title": "Earthquake in Ethiopia",
+      "date": "2026-10-05T19:47:55+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Ethiopia",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1569664&episodeid=1737905&eventtype=EQ"
+    },
+    {
+      "id": "TC|1001333",
+      "title": "Tropical Cyclone KOGUMA-26",
+      "date": "2026-10-05T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001333&episodeid=4&eventtype=TC"
+    },
+    {
+      "id": "TC|1001332",
+      "title": "Tropical Cyclone CHOI-WAN-26",
+      "date": "2026-09-30T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "Guam, Northern Mariana Islands",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001332&episodeid=24&eventtype=TC"
+    },
+    {
+      "id": "EQ|1569644",
+      "title": "Earthquake in Iceland",
+      "date": "2026-10-05T17:28:24+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Iceland",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1569644&episodeid=1737885&eventtype=EQ"
+    },
+    {
       "id": "EQ|1569616",
       "title": "Earthquake in Japan",
       "date": "2026-10-05T13:30:45+00:00",
@@ -6701,26 +6772,6 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1569616&episodeid=1737858&eventtype=EQ"
     },
     {
-      "id": "TC|1001333",
-      "title": "Tropical Cyclone KOGUMA-26",
-      "date": "2026-10-05T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001333&episodeid=3&eventtype=TC"
-    },
-    {
-      "id": "TC|1001332",
-      "title": "Tropical Cyclone CHOI-WAN-26",
-      "date": "2026-09-30T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "Guam, Northern Mariana Islands",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001332&episodeid=23&eventtype=TC"
-    },
-    {
       "id": "EQ|1569605",
       "title": "Earthquake in Vanuatu",
       "date": "2026-10-05T11:47:07+00:00",
@@ -6729,46 +6780,6 @@
       "country": "Vanuatu",
       "weight": 1.0,
       "url": "https://www.gdacs.org/report.aspx?eventid=1569605&episodeid=1737843&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1569600",
-      "title": "Earthquake in Mariana Islands Region",
-      "date": "2026-10-05T10:52:09+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Mariana Islands Region",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1569600&episodeid=1737839&eventtype=EQ"
-    },
-    {
-      "id": "TC|1001329",
-      "title": "Tropical Cyclone RACHEL-26",
-      "date": "2026-09-27T09:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "Mexico",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=33&eventtype=TC"
-    },
-    {
-      "id": "EQ|1569576",
-      "title": "Earthquake in Volcano Islands, Japan Region",
-      "date": "2026-10-05T07:13:38+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Volcano Islands, Japan Region",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1569576&episodeid=1737812&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1569572",
-      "title": "Earthquake in Indonesia",
-      "date": "2026-10-05T06:14:15+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Indonesia",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1569572&episodeid=1737807&eventtype=EQ"
     },
     {
       "id": "EONET_24487",
@@ -6831,6 +6842,16 @@
       "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031975"
     },
     {
+      "id": "EONET_25043",
+      "title": "Prescribed Fire D3 Bear RX, Greenlee, Arizona",
+      "date": "2026-10-02T17:58:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.1,
+      "url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000967"
+    },
+    {
       "id": "EONET_24963",
       "title": "Wildfire Hatch Grade, Walla Walla, Washington",
       "date": "2026-09-29T19:50:00+00:00",
@@ -6879,16 +6900,6 @@
       ],
       "weight": 4.1,
       "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032283"
-    },
-    {
-      "id": "EONET_24719",
-      "title": "Prescribed Fire D2 Dye RX, Coconino, Arizona",
-      "date": "2026-09-17T17:44:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.1,
-      "url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000955"
     }
   ]
 }
