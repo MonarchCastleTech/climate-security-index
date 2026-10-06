@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-10-06T06:24:57.577423+00:00",
+    "generated": "2026-10-06T18:24:36.429330+00:00",
     "mode": "partial",
     "sources": [
       "NASA POWER Daily API",
@@ -15,7 +15,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-06T06:24:57.099537+00:00",
+    "issued_at": "2026-10-06T18:24:36.150093+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 66.7,
@@ -161,11 +161,11 @@
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 128.2,
+        "current_30d_weight": 128.4,
         "baseline_months": 12,
         "baseline_median": 46.2,
         "anomaly_z": 1.87,
-        "events_considered": 181,
+        "events_considered": 180,
         "evidence": [
           {
             "id": "TC|1001325",
@@ -195,7 +195,7 @@
             "event_type": "WF",
             "country": "Papua New Guinea, Indonesia",
             "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1032475&episodeid=17&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032475&episodeid=18&eventtype=WF"
           },
           {
             "id": "WF|1032527",
@@ -205,7 +205,17 @@
             "event_type": "WF",
             "country": "Papua New Guinea, Indonesia",
             "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1032527&episodeid=9&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032527&episodeid=10&eventtype=WF"
+          },
+          {
+            "id": "WF|1032584",
+            "title": "Forest fires in Papua New Guinea, Indonesia",
+            "date": "2026-09-24T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "WF",
+            "country": "Papua New Guinea, Indonesia",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032584&episodeid=1&eventtype=WF"
           },
           {
             "id": "FL|1104169",
@@ -228,34 +238,34 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1104191&episodeid=1&eventtype=FL"
           },
           {
-            "id": "EQ|1569728",
-            "title": "Earthquake in Micronesia",
-            "date": "2026-10-06T04:40:28+00:00",
+            "id": "EQ|1569800",
+            "title": "Earthquake in India",
+            "date": "2026-10-06T16:53:11+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Micronesia",
+            "country": "India",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1569728&episodeid=1737980&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1569800&episodeid=1738061&eventtype=EQ"
           },
           {
-            "id": "EQ|1569726",
-            "title": "Earthquake in Southeast Of Honshu, Japan",
-            "date": "2026-10-06T04:28:36+00:00",
+            "id": "EQ|1569799",
+            "title": "Earthquake in Russia",
+            "date": "2026-10-06T16:48:21+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Southeast Of Honshu, Japan",
+            "country": "Russia",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1569726&episodeid=1737977&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1569799&episodeid=1738060&eventtype=EQ"
           },
           {
-            "id": "EQ|1569721",
-            "title": "Earthquake in Indonesia",
-            "date": "2026-10-06T03:42:43+00:00",
+            "id": "EQ|1569794",
+            "title": "Earthquake in Chagos Archipelago Region",
+            "date": "2026-10-06T15:12:09+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Indonesia",
+            "country": "Chagos Archipelago Region",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1569721&episodeid=1737971&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1569794&episodeid=1738053&eventtype=EQ"
           },
           {
             "id": "TC|1001329",
@@ -265,27 +275,27 @@
             "event_type": "TC",
             "country": "Mexico",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=36&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=38&eventtype=TC"
           },
           {
-            "id": "FL|1104203",
-            "title": "Flood in Senegal",
-            "date": "2026-09-27T01:00:00+00:00",
+            "id": "EQ|1569765",
+            "title": "Earthquake in Kermadec Islands Region",
+            "date": "2026-10-06T13:26:22+00:00",
             "alert_level": "Green",
-            "event_type": "FL",
-            "country": "Senegal",
+            "event_type": "EQ",
+            "country": "Kermadec Islands Region",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1104203&episodeid=2&eventtype=FL"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1569765&episodeid=1738049&eventtype=EQ"
           },
           {
-            "id": "TC|1001332",
-            "title": "Tropical Cyclone CHOI-WAN-26",
-            "date": "2026-09-30T00:00:00+00:00",
+            "id": "EQ|1569764",
+            "title": "Earthquake in Malaysia",
+            "date": "2026-10-06T13:11:22+00:00",
             "alert_level": "Green",
-            "event_type": "TC",
-            "country": "Guam, Northern Mariana Islands",
+            "event_type": "EQ",
+            "country": "Malaysia",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001332&episodeid=25&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1569764&episodeid=1738023&eventtype=EQ"
           },
           {
             "id": "TC|1001333",
@@ -295,27 +305,17 @@
             "event_type": "TC",
             "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001333&episodeid=5&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001333&episodeid=7&eventtype=TC"
           },
           {
-            "id": "EQ|1569686",
-            "title": "Earthquake in India",
-            "date": "2026-10-05T22:53:42+00:00",
+            "id": "TC|1001332",
+            "title": "Tropical Cyclone CHOI-WAN-26",
+            "date": "2026-09-30T00:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "India",
+            "event_type": "TC",
+            "country": "Guam, Northern Mariana Islands",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1569686&episodeid=1737968&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1569719",
-            "title": "Earthquake in Papua New Guinea",
-            "date": "2026-10-05T22:48:53+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Papua New Guinea",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1569719&episodeid=1737967&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001332&episodeid=27&eventtype=TC"
           }
         ],
         "retained": false
@@ -325,9 +325,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 2894.8,
+        "current_30d_weight": 2957.2,
         "baseline_median": 0.0,
-        "anomaly_z": 2894.76,
+        "anomaly_z": 2957.25,
         "events_considered": 1000,
         "evidence": [
           {
@@ -2164,6 +2164,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-10-06T18:24:36.150093+00:00",
+        "score": 66.7,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 79.9,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -2172,7 +2183,7 @@
         "food_price_pressure"
       ],
       "power_sentinels": 8,
-      "gdacs_events": 181,
+      "gdacs_events": 180,
       "eonet_events": 1000,
       "fao_latest_month": "2026-08"
     },
@@ -2219,7 +2230,7 @@
     },
     {
       "label": "Hazards Screened",
-      "value": "1181",
+      "value": "1180",
       "delta": "NASA + GDACS"
     },
     {
@@ -2325,7 +2336,7 @@
       ]
     },
     "gdacs": {
-      "count": 181,
+      "count": 180,
       "cached": false,
       "retained": false,
       "compact": true,
@@ -2358,7 +2369,7 @@
           "event_type": "WF",
           "country": "Papua New Guinea, Indonesia",
           "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032475&episodeid=17&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032475&episodeid=18&eventtype=WF"
         },
         {
           "id": "WF|1032527",
@@ -2368,7 +2379,17 @@
           "event_type": "WF",
           "country": "Papua New Guinea, Indonesia",
           "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032527&episodeid=9&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032527&episodeid=10&eventtype=WF"
+        },
+        {
+          "id": "WF|1032584",
+          "title": "Forest fires in Papua New Guinea, Indonesia",
+          "date": "2026-09-24T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "WF",
+          "country": "Papua New Guinea, Indonesia",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032584&episodeid=1&eventtype=WF"
         },
         {
           "id": "FL|1104169",
@@ -2391,34 +2412,34 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1104191&episodeid=1&eventtype=FL"
         },
         {
-          "id": "EQ|1569728",
-          "title": "Earthquake in Micronesia",
-          "date": "2026-10-06T04:40:28+00:00",
+          "id": "EQ|1569800",
+          "title": "Earthquake in India",
+          "date": "2026-10-06T16:53:11+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Micronesia",
+          "country": "India",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1569728&episodeid=1737980&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1569800&episodeid=1738061&eventtype=EQ"
         },
         {
-          "id": "EQ|1569726",
-          "title": "Earthquake in Southeast Of Honshu, Japan",
-          "date": "2026-10-06T04:28:36+00:00",
+          "id": "EQ|1569799",
+          "title": "Earthquake in Russia",
+          "date": "2026-10-06T16:48:21+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Southeast Of Honshu, Japan",
+          "country": "Russia",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1569726&episodeid=1737977&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1569799&episodeid=1738060&eventtype=EQ"
         },
         {
-          "id": "EQ|1569721",
-          "title": "Earthquake in Indonesia",
-          "date": "2026-10-06T03:42:43+00:00",
+          "id": "EQ|1569794",
+          "title": "Earthquake in Chagos Archipelago Region",
+          "date": "2026-10-06T15:12:09+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Indonesia",
+          "country": "Chagos Archipelago Region",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1569721&episodeid=1737971&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1569794&episodeid=1738053&eventtype=EQ"
         },
         {
           "id": "TC|1001329",
@@ -2428,27 +2449,27 @@
           "event_type": "TC",
           "country": "Mexico",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=36&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=38&eventtype=TC"
         },
         {
-          "id": "FL|1104203",
-          "title": "Flood in Senegal",
-          "date": "2026-09-27T01:00:00+00:00",
+          "id": "EQ|1569765",
+          "title": "Earthquake in Kermadec Islands Region",
+          "date": "2026-10-06T13:26:22+00:00",
           "alert_level": "Green",
-          "event_type": "FL",
-          "country": "Senegal",
+          "event_type": "EQ",
+          "country": "Kermadec Islands Region",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1104203&episodeid=2&eventtype=FL"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1569765&episodeid=1738049&eventtype=EQ"
         },
         {
-          "id": "TC|1001332",
-          "title": "Tropical Cyclone CHOI-WAN-26",
-          "date": "2026-09-30T00:00:00+00:00",
+          "id": "EQ|1569764",
+          "title": "Earthquake in Malaysia",
+          "date": "2026-10-06T13:11:22+00:00",
           "alert_level": "Green",
-          "event_type": "TC",
-          "country": "Guam, Northern Mariana Islands",
+          "event_type": "EQ",
+          "country": "Malaysia",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001332&episodeid=25&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1569764&episodeid=1738023&eventtype=EQ"
         },
         {
           "id": "TC|1001333",
@@ -2458,27 +2479,17 @@
           "event_type": "TC",
           "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001333&episodeid=5&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001333&episodeid=7&eventtype=TC"
         },
         {
-          "id": "EQ|1569686",
-          "title": "Earthquake in India",
-          "date": "2026-10-05T22:53:42+00:00",
+          "id": "TC|1001332",
+          "title": "Tropical Cyclone CHOI-WAN-26",
+          "date": "2026-09-30T00:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "India",
+          "event_type": "TC",
+          "country": "Guam, Northern Mariana Islands",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1569686&episodeid=1737968&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1569719",
-          "title": "Earthquake in Papua New Guinea",
-          "date": "2026-10-05T22:48:53+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Papua New Guinea",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1569719&episodeid=1737967&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001332&episodeid=27&eventtype=TC"
         }
       ]
     },
@@ -6670,7 +6681,7 @@
       "event_type": "WF",
       "country": "Papua New Guinea, Indonesia",
       "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1032475&episodeid=17&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1032475&episodeid=18&eventtype=WF"
     },
     {
       "id": "WF|1032527",
@@ -6680,7 +6691,17 @@
       "event_type": "WF",
       "country": "Papua New Guinea, Indonesia",
       "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1032527&episodeid=9&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1032527&episodeid=10&eventtype=WF"
+    },
+    {
+      "id": "WF|1032584",
+      "title": "Forest fires in Papua New Guinea, Indonesia",
+      "date": "2026-09-24T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "WF",
+      "country": "Papua New Guinea, Indonesia",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1032584&episodeid=1&eventtype=WF"
     },
     {
       "id": "FL|1104169",
@@ -6703,34 +6724,34 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1104191&episodeid=1&eventtype=FL"
     },
     {
-      "id": "EQ|1569728",
-      "title": "Earthquake in Micronesia",
-      "date": "2026-10-06T04:40:28+00:00",
+      "id": "EQ|1569800",
+      "title": "Earthquake in India",
+      "date": "2026-10-06T16:53:11+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Micronesia",
+      "country": "India",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1569728&episodeid=1737980&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1569800&episodeid=1738061&eventtype=EQ"
     },
     {
-      "id": "EQ|1569726",
-      "title": "Earthquake in Southeast Of Honshu, Japan",
-      "date": "2026-10-06T04:28:36+00:00",
+      "id": "EQ|1569799",
+      "title": "Earthquake in Russia",
+      "date": "2026-10-06T16:48:21+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Southeast Of Honshu, Japan",
+      "country": "Russia",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1569726&episodeid=1737977&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1569799&episodeid=1738060&eventtype=EQ"
     },
     {
-      "id": "EQ|1569721",
-      "title": "Earthquake in Indonesia",
-      "date": "2026-10-06T03:42:43+00:00",
+      "id": "EQ|1569794",
+      "title": "Earthquake in Chagos Archipelago Region",
+      "date": "2026-10-06T15:12:09+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Indonesia",
+      "country": "Chagos Archipelago Region",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1569721&episodeid=1737971&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1569794&episodeid=1738053&eventtype=EQ"
     },
     {
       "id": "TC|1001329",
@@ -6740,27 +6761,27 @@
       "event_type": "TC",
       "country": "Mexico",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=36&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=38&eventtype=TC"
     },
     {
-      "id": "FL|1104203",
-      "title": "Flood in Senegal",
-      "date": "2026-09-27T01:00:00+00:00",
+      "id": "EQ|1569765",
+      "title": "Earthquake in Kermadec Islands Region",
+      "date": "2026-10-06T13:26:22+00:00",
       "alert_level": "Green",
-      "event_type": "FL",
-      "country": "Senegal",
+      "event_type": "EQ",
+      "country": "Kermadec Islands Region",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1104203&episodeid=2&eventtype=FL"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1569765&episodeid=1738049&eventtype=EQ"
     },
     {
-      "id": "TC|1001332",
-      "title": "Tropical Cyclone CHOI-WAN-26",
-      "date": "2026-09-30T00:00:00+00:00",
+      "id": "EQ|1569764",
+      "title": "Earthquake in Malaysia",
+      "date": "2026-10-06T13:11:22+00:00",
       "alert_level": "Green",
-      "event_type": "TC",
-      "country": "Guam, Northern Mariana Islands",
+      "event_type": "EQ",
+      "country": "Malaysia",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001332&episodeid=25&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1569764&episodeid=1738023&eventtype=EQ"
     },
     {
       "id": "TC|1001333",
@@ -6770,27 +6791,17 @@
       "event_type": "TC",
       "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001333&episodeid=5&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001333&episodeid=7&eventtype=TC"
     },
     {
-      "id": "EQ|1569686",
-      "title": "Earthquake in India",
-      "date": "2026-10-05T22:53:42+00:00",
+      "id": "TC|1001332",
+      "title": "Tropical Cyclone CHOI-WAN-26",
+      "date": "2026-09-30T00:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "India",
+      "event_type": "TC",
+      "country": "Guam, Northern Mariana Islands",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1569686&episodeid=1737968&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1569719",
-      "title": "Earthquake in Papua New Guinea",
-      "date": "2026-10-05T22:48:53+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Papua New Guinea",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1569719&episodeid=1737967&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001332&episodeid=27&eventtype=TC"
     },
     {
       "id": "EONET_24487",
