@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-10-08T13:34:42.461476+00:00",
+    "generated": "2026-10-08T23:23:05.470868+00:00",
     "mode": "partial",
     "sources": [
       "NASA POWER Daily API",
@@ -15,7 +15,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-08T13:34:42.190826+00:00",
+    "issued_at": "2026-10-08T23:23:05.277451+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 64.8,
@@ -161,22 +161,12 @@
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 160.1,
+        "current_30d_weight": 149.1,
         "baseline_months": 12,
         "baseline_median": 46.2,
-        "anomaly_z": 2.25,
+        "anomaly_z": 2.03,
         "events_considered": 180,
         "evidence": [
-          {
-            "id": "TC|1001335",
-            "title": "Tropical Cyclone SIMON-26",
-            "date": "2026-10-07T15:00:00+00:00",
-            "alert_level": "Red",
-            "event_type": "TC",
-            "country": "Mexico",
-            "weight": 20.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=4&eventtype=TC"
-          },
           {
             "id": "TC|1001325",
             "title": "Tropical Cyclone POLO-26",
@@ -186,6 +176,16 @@
             "country": "Mexico",
             "weight": 20.0,
             "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=38&eventtype=TC"
+          },
+          {
+            "id": "TC|1001335",
+            "title": "Tropical Cyclone SIMON-26",
+            "date": "2026-10-07T15:00:00+00:00",
+            "alert_level": "Orange",
+            "event_type": "TC",
+            "country": "Mexico",
+            "weight": 8.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=6&eventtype=TC"
           },
           {
             "id": "VO|1000151",
@@ -225,7 +225,77 @@
             "event_type": "WF",
             "country": "Papua New Guinea, Indonesia",
             "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1032584&episodeid=5&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032584&episodeid=6&eventtype=WF"
+          },
+          {
+            "id": "TC|1001329",
+            "title": "Tropical Cyclone RACHEL-26",
+            "date": "2026-09-27T09:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "Mexico",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=47&eventtype=TC"
+          },
+          {
+            "id": "TC|1001334",
+            "title": "Tropical Cyclone ISAIAS-26",
+            "date": "2026-10-06T21:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "United States",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001334&episodeid=9&eventtype=TC"
+          },
+          {
+            "id": "EQ|1570171",
+            "title": "Earthquake in Japan",
+            "date": "2026-10-08T18:32:03+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Japan",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1570171&episodeid=1738489&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1570155",
+            "title": "Earthquake in Indonesia",
+            "date": "2026-10-08T18:06:00+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Indonesia",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1570155&episodeid=1738481&eventtype=EQ"
+          },
+          {
+            "id": "TC|1001333",
+            "title": "Tropical Cyclone KOGUMA-26",
+            "date": "2026-10-05T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001333&episodeid=16&eventtype=TC"
+          },
+          {
+            "id": "EQ|1570138",
+            "title": "Earthquake in Indonesia",
+            "date": "2026-10-08T15:23:47+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Indonesia",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1570138&episodeid=1738490&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1570133",
+            "title": "Earthquake in Indonesia",
+            "date": "2026-10-08T14:11:49+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Indonesia",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1570133&episodeid=1738445&eventtype=EQ"
           },
           {
             "id": "EQ|1570086",
@@ -238,26 +308,6 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1570086&episodeid=1738395&eventtype=EQ"
           },
           {
-            "id": "TC|1001334",
-            "title": "Tropical Cyclone ISAIAS-26",
-            "date": "2026-10-06T21:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "United States",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001334&episodeid=7&eventtype=TC"
-          },
-          {
-            "id": "TC|1001329",
-            "title": "Tropical Cyclone RACHEL-26",
-            "date": "2026-09-27T09:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "Mexico",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=45&eventtype=TC"
-          },
-          {
             "id": "EQ|1570075",
             "title": "Earthquake in Philippines",
             "date": "2026-10-08T08:07:59+00:00",
@@ -266,56 +316,6 @@
             "country": "Philippines",
             "weight": 1.0,
             "url": "https://www.gdacs.org/report.aspx?eventid=1570075&episodeid=1738382&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1570073",
-            "title": "Earthquake in Indonesia",
-            "date": "2026-10-08T07:45:12+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Indonesia",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1570073&episodeid=1738379&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1570064",
-            "title": "Earthquake in West Of Macquarie Island",
-            "date": "2026-10-08T06:46:47+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "West Of Macquarie Island",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1570064&episodeid=1738371&eventtype=EQ"
-          },
-          {
-            "id": "TC|1001333",
-            "title": "Tropical Cyclone KOGUMA-26",
-            "date": "2026-10-05T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001333&episodeid=14&eventtype=TC"
-          },
-          {
-            "id": "EQ|1570052",
-            "title": "Earthquake in Chile",
-            "date": "2026-10-08T05:35:56+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Chile",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1570052&episodeid=1738354&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1570054",
-            "title": "Earthquake in Indonesia",
-            "date": "2026-10-08T05:06:52+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Indonesia",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1570054&episodeid=1738358&eventtype=EQ"
           }
         ],
         "retained": false
@@ -325,9 +325,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 2830.2,
+        "current_30d_weight": 2750.4,
         "baseline_median": 0.0,
-        "anomaly_z": 2830.23,
+        "anomaly_z": 2750.37,
         "events_considered": 1000,
         "evidence": [
           {
@@ -2230,6 +2230,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-10-08T23:23:05.277451+00:00",
+        "score": 64.8,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 74.4,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -2397,16 +2408,6 @@
       "compact": true,
       "events": [
         {
-          "id": "TC|1001335",
-          "title": "Tropical Cyclone SIMON-26",
-          "date": "2026-10-07T15:00:00+00:00",
-          "alert_level": "Red",
-          "event_type": "TC",
-          "country": "Mexico",
-          "weight": 20.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=4&eventtype=TC"
-        },
-        {
           "id": "TC|1001325",
           "title": "Tropical Cyclone POLO-26",
           "date": "2026-09-21T03:00:00+00:00",
@@ -2415,6 +2416,16 @@
           "country": "Mexico",
           "weight": 20.0,
           "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=38&eventtype=TC"
+        },
+        {
+          "id": "TC|1001335",
+          "title": "Tropical Cyclone SIMON-26",
+          "date": "2026-10-07T15:00:00+00:00",
+          "alert_level": "Orange",
+          "event_type": "TC",
+          "country": "Mexico",
+          "weight": 8.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=6&eventtype=TC"
         },
         {
           "id": "VO|1000151",
@@ -2454,7 +2465,77 @@
           "event_type": "WF",
           "country": "Papua New Guinea, Indonesia",
           "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032584&episodeid=5&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032584&episodeid=6&eventtype=WF"
+        },
+        {
+          "id": "TC|1001329",
+          "title": "Tropical Cyclone RACHEL-26",
+          "date": "2026-09-27T09:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "Mexico",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=47&eventtype=TC"
+        },
+        {
+          "id": "TC|1001334",
+          "title": "Tropical Cyclone ISAIAS-26",
+          "date": "2026-10-06T21:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "United States",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001334&episodeid=9&eventtype=TC"
+        },
+        {
+          "id": "EQ|1570171",
+          "title": "Earthquake in Japan",
+          "date": "2026-10-08T18:32:03+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Japan",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1570171&episodeid=1738489&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1570155",
+          "title": "Earthquake in Indonesia",
+          "date": "2026-10-08T18:06:00+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Indonesia",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1570155&episodeid=1738481&eventtype=EQ"
+        },
+        {
+          "id": "TC|1001333",
+          "title": "Tropical Cyclone KOGUMA-26",
+          "date": "2026-10-05T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001333&episodeid=16&eventtype=TC"
+        },
+        {
+          "id": "EQ|1570138",
+          "title": "Earthquake in Indonesia",
+          "date": "2026-10-08T15:23:47+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Indonesia",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1570138&episodeid=1738490&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1570133",
+          "title": "Earthquake in Indonesia",
+          "date": "2026-10-08T14:11:49+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Indonesia",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1570133&episodeid=1738445&eventtype=EQ"
         },
         {
           "id": "EQ|1570086",
@@ -2467,26 +2548,6 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1570086&episodeid=1738395&eventtype=EQ"
         },
         {
-          "id": "TC|1001334",
-          "title": "Tropical Cyclone ISAIAS-26",
-          "date": "2026-10-06T21:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "United States",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001334&episodeid=7&eventtype=TC"
-        },
-        {
-          "id": "TC|1001329",
-          "title": "Tropical Cyclone RACHEL-26",
-          "date": "2026-09-27T09:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "Mexico",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=45&eventtype=TC"
-        },
-        {
           "id": "EQ|1570075",
           "title": "Earthquake in Philippines",
           "date": "2026-10-08T08:07:59+00:00",
@@ -2495,56 +2556,6 @@
           "country": "Philippines",
           "weight": 1.0,
           "url": "https://www.gdacs.org/report.aspx?eventid=1570075&episodeid=1738382&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1570073",
-          "title": "Earthquake in Indonesia",
-          "date": "2026-10-08T07:45:12+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Indonesia",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1570073&episodeid=1738379&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1570064",
-          "title": "Earthquake in West Of Macquarie Island",
-          "date": "2026-10-08T06:46:47+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "West Of Macquarie Island",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1570064&episodeid=1738371&eventtype=EQ"
-        },
-        {
-          "id": "TC|1001333",
-          "title": "Tropical Cyclone KOGUMA-26",
-          "date": "2026-10-05T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001333&episodeid=14&eventtype=TC"
-        },
-        {
-          "id": "EQ|1570052",
-          "title": "Earthquake in Chile",
-          "date": "2026-10-08T05:35:56+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Chile",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1570052&episodeid=1738354&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1570054",
-          "title": "Earthquake in Indonesia",
-          "date": "2026-10-08T05:06:52+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Indonesia",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1570054&episodeid=1738358&eventtype=EQ"
         }
       ]
     },
@@ -6709,16 +6720,6 @@
       "observed_through": "2026-10-06"
     },
     {
-      "id": "TC|1001335",
-      "title": "Tropical Cyclone SIMON-26",
-      "date": "2026-10-07T15:00:00+00:00",
-      "alert_level": "Red",
-      "event_type": "TC",
-      "country": "Mexico",
-      "weight": 20.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=4&eventtype=TC"
-    },
-    {
       "id": "TC|1001325",
       "title": "Tropical Cyclone POLO-26",
       "date": "2026-09-21T03:00:00+00:00",
@@ -6727,6 +6728,16 @@
       "country": "Mexico",
       "weight": 20.0,
       "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=38&eventtype=TC"
+    },
+    {
+      "id": "TC|1001335",
+      "title": "Tropical Cyclone SIMON-26",
+      "date": "2026-10-07T15:00:00+00:00",
+      "alert_level": "Orange",
+      "event_type": "TC",
+      "country": "Mexico",
+      "weight": 8.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=6&eventtype=TC"
     },
     {
       "id": "VO|1000151",
@@ -6766,7 +6777,77 @@
       "event_type": "WF",
       "country": "Papua New Guinea, Indonesia",
       "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1032584&episodeid=5&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1032584&episodeid=6&eventtype=WF"
+    },
+    {
+      "id": "TC|1001329",
+      "title": "Tropical Cyclone RACHEL-26",
+      "date": "2026-09-27T09:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "Mexico",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=47&eventtype=TC"
+    },
+    {
+      "id": "TC|1001334",
+      "title": "Tropical Cyclone ISAIAS-26",
+      "date": "2026-10-06T21:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "United States",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001334&episodeid=9&eventtype=TC"
+    },
+    {
+      "id": "EQ|1570171",
+      "title": "Earthquake in Japan",
+      "date": "2026-10-08T18:32:03+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Japan",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1570171&episodeid=1738489&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1570155",
+      "title": "Earthquake in Indonesia",
+      "date": "2026-10-08T18:06:00+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Indonesia",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1570155&episodeid=1738481&eventtype=EQ"
+    },
+    {
+      "id": "TC|1001333",
+      "title": "Tropical Cyclone KOGUMA-26",
+      "date": "2026-10-05T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001333&episodeid=16&eventtype=TC"
+    },
+    {
+      "id": "EQ|1570138",
+      "title": "Earthquake in Indonesia",
+      "date": "2026-10-08T15:23:47+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Indonesia",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1570138&episodeid=1738490&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1570133",
+      "title": "Earthquake in Indonesia",
+      "date": "2026-10-08T14:11:49+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Indonesia",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1570133&episodeid=1738445&eventtype=EQ"
     },
     {
       "id": "EQ|1570086",
@@ -6779,26 +6860,6 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1570086&episodeid=1738395&eventtype=EQ"
     },
     {
-      "id": "TC|1001334",
-      "title": "Tropical Cyclone ISAIAS-26",
-      "date": "2026-10-06T21:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "United States",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001334&episodeid=7&eventtype=TC"
-    },
-    {
-      "id": "TC|1001329",
-      "title": "Tropical Cyclone RACHEL-26",
-      "date": "2026-09-27T09:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "Mexico",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=45&eventtype=TC"
-    },
-    {
       "id": "EQ|1570075",
       "title": "Earthquake in Philippines",
       "date": "2026-10-08T08:07:59+00:00",
@@ -6807,56 +6868,6 @@
       "country": "Philippines",
       "weight": 1.0,
       "url": "https://www.gdacs.org/report.aspx?eventid=1570075&episodeid=1738382&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1570073",
-      "title": "Earthquake in Indonesia",
-      "date": "2026-10-08T07:45:12+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Indonesia",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1570073&episodeid=1738379&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1570064",
-      "title": "Earthquake in West Of Macquarie Island",
-      "date": "2026-10-08T06:46:47+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "West Of Macquarie Island",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1570064&episodeid=1738371&eventtype=EQ"
-    },
-    {
-      "id": "TC|1001333",
-      "title": "Tropical Cyclone KOGUMA-26",
-      "date": "2026-10-05T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001333&episodeid=14&eventtype=TC"
-    },
-    {
-      "id": "EQ|1570052",
-      "title": "Earthquake in Chile",
-      "date": "2026-10-08T05:35:56+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Chile",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1570052&episodeid=1738354&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1570054",
-      "title": "Earthquake in Indonesia",
-      "date": "2026-10-08T05:06:52+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Indonesia",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1570054&episodeid=1738358&eventtype=EQ"
     },
     {
       "id": "EONET_24487",
