@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-10-09T13:21:45.547065+00:00",
+    "generated": "2026-10-09T22:40:58.047831+00:00",
     "mode": "partial",
     "sources": [
       "NASA POWER Daily API",
@@ -15,7 +15,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-09T13:21:45.337593+00:00",
+    "issued_at": "2026-10-09T22:40:57.801547+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 64.5,
@@ -161,22 +161,12 @@
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 168.1,
+        "current_30d_weight": 165.0,
         "baseline_months": 12,
         "baseline_median": 50.2,
-        "anomaly_z": 2.33,
-        "events_considered": 178,
+        "anomaly_z": 2.27,
+        "events_considered": 180,
         "evidence": [
-          {
-            "id": "TC|1001335",
-            "title": "Tropical Cyclone SIMON-26",
-            "date": "2026-10-07T15:00:00+00:00",
-            "alert_level": "Red",
-            "event_type": "TC",
-            "country": "",
-            "weight": 20.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=8&eventtype=TC"
-          },
           {
             "id": "TC|1001325",
             "title": "Tropical Cyclone POLO-26",
@@ -195,7 +185,27 @@
             "event_type": "TC",
             "country": "United States",
             "weight": 8.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001334&episodeid=11&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001334&episodeid=13&eventtype=TC"
+          },
+          {
+            "id": "TC|1001335",
+            "title": "Tropical Cyclone SIMON-26",
+            "date": "2026-10-07T15:00:00+00:00",
+            "alert_level": "Orange",
+            "event_type": "TC",
+            "country": "Mexico",
+            "weight": 8.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=10&eventtype=TC"
+          },
+          {
+            "id": "EQ|1570339",
+            "title": "Earthquake in Panama",
+            "date": "2026-10-09T17:56:06+00:00",
+            "alert_level": "Orange",
+            "event_type": "EQ",
+            "country": "Panama",
+            "weight": 8.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1570339&episodeid=1738684&eventtype=EQ"
           },
           {
             "id": "VO|1000151",
@@ -228,64 +238,24 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
           },
           {
-            "id": "WF|1032584",
-            "title": "Forest fires in Papua New Guinea, Indonesia",
-            "date": "2026-09-24T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Papua New Guinea, Indonesia",
-            "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1032584&episodeid=7&eventtype=WF"
-          },
-          {
-            "id": "EQ|1570292",
-            "title": "Earthquake in Nicaragua",
-            "date": "2026-10-09T12:33:43+00:00",
+            "id": "EQ|1570386",
+            "title": "Earthquake in Russian Federation",
+            "date": "2026-10-09T21:19:16+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Nicaragua",
+            "country": "Russian Federation",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1570292&episodeid=1738624&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1570386&episodeid=1738748&eventtype=EQ"
           },
           {
-            "id": "EQ|1570276",
-            "title": "Earthquake in Chile",
-            "date": "2026-10-09T10:22:14+00:00",
+            "id": "EQ|1570381",
+            "title": "Earthquake in Panama",
+            "date": "2026-10-09T21:05:25+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Chile",
+            "country": "Panama",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1570276&episodeid=1738605&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1570278",
-            "title": "Earthquake in Indonesia",
-            "date": "2026-10-09T09:47:47+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Indonesia",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1570278&episodeid=1738611&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1570274",
-            "title": "Earthquake in Northern Mid-Atlantic Ridge",
-            "date": "2026-10-09T09:29:18+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Northern Mid-Atlantic Ridge",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1570274&episodeid=1738602&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1570271",
-            "title": "Earthquake in Philippines",
-            "date": "2026-10-09T09:17:18+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Philippines",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1570271&episodeid=1738615&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1570381&episodeid=1738742&eventtype=EQ"
           },
           {
             "id": "TC|1001329",
@@ -295,27 +265,57 @@
             "event_type": "TC",
             "country": "Mexico",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=49&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=51&eventtype=TC"
           },
           {
-            "id": "EQ|1570261",
-            "title": "Earthquake in Fiji",
-            "date": "2026-10-09T08:27:10+00:00",
+            "id": "EQ|1570380",
+            "title": "Earthquake in Panama",
+            "date": "2026-10-09T20:54:56+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Fiji",
+            "country": "Panama",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1570261&episodeid=1738589&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1570380&episodeid=1738750&eventtype=EQ"
           },
           {
-            "id": "EQ|1570260",
-            "title": "Earthquake in Fiji",
-            "date": "2026-10-09T08:11:47+00:00",
+            "id": "EQ|1570379",
+            "title": "Earthquake in Panama",
+            "date": "2026-10-09T20:42:08+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Fiji",
+            "country": "Panama",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1570260&episodeid=1738585&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1570379&episodeid=1738740&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1570374",
+            "title": "Earthquake in Panama",
+            "date": "2026-10-09T20:41:04+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Panama",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1570374&episodeid=1738743&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1570370",
+            "title": "Earthquake in Panama",
+            "date": "2026-10-09T20:25:39+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Panama",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1570370&episodeid=1738719&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1570369",
+            "title": "Earthquake in Panama",
+            "date": "2026-10-09T20:21:37+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Panama",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1570369&episodeid=1738745&eventtype=EQ"
           }
         ],
         "retained": false
@@ -325,9 +325,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 2750.0,
+        "current_30d_weight": 2639.5,
         "baseline_median": 0.0,
-        "anomaly_z": 2750.03,
+        "anomaly_z": 2639.46,
         "events_considered": 1000,
         "evidence": [
           {
@@ -361,6 +361,16 @@
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032001"
           },
           {
+            "id": "EONET_25124",
+            "title": "Wildfire in Mongolia 1032663",
+            "date": "2026-10-07T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.2,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032663"
+          },
+          {
             "id": "EONET_24481",
             "title": "Wildfire Dry River, Sutton, Texas",
             "date": "2026-09-15T16:59:00+00:00",
@@ -379,16 +389,6 @@
             ],
             "weight": 4.2,
             "url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000940"
-          },
-          {
-            "id": "EONET_24424",
-            "title": "Wildfire in Mozambique 1031975",
-            "date": "2026-09-09T19:00:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.2,
-            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031975"
           },
           {
             "id": "EONET_25043",
@@ -2263,6 +2263,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-10-09T22:40:57.801547+00:00",
+        "score": 64.5,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 73.4,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -2271,7 +2282,7 @@
         "food_price_pressure"
       ],
       "power_sentinels": 8,
-      "gdacs_events": 178,
+      "gdacs_events": 180,
       "eonet_events": 1000,
       "fao_latest_month": "2026-08"
     },
@@ -2318,7 +2329,7 @@
     },
     {
       "label": "Hazards Screened",
-      "value": "1178",
+      "value": "1180",
       "delta": "NASA + GDACS"
     },
     {
@@ -2424,21 +2435,11 @@
       ]
     },
     "gdacs": {
-      "count": 178,
+      "count": 180,
       "cached": false,
       "retained": false,
       "compact": true,
       "events": [
-        {
-          "id": "TC|1001335",
-          "title": "Tropical Cyclone SIMON-26",
-          "date": "2026-10-07T15:00:00+00:00",
-          "alert_level": "Red",
-          "event_type": "TC",
-          "country": "",
-          "weight": 20.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=8&eventtype=TC"
-        },
         {
           "id": "TC|1001325",
           "title": "Tropical Cyclone POLO-26",
@@ -2457,7 +2458,27 @@
           "event_type": "TC",
           "country": "United States",
           "weight": 8.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001334&episodeid=11&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001334&episodeid=13&eventtype=TC"
+        },
+        {
+          "id": "TC|1001335",
+          "title": "Tropical Cyclone SIMON-26",
+          "date": "2026-10-07T15:00:00+00:00",
+          "alert_level": "Orange",
+          "event_type": "TC",
+          "country": "Mexico",
+          "weight": 8.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=10&eventtype=TC"
+        },
+        {
+          "id": "EQ|1570339",
+          "title": "Earthquake in Panama",
+          "date": "2026-10-09T17:56:06+00:00",
+          "alert_level": "Orange",
+          "event_type": "EQ",
+          "country": "Panama",
+          "weight": 8.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1570339&episodeid=1738684&eventtype=EQ"
         },
         {
           "id": "VO|1000151",
@@ -2490,64 +2511,24 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
         },
         {
-          "id": "WF|1032584",
-          "title": "Forest fires in Papua New Guinea, Indonesia",
-          "date": "2026-09-24T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Papua New Guinea, Indonesia",
-          "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032584&episodeid=7&eventtype=WF"
-        },
-        {
-          "id": "EQ|1570292",
-          "title": "Earthquake in Nicaragua",
-          "date": "2026-10-09T12:33:43+00:00",
+          "id": "EQ|1570386",
+          "title": "Earthquake in Russian Federation",
+          "date": "2026-10-09T21:19:16+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Nicaragua",
+          "country": "Russian Federation",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1570292&episodeid=1738624&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1570386&episodeid=1738748&eventtype=EQ"
         },
         {
-          "id": "EQ|1570276",
-          "title": "Earthquake in Chile",
-          "date": "2026-10-09T10:22:14+00:00",
+          "id": "EQ|1570381",
+          "title": "Earthquake in Panama",
+          "date": "2026-10-09T21:05:25+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Chile",
+          "country": "Panama",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1570276&episodeid=1738605&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1570278",
-          "title": "Earthquake in Indonesia",
-          "date": "2026-10-09T09:47:47+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Indonesia",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1570278&episodeid=1738611&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1570274",
-          "title": "Earthquake in Northern Mid-Atlantic Ridge",
-          "date": "2026-10-09T09:29:18+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Northern Mid-Atlantic Ridge",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1570274&episodeid=1738602&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1570271",
-          "title": "Earthquake in Philippines",
-          "date": "2026-10-09T09:17:18+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Philippines",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1570271&episodeid=1738615&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1570381&episodeid=1738742&eventtype=EQ"
         },
         {
           "id": "TC|1001329",
@@ -2557,27 +2538,57 @@
           "event_type": "TC",
           "country": "Mexico",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=49&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=51&eventtype=TC"
         },
         {
-          "id": "EQ|1570261",
-          "title": "Earthquake in Fiji",
-          "date": "2026-10-09T08:27:10+00:00",
+          "id": "EQ|1570380",
+          "title": "Earthquake in Panama",
+          "date": "2026-10-09T20:54:56+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Fiji",
+          "country": "Panama",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1570261&episodeid=1738589&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1570380&episodeid=1738750&eventtype=EQ"
         },
         {
-          "id": "EQ|1570260",
-          "title": "Earthquake in Fiji",
-          "date": "2026-10-09T08:11:47+00:00",
+          "id": "EQ|1570379",
+          "title": "Earthquake in Panama",
+          "date": "2026-10-09T20:42:08+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Fiji",
+          "country": "Panama",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1570260&episodeid=1738585&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1570379&episodeid=1738740&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1570374",
+          "title": "Earthquake in Panama",
+          "date": "2026-10-09T20:41:04+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Panama",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1570374&episodeid=1738743&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1570370",
+          "title": "Earthquake in Panama",
+          "date": "2026-10-09T20:25:39+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Panama",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1570370&episodeid=1738719&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1570369",
+          "title": "Earthquake in Panama",
+          "date": "2026-10-09T20:21:37+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Panama",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1570369&episodeid=1738745&eventtype=EQ"
         }
       ]
     },
@@ -2618,6 +2629,16 @@
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032001"
         },
         {
+          "id": "EONET_25124",
+          "title": "Wildfire in Mongolia 1032663",
+          "date": "2026-10-07T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.2,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032663"
+        },
+        {
           "id": "EONET_24481",
           "title": "Wildfire Dry River, Sutton, Texas",
           "date": "2026-09-15T16:59:00+00:00",
@@ -2636,16 +2657,6 @@
           ],
           "weight": 4.2,
           "url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000940"
-        },
-        {
-          "id": "EONET_24424",
-          "title": "Wildfire in Mozambique 1031975",
-          "date": "2026-09-09T19:00:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.2,
-          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031975"
         },
         {
           "id": "EONET_25043",
@@ -6742,16 +6753,6 @@
       "observed_through": "2026-10-07"
     },
     {
-      "id": "TC|1001335",
-      "title": "Tropical Cyclone SIMON-26",
-      "date": "2026-10-07T15:00:00+00:00",
-      "alert_level": "Red",
-      "event_type": "TC",
-      "country": "",
-      "weight": 20.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=8&eventtype=TC"
-    },
-    {
       "id": "TC|1001325",
       "title": "Tropical Cyclone POLO-26",
       "date": "2026-09-21T03:00:00+00:00",
@@ -6769,7 +6770,27 @@
       "event_type": "TC",
       "country": "United States",
       "weight": 8.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001334&episodeid=11&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001334&episodeid=13&eventtype=TC"
+    },
+    {
+      "id": "TC|1001335",
+      "title": "Tropical Cyclone SIMON-26",
+      "date": "2026-10-07T15:00:00+00:00",
+      "alert_level": "Orange",
+      "event_type": "TC",
+      "country": "Mexico",
+      "weight": 8.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=10&eventtype=TC"
+    },
+    {
+      "id": "EQ|1570339",
+      "title": "Earthquake in Panama",
+      "date": "2026-10-09T17:56:06+00:00",
+      "alert_level": "Orange",
+      "event_type": "EQ",
+      "country": "Panama",
+      "weight": 8.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1570339&episodeid=1738684&eventtype=EQ"
     },
     {
       "id": "VO|1000151",
@@ -6802,64 +6823,24 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
     },
     {
-      "id": "WF|1032584",
-      "title": "Forest fires in Papua New Guinea, Indonesia",
-      "date": "2026-09-24T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Papua New Guinea, Indonesia",
-      "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1032584&episodeid=7&eventtype=WF"
-    },
-    {
-      "id": "EQ|1570292",
-      "title": "Earthquake in Nicaragua",
-      "date": "2026-10-09T12:33:43+00:00",
+      "id": "EQ|1570386",
+      "title": "Earthquake in Russian Federation",
+      "date": "2026-10-09T21:19:16+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Nicaragua",
+      "country": "Russian Federation",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1570292&episodeid=1738624&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1570386&episodeid=1738748&eventtype=EQ"
     },
     {
-      "id": "EQ|1570276",
-      "title": "Earthquake in Chile",
-      "date": "2026-10-09T10:22:14+00:00",
+      "id": "EQ|1570381",
+      "title": "Earthquake in Panama",
+      "date": "2026-10-09T21:05:25+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Chile",
+      "country": "Panama",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1570276&episodeid=1738605&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1570278",
-      "title": "Earthquake in Indonesia",
-      "date": "2026-10-09T09:47:47+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Indonesia",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1570278&episodeid=1738611&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1570274",
-      "title": "Earthquake in Northern Mid-Atlantic Ridge",
-      "date": "2026-10-09T09:29:18+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Northern Mid-Atlantic Ridge",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1570274&episodeid=1738602&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1570271",
-      "title": "Earthquake in Philippines",
-      "date": "2026-10-09T09:17:18+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Philippines",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1570271&episodeid=1738615&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1570381&episodeid=1738742&eventtype=EQ"
     },
     {
       "id": "TC|1001329",
@@ -6869,27 +6850,57 @@
       "event_type": "TC",
       "country": "Mexico",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=49&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=51&eventtype=TC"
     },
     {
-      "id": "EQ|1570261",
-      "title": "Earthquake in Fiji",
-      "date": "2026-10-09T08:27:10+00:00",
+      "id": "EQ|1570380",
+      "title": "Earthquake in Panama",
+      "date": "2026-10-09T20:54:56+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Fiji",
+      "country": "Panama",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1570261&episodeid=1738589&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1570380&episodeid=1738750&eventtype=EQ"
     },
     {
-      "id": "EQ|1570260",
-      "title": "Earthquake in Fiji",
-      "date": "2026-10-09T08:11:47+00:00",
+      "id": "EQ|1570379",
+      "title": "Earthquake in Panama",
+      "date": "2026-10-09T20:42:08+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Fiji",
+      "country": "Panama",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1570260&episodeid=1738585&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1570379&episodeid=1738740&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1570374",
+      "title": "Earthquake in Panama",
+      "date": "2026-10-09T20:41:04+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Panama",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1570374&episodeid=1738743&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1570370",
+      "title": "Earthquake in Panama",
+      "date": "2026-10-09T20:25:39+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Panama",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1570370&episodeid=1738719&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1570369",
+      "title": "Earthquake in Panama",
+      "date": "2026-10-09T20:21:37+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Panama",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1570369&episodeid=1738745&eventtype=EQ"
     },
     {
       "id": "EONET_24487",
@@ -6922,6 +6933,16 @@
       "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032001"
     },
     {
+      "id": "EONET_25124",
+      "title": "Wildfire in Mongolia 1032663",
+      "date": "2026-10-07T19:00:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.2,
+      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032663"
+    },
+    {
       "id": "EONET_24481",
       "title": "Wildfire Dry River, Sutton, Texas",
       "date": "2026-09-15T16:59:00+00:00",
@@ -6940,16 +6961,6 @@
       ],
       "weight": 4.2,
       "url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000940"
-    },
-    {
-      "id": "EONET_24424",
-      "title": "Wildfire in Mozambique 1031975",
-      "date": "2026-09-09T19:00:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.2,
-      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031975"
     },
     {
       "id": "EONET_25043",
