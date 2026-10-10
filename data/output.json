@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-10-10T12:36:06.233228+00:00",
+    "generated": "2026-10-10T21:47:15.571757+00:00",
     "mode": "partial",
     "sources": [
       "NASA POWER Daily API",
@@ -15,7 +15,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-10T12:36:05.989187+00:00",
+    "issued_at": "2026-10-10T21:47:15.321712+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 64.4,
@@ -175,7 +175,7 @@
             "event_type": "TC",
             "country": "Mexico",
             "weight": 20.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=12&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=14&eventtype=TC"
           },
           {
             "id": "TC|1001325",
@@ -195,7 +195,7 @@
             "event_type": "TC",
             "country": "United States",
             "weight": 8.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001334&episodeid=15&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001334&episodeid=17&eventtype=TC"
           },
           {
             "id": "EQ|1570339",
@@ -238,16 +238,6 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
           },
           {
-            "id": "WF|1032701",
-            "title": "Forest fires in Papua New Guinea, Indonesia",
-            "date": "2026-09-26T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Papua New Guinea, Indonesia",
-            "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1032701&episodeid=2&eventtype=WF"
-          },
-          {
             "id": "WF|1032703",
             "title": "Forest fires in Mongolia, China",
             "date": "2026-10-09T00:00:00+00:00",
@@ -258,14 +248,14 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1032703&episodeid=1&eventtype=WF"
           },
           {
-            "id": "EQ|1570517",
-            "title": "Earthquake in Panama",
-            "date": "2026-10-10T10:35:11+00:00",
+            "id": "WF|1032701",
+            "title": "Forest fires in Papua New Guinea, Indonesia",
+            "date": "2026-09-26T00:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Panama",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1570517&episodeid=1738913&eventtype=EQ"
+            "event_type": "WF",
+            "country": "Papua New Guinea, Indonesia",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032701&episodeid=3&eventtype=WF"
           },
           {
             "id": "TC|1001329",
@@ -275,47 +265,57 @@
             "event_type": "TC",
             "country": "Mexico",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=53&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=55&eventtype=TC"
           },
           {
-            "id": "EQ|1570504",
-            "title": "Earthquake in Tonga",
-            "date": "2026-10-10T08:38:50+00:00",
+            "id": "EQ|1570640",
+            "title": "Earthquake in Kermadec Islands Region",
+            "date": "2026-10-10T20:35:48+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Tonga",
+            "country": "Kermadec Islands Region",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1570504&episodeid=1738898&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1570640&episodeid=1739048&eventtype=EQ"
           },
           {
-            "id": "EQ|1570500",
+            "id": "TC|1001333",
+            "title": "Tropical Cyclone KOGUMA-26",
+            "date": "2026-10-05T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001333&episodeid=24&eventtype=TC"
+          },
+          {
+            "id": "EQ|1570587",
             "title": "Earthquake in Panama",
-            "date": "2026-10-10T07:13:30+00:00",
+            "date": "2026-10-10T16:05:42+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
             "country": "Panama",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1570500&episodeid=1738893&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1570587&episodeid=1738995&eventtype=EQ"
           },
           {
-            "id": "EQ|1570499",
+            "id": "EQ|1570586",
             "title": "Earthquake in Panama",
-            "date": "2026-10-10T06:47:49+00:00",
+            "date": "2026-10-10T15:58:19+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
             "country": "Panama",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1570499&episodeid=1738891&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1570586&episodeid=1738990&eventtype=EQ"
           },
           {
-            "id": "EQ|1570487",
-            "title": "Earthquake in Panama",
-            "date": "2026-10-10T06:30:03+00:00",
+            "id": "EQ|1570621",
+            "title": "Earthquake in Papua New Guinea",
+            "date": "2026-10-10T15:10:20+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Panama",
+            "country": "Papua New Guinea",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1570487&episodeid=1738873&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1570621&episodeid=1739028&eventtype=EQ"
           }
         ],
         "retained": false
@@ -325,9 +325,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 2635.9,
+        "current_30d_weight": 2529.6,
         "baseline_median": 0.0,
-        "anomaly_z": 2635.9,
+        "anomaly_z": 2529.6,
         "events_considered": 1000,
         "evidence": [
           {
@@ -2296,6 +2296,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-10-10T21:47:15.321712+00:00",
+        "score": 64.4,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 73.2,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -2470,7 +2481,7 @@
           "event_type": "TC",
           "country": "Mexico",
           "weight": 20.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=12&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=14&eventtype=TC"
         },
         {
           "id": "TC|1001325",
@@ -2490,7 +2501,7 @@
           "event_type": "TC",
           "country": "United States",
           "weight": 8.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001334&episodeid=15&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001334&episodeid=17&eventtype=TC"
         },
         {
           "id": "EQ|1570339",
@@ -2533,16 +2544,6 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
         },
         {
-          "id": "WF|1032701",
-          "title": "Forest fires in Papua New Guinea, Indonesia",
-          "date": "2026-09-26T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Papua New Guinea, Indonesia",
-          "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032701&episodeid=2&eventtype=WF"
-        },
-        {
           "id": "WF|1032703",
           "title": "Forest fires in Mongolia, China",
           "date": "2026-10-09T00:00:00+00:00",
@@ -2553,14 +2554,14 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1032703&episodeid=1&eventtype=WF"
         },
         {
-          "id": "EQ|1570517",
-          "title": "Earthquake in Panama",
-          "date": "2026-10-10T10:35:11+00:00",
+          "id": "WF|1032701",
+          "title": "Forest fires in Papua New Guinea, Indonesia",
+          "date": "2026-09-26T00:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Panama",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1570517&episodeid=1738913&eventtype=EQ"
+          "event_type": "WF",
+          "country": "Papua New Guinea, Indonesia",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032701&episodeid=3&eventtype=WF"
         },
         {
           "id": "TC|1001329",
@@ -2570,47 +2571,57 @@
           "event_type": "TC",
           "country": "Mexico",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=53&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=55&eventtype=TC"
         },
         {
-          "id": "EQ|1570504",
-          "title": "Earthquake in Tonga",
-          "date": "2026-10-10T08:38:50+00:00",
+          "id": "EQ|1570640",
+          "title": "Earthquake in Kermadec Islands Region",
+          "date": "2026-10-10T20:35:48+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Tonga",
+          "country": "Kermadec Islands Region",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1570504&episodeid=1738898&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1570640&episodeid=1739048&eventtype=EQ"
         },
         {
-          "id": "EQ|1570500",
+          "id": "TC|1001333",
+          "title": "Tropical Cyclone KOGUMA-26",
+          "date": "2026-10-05T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001333&episodeid=24&eventtype=TC"
+        },
+        {
+          "id": "EQ|1570587",
           "title": "Earthquake in Panama",
-          "date": "2026-10-10T07:13:30+00:00",
+          "date": "2026-10-10T16:05:42+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
           "country": "Panama",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1570500&episodeid=1738893&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1570587&episodeid=1738995&eventtype=EQ"
         },
         {
-          "id": "EQ|1570499",
+          "id": "EQ|1570586",
           "title": "Earthquake in Panama",
-          "date": "2026-10-10T06:47:49+00:00",
+          "date": "2026-10-10T15:58:19+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
           "country": "Panama",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1570499&episodeid=1738891&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1570586&episodeid=1738990&eventtype=EQ"
         },
         {
-          "id": "EQ|1570487",
-          "title": "Earthquake in Panama",
-          "date": "2026-10-10T06:30:03+00:00",
+          "id": "EQ|1570621",
+          "title": "Earthquake in Papua New Guinea",
+          "date": "2026-10-10T15:10:20+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Panama",
+          "country": "Papua New Guinea",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1570487&episodeid=1738873&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1570621&episodeid=1739028&eventtype=EQ"
         }
       ]
     },
@@ -6782,7 +6793,7 @@
       "event_type": "TC",
       "country": "Mexico",
       "weight": 20.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=12&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=14&eventtype=TC"
     },
     {
       "id": "TC|1001325",
@@ -6802,7 +6813,7 @@
       "event_type": "TC",
       "country": "United States",
       "weight": 8.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001334&episodeid=15&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001334&episodeid=17&eventtype=TC"
     },
     {
       "id": "EQ|1570339",
@@ -6845,16 +6856,6 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
     },
     {
-      "id": "WF|1032701",
-      "title": "Forest fires in Papua New Guinea, Indonesia",
-      "date": "2026-09-26T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Papua New Guinea, Indonesia",
-      "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1032701&episodeid=2&eventtype=WF"
-    },
-    {
       "id": "WF|1032703",
       "title": "Forest fires in Mongolia, China",
       "date": "2026-10-09T00:00:00+00:00",
@@ -6865,14 +6866,14 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1032703&episodeid=1&eventtype=WF"
     },
     {
-      "id": "EQ|1570517",
-      "title": "Earthquake in Panama",
-      "date": "2026-10-10T10:35:11+00:00",
+      "id": "WF|1032701",
+      "title": "Forest fires in Papua New Guinea, Indonesia",
+      "date": "2026-09-26T00:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Panama",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1570517&episodeid=1738913&eventtype=EQ"
+      "event_type": "WF",
+      "country": "Papua New Guinea, Indonesia",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1032701&episodeid=3&eventtype=WF"
     },
     {
       "id": "TC|1001329",
@@ -6882,47 +6883,57 @@
       "event_type": "TC",
       "country": "Mexico",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=53&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=55&eventtype=TC"
     },
     {
-      "id": "EQ|1570504",
-      "title": "Earthquake in Tonga",
-      "date": "2026-10-10T08:38:50+00:00",
+      "id": "EQ|1570640",
+      "title": "Earthquake in Kermadec Islands Region",
+      "date": "2026-10-10T20:35:48+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Tonga",
+      "country": "Kermadec Islands Region",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1570504&episodeid=1738898&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1570640&episodeid=1739048&eventtype=EQ"
     },
     {
-      "id": "EQ|1570500",
+      "id": "TC|1001333",
+      "title": "Tropical Cyclone KOGUMA-26",
+      "date": "2026-10-05T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001333&episodeid=24&eventtype=TC"
+    },
+    {
+      "id": "EQ|1570587",
       "title": "Earthquake in Panama",
-      "date": "2026-10-10T07:13:30+00:00",
+      "date": "2026-10-10T16:05:42+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
       "country": "Panama",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1570500&episodeid=1738893&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1570587&episodeid=1738995&eventtype=EQ"
     },
     {
-      "id": "EQ|1570499",
+      "id": "EQ|1570586",
       "title": "Earthquake in Panama",
-      "date": "2026-10-10T06:47:49+00:00",
+      "date": "2026-10-10T15:58:19+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
       "country": "Panama",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1570499&episodeid=1738891&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1570586&episodeid=1738990&eventtype=EQ"
     },
     {
-      "id": "EQ|1570487",
-      "title": "Earthquake in Panama",
-      "date": "2026-10-10T06:30:03+00:00",
+      "id": "EQ|1570621",
+      "title": "Earthquake in Papua New Guinea",
+      "date": "2026-10-10T15:10:20+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Panama",
+      "country": "Papua New Guinea",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1570487&episodeid=1738873&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1570621&episodeid=1739028&eventtype=EQ"
     },
     {
       "id": "EONET_24487",
