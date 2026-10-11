@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-10-10T21:47:15.571757+00:00",
+    "generated": "2026-10-11T05:51:11.593053+00:00",
     "mode": "partial",
     "sources": [
       "NASA POWER Daily API",
@@ -15,7 +15,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-10T21:47:15.321712+00:00",
+    "issued_at": "2026-10-11T05:51:11.344641+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 64.4,
@@ -34,45 +34,45 @@
             "name": "Sudan grain belt",
             "lat": 13.5,
             "lon": 33.5,
-            "score": 93.2,
-            "rain_30d_mm": 92.1,
-            "rain_ratio": 0.89,
-            "max_temp_c": 38.9,
+            "score": 92.9,
+            "rain_30d_mm": 89.2,
+            "rain_ratio": 0.9,
+            "max_temp_c": 39.0,
             "heat_anomaly_c": 8.6,
-            "observed_through": "2026-10-08"
+            "observed_through": "2026-10-09"
           },
           {
             "name": "Ethiopia lowlands",
             "lat": 8.0,
             "lon": 40.0,
-            "score": 82.3,
-            "rain_30d_mm": 78.5,
-            "rain_ratio": 0.42,
-            "max_temp_c": 26.6,
-            "heat_anomaly_c": 4.2,
-            "observed_through": "2026-10-08"
+            "score": 83.3,
+            "rain_30d_mm": 75.4,
+            "rain_ratio": 0.39,
+            "max_temp_c": 26.5,
+            "heat_anomaly_c": 4.1,
+            "observed_through": "2026-10-09"
           },
           {
             "name": "Lake Chad basin",
             "lat": 12.5,
             "lon": 14.5,
-            "score": 44.0,
-            "rain_30d_mm": 80.6,
-            "rain_ratio": 1.07,
+            "score": 43.4,
+            "rain_30d_mm": 75.9,
+            "rain_ratio": 1.08,
             "max_temp_c": 37.6,
-            "heat_anomaly_c": 4.4,
-            "observed_through": "2026-10-08"
+            "heat_anomaly_c": 4.3,
+            "observed_through": "2026-10-09"
           },
           {
             "name": "Sahel west",
             "lat": 14.5,
             "lon": -1.5,
-            "score": 36.8,
-            "rain_30d_mm": 74.8,
-            "rain_ratio": 1.15,
+            "score": 34.9,
+            "rain_30d_mm": 73.3,
+            "rain_ratio": 1.2,
             "max_temp_c": 38.1,
-            "heat_anomaly_c": 3.7,
-            "observed_through": "2026-10-08"
+            "heat_anomaly_c": 3.5,
+            "observed_through": "2026-10-09"
           },
           {
             "name": "Pakistan Indus",
@@ -80,43 +80,43 @@
             "lon": 70.5,
             "score": 23.4,
             "rain_30d_mm": 12.8,
-            "rain_ratio": 1.23,
+            "rain_ratio": 1.39,
             "max_temp_c": 42.1,
             "heat_anomaly_c": 2.3,
-            "observed_through": "2026-10-08"
+            "observed_through": "2026-10-09"
           },
           {
             "name": "Central America dry corridor",
             "lat": 14.0,
             "lon": -88.5,
-            "score": 9.4,
-            "rain_30d_mm": 479.4,
+            "score": 8.0,
+            "rain_30d_mm": 482.2,
             "rain_ratio": 1.86,
-            "max_temp_c": 29.2,
-            "heat_anomaly_c": 0.9,
-            "observed_through": "2026-10-08"
+            "max_temp_c": 29.0,
+            "heat_anomaly_c": 0.8,
+            "observed_through": "2026-10-09"
           },
           {
             "name": "Afghanistan drylands",
             "lat": 34.0,
             "lon": 65.0,
-            "score": 6.5,
+            "score": 7.1,
             "rain_30d_mm": 1.7,
-            "rain_ratio": 1.23,
-            "max_temp_c": 23.2,
-            "heat_anomaly_c": 0.6,
-            "observed_through": "2026-10-08"
+            "rain_ratio": 1.24,
+            "max_temp_c": 23.0,
+            "heat_anomaly_c": 0.7,
+            "observed_through": "2026-10-09"
           },
           {
             "name": "Somalia pastoral belt",
             "lat": 5.0,
             "lon": 45.3,
             "score": 0.0,
-            "rain_30d_mm": 81.1,
-            "rain_ratio": 4.85,
+            "rain_30d_mm": 96.9,
+            "rain_ratio": 5.69,
             "max_temp_c": 36.0,
             "heat_anomaly_c": -0.9,
-            "observed_through": "2026-10-08"
+            "observed_through": "2026-10-09"
           }
         ],
         "evidence": [
@@ -124,34 +124,34 @@
             "name": "Sudan grain belt",
             "lat": 13.5,
             "lon": 33.5,
-            "score": 93.2,
-            "rain_30d_mm": 92.1,
-            "rain_ratio": 0.89,
-            "max_temp_c": 38.9,
+            "score": 92.9,
+            "rain_30d_mm": 89.2,
+            "rain_ratio": 0.9,
+            "max_temp_c": 39.0,
             "heat_anomaly_c": 8.6,
-            "observed_through": "2026-10-08"
+            "observed_through": "2026-10-09"
           },
           {
             "name": "Ethiopia lowlands",
             "lat": 8.0,
             "lon": 40.0,
-            "score": 82.3,
-            "rain_30d_mm": 78.5,
-            "rain_ratio": 0.42,
-            "max_temp_c": 26.6,
-            "heat_anomaly_c": 4.2,
-            "observed_through": "2026-10-08"
+            "score": 83.3,
+            "rain_30d_mm": 75.4,
+            "rain_ratio": 0.39,
+            "max_temp_c": 26.5,
+            "heat_anomaly_c": 4.1,
+            "observed_through": "2026-10-09"
           },
           {
             "name": "Lake Chad basin",
             "lat": 12.5,
             "lon": 14.5,
-            "score": 44.0,
-            "rain_30d_mm": 80.6,
-            "rain_ratio": 1.07,
+            "score": 43.4,
+            "rain_30d_mm": 75.9,
+            "rain_ratio": 1.08,
             "max_temp_c": 37.6,
-            "heat_anomaly_c": 4.4,
-            "observed_through": "2026-10-08"
+            "heat_anomaly_c": 4.3,
+            "observed_through": "2026-10-09"
           }
         ],
         "retained": false
@@ -175,7 +175,7 @@
             "event_type": "TC",
             "country": "Mexico",
             "weight": 20.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=14&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=15&eventtype=TC"
           },
           {
             "id": "TC|1001325",
@@ -195,7 +195,7 @@
             "event_type": "TC",
             "country": "United States",
             "weight": 8.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001334&episodeid=17&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001334&episodeid=18&eventtype=TC"
           },
           {
             "id": "EQ|1570339",
@@ -255,7 +255,27 @@
             "event_type": "WF",
             "country": "Papua New Guinea, Indonesia",
             "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1032701&episodeid=3&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032701&episodeid=4&eventtype=WF"
+          },
+          {
+            "id": "EQ|1570740",
+            "title": "Earthquake in Vanuatu",
+            "date": "2026-10-11T05:07:57+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Vanuatu",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1570740&episodeid=1739158&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1570717",
+            "title": "Earthquake in South Of Java, Indonesia",
+            "date": "2026-10-11T03:30:17+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "South Of Java, Indonesia",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1570717&episodeid=1739135&eventtype=EQ"
           },
           {
             "id": "TC|1001329",
@@ -265,57 +285,37 @@
             "event_type": "TC",
             "country": "Mexico",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=55&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=56&eventtype=TC"
           },
           {
-            "id": "EQ|1570640",
-            "title": "Earthquake in Kermadec Islands Region",
-            "date": "2026-10-10T20:35:48+00:00",
+            "id": "EQ|1570709",
+            "title": "Earthquake in Philippines",
+            "date": "2026-10-11T02:35:35+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Kermadec Islands Region",
+            "country": "Philippines",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1570640&episodeid=1739048&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1570709&episodeid=1739125&eventtype=EQ"
           },
           {
-            "id": "TC|1001333",
-            "title": "Tropical Cyclone KOGUMA-26",
-            "date": "2026-10-05T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001333&episodeid=24&eventtype=TC"
-          },
-          {
-            "id": "EQ|1570587",
+            "id": "EQ|1570690",
             "title": "Earthquake in Panama",
-            "date": "2026-10-10T16:05:42+00:00",
+            "date": "2026-10-11T01:50:52+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
             "country": "Panama",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1570587&episodeid=1738995&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1570690&episodeid=1739105&eventtype=EQ"
           },
           {
-            "id": "EQ|1570586",
+            "id": "EQ|1570669",
             "title": "Earthquake in Panama",
-            "date": "2026-10-10T15:58:19+00:00",
+            "date": "2026-10-11T00:06:09+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
             "country": "Panama",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1570586&episodeid=1738990&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1570621",
-            "title": "Earthquake in Papua New Guinea",
-            "date": "2026-10-10T15:10:20+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Papua New Guinea",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1570621&episodeid=1739028&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1570669&episodeid=1739090&eventtype=EQ"
           }
         ],
         "retained": false
@@ -327,7 +327,7 @@
         "score": 56.0,
         "current_30d_weight": 2529.6,
         "baseline_median": 0.0,
-        "anomaly_z": 2529.6,
+        "anomaly_z": 2529.61,
         "events_considered": 1000,
         "evidence": [
           {
@@ -2307,6 +2307,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-10-11T05:51:11.344641+00:00",
+        "score": 64.4,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 73.2,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -2381,45 +2392,45 @@
           "name": "Sudan grain belt",
           "lat": 13.5,
           "lon": 33.5,
-          "score": 93.2,
-          "rain_30d_mm": 92.1,
-          "rain_ratio": 0.89,
-          "max_temp_c": 38.9,
+          "score": 92.9,
+          "rain_30d_mm": 89.2,
+          "rain_ratio": 0.9,
+          "max_temp_c": 39.0,
           "heat_anomaly_c": 8.6,
-          "observed_through": "2026-10-08"
+          "observed_through": "2026-10-09"
         },
         {
           "name": "Ethiopia lowlands",
           "lat": 8.0,
           "lon": 40.0,
-          "score": 82.3,
-          "rain_30d_mm": 78.5,
-          "rain_ratio": 0.42,
-          "max_temp_c": 26.6,
-          "heat_anomaly_c": 4.2,
-          "observed_through": "2026-10-08"
+          "score": 83.3,
+          "rain_30d_mm": 75.4,
+          "rain_ratio": 0.39,
+          "max_temp_c": 26.5,
+          "heat_anomaly_c": 4.1,
+          "observed_through": "2026-10-09"
         },
         {
           "name": "Lake Chad basin",
           "lat": 12.5,
           "lon": 14.5,
-          "score": 44.0,
-          "rain_30d_mm": 80.6,
-          "rain_ratio": 1.07,
+          "score": 43.4,
+          "rain_30d_mm": 75.9,
+          "rain_ratio": 1.08,
           "max_temp_c": 37.6,
-          "heat_anomaly_c": 4.4,
-          "observed_through": "2026-10-08"
+          "heat_anomaly_c": 4.3,
+          "observed_through": "2026-10-09"
         },
         {
           "name": "Sahel west",
           "lat": 14.5,
           "lon": -1.5,
-          "score": 36.8,
-          "rain_30d_mm": 74.8,
-          "rain_ratio": 1.15,
+          "score": 34.9,
+          "rain_30d_mm": 73.3,
+          "rain_ratio": 1.2,
           "max_temp_c": 38.1,
-          "heat_anomaly_c": 3.7,
-          "observed_through": "2026-10-08"
+          "heat_anomaly_c": 3.5,
+          "observed_through": "2026-10-09"
         },
         {
           "name": "Pakistan Indus",
@@ -2427,43 +2438,43 @@
           "lon": 70.5,
           "score": 23.4,
           "rain_30d_mm": 12.8,
-          "rain_ratio": 1.23,
+          "rain_ratio": 1.39,
           "max_temp_c": 42.1,
           "heat_anomaly_c": 2.3,
-          "observed_through": "2026-10-08"
+          "observed_through": "2026-10-09"
         },
         {
           "name": "Central America dry corridor",
           "lat": 14.0,
           "lon": -88.5,
-          "score": 9.4,
-          "rain_30d_mm": 479.4,
+          "score": 8.0,
+          "rain_30d_mm": 482.2,
           "rain_ratio": 1.86,
-          "max_temp_c": 29.2,
-          "heat_anomaly_c": 0.9,
-          "observed_through": "2026-10-08"
+          "max_temp_c": 29.0,
+          "heat_anomaly_c": 0.8,
+          "observed_through": "2026-10-09"
         },
         {
           "name": "Afghanistan drylands",
           "lat": 34.0,
           "lon": 65.0,
-          "score": 6.5,
+          "score": 7.1,
           "rain_30d_mm": 1.7,
-          "rain_ratio": 1.23,
-          "max_temp_c": 23.2,
-          "heat_anomaly_c": 0.6,
-          "observed_through": "2026-10-08"
+          "rain_ratio": 1.24,
+          "max_temp_c": 23.0,
+          "heat_anomaly_c": 0.7,
+          "observed_through": "2026-10-09"
         },
         {
           "name": "Somalia pastoral belt",
           "lat": 5.0,
           "lon": 45.3,
           "score": 0.0,
-          "rain_30d_mm": 81.1,
-          "rain_ratio": 4.85,
+          "rain_30d_mm": 96.9,
+          "rain_ratio": 5.69,
           "max_temp_c": 36.0,
           "heat_anomaly_c": -0.9,
-          "observed_through": "2026-10-08"
+          "observed_through": "2026-10-09"
         }
       ]
     },
@@ -2481,7 +2492,7 @@
           "event_type": "TC",
           "country": "Mexico",
           "weight": 20.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=14&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=15&eventtype=TC"
         },
         {
           "id": "TC|1001325",
@@ -2501,7 +2512,7 @@
           "event_type": "TC",
           "country": "United States",
           "weight": 8.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001334&episodeid=17&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001334&episodeid=18&eventtype=TC"
         },
         {
           "id": "EQ|1570339",
@@ -2561,7 +2572,27 @@
           "event_type": "WF",
           "country": "Papua New Guinea, Indonesia",
           "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032701&episodeid=3&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032701&episodeid=4&eventtype=WF"
+        },
+        {
+          "id": "EQ|1570740",
+          "title": "Earthquake in Vanuatu",
+          "date": "2026-10-11T05:07:57+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Vanuatu",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1570740&episodeid=1739158&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1570717",
+          "title": "Earthquake in South Of Java, Indonesia",
+          "date": "2026-10-11T03:30:17+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "South Of Java, Indonesia",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1570717&episodeid=1739135&eventtype=EQ"
         },
         {
           "id": "TC|1001329",
@@ -2571,57 +2602,37 @@
           "event_type": "TC",
           "country": "Mexico",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=55&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=56&eventtype=TC"
         },
         {
-          "id": "EQ|1570640",
-          "title": "Earthquake in Kermadec Islands Region",
-          "date": "2026-10-10T20:35:48+00:00",
+          "id": "EQ|1570709",
+          "title": "Earthquake in Philippines",
+          "date": "2026-10-11T02:35:35+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Kermadec Islands Region",
+          "country": "Philippines",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1570640&episodeid=1739048&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1570709&episodeid=1739125&eventtype=EQ"
         },
         {
-          "id": "TC|1001333",
-          "title": "Tropical Cyclone KOGUMA-26",
-          "date": "2026-10-05T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001333&episodeid=24&eventtype=TC"
-        },
-        {
-          "id": "EQ|1570587",
+          "id": "EQ|1570690",
           "title": "Earthquake in Panama",
-          "date": "2026-10-10T16:05:42+00:00",
+          "date": "2026-10-11T01:50:52+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
           "country": "Panama",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1570587&episodeid=1738995&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1570690&episodeid=1739105&eventtype=EQ"
         },
         {
-          "id": "EQ|1570586",
+          "id": "EQ|1570669",
           "title": "Earthquake in Panama",
-          "date": "2026-10-10T15:58:19+00:00",
+          "date": "2026-10-11T00:06:09+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
           "country": "Panama",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1570586&episodeid=1738990&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1570621",
-          "title": "Earthquake in Papua New Guinea",
-          "date": "2026-10-10T15:10:20+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Papua New Guinea",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1570621&episodeid=1739028&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1570669&episodeid=1739090&eventtype=EQ"
         }
       ]
     },
@@ -6756,34 +6767,34 @@
       "name": "Sudan grain belt",
       "lat": 13.5,
       "lon": 33.5,
-      "score": 93.2,
-      "rain_30d_mm": 92.1,
-      "rain_ratio": 0.89,
-      "max_temp_c": 38.9,
+      "score": 92.9,
+      "rain_30d_mm": 89.2,
+      "rain_ratio": 0.9,
+      "max_temp_c": 39.0,
       "heat_anomaly_c": 8.6,
-      "observed_through": "2026-10-08"
+      "observed_through": "2026-10-09"
     },
     {
       "name": "Ethiopia lowlands",
       "lat": 8.0,
       "lon": 40.0,
-      "score": 82.3,
-      "rain_30d_mm": 78.5,
-      "rain_ratio": 0.42,
-      "max_temp_c": 26.6,
-      "heat_anomaly_c": 4.2,
-      "observed_through": "2026-10-08"
+      "score": 83.3,
+      "rain_30d_mm": 75.4,
+      "rain_ratio": 0.39,
+      "max_temp_c": 26.5,
+      "heat_anomaly_c": 4.1,
+      "observed_through": "2026-10-09"
     },
     {
       "name": "Lake Chad basin",
       "lat": 12.5,
       "lon": 14.5,
-      "score": 44.0,
-      "rain_30d_mm": 80.6,
-      "rain_ratio": 1.07,
+      "score": 43.4,
+      "rain_30d_mm": 75.9,
+      "rain_ratio": 1.08,
       "max_temp_c": 37.6,
-      "heat_anomaly_c": 4.4,
-      "observed_through": "2026-10-08"
+      "heat_anomaly_c": 4.3,
+      "observed_through": "2026-10-09"
     },
     {
       "id": "TC|1001335",
@@ -6793,7 +6804,7 @@
       "event_type": "TC",
       "country": "Mexico",
       "weight": 20.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=14&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=15&eventtype=TC"
     },
     {
       "id": "TC|1001325",
@@ -6813,7 +6824,7 @@
       "event_type": "TC",
       "country": "United States",
       "weight": 8.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001334&episodeid=17&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001334&episodeid=18&eventtype=TC"
     },
     {
       "id": "EQ|1570339",
@@ -6873,7 +6884,27 @@
       "event_type": "WF",
       "country": "Papua New Guinea, Indonesia",
       "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1032701&episodeid=3&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1032701&episodeid=4&eventtype=WF"
+    },
+    {
+      "id": "EQ|1570740",
+      "title": "Earthquake in Vanuatu",
+      "date": "2026-10-11T05:07:57+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Vanuatu",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1570740&episodeid=1739158&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1570717",
+      "title": "Earthquake in South Of Java, Indonesia",
+      "date": "2026-10-11T03:30:17+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "South Of Java, Indonesia",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1570717&episodeid=1739135&eventtype=EQ"
     },
     {
       "id": "TC|1001329",
@@ -6883,57 +6914,37 @@
       "event_type": "TC",
       "country": "Mexico",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=55&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=56&eventtype=TC"
     },
     {
-      "id": "EQ|1570640",
-      "title": "Earthquake in Kermadec Islands Region",
-      "date": "2026-10-10T20:35:48+00:00",
+      "id": "EQ|1570709",
+      "title": "Earthquake in Philippines",
+      "date": "2026-10-11T02:35:35+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Kermadec Islands Region",
+      "country": "Philippines",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1570640&episodeid=1739048&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1570709&episodeid=1739125&eventtype=EQ"
     },
     {
-      "id": "TC|1001333",
-      "title": "Tropical Cyclone KOGUMA-26",
-      "date": "2026-10-05T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001333&episodeid=24&eventtype=TC"
-    },
-    {
-      "id": "EQ|1570587",
+      "id": "EQ|1570690",
       "title": "Earthquake in Panama",
-      "date": "2026-10-10T16:05:42+00:00",
+      "date": "2026-10-11T01:50:52+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
       "country": "Panama",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1570587&episodeid=1738995&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1570690&episodeid=1739105&eventtype=EQ"
     },
     {
-      "id": "EQ|1570586",
+      "id": "EQ|1570669",
       "title": "Earthquake in Panama",
-      "date": "2026-10-10T15:58:19+00:00",
+      "date": "2026-10-11T00:06:09+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
       "country": "Panama",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1570586&episodeid=1738990&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1570621",
-      "title": "Earthquake in Papua New Guinea",
-      "date": "2026-10-10T15:10:20+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Papua New Guinea",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1570621&episodeid=1739028&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1570669&episodeid=1739090&eventtype=EQ"
     },
     {
       "id": "EONET_24487",
