@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-10-13T14:15:51.521804+00:00",
+    "generated": "2026-10-13T22:48:12.029676+00:00",
     "mode": "partial",
     "sources": [
       "NASA POWER Daily API",
@@ -15,7 +15,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-13T14:15:51.281691+00:00",
+    "issued_at": "2026-10-13T22:48:11.887180+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 64.7,
@@ -161,10 +161,10 @@
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 174.4,
+        "current_30d_weight": 181.2,
         "baseline_months": 12,
-        "baseline_median": 46.2,
-        "anomaly_z": 3.04,
+        "baseline_median": 40.5,
+        "anomaly_z": 3.93,
         "events_considered": 179,
         "evidence": [
           {
@@ -185,7 +185,17 @@
             "event_type": "TC",
             "country": "Mexico",
             "weight": 8.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=24&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=26&eventtype=TC"
+          },
+          {
+            "id": "TC|1001337",
+            "title": "Tropical Cyclone TRUDY-26",
+            "date": "2026-10-13T15:00:00+00:00",
+            "alert_level": "Orange",
+            "event_type": "TC",
+            "country": "Mexico",
+            "weight": 8.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=2&eventtype=TC"
           },
           {
             "id": "TC|1001334",
@@ -268,54 +278,44 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1032726&episodeid=4&eventtype=WF"
           },
           {
-            "id": "WF|1032727",
-            "title": "Forest fires in Mongolia, China",
-            "date": "2026-10-09T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Mongolia, China",
-            "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1032727&episodeid=6&eventtype=WF"
-          },
-          {
-            "id": "EQ|1571305",
-            "title": "Earthquake in Central Mid-Atlantic Ridge",
-            "date": "2026-10-13T12:23:07+00:00",
+            "id": "EQ|1571393",
+            "title": "Earthquake in Colombia",
+            "date": "2026-10-13T21:24:20+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Central Mid-Atlantic Ridge",
+            "country": "Colombia",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1571305&episodeid=1739786&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1571393&episodeid=1739885&eventtype=EQ"
           },
           {
-            "id": "EQ|1571303",
-            "title": "Earthquake in Off East Coast Of Kamchatka",
-            "date": "2026-10-13T12:05:41+00:00",
+            "id": "EQ|1571367",
+            "title": "Earthquake in Papua New Guinea",
+            "date": "2026-10-13T18:45:03+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Off East Coast Of Kamchatka",
+            "country": "Papua New Guinea",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1571303&episodeid=1739792&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1571367&episodeid=1739856&eventtype=EQ"
           },
           {
-            "id": "EQ|1571282",
-            "title": "Earthquake in Indonesia",
-            "date": "2026-10-13T09:48:28+00:00",
+            "id": "TC|1001333",
+            "title": "Tropical Cyclone KOGUMA-26",
+            "date": "2026-10-05T00:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Indonesia",
+            "event_type": "TC",
+            "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1571282&episodeid=1739764&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001333&episodeid=36&eventtype=TC"
           },
           {
-            "id": "EQ|1571285",
-            "title": "Earthquake in Tajikistan",
-            "date": "2026-10-13T09:41:12+00:00",
+            "id": "TC|1001336",
+            "title": "Tropical Cyclone TWENTYEIGHT-26",
+            "date": "2026-10-12T00:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Tajikistan",
+            "event_type": "TC",
+            "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1571285&episodeid=1739772&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001336&episodeid=8&eventtype=TC"
           }
         ],
         "retained": false
@@ -325,9 +325,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 2404.8,
+        "current_30d_weight": 2344.9,
         "baseline_median": 0.0,
-        "anomaly_z": 2404.81,
+        "anomaly_z": 2344.88,
         "events_considered": 1000,
         "evidence": [
           {
@@ -369,16 +369,6 @@
             ],
             "weight": 4.2,
             "url": "https://irwin.doi.gov/observer/incidents/2026-TXTXS-268594"
-          },
-          {
-            "id": "EONET_24717",
-            "title": "Prescribed Fire D6 Wallow West Unit 6 RX, Apache, Arizona",
-            "date": "2026-09-13T17:13:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.2,
-            "url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000940"
           },
           {
             "id": "EONET_25234",
@@ -479,6 +469,16 @@
             ],
             "weight": 4.0,
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032652"
+          },
+          {
+            "id": "EONET_24857",
+            "title": "Wildfire in Australia 1032425",
+            "date": "2026-09-25T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.0,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032425"
           }
         ],
         "retained": false
@@ -2384,6 +2384,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-10-13T22:48:11.887180+00:00",
+        "score": 64.7,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 74.0,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -2568,7 +2579,17 @@
           "event_type": "TC",
           "country": "Mexico",
           "weight": 8.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=24&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=26&eventtype=TC"
+        },
+        {
+          "id": "TC|1001337",
+          "title": "Tropical Cyclone TRUDY-26",
+          "date": "2026-10-13T15:00:00+00:00",
+          "alert_level": "Orange",
+          "event_type": "TC",
+          "country": "Mexico",
+          "weight": 8.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=2&eventtype=TC"
         },
         {
           "id": "TC|1001334",
@@ -2651,54 +2672,44 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1032726&episodeid=4&eventtype=WF"
         },
         {
-          "id": "WF|1032727",
-          "title": "Forest fires in Mongolia, China",
-          "date": "2026-10-09T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Mongolia, China",
-          "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032727&episodeid=6&eventtype=WF"
-        },
-        {
-          "id": "EQ|1571305",
-          "title": "Earthquake in Central Mid-Atlantic Ridge",
-          "date": "2026-10-13T12:23:07+00:00",
+          "id": "EQ|1571393",
+          "title": "Earthquake in Colombia",
+          "date": "2026-10-13T21:24:20+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Central Mid-Atlantic Ridge",
+          "country": "Colombia",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1571305&episodeid=1739786&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1571393&episodeid=1739885&eventtype=EQ"
         },
         {
-          "id": "EQ|1571303",
-          "title": "Earthquake in Off East Coast Of Kamchatka",
-          "date": "2026-10-13T12:05:41+00:00",
+          "id": "EQ|1571367",
+          "title": "Earthquake in Papua New Guinea",
+          "date": "2026-10-13T18:45:03+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Off East Coast Of Kamchatka",
+          "country": "Papua New Guinea",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1571303&episodeid=1739792&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1571367&episodeid=1739856&eventtype=EQ"
         },
         {
-          "id": "EQ|1571282",
-          "title": "Earthquake in Indonesia",
-          "date": "2026-10-13T09:48:28+00:00",
+          "id": "TC|1001333",
+          "title": "Tropical Cyclone KOGUMA-26",
+          "date": "2026-10-05T00:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Indonesia",
+          "event_type": "TC",
+          "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1571282&episodeid=1739764&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001333&episodeid=36&eventtype=TC"
         },
         {
-          "id": "EQ|1571285",
-          "title": "Earthquake in Tajikistan",
-          "date": "2026-10-13T09:41:12+00:00",
+          "id": "TC|1001336",
+          "title": "Tropical Cyclone TWENTYEIGHT-26",
+          "date": "2026-10-12T00:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Tajikistan",
+          "event_type": "TC",
+          "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1571285&episodeid=1739772&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001336&episodeid=8&eventtype=TC"
         }
       ]
     },
@@ -2747,16 +2758,6 @@
           ],
           "weight": 4.2,
           "url": "https://irwin.doi.gov/observer/incidents/2026-TXTXS-268594"
-        },
-        {
-          "id": "EONET_24717",
-          "title": "Prescribed Fire D6 Wallow West Unit 6 RX, Apache, Arizona",
-          "date": "2026-09-13T17:13:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.2,
-          "url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000940"
         },
         {
           "id": "EONET_25234",
@@ -2857,6 +2858,16 @@
           ],
           "weight": 4.0,
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032652"
+        },
+        {
+          "id": "EONET_24857",
+          "title": "Wildfire in Australia 1032425",
+          "date": "2026-09-25T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.0,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032425"
         }
       ]
     },
@@ -6880,7 +6891,17 @@
       "event_type": "TC",
       "country": "Mexico",
       "weight": 8.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=24&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=26&eventtype=TC"
+    },
+    {
+      "id": "TC|1001337",
+      "title": "Tropical Cyclone TRUDY-26",
+      "date": "2026-10-13T15:00:00+00:00",
+      "alert_level": "Orange",
+      "event_type": "TC",
+      "country": "Mexico",
+      "weight": 8.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=2&eventtype=TC"
     },
     {
       "id": "TC|1001334",
@@ -6963,54 +6984,44 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1032726&episodeid=4&eventtype=WF"
     },
     {
-      "id": "WF|1032727",
-      "title": "Forest fires in Mongolia, China",
-      "date": "2026-10-09T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Mongolia, China",
-      "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1032727&episodeid=6&eventtype=WF"
-    },
-    {
-      "id": "EQ|1571305",
-      "title": "Earthquake in Central Mid-Atlantic Ridge",
-      "date": "2026-10-13T12:23:07+00:00",
+      "id": "EQ|1571393",
+      "title": "Earthquake in Colombia",
+      "date": "2026-10-13T21:24:20+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Central Mid-Atlantic Ridge",
+      "country": "Colombia",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1571305&episodeid=1739786&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1571393&episodeid=1739885&eventtype=EQ"
     },
     {
-      "id": "EQ|1571303",
-      "title": "Earthquake in Off East Coast Of Kamchatka",
-      "date": "2026-10-13T12:05:41+00:00",
+      "id": "EQ|1571367",
+      "title": "Earthquake in Papua New Guinea",
+      "date": "2026-10-13T18:45:03+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Off East Coast Of Kamchatka",
+      "country": "Papua New Guinea",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1571303&episodeid=1739792&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1571367&episodeid=1739856&eventtype=EQ"
     },
     {
-      "id": "EQ|1571282",
-      "title": "Earthquake in Indonesia",
-      "date": "2026-10-13T09:48:28+00:00",
+      "id": "TC|1001333",
+      "title": "Tropical Cyclone KOGUMA-26",
+      "date": "2026-10-05T00:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Indonesia",
+      "event_type": "TC",
+      "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1571282&episodeid=1739764&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001333&episodeid=36&eventtype=TC"
     },
     {
-      "id": "EQ|1571285",
-      "title": "Earthquake in Tajikistan",
-      "date": "2026-10-13T09:41:12+00:00",
+      "id": "TC|1001336",
+      "title": "Tropical Cyclone TWENTYEIGHT-26",
+      "date": "2026-10-12T00:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Tajikistan",
+      "event_type": "TC",
+      "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1571285&episodeid=1739772&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001336&episodeid=8&eventtype=TC"
     },
     {
       "id": "EONET_24487",
@@ -7051,16 +7062,6 @@
       ],
       "weight": 4.2,
       "url": "https://irwin.doi.gov/observer/incidents/2026-TXTXS-268594"
-    },
-    {
-      "id": "EONET_24717",
-      "title": "Prescribed Fire D6 Wallow West Unit 6 RX, Apache, Arizona",
-      "date": "2026-09-13T17:13:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.2,
-      "url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000940"
     },
     {
       "id": "EONET_25234",
@@ -7131,6 +7132,16 @@
       ],
       "weight": 4.1,
       "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032283"
+    },
+    {
+      "id": "EONET_24719",
+      "title": "Prescribed Fire D2 Dye RX, Coconino, Arizona",
+      "date": "2026-09-17T17:44:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.1,
+      "url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000955"
     }
   ]
 }
