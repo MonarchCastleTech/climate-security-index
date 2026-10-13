@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-10-12T15:32:14.146172+00:00",
+    "generated": "2026-10-13T00:44:08.710406+00:00",
     "mode": "partial",
     "sources": [
       "NASA POWER Daily API",
@@ -15,13 +15,13 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-12T15:32:14.007474+00:00",
+    "issued_at": "2026-10-13T00:44:08.527672+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 64.7,
     "level": "ELEVATED",
     "confidence": "HIGH",
-    "confidence_score": 94.0,
+    "confidence_score": 97.0,
     "components": [
       {
         "id": "agroclimate_stress",
@@ -164,8 +164,8 @@
         "current_30d_weight": 175.4,
         "baseline_months": 12,
         "baseline_median": 46.2,
-        "anomaly_z": 2.68,
-        "events_considered": 180,
+        "anomaly_z": 3.06,
+        "events_considered": 179,
         "evidence": [
           {
             "id": "TC|1001325",
@@ -185,7 +185,7 @@
             "event_type": "TC",
             "country": "Mexico",
             "weight": 8.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=21&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=22&eventtype=TC"
           },
           {
             "id": "TC|1001334",
@@ -248,14 +248,14 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
           },
           {
-            "id": "WF|1032753",
+            "id": "WF|1032727",
             "title": "Forest fires in Mongolia, China",
-            "date": "2026-10-11T00:00:00+00:00",
+            "date": "2026-10-09T00:00:00+00:00",
             "alert_level": "Green",
             "event_type": "WF",
             "country": "Mongolia, China",
             "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1032753&episodeid=2&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032727&episodeid=6&eventtype=WF"
           },
           {
             "id": "WF|1032726",
@@ -268,14 +268,14 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1032726&episodeid=4&eventtype=WF"
           },
           {
-            "id": "WF|1032727",
+            "id": "WF|1032753",
             "title": "Forest fires in Mongolia, China",
-            "date": "2026-10-09T00:00:00+00:00",
+            "date": "2026-10-11T00:00:00+00:00",
             "alert_level": "Green",
             "event_type": "WF",
             "country": "Mongolia, China",
             "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1032727&episodeid=6&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032753&episodeid=4&eventtype=WF"
           },
           {
             "id": "FL|1104225",
@@ -288,34 +288,34 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1104225&episodeid=1&eventtype=FL"
           },
           {
-            "id": "EQ|1571081",
-            "title": "Earthquake in Near Islands, Aleutian Islands",
-            "date": "2026-10-12T14:29:53+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Near Islands, Aleutian Islands",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1571081&episodeid=1739546&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1571075",
-            "title": "Earthquake in Mid-Indian Ridge",
-            "date": "2026-10-12T13:44:41+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Mid-Indian Ridge",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1571075&episodeid=1739531&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1571060",
+            "id": "EQ|1571166",
             "title": "Earthquake in Panama",
-            "date": "2026-10-12T13:17:18+00:00",
+            "date": "2026-10-12T23:36:46+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
             "country": "Panama",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1571060&episodeid=1739535&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1571166&episodeid=1739634&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1571161",
+            "title": "Earthquake in Panama",
+            "date": "2026-10-12T23:20:36+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Panama",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1571161&episodeid=1739629&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1571145",
+            "title": "Earthquake in Panama",
+            "date": "2026-10-12T21:48:54+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Panama",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1571145&episodeid=1739614&eventtype=EQ"
           }
         ],
         "retained": false
@@ -325,9 +325,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 2436.5,
+        "current_30d_weight": 2407.3,
         "baseline_median": 0.0,
-        "anomaly_z": 2436.49,
+        "anomaly_z": 2407.3,
         "events_considered": 1000,
         "evidence": [
           {
@@ -379,6 +379,16 @@
             ],
             "weight": 4.2,
             "url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000940"
+          },
+          {
+            "id": "EONET_25234",
+            "title": "Prescribed Fire Bridger Trail Unit - KPERP Rx NKRD CY26, Coconino, Arizona",
+            "date": "2026-10-09T11:49:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.1,
+            "url": "https://irwin.doi.gov/observer/incidents/2026-AZKNF-001107"
           },
           {
             "id": "EONET_25043",
@@ -451,37 +461,27 @@
             "url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000955"
           },
           {
-            "id": "EONET_24348",
-            "title": "Wildfire in Australia 1031990",
-            "date": "2026-09-12T19:00:00+00:00",
+            "id": "EONET_25202",
+            "title": "Wildfire in Mongolia 1032726",
+            "date": "2026-10-09T19:00:00+00:00",
             "categories": [
               "wildfires"
             ],
-            "weight": 4.1,
-            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031990"
+            "weight": 4.0,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032726"
           },
           {
-            "id": "EONET_24351",
-            "title": "Wildfire in Namibia 1031966",
-            "date": "2026-09-12T19:00:00+00:00",
+            "id": "EONET_25122",
+            "title": "Wildfire in Mongolia 1032652",
+            "date": "2026-10-07T19:00:00+00:00",
             "categories": [
               "wildfires"
             ],
-            "weight": 4.1,
-            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031966"
-          },
-          {
-            "id": "EONET_24352",
-            "title": "Wildfire in Angola 1031968",
-            "date": "2026-09-12T19:00:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.1,
-            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031968"
+            "weight": 4.0,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032652"
           }
         ],
-        "retained": true
+        "retained": false
       },
       {
         "id": "food_price_pressure",
@@ -2362,16 +2362,26 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-10-13T00:44:08.527672+00:00",
+        "score": 64.7,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 74.0,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [
-        "eonet_hazard_persistence",
         "food_price_pressure"
       ],
       "power_sentinels": 8,
-      "gdacs_events": 180,
+      "gdacs_events": 179,
       "eonet_events": 1000,
       "fao_latest_month": "2026-08"
     },
@@ -2418,7 +2428,7 @@
     },
     {
       "label": "Hazards Screened",
-      "value": "1180",
+      "value": "1179",
       "delta": "NASA + GDACS"
     },
     {
@@ -2524,7 +2534,7 @@
       ]
     },
     "gdacs": {
-      "count": 180,
+      "count": 179,
       "cached": false,
       "retained": false,
       "compact": true,
@@ -2547,7 +2557,7 @@
           "event_type": "TC",
           "country": "Mexico",
           "weight": 8.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=21&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=22&eventtype=TC"
         },
         {
           "id": "TC|1001334",
@@ -2610,14 +2620,14 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
         },
         {
-          "id": "WF|1032753",
+          "id": "WF|1032727",
           "title": "Forest fires in Mongolia, China",
-          "date": "2026-10-11T00:00:00+00:00",
+          "date": "2026-10-09T00:00:00+00:00",
           "alert_level": "Green",
           "event_type": "WF",
           "country": "Mongolia, China",
           "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032753&episodeid=2&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032727&episodeid=6&eventtype=WF"
         },
         {
           "id": "WF|1032726",
@@ -2630,14 +2640,14 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1032726&episodeid=4&eventtype=WF"
         },
         {
-          "id": "WF|1032727",
+          "id": "WF|1032753",
           "title": "Forest fires in Mongolia, China",
-          "date": "2026-10-09T00:00:00+00:00",
+          "date": "2026-10-11T00:00:00+00:00",
           "alert_level": "Green",
           "event_type": "WF",
           "country": "Mongolia, China",
           "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032727&episodeid=6&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032753&episodeid=4&eventtype=WF"
         },
         {
           "id": "FL|1104225",
@@ -2650,40 +2660,40 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1104225&episodeid=1&eventtype=FL"
         },
         {
-          "id": "EQ|1571081",
-          "title": "Earthquake in Near Islands, Aleutian Islands",
-          "date": "2026-10-12T14:29:53+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Near Islands, Aleutian Islands",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1571081&episodeid=1739546&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1571075",
-          "title": "Earthquake in Mid-Indian Ridge",
-          "date": "2026-10-12T13:44:41+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Mid-Indian Ridge",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1571075&episodeid=1739531&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1571060",
+          "id": "EQ|1571166",
           "title": "Earthquake in Panama",
-          "date": "2026-10-12T13:17:18+00:00",
+          "date": "2026-10-12T23:36:46+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
           "country": "Panama",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1571060&episodeid=1739535&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1571166&episodeid=1739634&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1571161",
+          "title": "Earthquake in Panama",
+          "date": "2026-10-12T23:20:36+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Panama",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1571161&episodeid=1739629&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1571145",
+          "title": "Earthquake in Panama",
+          "date": "2026-10-12T21:48:54+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Panama",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1571145&episodeid=1739614&eventtype=EQ"
         }
       ]
     },
     "nasa_eonet": {
       "count": 1000,
-      "cached": true,
+      "cached": false,
       "retained": false,
       "compact": true,
       "events": [
@@ -2736,6 +2746,16 @@
           ],
           "weight": 4.2,
           "url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000940"
+        },
+        {
+          "id": "EONET_25234",
+          "title": "Prescribed Fire Bridger Trail Unit - KPERP Rx NKRD CY26, Coconino, Arizona",
+          "date": "2026-10-09T11:49:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.1,
+          "url": "https://irwin.doi.gov/observer/incidents/2026-AZKNF-001107"
         },
         {
           "id": "EONET_25043",
@@ -2808,34 +2828,24 @@
           "url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000955"
         },
         {
-          "id": "EONET_24348",
-          "title": "Wildfire in Australia 1031990",
-          "date": "2026-09-12T19:00:00+00:00",
+          "id": "EONET_25202",
+          "title": "Wildfire in Mongolia 1032726",
+          "date": "2026-10-09T19:00:00+00:00",
           "categories": [
             "wildfires"
           ],
-          "weight": 4.1,
-          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031990"
+          "weight": 4.0,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032726"
         },
         {
-          "id": "EONET_24351",
-          "title": "Wildfire in Namibia 1031966",
-          "date": "2026-09-12T19:00:00+00:00",
+          "id": "EONET_25122",
+          "title": "Wildfire in Mongolia 1032652",
+          "date": "2026-10-07T19:00:00+00:00",
           "categories": [
             "wildfires"
           ],
-          "weight": 4.1,
-          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031966"
-        },
-        {
-          "id": "EONET_24352",
-          "title": "Wildfire in Angola 1031968",
-          "date": "2026-09-12T19:00:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.1,
-          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031968"
+          "weight": 4.0,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032652"
         }
       ]
     },
@@ -6859,7 +6869,7 @@
       "event_type": "TC",
       "country": "Mexico",
       "weight": 8.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=21&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=22&eventtype=TC"
     },
     {
       "id": "TC|1001334",
@@ -6922,14 +6932,14 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
     },
     {
-      "id": "WF|1032753",
+      "id": "WF|1032727",
       "title": "Forest fires in Mongolia, China",
-      "date": "2026-10-11T00:00:00+00:00",
+      "date": "2026-10-09T00:00:00+00:00",
       "alert_level": "Green",
       "event_type": "WF",
       "country": "Mongolia, China",
       "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1032753&episodeid=2&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1032727&episodeid=6&eventtype=WF"
     },
     {
       "id": "WF|1032726",
@@ -6942,14 +6952,14 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1032726&episodeid=4&eventtype=WF"
     },
     {
-      "id": "WF|1032727",
+      "id": "WF|1032753",
       "title": "Forest fires in Mongolia, China",
-      "date": "2026-10-09T00:00:00+00:00",
+      "date": "2026-10-11T00:00:00+00:00",
       "alert_level": "Green",
       "event_type": "WF",
       "country": "Mongolia, China",
       "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1032727&episodeid=6&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1032753&episodeid=4&eventtype=WF"
     },
     {
       "id": "FL|1104225",
@@ -6962,34 +6972,34 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1104225&episodeid=1&eventtype=FL"
     },
     {
-      "id": "EQ|1571081",
-      "title": "Earthquake in Near Islands, Aleutian Islands",
-      "date": "2026-10-12T14:29:53+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Near Islands, Aleutian Islands",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1571081&episodeid=1739546&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1571075",
-      "title": "Earthquake in Mid-Indian Ridge",
-      "date": "2026-10-12T13:44:41+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Mid-Indian Ridge",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1571075&episodeid=1739531&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1571060",
+      "id": "EQ|1571166",
       "title": "Earthquake in Panama",
-      "date": "2026-10-12T13:17:18+00:00",
+      "date": "2026-10-12T23:36:46+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
       "country": "Panama",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1571060&episodeid=1739535&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1571166&episodeid=1739634&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1571161",
+      "title": "Earthquake in Panama",
+      "date": "2026-10-12T23:20:36+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Panama",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1571161&episodeid=1739629&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1571145",
+      "title": "Earthquake in Panama",
+      "date": "2026-10-12T21:48:54+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Panama",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1571145&episodeid=1739614&eventtype=EQ"
     },
     {
       "id": "EONET_24487",
@@ -7040,6 +7050,16 @@
       ],
       "weight": 4.2,
       "url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000940"
+    },
+    {
+      "id": "EONET_25234",
+      "title": "Prescribed Fire Bridger Trail Unit - KPERP Rx NKRD CY26, Coconino, Arizona",
+      "date": "2026-10-09T11:49:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.1,
+      "url": "https://irwin.doi.gov/observer/incidents/2026-AZKNF-001107"
     },
     {
       "id": "EONET_25043",
@@ -7100,16 +7120,6 @@
       ],
       "weight": 4.1,
       "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032283"
-    },
-    {
-      "id": "EONET_24719",
-      "title": "Prescribed Fire D2 Dye RX, Coconino, Arizona",
-      "date": "2026-09-17T17:44:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.1,
-      "url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000955"
     }
   ]
 }
