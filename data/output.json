@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-10-14T17:14:13.365714+00:00",
+    "generated": "2026-10-14T21:43:24.164741+00:00",
     "mode": "partial",
     "sources": [
       "NASA POWER Daily API",
@@ -15,7 +15,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-14T17:14:13.238328+00:00",
+    "issued_at": "2026-10-14T21:43:23.932570+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 64.0,
@@ -185,7 +185,7 @@
             "event_type": "TC",
             "country": "Mexico",
             "weight": 8.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=29&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=30&eventtype=TC"
           },
           {
             "id": "TC|1001338",
@@ -195,7 +195,7 @@
             "event_type": "TC",
             "country": "Guam",
             "weight": 8.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=1&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=2&eventtype=TC"
           },
           {
             "id": "TC|1001334",
@@ -285,7 +285,7 @@
             "event_type": "TC",
             "country": "Mexico",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=5&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=6&eventtype=TC"
           },
           {
             "id": "TC|1001336",
@@ -295,7 +295,7 @@
             "event_type": "TC",
             "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001336&episodeid=11&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001336&episodeid=12&eventtype=TC"
           },
           {
             "id": "EQ|1571524",
@@ -325,21 +325,11 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 2375.8,
+        "current_30d_weight": 2249.3,
         "baseline_median": 0.0,
-        "anomaly_z": 2375.78,
+        "anomaly_z": 2249.28,
         "events_considered": 1000,
         "evidence": [
-          {
-            "id": "EONET_24325",
-            "title": "Wildfire in Australia 1032001",
-            "date": "2026-09-14T19:00:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.3,
-            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032001"
-          },
           {
             "id": "EONET_25124",
             "title": "Wildfire in Mongolia 1032663",
@@ -479,6 +469,16 @@
             ],
             "weight": 4.0,
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032476"
+          },
+          {
+            "id": "EONET_24837",
+            "title": "Wildfire in Australia 1032408",
+            "date": "2026-09-24T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.0,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032408"
           }
         ],
         "retained": false
@@ -2428,6 +2428,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-10-14T21:43:23.932570+00:00",
+        "score": 64.0,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 72.1,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -2612,7 +2623,7 @@
           "event_type": "TC",
           "country": "Mexico",
           "weight": 8.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=29&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=30&eventtype=TC"
         },
         {
           "id": "TC|1001338",
@@ -2622,7 +2633,7 @@
           "event_type": "TC",
           "country": "Guam",
           "weight": 8.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=1&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=2&eventtype=TC"
         },
         {
           "id": "TC|1001334",
@@ -2712,7 +2723,7 @@
           "event_type": "TC",
           "country": "Mexico",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=5&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=6&eventtype=TC"
         },
         {
           "id": "TC|1001336",
@@ -2722,7 +2733,7 @@
           "event_type": "TC",
           "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001336&episodeid=11&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001336&episodeid=12&eventtype=TC"
         },
         {
           "id": "EQ|1571524",
@@ -2752,16 +2763,6 @@
       "retained": false,
       "compact": true,
       "events": [
-        {
-          "id": "EONET_24325",
-          "title": "Wildfire in Australia 1032001",
-          "date": "2026-09-14T19:00:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.3,
-          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032001"
-        },
         {
           "id": "EONET_25124",
           "title": "Wildfire in Mongolia 1032663",
@@ -2901,6 +2902,16 @@
           ],
           "weight": 4.0,
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032476"
+        },
+        {
+          "id": "EONET_24837",
+          "title": "Wildfire in Australia 1032408",
+          "date": "2026-09-24T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.0,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032408"
         }
       ]
     },
@@ -6924,7 +6935,7 @@
       "event_type": "TC",
       "country": "Mexico",
       "weight": 8.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=29&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=30&eventtype=TC"
     },
     {
       "id": "TC|1001338",
@@ -6934,7 +6945,7 @@
       "event_type": "TC",
       "country": "Guam",
       "weight": 8.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=1&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=2&eventtype=TC"
     },
     {
       "id": "TC|1001334",
@@ -7024,7 +7035,7 @@
       "event_type": "TC",
       "country": "Mexico",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=5&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=6&eventtype=TC"
     },
     {
       "id": "TC|1001336",
@@ -7034,7 +7045,7 @@
       "event_type": "TC",
       "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001336&episodeid=11&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001336&episodeid=12&eventtype=TC"
     },
     {
       "id": "EQ|1571524",
@@ -7055,16 +7066,6 @@
       "country": "Tanzania",
       "weight": 1.0,
       "url": "https://www.gdacs.org/report.aspx?eventid=1571513&episodeid=1740043&eventtype=EQ"
-    },
-    {
-      "id": "EONET_24325",
-      "title": "Wildfire in Australia 1032001",
-      "date": "2026-09-14T19:00:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.3,
-      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032001"
     },
     {
       "id": "EONET_25124",
@@ -7175,6 +7176,16 @@
       ],
       "weight": 4.0,
       "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032726"
+    },
+    {
+      "id": "EONET_25122",
+      "title": "Wildfire in Mongolia 1032652",
+      "date": "2026-10-07T19:00:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.0,
+      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032652"
     }
   ]
 }
