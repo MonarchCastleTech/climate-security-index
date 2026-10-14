@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-10-14T04:57:29.800450+00:00",
+    "generated": "2026-10-14T11:57:23.169573+00:00",
     "mode": "partial",
     "sources": [
       "NASA POWER Daily API",
@@ -15,7 +15,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-14T04:57:29.558054+00:00",
+    "issued_at": "2026-10-14T11:57:22.928898+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 64.0,
@@ -161,22 +161,12 @@
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 194.2,
+        "current_30d_weight": 174.0,
         "baseline_months": 12,
-        "baseline_median": 42.5,
-        "anomaly_z": 4.17,
+        "baseline_median": 47.0,
+        "anomaly_z": 2.95,
         "events_considered": 179,
         "evidence": [
-          {
-            "id": "TC|1001337",
-            "title": "Tropical Cyclone TRUDY-26",
-            "date": "2026-10-13T15:00:00+00:00",
-            "alert_level": "Red",
-            "event_type": "TC",
-            "country": "Mexico",
-            "weight": 20.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=3&eventtype=TC"
-          },
           {
             "id": "TC|1001325",
             "title": "Tropical Cyclone POLO-26",
@@ -195,7 +185,7 @@
             "event_type": "TC",
             "country": "Mexico",
             "weight": 8.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=27&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=28&eventtype=TC"
           },
           {
             "id": "TC|1001334",
@@ -258,24 +248,64 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
           },
           {
-            "id": "WF|1032753",
-            "title": "Forest fires in Mongolia, China",
-            "date": "2026-10-11T00:00:00+00:00",
+            "id": "FL|1104231",
+            "title": "Flood in Libya",
+            "date": "2026-10-13T01:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Mongolia, China",
-            "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1032753&episodeid=7&eventtype=WF"
+            "event_type": "FL",
+            "country": "Libya",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1104231&episodeid=1&eventtype=FL"
           },
           {
-            "id": "WF|1032727",
-            "title": "Forest fires in Mongolia, China",
-            "date": "2026-10-09T00:00:00+00:00",
+            "id": "EQ|1571524",
+            "title": "Earthquake in Fiji",
+            "date": "2026-10-14T10:49:47+00:00",
             "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Mongolia, China",
-            "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1032727&episodeid=7&eventtype=WF"
+            "event_type": "EQ",
+            "country": "Fiji",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1571524&episodeid=1740031&eventtype=EQ"
+          },
+          {
+            "id": "TC|1001337",
+            "title": "Tropical Cyclone TRUDY-26",
+            "date": "2026-10-13T15:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=4&eventtype=TC"
+          },
+          {
+            "id": "EQ|1571489",
+            "title": "Earthquake in Papua New Guinea",
+            "date": "2026-10-14T06:27:06+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Papua New Guinea",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1571489&episodeid=1740007&eventtype=EQ"
+          },
+          {
+            "id": "TC|1001336",
+            "title": "Tropical Cyclone TWENTYEIGHT-26",
+            "date": "2026-10-12T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001336&episodeid=10&eventtype=TC"
+          },
+          {
+            "id": "EQ|1571478",
+            "title": "Earthquake in Panama",
+            "date": "2026-10-14T05:09:35+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Panama",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1571478&episodeid=1739988&eventtype=EQ"
           },
           {
             "id": "EQ|1571449",
@@ -286,36 +316,6 @@
             "country": "Chile",
             "weight": 1.0,
             "url": "https://www.gdacs.org/report.aspx?eventid=1571449&episodeid=1739950&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1571451",
-            "title": "Earthquake in North Atlantic Ocean",
-            "date": "2026-10-14T03:02:14+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "North Atlantic Ocean",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1571451&episodeid=1739949&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1571464",
-            "title": "Earthquake in Papua New Guinea",
-            "date": "2026-10-14T02:59:27+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Papua New Guinea",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1571464&episodeid=1739967&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1571443",
-            "title": "Earthquake in Papua New Guinea",
-            "date": "2026-10-14T02:12:14+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Papua New Guinea",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1571443&episodeid=1739940&eventtype=EQ"
           }
         ],
         "retained": false
@@ -325,21 +325,11 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 2344.9,
+        "current_30d_weight": 2318.0,
         "baseline_median": 0.0,
-        "anomaly_z": 2344.91,
+        "anomaly_z": 2318.0,
         "events_considered": 1000,
         "evidence": [
-          {
-            "id": "EONET_24487",
-            "title": "Wildfire Davis Coulee, Big Horn, Montana",
-            "date": "2026-09-14T11:43:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.4,
-            "url": "https://irwin.doi.gov/observer/incidents/2026-MTCRA-261393"
-          },
           {
             "id": "EONET_24325",
             "title": "Wildfire in Australia 1032001",
@@ -479,6 +469,16 @@
             ],
             "weight": 4.0,
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032425"
+          },
+          {
+            "id": "EONET_24915",
+            "title": "Wildfire in Angola 1032476",
+            "date": "2026-09-25T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.0,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032476"
           }
         ],
         "retained": false
@@ -2406,6 +2406,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-10-14T11:57:22.928898+00:00",
+        "score": 64.0,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 72.1,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -2573,16 +2584,6 @@
       "compact": true,
       "events": [
         {
-          "id": "TC|1001337",
-          "title": "Tropical Cyclone TRUDY-26",
-          "date": "2026-10-13T15:00:00+00:00",
-          "alert_level": "Red",
-          "event_type": "TC",
-          "country": "Mexico",
-          "weight": 20.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=3&eventtype=TC"
-        },
-        {
           "id": "TC|1001325",
           "title": "Tropical Cyclone POLO-26",
           "date": "2026-09-21T03:00:00+00:00",
@@ -2600,7 +2601,7 @@
           "event_type": "TC",
           "country": "Mexico",
           "weight": 8.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=27&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=28&eventtype=TC"
         },
         {
           "id": "TC|1001334",
@@ -2663,24 +2664,64 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
         },
         {
-          "id": "WF|1032753",
-          "title": "Forest fires in Mongolia, China",
-          "date": "2026-10-11T00:00:00+00:00",
+          "id": "FL|1104231",
+          "title": "Flood in Libya",
+          "date": "2026-10-13T01:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Mongolia, China",
-          "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032753&episodeid=7&eventtype=WF"
+          "event_type": "FL",
+          "country": "Libya",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1104231&episodeid=1&eventtype=FL"
         },
         {
-          "id": "WF|1032727",
-          "title": "Forest fires in Mongolia, China",
-          "date": "2026-10-09T00:00:00+00:00",
+          "id": "EQ|1571524",
+          "title": "Earthquake in Fiji",
+          "date": "2026-10-14T10:49:47+00:00",
           "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Mongolia, China",
-          "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032727&episodeid=7&eventtype=WF"
+          "event_type": "EQ",
+          "country": "Fiji",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1571524&episodeid=1740031&eventtype=EQ"
+        },
+        {
+          "id": "TC|1001337",
+          "title": "Tropical Cyclone TRUDY-26",
+          "date": "2026-10-13T15:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=4&eventtype=TC"
+        },
+        {
+          "id": "EQ|1571489",
+          "title": "Earthquake in Papua New Guinea",
+          "date": "2026-10-14T06:27:06+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Papua New Guinea",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1571489&episodeid=1740007&eventtype=EQ"
+        },
+        {
+          "id": "TC|1001336",
+          "title": "Tropical Cyclone TWENTYEIGHT-26",
+          "date": "2026-10-12T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001336&episodeid=10&eventtype=TC"
+        },
+        {
+          "id": "EQ|1571478",
+          "title": "Earthquake in Panama",
+          "date": "2026-10-14T05:09:35+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Panama",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1571478&episodeid=1739988&eventtype=EQ"
         },
         {
           "id": "EQ|1571449",
@@ -2691,36 +2732,6 @@
           "country": "Chile",
           "weight": 1.0,
           "url": "https://www.gdacs.org/report.aspx?eventid=1571449&episodeid=1739950&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1571451",
-          "title": "Earthquake in North Atlantic Ocean",
-          "date": "2026-10-14T03:02:14+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "North Atlantic Ocean",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1571451&episodeid=1739949&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1571464",
-          "title": "Earthquake in Papua New Guinea",
-          "date": "2026-10-14T02:59:27+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Papua New Guinea",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1571464&episodeid=1739967&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1571443",
-          "title": "Earthquake in Papua New Guinea",
-          "date": "2026-10-14T02:12:14+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Papua New Guinea",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1571443&episodeid=1739940&eventtype=EQ"
         }
       ]
     },
@@ -2730,16 +2741,6 @@
       "retained": false,
       "compact": true,
       "events": [
-        {
-          "id": "EONET_24487",
-          "title": "Wildfire Davis Coulee, Big Horn, Montana",
-          "date": "2026-09-14T11:43:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.4,
-          "url": "https://irwin.doi.gov/observer/incidents/2026-MTCRA-261393"
-        },
         {
           "id": "EONET_24325",
           "title": "Wildfire in Australia 1032001",
@@ -2879,6 +2880,16 @@
           ],
           "weight": 4.0,
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032425"
+        },
+        {
+          "id": "EONET_24915",
+          "title": "Wildfire in Angola 1032476",
+          "date": "2026-09-25T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.0,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032476"
         }
       ]
     },
@@ -6885,16 +6896,6 @@
       "observed_through": "2026-10-12"
     },
     {
-      "id": "TC|1001337",
-      "title": "Tropical Cyclone TRUDY-26",
-      "date": "2026-10-13T15:00:00+00:00",
-      "alert_level": "Red",
-      "event_type": "TC",
-      "country": "Mexico",
-      "weight": 20.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=3&eventtype=TC"
-    },
-    {
       "id": "TC|1001325",
       "title": "Tropical Cyclone POLO-26",
       "date": "2026-09-21T03:00:00+00:00",
@@ -6912,7 +6913,7 @@
       "event_type": "TC",
       "country": "Mexico",
       "weight": 8.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=27&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=28&eventtype=TC"
     },
     {
       "id": "TC|1001334",
@@ -6975,24 +6976,64 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
     },
     {
-      "id": "WF|1032753",
-      "title": "Forest fires in Mongolia, China",
-      "date": "2026-10-11T00:00:00+00:00",
+      "id": "FL|1104231",
+      "title": "Flood in Libya",
+      "date": "2026-10-13T01:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Mongolia, China",
-      "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1032753&episodeid=7&eventtype=WF"
+      "event_type": "FL",
+      "country": "Libya",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1104231&episodeid=1&eventtype=FL"
     },
     {
-      "id": "WF|1032727",
-      "title": "Forest fires in Mongolia, China",
-      "date": "2026-10-09T00:00:00+00:00",
+      "id": "EQ|1571524",
+      "title": "Earthquake in Fiji",
+      "date": "2026-10-14T10:49:47+00:00",
       "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Mongolia, China",
-      "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1032727&episodeid=7&eventtype=WF"
+      "event_type": "EQ",
+      "country": "Fiji",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1571524&episodeid=1740031&eventtype=EQ"
+    },
+    {
+      "id": "TC|1001337",
+      "title": "Tropical Cyclone TRUDY-26",
+      "date": "2026-10-13T15:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=4&eventtype=TC"
+    },
+    {
+      "id": "EQ|1571489",
+      "title": "Earthquake in Papua New Guinea",
+      "date": "2026-10-14T06:27:06+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Papua New Guinea",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1571489&episodeid=1740007&eventtype=EQ"
+    },
+    {
+      "id": "TC|1001336",
+      "title": "Tropical Cyclone TWENTYEIGHT-26",
+      "date": "2026-10-12T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001336&episodeid=10&eventtype=TC"
+    },
+    {
+      "id": "EQ|1571478",
+      "title": "Earthquake in Panama",
+      "date": "2026-10-14T05:09:35+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Panama",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1571478&episodeid=1739988&eventtype=EQ"
     },
     {
       "id": "EQ|1571449",
@@ -7003,46 +7044,6 @@
       "country": "Chile",
       "weight": 1.0,
       "url": "https://www.gdacs.org/report.aspx?eventid=1571449&episodeid=1739950&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1571451",
-      "title": "Earthquake in North Atlantic Ocean",
-      "date": "2026-10-14T03:02:14+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "North Atlantic Ocean",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1571451&episodeid=1739949&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1571464",
-      "title": "Earthquake in Papua New Guinea",
-      "date": "2026-10-14T02:59:27+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Papua New Guinea",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1571464&episodeid=1739967&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1571443",
-      "title": "Earthquake in Papua New Guinea",
-      "date": "2026-10-14T02:12:14+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Papua New Guinea",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1571443&episodeid=1739940&eventtype=EQ"
-    },
-    {
-      "id": "EONET_24487",
-      "title": "Wildfire Davis Coulee, Big Horn, Montana",
-      "date": "2026-09-14T11:43:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.4,
-      "url": "https://irwin.doi.gov/observer/incidents/2026-MTCRA-261393"
     },
     {
       "id": "EONET_24325",
@@ -7153,6 +7154,16 @@
       ],
       "weight": 4.1,
       "url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000955"
+    },
+    {
+      "id": "EONET_25202",
+      "title": "Wildfire in Mongolia 1032726",
+      "date": "2026-10-09T19:00:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.0,
+      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032726"
     }
   ]
 }
