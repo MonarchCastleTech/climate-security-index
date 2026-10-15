@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-10-15T17:04:16.695903+00:00",
+    "generated": "2026-10-15T21:25:54.639096+00:00",
     "mode": "partial",
     "sources": [
       "NASA POWER Daily API",
@@ -15,7 +15,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-15T17:04:16.495803+00:00",
+    "issued_at": "2026-10-15T21:25:54.405973+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 63.9,
@@ -161,10 +161,10 @@
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 181.0,
+        "current_30d_weight": 188.0,
         "baseline_months": 12,
         "baseline_median": 43.0,
-        "anomaly_z": 4.9,
+        "anomaly_z": 5.15,
         "events_considered": 178,
         "evidence": [
           {
@@ -185,7 +185,17 @@
             "event_type": "TC",
             "country": "México",
             "weight": 8.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=33&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=34&eventtype=TC"
+          },
+          {
+            "id": "TC|1001337",
+            "title": "Tropical Cyclone TRUDY-26",
+            "date": "2026-10-13T15:00:00+00:00",
+            "alert_level": "Orange",
+            "event_type": "TC",
+            "country": "México",
+            "weight": 8.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=10&eventtype=TC"
           },
           {
             "id": "TC|1001338",
@@ -195,7 +205,7 @@
             "event_type": "TC",
             "country": "Guam",
             "weight": 8.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=5&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=6&eventtype=TC"
           },
           {
             "id": "TC|1001334",
@@ -268,6 +278,16 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1104200&episodeid=9&eventtype=FL"
           },
           {
+            "id": "EQ|1571869",
+            "title": "Earthquake in Guatemala",
+            "date": "2026-10-15T20:39:25+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Guatemala",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1571869&episodeid=1740407&eventtype=EQ"
+          },
+          {
             "id": "EQ|1571782",
             "title": "Earthquake in Costa Rica",
             "date": "2026-10-15T15:40:38+00:00",
@@ -276,16 +296,6 @@
             "country": "Costa Rica",
             "weight": 1.0,
             "url": "https://www.gdacs.org/report.aspx?eventid=1571782&episodeid=1740355&eventtype=EQ"
-          },
-          {
-            "id": "TC|1001337",
-            "title": "Tropical Cyclone TRUDY-26",
-            "date": "2026-10-13T15:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "México",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=9&eventtype=TC"
           },
           {
             "id": "EQ|1571780",
@@ -306,16 +316,6 @@
             "country": "Panama",
             "weight": 1.0,
             "url": "https://www.gdacs.org/report.aspx?eventid=1571772&episodeid=1740307&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1571755",
-            "title": "Earthquake in Tonga",
-            "date": "2026-10-15T13:29:31+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Tonga",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1571755&episodeid=1740287&eventtype=EQ"
           }
         ],
         "retained": false
@@ -325,9 +325,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 2337.2,
+        "current_30d_weight": 2249.0,
         "baseline_median": 0.0,
-        "anomaly_z": 2337.17,
+        "anomaly_z": 2248.97,
         "events_considered": 1000,
         "evidence": [
           {
@@ -2472,6 +2472,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-10-15T21:25:54.405973+00:00",
+        "score": 63.9,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 71.7,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -2656,7 +2667,17 @@
           "event_type": "TC",
           "country": "México",
           "weight": 8.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=33&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=34&eventtype=TC"
+        },
+        {
+          "id": "TC|1001337",
+          "title": "Tropical Cyclone TRUDY-26",
+          "date": "2026-10-13T15:00:00+00:00",
+          "alert_level": "Orange",
+          "event_type": "TC",
+          "country": "México",
+          "weight": 8.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=10&eventtype=TC"
         },
         {
           "id": "TC|1001338",
@@ -2666,7 +2687,7 @@
           "event_type": "TC",
           "country": "Guam",
           "weight": 8.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=5&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=6&eventtype=TC"
         },
         {
           "id": "TC|1001334",
@@ -2739,6 +2760,16 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1104200&episodeid=9&eventtype=FL"
         },
         {
+          "id": "EQ|1571869",
+          "title": "Earthquake in Guatemala",
+          "date": "2026-10-15T20:39:25+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Guatemala",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1571869&episodeid=1740407&eventtype=EQ"
+        },
+        {
           "id": "EQ|1571782",
           "title": "Earthquake in Costa Rica",
           "date": "2026-10-15T15:40:38+00:00",
@@ -2747,16 +2778,6 @@
           "country": "Costa Rica",
           "weight": 1.0,
           "url": "https://www.gdacs.org/report.aspx?eventid=1571782&episodeid=1740355&eventtype=EQ"
-        },
-        {
-          "id": "TC|1001337",
-          "title": "Tropical Cyclone TRUDY-26",
-          "date": "2026-10-13T15:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "México",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=9&eventtype=TC"
         },
         {
           "id": "EQ|1571780",
@@ -2777,16 +2798,6 @@
           "country": "Panama",
           "weight": 1.0,
           "url": "https://www.gdacs.org/report.aspx?eventid=1571772&episodeid=1740307&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1571755",
-          "title": "Earthquake in Tonga",
-          "date": "2026-10-15T13:29:31+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Tonga",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1571755&episodeid=1740287&eventtype=EQ"
         }
       ]
     },
@@ -6968,7 +6979,17 @@
       "event_type": "TC",
       "country": "México",
       "weight": 8.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=33&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=34&eventtype=TC"
+    },
+    {
+      "id": "TC|1001337",
+      "title": "Tropical Cyclone TRUDY-26",
+      "date": "2026-10-13T15:00:00+00:00",
+      "alert_level": "Orange",
+      "event_type": "TC",
+      "country": "México",
+      "weight": 8.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=10&eventtype=TC"
     },
     {
       "id": "TC|1001338",
@@ -6978,7 +6999,7 @@
       "event_type": "TC",
       "country": "Guam",
       "weight": 8.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=5&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=6&eventtype=TC"
     },
     {
       "id": "TC|1001334",
@@ -7051,6 +7072,16 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1104200&episodeid=9&eventtype=FL"
     },
     {
+      "id": "EQ|1571869",
+      "title": "Earthquake in Guatemala",
+      "date": "2026-10-15T20:39:25+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Guatemala",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1571869&episodeid=1740407&eventtype=EQ"
+    },
+    {
       "id": "EQ|1571782",
       "title": "Earthquake in Costa Rica",
       "date": "2026-10-15T15:40:38+00:00",
@@ -7059,16 +7090,6 @@
       "country": "Costa Rica",
       "weight": 1.0,
       "url": "https://www.gdacs.org/report.aspx?eventid=1571782&episodeid=1740355&eventtype=EQ"
-    },
-    {
-      "id": "TC|1001337",
-      "title": "Tropical Cyclone TRUDY-26",
-      "date": "2026-10-13T15:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "México",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=9&eventtype=TC"
     },
     {
       "id": "EQ|1571780",
@@ -7089,16 +7110,6 @@
       "country": "Panama",
       "weight": 1.0,
       "url": "https://www.gdacs.org/report.aspx?eventid=1571772&episodeid=1740307&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1571755",
-      "title": "Earthquake in Tonga",
-      "date": "2026-10-15T13:29:31+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Tonga",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1571755&episodeid=1740287&eventtype=EQ"
     },
     {
       "id": "EONET_25124",
