@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-10-16T11:28:42.254244+00:00",
+    "generated": "2026-10-16T16:41:59.275646+00:00",
     "mode": "partial",
     "sources": [
       "NASA POWER Daily API",
@@ -15,7 +15,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-16T11:28:42.032080+00:00",
+    "issued_at": "2026-10-16T16:41:59.041935+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 63.9,
@@ -163,8 +163,8 @@
         "score": 60.0,
         "current_30d_weight": 181.0,
         "baseline_months": 12,
-        "baseline_median": 42.5,
-        "anomaly_z": 5.2,
+        "baseline_median": 43.9,
+        "anomaly_z": 5.45,
         "events_considered": 178,
         "evidence": [
           {
@@ -185,7 +185,7 @@
             "event_type": "TC",
             "country": "México",
             "weight": 8.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=36&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=37&eventtype=TC"
           },
           {
             "id": "TC|1001338",
@@ -195,7 +195,7 @@
             "event_type": "TC",
             "country": "Guam",
             "weight": 8.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=8&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=9&eventtype=TC"
           },
           {
             "id": "TC|1001334",
@@ -258,24 +258,14 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
           },
           {
-            "id": "EQ|1571964",
-            "title": "Earthquake in Philippines",
-            "date": "2026-10-16T09:13:44+00:00",
+            "id": "EQ|1572014",
+            "title": "Earthquake in Tonga",
+            "date": "2026-10-16T15:06:34+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Philippines",
+            "country": "Tonga",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1571964&episodeid=1740508&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1571966",
-            "title": "Earthquake in Southern East Pacific Rise",
-            "date": "2026-10-16T09:04:28+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Southern East Pacific Rise",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1571966&episodeid=1740515&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1572014&episodeid=1740564&eventtype=EQ"
           },
           {
             "id": "TC|1001337",
@@ -285,37 +275,47 @@
             "event_type": "TC",
             "country": "México",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=12&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=13&eventtype=TC"
           },
           {
-            "id": "TC|1001339",
-            "title": "Tropical Cyclone ONE-26",
-            "date": "2026-10-16T06:00:00+00:00",
+            "id": "EQ|1572006",
+            "title": "Earthquake in Auckland Islands, N.Z.  Region",
+            "date": "2026-10-16T14:09:54+00:00",
             "alert_level": "Green",
-            "event_type": "TC",
-            "country": "Cook Islands, French Polynesia",
+            "event_type": "EQ",
+            "country": "Auckland Islands, N.Z.  Region",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001339&episodeid=1&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1572006&episodeid=1740555&eventtype=EQ"
           },
           {
-            "id": "EQ|1571932",
+            "id": "EQ|1571989",
+            "title": "Earthquake in Philippines",
+            "date": "2026-10-16T12:18:25+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Philippines",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1571989&episodeid=1740537&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1571983",
+            "title": "Earthquake in South Of Mariana Islands",
+            "date": "2026-10-16T11:57:19+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "South Of Mariana Islands",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1571983&episodeid=1740530&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1571978",
             "title": "Earthquake in México",
-            "date": "2026-10-16T04:42:40+00:00",
+            "date": "2026-10-16T11:39:44+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
             "country": "México",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1571932&episodeid=1740475&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1571917",
-            "title": "Earthquake in Russia",
-            "date": "2026-10-16T03:35:32+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Russia",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1571917&episodeid=1740457&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1571978&episodeid=1740525&eventtype=EQ"
           }
         ],
         "retained": false
@@ -325,9 +325,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 2241.0,
+        "current_30d_weight": 2331.4,
         "baseline_median": 0.0,
-        "anomaly_z": 2241.02,
+        "anomaly_z": 2331.38,
         "events_considered": 1000,
         "evidence": [
           {
@@ -2505,6 +2505,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-10-16T16:41:59.041935+00:00",
+        "score": 63.9,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 71.7,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -2689,7 +2700,7 @@
           "event_type": "TC",
           "country": "México",
           "weight": 8.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=36&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=37&eventtype=TC"
         },
         {
           "id": "TC|1001338",
@@ -2699,7 +2710,7 @@
           "event_type": "TC",
           "country": "Guam",
           "weight": 8.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=8&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=9&eventtype=TC"
         },
         {
           "id": "TC|1001334",
@@ -2762,24 +2773,14 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
         },
         {
-          "id": "EQ|1571964",
-          "title": "Earthquake in Philippines",
-          "date": "2026-10-16T09:13:44+00:00",
+          "id": "EQ|1572014",
+          "title": "Earthquake in Tonga",
+          "date": "2026-10-16T15:06:34+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Philippines",
+          "country": "Tonga",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1571964&episodeid=1740508&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1571966",
-          "title": "Earthquake in Southern East Pacific Rise",
-          "date": "2026-10-16T09:04:28+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Southern East Pacific Rise",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1571966&episodeid=1740515&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1572014&episodeid=1740564&eventtype=EQ"
         },
         {
           "id": "TC|1001337",
@@ -2789,37 +2790,47 @@
           "event_type": "TC",
           "country": "México",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=12&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=13&eventtype=TC"
         },
         {
-          "id": "TC|1001339",
-          "title": "Tropical Cyclone ONE-26",
-          "date": "2026-10-16T06:00:00+00:00",
+          "id": "EQ|1572006",
+          "title": "Earthquake in Auckland Islands, N.Z.  Region",
+          "date": "2026-10-16T14:09:54+00:00",
           "alert_level": "Green",
-          "event_type": "TC",
-          "country": "Cook Islands, French Polynesia",
+          "event_type": "EQ",
+          "country": "Auckland Islands, N.Z.  Region",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001339&episodeid=1&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1572006&episodeid=1740555&eventtype=EQ"
         },
         {
-          "id": "EQ|1571932",
+          "id": "EQ|1571989",
+          "title": "Earthquake in Philippines",
+          "date": "2026-10-16T12:18:25+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Philippines",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1571989&episodeid=1740537&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1571983",
+          "title": "Earthquake in South Of Mariana Islands",
+          "date": "2026-10-16T11:57:19+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "South Of Mariana Islands",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1571983&episodeid=1740530&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1571978",
           "title": "Earthquake in México",
-          "date": "2026-10-16T04:42:40+00:00",
+          "date": "2026-10-16T11:39:44+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
           "country": "México",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1571932&episodeid=1740475&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1571917",
-          "title": "Earthquake in Russia",
-          "date": "2026-10-16T03:35:32+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Russia",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1571917&episodeid=1740457&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1571978&episodeid=1740525&eventtype=EQ"
         }
       ]
     },
@@ -7001,7 +7012,7 @@
       "event_type": "TC",
       "country": "México",
       "weight": 8.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=36&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=37&eventtype=TC"
     },
     {
       "id": "TC|1001338",
@@ -7011,7 +7022,7 @@
       "event_type": "TC",
       "country": "Guam",
       "weight": 8.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=8&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=9&eventtype=TC"
     },
     {
       "id": "TC|1001334",
@@ -7074,24 +7085,14 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
     },
     {
-      "id": "EQ|1571964",
-      "title": "Earthquake in Philippines",
-      "date": "2026-10-16T09:13:44+00:00",
+      "id": "EQ|1572014",
+      "title": "Earthquake in Tonga",
+      "date": "2026-10-16T15:06:34+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Philippines",
+      "country": "Tonga",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1571964&episodeid=1740508&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1571966",
-      "title": "Earthquake in Southern East Pacific Rise",
-      "date": "2026-10-16T09:04:28+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Southern East Pacific Rise",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1571966&episodeid=1740515&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1572014&episodeid=1740564&eventtype=EQ"
     },
     {
       "id": "TC|1001337",
@@ -7101,37 +7102,47 @@
       "event_type": "TC",
       "country": "México",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=12&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=13&eventtype=TC"
     },
     {
-      "id": "TC|1001339",
-      "title": "Tropical Cyclone ONE-26",
-      "date": "2026-10-16T06:00:00+00:00",
+      "id": "EQ|1572006",
+      "title": "Earthquake in Auckland Islands, N.Z.  Region",
+      "date": "2026-10-16T14:09:54+00:00",
       "alert_level": "Green",
-      "event_type": "TC",
-      "country": "Cook Islands, French Polynesia",
+      "event_type": "EQ",
+      "country": "Auckland Islands, N.Z.  Region",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001339&episodeid=1&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1572006&episodeid=1740555&eventtype=EQ"
     },
     {
-      "id": "EQ|1571932",
+      "id": "EQ|1571989",
+      "title": "Earthquake in Philippines",
+      "date": "2026-10-16T12:18:25+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Philippines",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1571989&episodeid=1740537&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1571983",
+      "title": "Earthquake in South Of Mariana Islands",
+      "date": "2026-10-16T11:57:19+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "South Of Mariana Islands",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1571983&episodeid=1740530&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1571978",
       "title": "Earthquake in México",
-      "date": "2026-10-16T04:42:40+00:00",
+      "date": "2026-10-16T11:39:44+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
       "country": "México",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1571932&episodeid=1740475&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1571917",
-      "title": "Earthquake in Russia",
-      "date": "2026-10-16T03:35:32+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Russia",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1571917&episodeid=1740457&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1571978&episodeid=1740525&eventtype=EQ"
     },
     {
       "id": "EONET_25124",
