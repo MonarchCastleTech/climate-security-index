@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-10-16T16:41:59.275646+00:00",
+    "generated": "2026-10-16T21:13:04.187281+00:00",
     "mode": "partial",
     "sources": [
       "NASA POWER Daily API",
@@ -15,7 +15,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-16T16:41:59.041935+00:00",
+    "issued_at": "2026-10-16T21:13:03.938386+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 63.9,
@@ -161,12 +161,22 @@
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 181.0,
+        "current_30d_weight": 200.0,
         "baseline_months": 12,
         "baseline_median": 43.9,
-        "anomaly_z": 5.45,
+        "anomaly_z": 6.21,
         "events_considered": 178,
         "evidence": [
+          {
+            "id": "TC|1001338",
+            "title": "Tropical Cyclone CHAMPI-26",
+            "date": "2026-10-14T12:00:00+00:00",
+            "alert_level": "Red",
+            "event_type": "TC",
+            "country": "Guam",
+            "weight": 20.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=10&eventtype=TC"
+          },
           {
             "id": "TC|1001325",
             "title": "Tropical Cyclone POLO-26",
@@ -185,17 +195,17 @@
             "event_type": "TC",
             "country": "México",
             "weight": 8.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=37&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=38&eventtype=TC"
           },
           {
-            "id": "TC|1001338",
-            "title": "Tropical Cyclone CHAMPI-26",
-            "date": "2026-10-14T12:00:00+00:00",
+            "id": "TC|1001339",
+            "title": "Tropical Cyclone ONE-26",
+            "date": "2026-10-16T06:00:00+00:00",
             "alert_level": "Orange",
             "event_type": "TC",
-            "country": "Guam",
+            "country": "Cook Islands",
             "weight": 8.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=9&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001339&episodeid=2&eventtype=TC"
           },
           {
             "id": "TC|1001334",
@@ -258,6 +268,46 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
           },
           {
+            "id": "TC|1001337",
+            "title": "Tropical Cyclone TRUDY-26",
+            "date": "2026-10-13T15:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "México",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=14&eventtype=TC"
+          },
+          {
+            "id": "EQ|1572053",
+            "title": "Earthquake in Off Coast Of Ecuador",
+            "date": "2026-10-16T19:34:10+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Off Coast Of Ecuador",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1572053&episodeid=1740609&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1572024",
+            "title": "Earthquake in Tanzania",
+            "date": "2026-10-16T16:17:25+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Tanzania",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1572024&episodeid=1740575&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1572021",
+            "title": "Earthquake in Russia",
+            "date": "2026-10-16T15:08:47+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Russia",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1572021&episodeid=1740600&eventtype=EQ"
+          },
+          {
             "id": "EQ|1572014",
             "title": "Earthquake in Tonga",
             "date": "2026-10-16T15:06:34+00:00",
@@ -266,56 +316,6 @@
             "country": "Tonga",
             "weight": 1.0,
             "url": "https://www.gdacs.org/report.aspx?eventid=1572014&episodeid=1740564&eventtype=EQ"
-          },
-          {
-            "id": "TC|1001337",
-            "title": "Tropical Cyclone TRUDY-26",
-            "date": "2026-10-13T15:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "México",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=13&eventtype=TC"
-          },
-          {
-            "id": "EQ|1572006",
-            "title": "Earthquake in Auckland Islands, N.Z.  Region",
-            "date": "2026-10-16T14:09:54+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Auckland Islands, N.Z.  Region",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1572006&episodeid=1740555&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1571989",
-            "title": "Earthquake in Philippines",
-            "date": "2026-10-16T12:18:25+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Philippines",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1571989&episodeid=1740537&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1571983",
-            "title": "Earthquake in South Of Mariana Islands",
-            "date": "2026-10-16T11:57:19+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "South Of Mariana Islands",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1571983&episodeid=1740530&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1571978",
-            "title": "Earthquake in México",
-            "date": "2026-10-16T11:39:44+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "México",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1571978&episodeid=1740525&eventtype=EQ"
           }
         ],
         "retained": false
@@ -325,9 +325,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 2331.4,
+        "current_30d_weight": 2254.9,
         "baseline_median": 0.0,
-        "anomaly_z": 2331.38,
+        "anomaly_z": 2254.93,
         "events_considered": 1000,
         "evidence": [
           {
@@ -2516,6 +2516,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-10-16T21:13:03.938386+00:00",
+        "score": 63.9,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 71.7,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -2683,6 +2694,16 @@
       "compact": true,
       "events": [
         {
+          "id": "TC|1001338",
+          "title": "Tropical Cyclone CHAMPI-26",
+          "date": "2026-10-14T12:00:00+00:00",
+          "alert_level": "Red",
+          "event_type": "TC",
+          "country": "Guam",
+          "weight": 20.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=10&eventtype=TC"
+        },
+        {
           "id": "TC|1001325",
           "title": "Tropical Cyclone POLO-26",
           "date": "2026-09-21T03:00:00+00:00",
@@ -2700,17 +2721,17 @@
           "event_type": "TC",
           "country": "México",
           "weight": 8.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=37&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=38&eventtype=TC"
         },
         {
-          "id": "TC|1001338",
-          "title": "Tropical Cyclone CHAMPI-26",
-          "date": "2026-10-14T12:00:00+00:00",
+          "id": "TC|1001339",
+          "title": "Tropical Cyclone ONE-26",
+          "date": "2026-10-16T06:00:00+00:00",
           "alert_level": "Orange",
           "event_type": "TC",
-          "country": "Guam",
+          "country": "Cook Islands",
           "weight": 8.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=9&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001339&episodeid=2&eventtype=TC"
         },
         {
           "id": "TC|1001334",
@@ -2773,6 +2794,46 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
         },
         {
+          "id": "TC|1001337",
+          "title": "Tropical Cyclone TRUDY-26",
+          "date": "2026-10-13T15:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "México",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=14&eventtype=TC"
+        },
+        {
+          "id": "EQ|1572053",
+          "title": "Earthquake in Off Coast Of Ecuador",
+          "date": "2026-10-16T19:34:10+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Off Coast Of Ecuador",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1572053&episodeid=1740609&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1572024",
+          "title": "Earthquake in Tanzania",
+          "date": "2026-10-16T16:17:25+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Tanzania",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1572024&episodeid=1740575&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1572021",
+          "title": "Earthquake in Russia",
+          "date": "2026-10-16T15:08:47+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Russia",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1572021&episodeid=1740600&eventtype=EQ"
+        },
+        {
           "id": "EQ|1572014",
           "title": "Earthquake in Tonga",
           "date": "2026-10-16T15:06:34+00:00",
@@ -2781,56 +2842,6 @@
           "country": "Tonga",
           "weight": 1.0,
           "url": "https://www.gdacs.org/report.aspx?eventid=1572014&episodeid=1740564&eventtype=EQ"
-        },
-        {
-          "id": "TC|1001337",
-          "title": "Tropical Cyclone TRUDY-26",
-          "date": "2026-10-13T15:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "México",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=13&eventtype=TC"
-        },
-        {
-          "id": "EQ|1572006",
-          "title": "Earthquake in Auckland Islands, N.Z.  Region",
-          "date": "2026-10-16T14:09:54+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Auckland Islands, N.Z.  Region",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1572006&episodeid=1740555&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1571989",
-          "title": "Earthquake in Philippines",
-          "date": "2026-10-16T12:18:25+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Philippines",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1571989&episodeid=1740537&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1571983",
-          "title": "Earthquake in South Of Mariana Islands",
-          "date": "2026-10-16T11:57:19+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "South Of Mariana Islands",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1571983&episodeid=1740530&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1571978",
-          "title": "Earthquake in México",
-          "date": "2026-10-16T11:39:44+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "México",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1571978&episodeid=1740525&eventtype=EQ"
         }
       ]
     },
@@ -6995,6 +7006,16 @@
       "observed_through": "2026-10-13"
     },
     {
+      "id": "TC|1001338",
+      "title": "Tropical Cyclone CHAMPI-26",
+      "date": "2026-10-14T12:00:00+00:00",
+      "alert_level": "Red",
+      "event_type": "TC",
+      "country": "Guam",
+      "weight": 20.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=10&eventtype=TC"
+    },
+    {
       "id": "TC|1001325",
       "title": "Tropical Cyclone POLO-26",
       "date": "2026-09-21T03:00:00+00:00",
@@ -7012,17 +7033,17 @@
       "event_type": "TC",
       "country": "México",
       "weight": 8.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=37&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=38&eventtype=TC"
     },
     {
-      "id": "TC|1001338",
-      "title": "Tropical Cyclone CHAMPI-26",
-      "date": "2026-10-14T12:00:00+00:00",
+      "id": "TC|1001339",
+      "title": "Tropical Cyclone ONE-26",
+      "date": "2026-10-16T06:00:00+00:00",
       "alert_level": "Orange",
       "event_type": "TC",
-      "country": "Guam",
+      "country": "Cook Islands",
       "weight": 8.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=9&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001339&episodeid=2&eventtype=TC"
     },
     {
       "id": "TC|1001334",
@@ -7085,6 +7106,46 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
     },
     {
+      "id": "TC|1001337",
+      "title": "Tropical Cyclone TRUDY-26",
+      "date": "2026-10-13T15:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "México",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=14&eventtype=TC"
+    },
+    {
+      "id": "EQ|1572053",
+      "title": "Earthquake in Off Coast Of Ecuador",
+      "date": "2026-10-16T19:34:10+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Off Coast Of Ecuador",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1572053&episodeid=1740609&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1572024",
+      "title": "Earthquake in Tanzania",
+      "date": "2026-10-16T16:17:25+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Tanzania",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1572024&episodeid=1740575&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1572021",
+      "title": "Earthquake in Russia",
+      "date": "2026-10-16T15:08:47+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Russia",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1572021&episodeid=1740600&eventtype=EQ"
+    },
+    {
       "id": "EQ|1572014",
       "title": "Earthquake in Tonga",
       "date": "2026-10-16T15:06:34+00:00",
@@ -7093,56 +7154,6 @@
       "country": "Tonga",
       "weight": 1.0,
       "url": "https://www.gdacs.org/report.aspx?eventid=1572014&episodeid=1740564&eventtype=EQ"
-    },
-    {
-      "id": "TC|1001337",
-      "title": "Tropical Cyclone TRUDY-26",
-      "date": "2026-10-13T15:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "México",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=13&eventtype=TC"
-    },
-    {
-      "id": "EQ|1572006",
-      "title": "Earthquake in Auckland Islands, N.Z.  Region",
-      "date": "2026-10-16T14:09:54+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Auckland Islands, N.Z.  Region",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1572006&episodeid=1740555&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1571989",
-      "title": "Earthquake in Philippines",
-      "date": "2026-10-16T12:18:25+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Philippines",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1571989&episodeid=1740537&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1571983",
-      "title": "Earthquake in South Of Mariana Islands",
-      "date": "2026-10-16T11:57:19+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "South Of Mariana Islands",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1571983&episodeid=1740530&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1571978",
-      "title": "Earthquake in México",
-      "date": "2026-10-16T11:39:44+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "México",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1571978&episodeid=1740525&eventtype=EQ"
     },
     {
       "id": "EONET_25124",
