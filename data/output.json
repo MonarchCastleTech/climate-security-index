@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-10-17T15:38:21.733940+00:00",
+    "generated": "2026-10-17T20:38:56.916363+00:00",
     "mode": "partial",
     "sources": [
       "NASA POWER Daily API",
@@ -15,7 +15,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-17T15:38:21.484304+00:00",
+    "issued_at": "2026-10-17T20:38:56.731381+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 63.1,
@@ -161,11 +161,11 @@
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 193.0,
+        "current_30d_weight": 202.0,
         "baseline_months": 12,
         "baseline_median": 42.7,
-        "anomaly_z": 7.37,
-        "events_considered": 178,
+        "anomaly_z": 7.81,
+        "events_considered": 179,
         "evidence": [
           {
             "id": "TC|1001338",
@@ -175,7 +175,7 @@
             "event_type": "TC",
             "country": "Guam, Northern Mariana Islands",
             "weight": 20.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=13&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=14&eventtype=TC"
           },
           {
             "id": "TC|1001325",
@@ -186,6 +186,16 @@
             "country": "Mexico",
             "weight": 20.0,
             "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=38&eventtype=TC"
+          },
+          {
+            "id": "TC|1001339",
+            "title": "Tropical Cyclone WATI-26",
+            "date": "2026-10-16T06:00:00+00:00",
+            "alert_level": "Orange",
+            "event_type": "TC",
+            "country": "Cook Islands",
+            "weight": 8.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001339&episodeid=4&eventtype=TC"
           },
           {
             "id": "TC|1001335",
@@ -258,6 +268,16 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
           },
           {
+            "id": "EQ|1572223",
+            "title": "Earthquake in Bolivia",
+            "date": "2026-10-17T16:52:45+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Bolivia",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1572223&episodeid=1740793&eventtype=EQ"
+          },
+          {
             "id": "TC|1001337",
             "title": "Tropical Cyclone TRUDY-26",
             "date": "2026-10-13T15:00:00+00:00",
@@ -296,26 +316,6 @@
             "country": "Vanuatu",
             "weight": 1.0,
             "url": "https://www.gdacs.org/report.aspx?eventid=1572158&episodeid=1740725&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1572143",
-            "title": "Earthquake in Vanuatu",
-            "date": "2026-10-17T07:40:02+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Vanuatu",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1572143&episodeid=1740709&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1572139",
-            "title": "Earthquake in Indonesia",
-            "date": "2026-10-17T07:20:48+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Indonesia",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1572139&episodeid=1740705&eventtype=EQ"
           }
         ],
         "retained": false
@@ -325,9 +325,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 2345.6,
+        "current_30d_weight": 2234.6,
         "baseline_median": 0.0,
-        "anomaly_z": 2345.64,
+        "anomaly_z": 2234.62,
         "events_considered": 1000,
         "evidence": [
           {
@@ -421,16 +421,6 @@
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032283"
           },
           {
-            "id": "EONET_24719",
-            "title": "Prescribed Fire D2 Dye RX, Coconino, Arizona",
-            "date": "2026-09-17T17:44:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.1,
-            "url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000955"
-          },
-          {
             "id": "EONET_25311",
             "title": "Prescribed Fire Jane 102 RX, Harney, Oregon",
             "date": "2026-10-13T10:24:00+00:00",
@@ -479,6 +469,16 @@
             ],
             "weight": 4.0,
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032425"
+          },
+          {
+            "id": "EONET_24915",
+            "title": "Wildfire in Angola 1032476",
+            "date": "2026-09-25T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.0,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032476"
           }
         ],
         "retained": false
@@ -581,17 +581,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-08-27T21:41:24.575665+00:00",
-        "score": 63.4,
-        "level": "ELEVATED",
-        "components": {
-          "agroclimate_stress": 96.6,
-          "gdacs_impact_pressure": 60.0,
-          "eonet_hazard_persistence": 56.0,
-          "food_price_pressure": 17.2
-        }
-      },
       {
         "timestamp": "2026-08-28T11:26:33.255692+00:00",
         "score": 63.2,
@@ -2560,6 +2549,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-10-17T20:38:56.731381+00:00",
+        "score": 63.1,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 69.4,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -2568,7 +2568,7 @@
         "food_price_pressure"
       ],
       "power_sentinels": 8,
-      "gdacs_events": 178,
+      "gdacs_events": 179,
       "eonet_events": 1000,
       "fao_latest_month": "2026-08"
     },
@@ -2615,7 +2615,7 @@
     },
     {
       "label": "Hazards Screened",
-      "value": "1178",
+      "value": "1179",
       "delta": "NASA + GDACS"
     },
     {
@@ -2721,7 +2721,7 @@
       ]
     },
     "gdacs": {
-      "count": 178,
+      "count": 179,
       "cached": false,
       "retained": false,
       "compact": true,
@@ -2734,7 +2734,7 @@
           "event_type": "TC",
           "country": "Guam, Northern Mariana Islands",
           "weight": 20.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=13&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=14&eventtype=TC"
         },
         {
           "id": "TC|1001325",
@@ -2745,6 +2745,16 @@
           "country": "Mexico",
           "weight": 20.0,
           "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=38&eventtype=TC"
+        },
+        {
+          "id": "TC|1001339",
+          "title": "Tropical Cyclone WATI-26",
+          "date": "2026-10-16T06:00:00+00:00",
+          "alert_level": "Orange",
+          "event_type": "TC",
+          "country": "Cook Islands",
+          "weight": 8.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001339&episodeid=4&eventtype=TC"
         },
         {
           "id": "TC|1001335",
@@ -2817,6 +2827,16 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
         },
         {
+          "id": "EQ|1572223",
+          "title": "Earthquake in Bolivia",
+          "date": "2026-10-17T16:52:45+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Bolivia",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1572223&episodeid=1740793&eventtype=EQ"
+        },
+        {
           "id": "TC|1001337",
           "title": "Tropical Cyclone TRUDY-26",
           "date": "2026-10-13T15:00:00+00:00",
@@ -2855,26 +2875,6 @@
           "country": "Vanuatu",
           "weight": 1.0,
           "url": "https://www.gdacs.org/report.aspx?eventid=1572158&episodeid=1740725&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1572143",
-          "title": "Earthquake in Vanuatu",
-          "date": "2026-10-17T07:40:02+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Vanuatu",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1572143&episodeid=1740709&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1572139",
-          "title": "Earthquake in Indonesia",
-          "date": "2026-10-17T07:20:48+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Indonesia",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1572139&episodeid=1740705&eventtype=EQ"
         }
       ]
     },
@@ -2975,16 +2975,6 @@
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032283"
         },
         {
-          "id": "EONET_24719",
-          "title": "Prescribed Fire D2 Dye RX, Coconino, Arizona",
-          "date": "2026-09-17T17:44:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.1,
-          "url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000955"
-        },
-        {
           "id": "EONET_25311",
           "title": "Prescribed Fire Jane 102 RX, Harney, Oregon",
           "date": "2026-10-13T10:24:00+00:00",
@@ -3033,6 +3023,16 @@
           ],
           "weight": 4.0,
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032425"
+        },
+        {
+          "id": "EONET_24915",
+          "title": "Wildfire in Angola 1032476",
+          "date": "2026-09-25T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.0,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032476"
         }
       ]
     },
@@ -7046,7 +7046,7 @@
       "event_type": "TC",
       "country": "Guam, Northern Mariana Islands",
       "weight": 20.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=13&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=14&eventtype=TC"
     },
     {
       "id": "TC|1001325",
@@ -7057,6 +7057,16 @@
       "country": "Mexico",
       "weight": 20.0,
       "url": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=38&eventtype=TC"
+    },
+    {
+      "id": "TC|1001339",
+      "title": "Tropical Cyclone WATI-26",
+      "date": "2026-10-16T06:00:00+00:00",
+      "alert_level": "Orange",
+      "event_type": "TC",
+      "country": "Cook Islands",
+      "weight": 8.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001339&episodeid=4&eventtype=TC"
     },
     {
       "id": "TC|1001335",
@@ -7129,6 +7139,16 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
     },
     {
+      "id": "EQ|1572223",
+      "title": "Earthquake in Bolivia",
+      "date": "2026-10-17T16:52:45+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Bolivia",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1572223&episodeid=1740793&eventtype=EQ"
+    },
+    {
       "id": "TC|1001337",
       "title": "Tropical Cyclone TRUDY-26",
       "date": "2026-10-13T15:00:00+00:00",
@@ -7167,26 +7187,6 @@
       "country": "Vanuatu",
       "weight": 1.0,
       "url": "https://www.gdacs.org/report.aspx?eventid=1572158&episodeid=1740725&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1572143",
-      "title": "Earthquake in Vanuatu",
-      "date": "2026-10-17T07:40:02+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Vanuatu",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1572143&episodeid=1740709&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1572139",
-      "title": "Earthquake in Indonesia",
-      "date": "2026-10-17T07:20:48+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Indonesia",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1572139&episodeid=1740705&eventtype=EQ"
     },
     {
       "id": "EONET_25124",
@@ -7279,16 +7279,6 @@
       "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032283"
     },
     {
-      "id": "EONET_24719",
-      "title": "Prescribed Fire D2 Dye RX, Coconino, Arizona",
-      "date": "2026-09-17T17:44:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.1,
-      "url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000955"
-    },
-    {
       "id": "EONET_25311",
       "title": "Prescribed Fire Jane 102 RX, Harney, Oregon",
       "date": "2026-10-13T10:24:00+00:00",
@@ -7307,6 +7297,16 @@
       ],
       "weight": 4.0,
       "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032726"
+    },
+    {
+      "id": "EONET_25379",
+      "title": "Wildfire in Australia 1032848",
+      "date": "2026-10-09T19:00:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.0,
+      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032848"
     }
   ]
 }
