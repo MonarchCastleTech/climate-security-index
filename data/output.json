@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-10-17T10:48:37.980628+00:00",
+    "generated": "2026-10-17T15:38:21.733940+00:00",
     "mode": "partial",
     "sources": [
       "NASA POWER Daily API",
@@ -15,7 +15,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-17T10:48:37.742379+00:00",
+    "issued_at": "2026-10-17T15:38:21.484304+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 63.1,
@@ -163,8 +163,8 @@
         "score": 60.0,
         "current_30d_weight": 193.0,
         "baseline_months": 12,
-        "baseline_median": 43.9,
-        "anomaly_z": 6.72,
+        "baseline_median": 42.7,
+        "anomaly_z": 7.37,
         "events_considered": 178,
         "evidence": [
           {
@@ -175,7 +175,7 @@
             "event_type": "TC",
             "country": "Guam, Northern Mariana Islands",
             "weight": 20.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=12&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=13&eventtype=TC"
           },
           {
             "id": "TC|1001325",
@@ -258,6 +258,26 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
           },
           {
+            "id": "TC|1001337",
+            "title": "Tropical Cyclone TRUDY-26",
+            "date": "2026-10-13T15:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "México",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=17&eventtype=TC"
+          },
+          {
+            "id": "EQ|1572185",
+            "title": "Earthquake in México",
+            "date": "2026-10-17T13:59:34+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "México",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1572185&episodeid=1740757&eventtype=EQ"
+          },
+          {
             "id": "EQ|1572159",
             "title": "Earthquake in Indonesia",
             "date": "2026-10-17T09:07:40+00:00",
@@ -266,16 +286,6 @@
             "country": "Indonesia",
             "weight": 1.0,
             "url": "https://www.gdacs.org/report.aspx?eventid=1572159&episodeid=1740727&eventtype=EQ"
-          },
-          {
-            "id": "TC|1001337",
-            "title": "Tropical Cyclone TRUDY-26",
-            "date": "2026-10-13T15:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "México",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=16&eventtype=TC"
           },
           {
             "id": "EQ|1572158",
@@ -306,16 +316,6 @@
             "country": "Indonesia",
             "weight": 1.0,
             "url": "https://www.gdacs.org/report.aspx?eventid=1572139&episodeid=1740705&eventtype=EQ"
-          },
-          {
-            "id": "TC|1001339",
-            "title": "Tropical Cyclone WATI-26",
-            "date": "2026-10-16T06:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "Cook Islands, French Polynesia",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001339&episodeid=3&eventtype=TC"
           }
         ],
         "retained": false
@@ -325,9 +325,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 2254.6,
+        "current_30d_weight": 2345.6,
         "baseline_median": 0.0,
-        "anomaly_z": 2254.63,
+        "anomaly_z": 2345.64,
         "events_considered": 1000,
         "evidence": [
           {
@@ -349,6 +349,16 @@
             ],
             "weight": 4.1,
             "url": "https://irwin.doi.gov/observer/incidents/2026-AZKNF-001107"
+          },
+          {
+            "id": "EONET_25381",
+            "title": "Wildfire in Mozambique 1032855",
+            "date": "2026-10-07T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.1,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032855"
           },
           {
             "id": "EONET_25043",
@@ -441,6 +451,16 @@
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032726"
           },
           {
+            "id": "EONET_25379",
+            "title": "Wildfire in Australia 1032848",
+            "date": "2026-10-09T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.0,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032848"
+          },
+          {
             "id": "EONET_25122",
             "title": "Wildfire in Mongolia 1032652",
             "date": "2026-10-07T19:00:00+00:00",
@@ -459,26 +479,6 @@
             ],
             "weight": 4.0,
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032425"
-          },
-          {
-            "id": "EONET_24915",
-            "title": "Wildfire in Angola 1032476",
-            "date": "2026-09-25T19:00:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.0,
-            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032476"
-          },
-          {
-            "id": "EONET_24837",
-            "title": "Wildfire in Australia 1032408",
-            "date": "2026-09-24T19:00:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.0,
-            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032408"
           }
         ],
         "retained": false
@@ -2549,6 +2549,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-10-17T15:38:21.484304+00:00",
+        "score": 63.1,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 69.4,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -2723,7 +2734,7 @@
           "event_type": "TC",
           "country": "Guam, Northern Mariana Islands",
           "weight": 20.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=12&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=13&eventtype=TC"
         },
         {
           "id": "TC|1001325",
@@ -2806,6 +2817,26 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
         },
         {
+          "id": "TC|1001337",
+          "title": "Tropical Cyclone TRUDY-26",
+          "date": "2026-10-13T15:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "México",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=17&eventtype=TC"
+        },
+        {
+          "id": "EQ|1572185",
+          "title": "Earthquake in México",
+          "date": "2026-10-17T13:59:34+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "México",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1572185&episodeid=1740757&eventtype=EQ"
+        },
+        {
           "id": "EQ|1572159",
           "title": "Earthquake in Indonesia",
           "date": "2026-10-17T09:07:40+00:00",
@@ -2814,16 +2845,6 @@
           "country": "Indonesia",
           "weight": 1.0,
           "url": "https://www.gdacs.org/report.aspx?eventid=1572159&episodeid=1740727&eventtype=EQ"
-        },
-        {
-          "id": "TC|1001337",
-          "title": "Tropical Cyclone TRUDY-26",
-          "date": "2026-10-13T15:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "México",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=16&eventtype=TC"
         },
         {
           "id": "EQ|1572158",
@@ -2854,16 +2875,6 @@
           "country": "Indonesia",
           "weight": 1.0,
           "url": "https://www.gdacs.org/report.aspx?eventid=1572139&episodeid=1740705&eventtype=EQ"
-        },
-        {
-          "id": "TC|1001339",
-          "title": "Tropical Cyclone WATI-26",
-          "date": "2026-10-16T06:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "Cook Islands, French Polynesia",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001339&episodeid=3&eventtype=TC"
         }
       ]
     },
@@ -2892,6 +2903,16 @@
           ],
           "weight": 4.1,
           "url": "https://irwin.doi.gov/observer/incidents/2026-AZKNF-001107"
+        },
+        {
+          "id": "EONET_25381",
+          "title": "Wildfire in Mozambique 1032855",
+          "date": "2026-10-07T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.1,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032855"
         },
         {
           "id": "EONET_25043",
@@ -2984,6 +3005,16 @@
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032726"
         },
         {
+          "id": "EONET_25379",
+          "title": "Wildfire in Australia 1032848",
+          "date": "2026-10-09T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.0,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032848"
+        },
+        {
           "id": "EONET_25122",
           "title": "Wildfire in Mongolia 1032652",
           "date": "2026-10-07T19:00:00+00:00",
@@ -3002,26 +3033,6 @@
           ],
           "weight": 4.0,
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032425"
-        },
-        {
-          "id": "EONET_24915",
-          "title": "Wildfire in Angola 1032476",
-          "date": "2026-09-25T19:00:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.0,
-          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032476"
-        },
-        {
-          "id": "EONET_24837",
-          "title": "Wildfire in Australia 1032408",
-          "date": "2026-09-24T19:00:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.0,
-          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032408"
         }
       ]
     },
@@ -7035,7 +7046,7 @@
       "event_type": "TC",
       "country": "Guam, Northern Mariana Islands",
       "weight": 20.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=12&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=13&eventtype=TC"
     },
     {
       "id": "TC|1001325",
@@ -7118,6 +7129,26 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
     },
     {
+      "id": "TC|1001337",
+      "title": "Tropical Cyclone TRUDY-26",
+      "date": "2026-10-13T15:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "México",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=17&eventtype=TC"
+    },
+    {
+      "id": "EQ|1572185",
+      "title": "Earthquake in México",
+      "date": "2026-10-17T13:59:34+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "México",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1572185&episodeid=1740757&eventtype=EQ"
+    },
+    {
       "id": "EQ|1572159",
       "title": "Earthquake in Indonesia",
       "date": "2026-10-17T09:07:40+00:00",
@@ -7126,16 +7157,6 @@
       "country": "Indonesia",
       "weight": 1.0,
       "url": "https://www.gdacs.org/report.aspx?eventid=1572159&episodeid=1740727&eventtype=EQ"
-    },
-    {
-      "id": "TC|1001337",
-      "title": "Tropical Cyclone TRUDY-26",
-      "date": "2026-10-13T15:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "México",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=16&eventtype=TC"
     },
     {
       "id": "EQ|1572158",
@@ -7168,16 +7189,6 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1572139&episodeid=1740705&eventtype=EQ"
     },
     {
-      "id": "TC|1001339",
-      "title": "Tropical Cyclone WATI-26",
-      "date": "2026-10-16T06:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "Cook Islands, French Polynesia",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001339&episodeid=3&eventtype=TC"
-    },
-    {
       "id": "EONET_25124",
       "title": "Wildfire in Mongolia 1032663",
       "date": "2026-10-07T19:00:00+00:00",
@@ -7196,6 +7207,16 @@
       ],
       "weight": 4.1,
       "url": "https://irwin.doi.gov/observer/incidents/2026-AZKNF-001107"
+    },
+    {
+      "id": "EONET_25381",
+      "title": "Wildfire in Mozambique 1032855",
+      "date": "2026-10-07T19:00:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.1,
+      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032855"
     },
     {
       "id": "EONET_25043",
@@ -7286,16 +7307,6 @@
       ],
       "weight": 4.0,
       "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032726"
-    },
-    {
-      "id": "EONET_25122",
-      "title": "Wildfire in Mongolia 1032652",
-      "date": "2026-10-07T19:00:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.0,
-      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032652"
     }
   ]
 }
