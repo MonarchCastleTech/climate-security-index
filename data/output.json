@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-10-18T11:10:51.107078+00:00",
+    "generated": "2026-10-18T15:54:25.459606+00:00",
     "mode": "partial",
     "sources": [
       "NASA POWER Daily API",
@@ -15,7 +15,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-18T11:10:50.863530+00:00",
+    "issued_at": "2026-10-18T15:54:25.209444+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 63.8,
@@ -175,7 +175,7 @@
             "event_type": "TC",
             "country": "Guam, Northern Mariana Islands",
             "weight": 20.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=16&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=17&eventtype=TC"
           },
           {
             "id": "TC|1001325",
@@ -265,7 +265,17 @@
             "event_type": "TC",
             "country": "México",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=20&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=21&eventtype=TC"
+          },
+          {
+            "id": "EQ|1572353",
+            "title": "Earthquake in Kermadec Islands, New Zealand",
+            "date": "2026-10-18T12:42:22+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Kermadec Islands, New Zealand",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1572353&episodeid=1740928&eventtype=EQ"
           },
           {
             "id": "EQ|1572327",
@@ -298,24 +308,14 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1572269&episodeid=1740843&eventtype=EQ"
           },
           {
-            "id": "WF|1032891",
+            "id": "WF|1032895",
             "title": "Forest fires in Australia",
-            "date": "2026-10-17T00:00:00+00:00",
+            "date": "2026-10-15T00:00:00+00:00",
             "alert_level": "Green",
             "event_type": "WF",
             "country": "Australia",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1032891&episodeid=1&eventtype=WF"
-          },
-          {
-            "id": "WF|1032892",
-            "title": "Forest fires in Australia",
-            "date": "2026-10-17T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Australia",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1032892&episodeid=1&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032895&episodeid=1&eventtype=WF"
           }
         ],
         "retained": false
@@ -325,9 +325,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 2234.7,
+        "current_30d_weight": 2325.4,
         "baseline_median": 0.0,
-        "anomaly_z": 2234.69,
+        "anomaly_z": 2325.41,
         "events_considered": 1000,
         "evidence": [
           {
@@ -581,17 +581,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-08-29T07:07:11.005308+00:00",
-        "score": 63.5,
-        "level": "ELEVATED",
-        "components": {
-          "agroclimate_stress": 96.8,
-          "gdacs_impact_pressure": 60.0,
-          "eonet_hazard_persistence": 56.0,
-          "food_price_pressure": 17.2
-        }
-      },
       {
         "timestamp": "2026-08-29T16:44:39.442339+00:00",
         "score": 63.5,
@@ -2560,6 +2549,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-10-18T15:54:25.209444+00:00",
+        "score": 63.8,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 71.4,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -2734,7 +2734,7 @@
           "event_type": "TC",
           "country": "Guam, Northern Mariana Islands",
           "weight": 20.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=16&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=17&eventtype=TC"
         },
         {
           "id": "TC|1001325",
@@ -2824,7 +2824,17 @@
           "event_type": "TC",
           "country": "México",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=20&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=21&eventtype=TC"
+        },
+        {
+          "id": "EQ|1572353",
+          "title": "Earthquake in Kermadec Islands, New Zealand",
+          "date": "2026-10-18T12:42:22+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Kermadec Islands, New Zealand",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1572353&episodeid=1740928&eventtype=EQ"
         },
         {
           "id": "EQ|1572327",
@@ -2857,24 +2867,14 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1572269&episodeid=1740843&eventtype=EQ"
         },
         {
-          "id": "WF|1032891",
+          "id": "WF|1032895",
           "title": "Forest fires in Australia",
-          "date": "2026-10-17T00:00:00+00:00",
+          "date": "2026-10-15T00:00:00+00:00",
           "alert_level": "Green",
           "event_type": "WF",
           "country": "Australia",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032891&episodeid=1&eventtype=WF"
-        },
-        {
-          "id": "WF|1032892",
-          "title": "Forest fires in Australia",
-          "date": "2026-10-17T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Australia",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032892&episodeid=1&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032895&episodeid=1&eventtype=WF"
         }
       ]
     },
@@ -7046,7 +7046,7 @@
       "event_type": "TC",
       "country": "Guam, Northern Mariana Islands",
       "weight": 20.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=16&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=17&eventtype=TC"
     },
     {
       "id": "TC|1001325",
@@ -7136,7 +7136,17 @@
       "event_type": "TC",
       "country": "México",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=20&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=21&eventtype=TC"
+    },
+    {
+      "id": "EQ|1572353",
+      "title": "Earthquake in Kermadec Islands, New Zealand",
+      "date": "2026-10-18T12:42:22+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Kermadec Islands, New Zealand",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1572353&episodeid=1740928&eventtype=EQ"
     },
     {
       "id": "EQ|1572327",
@@ -7169,24 +7179,14 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1572269&episodeid=1740843&eventtype=EQ"
     },
     {
-      "id": "WF|1032891",
+      "id": "WF|1032895",
       "title": "Forest fires in Australia",
-      "date": "2026-10-17T00:00:00+00:00",
+      "date": "2026-10-15T00:00:00+00:00",
       "alert_level": "Green",
       "event_type": "WF",
       "country": "Australia",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1032891&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF|1032892",
-      "title": "Forest fires in Australia",
-      "date": "2026-10-17T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Australia",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1032892&episodeid=1&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1032895&episodeid=1&eventtype=WF"
     },
     {
       "id": "EONET_25124",
