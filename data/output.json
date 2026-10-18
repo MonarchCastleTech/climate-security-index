@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-10-18T15:54:25.459606+00:00",
+    "generated": "2026-10-18T20:47:30.210473+00:00",
     "mode": "partial",
     "sources": [
       "NASA POWER Daily API",
@@ -15,7 +15,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-18T15:54:25.209444+00:00",
+    "issued_at": "2026-10-18T20:47:29.968065+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 63.8,
@@ -161,10 +161,10 @@
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 195.0,
+        "current_30d_weight": 197.4,
         "baseline_months": 12,
         "baseline_median": 42.7,
-        "anomaly_z": 5.92,
+        "anomaly_z": 6.01,
         "events_considered": 179,
         "evidence": [
           {
@@ -173,9 +173,9 @@
             "date": "2026-10-14T12:00:00+00:00",
             "alert_level": "Red",
             "event_type": "TC",
-            "country": "Guam, Northern Mariana Islands",
-            "weight": 20.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=17&eventtype=TC"
+            "country": "Guam, Northern Mariana Islands, Japan",
+            "weight": 22.4,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=18&eventtype=TC"
           },
           {
             "id": "TC|1001325",
@@ -258,6 +258,46 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
           },
           {
+            "id": "EQ|1572408",
+            "title": "Earthquake in Tonga",
+            "date": "2026-10-18T19:32:28+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Tonga",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1572408&episodeid=1740989&eventtype=EQ"
+          },
+          {
+            "id": "TC|1001339",
+            "title": "Tropical Cyclone WATI-26",
+            "date": "2026-10-16T06:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "Cook Islands, French Polynesia",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001339&episodeid=6&eventtype=TC"
+          },
+          {
+            "id": "EQ|1572386",
+            "title": "Earthquake in Panama",
+            "date": "2026-10-18T16:12:55+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Panama",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1572386&episodeid=1740976&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1572380",
+            "title": "Earthquake in Saint Kitts and Nevis",
+            "date": "2026-10-18T15:35:47+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Saint Kitts and Nevis",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1572380&episodeid=1740959&eventtype=EQ"
+          },
+          {
             "id": "TC|1001337",
             "title": "Tropical Cyclone TRUDY-26",
             "date": "2026-10-13T15:00:00+00:00",
@@ -268,54 +308,14 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=21&eventtype=TC"
           },
           {
-            "id": "EQ|1572353",
-            "title": "Earthquake in Kermadec Islands, New Zealand",
-            "date": "2026-10-18T12:42:22+00:00",
+            "id": "EQ|1572388",
+            "title": "Earthquake in Carlsberg Ridge",
+            "date": "2026-10-18T14:30:07+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Kermadec Islands, New Zealand",
+            "country": "Carlsberg Ridge",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1572353&episodeid=1740928&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1572327",
-            "title": "Earthquake in Indonesia",
-            "date": "2026-10-18T08:00:06+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Indonesia",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1572327&episodeid=1740903&eventtype=EQ"
-          },
-          {
-            "id": "TC|1001339",
-            "title": "Tropical Cyclone WATI-26",
-            "date": "2026-10-16T06:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "Cook Islands, French Polynesia",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001339&episodeid=5&eventtype=TC"
-          },
-          {
-            "id": "EQ|1572269",
-            "title": "Earthquake in Papua New Guinea",
-            "date": "2026-10-18T00:28:29+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Papua New Guinea",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1572269&episodeid=1740843&eventtype=EQ"
-          },
-          {
-            "id": "WF|1032895",
-            "title": "Forest fires in Australia",
-            "date": "2026-10-15T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Australia",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1032895&episodeid=1&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1572388&episodeid=1740973&eventtype=EQ"
           }
         ],
         "retained": false
@@ -325,9 +325,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 2325.4,
+        "current_30d_weight": 2204.2,
         "baseline_median": 0.0,
-        "anomaly_z": 2325.41,
+        "anomaly_z": 2204.19,
         "events_considered": 1000,
         "evidence": [
           {
@@ -411,16 +411,6 @@
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032503"
           },
           {
-            "id": "EONET_24682",
-            "title": "Wildfire in Australia 1032283",
-            "date": "2026-09-18T19:00:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.1,
-            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032283"
-          },
-          {
             "id": "EONET_25311",
             "title": "Prescribed Fire Jane 102 RX, Harney, Oregon",
             "date": "2026-10-13T10:24:00+00:00",
@@ -479,6 +469,16 @@
             ],
             "weight": 4.0,
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032476"
+          },
+          {
+            "id": "EONET_24837",
+            "title": "Wildfire in Australia 1032408",
+            "date": "2026-09-24T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.0,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032408"
           }
         ],
         "retained": false
@@ -581,17 +581,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-08-29T16:44:39.442339+00:00",
-        "score": 63.5,
-        "level": "ELEVATED",
-        "components": {
-          "agroclimate_stress": 96.8,
-          "gdacs_impact_pressure": 60.0,
-          "eonet_hazard_persistence": 56.0,
-          "food_price_pressure": 17.2
-        }
-      },
       {
         "timestamp": "2026-08-29T20:57:24.015136+00:00",
         "score": 63.5,
@@ -2560,6 +2549,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-10-18T20:47:29.968065+00:00",
+        "score": 63.8,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 71.4,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -2732,9 +2732,9 @@
           "date": "2026-10-14T12:00:00+00:00",
           "alert_level": "Red",
           "event_type": "TC",
-          "country": "Guam, Northern Mariana Islands",
-          "weight": 20.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=17&eventtype=TC"
+          "country": "Guam, Northern Mariana Islands, Japan",
+          "weight": 22.4,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=18&eventtype=TC"
         },
         {
           "id": "TC|1001325",
@@ -2817,6 +2817,46 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
         },
         {
+          "id": "EQ|1572408",
+          "title": "Earthquake in Tonga",
+          "date": "2026-10-18T19:32:28+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Tonga",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1572408&episodeid=1740989&eventtype=EQ"
+        },
+        {
+          "id": "TC|1001339",
+          "title": "Tropical Cyclone WATI-26",
+          "date": "2026-10-16T06:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "Cook Islands, French Polynesia",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001339&episodeid=6&eventtype=TC"
+        },
+        {
+          "id": "EQ|1572386",
+          "title": "Earthquake in Panama",
+          "date": "2026-10-18T16:12:55+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Panama",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1572386&episodeid=1740976&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1572380",
+          "title": "Earthquake in Saint Kitts and Nevis",
+          "date": "2026-10-18T15:35:47+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Saint Kitts and Nevis",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1572380&episodeid=1740959&eventtype=EQ"
+        },
+        {
           "id": "TC|1001337",
           "title": "Tropical Cyclone TRUDY-26",
           "date": "2026-10-13T15:00:00+00:00",
@@ -2827,54 +2867,14 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=21&eventtype=TC"
         },
         {
-          "id": "EQ|1572353",
-          "title": "Earthquake in Kermadec Islands, New Zealand",
-          "date": "2026-10-18T12:42:22+00:00",
+          "id": "EQ|1572388",
+          "title": "Earthquake in Carlsberg Ridge",
+          "date": "2026-10-18T14:30:07+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Kermadec Islands, New Zealand",
+          "country": "Carlsberg Ridge",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1572353&episodeid=1740928&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1572327",
-          "title": "Earthquake in Indonesia",
-          "date": "2026-10-18T08:00:06+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Indonesia",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1572327&episodeid=1740903&eventtype=EQ"
-        },
-        {
-          "id": "TC|1001339",
-          "title": "Tropical Cyclone WATI-26",
-          "date": "2026-10-16T06:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "Cook Islands, French Polynesia",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001339&episodeid=5&eventtype=TC"
-        },
-        {
-          "id": "EQ|1572269",
-          "title": "Earthquake in Papua New Guinea",
-          "date": "2026-10-18T00:28:29+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Papua New Guinea",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1572269&episodeid=1740843&eventtype=EQ"
-        },
-        {
-          "id": "WF|1032895",
-          "title": "Forest fires in Australia",
-          "date": "2026-10-15T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Australia",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032895&episodeid=1&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1572388&episodeid=1740973&eventtype=EQ"
         }
       ]
     },
@@ -2965,16 +2965,6 @@
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032503"
         },
         {
-          "id": "EONET_24682",
-          "title": "Wildfire in Australia 1032283",
-          "date": "2026-09-18T19:00:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.1,
-          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032283"
-        },
-        {
           "id": "EONET_25311",
           "title": "Prescribed Fire Jane 102 RX, Harney, Oregon",
           "date": "2026-10-13T10:24:00+00:00",
@@ -3033,6 +3023,16 @@
           ],
           "weight": 4.0,
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032476"
+        },
+        {
+          "id": "EONET_24837",
+          "title": "Wildfire in Australia 1032408",
+          "date": "2026-09-24T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.0,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032408"
         }
       ]
     },
@@ -7044,9 +7044,9 @@
       "date": "2026-10-14T12:00:00+00:00",
       "alert_level": "Red",
       "event_type": "TC",
-      "country": "Guam, Northern Mariana Islands",
-      "weight": 20.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=17&eventtype=TC"
+      "country": "Guam, Northern Mariana Islands, Japan",
+      "weight": 22.4,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=18&eventtype=TC"
     },
     {
       "id": "TC|1001325",
@@ -7129,6 +7129,46 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
     },
     {
+      "id": "EQ|1572408",
+      "title": "Earthquake in Tonga",
+      "date": "2026-10-18T19:32:28+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Tonga",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1572408&episodeid=1740989&eventtype=EQ"
+    },
+    {
+      "id": "TC|1001339",
+      "title": "Tropical Cyclone WATI-26",
+      "date": "2026-10-16T06:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "Cook Islands, French Polynesia",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001339&episodeid=6&eventtype=TC"
+    },
+    {
+      "id": "EQ|1572386",
+      "title": "Earthquake in Panama",
+      "date": "2026-10-18T16:12:55+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Panama",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1572386&episodeid=1740976&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1572380",
+      "title": "Earthquake in Saint Kitts and Nevis",
+      "date": "2026-10-18T15:35:47+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Saint Kitts and Nevis",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1572380&episodeid=1740959&eventtype=EQ"
+    },
+    {
       "id": "TC|1001337",
       "title": "Tropical Cyclone TRUDY-26",
       "date": "2026-10-13T15:00:00+00:00",
@@ -7139,54 +7179,14 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=21&eventtype=TC"
     },
     {
-      "id": "EQ|1572353",
-      "title": "Earthquake in Kermadec Islands, New Zealand",
-      "date": "2026-10-18T12:42:22+00:00",
+      "id": "EQ|1572388",
+      "title": "Earthquake in Carlsberg Ridge",
+      "date": "2026-10-18T14:30:07+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Kermadec Islands, New Zealand",
+      "country": "Carlsberg Ridge",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1572353&episodeid=1740928&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1572327",
-      "title": "Earthquake in Indonesia",
-      "date": "2026-10-18T08:00:06+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Indonesia",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1572327&episodeid=1740903&eventtype=EQ"
-    },
-    {
-      "id": "TC|1001339",
-      "title": "Tropical Cyclone WATI-26",
-      "date": "2026-10-16T06:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "Cook Islands, French Polynesia",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001339&episodeid=5&eventtype=TC"
-    },
-    {
-      "id": "EQ|1572269",
-      "title": "Earthquake in Papua New Guinea",
-      "date": "2026-10-18T00:28:29+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Papua New Guinea",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1572269&episodeid=1740843&eventtype=EQ"
-    },
-    {
-      "id": "WF|1032895",
-      "title": "Forest fires in Australia",
-      "date": "2026-10-15T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Australia",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1032895&episodeid=1&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1572388&episodeid=1740973&eventtype=EQ"
     },
     {
       "id": "EONET_25124",
@@ -7269,16 +7269,6 @@
       "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032503"
     },
     {
-      "id": "EONET_24682",
-      "title": "Wildfire in Australia 1032283",
-      "date": "2026-09-18T19:00:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.1,
-      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032283"
-    },
-    {
       "id": "EONET_25311",
       "title": "Prescribed Fire Jane 102 RX, Harney, Oregon",
       "date": "2026-10-13T10:24:00+00:00",
@@ -7307,6 +7297,16 @@
       ],
       "weight": 4.0,
       "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032848"
+    },
+    {
+      "id": "EONET_25122",
+      "title": "Wildfire in Mongolia 1032652",
+      "date": "2026-10-07T19:00:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.0,
+      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032652"
     }
   ]
 }
