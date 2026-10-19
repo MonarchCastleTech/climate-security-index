@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-10-19T04:45:13.074688+00:00",
+    "generated": "2026-10-19T13:22:29.446326+00:00",
     "mode": "partial",
     "sources": [
       "NASA POWER Daily API",
@@ -15,7 +15,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-19T04:45:12.830359+00:00",
+    "issued_at": "2026-10-19T13:22:29.208192+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 64.6,
@@ -175,7 +175,7 @@
             "event_type": "TC",
             "country": "Guam, Northern Mariana Islands, Japan",
             "weight": 22.4,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=19&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=20&eventtype=TC"
           },
           {
             "id": "TC|1001325",
@@ -258,64 +258,64 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
           },
           {
-            "id": "TC|1001337",
-            "title": "Tropical Cyclone TRUDY-26",
-            "date": "2026-10-13T15:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "México",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=23&eventtype=TC"
-          },
-          {
-            "id": "EQ|1572434",
-            "title": "Earthquake in Fiji",
-            "date": "2026-10-18T22:34:22+00:00",
+            "id": "EQ|1572542",
+            "title": "Earthquake in Indonesia",
+            "date": "2026-10-19T12:06:01+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Fiji",
+            "country": "Indonesia",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1572434&episodeid=1741016&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1572542&episodeid=1741146&eventtype=EQ"
           },
           {
-            "id": "EQ|1572430",
-            "title": "Earthquake in Papua New Guinea",
-            "date": "2026-10-18T22:31:43+00:00",
+            "id": "EQ|1572539",
+            "title": "Earthquake in Vanuatu Islands",
+            "date": "2026-10-19T11:52:37+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Papua New Guinea",
+            "country": "Vanuatu Islands",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1572430&episodeid=1741017&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1572539&episodeid=1741142&eventtype=EQ"
           },
           {
-            "id": "EQ|1572429",
-            "title": "Earthquake in Papua New Guinea",
-            "date": "2026-10-18T22:06:14+00:00",
+            "id": "EQ|1572531",
+            "title": "Earthquake in China",
+            "date": "2026-10-19T10:57:08+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Papua New Guinea",
+            "country": "China",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1572429&episodeid=1741009&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1572531&episodeid=1741136&eventtype=EQ"
           },
           {
-            "id": "EQ|1572408",
-            "title": "Earthquake in Tonga",
-            "date": "2026-10-18T19:32:28+00:00",
+            "id": "EQ|1572528",
+            "title": "Earthquake in Vanuatu Islands",
+            "date": "2026-10-19T10:40:21+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Tonga",
+            "country": "Vanuatu Islands",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1572408&episodeid=1740989&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1572528&episodeid=1741128&eventtype=EQ"
           },
           {
-            "id": "TC|1001339",
-            "title": "Tropical Cyclone WATI-26",
-            "date": "2026-10-16T06:00:00+00:00",
+            "id": "EQ|1572530",
+            "title": "Earthquake in Indonesia",
+            "date": "2026-10-19T10:10:56+00:00",
             "alert_level": "Green",
-            "event_type": "TC",
-            "country": "Cook Islands, French Polynesia",
+            "event_type": "EQ",
+            "country": "Indonesia",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001339&episodeid=6&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1572530&episodeid=1741130&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1572525",
+            "title": "Earthquake in Indonesia",
+            "date": "2026-10-19T09:45:56+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Indonesia",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1572525&episodeid=1741120&eventtype=EQ"
           }
         ],
         "retained": false
@@ -325,9 +325,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 2203.6,
+        "current_30d_weight": 2203.5,
         "baseline_median": 0.0,
-        "anomaly_z": 2203.63,
+        "anomaly_z": 2203.51,
         "events_considered": 1000,
         "evidence": [
           {
@@ -581,17 +581,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-08-30T05:27:20.618643+00:00",
-        "score": 63.9,
-        "level": "ELEVATED",
-        "components": {
-          "agroclimate_stress": 97.9,
-          "gdacs_impact_pressure": 60.0,
-          "eonet_hazard_persistence": 56.0,
-          "food_price_pressure": 17.2
-        }
-      },
       {
         "timestamp": "2026-08-30T11:57:15.682070+00:00",
         "score": 63.9,
@@ -2560,6 +2549,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-10-19T13:22:29.208192+00:00",
+        "score": 64.6,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 73.9,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -2734,7 +2734,7 @@
           "event_type": "TC",
           "country": "Guam, Northern Mariana Islands, Japan",
           "weight": 22.4,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=19&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=20&eventtype=TC"
         },
         {
           "id": "TC|1001325",
@@ -2817,64 +2817,64 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
         },
         {
-          "id": "TC|1001337",
-          "title": "Tropical Cyclone TRUDY-26",
-          "date": "2026-10-13T15:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "México",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=23&eventtype=TC"
-        },
-        {
-          "id": "EQ|1572434",
-          "title": "Earthquake in Fiji",
-          "date": "2026-10-18T22:34:22+00:00",
+          "id": "EQ|1572542",
+          "title": "Earthquake in Indonesia",
+          "date": "2026-10-19T12:06:01+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Fiji",
+          "country": "Indonesia",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1572434&episodeid=1741016&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1572542&episodeid=1741146&eventtype=EQ"
         },
         {
-          "id": "EQ|1572430",
-          "title": "Earthquake in Papua New Guinea",
-          "date": "2026-10-18T22:31:43+00:00",
+          "id": "EQ|1572539",
+          "title": "Earthquake in Vanuatu Islands",
+          "date": "2026-10-19T11:52:37+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Papua New Guinea",
+          "country": "Vanuatu Islands",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1572430&episodeid=1741017&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1572539&episodeid=1741142&eventtype=EQ"
         },
         {
-          "id": "EQ|1572429",
-          "title": "Earthquake in Papua New Guinea",
-          "date": "2026-10-18T22:06:14+00:00",
+          "id": "EQ|1572531",
+          "title": "Earthquake in China",
+          "date": "2026-10-19T10:57:08+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Papua New Guinea",
+          "country": "China",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1572429&episodeid=1741009&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1572531&episodeid=1741136&eventtype=EQ"
         },
         {
-          "id": "EQ|1572408",
-          "title": "Earthquake in Tonga",
-          "date": "2026-10-18T19:32:28+00:00",
+          "id": "EQ|1572528",
+          "title": "Earthquake in Vanuatu Islands",
+          "date": "2026-10-19T10:40:21+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Tonga",
+          "country": "Vanuatu Islands",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1572408&episodeid=1740989&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1572528&episodeid=1741128&eventtype=EQ"
         },
         {
-          "id": "TC|1001339",
-          "title": "Tropical Cyclone WATI-26",
-          "date": "2026-10-16T06:00:00+00:00",
+          "id": "EQ|1572530",
+          "title": "Earthquake in Indonesia",
+          "date": "2026-10-19T10:10:56+00:00",
           "alert_level": "Green",
-          "event_type": "TC",
-          "country": "Cook Islands, French Polynesia",
+          "event_type": "EQ",
+          "country": "Indonesia",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001339&episodeid=6&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1572530&episodeid=1741130&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1572525",
+          "title": "Earthquake in Indonesia",
+          "date": "2026-10-19T09:45:56+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Indonesia",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1572525&episodeid=1741120&eventtype=EQ"
         }
       ]
     },
@@ -7046,7 +7046,7 @@
       "event_type": "TC",
       "country": "Guam, Northern Mariana Islands, Japan",
       "weight": 22.4,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=19&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=20&eventtype=TC"
     },
     {
       "id": "TC|1001325",
@@ -7129,64 +7129,64 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
     },
     {
-      "id": "TC|1001337",
-      "title": "Tropical Cyclone TRUDY-26",
-      "date": "2026-10-13T15:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "México",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=23&eventtype=TC"
-    },
-    {
-      "id": "EQ|1572434",
-      "title": "Earthquake in Fiji",
-      "date": "2026-10-18T22:34:22+00:00",
+      "id": "EQ|1572542",
+      "title": "Earthquake in Indonesia",
+      "date": "2026-10-19T12:06:01+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Fiji",
+      "country": "Indonesia",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1572434&episodeid=1741016&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1572542&episodeid=1741146&eventtype=EQ"
     },
     {
-      "id": "EQ|1572430",
-      "title": "Earthquake in Papua New Guinea",
-      "date": "2026-10-18T22:31:43+00:00",
+      "id": "EQ|1572539",
+      "title": "Earthquake in Vanuatu Islands",
+      "date": "2026-10-19T11:52:37+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Papua New Guinea",
+      "country": "Vanuatu Islands",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1572430&episodeid=1741017&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1572539&episodeid=1741142&eventtype=EQ"
     },
     {
-      "id": "EQ|1572429",
-      "title": "Earthquake in Papua New Guinea",
-      "date": "2026-10-18T22:06:14+00:00",
+      "id": "EQ|1572531",
+      "title": "Earthquake in China",
+      "date": "2026-10-19T10:57:08+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Papua New Guinea",
+      "country": "China",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1572429&episodeid=1741009&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1572531&episodeid=1741136&eventtype=EQ"
     },
     {
-      "id": "EQ|1572408",
-      "title": "Earthquake in Tonga",
-      "date": "2026-10-18T19:32:28+00:00",
+      "id": "EQ|1572528",
+      "title": "Earthquake in Vanuatu Islands",
+      "date": "2026-10-19T10:40:21+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Tonga",
+      "country": "Vanuatu Islands",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1572408&episodeid=1740989&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1572528&episodeid=1741128&eventtype=EQ"
     },
     {
-      "id": "TC|1001339",
-      "title": "Tropical Cyclone WATI-26",
-      "date": "2026-10-16T06:00:00+00:00",
+      "id": "EQ|1572530",
+      "title": "Earthquake in Indonesia",
+      "date": "2026-10-19T10:10:56+00:00",
       "alert_level": "Green",
-      "event_type": "TC",
-      "country": "Cook Islands, French Polynesia",
+      "event_type": "EQ",
+      "country": "Indonesia",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001339&episodeid=6&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1572530&episodeid=1741130&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1572525",
+      "title": "Earthquake in Indonesia",
+      "date": "2026-10-19T09:45:56+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Indonesia",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1572525&episodeid=1741120&eventtype=EQ"
     },
     {
       "id": "EONET_25124",
