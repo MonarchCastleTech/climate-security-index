@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-10-19T13:22:29.446326+00:00",
+    "generated": "2026-10-19T22:23:01.864673+00:00",
     "mode": "partial",
     "sources": [
       "NASA POWER Daily API",
@@ -15,7 +15,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-19T13:22:29.208192+00:00",
+    "issued_at": "2026-10-19T22:23:01.671190+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 64.6,
@@ -161,10 +161,10 @@
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 197.4,
+        "current_30d_weight": 198.1,
         "baseline_months": 12,
         "baseline_median": 42.7,
-        "anomaly_z": 6.01,
+        "anomaly_z": 6.04,
         "events_considered": 179,
         "evidence": [
           {
@@ -175,7 +175,7 @@
             "event_type": "TC",
             "country": "Guam, Northern Mariana Islands, Japan",
             "weight": 22.4,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=20&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=22&eventtype=TC"
           },
           {
             "id": "TC|1001325",
@@ -258,64 +258,64 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
           },
           {
-            "id": "EQ|1572542",
-            "title": "Earthquake in Indonesia",
-            "date": "2026-10-19T12:06:01+00:00",
+            "id": "WF|1032906",
+            "title": "Forest fires in Chad, Nigeria, Cameroon",
+            "date": "2026-10-07T00:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Indonesia",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1572542&episodeid=1741146&eventtype=EQ"
+            "event_type": "WF",
+            "country": "Chad, Nigeria, Cameroon",
+            "weight": 1.2,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032906&episodeid=5&eventtype=WF"
           },
           {
-            "id": "EQ|1572539",
-            "title": "Earthquake in Vanuatu Islands",
-            "date": "2026-10-19T11:52:37+00:00",
+            "id": "WF|1032785",
+            "title": "Forest fires in Botswana, Zimbabwe",
+            "date": "2026-10-11T00:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Vanuatu Islands",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1572539&episodeid=1741142&eventtype=EQ"
+            "event_type": "WF",
+            "country": "Botswana, Zimbabwe",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032785&episodeid=16&eventtype=WF"
           },
           {
-            "id": "EQ|1572531",
-            "title": "Earthquake in China",
-            "date": "2026-10-19T10:57:08+00:00",
+            "id": "WF|1032897",
+            "title": "Forest fires in Botswana, Zimbabwe",
+            "date": "2026-10-10T00:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "China",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1572531&episodeid=1741136&eventtype=EQ"
+            "event_type": "WF",
+            "country": "Botswana, Zimbabwe",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032897&episodeid=3&eventtype=WF"
           },
           {
-            "id": "EQ|1572528",
-            "title": "Earthquake in Vanuatu Islands",
-            "date": "2026-10-19T10:40:21+00:00",
+            "id": "WF|1032819",
+            "title": "Forest fires in Nigeria, Cameroon",
+            "date": "2026-10-04T00:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Vanuatu Islands",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1572528&episodeid=1741128&eventtype=EQ"
+            "event_type": "WF",
+            "country": "Nigeria, Cameroon",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032819&episodeid=13&eventtype=WF"
           },
           {
-            "id": "EQ|1572530",
-            "title": "Earthquake in Indonesia",
-            "date": "2026-10-19T10:10:56+00:00",
+            "id": "WF|1032828",
+            "title": "Forest fires in Papua New Guinea, Australia",
+            "date": "2026-10-05T00:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Indonesia",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1572530&episodeid=1741130&eventtype=EQ"
+            "event_type": "WF",
+            "country": "Papua New Guinea, Australia",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032828&episodeid=9&eventtype=WF"
           },
           {
-            "id": "EQ|1572525",
-            "title": "Earthquake in Indonesia",
-            "date": "2026-10-19T09:45:56+00:00",
+            "id": "TC|1001337",
+            "title": "Tropical Cyclone TRUDY-26",
+            "date": "2026-10-13T15:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Indonesia",
+            "event_type": "TC",
+            "country": "México",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1572525&episodeid=1741120&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=26&eventtype=TC"
           }
         ],
         "retained": false
@@ -325,9 +325,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 2203.5,
+        "current_30d_weight": 2219.7,
         "baseline_median": 0.0,
-        "anomaly_z": 2203.51,
+        "anomaly_z": 2219.7,
         "events_considered": 1000,
         "evidence": [
           {
@@ -339,6 +339,16 @@
             ],
             "weight": 4.2,
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032663"
+          },
+          {
+            "id": "EONET_25432",
+            "title": "Wildfire in Australia 1032919",
+            "date": "2026-10-13T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.1,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032919"
           },
           {
             "id": "EONET_25234",
@@ -469,16 +479,6 @@
             ],
             "weight": 4.0,
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032476"
-          },
-          {
-            "id": "EONET_24837",
-            "title": "Wildfire in Australia 1032408",
-            "date": "2026-09-24T19:00:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.0,
-            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032408"
           }
         ],
         "retained": false
@@ -581,17 +581,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-08-30T11:57:15.682070+00:00",
-        "score": 63.9,
-        "level": "ELEVATED",
-        "components": {
-          "agroclimate_stress": 97.9,
-          "gdacs_impact_pressure": 60.0,
-          "eonet_hazard_persistence": 56.0,
-          "food_price_pressure": 17.2
-        }
-      },
       {
         "timestamp": "2026-08-30T16:43:02.978079+00:00",
         "score": 63.9,
@@ -2560,6 +2549,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-10-19T22:23:01.671190+00:00",
+        "score": 64.6,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 73.9,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -2734,7 +2734,7 @@
           "event_type": "TC",
           "country": "Guam, Northern Mariana Islands, Japan",
           "weight": 22.4,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=20&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=22&eventtype=TC"
         },
         {
           "id": "TC|1001325",
@@ -2817,64 +2817,64 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
         },
         {
-          "id": "EQ|1572542",
-          "title": "Earthquake in Indonesia",
-          "date": "2026-10-19T12:06:01+00:00",
+          "id": "WF|1032906",
+          "title": "Forest fires in Chad, Nigeria, Cameroon",
+          "date": "2026-10-07T00:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Indonesia",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1572542&episodeid=1741146&eventtype=EQ"
+          "event_type": "WF",
+          "country": "Chad, Nigeria, Cameroon",
+          "weight": 1.2,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032906&episodeid=5&eventtype=WF"
         },
         {
-          "id": "EQ|1572539",
-          "title": "Earthquake in Vanuatu Islands",
-          "date": "2026-10-19T11:52:37+00:00",
+          "id": "WF|1032785",
+          "title": "Forest fires in Botswana, Zimbabwe",
+          "date": "2026-10-11T00:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Vanuatu Islands",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1572539&episodeid=1741142&eventtype=EQ"
+          "event_type": "WF",
+          "country": "Botswana, Zimbabwe",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032785&episodeid=16&eventtype=WF"
         },
         {
-          "id": "EQ|1572531",
-          "title": "Earthquake in China",
-          "date": "2026-10-19T10:57:08+00:00",
+          "id": "WF|1032897",
+          "title": "Forest fires in Botswana, Zimbabwe",
+          "date": "2026-10-10T00:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "China",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1572531&episodeid=1741136&eventtype=EQ"
+          "event_type": "WF",
+          "country": "Botswana, Zimbabwe",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032897&episodeid=3&eventtype=WF"
         },
         {
-          "id": "EQ|1572528",
-          "title": "Earthquake in Vanuatu Islands",
-          "date": "2026-10-19T10:40:21+00:00",
+          "id": "WF|1032819",
+          "title": "Forest fires in Nigeria, Cameroon",
+          "date": "2026-10-04T00:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Vanuatu Islands",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1572528&episodeid=1741128&eventtype=EQ"
+          "event_type": "WF",
+          "country": "Nigeria, Cameroon",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032819&episodeid=13&eventtype=WF"
         },
         {
-          "id": "EQ|1572530",
-          "title": "Earthquake in Indonesia",
-          "date": "2026-10-19T10:10:56+00:00",
+          "id": "WF|1032828",
+          "title": "Forest fires in Papua New Guinea, Australia",
+          "date": "2026-10-05T00:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Indonesia",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1572530&episodeid=1741130&eventtype=EQ"
+          "event_type": "WF",
+          "country": "Papua New Guinea, Australia",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032828&episodeid=9&eventtype=WF"
         },
         {
-          "id": "EQ|1572525",
-          "title": "Earthquake in Indonesia",
-          "date": "2026-10-19T09:45:56+00:00",
+          "id": "TC|1001337",
+          "title": "Tropical Cyclone TRUDY-26",
+          "date": "2026-10-13T15:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Indonesia",
+          "event_type": "TC",
+          "country": "México",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1572525&episodeid=1741120&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=26&eventtype=TC"
         }
       ]
     },
@@ -2893,6 +2893,16 @@
           ],
           "weight": 4.2,
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032663"
+        },
+        {
+          "id": "EONET_25432",
+          "title": "Wildfire in Australia 1032919",
+          "date": "2026-10-13T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.1,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032919"
         },
         {
           "id": "EONET_25234",
@@ -3023,16 +3033,6 @@
           ],
           "weight": 4.0,
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032476"
-        },
-        {
-          "id": "EONET_24837",
-          "title": "Wildfire in Australia 1032408",
-          "date": "2026-09-24T19:00:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.0,
-          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032408"
         }
       ]
     },
@@ -7046,7 +7046,7 @@
       "event_type": "TC",
       "country": "Guam, Northern Mariana Islands, Japan",
       "weight": 22.4,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=20&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=22&eventtype=TC"
     },
     {
       "id": "TC|1001325",
@@ -7129,64 +7129,64 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
     },
     {
-      "id": "EQ|1572542",
-      "title": "Earthquake in Indonesia",
-      "date": "2026-10-19T12:06:01+00:00",
+      "id": "WF|1032906",
+      "title": "Forest fires in Chad, Nigeria, Cameroon",
+      "date": "2026-10-07T00:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Indonesia",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1572542&episodeid=1741146&eventtype=EQ"
+      "event_type": "WF",
+      "country": "Chad, Nigeria, Cameroon",
+      "weight": 1.2,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1032906&episodeid=5&eventtype=WF"
     },
     {
-      "id": "EQ|1572539",
-      "title": "Earthquake in Vanuatu Islands",
-      "date": "2026-10-19T11:52:37+00:00",
+      "id": "WF|1032785",
+      "title": "Forest fires in Botswana, Zimbabwe",
+      "date": "2026-10-11T00:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Vanuatu Islands",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1572539&episodeid=1741142&eventtype=EQ"
+      "event_type": "WF",
+      "country": "Botswana, Zimbabwe",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1032785&episodeid=16&eventtype=WF"
     },
     {
-      "id": "EQ|1572531",
-      "title": "Earthquake in China",
-      "date": "2026-10-19T10:57:08+00:00",
+      "id": "WF|1032897",
+      "title": "Forest fires in Botswana, Zimbabwe",
+      "date": "2026-10-10T00:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "China",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1572531&episodeid=1741136&eventtype=EQ"
+      "event_type": "WF",
+      "country": "Botswana, Zimbabwe",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1032897&episodeid=3&eventtype=WF"
     },
     {
-      "id": "EQ|1572528",
-      "title": "Earthquake in Vanuatu Islands",
-      "date": "2026-10-19T10:40:21+00:00",
+      "id": "WF|1032819",
+      "title": "Forest fires in Nigeria, Cameroon",
+      "date": "2026-10-04T00:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Vanuatu Islands",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1572528&episodeid=1741128&eventtype=EQ"
+      "event_type": "WF",
+      "country": "Nigeria, Cameroon",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1032819&episodeid=13&eventtype=WF"
     },
     {
-      "id": "EQ|1572530",
-      "title": "Earthquake in Indonesia",
-      "date": "2026-10-19T10:10:56+00:00",
+      "id": "WF|1032828",
+      "title": "Forest fires in Papua New Guinea, Australia",
+      "date": "2026-10-05T00:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Indonesia",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1572530&episodeid=1741130&eventtype=EQ"
+      "event_type": "WF",
+      "country": "Papua New Guinea, Australia",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1032828&episodeid=9&eventtype=WF"
     },
     {
-      "id": "EQ|1572525",
-      "title": "Earthquake in Indonesia",
-      "date": "2026-10-19T09:45:56+00:00",
+      "id": "TC|1001337",
+      "title": "Tropical Cyclone TRUDY-26",
+      "date": "2026-10-13T15:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Indonesia",
+      "event_type": "TC",
+      "country": "México",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1572525&episodeid=1741120&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=26&eventtype=TC"
     },
     {
       "id": "EONET_25124",
@@ -7197,6 +7197,16 @@
       ],
       "weight": 4.2,
       "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032663"
+    },
+    {
+      "id": "EONET_25432",
+      "title": "Wildfire in Australia 1032919",
+      "date": "2026-10-13T19:00:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.1,
+      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032919"
     },
     {
       "id": "EONET_25234",
@@ -7297,16 +7307,6 @@
       ],
       "weight": 4.0,
       "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032848"
-    },
-    {
-      "id": "EONET_25122",
-      "title": "Wildfire in Mongolia 1032652",
-      "date": "2026-10-07T19:00:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.0,
-      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032652"
     }
   ]
 }
