@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-10-20T04:54:36.268727+00:00",
+    "generated": "2026-10-20T11:42:24.179882+00:00",
     "mode": "partial",
     "sources": [
       "NASA POWER Daily API",
@@ -15,7 +15,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-20T04:54:36.087867+00:00",
+    "issued_at": "2026-10-20T11:42:23.962489+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 65.0,
@@ -161,10 +161,10 @@
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 197.6,
+        "current_30d_weight": 185.2,
         "baseline_months": 12,
-        "baseline_median": 42.7,
-        "anomaly_z": 6.02,
+        "baseline_median": 46.6,
+        "anomaly_z": 4.71,
         "events_considered": 179,
         "evidence": [
           {
@@ -175,7 +175,7 @@
             "event_type": "TC",
             "country": "Guam, Northern Mariana Islands, Japan",
             "weight": 22.4,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=23&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=24&eventtype=TC"
           },
           {
             "id": "TC|1001325",
@@ -258,64 +258,64 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
           },
           {
+            "id": "WF|1032906",
+            "title": "Forest fires in Chad, Nigeria, Cameroon",
+            "date": "2026-10-07T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "WF",
+            "country": "Chad, Nigeria, Cameroon",
+            "weight": 1.2,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032906&episodeid=7&eventtype=WF"
+          },
+          {
             "id": "WF|1032943",
-            "title": "Forest fires in South Africa, Botswana",
+            "title": "Forest fires in Botswana, South Africa",
             "date": "2026-10-15T00:00:00+00:00",
             "alert_level": "Green",
             "event_type": "WF",
-            "country": "South Africa, Botswana",
+            "country": "Botswana, South Africa",
             "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1032943&episodeid=1&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032943&episodeid=2&eventtype=WF"
           },
           {
-            "id": "WF|1032785",
+            "id": "WF|1032957",
+            "title": "Forest fires in Zambia, Mozambique",
+            "date": "2026-10-16T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "WF",
+            "country": "Zambia, Mozambique",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032957&episodeid=1&eventtype=WF"
+          },
+          {
+            "id": "WF|1032835",
+            "title": "Forest fires in Chad, Nigeria",
+            "date": "2026-10-07T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "WF",
+            "country": "Chad, Nigeria",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032835&episodeid=9&eventtype=WF"
+          },
+          {
+            "id": "WF|1032897",
             "title": "Forest fires in Botswana, Zimbabwe",
-            "date": "2026-10-11T00:00:00+00:00",
+            "date": "2026-10-10T00:00:00+00:00",
             "alert_level": "Green",
             "event_type": "WF",
             "country": "Botswana, Zimbabwe",
             "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1032785&episodeid=17&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032897&episodeid=5&eventtype=WF"
           },
           {
-            "id": "EQ|1572693",
-            "title": "Earthquake in Vanuatu Islands",
-            "date": "2026-10-20T04:20:38+00:00",
+            "id": "WF|1032953",
+            "title": "Forest fires in Zambia, Zimbabwe",
+            "date": "2026-10-11T00:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Vanuatu Islands",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1572693&episodeid=1741319&eventtype=EQ"
-          },
-          {
-            "id": "TC|1001337",
-            "title": "Tropical Cyclone TRUDY-26",
-            "date": "2026-10-13T15:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "México",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=27&eventtype=TC"
-          },
-          {
-            "id": "EQ|1572689",
-            "title": "Earthquake in Mariana Islands",
-            "date": "2026-10-20T02:54:15+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Mariana Islands",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1572689&episodeid=1741311&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1572670",
-            "title": "Earthquake in China",
-            "date": "2026-10-20T00:56:32+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "China",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1572670&episodeid=1741296&eventtype=EQ"
+            "event_type": "WF",
+            "country": "Zambia, Zimbabwe",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032953&episodeid=2&eventtype=WF"
           }
         ],
         "retained": false
@@ -327,7 +327,7 @@
         "score": 56.0,
         "current_30d_weight": 2215.7,
         "baseline_median": 0.0,
-        "anomaly_z": 2215.66,
+        "anomaly_z": 2215.67,
         "events_considered": 1000,
         "evidence": [
           {
@@ -581,17 +581,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-08-30T21:09:08.569702+00:00",
-        "score": 63.9,
-        "level": "ELEVATED",
-        "components": {
-          "agroclimate_stress": 97.9,
-          "gdacs_impact_pressure": 60.0,
-          "eonet_hazard_persistence": 56.0,
-          "food_price_pressure": 17.2
-        }
-      },
       {
         "timestamp": "2026-08-31T05:39:43.584581+00:00",
         "score": 64.4,
@@ -2560,6 +2549,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-10-20T11:42:23.962489+00:00",
+        "score": 65.0,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 74.9,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -2734,7 +2734,7 @@
           "event_type": "TC",
           "country": "Guam, Northern Mariana Islands, Japan",
           "weight": 22.4,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=23&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=24&eventtype=TC"
         },
         {
           "id": "TC|1001325",
@@ -2817,64 +2817,64 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
         },
         {
+          "id": "WF|1032906",
+          "title": "Forest fires in Chad, Nigeria, Cameroon",
+          "date": "2026-10-07T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "WF",
+          "country": "Chad, Nigeria, Cameroon",
+          "weight": 1.2,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032906&episodeid=7&eventtype=WF"
+        },
+        {
           "id": "WF|1032943",
-          "title": "Forest fires in South Africa, Botswana",
+          "title": "Forest fires in Botswana, South Africa",
           "date": "2026-10-15T00:00:00+00:00",
           "alert_level": "Green",
           "event_type": "WF",
-          "country": "South Africa, Botswana",
+          "country": "Botswana, South Africa",
           "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032943&episodeid=1&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032943&episodeid=2&eventtype=WF"
         },
         {
-          "id": "WF|1032785",
+          "id": "WF|1032957",
+          "title": "Forest fires in Zambia, Mozambique",
+          "date": "2026-10-16T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "WF",
+          "country": "Zambia, Mozambique",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032957&episodeid=1&eventtype=WF"
+        },
+        {
+          "id": "WF|1032835",
+          "title": "Forest fires in Chad, Nigeria",
+          "date": "2026-10-07T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "WF",
+          "country": "Chad, Nigeria",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032835&episodeid=9&eventtype=WF"
+        },
+        {
+          "id": "WF|1032897",
           "title": "Forest fires in Botswana, Zimbabwe",
-          "date": "2026-10-11T00:00:00+00:00",
+          "date": "2026-10-10T00:00:00+00:00",
           "alert_level": "Green",
           "event_type": "WF",
           "country": "Botswana, Zimbabwe",
           "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032785&episodeid=17&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032897&episodeid=5&eventtype=WF"
         },
         {
-          "id": "EQ|1572693",
-          "title": "Earthquake in Vanuatu Islands",
-          "date": "2026-10-20T04:20:38+00:00",
+          "id": "WF|1032953",
+          "title": "Forest fires in Zambia, Zimbabwe",
+          "date": "2026-10-11T00:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Vanuatu Islands",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1572693&episodeid=1741319&eventtype=EQ"
-        },
-        {
-          "id": "TC|1001337",
-          "title": "Tropical Cyclone TRUDY-26",
-          "date": "2026-10-13T15:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "México",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=27&eventtype=TC"
-        },
-        {
-          "id": "EQ|1572689",
-          "title": "Earthquake in Mariana Islands",
-          "date": "2026-10-20T02:54:15+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Mariana Islands",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1572689&episodeid=1741311&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1572670",
-          "title": "Earthquake in China",
-          "date": "2026-10-20T00:56:32+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "China",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1572670&episodeid=1741296&eventtype=EQ"
+          "event_type": "WF",
+          "country": "Zambia, Zimbabwe",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032953&episodeid=2&eventtype=WF"
         }
       ]
     },
@@ -7046,7 +7046,7 @@
       "event_type": "TC",
       "country": "Guam, Northern Mariana Islands, Japan",
       "weight": 22.4,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=23&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=24&eventtype=TC"
     },
     {
       "id": "TC|1001325",
@@ -7129,64 +7129,64 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
     },
     {
+      "id": "WF|1032906",
+      "title": "Forest fires in Chad, Nigeria, Cameroon",
+      "date": "2026-10-07T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "WF",
+      "country": "Chad, Nigeria, Cameroon",
+      "weight": 1.2,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1032906&episodeid=7&eventtype=WF"
+    },
+    {
       "id": "WF|1032943",
-      "title": "Forest fires in South Africa, Botswana",
+      "title": "Forest fires in Botswana, South Africa",
       "date": "2026-10-15T00:00:00+00:00",
       "alert_level": "Green",
       "event_type": "WF",
-      "country": "South Africa, Botswana",
+      "country": "Botswana, South Africa",
       "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1032943&episodeid=1&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1032943&episodeid=2&eventtype=WF"
     },
     {
-      "id": "WF|1032785",
+      "id": "WF|1032957",
+      "title": "Forest fires in Zambia, Mozambique",
+      "date": "2026-10-16T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "WF",
+      "country": "Zambia, Mozambique",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1032957&episodeid=1&eventtype=WF"
+    },
+    {
+      "id": "WF|1032835",
+      "title": "Forest fires in Chad, Nigeria",
+      "date": "2026-10-07T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "WF",
+      "country": "Chad, Nigeria",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1032835&episodeid=9&eventtype=WF"
+    },
+    {
+      "id": "WF|1032897",
       "title": "Forest fires in Botswana, Zimbabwe",
-      "date": "2026-10-11T00:00:00+00:00",
+      "date": "2026-10-10T00:00:00+00:00",
       "alert_level": "Green",
       "event_type": "WF",
       "country": "Botswana, Zimbabwe",
       "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1032785&episodeid=17&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1032897&episodeid=5&eventtype=WF"
     },
     {
-      "id": "EQ|1572693",
-      "title": "Earthquake in Vanuatu Islands",
-      "date": "2026-10-20T04:20:38+00:00",
+      "id": "WF|1032953",
+      "title": "Forest fires in Zambia, Zimbabwe",
+      "date": "2026-10-11T00:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Vanuatu Islands",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1572693&episodeid=1741319&eventtype=EQ"
-    },
-    {
-      "id": "TC|1001337",
-      "title": "Tropical Cyclone TRUDY-26",
-      "date": "2026-10-13T15:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "México",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=27&eventtype=TC"
-    },
-    {
-      "id": "EQ|1572689",
-      "title": "Earthquake in Mariana Islands",
-      "date": "2026-10-20T02:54:15+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Mariana Islands",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1572689&episodeid=1741311&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1572670",
-      "title": "Earthquake in China",
-      "date": "2026-10-20T00:56:32+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "China",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1572670&episodeid=1741296&eventtype=EQ"
+      "event_type": "WF",
+      "country": "Zambia, Zimbabwe",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1032953&episodeid=2&eventtype=WF"
     },
     {
       "id": "EONET_25124",
