@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-10-20T17:11:56.127156+00:00",
+    "generated": "2026-10-20T21:39:34.143264+00:00",
     "mode": "partial",
     "sources": [
       "NASA POWER Daily API",
@@ -15,10 +15,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-20T17:11:55.990566+00:00",
+    "issued_at": "2026-10-20T21:39:33.935401+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
-    "score": 65.0,
+    "score": 64.3,
     "level": "ELEVATED",
     "confidence": "HIGH",
     "confidence_score": 97.0,
@@ -27,51 +27,62 @@
         "id": "agroclimate_stress",
         "label": "NASA POWER agroclimate stress",
         "available": true,
-        "score": 74.9,
+        "score": 73.0,
         "sentinels_available": 8,
         "sentinels": [
           {
             "name": "Sudan grain belt",
             "lat": 13.5,
             "lon": 33.5,
-            "score": 97.7,
-            "rain_30d_mm": 1509.4,
-            "rain_ratio": 0.86,
-            "max_temp_c": 39.8,
-            "heat_anomaly_c": 8.8,
+            "score": 100.0,
+            "rain_30d_mm": 829.7,
+            "rain_ratio": 0.47,
+            "max_temp_c": 37.8,
+            "heat_anomaly_c": 6.8,
+            "observed_through": "2026-10-18"
+          },
+          {
+            "name": "Afghanistan drylands",
+            "lat": 34.0,
+            "lon": 65.0,
+            "score": 63.2,
+            "rain_30d_mm": 7.7,
+            "rain_ratio": 0.18,
+            "max_temp_c": 20.8,
+            "heat_anomaly_c": 0.6,
             "observed_through": "2026-10-18"
           },
           {
             "name": "Ethiopia lowlands",
             "lat": 8.0,
             "lon": 40.0,
-            "score": 76.2,
-            "rain_30d_mm": 1999.4,
-            "rain_ratio": 0.49,
-            "max_temp_c": 26.0,
-            "heat_anomaly_c": 4.0,
+            "score": 55.9,
+            "rain_30d_mm": 2116.6,
+            "rain_ratio": 0.52,
+            "max_temp_c": 24.1,
+            "heat_anomaly_c": 2.2,
             "observed_through": "2026-10-18"
           },
           {
             "name": "Pakistan Indus",
             "lat": 29.0,
             "lon": 70.5,
-            "score": 50.8,
-            "rain_30d_mm": 136.6,
-            "rain_ratio": 0.54,
-            "max_temp_c": 40.8,
-            "heat_anomaly_c": 1.9,
+            "score": 50.0,
+            "rain_30d_mm": 105.6,
+            "rain_ratio": 0.42,
+            "max_temp_c": 39.9,
+            "heat_anomaly_c": 0.9,
             "observed_through": "2026-10-18"
           },
           {
             "name": "Lake Chad basin",
             "lat": 12.5,
             "lon": 14.5,
-            "score": 44.3,
-            "rain_30d_mm": 44.1,
-            "rain_ratio": 1.11,
-            "max_temp_c": 38.5,
-            "heat_anomaly_c": 4.4,
+            "score": 44.9,
+            "rain_30d_mm": 1195.7,
+            "rain_ratio": 1.26,
+            "max_temp_c": 38.6,
+            "heat_anomaly_c": 4.5,
             "observed_through": "2026-10-18"
           },
           {
@@ -86,24 +97,13 @@
             "observed_through": "2026-10-18"
           },
           {
-            "name": "Afghanistan drylands",
-            "lat": 34.0,
-            "lon": 65.0,
-            "score": 6.9,
-            "rain_30d_mm": 44.4,
-            "rain_ratio": 1.04,
-            "max_temp_c": 20.9,
-            "heat_anomaly_c": 0.7,
-            "observed_through": "2026-10-18"
-          },
-          {
             "name": "Central America dry corridor",
             "lat": 14.0,
             "lon": -88.5,
-            "score": 0.6,
-            "rain_30d_mm": 12315.8,
-            "rain_ratio": 2.12,
-            "max_temp_c": 27.9,
+            "score": 1.2,
+            "rain_30d_mm": 9597.6,
+            "rain_ratio": 1.65,
+            "max_temp_c": 28.0,
             "heat_anomaly_c": 0.1,
             "observed_through": "2026-10-18"
           },
@@ -112,10 +112,10 @@
             "lat": 5.0,
             "lon": 45.3,
             "score": 0.0,
-            "rain_30d_mm": 4180.3,
-            "rain_ratio": 6.52,
-            "max_temp_c": 34.4,
-            "heat_anomaly_c": -2.1,
+            "rain_30d_mm": 4419.8,
+            "rain_ratio": 6.89,
+            "max_temp_c": 34.7,
+            "heat_anomaly_c": -1.8,
             "observed_through": "2026-10-18"
           }
         ],
@@ -124,33 +124,33 @@
             "name": "Sudan grain belt",
             "lat": 13.5,
             "lon": 33.5,
-            "score": 97.7,
-            "rain_30d_mm": 1509.4,
-            "rain_ratio": 0.86,
-            "max_temp_c": 39.8,
-            "heat_anomaly_c": 8.8,
+            "score": 100.0,
+            "rain_30d_mm": 829.7,
+            "rain_ratio": 0.47,
+            "max_temp_c": 37.8,
+            "heat_anomaly_c": 6.8,
+            "observed_through": "2026-10-18"
+          },
+          {
+            "name": "Afghanistan drylands",
+            "lat": 34.0,
+            "lon": 65.0,
+            "score": 63.2,
+            "rain_30d_mm": 7.7,
+            "rain_ratio": 0.18,
+            "max_temp_c": 20.8,
+            "heat_anomaly_c": 0.6,
             "observed_through": "2026-10-18"
           },
           {
             "name": "Ethiopia lowlands",
             "lat": 8.0,
             "lon": 40.0,
-            "score": 76.2,
-            "rain_30d_mm": 1999.4,
-            "rain_ratio": 0.49,
-            "max_temp_c": 26.0,
-            "heat_anomaly_c": 4.0,
-            "observed_through": "2026-10-18"
-          },
-          {
-            "name": "Pakistan Indus",
-            "lat": 29.0,
-            "lon": 70.5,
-            "score": 50.8,
-            "rain_30d_mm": 136.6,
-            "rain_ratio": 0.54,
-            "max_temp_c": 40.8,
-            "heat_anomaly_c": 1.9,
+            "score": 55.9,
+            "rain_30d_mm": 2116.6,
+            "rain_ratio": 0.52,
+            "max_temp_c": 24.1,
+            "heat_anomaly_c": 2.2,
             "observed_through": "2026-10-18"
           }
         ],
@@ -161,10 +161,10 @@
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 185.1,
+        "current_30d_weight": 185.4,
         "baseline_months": 12,
         "baseline_median": 46.6,
-        "anomaly_z": 4.7,
+        "anomaly_z": 4.71,
         "events_considered": 179,
         "evidence": [
           {
@@ -175,7 +175,7 @@
             "event_type": "TC",
             "country": "Guam, Northern Mariana Islands, Japan",
             "weight": 22.4,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=25&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=26&eventtype=TC"
           },
           {
             "id": "TC|1001325",
@@ -258,14 +258,24 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
           },
           {
-            "id": "WF|1032906",
-            "title": "Forest fires in Chad, Nigeria, Cameroon",
-            "date": "2026-10-07T00:00:00+00:00",
+            "id": "WF|1032803",
+            "title": "Forest fires in Mozambique, Zimbabwe",
+            "date": "2026-10-09T00:00:00+00:00",
             "alert_level": "Green",
             "event_type": "WF",
-            "country": "Chad, Nigeria, Cameroon",
-            "weight": 1.2,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1032906&episodeid=8&eventtype=WF"
+            "country": "Mozambique, Zimbabwe",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032803&episodeid=10&eventtype=WF"
+          },
+          {
+            "id": "WF|1032954",
+            "title": "Forest fires in Nigeria, Cameroon",
+            "date": "2026-10-09T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "WF",
+            "country": "Nigeria, Cameroon",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032954&episodeid=2&eventtype=WF"
           },
           {
             "id": "WF|1032897",
@@ -275,7 +285,7 @@
             "event_type": "WF",
             "country": "Botswana, Zimbabwe",
             "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1032897&episodeid=6&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032897&episodeid=7&eventtype=WF"
           },
           {
             "id": "WF|1032953",
@@ -285,7 +295,17 @@
             "event_type": "WF",
             "country": "Zambia, Zimbabwe",
             "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1032953&episodeid=2&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032953&episodeid=3&eventtype=WF"
+          },
+          {
+            "id": "WF|1032984",
+            "title": "Forest fires in South Sudan, Sudan",
+            "date": "2026-10-11T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "WF",
+            "country": "South Sudan, Sudan",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032984&episodeid=1&eventtype=WF"
           },
           {
             "id": "WF|1032828",
@@ -296,26 +316,6 @@
             "country": "Papua New Guinea, Australia",
             "weight": 1.1,
             "url": "https://www.gdacs.org/report.aspx?eventid=1032828&episodeid=12&eventtype=WF"
-          },
-          {
-            "id": "WF|1032835",
-            "title": "Forest fires in Chad, Nigeria",
-            "date": "2026-10-07T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Chad, Nigeria",
-            "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1032835&episodeid=9&eventtype=WF"
-          },
-          {
-            "id": "EQ|1572786",
-            "title": "Earthquake in South Of Fiji Islands",
-            "date": "2026-10-20T16:29:43+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "South Of Fiji Islands",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1572786&episodeid=1741428&eventtype=EQ"
           }
         ],
         "retained": false
@@ -325,9 +325,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 2399.6,
+        "current_30d_weight": 2340.1,
         "baseline_median": 0.0,
-        "anomaly_z": 2399.63,
+        "anomaly_z": 2340.1,
         "events_considered": 1000,
         "evidence": [
           {
@@ -401,26 +401,6 @@
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032458"
           },
           {
-            "id": "EONET_24845",
-            "title": "Wildfire in Angola 1032396",
-            "date": "2026-09-20T19:00:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.1,
-            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032396"
-          },
-          {
-            "id": "EONET_24959",
-            "title": "Wildfire in Papua New Guinea 1032503",
-            "date": "2026-09-20T19:00:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.1,
-            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032503"
-          },
-          {
             "id": "EONET_25465",
             "title": "Wildfire in Zambia 1032930",
             "date": "2026-10-17T19:00:00+00:00",
@@ -479,6 +459,26 @@
             ],
             "weight": 4.0,
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032848"
+          },
+          {
+            "id": "EONET_25122",
+            "title": "Wildfire in Mongolia 1032652",
+            "date": "2026-10-07T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.0,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032652"
+          },
+          {
+            "id": "EONET_24857",
+            "title": "Wildfire in Australia 1032425",
+            "date": "2026-09-25T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.0,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032425"
           }
         ],
         "retained": false
@@ -558,7 +558,7 @@
       {
         "id": "agroclimate_stress",
         "title": "NASA POWER agroclimate stress",
-        "score": 74.9,
+        "score": 73.0,
         "level": "ELEVATED"
       },
       {
@@ -581,17 +581,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-08-31T13:55:56.852424+00:00",
-        "score": 64.4,
-        "level": "ELEVATED",
-        "components": {
-          "agroclimate_stress": 99.4,
-          "gdacs_impact_pressure": 60.0,
-          "eonet_hazard_persistence": 56.0,
-          "food_price_pressure": 17.2
-        }
-      },
       {
         "timestamp": "2026-08-31T22:52:57.571085+00:00",
         "score": 64.4,
@@ -2560,6 +2549,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-10-20T21:39:33.935401+00:00",
+        "score": 64.3,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 73.0,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -2605,7 +2605,7 @@
   "stats": [
     {
       "label": "Climate-Security Pressure",
-      "value": "65.0/100",
+      "value": "64.3/100",
       "delta": "ELEVATED"
     },
     {
@@ -2634,44 +2634,55 @@
           "name": "Sudan grain belt",
           "lat": 13.5,
           "lon": 33.5,
-          "score": 97.7,
-          "rain_30d_mm": 1509.4,
-          "rain_ratio": 0.86,
-          "max_temp_c": 39.8,
-          "heat_anomaly_c": 8.8,
+          "score": 100.0,
+          "rain_30d_mm": 829.7,
+          "rain_ratio": 0.47,
+          "max_temp_c": 37.8,
+          "heat_anomaly_c": 6.8,
+          "observed_through": "2026-10-18"
+        },
+        {
+          "name": "Afghanistan drylands",
+          "lat": 34.0,
+          "lon": 65.0,
+          "score": 63.2,
+          "rain_30d_mm": 7.7,
+          "rain_ratio": 0.18,
+          "max_temp_c": 20.8,
+          "heat_anomaly_c": 0.6,
           "observed_through": "2026-10-18"
         },
         {
           "name": "Ethiopia lowlands",
           "lat": 8.0,
           "lon": 40.0,
-          "score": 76.2,
-          "rain_30d_mm": 1999.4,
-          "rain_ratio": 0.49,
-          "max_temp_c": 26.0,
-          "heat_anomaly_c": 4.0,
+          "score": 55.9,
+          "rain_30d_mm": 2116.6,
+          "rain_ratio": 0.52,
+          "max_temp_c": 24.1,
+          "heat_anomaly_c": 2.2,
           "observed_through": "2026-10-18"
         },
         {
           "name": "Pakistan Indus",
           "lat": 29.0,
           "lon": 70.5,
-          "score": 50.8,
-          "rain_30d_mm": 136.6,
-          "rain_ratio": 0.54,
-          "max_temp_c": 40.8,
-          "heat_anomaly_c": 1.9,
+          "score": 50.0,
+          "rain_30d_mm": 105.6,
+          "rain_ratio": 0.42,
+          "max_temp_c": 39.9,
+          "heat_anomaly_c": 0.9,
           "observed_through": "2026-10-18"
         },
         {
           "name": "Lake Chad basin",
           "lat": 12.5,
           "lon": 14.5,
-          "score": 44.3,
-          "rain_30d_mm": 44.1,
-          "rain_ratio": 1.11,
-          "max_temp_c": 38.5,
-          "heat_anomaly_c": 4.4,
+          "score": 44.9,
+          "rain_30d_mm": 1195.7,
+          "rain_ratio": 1.26,
+          "max_temp_c": 38.6,
+          "heat_anomaly_c": 4.5,
           "observed_through": "2026-10-18"
         },
         {
@@ -2686,24 +2697,13 @@
           "observed_through": "2026-10-18"
         },
         {
-          "name": "Afghanistan drylands",
-          "lat": 34.0,
-          "lon": 65.0,
-          "score": 6.9,
-          "rain_30d_mm": 44.4,
-          "rain_ratio": 1.04,
-          "max_temp_c": 20.9,
-          "heat_anomaly_c": 0.7,
-          "observed_through": "2026-10-18"
-        },
-        {
           "name": "Central America dry corridor",
           "lat": 14.0,
           "lon": -88.5,
-          "score": 0.6,
-          "rain_30d_mm": 12315.8,
-          "rain_ratio": 2.12,
-          "max_temp_c": 27.9,
+          "score": 1.2,
+          "rain_30d_mm": 9597.6,
+          "rain_ratio": 1.65,
+          "max_temp_c": 28.0,
           "heat_anomaly_c": 0.1,
           "observed_through": "2026-10-18"
         },
@@ -2712,10 +2712,10 @@
           "lat": 5.0,
           "lon": 45.3,
           "score": 0.0,
-          "rain_30d_mm": 4180.3,
-          "rain_ratio": 6.52,
-          "max_temp_c": 34.4,
-          "heat_anomaly_c": -2.1,
+          "rain_30d_mm": 4419.8,
+          "rain_ratio": 6.89,
+          "max_temp_c": 34.7,
+          "heat_anomaly_c": -1.8,
           "observed_through": "2026-10-18"
         }
       ]
@@ -2734,7 +2734,7 @@
           "event_type": "TC",
           "country": "Guam, Northern Mariana Islands, Japan",
           "weight": 22.4,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=25&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=26&eventtype=TC"
         },
         {
           "id": "TC|1001325",
@@ -2817,14 +2817,24 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
         },
         {
-          "id": "WF|1032906",
-          "title": "Forest fires in Chad, Nigeria, Cameroon",
-          "date": "2026-10-07T00:00:00+00:00",
+          "id": "WF|1032803",
+          "title": "Forest fires in Mozambique, Zimbabwe",
+          "date": "2026-10-09T00:00:00+00:00",
           "alert_level": "Green",
           "event_type": "WF",
-          "country": "Chad, Nigeria, Cameroon",
-          "weight": 1.2,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032906&episodeid=8&eventtype=WF"
+          "country": "Mozambique, Zimbabwe",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032803&episodeid=10&eventtype=WF"
+        },
+        {
+          "id": "WF|1032954",
+          "title": "Forest fires in Nigeria, Cameroon",
+          "date": "2026-10-09T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "WF",
+          "country": "Nigeria, Cameroon",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032954&episodeid=2&eventtype=WF"
         },
         {
           "id": "WF|1032897",
@@ -2834,7 +2844,7 @@
           "event_type": "WF",
           "country": "Botswana, Zimbabwe",
           "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032897&episodeid=6&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032897&episodeid=7&eventtype=WF"
         },
         {
           "id": "WF|1032953",
@@ -2844,7 +2854,17 @@
           "event_type": "WF",
           "country": "Zambia, Zimbabwe",
           "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032953&episodeid=2&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032953&episodeid=3&eventtype=WF"
+        },
+        {
+          "id": "WF|1032984",
+          "title": "Forest fires in South Sudan, Sudan",
+          "date": "2026-10-11T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "WF",
+          "country": "South Sudan, Sudan",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032984&episodeid=1&eventtype=WF"
         },
         {
           "id": "WF|1032828",
@@ -2855,26 +2875,6 @@
           "country": "Papua New Guinea, Australia",
           "weight": 1.1,
           "url": "https://www.gdacs.org/report.aspx?eventid=1032828&episodeid=12&eventtype=WF"
-        },
-        {
-          "id": "WF|1032835",
-          "title": "Forest fires in Chad, Nigeria",
-          "date": "2026-10-07T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Chad, Nigeria",
-          "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1032835&episodeid=9&eventtype=WF"
-        },
-        {
-          "id": "EQ|1572786",
-          "title": "Earthquake in South Of Fiji Islands",
-          "date": "2026-10-20T16:29:43+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "South Of Fiji Islands",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1572786&episodeid=1741428&eventtype=EQ"
         }
       ]
     },
@@ -2955,26 +2955,6 @@
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032458"
         },
         {
-          "id": "EONET_24845",
-          "title": "Wildfire in Angola 1032396",
-          "date": "2026-09-20T19:00:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.1,
-          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032396"
-        },
-        {
-          "id": "EONET_24959",
-          "title": "Wildfire in Papua New Guinea 1032503",
-          "date": "2026-09-20T19:00:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.1,
-          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032503"
-        },
-        {
           "id": "EONET_25465",
           "title": "Wildfire in Zambia 1032930",
           "date": "2026-10-17T19:00:00+00:00",
@@ -3033,6 +3013,26 @@
           ],
           "weight": 4.0,
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032848"
+        },
+        {
+          "id": "EONET_25122",
+          "title": "Wildfire in Mongolia 1032652",
+          "date": "2026-10-07T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.0,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032652"
+        },
+        {
+          "id": "EONET_24857",
+          "title": "Wildfire in Australia 1032425",
+          "date": "2026-09-25T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.0,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032425"
         }
       ]
     },
@@ -7009,33 +7009,33 @@
       "name": "Sudan grain belt",
       "lat": 13.5,
       "lon": 33.5,
-      "score": 97.7,
-      "rain_30d_mm": 1509.4,
-      "rain_ratio": 0.86,
-      "max_temp_c": 39.8,
-      "heat_anomaly_c": 8.8,
+      "score": 100.0,
+      "rain_30d_mm": 829.7,
+      "rain_ratio": 0.47,
+      "max_temp_c": 37.8,
+      "heat_anomaly_c": 6.8,
+      "observed_through": "2026-10-18"
+    },
+    {
+      "name": "Afghanistan drylands",
+      "lat": 34.0,
+      "lon": 65.0,
+      "score": 63.2,
+      "rain_30d_mm": 7.7,
+      "rain_ratio": 0.18,
+      "max_temp_c": 20.8,
+      "heat_anomaly_c": 0.6,
       "observed_through": "2026-10-18"
     },
     {
       "name": "Ethiopia lowlands",
       "lat": 8.0,
       "lon": 40.0,
-      "score": 76.2,
-      "rain_30d_mm": 1999.4,
-      "rain_ratio": 0.49,
-      "max_temp_c": 26.0,
-      "heat_anomaly_c": 4.0,
-      "observed_through": "2026-10-18"
-    },
-    {
-      "name": "Pakistan Indus",
-      "lat": 29.0,
-      "lon": 70.5,
-      "score": 50.8,
-      "rain_30d_mm": 136.6,
-      "rain_ratio": 0.54,
-      "max_temp_c": 40.8,
-      "heat_anomaly_c": 1.9,
+      "score": 55.9,
+      "rain_30d_mm": 2116.6,
+      "rain_ratio": 0.52,
+      "max_temp_c": 24.1,
+      "heat_anomaly_c": 2.2,
       "observed_through": "2026-10-18"
     },
     {
@@ -7046,7 +7046,7 @@
       "event_type": "TC",
       "country": "Guam, Northern Mariana Islands, Japan",
       "weight": 22.4,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=25&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=26&eventtype=TC"
     },
     {
       "id": "TC|1001325",
@@ -7129,14 +7129,24 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
     },
     {
-      "id": "WF|1032906",
-      "title": "Forest fires in Chad, Nigeria, Cameroon",
-      "date": "2026-10-07T00:00:00+00:00",
+      "id": "WF|1032803",
+      "title": "Forest fires in Mozambique, Zimbabwe",
+      "date": "2026-10-09T00:00:00+00:00",
       "alert_level": "Green",
       "event_type": "WF",
-      "country": "Chad, Nigeria, Cameroon",
-      "weight": 1.2,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1032906&episodeid=8&eventtype=WF"
+      "country": "Mozambique, Zimbabwe",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1032803&episodeid=10&eventtype=WF"
+    },
+    {
+      "id": "WF|1032954",
+      "title": "Forest fires in Nigeria, Cameroon",
+      "date": "2026-10-09T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "WF",
+      "country": "Nigeria, Cameroon",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1032954&episodeid=2&eventtype=WF"
     },
     {
       "id": "WF|1032897",
@@ -7146,7 +7156,7 @@
       "event_type": "WF",
       "country": "Botswana, Zimbabwe",
       "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1032897&episodeid=6&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1032897&episodeid=7&eventtype=WF"
     },
     {
       "id": "WF|1032953",
@@ -7156,7 +7166,17 @@
       "event_type": "WF",
       "country": "Zambia, Zimbabwe",
       "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1032953&episodeid=2&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1032953&episodeid=3&eventtype=WF"
+    },
+    {
+      "id": "WF|1032984",
+      "title": "Forest fires in South Sudan, Sudan",
+      "date": "2026-10-11T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "WF",
+      "country": "South Sudan, Sudan",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1032984&episodeid=1&eventtype=WF"
     },
     {
       "id": "WF|1032828",
@@ -7167,26 +7187,6 @@
       "country": "Papua New Guinea, Australia",
       "weight": 1.1,
       "url": "https://www.gdacs.org/report.aspx?eventid=1032828&episodeid=12&eventtype=WF"
-    },
-    {
-      "id": "WF|1032835",
-      "title": "Forest fires in Chad, Nigeria",
-      "date": "2026-10-07T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Chad, Nigeria",
-      "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1032835&episodeid=9&eventtype=WF"
-    },
-    {
-      "id": "EQ|1572786",
-      "title": "Earthquake in South Of Fiji Islands",
-      "date": "2026-10-20T16:29:43+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "South Of Fiji Islands",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1572786&episodeid=1741428&eventtype=EQ"
     },
     {
       "id": "EONET_25124",
@@ -7259,26 +7259,6 @@
       "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032458"
     },
     {
-      "id": "EONET_24845",
-      "title": "Wildfire in Angola 1032396",
-      "date": "2026-09-20T19:00:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.1,
-      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032396"
-    },
-    {
-      "id": "EONET_24959",
-      "title": "Wildfire in Papua New Guinea 1032503",
-      "date": "2026-09-20T19:00:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.1,
-      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032503"
-    },
-    {
       "id": "EONET_25465",
       "title": "Wildfire in Zambia 1032930",
       "date": "2026-10-17T19:00:00+00:00",
@@ -7307,6 +7287,26 @@
       ],
       "weight": 4.0,
       "url": "https://irwin.doi.gov/observer/incidents/2026-CAPMQ-003992"
+    },
+    {
+      "id": "EONET_25311",
+      "title": "Prescribed Fire Jane 102 RX, Harney, Oregon",
+      "date": "2026-10-13T10:24:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.0,
+      "url": "https://irwin.doi.gov/observer/incidents/2026-ORMAF-002746"
+    },
+    {
+      "id": "EONET_25202",
+      "title": "Wildfire in Mongolia 1032726",
+      "date": "2026-10-09T19:00:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.0,
+      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032726"
     }
   ]
 }
