@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-10-21T17:15:12.241876+00:00",
+    "generated": "2026-10-21T21:45:11.626999+00:00",
     "mode": "partial",
     "sources": [
       "NASA POWER Daily API",
@@ -15,7 +15,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-21T17:15:12.054272+00:00",
+    "issued_at": "2026-10-21T21:45:11.488766+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 64.8,
@@ -46,7 +46,7 @@
             "lat": 34.0,
             "lon": 65.0,
             "score": 65.0,
-            "rain_30d_mm": 0.3,
+            "rain_30d_mm": 7.7,
             "rain_ratio": 0.16,
             "max_temp_c": 20.6,
             "heat_anomaly_c": 0.6,
@@ -136,7 +136,7 @@
             "lat": 34.0,
             "lon": 65.0,
             "score": 65.0,
-            "rain_30d_mm": 0.3,
+            "rain_30d_mm": 7.7,
             "rain_ratio": 0.16,
             "max_temp_c": 20.6,
             "heat_anomaly_c": 0.6,
@@ -161,10 +161,10 @@
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 179.9,
+        "current_30d_weight": 182.4,
         "baseline_months": 12,
         "baseline_median": 47.9,
-        "anomaly_z": 4.97,
+        "anomaly_z": 5.06,
         "events_considered": 179,
         "evidence": [
           {
@@ -173,9 +173,9 @@
             "date": "2026-10-14T12:00:00+00:00",
             "alert_level": "Red",
             "event_type": "TC",
-            "country": "Philippines, Guam, Northern Mariana Islands, Japan",
-            "weight": 24.8,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=29&eventtype=TC"
+            "country": "Philippines, Guam, Northern Mariana Islands, Japan, Taiwan",
+            "weight": 27.2,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=30&eventtype=TC"
           },
           {
             "id": "TC|1001335",
@@ -248,6 +248,16 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
           },
           {
+            "id": "TC|1001342",
+            "title": "Tropical Cyclone JOSEPHINE-26",
+            "date": "2026-10-21T21:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "United States, Canada, Saint Pierre and Miquelon",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001342&episodeid=1&eventtype=TC"
+          },
+          {
             "id": "WF|1032988",
             "title": "Forest fires in Zimbabwe, Mozambique",
             "date": "2026-10-07T00:00:00+00:00",
@@ -278,44 +288,34 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1104243&episodeid=2&eventtype=FL"
           },
           {
-            "id": "EQ|1572968",
-            "title": "Earthquake in Vanuatu Islands",
-            "date": "2026-10-21T15:22:33+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Vanuatu Islands",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1572968&episodeid=1741634&eventtype=EQ"
-          },
-          {
             "id": "TC|1001341",
-            "title": "Tropical Cyclone TWENTY-TWO-E-26",
+            "title": "Tropical Cyclone VANCE-26",
             "date": "2026-10-21T15:00:00+00:00",
             "alert_level": "Green",
             "event_type": "TC",
             "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001341&episodeid=1&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001341&episodeid=2&eventtype=TC"
           },
           {
-            "id": "EQ|1572947",
-            "title": "Earthquake in Vanuatu Islands",
-            "date": "2026-10-21T14:56:27+00:00",
+            "id": "EQ|1572992",
+            "title": "Earthquake in Namibia",
+            "date": "2026-10-21T20:34:50+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Vanuatu Islands",
+            "country": "Namibia",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1572947&episodeid=1741610&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1572992&episodeid=1741669&eventtype=EQ"
           },
           {
-            "id": "EQ|1572939",
-            "title": "Earthquake in Japan",
-            "date": "2026-10-21T14:40:50+00:00",
+            "id": "EQ|1572986",
+            "title": "Earthquake in Reykjanes Ridge",
+            "date": "2026-10-21T19:06:06+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Japan",
+            "country": "Reykjanes Ridge",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1572939&episodeid=1741629&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1572986&episodeid=1741655&eventtype=EQ"
           }
         ],
         "retained": false
@@ -325,9 +325,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 2522.4,
+        "current_30d_weight": 2467.0,
         "baseline_median": 0.0,
-        "anomaly_z": 2522.43,
+        "anomaly_z": 2467.02,
         "events_considered": 1000,
         "evidence": [
           {
@@ -581,17 +581,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-01T16:42:22.797943+00:00",
-        "score": 64.6,
-        "level": "ELEVATED",
-        "components": {
-          "agroclimate_stress": 100.0,
-          "gdacs_impact_pressure": 60.0,
-          "eonet_hazard_persistence": 56.0,
-          "food_price_pressure": 17.2
-        }
-      },
       {
         "timestamp": "2026-09-01T21:04:23.049886+00:00",
         "score": 64.6,
@@ -2560,6 +2549,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-10-21T21:45:11.488766+00:00",
+        "score": 64.8,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 74.3,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -2646,7 +2646,7 @@
           "lat": 34.0,
           "lon": 65.0,
           "score": 65.0,
-          "rain_30d_mm": 0.3,
+          "rain_30d_mm": 7.7,
           "rain_ratio": 0.16,
           "max_temp_c": 20.6,
           "heat_anomaly_c": 0.6,
@@ -2732,9 +2732,9 @@
           "date": "2026-10-14T12:00:00+00:00",
           "alert_level": "Red",
           "event_type": "TC",
-          "country": "Philippines, Guam, Northern Mariana Islands, Japan",
-          "weight": 24.8,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=29&eventtype=TC"
+          "country": "Philippines, Guam, Northern Mariana Islands, Japan, Taiwan",
+          "weight": 27.2,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=30&eventtype=TC"
         },
         {
           "id": "TC|1001335",
@@ -2807,6 +2807,16 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
         },
         {
+          "id": "TC|1001342",
+          "title": "Tropical Cyclone JOSEPHINE-26",
+          "date": "2026-10-21T21:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "United States, Canada, Saint Pierre and Miquelon",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001342&episodeid=1&eventtype=TC"
+        },
+        {
           "id": "WF|1032988",
           "title": "Forest fires in Zimbabwe, Mozambique",
           "date": "2026-10-07T00:00:00+00:00",
@@ -2837,44 +2847,34 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1104243&episodeid=2&eventtype=FL"
         },
         {
-          "id": "EQ|1572968",
-          "title": "Earthquake in Vanuatu Islands",
-          "date": "2026-10-21T15:22:33+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Vanuatu Islands",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1572968&episodeid=1741634&eventtype=EQ"
-        },
-        {
           "id": "TC|1001341",
-          "title": "Tropical Cyclone TWENTY-TWO-E-26",
+          "title": "Tropical Cyclone VANCE-26",
           "date": "2026-10-21T15:00:00+00:00",
           "alert_level": "Green",
           "event_type": "TC",
           "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001341&episodeid=1&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001341&episodeid=2&eventtype=TC"
         },
         {
-          "id": "EQ|1572947",
-          "title": "Earthquake in Vanuatu Islands",
-          "date": "2026-10-21T14:56:27+00:00",
+          "id": "EQ|1572992",
+          "title": "Earthquake in Namibia",
+          "date": "2026-10-21T20:34:50+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Vanuatu Islands",
+          "country": "Namibia",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1572947&episodeid=1741610&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1572992&episodeid=1741669&eventtype=EQ"
         },
         {
-          "id": "EQ|1572939",
-          "title": "Earthquake in Japan",
-          "date": "2026-10-21T14:40:50+00:00",
+          "id": "EQ|1572986",
+          "title": "Earthquake in Reykjanes Ridge",
+          "date": "2026-10-21T19:06:06+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Japan",
+          "country": "Reykjanes Ridge",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1572939&episodeid=1741629&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1572986&episodeid=1741655&eventtype=EQ"
         }
       ]
     },
@@ -7021,7 +7021,7 @@
       "lat": 34.0,
       "lon": 65.0,
       "score": 65.0,
-      "rain_30d_mm": 0.3,
+      "rain_30d_mm": 7.7,
       "rain_ratio": 0.16,
       "max_temp_c": 20.6,
       "heat_anomaly_c": 0.6,
@@ -7044,9 +7044,9 @@
       "date": "2026-10-14T12:00:00+00:00",
       "alert_level": "Red",
       "event_type": "TC",
-      "country": "Philippines, Guam, Northern Mariana Islands, Japan",
-      "weight": 24.8,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=29&eventtype=TC"
+      "country": "Philippines, Guam, Northern Mariana Islands, Japan, Taiwan",
+      "weight": 27.2,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=30&eventtype=TC"
     },
     {
       "id": "TC|1001335",
@@ -7119,6 +7119,16 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1001326&episodeid=6&eventtype=TC"
     },
     {
+      "id": "TC|1001342",
+      "title": "Tropical Cyclone JOSEPHINE-26",
+      "date": "2026-10-21T21:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "United States, Canada, Saint Pierre and Miquelon",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001342&episodeid=1&eventtype=TC"
+    },
+    {
       "id": "WF|1032988",
       "title": "Forest fires in Zimbabwe, Mozambique",
       "date": "2026-10-07T00:00:00+00:00",
@@ -7149,44 +7159,34 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1104243&episodeid=2&eventtype=FL"
     },
     {
-      "id": "EQ|1572968",
-      "title": "Earthquake in Vanuatu Islands",
-      "date": "2026-10-21T15:22:33+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Vanuatu Islands",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1572968&episodeid=1741634&eventtype=EQ"
-    },
-    {
       "id": "TC|1001341",
-      "title": "Tropical Cyclone TWENTY-TWO-E-26",
+      "title": "Tropical Cyclone VANCE-26",
       "date": "2026-10-21T15:00:00+00:00",
       "alert_level": "Green",
       "event_type": "TC",
       "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001341&episodeid=1&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001341&episodeid=2&eventtype=TC"
     },
     {
-      "id": "EQ|1572947",
-      "title": "Earthquake in Vanuatu Islands",
-      "date": "2026-10-21T14:56:27+00:00",
+      "id": "EQ|1572992",
+      "title": "Earthquake in Namibia",
+      "date": "2026-10-21T20:34:50+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Vanuatu Islands",
+      "country": "Namibia",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1572947&episodeid=1741610&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1572992&episodeid=1741669&eventtype=EQ"
     },
     {
-      "id": "EQ|1572939",
-      "title": "Earthquake in Japan",
-      "date": "2026-10-21T14:40:50+00:00",
+      "id": "EQ|1572986",
+      "title": "Earthquake in Reykjanes Ridge",
+      "date": "2026-10-21T19:06:06+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Japan",
+      "country": "Reykjanes Ridge",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1572939&episodeid=1741629&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1572986&episodeid=1741655&eventtype=EQ"
     },
     {
       "id": "EONET_25124",
