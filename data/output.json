@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-10-22T11:57:21.132747+00:00",
+    "generated": "2026-10-22T17:13:39.824463+00:00",
     "mode": "partial",
     "sources": [
       "NASA POWER Daily API",
@@ -15,7 +15,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-22T11:57:20.883494+00:00",
+    "issued_at": "2026-10-22T17:13:39.554878+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 65.0,
@@ -161,10 +161,10 @@
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 182.8,
+        "current_30d_weight": 201.9,
         "baseline_months": 12,
         "baseline_median": 47.9,
-        "anomaly_z": 5.08,
+        "anomaly_z": 5.8,
         "events_considered": 179,
         "evidence": [
           {
@@ -175,7 +175,17 @@
             "event_type": "TC",
             "country": "Philippines, Guam, Northern Mariana Islands, Japan, Taiwan",
             "weight": 27.2,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=32&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=33&eventtype=TC"
+          },
+          {
+            "id": "EQ|1573141",
+            "title": "Earthquake in China",
+            "date": "2026-10-22T14:33:40+00:00",
+            "alert_level": "Red",
+            "event_type": "EQ",
+            "country": "China",
+            "weight": 20.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ"
           },
           {
             "id": "TC|1001335",
@@ -255,7 +265,7 @@
             "event_type": "TC",
             "country": "United States, Canada, Saint Pierre and Miquelon",
             "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001342&episodeid=3&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001342&episodeid=4&eventtype=TC"
           },
           {
             "id": "WF|1033043",
@@ -265,7 +275,7 @@
             "event_type": "WF",
             "country": "Nigeria, Cameroon",
             "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033043&episodeid=1&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033043&episodeid=2&eventtype=WF"
           },
           {
             "id": "WF|1032835",
@@ -298,24 +308,14 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1032875&episodeid=4&eventtype=WF"
           },
           {
-            "id": "EQ|1573113",
-            "title": "Earthquake in Indonesia",
-            "date": "2026-10-22T10:57:52+00:00",
+            "id": "WF|1033035",
+            "title": "Forest fires in Zambia, Zimbabwe",
+            "date": "2026-10-14T00:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Indonesia",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1573113&episodeid=1741803&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1573108",
-            "title": "Earthquake in Afghanistan",
-            "date": "2026-10-22T10:07:41+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Afghanistan",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1573108&episodeid=1741795&eventtype=EQ"
+            "event_type": "WF",
+            "country": "Zambia, Zimbabwe",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033035&episodeid=2&eventtype=WF"
           }
         ],
         "retained": false
@@ -325,11 +325,21 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 2463.4,
+        "current_30d_weight": 2611.4,
         "baseline_median": 0.0,
-        "anomaly_z": 2463.39,
+        "anomaly_z": 2611.4,
         "events_considered": 1000,
         "evidence": [
+          {
+            "id": "EONET_25549",
+            "title": "Wildfire in Australia 1033018",
+            "date": "2026-10-20T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.2,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033018"
+          },
           {
             "id": "EONET_25124",
             "title": "Wildfire in Mongolia 1032663",
@@ -401,6 +411,16 @@
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032458"
           },
           {
+            "id": "EONET_25564",
+            "title": "Wildfire in Australia 1033013",
+            "date": "2026-10-19T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.0,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033013"
+          },
+          {
             "id": "EONET_25465",
             "title": "Wildfire in Zambia 1032930",
             "date": "2026-10-17T19:00:00+00:00",
@@ -459,26 +479,6 @@
             ],
             "weight": 4.0,
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032726"
-          },
-          {
-            "id": "EONET_25379",
-            "title": "Wildfire in Australia 1032848",
-            "date": "2026-10-09T19:00:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.0,
-            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032848"
-          },
-          {
-            "id": "EONET_25122",
-            "title": "Wildfire in Mongolia 1032652",
-            "date": "2026-10-07T19:00:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.0,
-            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032652"
           }
         ],
         "retained": false
@@ -581,17 +581,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-02T11:22:08.992338+00:00",
-        "score": 64.6,
-        "level": "ELEVATED",
-        "components": {
-          "agroclimate_stress": 100.0,
-          "gdacs_impact_pressure": 60.0,
-          "eonet_hazard_persistence": 56.0,
-          "food_price_pressure": 17.2
-        }
-      },
       {
         "timestamp": "2026-09-02T16:37:11.218600+00:00",
         "score": 64.6,
@@ -2560,6 +2549,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-10-22T17:13:39.554878+00:00",
+        "score": 65.0,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 74.8,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -2734,7 +2734,17 @@
           "event_type": "TC",
           "country": "Philippines, Guam, Northern Mariana Islands, Japan, Taiwan",
           "weight": 27.2,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=32&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=33&eventtype=TC"
+        },
+        {
+          "id": "EQ|1573141",
+          "title": "Earthquake in China",
+          "date": "2026-10-22T14:33:40+00:00",
+          "alert_level": "Red",
+          "event_type": "EQ",
+          "country": "China",
+          "weight": 20.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ"
         },
         {
           "id": "TC|1001335",
@@ -2814,7 +2824,7 @@
           "event_type": "TC",
           "country": "United States, Canada, Saint Pierre and Miquelon",
           "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001342&episodeid=3&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001342&episodeid=4&eventtype=TC"
         },
         {
           "id": "WF|1033043",
@@ -2824,7 +2834,7 @@
           "event_type": "WF",
           "country": "Nigeria, Cameroon",
           "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033043&episodeid=1&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033043&episodeid=2&eventtype=WF"
         },
         {
           "id": "WF|1032835",
@@ -2857,24 +2867,14 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1032875&episodeid=4&eventtype=WF"
         },
         {
-          "id": "EQ|1573113",
-          "title": "Earthquake in Indonesia",
-          "date": "2026-10-22T10:57:52+00:00",
+          "id": "WF|1033035",
+          "title": "Forest fires in Zambia, Zimbabwe",
+          "date": "2026-10-14T00:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Indonesia",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1573113&episodeid=1741803&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1573108",
-          "title": "Earthquake in Afghanistan",
-          "date": "2026-10-22T10:07:41+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Afghanistan",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1573108&episodeid=1741795&eventtype=EQ"
+          "event_type": "WF",
+          "country": "Zambia, Zimbabwe",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033035&episodeid=2&eventtype=WF"
         }
       ]
     },
@@ -2884,6 +2884,16 @@
       "retained": false,
       "compact": true,
       "events": [
+        {
+          "id": "EONET_25549",
+          "title": "Wildfire in Australia 1033018",
+          "date": "2026-10-20T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.2,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033018"
+        },
         {
           "id": "EONET_25124",
           "title": "Wildfire in Mongolia 1032663",
@@ -2955,6 +2965,16 @@
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032458"
         },
         {
+          "id": "EONET_25564",
+          "title": "Wildfire in Australia 1033013",
+          "date": "2026-10-19T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.0,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033013"
+        },
+        {
           "id": "EONET_25465",
           "title": "Wildfire in Zambia 1032930",
           "date": "2026-10-17T19:00:00+00:00",
@@ -3013,26 +3033,6 @@
           ],
           "weight": 4.0,
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032726"
-        },
-        {
-          "id": "EONET_25379",
-          "title": "Wildfire in Australia 1032848",
-          "date": "2026-10-09T19:00:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.0,
-          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032848"
-        },
-        {
-          "id": "EONET_25122",
-          "title": "Wildfire in Mongolia 1032652",
-          "date": "2026-10-07T19:00:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.0,
-          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032652"
         }
       ]
     },
@@ -7046,7 +7046,17 @@
       "event_type": "TC",
       "country": "Philippines, Guam, Northern Mariana Islands, Japan, Taiwan",
       "weight": 27.2,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=32&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=33&eventtype=TC"
+    },
+    {
+      "id": "EQ|1573141",
+      "title": "Earthquake in China",
+      "date": "2026-10-22T14:33:40+00:00",
+      "alert_level": "Red",
+      "event_type": "EQ",
+      "country": "China",
+      "weight": 20.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ"
     },
     {
       "id": "TC|1001335",
@@ -7126,7 +7136,7 @@
       "event_type": "TC",
       "country": "United States, Canada, Saint Pierre and Miquelon",
       "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001342&episodeid=3&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001342&episodeid=4&eventtype=TC"
     },
     {
       "id": "WF|1033043",
@@ -7136,7 +7146,7 @@
       "event_type": "WF",
       "country": "Nigeria, Cameroon",
       "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033043&episodeid=1&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033043&episodeid=2&eventtype=WF"
     },
     {
       "id": "WF|1032835",
@@ -7169,24 +7179,24 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1032875&episodeid=4&eventtype=WF"
     },
     {
-      "id": "EQ|1573113",
-      "title": "Earthquake in Indonesia",
-      "date": "2026-10-22T10:57:52+00:00",
+      "id": "WF|1033035",
+      "title": "Forest fires in Zambia, Zimbabwe",
+      "date": "2026-10-14T00:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Indonesia",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1573113&episodeid=1741803&eventtype=EQ"
+      "event_type": "WF",
+      "country": "Zambia, Zimbabwe",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033035&episodeid=2&eventtype=WF"
     },
     {
-      "id": "EQ|1573108",
-      "title": "Earthquake in Afghanistan",
-      "date": "2026-10-22T10:07:41+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Afghanistan",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1573108&episodeid=1741795&eventtype=EQ"
+      "id": "EONET_25549",
+      "title": "Wildfire in Australia 1033018",
+      "date": "2026-10-20T19:00:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.2,
+      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033018"
     },
     {
       "id": "EONET_25124",
@@ -7259,6 +7269,16 @@
       "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032458"
     },
     {
+      "id": "EONET_25564",
+      "title": "Wildfire in Australia 1033013",
+      "date": "2026-10-19T19:00:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.0,
+      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033013"
+    },
+    {
       "id": "EONET_25465",
       "title": "Wildfire in Zambia 1032930",
       "date": "2026-10-17T19:00:00+00:00",
@@ -7287,26 +7307,6 @@
       ],
       "weight": 4.0,
       "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032970"
-    },
-    {
-      "id": "EONET_25451",
-      "title": "Wildfire HENDERSON, San Diego, California",
-      "date": "2026-10-15T17:11:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.0,
-      "url": "https://irwin.doi.gov/observer/incidents/2026-CAPMQ-003992"
-    },
-    {
-      "id": "EONET_25311",
-      "title": "Prescribed Fire Jane 102 RX, Harney, Oregon",
-      "date": "2026-10-13T10:24:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.0,
-      "url": "https://irwin.doi.gov/observer/incidents/2026-ORMAF-002746"
     }
   ]
 }
