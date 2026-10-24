@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-10-24T11:05:47.509355+00:00",
+    "generated": "2026-10-24T15:59:36.405042+00:00",
     "mode": "partial",
     "sources": [
       "NASA POWER Daily API",
@@ -15,7 +15,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-24T11:05:47.303246+00:00",
+    "issued_at": "2026-10-24T15:59:36.219452+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 66.0,
@@ -46,7 +46,7 @@
             "lat": 8.0,
             "lon": 40.0,
             "score": 68.4,
-            "rain_30d_mm": 1645.9,
+            "rain_30d_mm": 68.6,
             "rain_ratio": 0.44,
             "max_temp_c": 24.7,
             "heat_anomaly_c": 2.9,
@@ -90,7 +90,7 @@
             "lat": 14.5,
             "lon": -1.5,
             "score": 23.4,
-            "rain_30d_mm": 1164.2,
+            "rain_30d_mm": 48.5,
             "rain_ratio": 2.6,
             "max_temp_c": 38.5,
             "heat_anomaly_c": 2.3,
@@ -136,7 +136,7 @@
             "lat": 8.0,
             "lon": 40.0,
             "score": 68.4,
-            "rain_30d_mm": 1645.9,
+            "rain_30d_mm": 68.6,
             "rain_ratio": 0.44,
             "max_temp_c": 24.7,
             "heat_anomaly_c": 2.9,
@@ -161,10 +161,10 @@
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 193.9,
+        "current_30d_weight": 193.4,
         "baseline_months": 12,
         "baseline_median": 50.0,
-        "anomaly_z": 4.41,
+        "anomaly_z": 3.72,
         "events_considered": 180,
         "evidence": [
           {
@@ -258,16 +258,6 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1032957&episodeid=8&eventtype=WF"
           },
           {
-            "id": "WF|1033125",
-            "title": "Forest fires in Zimbabwe, Mozambique, Zambia",
-            "date": "2026-10-13T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Zimbabwe, Mozambique, Zambia",
-            "weight": 1.2,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033125&episodeid=1&eventtype=WF"
-          },
-          {
             "id": "WF|1033116",
             "title": "Forest fires in Niger, Burkina Faso",
             "date": "2026-10-18T00:00:00+00:00",
@@ -276,6 +266,16 @@
             "country": "Niger, Burkina Faso",
             "weight": 1.1,
             "url": "https://www.gdacs.org/report.aspx?eventid=1033116&episodeid=2&eventtype=WF"
+          },
+          {
+            "id": "WF|1033084",
+            "title": "Forest fires in Suriname, Brazil",
+            "date": "2026-10-13T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "WF",
+            "country": "Suriname, Brazil",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033084&episodeid=6&eventtype=WF"
           },
           {
             "id": "WF|1033068",
@@ -288,34 +288,34 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1033068&episodeid=3&eventtype=WF"
           },
           {
-            "id": "WF|1033107",
-            "title": "Forest fires in Namibia, Botswana",
-            "date": "2026-10-20T00:00:00+00:00",
+            "id": "EQ|1573640",
+            "title": "Earthquake in Bouvet Island Region",
+            "date": "2026-10-24T15:24:19+00:00",
             "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Namibia, Botswana",
-            "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033107&episodeid=2&eventtype=WF"
+            "event_type": "EQ",
+            "country": "Bouvet Island Region",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1573640&episodeid=1742420&eventtype=EQ"
           },
           {
-            "id": "WF|1033103",
-            "title": "Forest fires in Botswana, Zimbabwe",
-            "date": "2026-10-22T00:00:00+00:00",
+            "id": "EQ|1573643",
+            "title": "Earthquake in Vanuatu Islands",
+            "date": "2026-10-24T15:19:25+00:00",
             "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Botswana, Zimbabwe",
-            "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033103&episodeid=2&eventtype=WF"
+            "event_type": "EQ",
+            "country": "Vanuatu Islands",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1573643&episodeid=1742423&eventtype=EQ"
           },
           {
-            "id": "WF|1033101",
-            "title": "Forest fires in Mauritania, Mali",
-            "date": "2026-10-23T00:00:00+00:00",
+            "id": "EQ|1573635",
+            "title": "Earthquake in Vanuatu Islands",
+            "date": "2026-10-24T13:53:00+00:00",
             "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Mauritania, Mali",
-            "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033101&episodeid=1&eventtype=WF"
+            "event_type": "EQ",
+            "country": "Vanuatu Islands",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1573635&episodeid=1742412&eventtype=EQ"
           }
         ],
         "retained": false
@@ -325,9 +325,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 2625.8,
+        "current_30d_weight": 2793.4,
         "baseline_median": 0.0,
-        "anomaly_z": 2625.8,
+        "anomaly_z": 2793.42,
         "events_considered": 1000,
         "evidence": [
           {
@@ -349,6 +349,26 @@
             ],
             "weight": 4.2,
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032663"
+          },
+          {
+            "id": "EONET_25642",
+            "title": "Wildfire in Australia 1033134",
+            "date": "2026-10-22T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.1,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033134"
+          },
+          {
+            "id": "EONET_25650",
+            "title": "Wildfire in Australia 1033140",
+            "date": "2026-10-21T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.1,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033140"
           },
           {
             "id": "EONET_25432",
@@ -411,6 +431,16 @@
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032458"
           },
           {
+            "id": "EONET_25644",
+            "title": "Wildfire in Botswana, Zimbabwe 1033103",
+            "date": "2026-10-21T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.0,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033103"
+          },
+          {
             "id": "EONET_25602",
             "title": "Wildfire in Australia 1033092",
             "date": "2026-10-20T19:00:00+00:00",
@@ -449,36 +479,6 @@
             ],
             "weight": 4.0,
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032938"
-          },
-          {
-            "id": "EONET_25523",
-            "title": "Wildfire in Australia 1032970",
-            "date": "2026-10-15T19:00:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.0,
-            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032970"
-          },
-          {
-            "id": "EONET_25624",
-            "title": "Wildfire in Mozambique 1033060",
-            "date": "2026-10-15T19:00:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.0,
-            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033060"
-          },
-          {
-            "id": "EONET_25451",
-            "title": "Wildfire HENDERSON, San Diego, California",
-            "date": "2026-10-15T17:11:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.0,
-            "url": "https://irwin.doi.gov/observer/incidents/2026-CAPMQ-003992"
           }
         ],
         "retained": false
@@ -581,17 +581,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-04T11:21:42.564827+00:00",
-        "score": 73.8,
-        "level": "ELEVATED",
-        "components": {
-          "agroclimate_stress": 100.0,
-          "gdacs_impact_pressure": 60.0,
-          "eonet_hazard_persistence": 56.0,
-          "food_price_pressure": 37.9
-        }
-      },
       {
         "timestamp": "2026-09-04T16:23:54.001246+00:00",
         "score": 73.8,
@@ -2560,6 +2549,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-10-24T15:59:36.219452+00:00",
+        "score": 66.0,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 77.8,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -2646,7 +2646,7 @@
           "lat": 8.0,
           "lon": 40.0,
           "score": 68.4,
-          "rain_30d_mm": 1645.9,
+          "rain_30d_mm": 68.6,
           "rain_ratio": 0.44,
           "max_temp_c": 24.7,
           "heat_anomaly_c": 2.9,
@@ -2690,7 +2690,7 @@
           "lat": 14.5,
           "lon": -1.5,
           "score": 23.4,
-          "rain_30d_mm": 1164.2,
+          "rain_30d_mm": 48.5,
           "rain_ratio": 2.6,
           "max_temp_c": 38.5,
           "heat_anomaly_c": 2.3,
@@ -2817,16 +2817,6 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1032957&episodeid=8&eventtype=WF"
         },
         {
-          "id": "WF|1033125",
-          "title": "Forest fires in Zimbabwe, Mozambique, Zambia",
-          "date": "2026-10-13T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Zimbabwe, Mozambique, Zambia",
-          "weight": 1.2,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033125&episodeid=1&eventtype=WF"
-        },
-        {
           "id": "WF|1033116",
           "title": "Forest fires in Niger, Burkina Faso",
           "date": "2026-10-18T00:00:00+00:00",
@@ -2835,6 +2825,16 @@
           "country": "Niger, Burkina Faso",
           "weight": 1.1,
           "url": "https://www.gdacs.org/report.aspx?eventid=1033116&episodeid=2&eventtype=WF"
+        },
+        {
+          "id": "WF|1033084",
+          "title": "Forest fires in Suriname, Brazil",
+          "date": "2026-10-13T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "WF",
+          "country": "Suriname, Brazil",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033084&episodeid=6&eventtype=WF"
         },
         {
           "id": "WF|1033068",
@@ -2847,34 +2847,34 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1033068&episodeid=3&eventtype=WF"
         },
         {
-          "id": "WF|1033107",
-          "title": "Forest fires in Namibia, Botswana",
-          "date": "2026-10-20T00:00:00+00:00",
+          "id": "EQ|1573640",
+          "title": "Earthquake in Bouvet Island Region",
+          "date": "2026-10-24T15:24:19+00:00",
           "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Namibia, Botswana",
-          "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033107&episodeid=2&eventtype=WF"
+          "event_type": "EQ",
+          "country": "Bouvet Island Region",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1573640&episodeid=1742420&eventtype=EQ"
         },
         {
-          "id": "WF|1033103",
-          "title": "Forest fires in Botswana, Zimbabwe",
-          "date": "2026-10-22T00:00:00+00:00",
+          "id": "EQ|1573643",
+          "title": "Earthquake in Vanuatu Islands",
+          "date": "2026-10-24T15:19:25+00:00",
           "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Botswana, Zimbabwe",
-          "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033103&episodeid=2&eventtype=WF"
+          "event_type": "EQ",
+          "country": "Vanuatu Islands",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1573643&episodeid=1742423&eventtype=EQ"
         },
         {
-          "id": "WF|1033101",
-          "title": "Forest fires in Mauritania, Mali",
-          "date": "2026-10-23T00:00:00+00:00",
+          "id": "EQ|1573635",
+          "title": "Earthquake in Vanuatu Islands",
+          "date": "2026-10-24T13:53:00+00:00",
           "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Mauritania, Mali",
-          "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033101&episodeid=1&eventtype=WF"
+          "event_type": "EQ",
+          "country": "Vanuatu Islands",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1573635&episodeid=1742412&eventtype=EQ"
         }
       ]
     },
@@ -2903,6 +2903,26 @@
           ],
           "weight": 4.2,
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032663"
+        },
+        {
+          "id": "EONET_25642",
+          "title": "Wildfire in Australia 1033134",
+          "date": "2026-10-22T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.1,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033134"
+        },
+        {
+          "id": "EONET_25650",
+          "title": "Wildfire in Australia 1033140",
+          "date": "2026-10-21T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.1,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033140"
         },
         {
           "id": "EONET_25432",
@@ -2965,6 +2985,16 @@
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032458"
         },
         {
+          "id": "EONET_25644",
+          "title": "Wildfire in Botswana, Zimbabwe 1033103",
+          "date": "2026-10-21T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.0,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033103"
+        },
+        {
           "id": "EONET_25602",
           "title": "Wildfire in Australia 1033092",
           "date": "2026-10-20T19:00:00+00:00",
@@ -3003,36 +3033,6 @@
           ],
           "weight": 4.0,
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032938"
-        },
-        {
-          "id": "EONET_25523",
-          "title": "Wildfire in Australia 1032970",
-          "date": "2026-10-15T19:00:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.0,
-          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032970"
-        },
-        {
-          "id": "EONET_25624",
-          "title": "Wildfire in Mozambique 1033060",
-          "date": "2026-10-15T19:00:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.0,
-          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033060"
-        },
-        {
-          "id": "EONET_25451",
-          "title": "Wildfire HENDERSON, San Diego, California",
-          "date": "2026-10-15T17:11:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.0,
-          "url": "https://irwin.doi.gov/observer/incidents/2026-CAPMQ-003992"
         }
       ]
     },
@@ -7021,7 +7021,7 @@
       "lat": 8.0,
       "lon": 40.0,
       "score": 68.4,
-      "rain_30d_mm": 1645.9,
+      "rain_30d_mm": 68.6,
       "rain_ratio": 0.44,
       "max_temp_c": 24.7,
       "heat_anomaly_c": 2.9,
@@ -7129,16 +7129,6 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1032957&episodeid=8&eventtype=WF"
     },
     {
-      "id": "WF|1033125",
-      "title": "Forest fires in Zimbabwe, Mozambique, Zambia",
-      "date": "2026-10-13T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Zimbabwe, Mozambique, Zambia",
-      "weight": 1.2,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033125&episodeid=1&eventtype=WF"
-    },
-    {
       "id": "WF|1033116",
       "title": "Forest fires in Niger, Burkina Faso",
       "date": "2026-10-18T00:00:00+00:00",
@@ -7147,6 +7137,16 @@
       "country": "Niger, Burkina Faso",
       "weight": 1.1,
       "url": "https://www.gdacs.org/report.aspx?eventid=1033116&episodeid=2&eventtype=WF"
+    },
+    {
+      "id": "WF|1033084",
+      "title": "Forest fires in Suriname, Brazil",
+      "date": "2026-10-13T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "WF",
+      "country": "Suriname, Brazil",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033084&episodeid=6&eventtype=WF"
     },
     {
       "id": "WF|1033068",
@@ -7159,34 +7159,34 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1033068&episodeid=3&eventtype=WF"
     },
     {
-      "id": "WF|1033107",
-      "title": "Forest fires in Namibia, Botswana",
-      "date": "2026-10-20T00:00:00+00:00",
+      "id": "EQ|1573640",
+      "title": "Earthquake in Bouvet Island Region",
+      "date": "2026-10-24T15:24:19+00:00",
       "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Namibia, Botswana",
-      "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033107&episodeid=2&eventtype=WF"
+      "event_type": "EQ",
+      "country": "Bouvet Island Region",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1573640&episodeid=1742420&eventtype=EQ"
     },
     {
-      "id": "WF|1033103",
-      "title": "Forest fires in Botswana, Zimbabwe",
-      "date": "2026-10-22T00:00:00+00:00",
+      "id": "EQ|1573643",
+      "title": "Earthquake in Vanuatu Islands",
+      "date": "2026-10-24T15:19:25+00:00",
       "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Botswana, Zimbabwe",
-      "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033103&episodeid=2&eventtype=WF"
+      "event_type": "EQ",
+      "country": "Vanuatu Islands",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1573643&episodeid=1742423&eventtype=EQ"
     },
     {
-      "id": "WF|1033101",
-      "title": "Forest fires in Mauritania, Mali",
-      "date": "2026-10-23T00:00:00+00:00",
+      "id": "EQ|1573635",
+      "title": "Earthquake in Vanuatu Islands",
+      "date": "2026-10-24T13:53:00+00:00",
       "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Mauritania, Mali",
-      "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033101&episodeid=1&eventtype=WF"
+      "event_type": "EQ",
+      "country": "Vanuatu Islands",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1573635&episodeid=1742412&eventtype=EQ"
     },
     {
       "id": "EONET_25549",
@@ -7207,6 +7207,26 @@
       ],
       "weight": 4.2,
       "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032663"
+    },
+    {
+      "id": "EONET_25642",
+      "title": "Wildfire in Australia 1033134",
+      "date": "2026-10-22T19:00:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.1,
+      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033134"
+    },
+    {
+      "id": "EONET_25650",
+      "title": "Wildfire in Australia 1033140",
+      "date": "2026-10-21T19:00:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.1,
+      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033140"
     },
     {
       "id": "EONET_25432",
@@ -7269,6 +7289,16 @@
       "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032458"
     },
     {
+      "id": "EONET_25644",
+      "title": "Wildfire in Botswana, Zimbabwe 1033103",
+      "date": "2026-10-21T19:00:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.0,
+      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033103"
+    },
+    {
       "id": "EONET_25602",
       "title": "Wildfire in Australia 1033092",
       "date": "2026-10-20T19:00:00+00:00",
@@ -7277,36 +7307,6 @@
       ],
       "weight": 4.0,
       "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033092"
-    },
-    {
-      "id": "EONET_25564",
-      "title": "Wildfire in Australia 1033013",
-      "date": "2026-10-19T19:00:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.0,
-      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033013"
-    },
-    {
-      "id": "EONET_25465",
-      "title": "Wildfire in Zambia 1032930",
-      "date": "2026-10-17T19:00:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.0,
-      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032930"
-    },
-    {
-      "id": "EONET_25470",
-      "title": "Wildfire in Australia 1032938",
-      "date": "2026-10-16T19:00:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.0,
-      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032938"
     }
   ]
 }
