@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-10-24T04:40:49.173110+00:00",
+    "generated": "2026-10-24T11:05:47.509355+00:00",
     "mode": "partial",
     "sources": [
       "NASA POWER Daily API",
@@ -15,7 +15,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-24T04:40:48.877991+00:00",
+    "issued_at": "2026-10-24T11:05:47.303246+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 66.0,
@@ -161,10 +161,10 @@
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 194.4,
+        "current_30d_weight": 193.9,
         "baseline_months": 12,
         "baseline_median": 50.0,
-        "anomaly_z": 4.43,
+        "anomaly_z": 4.41,
         "events_considered": 180,
         "evidence": [
           {
@@ -248,6 +248,16 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1570077&episodeid=1738390&eventtype=EQ"
           },
           {
+            "id": "WF|1032957",
+            "title": "Forest fires in Zimbabwe, Mozambique, Zambia",
+            "date": "2026-10-16T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "WF",
+            "country": "Zimbabwe, Mozambique, Zambia",
+            "weight": 1.2,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1032957&episodeid=8&eventtype=WF"
+          },
+          {
             "id": "WF|1033125",
             "title": "Forest fires in Zimbabwe, Mozambique, Zambia",
             "date": "2026-10-13T00:00:00+00:00",
@@ -258,16 +268,6 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1033125&episodeid=1&eventtype=WF"
           },
           {
-            "id": "WF|1033083",
-            "title": "Forest fires in Zimbabwe, Mozambique, Zambia",
-            "date": "2026-10-13T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Zimbabwe, Mozambique, Zambia",
-            "weight": 1.2,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033083&episodeid=3&eventtype=WF"
-          },
-          {
             "id": "WF|1033116",
             "title": "Forest fires in Niger, Burkina Faso",
             "date": "2026-10-18T00:00:00+00:00",
@@ -275,7 +275,17 @@
             "event_type": "WF",
             "country": "Niger, Burkina Faso",
             "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033116&episodeid=1&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033116&episodeid=2&eventtype=WF"
+          },
+          {
+            "id": "WF|1033068",
+            "title": "Forest fires in Suriname, Brazil",
+            "date": "2026-10-20T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "WF",
+            "country": "Suriname, Brazil",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033068&episodeid=3&eventtype=WF"
           },
           {
             "id": "WF|1033107",
@@ -306,16 +316,6 @@
             "country": "Mauritania, Mali",
             "weight": 1.1,
             "url": "https://www.gdacs.org/report.aspx?eventid=1033101&episodeid=1&eventtype=WF"
-          },
-          {
-            "id": "WF|1033084",
-            "title": "Forest fires in Suriname, Brazil",
-            "date": "2026-10-13T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Suriname, Brazil",
-            "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033084&episodeid=5&eventtype=WF"
           }
         ],
         "retained": false
@@ -325,9 +325,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 2625.9,
+        "current_30d_weight": 2625.8,
         "baseline_median": 0.0,
-        "anomaly_z": 2625.86,
+        "anomaly_z": 2625.8,
         "events_considered": 1000,
         "evidence": [
           {
@@ -581,17 +581,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-04T04:37:40.143475+00:00",
-        "score": 64.6,
-        "level": "ELEVATED",
-        "components": {
-          "agroclimate_stress": 100.0,
-          "gdacs_impact_pressure": 60.0,
-          "eonet_hazard_persistence": 56.0,
-          "food_price_pressure": 17.2
-        }
-      },
       {
         "timestamp": "2026-09-04T11:21:42.564827+00:00",
         "score": 73.8,
@@ -2560,6 +2549,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-10-24T11:05:47.303246+00:00",
+        "score": 66.0,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 77.8,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -2807,6 +2807,16 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1570077&episodeid=1738390&eventtype=EQ"
         },
         {
+          "id": "WF|1032957",
+          "title": "Forest fires in Zimbabwe, Mozambique, Zambia",
+          "date": "2026-10-16T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "WF",
+          "country": "Zimbabwe, Mozambique, Zambia",
+          "weight": 1.2,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1032957&episodeid=8&eventtype=WF"
+        },
+        {
           "id": "WF|1033125",
           "title": "Forest fires in Zimbabwe, Mozambique, Zambia",
           "date": "2026-10-13T00:00:00+00:00",
@@ -2817,16 +2827,6 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1033125&episodeid=1&eventtype=WF"
         },
         {
-          "id": "WF|1033083",
-          "title": "Forest fires in Zimbabwe, Mozambique, Zambia",
-          "date": "2026-10-13T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Zimbabwe, Mozambique, Zambia",
-          "weight": 1.2,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033083&episodeid=3&eventtype=WF"
-        },
-        {
           "id": "WF|1033116",
           "title": "Forest fires in Niger, Burkina Faso",
           "date": "2026-10-18T00:00:00+00:00",
@@ -2834,7 +2834,17 @@
           "event_type": "WF",
           "country": "Niger, Burkina Faso",
           "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033116&episodeid=1&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033116&episodeid=2&eventtype=WF"
+        },
+        {
+          "id": "WF|1033068",
+          "title": "Forest fires in Suriname, Brazil",
+          "date": "2026-10-20T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "WF",
+          "country": "Suriname, Brazil",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033068&episodeid=3&eventtype=WF"
         },
         {
           "id": "WF|1033107",
@@ -2865,16 +2875,6 @@
           "country": "Mauritania, Mali",
           "weight": 1.1,
           "url": "https://www.gdacs.org/report.aspx?eventid=1033101&episodeid=1&eventtype=WF"
-        },
-        {
-          "id": "WF|1033084",
-          "title": "Forest fires in Suriname, Brazil",
-          "date": "2026-10-13T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Suriname, Brazil",
-          "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033084&episodeid=5&eventtype=WF"
         }
       ]
     },
@@ -7119,6 +7119,16 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1570077&episodeid=1738390&eventtype=EQ"
     },
     {
+      "id": "WF|1032957",
+      "title": "Forest fires in Zimbabwe, Mozambique, Zambia",
+      "date": "2026-10-16T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "WF",
+      "country": "Zimbabwe, Mozambique, Zambia",
+      "weight": 1.2,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1032957&episodeid=8&eventtype=WF"
+    },
+    {
       "id": "WF|1033125",
       "title": "Forest fires in Zimbabwe, Mozambique, Zambia",
       "date": "2026-10-13T00:00:00+00:00",
@@ -7129,16 +7139,6 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1033125&episodeid=1&eventtype=WF"
     },
     {
-      "id": "WF|1033083",
-      "title": "Forest fires in Zimbabwe, Mozambique, Zambia",
-      "date": "2026-10-13T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Zimbabwe, Mozambique, Zambia",
-      "weight": 1.2,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033083&episodeid=3&eventtype=WF"
-    },
-    {
       "id": "WF|1033116",
       "title": "Forest fires in Niger, Burkina Faso",
       "date": "2026-10-18T00:00:00+00:00",
@@ -7146,7 +7146,17 @@
       "event_type": "WF",
       "country": "Niger, Burkina Faso",
       "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033116&episodeid=1&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033116&episodeid=2&eventtype=WF"
+    },
+    {
+      "id": "WF|1033068",
+      "title": "Forest fires in Suriname, Brazil",
+      "date": "2026-10-20T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "WF",
+      "country": "Suriname, Brazil",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033068&episodeid=3&eventtype=WF"
     },
     {
       "id": "WF|1033107",
@@ -7177,16 +7187,6 @@
       "country": "Mauritania, Mali",
       "weight": 1.1,
       "url": "https://www.gdacs.org/report.aspx?eventid=1033101&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF|1033084",
-      "title": "Forest fires in Suriname, Brazil",
-      "date": "2026-10-13T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Suriname, Brazil",
-      "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033084&episodeid=5&eventtype=WF"
     },
     {
       "id": "EONET_25549",
