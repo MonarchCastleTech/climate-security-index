@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-10-25T11:35:45.787335+00:00",
+    "generated": "2026-10-25T16:26:11.906037+00:00",
     "mode": "partial",
     "sources": [
       "NASA POWER Daily API",
@@ -15,7 +15,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-25T11:35:45.509990+00:00",
+    "issued_at": "2026-10-25T16:26:11.738427+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 66.0,
@@ -68,7 +68,7 @@
             "lat": 29.0,
             "lon": 70.5,
             "score": 50.0,
-            "rain_30d_mm": 104.9,
+            "rain_30d_mm": 4.4,
             "rain_ratio": 0.45,
             "max_temp_c": 39.6,
             "heat_anomaly_c": 1.2,
@@ -161,11 +161,11 @@
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 192.9,
+        "current_30d_weight": 196.8,
         "baseline_months": 12,
         "baseline_median": 48.8,
-        "anomaly_z": 3.49,
-        "events_considered": 180,
+        "anomaly_z": 3.59,
+        "events_considered": 179,
         "evidence": [
           {
             "id": "TC|1001338",
@@ -173,9 +173,9 @@
             "date": "2026-10-14T12:00:00+00:00",
             "alert_level": "Red",
             "event_type": "TC",
-            "country": "Philippines, Guam, Northern Mariana Islands, Japan",
-            "weight": 24.8,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=35&eventtype=TC"
+            "country": "Philippines, Guam, Northern Mariana Islands, Japan, China, South Korea",
+            "weight": 29.6,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=45&eventtype=TC"
           },
           {
             "id": "EQ|1573141",
@@ -258,64 +258,64 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1033103&episodeid=4&eventtype=WF"
           },
           {
-            "id": "EQ|1573768",
-            "title": "Earthquake in Papua New Guinea",
-            "date": "2026-10-25T10:30:27+00:00",
+            "id": "WF|1033084",
+            "title": "Forest fires in Suriname, Brazil",
+            "date": "2026-10-13T00:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Papua New Guinea",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1573768&episodeid=1742580&eventtype=EQ"
+            "event_type": "WF",
+            "country": "Suriname, Brazil",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033084&episodeid=9&eventtype=WF"
           },
           {
-            "id": "EQ|1573755",
-            "title": "Earthquake in Volcano Islands, Japan Region",
-            "date": "2026-10-25T09:11:17+00:00",
+            "id": "TC|1001344",
+            "title": "Tropical Cyclone THREE-C-26",
+            "date": "2026-10-25T15:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Volcano Islands, Japan Region",
+            "event_type": "TC",
+            "country": "",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1573755&episodeid=1742566&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001344&episodeid=1&eventtype=TC"
           },
           {
-            "id": "EQ|1573752",
-            "title": "Earthquake in Vanuatu Islands",
-            "date": "2026-10-25T08:41:00+00:00",
+            "id": "TC|1001341",
+            "title": "Tropical Cyclone VANCE-26",
+            "date": "2026-10-21T15:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Vanuatu Islands",
+            "event_type": "TC",
+            "country": "México",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1573752&episodeid=1742562&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001341&episodeid=17&eventtype=TC"
           },
           {
-            "id": "EQ|1573748",
-            "title": "Earthquake in United States",
-            "date": "2026-10-25T07:45:45+00:00",
+            "id": "TC|1001343",
+            "title": "Tropical Cyclone IN-FA-26",
+            "date": "2026-10-25T06:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "United States",
+            "event_type": "TC",
+            "country": "Marshall Islands",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1573748&episodeid=1742551&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001343&episodeid=9&eventtype=TC"
           },
           {
-            "id": "EQ|1573747",
-            "title": "Earthquake in United States",
-            "date": "2026-10-25T07:44:32+00:00",
+            "id": "EQ|1573773",
+            "title": "Earthquake in China",
+            "date": "2026-10-25T11:25:57+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "United States",
+            "country": "China",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1573747&episodeid=1742556&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1573773&episodeid=1742594&eventtype=EQ"
           },
           {
-            "id": "EQ|1573745",
-            "title": "Earthquake in Peru",
-            "date": "2026-10-25T07:11:49+00:00",
+            "id": "EQ|1573775",
+            "title": "Earthquake in China",
+            "date": "2026-10-25T11:24:14+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Peru",
+            "country": "China",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1573745&episodeid=1742548&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1573775&episodeid=1742589&eventtype=EQ"
           }
         ],
         "retained": false
@@ -325,9 +325,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 2657.5,
+        "current_30d_weight": 2817.0,
         "baseline_median": 0.0,
-        "anomaly_z": 2657.48,
+        "anomaly_z": 2817.01,
         "events_considered": 1000,
         "evidence": [
           {
@@ -369,6 +369,26 @@
             ],
             "weight": 4.1,
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033140"
+          },
+          {
+            "id": "EONET_25711",
+            "title": "Wildfire in Australia 1033168",
+            "date": "2026-10-20T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.1,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033168"
+          },
+          {
+            "id": "EONET_25727",
+            "title": "Wildfire in Mozambique 1033161",
+            "date": "2026-10-14T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.1,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033161"
           },
           {
             "id": "EONET_25432",
@@ -431,6 +451,16 @@
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032458"
           },
           {
+            "id": "EONET_25692",
+            "title": "Wildfire in Australia 1033164",
+            "date": "2026-10-23T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.0,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033164"
+          },
+          {
             "id": "EONET_25644",
             "title": "Wildfire in Botswana, Zimbabwe 1033103",
             "date": "2026-10-21T19:00:00+00:00",
@@ -449,36 +479,6 @@
             ],
             "weight": 4.0,
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033092"
-          },
-          {
-            "id": "EONET_25564",
-            "title": "Wildfire in Australia 1033013",
-            "date": "2026-10-19T19:00:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.0,
-            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033013"
-          },
-          {
-            "id": "EONET_25465",
-            "title": "Wildfire in Zambia 1032930",
-            "date": "2026-10-17T19:00:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.0,
-            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032930"
-          },
-          {
-            "id": "EONET_25470",
-            "title": "Wildfire in Australia 1032938",
-            "date": "2026-10-16T19:00:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.0,
-            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032938"
           }
         ],
         "retained": false
@@ -581,17 +581,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-05T10:38:37.211934+00:00",
-        "score": 73.8,
-        "level": "ELEVATED",
-        "components": {
-          "agroclimate_stress": 100.0,
-          "gdacs_impact_pressure": 60.0,
-          "eonet_hazard_persistence": 56.0,
-          "food_price_pressure": 37.9
-        }
-      },
       {
         "timestamp": "2026-09-05T15:17:00.306587+00:00",
         "score": 73.8,
@@ -2560,6 +2549,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-10-25T16:26:11.738427+00:00",
+        "score": 66.0,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 77.8,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -2568,7 +2568,7 @@
         "food_price_pressure"
       ],
       "power_sentinels": 8,
-      "gdacs_events": 180,
+      "gdacs_events": 179,
       "eonet_events": 1000,
       "fao_latest_month": "2026-08"
     },
@@ -2615,7 +2615,7 @@
     },
     {
       "label": "Hazards Screened",
-      "value": "1180",
+      "value": "1179",
       "delta": "NASA + GDACS"
     },
     {
@@ -2668,7 +2668,7 @@
           "lat": 29.0,
           "lon": 70.5,
           "score": 50.0,
-          "rain_30d_mm": 104.9,
+          "rain_30d_mm": 4.4,
           "rain_ratio": 0.45,
           "max_temp_c": 39.6,
           "heat_anomaly_c": 1.2,
@@ -2721,7 +2721,7 @@
       ]
     },
     "gdacs": {
-      "count": 180,
+      "count": 179,
       "cached": false,
       "retained": false,
       "compact": true,
@@ -2732,9 +2732,9 @@
           "date": "2026-10-14T12:00:00+00:00",
           "alert_level": "Red",
           "event_type": "TC",
-          "country": "Philippines, Guam, Northern Mariana Islands, Japan",
-          "weight": 24.8,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=35&eventtype=TC"
+          "country": "Philippines, Guam, Northern Mariana Islands, Japan, China, South Korea",
+          "weight": 29.6,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=45&eventtype=TC"
         },
         {
           "id": "EQ|1573141",
@@ -2817,64 +2817,64 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1033103&episodeid=4&eventtype=WF"
         },
         {
-          "id": "EQ|1573768",
-          "title": "Earthquake in Papua New Guinea",
-          "date": "2026-10-25T10:30:27+00:00",
+          "id": "WF|1033084",
+          "title": "Forest fires in Suriname, Brazil",
+          "date": "2026-10-13T00:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Papua New Guinea",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1573768&episodeid=1742580&eventtype=EQ"
+          "event_type": "WF",
+          "country": "Suriname, Brazil",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033084&episodeid=9&eventtype=WF"
         },
         {
-          "id": "EQ|1573755",
-          "title": "Earthquake in Volcano Islands, Japan Region",
-          "date": "2026-10-25T09:11:17+00:00",
+          "id": "TC|1001344",
+          "title": "Tropical Cyclone THREE-C-26",
+          "date": "2026-10-25T15:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Volcano Islands, Japan Region",
+          "event_type": "TC",
+          "country": "",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1573755&episodeid=1742566&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001344&episodeid=1&eventtype=TC"
         },
         {
-          "id": "EQ|1573752",
-          "title": "Earthquake in Vanuatu Islands",
-          "date": "2026-10-25T08:41:00+00:00",
+          "id": "TC|1001341",
+          "title": "Tropical Cyclone VANCE-26",
+          "date": "2026-10-21T15:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Vanuatu Islands",
+          "event_type": "TC",
+          "country": "México",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1573752&episodeid=1742562&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001341&episodeid=17&eventtype=TC"
         },
         {
-          "id": "EQ|1573748",
-          "title": "Earthquake in United States",
-          "date": "2026-10-25T07:45:45+00:00",
+          "id": "TC|1001343",
+          "title": "Tropical Cyclone IN-FA-26",
+          "date": "2026-10-25T06:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "United States",
+          "event_type": "TC",
+          "country": "Marshall Islands",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1573748&episodeid=1742551&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001343&episodeid=9&eventtype=TC"
         },
         {
-          "id": "EQ|1573747",
-          "title": "Earthquake in United States",
-          "date": "2026-10-25T07:44:32+00:00",
+          "id": "EQ|1573773",
+          "title": "Earthquake in China",
+          "date": "2026-10-25T11:25:57+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "United States",
+          "country": "China",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1573747&episodeid=1742556&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1573773&episodeid=1742594&eventtype=EQ"
         },
         {
-          "id": "EQ|1573745",
-          "title": "Earthquake in Peru",
-          "date": "2026-10-25T07:11:49+00:00",
+          "id": "EQ|1573775",
+          "title": "Earthquake in China",
+          "date": "2026-10-25T11:24:14+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Peru",
+          "country": "China",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1573745&episodeid=1742548&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1573775&episodeid=1742589&eventtype=EQ"
         }
       ]
     },
@@ -2923,6 +2923,26 @@
           ],
           "weight": 4.1,
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033140"
+        },
+        {
+          "id": "EONET_25711",
+          "title": "Wildfire in Australia 1033168",
+          "date": "2026-10-20T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.1,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033168"
+        },
+        {
+          "id": "EONET_25727",
+          "title": "Wildfire in Mozambique 1033161",
+          "date": "2026-10-14T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.1,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033161"
         },
         {
           "id": "EONET_25432",
@@ -2985,6 +3005,16 @@
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032458"
         },
         {
+          "id": "EONET_25692",
+          "title": "Wildfire in Australia 1033164",
+          "date": "2026-10-23T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.0,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033164"
+        },
+        {
           "id": "EONET_25644",
           "title": "Wildfire in Botswana, Zimbabwe 1033103",
           "date": "2026-10-21T19:00:00+00:00",
@@ -3003,36 +3033,6 @@
           ],
           "weight": 4.0,
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033092"
-        },
-        {
-          "id": "EONET_25564",
-          "title": "Wildfire in Australia 1033013",
-          "date": "2026-10-19T19:00:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.0,
-          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033013"
-        },
-        {
-          "id": "EONET_25465",
-          "title": "Wildfire in Zambia 1032930",
-          "date": "2026-10-17T19:00:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.0,
-          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032930"
-        },
-        {
-          "id": "EONET_25470",
-          "title": "Wildfire in Australia 1032938",
-          "date": "2026-10-16T19:00:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.0,
-          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032938"
         }
       ]
     },
@@ -7044,9 +7044,9 @@
       "date": "2026-10-14T12:00:00+00:00",
       "alert_level": "Red",
       "event_type": "TC",
-      "country": "Philippines, Guam, Northern Mariana Islands, Japan",
-      "weight": 24.8,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=35&eventtype=TC"
+      "country": "Philippines, Guam, Northern Mariana Islands, Japan, China, South Korea",
+      "weight": 29.6,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=45&eventtype=TC"
     },
     {
       "id": "EQ|1573141",
@@ -7129,64 +7129,64 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1033103&episodeid=4&eventtype=WF"
     },
     {
-      "id": "EQ|1573768",
-      "title": "Earthquake in Papua New Guinea",
-      "date": "2026-10-25T10:30:27+00:00",
+      "id": "WF|1033084",
+      "title": "Forest fires in Suriname, Brazil",
+      "date": "2026-10-13T00:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Papua New Guinea",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1573768&episodeid=1742580&eventtype=EQ"
+      "event_type": "WF",
+      "country": "Suriname, Brazil",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033084&episodeid=9&eventtype=WF"
     },
     {
-      "id": "EQ|1573755",
-      "title": "Earthquake in Volcano Islands, Japan Region",
-      "date": "2026-10-25T09:11:17+00:00",
+      "id": "TC|1001344",
+      "title": "Tropical Cyclone THREE-C-26",
+      "date": "2026-10-25T15:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Volcano Islands, Japan Region",
+      "event_type": "TC",
+      "country": "",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1573755&episodeid=1742566&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001344&episodeid=1&eventtype=TC"
     },
     {
-      "id": "EQ|1573752",
-      "title": "Earthquake in Vanuatu Islands",
-      "date": "2026-10-25T08:41:00+00:00",
+      "id": "TC|1001341",
+      "title": "Tropical Cyclone VANCE-26",
+      "date": "2026-10-21T15:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Vanuatu Islands",
+      "event_type": "TC",
+      "country": "México",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1573752&episodeid=1742562&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001341&episodeid=17&eventtype=TC"
     },
     {
-      "id": "EQ|1573748",
-      "title": "Earthquake in United States",
-      "date": "2026-10-25T07:45:45+00:00",
+      "id": "TC|1001343",
+      "title": "Tropical Cyclone IN-FA-26",
+      "date": "2026-10-25T06:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "United States",
+      "event_type": "TC",
+      "country": "Marshall Islands",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1573748&episodeid=1742551&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001343&episodeid=9&eventtype=TC"
     },
     {
-      "id": "EQ|1573747",
-      "title": "Earthquake in United States",
-      "date": "2026-10-25T07:44:32+00:00",
+      "id": "EQ|1573773",
+      "title": "Earthquake in China",
+      "date": "2026-10-25T11:25:57+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "United States",
+      "country": "China",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1573747&episodeid=1742556&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1573773&episodeid=1742594&eventtype=EQ"
     },
     {
-      "id": "EQ|1573745",
-      "title": "Earthquake in Peru",
-      "date": "2026-10-25T07:11:49+00:00",
+      "id": "EQ|1573775",
+      "title": "Earthquake in China",
+      "date": "2026-10-25T11:24:14+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Peru",
+      "country": "China",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1573745&episodeid=1742548&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1573775&episodeid=1742589&eventtype=EQ"
     },
     {
       "id": "EONET_25549",
@@ -7227,6 +7227,26 @@
       ],
       "weight": 4.1,
       "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033140"
+    },
+    {
+      "id": "EONET_25711",
+      "title": "Wildfire in Australia 1033168",
+      "date": "2026-10-20T19:00:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.1,
+      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033168"
+    },
+    {
+      "id": "EONET_25727",
+      "title": "Wildfire in Mozambique 1033161",
+      "date": "2026-10-14T19:00:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.1,
+      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033161"
     },
     {
       "id": "EONET_25432",
@@ -7287,26 +7307,6 @@
       ],
       "weight": 4.1,
       "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032458"
-    },
-    {
-      "id": "EONET_25644",
-      "title": "Wildfire in Botswana, Zimbabwe 1033103",
-      "date": "2026-10-21T19:00:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.0,
-      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033103"
-    },
-    {
-      "id": "EONET_25602",
-      "title": "Wildfire in Australia 1033092",
-      "date": "2026-10-20T19:00:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.0,
-      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033092"
     }
   ]
 }
