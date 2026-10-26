@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-10-26T13:08:41.465641+00:00",
+    "generated": "2026-10-26T22:42:16.952118+00:00",
     "mode": "partial",
     "sources": [
       "NASA POWER Daily API",
@@ -15,7 +15,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-26T13:08:41.283640+00:00",
+    "issued_at": "2026-10-26T22:42:16.817647+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 66.0,
@@ -35,7 +35,7 @@
             "lat": 13.5,
             "lon": 33.5,
             "score": 100.0,
-            "rain_30d_mm": 586.8,
+            "rain_30d_mm": 24.4,
             "rain_ratio": 0.55,
             "max_temp_c": 39.0,
             "heat_anomaly_c": 7.4,
@@ -46,7 +46,7 @@
             "lat": 8.0,
             "lon": 40.0,
             "score": 68.4,
-            "rain_30d_mm": 1645.9,
+            "rain_30d_mm": 68.6,
             "rain_ratio": 0.44,
             "max_temp_c": 24.7,
             "heat_anomaly_c": 2.9,
@@ -57,7 +57,7 @@
             "lat": 34.0,
             "lon": 65.0,
             "score": 64.9,
-            "rain_30d_mm": 7.0,
+            "rain_30d_mm": 0.3,
             "rain_ratio": 0.18,
             "max_temp_c": 19.9,
             "heat_anomaly_c": 0.7,
@@ -68,7 +68,7 @@
             "lat": 29.0,
             "lon": 70.5,
             "score": 50.0,
-            "rain_30d_mm": 104.9,
+            "rain_30d_mm": 4.4,
             "rain_ratio": 0.45,
             "max_temp_c": 39.6,
             "heat_anomaly_c": 1.2,
@@ -79,7 +79,7 @@
             "lat": 12.5,
             "lon": 14.5,
             "score": 49.2,
-            "rain_30d_mm": 712.6,
+            "rain_30d_mm": 29.7,
             "rain_ratio": 0.93,
             "max_temp_c": 38.9,
             "heat_anomaly_c": 4.4,
@@ -90,7 +90,7 @@
             "lat": 14.5,
             "lon": -1.5,
             "score": 23.4,
-            "rain_30d_mm": 1164.2,
+            "rain_30d_mm": 48.5,
             "rain_ratio": 2.6,
             "max_temp_c": 38.5,
             "heat_anomaly_c": 2.3,
@@ -101,7 +101,7 @@
             "lat": 5.0,
             "lon": 45.3,
             "score": 0.0,
-            "rain_30d_mm": 4321.0,
+            "rain_30d_mm": 180.0,
             "rain_ratio": 3.48,
             "max_temp_c": 34.3,
             "heat_anomaly_c": -1.7,
@@ -112,7 +112,7 @@
             "lat": 14.0,
             "lon": -88.5,
             "score": 0.0,
-            "rain_30d_mm": 9786.7,
+            "rain_30d_mm": 407.8,
             "rain_ratio": 1.68,
             "max_temp_c": 27.6,
             "heat_anomaly_c": -0.2,
@@ -125,7 +125,7 @@
             "lat": 13.5,
             "lon": 33.5,
             "score": 100.0,
-            "rain_30d_mm": 586.8,
+            "rain_30d_mm": 24.4,
             "rain_ratio": 0.55,
             "max_temp_c": 39.0,
             "heat_anomaly_c": 7.4,
@@ -136,7 +136,7 @@
             "lat": 8.0,
             "lon": 40.0,
             "score": 68.4,
-            "rain_30d_mm": 1645.9,
+            "rain_30d_mm": 68.6,
             "rain_ratio": 0.44,
             "max_temp_c": 24.7,
             "heat_anomaly_c": 2.9,
@@ -147,7 +147,7 @@
             "lat": 34.0,
             "lon": 65.0,
             "score": 64.9,
-            "rain_30d_mm": 7.0,
+            "rain_30d_mm": 0.3,
             "rain_ratio": 0.18,
             "max_temp_c": 19.9,
             "heat_anomaly_c": 0.7,
@@ -161,11 +161,11 @@
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 216.1,
+        "current_30d_weight": 217.6,
         "baseline_months": 12,
         "baseline_median": 45.2,
-        "anomaly_z": 5.69,
-        "events_considered": 179,
+        "anomaly_z": 5.74,
+        "events_considered": 180,
         "evidence": [
           {
             "id": "TC|1001338",
@@ -185,7 +185,7 @@
             "event_type": "TC",
             "country": "India",
             "weight": 20.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001345&episodeid=2&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001345&episodeid=4&eventtype=TC"
           },
           {
             "id": "EQ|1573141",
@@ -265,7 +265,7 @@
             "event_type": "WF",
             "country": "Botswana, South Africa",
             "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033213&episodeid=1&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033213&episodeid=2&eventtype=WF"
           },
           {
             "id": "WF|1033215",
@@ -275,7 +275,27 @@
             "event_type": "WF",
             "country": "South Africa, Mozambique",
             "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033215&episodeid=1&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033215&episodeid=2&eventtype=WF"
+          },
+          {
+            "id": "WF|1033195",
+            "title": "Forest fires in Central African Republic, Sudan",
+            "date": "2026-10-20T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "WF",
+            "country": "Central African Republic, Sudan",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033195&episodeid=2&eventtype=WF"
+          },
+          {
+            "id": "WF|1033197",
+            "title": "Forest fires in Ethiopia, South Sudan",
+            "date": "2026-10-19T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "WF",
+            "country": "Ethiopia, South Sudan",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033197&episodeid=2&eventtype=WF"
           },
           {
             "id": "WF|1033199",
@@ -285,37 +305,17 @@
             "event_type": "WF",
             "country": "Tanzania, Mozambique",
             "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033199&episodeid=2&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033199&episodeid=4&eventtype=WF"
           },
           {
-            "id": "WF|1033084",
-            "title": "Forest fires in Suriname, Brazil",
-            "date": "2026-10-13T00:00:00+00:00",
+            "id": "WF|1033243",
+            "title": "Forest fires in South Sudan, Sudan",
+            "date": "2026-10-14T00:00:00+00:00",
             "alert_level": "Green",
             "event_type": "WF",
-            "country": "Suriname, Brazil",
+            "country": "South Sudan, Sudan",
             "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033084&episodeid=12&eventtype=WF"
-          },
-          {
-            "id": "EQ|1573955",
-            "title": "Earthquake in Vanuatu Islands",
-            "date": "2026-10-26T12:13:30+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Vanuatu Islands",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1573955&episodeid=1742792&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1573952",
-            "title": "Earthquake in United States",
-            "date": "2026-10-26T11:38:06+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "United States",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1573952&episodeid=1742789&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033243&episodeid=1&eventtype=WF"
           }
         ],
         "retained": false
@@ -325,9 +325,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 2677.9,
+        "current_30d_weight": 2739.8,
         "baseline_median": 0.0,
-        "anomaly_z": 2677.95,
+        "anomaly_z": 2739.77,
         "events_considered": 1000,
         "evidence": [
           {
@@ -581,17 +581,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-06T11:00:35.289297+00:00",
-        "score": 73.8,
-        "level": "ELEVATED",
-        "components": {
-          "agroclimate_stress": 100.0,
-          "gdacs_impact_pressure": 60.0,
-          "eonet_hazard_persistence": 56.0,
-          "food_price_pressure": 37.9
-        }
-      },
       {
         "timestamp": "2026-09-06T15:29:58.647668+00:00",
         "score": 73.8,
@@ -2560,6 +2549,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-10-26T22:42:16.817647+00:00",
+        "score": 66.0,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 77.8,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -2568,7 +2568,7 @@
         "food_price_pressure"
       ],
       "power_sentinels": 8,
-      "gdacs_events": 179,
+      "gdacs_events": 180,
       "eonet_events": 1000,
       "fao_latest_month": "2026-08"
     },
@@ -2615,7 +2615,7 @@
     },
     {
       "label": "Hazards Screened",
-      "value": "1179",
+      "value": "1180",
       "delta": "NASA + GDACS"
     },
     {
@@ -2635,7 +2635,7 @@
           "lat": 13.5,
           "lon": 33.5,
           "score": 100.0,
-          "rain_30d_mm": 586.8,
+          "rain_30d_mm": 24.4,
           "rain_ratio": 0.55,
           "max_temp_c": 39.0,
           "heat_anomaly_c": 7.4,
@@ -2646,7 +2646,7 @@
           "lat": 8.0,
           "lon": 40.0,
           "score": 68.4,
-          "rain_30d_mm": 1645.9,
+          "rain_30d_mm": 68.6,
           "rain_ratio": 0.44,
           "max_temp_c": 24.7,
           "heat_anomaly_c": 2.9,
@@ -2657,7 +2657,7 @@
           "lat": 34.0,
           "lon": 65.0,
           "score": 64.9,
-          "rain_30d_mm": 7.0,
+          "rain_30d_mm": 0.3,
           "rain_ratio": 0.18,
           "max_temp_c": 19.9,
           "heat_anomaly_c": 0.7,
@@ -2668,7 +2668,7 @@
           "lat": 29.0,
           "lon": 70.5,
           "score": 50.0,
-          "rain_30d_mm": 104.9,
+          "rain_30d_mm": 4.4,
           "rain_ratio": 0.45,
           "max_temp_c": 39.6,
           "heat_anomaly_c": 1.2,
@@ -2679,7 +2679,7 @@
           "lat": 12.5,
           "lon": 14.5,
           "score": 49.2,
-          "rain_30d_mm": 712.6,
+          "rain_30d_mm": 29.7,
           "rain_ratio": 0.93,
           "max_temp_c": 38.9,
           "heat_anomaly_c": 4.4,
@@ -2690,7 +2690,7 @@
           "lat": 14.5,
           "lon": -1.5,
           "score": 23.4,
-          "rain_30d_mm": 1164.2,
+          "rain_30d_mm": 48.5,
           "rain_ratio": 2.6,
           "max_temp_c": 38.5,
           "heat_anomaly_c": 2.3,
@@ -2701,7 +2701,7 @@
           "lat": 5.0,
           "lon": 45.3,
           "score": 0.0,
-          "rain_30d_mm": 4321.0,
+          "rain_30d_mm": 180.0,
           "rain_ratio": 3.48,
           "max_temp_c": 34.3,
           "heat_anomaly_c": -1.7,
@@ -2712,7 +2712,7 @@
           "lat": 14.0,
           "lon": -88.5,
           "score": 0.0,
-          "rain_30d_mm": 9786.7,
+          "rain_30d_mm": 407.8,
           "rain_ratio": 1.68,
           "max_temp_c": 27.6,
           "heat_anomaly_c": -0.2,
@@ -2721,7 +2721,7 @@
       ]
     },
     "gdacs": {
-      "count": 179,
+      "count": 180,
       "cached": false,
       "retained": false,
       "compact": true,
@@ -2744,7 +2744,7 @@
           "event_type": "TC",
           "country": "India",
           "weight": 20.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001345&episodeid=2&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001345&episodeid=4&eventtype=TC"
         },
         {
           "id": "EQ|1573141",
@@ -2824,7 +2824,7 @@
           "event_type": "WF",
           "country": "Botswana, South Africa",
           "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033213&episodeid=1&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033213&episodeid=2&eventtype=WF"
         },
         {
           "id": "WF|1033215",
@@ -2834,7 +2834,27 @@
           "event_type": "WF",
           "country": "South Africa, Mozambique",
           "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033215&episodeid=1&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033215&episodeid=2&eventtype=WF"
+        },
+        {
+          "id": "WF|1033195",
+          "title": "Forest fires in Central African Republic, Sudan",
+          "date": "2026-10-20T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "WF",
+          "country": "Central African Republic, Sudan",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033195&episodeid=2&eventtype=WF"
+        },
+        {
+          "id": "WF|1033197",
+          "title": "Forest fires in Ethiopia, South Sudan",
+          "date": "2026-10-19T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "WF",
+          "country": "Ethiopia, South Sudan",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033197&episodeid=2&eventtype=WF"
         },
         {
           "id": "WF|1033199",
@@ -2844,37 +2864,17 @@
           "event_type": "WF",
           "country": "Tanzania, Mozambique",
           "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033199&episodeid=2&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033199&episodeid=4&eventtype=WF"
         },
         {
-          "id": "WF|1033084",
-          "title": "Forest fires in Suriname, Brazil",
-          "date": "2026-10-13T00:00:00+00:00",
+          "id": "WF|1033243",
+          "title": "Forest fires in South Sudan, Sudan",
+          "date": "2026-10-14T00:00:00+00:00",
           "alert_level": "Green",
           "event_type": "WF",
-          "country": "Suriname, Brazil",
+          "country": "South Sudan, Sudan",
           "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033084&episodeid=12&eventtype=WF"
-        },
-        {
-          "id": "EQ|1573955",
-          "title": "Earthquake in Vanuatu Islands",
-          "date": "2026-10-26T12:13:30+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Vanuatu Islands",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1573955&episodeid=1742792&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1573952",
-          "title": "Earthquake in United States",
-          "date": "2026-10-26T11:38:06+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "United States",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1573952&episodeid=1742789&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033243&episodeid=1&eventtype=WF"
         }
       ]
     },
@@ -7010,7 +7010,7 @@
       "lat": 13.5,
       "lon": 33.5,
       "score": 100.0,
-      "rain_30d_mm": 586.8,
+      "rain_30d_mm": 24.4,
       "rain_ratio": 0.55,
       "max_temp_c": 39.0,
       "heat_anomaly_c": 7.4,
@@ -7021,7 +7021,7 @@
       "lat": 8.0,
       "lon": 40.0,
       "score": 68.4,
-      "rain_30d_mm": 1645.9,
+      "rain_30d_mm": 68.6,
       "rain_ratio": 0.44,
       "max_temp_c": 24.7,
       "heat_anomaly_c": 2.9,
@@ -7032,7 +7032,7 @@
       "lat": 34.0,
       "lon": 65.0,
       "score": 64.9,
-      "rain_30d_mm": 7.0,
+      "rain_30d_mm": 0.3,
       "rain_ratio": 0.18,
       "max_temp_c": 19.9,
       "heat_anomaly_c": 0.7,
@@ -7056,7 +7056,7 @@
       "event_type": "TC",
       "country": "India",
       "weight": 20.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001345&episodeid=2&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001345&episodeid=4&eventtype=TC"
     },
     {
       "id": "EQ|1573141",
@@ -7136,7 +7136,7 @@
       "event_type": "WF",
       "country": "Botswana, South Africa",
       "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033213&episodeid=1&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033213&episodeid=2&eventtype=WF"
     },
     {
       "id": "WF|1033215",
@@ -7146,7 +7146,27 @@
       "event_type": "WF",
       "country": "South Africa, Mozambique",
       "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033215&episodeid=1&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033215&episodeid=2&eventtype=WF"
+    },
+    {
+      "id": "WF|1033195",
+      "title": "Forest fires in Central African Republic, Sudan",
+      "date": "2026-10-20T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "WF",
+      "country": "Central African Republic, Sudan",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033195&episodeid=2&eventtype=WF"
+    },
+    {
+      "id": "WF|1033197",
+      "title": "Forest fires in Ethiopia, South Sudan",
+      "date": "2026-10-19T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "WF",
+      "country": "Ethiopia, South Sudan",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033197&episodeid=2&eventtype=WF"
     },
     {
       "id": "WF|1033199",
@@ -7156,37 +7176,17 @@
       "event_type": "WF",
       "country": "Tanzania, Mozambique",
       "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033199&episodeid=2&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033199&episodeid=4&eventtype=WF"
     },
     {
-      "id": "WF|1033084",
-      "title": "Forest fires in Suriname, Brazil",
-      "date": "2026-10-13T00:00:00+00:00",
+      "id": "WF|1033243",
+      "title": "Forest fires in South Sudan, Sudan",
+      "date": "2026-10-14T00:00:00+00:00",
       "alert_level": "Green",
       "event_type": "WF",
-      "country": "Suriname, Brazil",
+      "country": "South Sudan, Sudan",
       "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033084&episodeid=12&eventtype=WF"
-    },
-    {
-      "id": "EQ|1573955",
-      "title": "Earthquake in Vanuatu Islands",
-      "date": "2026-10-26T12:13:30+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Vanuatu Islands",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1573955&episodeid=1742792&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1573952",
-      "title": "Earthquake in United States",
-      "date": "2026-10-26T11:38:06+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "United States",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1573952&episodeid=1742789&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033243&episodeid=1&eventtype=WF"
     },
     {
       "id": "EONET_25549",
