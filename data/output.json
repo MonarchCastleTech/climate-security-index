@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-10-26T04:51:21.430083+00:00",
+    "generated": "2026-10-26T13:08:41.465641+00:00",
     "mode": "partial",
     "sources": [
       "NASA POWER Daily API",
@@ -15,7 +15,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-26T04:51:21.211273+00:00",
+    "issued_at": "2026-10-26T13:08:41.283640+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 66.0,
@@ -161,10 +161,10 @@
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 204.2,
+        "current_30d_weight": 216.1,
         "baseline_months": 12,
-        "baseline_median": 48.8,
-        "anomaly_z": 3.76,
+        "baseline_median": 45.2,
+        "anomaly_z": 5.69,
         "events_considered": 179,
         "evidence": [
           {
@@ -178,6 +178,16 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=46&eventtype=TC"
           },
           {
+            "id": "TC|1001345",
+            "title": "Tropical Cyclone ARNAB-26",
+            "date": "2026-10-26T00:00:00+00:00",
+            "alert_level": "Red",
+            "event_type": "TC",
+            "country": "India",
+            "weight": 20.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001345&episodeid=2&eventtype=TC"
+          },
+          {
             "id": "EQ|1573141",
             "title": "Earthquake in China",
             "date": "2026-10-22T14:33:40+00:00",
@@ -186,16 +196,6 @@
             "country": "China",
             "weight": 20.0,
             "url": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ"
-          },
-          {
-            "id": "TC|1001345",
-            "title": "Tropical Cyclone TWO-26",
-            "date": "2026-10-26T00:00:00+00:00",
-            "alert_level": "Orange",
-            "event_type": "TC",
-            "country": "India",
-            "weight": 8.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001345&episodeid=1&eventtype=TC"
           },
           {
             "id": "TC|1001335",
@@ -258,44 +258,24 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1570077&episodeid=1738390&eventtype=EQ"
           },
           {
-            "id": "WF|1033084",
-            "title": "Forest fires in Suriname, Brazil",
-            "date": "2026-10-13T00:00:00+00:00",
+            "id": "WF|1033213",
+            "title": "Forest fires in Botswana, South Africa",
+            "date": "2026-10-24T00:00:00+00:00",
             "alert_level": "Green",
             "event_type": "WF",
-            "country": "Suriname, Brazil",
+            "country": "Botswana, South Africa",
             "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033084&episodeid=11&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033213&episodeid=1&eventtype=WF"
           },
           {
-            "id": "WF|1033159",
-            "title": "Forest fires in Zambia, Malawi",
-            "date": "2026-10-15T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Zambia, Malawi",
-            "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033159&episodeid=2&eventtype=WF"
-          },
-          {
-            "id": "WF|1033195",
-            "title": "Forest fires in Central African Republic, Sudan",
+            "id": "WF|1033215",
+            "title": "Forest fires in South Africa, Mozambique",
             "date": "2026-10-20T00:00:00+00:00",
             "alert_level": "Green",
             "event_type": "WF",
-            "country": "Central African Republic, Sudan",
+            "country": "South Africa, Mozambique",
             "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033195&episodeid=1&eventtype=WF"
-          },
-          {
-            "id": "WF|1033197",
-            "title": "Forest fires in South Sudan, Ethiopia",
-            "date": "2026-10-19T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "WF",
-            "country": "South Sudan, Ethiopia",
-            "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033197&episodeid=1&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033215&episodeid=1&eventtype=WF"
           },
           {
             "id": "WF|1033199",
@@ -305,17 +285,37 @@
             "event_type": "WF",
             "country": "Tanzania, Mozambique",
             "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033199&episodeid=1&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033199&episodeid=2&eventtype=WF"
           },
           {
-            "id": "EQ|1573900",
-            "title": "Earthquake in Indonesia",
-            "date": "2026-10-26T03:59:22+00:00",
+            "id": "WF|1033084",
+            "title": "Forest fires in Suriname, Brazil",
+            "date": "2026-10-13T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "WF",
+            "country": "Suriname, Brazil",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033084&episodeid=12&eventtype=WF"
+          },
+          {
+            "id": "EQ|1573955",
+            "title": "Earthquake in Vanuatu Islands",
+            "date": "2026-10-26T12:13:30+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Indonesia",
+            "country": "Vanuatu Islands",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1573900&episodeid=1742728&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1573955&episodeid=1742792&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1573952",
+            "title": "Earthquake in United States",
+            "date": "2026-10-26T11:38:06+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "United States",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1573952&episodeid=1742789&eventtype=EQ"
           }
         ],
         "retained": false
@@ -325,9 +325,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 2667.6,
+        "current_30d_weight": 2677.9,
         "baseline_median": 0.0,
-        "anomaly_z": 2667.65,
+        "anomaly_z": 2677.95,
         "events_considered": 1000,
         "evidence": [
           {
@@ -581,17 +581,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-06T04:42:57.605021+00:00",
-        "score": 73.8,
-        "level": "ELEVATED",
-        "components": {
-          "agroclimate_stress": 100.0,
-          "gdacs_impact_pressure": 60.0,
-          "eonet_hazard_persistence": 56.0,
-          "food_price_pressure": 37.9
-        }
-      },
       {
         "timestamp": "2026-09-06T11:00:35.289297+00:00",
         "score": 73.8,
@@ -2560,6 +2549,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-10-26T13:08:41.283640+00:00",
+        "score": 66.0,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 77.8,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -2737,6 +2737,16 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=46&eventtype=TC"
         },
         {
+          "id": "TC|1001345",
+          "title": "Tropical Cyclone ARNAB-26",
+          "date": "2026-10-26T00:00:00+00:00",
+          "alert_level": "Red",
+          "event_type": "TC",
+          "country": "India",
+          "weight": 20.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001345&episodeid=2&eventtype=TC"
+        },
+        {
           "id": "EQ|1573141",
           "title": "Earthquake in China",
           "date": "2026-10-22T14:33:40+00:00",
@@ -2745,16 +2755,6 @@
           "country": "China",
           "weight": 20.0,
           "url": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ"
-        },
-        {
-          "id": "TC|1001345",
-          "title": "Tropical Cyclone TWO-26",
-          "date": "2026-10-26T00:00:00+00:00",
-          "alert_level": "Orange",
-          "event_type": "TC",
-          "country": "India",
-          "weight": 8.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001345&episodeid=1&eventtype=TC"
         },
         {
           "id": "TC|1001335",
@@ -2817,44 +2817,24 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1570077&episodeid=1738390&eventtype=EQ"
         },
         {
-          "id": "WF|1033084",
-          "title": "Forest fires in Suriname, Brazil",
-          "date": "2026-10-13T00:00:00+00:00",
+          "id": "WF|1033213",
+          "title": "Forest fires in Botswana, South Africa",
+          "date": "2026-10-24T00:00:00+00:00",
           "alert_level": "Green",
           "event_type": "WF",
-          "country": "Suriname, Brazil",
+          "country": "Botswana, South Africa",
           "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033084&episodeid=11&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033213&episodeid=1&eventtype=WF"
         },
         {
-          "id": "WF|1033159",
-          "title": "Forest fires in Zambia, Malawi",
-          "date": "2026-10-15T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Zambia, Malawi",
-          "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033159&episodeid=2&eventtype=WF"
-        },
-        {
-          "id": "WF|1033195",
-          "title": "Forest fires in Central African Republic, Sudan",
+          "id": "WF|1033215",
+          "title": "Forest fires in South Africa, Mozambique",
           "date": "2026-10-20T00:00:00+00:00",
           "alert_level": "Green",
           "event_type": "WF",
-          "country": "Central African Republic, Sudan",
+          "country": "South Africa, Mozambique",
           "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033195&episodeid=1&eventtype=WF"
-        },
-        {
-          "id": "WF|1033197",
-          "title": "Forest fires in South Sudan, Ethiopia",
-          "date": "2026-10-19T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "WF",
-          "country": "South Sudan, Ethiopia",
-          "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033197&episodeid=1&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033215&episodeid=1&eventtype=WF"
         },
         {
           "id": "WF|1033199",
@@ -2864,17 +2844,37 @@
           "event_type": "WF",
           "country": "Tanzania, Mozambique",
           "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033199&episodeid=1&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033199&episodeid=2&eventtype=WF"
         },
         {
-          "id": "EQ|1573900",
-          "title": "Earthquake in Indonesia",
-          "date": "2026-10-26T03:59:22+00:00",
+          "id": "WF|1033084",
+          "title": "Forest fires in Suriname, Brazil",
+          "date": "2026-10-13T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "WF",
+          "country": "Suriname, Brazil",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033084&episodeid=12&eventtype=WF"
+        },
+        {
+          "id": "EQ|1573955",
+          "title": "Earthquake in Vanuatu Islands",
+          "date": "2026-10-26T12:13:30+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Indonesia",
+          "country": "Vanuatu Islands",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1573900&episodeid=1742728&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1573955&episodeid=1742792&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1573952",
+          "title": "Earthquake in United States",
+          "date": "2026-10-26T11:38:06+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "United States",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1573952&episodeid=1742789&eventtype=EQ"
         }
       ]
     },
@@ -7049,6 +7049,16 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=46&eventtype=TC"
     },
     {
+      "id": "TC|1001345",
+      "title": "Tropical Cyclone ARNAB-26",
+      "date": "2026-10-26T00:00:00+00:00",
+      "alert_level": "Red",
+      "event_type": "TC",
+      "country": "India",
+      "weight": 20.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001345&episodeid=2&eventtype=TC"
+    },
+    {
       "id": "EQ|1573141",
       "title": "Earthquake in China",
       "date": "2026-10-22T14:33:40+00:00",
@@ -7057,16 +7067,6 @@
       "country": "China",
       "weight": 20.0,
       "url": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ"
-    },
-    {
-      "id": "TC|1001345",
-      "title": "Tropical Cyclone TWO-26",
-      "date": "2026-10-26T00:00:00+00:00",
-      "alert_level": "Orange",
-      "event_type": "TC",
-      "country": "India",
-      "weight": 8.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001345&episodeid=1&eventtype=TC"
     },
     {
       "id": "TC|1001335",
@@ -7129,44 +7129,24 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1570077&episodeid=1738390&eventtype=EQ"
     },
     {
-      "id": "WF|1033084",
-      "title": "Forest fires in Suriname, Brazil",
-      "date": "2026-10-13T00:00:00+00:00",
+      "id": "WF|1033213",
+      "title": "Forest fires in Botswana, South Africa",
+      "date": "2026-10-24T00:00:00+00:00",
       "alert_level": "Green",
       "event_type": "WF",
-      "country": "Suriname, Brazil",
+      "country": "Botswana, South Africa",
       "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033084&episodeid=11&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033213&episodeid=1&eventtype=WF"
     },
     {
-      "id": "WF|1033159",
-      "title": "Forest fires in Zambia, Malawi",
-      "date": "2026-10-15T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Zambia, Malawi",
-      "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033159&episodeid=2&eventtype=WF"
-    },
-    {
-      "id": "WF|1033195",
-      "title": "Forest fires in Central African Republic, Sudan",
+      "id": "WF|1033215",
+      "title": "Forest fires in South Africa, Mozambique",
       "date": "2026-10-20T00:00:00+00:00",
       "alert_level": "Green",
       "event_type": "WF",
-      "country": "Central African Republic, Sudan",
+      "country": "South Africa, Mozambique",
       "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033195&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF|1033197",
-      "title": "Forest fires in South Sudan, Ethiopia",
-      "date": "2026-10-19T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "WF",
-      "country": "South Sudan, Ethiopia",
-      "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033197&episodeid=1&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033215&episodeid=1&eventtype=WF"
     },
     {
       "id": "WF|1033199",
@@ -7176,17 +7156,37 @@
       "event_type": "WF",
       "country": "Tanzania, Mozambique",
       "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033199&episodeid=1&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033199&episodeid=2&eventtype=WF"
     },
     {
-      "id": "EQ|1573900",
-      "title": "Earthquake in Indonesia",
-      "date": "2026-10-26T03:59:22+00:00",
+      "id": "WF|1033084",
+      "title": "Forest fires in Suriname, Brazil",
+      "date": "2026-10-13T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "WF",
+      "country": "Suriname, Brazil",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033084&episodeid=12&eventtype=WF"
+    },
+    {
+      "id": "EQ|1573955",
+      "title": "Earthquake in Vanuatu Islands",
+      "date": "2026-10-26T12:13:30+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Indonesia",
+      "country": "Vanuatu Islands",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1573900&episodeid=1742728&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1573955&episodeid=1742792&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1573952",
+      "title": "Earthquake in United States",
+      "date": "2026-10-26T11:38:06+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "United States",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1573952&episodeid=1742789&eventtype=EQ"
     },
     {
       "id": "EONET_25549",
