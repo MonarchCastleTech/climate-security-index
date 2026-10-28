@@ -25,7 +25,10 @@ def _read_recent_cache(name):
         if fetched.tzinfo is None:
             fetched = fetched.replace(tzinfo=timezone.utc)
         if timedelta(0) <= datetime.now(timezone.utc) - fetched <= CACHE_MAX_AGE:
-            return payload.get("data")
+            data = payload.get("data")
+            if isinstance(data, dict):
+                data["source_collected_at"] = fetched.isoformat()
+            return data
     except (OSError, ValueError, json.JSONDecodeError):
         pass
     return None
@@ -41,6 +44,7 @@ def _cached_request(name, fetcher):
         if not data:
             raise ValueError(f"{name} returned no data")
         data["cached"] = False
+        data["source_collected_at"] = datetime.now(timezone.utc).isoformat()
         _write_cache(name, data)
         return data
     except Exception as exc:
@@ -83,7 +87,7 @@ def fetch_gdacs_events():
 def fetch_fao_food_prices():
     """Fetch official monthly nominal FAO food-price indices."""
     def fetch():
-        url = "https://www.fao.org/media/docs/worldfoodsituationlibraries/default-document-library/food_price_indices_data.csv?download=true"
+        url = "https://www.fao.org/media/docs/worldfoodsituationlibraries/wfs-library/food_price_indices_data.csv?download=true"
         response = requests.get(url, timeout=45, headers={"User-Agent": "climate-security-index/2.0"})
         response.raise_for_status()
         lines = response.content.decode("latin-1").splitlines()
@@ -96,6 +100,8 @@ def fetch_fao_food_prices():
                 rows.append({key: (row[key] if key == "Date" else float(row[key])) for key in ("Date", "Food Price Index", "Meat", "Dairy", "Cereals", "Oils", "Sugar")})
             except (ValueError, TypeError):
                 continue
+        if len(rows) < 24:
+            raise ValueError("FAO returned fewer than 24 valid monthly observations")
         return {"rows": rows, "source_url": url}
     return _cached_request("fao-food-prices", fetch)
 

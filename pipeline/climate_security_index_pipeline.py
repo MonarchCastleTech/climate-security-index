@@ -3,7 +3,7 @@ import json
 import os
 import sys
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 import yaml
 
@@ -32,8 +32,19 @@ def fetch_all(previous):
     prior = previous.get("live_data") or {}
     for key in jobs:
         if not live.get(key) and prior.get(key):
-            live[key] = dict(prior[key]); live[key]["retained"] = True
-            notes.append(f"{key} unavailable; retained last accepted snapshot.")
+            source = prior[key]
+            timestamp = source.get("source_collected_at")
+            if not timestamp and not source.get("retained") and not source.get("cached"):
+                timestamp = (previous.get("meta") or {}).get("generated")
+            try:
+                collected = datetime.fromisoformat(str(timestamp).replace("Z", "+00:00"))
+                if collected.tzinfo is None: raise ValueError("Missing timezone")
+                age = datetime.now(timezone.utc) - collected
+            except (TypeError, ValueError):
+                age = timedelta(days=999)
+            if timedelta(0) <= age <= timedelta(hours=72):
+                live[key] = dict(source); live[key]["retained"] = True; live[key]["source_collected_at"] = collected.isoformat()
+                notes.append(f"{key} unavailable; retained last accepted snapshot.")
     return {key: value for key, value in live.items() if value}, notes
 
 
@@ -61,14 +72,14 @@ def main():
     public_live = dict(live)
     if public_live.get("nasa_power"):
         source = public_live["nasa_power"]
-        public_live["nasa_power"] = {"count": source.get("count", 0), "cached": bool(source.get("cached")), "retained": bool(source.get("retained")), "sentinels": warning["components"][0].get("sentinels", [])}
+        public_live["nasa_power"] = {"count": source.get("count", 0), "cached": bool(source.get("cached")), "retained": bool(source.get("retained")), "source_collected_at": source.get("source_collected_at"), "sentinels": warning["components"][0].get("sentinels", [])}
     if public_live.get("gdacs"):
         source = public_live["gdacs"]
-        public_live["gdacs"] = {"count": source.get("count", 0), "cached": bool(source.get("cached")), "retained": bool(source.get("retained")), "compact": True, "events": warning["components"][1].get("evidence", [])}
+        public_live["gdacs"] = {"count": source.get("count", 0), "cached": bool(source.get("cached")), "retained": bool(source.get("retained")), "source_collected_at": source.get("source_collected_at"), "compact": True, "events": warning["components"][1].get("evidence", [])}
     if public_live.get("nasa_eonet"):
         source = public_live["nasa_eonet"]
-        public_live["nasa_eonet"] = {"count": source.get("count", 0), "cached": bool(source.get("cached")), "retained": bool(source.get("retained")), "compact": True, "events": warning["components"][2].get("evidence", [])}
-    output = {"meta": {"project": config["project"]["id"], "generated": datetime.now(timezone.utc).isoformat(), "mode": "partial" if retained else "live", "sources": [row["name"] for row in warning["sources"]], "source_notes": notes, "version": "2.0.0"}, "early_warning": warning, "stats": build_stats(warning), "live_data": public_live, "events": evidence[:30]}
+        public_live["nasa_eonet"] = {"count": source.get("count", 0), "cached": bool(source.get("cached")), "retained": bool(source.get("retained")), "source_collected_at": source.get("source_collected_at"), "compact": True, "events": warning["components"][2].get("evidence", [])}
+    output = {"meta": {"project": config["project"]["id"], "generated": datetime.now(timezone.utc).isoformat(), "mode": "partial" if retained or warning["data_health"]["available_components"] < 4 else "live", "sources": [row["name"] for row in warning["sources"]], "source_notes": notes, "version": "2.0.0"}, "early_warning": warning, "stats": build_stats(warning), "live_data": public_live, "events": evidence[:30]}
     os.makedirs("data", exist_ok=True)
     with open("data/output.json", "w", encoding="utf-8") as handle:
         json.dump(output, handle, indent=2, ensure_ascii=False)

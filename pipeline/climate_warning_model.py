@@ -161,14 +161,25 @@ def build_climate_warning(power, gdacs, eonet, fao, previous_warning=None, now=N
     now = now or datetime.now(timezone.utc)
     components = [_power_component(power), _gdacs_component(gdacs, now), _eonet_component(eonet, now), _fao_component(fao)]
     previous_issued = _parse((previous_warning or {}).get("issued_at"))
-    age = now - previous_issued if previous_issued else timedelta(days=999)
-    if timedelta(0) <= age <= timedelta(hours=72):
-        prior_by_id = {row.get("id"): row for row in (previous_warning or {}).get("components", [])}
-        for index, row in enumerate(components):
-            prior = prior_by_id.get(row["id"])
-            if not row.get("available") and prior and prior.get("available"):
+    prior_by_id = {row.get("id"): row for row in (previous_warning or {}).get("components", [])}
+    for index, (row, payload) in enumerate(zip(components, (power, gdacs, eonet, fao))):
+        collected = _parse(payload.get("source_collected_at"))
+        if row.get("available"):
+            if not collected and not row.get("retained"):
+                collected = now
+            if not collected or not timedelta(0) <= now - collected <= timedelta(hours=72):
+                row["available"] = False
+            else:
+                row["source_collected_at"] = collected.isoformat()
+        prior = prior_by_id.get(row["id"])
+        if not row.get("available") and prior and prior.get("available"):
+            collected = _parse(prior.get("source_collected_at"))
+            if not collected and not prior.get("retained"):
+                collected = previous_issued
+            if collected and timedelta(0) <= now - collected <= timedelta(hours=72):
                 components[index] = dict(prior)
                 components[index]["retained"] = True
+                components[index]["source_collected_at"] = collected.isoformat()
     available = [row for row in components if row["available"]]
     denominator = sum(WEIGHTS[row["id"]] for row in available)
     base = sum(row["score"] * WEIGHTS[row["id"]] for row in available) / denominator if denominator else 0.0

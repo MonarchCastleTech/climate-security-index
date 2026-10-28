@@ -69,3 +69,22 @@ def test_recent_component_is_retained_for_72_hours(monkeypatch):
     assert retained["available"] is True
     assert retained["retained"] is True
     assert retained["score"] == 62
+
+
+def test_retained_component_expires_from_original_collection(monkeypatch):
+    patch_components(monkeypatch)
+    monkeypatch.setattr(model, "_power_component", lambda _: component("agroclimate_stress", 0, False))
+    previous = {"issued_at": (NOW - timedelta(hours=71)).isoformat(), "components": [component("agroclimate_stress", 62)]}
+    first = model.build_climate_warning({}, {}, {}, {}, previous_warning=previous, now=NOW)
+    later = model.build_climate_warning({}, {}, {}, {}, previous_warning=first, now=NOW + timedelta(hours=2))
+    item = next(row for row in later["components"] if row["id"] == "agroclimate_stress")
+    assert item["available"] is False
+
+
+def test_stale_cached_source_is_not_counted_as_available(monkeypatch):
+    patch_components(monkeypatch)
+    monkeypatch.setattr(model, "_fao_component", lambda _: {**component("food_price_pressure", 40), "retained": True})
+    stale = {"cached": True, "source_collected_at": (NOW - timedelta(hours=73)).isoformat()}
+    warning = model.build_climate_warning({}, {}, {}, stale, now=NOW)
+    item = next(row for row in warning["components"] if row["id"] == "food_price_pressure")
+    assert item["available"] is False
