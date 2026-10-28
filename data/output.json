@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-10-28T08:55:32.976249+00:00",
+    "generated": "2026-10-28T12:59:55.749529+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,7 +13,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-28T08:55:32.724777+00:00",
+    "issued_at": "2026-10-28T12:59:55.503082+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 74.1,
@@ -153,7 +153,7 @@
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-10-28T08:55:21.895371+00:00"
+        "source_collected_at": "2026-10-28T12:59:52.695765+00:00"
       },
       {
         "id": "gdacs_impact_pressure",
@@ -184,7 +184,7 @@
             "event_type": "TC",
             "country": "India",
             "weight": 20.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001345&episodeid=11&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001345&episodeid=10&eventtype=TC"
           },
           {
             "id": "EQ|1573141",
@@ -318,16 +318,16 @@
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-10-28T08:55:32.722233+00:00"
+        "source_collected_at": "2026-10-28T12:59:55.500115+00:00"
       },
       {
         "id": "eonet_hazard_persistence",
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 2753.6,
+        "current_30d_weight": 2750.0,
         "baseline_median": 0.0,
-        "anomaly_z": 2753.6,
+        "anomaly_z": 2750.03,
         "events_considered": 1000,
         "evidence": [
           {
@@ -482,7 +482,7 @@
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-10-28T08:55:24.034689+00:00"
+        "source_collected_at": "2026-10-28T12:59:55.113286+00:00"
       },
       {
         "id": "food_price_pressure",
@@ -543,7 +543,7 @@
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-10-28T08:55:20.701309+00:00"
+        "source_collected_at": "2026-10-28T12:59:51.492317+00:00"
       }
     ],
     "concurrence": {
@@ -583,17 +583,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-08T11:22:47.544334+00:00",
-        "score": 73.8,
-        "level": "ELEVATED",
-        "components": {
-          "agroclimate_stress": 100.0,
-          "gdacs_impact_pressure": 60.0,
-          "eonet_hazard_persistence": 56.0,
-          "food_price_pressure": 37.9
-        }
-      },
       {
         "timestamp": "2026-09-08T16:40:44.380426+00:00",
         "score": 73.8,
@@ -2562,6 +2551,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 78.3
         }
+      },
+      {
+        "timestamp": "2026-10-28T12:59:55.503082+00:00",
+        "score": 74.1,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 77.8,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 78.3
+        }
       }
     ],
     "data_health": {
@@ -2629,7 +2629,7 @@
       "count": 8,
       "cached": false,
       "retained": false,
-      "source_collected_at": "2026-10-28T08:55:21.895371+00:00",
+      "source_collected_at": "2026-10-28T12:59:52.695765+00:00",
       "sentinels": [
         {
           "name": "Sudan grain belt",
@@ -2725,7 +2725,7 @@
       "count": 179,
       "cached": false,
       "retained": false,
-      "source_collected_at": "2026-10-28T08:55:32.722233+00:00",
+      "source_collected_at": "2026-10-28T12:59:55.500115+00:00",
       "compact": true,
       "events": [
         {
@@ -2746,7 +2746,7 @@
           "event_type": "TC",
           "country": "India",
           "weight": 20.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001345&episodeid=11&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001345&episodeid=10&eventtype=TC"
         },
         {
           "id": "EQ|1573141",
@@ -2884,7 +2884,7 @@
       "count": 1000,
       "cached": false,
       "retained": false,
-      "source_collected_at": "2026-10-28T08:55:24.034689+00:00",
+      "source_collected_at": "2026-10-28T12:59:55.113286+00:00",
       "compact": true,
       "events": [
         {
@@ -7013,7 +7013,7 @@
       ],
       "source_url": "https://www.fao.org/media/docs/worldfoodsituationlibraries/wfs-library/food_price_indices_data.csv?download=true",
       "cached": false,
-      "source_collected_at": "2026-10-28T08:55:20.701309+00:00"
+      "source_collected_at": "2026-10-28T12:59:51.492317+00:00"
     }
   },
   "events": [
@@ -7068,7 +7068,7 @@
       "event_type": "TC",
       "country": "India",
       "weight": 20.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001345&episodeid=11&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001345&episodeid=10&eventtype=TC"
     },
     {
       "id": "EQ|1573141",
