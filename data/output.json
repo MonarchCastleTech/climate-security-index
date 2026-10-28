@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-10-27T22:17:02.287297+00:00",
+    "generated": "2026-10-28T05:46:33.860942+00:00",
     "mode": "partial",
     "sources": [
       "NASA POWER Daily API",
@@ -15,7 +15,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-27T22:17:02.036427+00:00",
+    "issued_at": "2026-10-28T05:46:33.721639+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 66.0,
@@ -161,10 +161,10 @@
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 217.9,
+        "current_30d_weight": 217.4,
         "baseline_months": 12,
         "baseline_median": 44.1,
-        "anomaly_z": 5.05,
+        "anomaly_z": 5.04,
         "events_considered": 179,
         "evidence": [
           {
@@ -185,7 +185,7 @@
             "event_type": "TC",
             "country": "India",
             "weight": 20.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001345&episodeid=8&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001345&episodeid=11&eventtype=TC"
           },
           {
             "id": "EQ|1573141",
@@ -258,14 +258,14 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1570077&episodeid=1738390&eventtype=EQ"
           },
           {
-            "id": "WF|1033083",
-            "title": "Forest fires in Zimbabwe, Mozambique, Zambia",
-            "date": "2026-10-13T00:00:00+00:00",
+            "id": "WF|1033245",
+            "title": "Forest fires in Niger, Burkina Faso",
+            "date": "2026-10-24T00:00:00+00:00",
             "alert_level": "Green",
             "event_type": "WF",
-            "country": "Zimbabwe, Mozambique, Zambia",
-            "weight": 1.2,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033083&episodeid=7&eventtype=WF"
+            "country": "Niger, Burkina Faso",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033245&episodeid=4&eventtype=WF"
           },
           {
             "id": "WF|1033238",
@@ -276,16 +276,6 @@
             "country": "Tanzania, Malawi",
             "weight": 1.1,
             "url": "https://www.gdacs.org/report.aspx?eventid=1033238&episodeid=4&eventtype=WF"
-          },
-          {
-            "id": "WF|1033245",
-            "title": "Forest fires in Niger, Burkina Faso",
-            "date": "2026-10-24T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Niger, Burkina Faso",
-            "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033245&episodeid=4&eventtype=WF"
           },
           {
             "id": "WF|1033259",
@@ -316,6 +306,16 @@
             "country": "South Sudan, Sudan",
             "weight": 1.1,
             "url": "https://www.gdacs.org/report.aspx?eventid=1033263&episodeid=1&eventtype=WF"
+          },
+          {
+            "id": "WF|1033265",
+            "title": "Forest fires in Mali, Mauritania",
+            "date": "2026-10-23T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "WF",
+            "country": "Mali, Mauritania",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033265&episodeid=1&eventtype=WF"
           }
         ],
         "retained": false
@@ -325,9 +325,9 @@
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 2753.7,
+        "current_30d_weight": 2753.6,
         "baseline_median": 0.0,
-        "anomaly_z": 2753.73,
+        "anomaly_z": 2753.6,
         "events_considered": 1000,
         "evidence": [
           {
@@ -581,17 +581,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-07T21:33:05.650695+00:00",
-        "score": 73.8,
-        "level": "ELEVATED",
-        "components": {
-          "agroclimate_stress": 100.0,
-          "gdacs_impact_pressure": 60.0,
-          "eonet_hazard_persistence": 56.0,
-          "food_price_pressure": 37.9
-        }
-      },
       {
         "timestamp": "2026-09-08T04:41:07.386379+00:00",
         "score": 73.8,
@@ -2560,6 +2549,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 37.9
         }
+      },
+      {
+        "timestamp": "2026-10-28T05:46:33.721639+00:00",
+        "score": 66.0,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 77.8,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 37.9
+        }
       }
     ],
     "data_health": {
@@ -2744,7 +2744,7 @@
           "event_type": "TC",
           "country": "India",
           "weight": 20.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001345&episodeid=8&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001345&episodeid=11&eventtype=TC"
         },
         {
           "id": "EQ|1573141",
@@ -2817,14 +2817,14 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1570077&episodeid=1738390&eventtype=EQ"
         },
         {
-          "id": "WF|1033083",
-          "title": "Forest fires in Zimbabwe, Mozambique, Zambia",
-          "date": "2026-10-13T00:00:00+00:00",
+          "id": "WF|1033245",
+          "title": "Forest fires in Niger, Burkina Faso",
+          "date": "2026-10-24T00:00:00+00:00",
           "alert_level": "Green",
           "event_type": "WF",
-          "country": "Zimbabwe, Mozambique, Zambia",
-          "weight": 1.2,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033083&episodeid=7&eventtype=WF"
+          "country": "Niger, Burkina Faso",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033245&episodeid=4&eventtype=WF"
         },
         {
           "id": "WF|1033238",
@@ -2835,16 +2835,6 @@
           "country": "Tanzania, Malawi",
           "weight": 1.1,
           "url": "https://www.gdacs.org/report.aspx?eventid=1033238&episodeid=4&eventtype=WF"
-        },
-        {
-          "id": "WF|1033245",
-          "title": "Forest fires in Niger, Burkina Faso",
-          "date": "2026-10-24T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Niger, Burkina Faso",
-          "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033245&episodeid=4&eventtype=WF"
         },
         {
           "id": "WF|1033259",
@@ -2875,6 +2865,16 @@
           "country": "South Sudan, Sudan",
           "weight": 1.1,
           "url": "https://www.gdacs.org/report.aspx?eventid=1033263&episodeid=1&eventtype=WF"
+        },
+        {
+          "id": "WF|1033265",
+          "title": "Forest fires in Mali, Mauritania",
+          "date": "2026-10-23T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "WF",
+          "country": "Mali, Mauritania",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033265&episodeid=1&eventtype=WF"
         }
       ]
     },
@@ -7056,7 +7056,7 @@
       "event_type": "TC",
       "country": "India",
       "weight": 20.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001345&episodeid=8&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001345&episodeid=11&eventtype=TC"
     },
     {
       "id": "EQ|1573141",
@@ -7129,14 +7129,14 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1570077&episodeid=1738390&eventtype=EQ"
     },
     {
-      "id": "WF|1033083",
-      "title": "Forest fires in Zimbabwe, Mozambique, Zambia",
-      "date": "2026-10-13T00:00:00+00:00",
+      "id": "WF|1033245",
+      "title": "Forest fires in Niger, Burkina Faso",
+      "date": "2026-10-24T00:00:00+00:00",
       "alert_level": "Green",
       "event_type": "WF",
-      "country": "Zimbabwe, Mozambique, Zambia",
-      "weight": 1.2,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033083&episodeid=7&eventtype=WF"
+      "country": "Niger, Burkina Faso",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033245&episodeid=4&eventtype=WF"
     },
     {
       "id": "WF|1033238",
@@ -7147,16 +7147,6 @@
       "country": "Tanzania, Malawi",
       "weight": 1.1,
       "url": "https://www.gdacs.org/report.aspx?eventid=1033238&episodeid=4&eventtype=WF"
-    },
-    {
-      "id": "WF|1033245",
-      "title": "Forest fires in Niger, Burkina Faso",
-      "date": "2026-10-24T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Niger, Burkina Faso",
-      "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033245&episodeid=4&eventtype=WF"
     },
     {
       "id": "WF|1033259",
@@ -7187,6 +7177,16 @@
       "country": "South Sudan, Sudan",
       "weight": 1.1,
       "url": "https://www.gdacs.org/report.aspx?eventid=1033263&episodeid=1&eventtype=WF"
+    },
+    {
+      "id": "WF|1033265",
+      "title": "Forest fires in Mali, Mauritania",
+      "date": "2026-10-23T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "WF",
+      "country": "Mali, Mauritania",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033265&episodeid=1&eventtype=WF"
     },
     {
       "id": "EONET_25549",
