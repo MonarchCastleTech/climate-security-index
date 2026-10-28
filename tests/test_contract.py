@@ -16,3 +16,11 @@ def test_public_product_contract():
     assert "actions/cache" in workflow
     assert "set -euo pipefail" in workflow
     assert "attempt in 1 2 3 4 5" in workflow
+
+
+def test_shared_product_navigation_is_available():
+    page = (ROOT / "index.html").read_text(encoding="utf-8")
+    assert 'class="monarch-shell"' in page
+    assert 'href="assets/monarch/design.css"' in page
+    assert 'href="https://monarchcastle.com/products/"' in page
+    assert (ROOT / "assets/monarch/fonts/IBMPlexSans-Regular.woff2").is_file()
