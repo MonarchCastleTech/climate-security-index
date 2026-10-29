@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-10-29T05:52:09.681443+00:00",
+    "generated": "2026-10-29T13:06:48.324276+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,7 +13,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-10-29T05:52:09.457397+00:00",
+    "issued_at": "2026-10-29T13:06:48.115572+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 74.1,
@@ -153,17 +153,17 @@
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-10-29T05:52:05.922081+00:00"
+        "source_collected_at": "2026-10-29T13:06:45.458085+00:00"
       },
       {
         "id": "gdacs_impact_pressure",
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 217.4,
+        "current_30d_weight": 216.2,
         "baseline_months": 12,
-        "baseline_median": 41.2,
-        "anomaly_z": 4.81,
+        "baseline_median": 41.7,
+        "anomaly_z": 4.67,
         "events_considered": 178,
         "evidence": [
           {
@@ -257,54 +257,14 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1570077&episodeid=1738390&eventtype=EQ"
           },
           {
-            "id": "WF|1033262",
-            "title": "Forest fires in Senegal, Mali",
+            "id": "WF|1033291",
+            "title": "Forest fires in Nigeria, Cameroon",
             "date": "2026-10-24T00:00:00+00:00",
             "alert_level": "Green",
             "event_type": "WF",
-            "country": "Senegal, Mali",
+            "country": "Nigeria, Cameroon",
             "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033262&episodeid=3&eventtype=WF"
-          },
-          {
-            "id": "WF|1033263",
-            "title": "Forest fires in South Sudan, Sudan",
-            "date": "2026-10-24T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "WF",
-            "country": "South Sudan, Sudan",
-            "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033263&episodeid=3&eventtype=WF"
-          },
-          {
-            "id": "WF|1033265",
-            "title": "Forest fires in Mali, Mauritania",
-            "date": "2026-10-23T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Mali, Mauritania",
-            "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033265&episodeid=3&eventtype=WF"
-          },
-          {
-            "id": "WF|1033281",
-            "title": "Forest fires in Zambia, Malawi",
-            "date": "2026-10-22T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Zambia, Malawi",
-            "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033281&episodeid=1&eventtype=WF"
-          },
-          {
-            "id": "WF|1033283",
-            "title": "Forest fires in Senegal, Mali",
-            "date": "2026-10-22T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Senegal, Mali",
-            "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033283&episodeid=1&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033291&episodeid=1&eventtype=WF"
           },
           {
             "id": "WF|1033238",
@@ -314,11 +274,51 @@
             "event_type": "WF",
             "country": "Tanzania, Malawi",
             "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033238&episodeid=7&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033238&episodeid=8&eventtype=WF"
+          },
+          {
+            "id": "WF|1033245",
+            "title": "Forest fires in Niger, Burkina Faso",
+            "date": "2026-10-24T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "WF",
+            "country": "Niger, Burkina Faso",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033245&episodeid=7&eventtype=WF"
+          },
+          {
+            "id": "WF|1033034",
+            "title": "Forest fires in Tanzania, Malawi",
+            "date": "2026-10-15T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "WF",
+            "country": "Tanzania, Malawi",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033034&episodeid=9&eventtype=WF"
+          },
+          {
+            "id": "WF|1033035",
+            "title": "Forest fires in Zambia, Zimbabwe",
+            "date": "2026-10-14T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "WF",
+            "country": "Zambia, Zimbabwe",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033035&episodeid=12&eventtype=WF"
+          },
+          {
+            "id": "EQ|1574544",
+            "title": "Earthquake in Indonesia",
+            "date": "2026-10-29T11:38:24+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Indonesia",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1574544&episodeid=1743490&eventtype=EQ"
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-10-29T05:52:05.876264+00:00"
+        "source_collected_at": "2026-10-29T13:06:45.832484+00:00"
       },
       {
         "id": "eonet_hazard_persistence",
@@ -327,7 +327,7 @@
         "score": 56.0,
         "current_30d_weight": 2734.1,
         "baseline_median": 0.0,
-        "anomaly_z": 2734.06,
+        "anomaly_z": 2734.11,
         "events_considered": 1000,
         "evidence": [
           {
@@ -482,7 +482,7 @@
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-10-29T05:52:09.388811+00:00"
+        "source_collected_at": "2026-10-29T13:06:48.032530+00:00"
       },
       {
         "id": "food_price_pressure",
@@ -543,7 +543,7 @@
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-10-29T05:52:04.772867+00:00"
+        "source_collected_at": "2026-10-29T13:06:43.848595+00:00"
       }
     ],
     "concurrence": {
@@ -583,17 +583,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-09T04:45:59.822391+00:00",
-        "score": 73.8,
-        "level": "ELEVATED",
-        "components": {
-          "agroclimate_stress": 100.0,
-          "gdacs_impact_pressure": 60.0,
-          "eonet_hazard_persistence": 56.0,
-          "food_price_pressure": 37.9
-        }
-      },
       {
         "timestamp": "2026-09-09T11:27:09.348570+00:00",
         "score": 73.8,
@@ -2562,6 +2551,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 78.3
         }
+      },
+      {
+        "timestamp": "2026-10-29T13:06:48.115572+00:00",
+        "score": 74.1,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 77.8,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 78.3
+        }
       }
     ],
     "data_health": {
@@ -2629,7 +2629,7 @@
       "count": 8,
       "cached": false,
       "retained": false,
-      "source_collected_at": "2026-10-29T05:52:05.922081+00:00",
+      "source_collected_at": "2026-10-29T13:06:45.458085+00:00",
       "sentinels": [
         {
           "name": "Sudan grain belt",
@@ -2725,7 +2725,7 @@
       "count": 178,
       "cached": false,
       "retained": false,
-      "source_collected_at": "2026-10-29T05:52:05.876264+00:00",
+      "source_collected_at": "2026-10-29T13:06:45.832484+00:00",
       "compact": true,
       "events": [
         {
@@ -2819,54 +2819,14 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1570077&episodeid=1738390&eventtype=EQ"
         },
         {
-          "id": "WF|1033262",
-          "title": "Forest fires in Senegal, Mali",
+          "id": "WF|1033291",
+          "title": "Forest fires in Nigeria, Cameroon",
           "date": "2026-10-24T00:00:00+00:00",
           "alert_level": "Green",
           "event_type": "WF",
-          "country": "Senegal, Mali",
+          "country": "Nigeria, Cameroon",
           "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033262&episodeid=3&eventtype=WF"
-        },
-        {
-          "id": "WF|1033263",
-          "title": "Forest fires in South Sudan, Sudan",
-          "date": "2026-10-24T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "WF",
-          "country": "South Sudan, Sudan",
-          "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033263&episodeid=3&eventtype=WF"
-        },
-        {
-          "id": "WF|1033265",
-          "title": "Forest fires in Mali, Mauritania",
-          "date": "2026-10-23T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Mali, Mauritania",
-          "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033265&episodeid=3&eventtype=WF"
-        },
-        {
-          "id": "WF|1033281",
-          "title": "Forest fires in Zambia, Malawi",
-          "date": "2026-10-22T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Zambia, Malawi",
-          "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033281&episodeid=1&eventtype=WF"
-        },
-        {
-          "id": "WF|1033283",
-          "title": "Forest fires in Senegal, Mali",
-          "date": "2026-10-22T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Senegal, Mali",
-          "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033283&episodeid=1&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033291&episodeid=1&eventtype=WF"
         },
         {
           "id": "WF|1033238",
@@ -2876,7 +2836,47 @@
           "event_type": "WF",
           "country": "Tanzania, Malawi",
           "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033238&episodeid=7&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033238&episodeid=8&eventtype=WF"
+        },
+        {
+          "id": "WF|1033245",
+          "title": "Forest fires in Niger, Burkina Faso",
+          "date": "2026-10-24T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "WF",
+          "country": "Niger, Burkina Faso",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033245&episodeid=7&eventtype=WF"
+        },
+        {
+          "id": "WF|1033034",
+          "title": "Forest fires in Tanzania, Malawi",
+          "date": "2026-10-15T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "WF",
+          "country": "Tanzania, Malawi",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033034&episodeid=9&eventtype=WF"
+        },
+        {
+          "id": "WF|1033035",
+          "title": "Forest fires in Zambia, Zimbabwe",
+          "date": "2026-10-14T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "WF",
+          "country": "Zambia, Zimbabwe",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033035&episodeid=12&eventtype=WF"
+        },
+        {
+          "id": "EQ|1574544",
+          "title": "Earthquake in Indonesia",
+          "date": "2026-10-29T11:38:24+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Indonesia",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1574544&episodeid=1743490&eventtype=EQ"
         }
       ]
     },
@@ -2884,7 +2884,7 @@
       "count": 1000,
       "cached": false,
       "retained": false,
-      "source_collected_at": "2026-10-29T05:52:09.388811+00:00",
+      "source_collected_at": "2026-10-29T13:06:48.032530+00:00",
       "compact": true,
       "events": [
         {
@@ -7013,7 +7013,7 @@
       ],
       "source_url": "https://www.fao.org/media/docs/worldfoodsituationlibraries/wfs-library/food_price_indices_data.csv?download=true",
       "cached": false,
-      "source_collected_at": "2026-10-29T05:52:04.772867+00:00"
+      "source_collected_at": "2026-10-29T13:06:43.848595+00:00"
     }
   },
   "events": [
@@ -7141,54 +7141,14 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1570077&episodeid=1738390&eventtype=EQ"
     },
     {
-      "id": "WF|1033262",
-      "title": "Forest fires in Senegal, Mali",
+      "id": "WF|1033291",
+      "title": "Forest fires in Nigeria, Cameroon",
       "date": "2026-10-24T00:00:00+00:00",
       "alert_level": "Green",
       "event_type": "WF",
-      "country": "Senegal, Mali",
+      "country": "Nigeria, Cameroon",
       "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033262&episodeid=3&eventtype=WF"
-    },
-    {
-      "id": "WF|1033263",
-      "title": "Forest fires in South Sudan, Sudan",
-      "date": "2026-10-24T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "WF",
-      "country": "South Sudan, Sudan",
-      "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033263&episodeid=3&eventtype=WF"
-    },
-    {
-      "id": "WF|1033265",
-      "title": "Forest fires in Mali, Mauritania",
-      "date": "2026-10-23T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Mali, Mauritania",
-      "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033265&episodeid=3&eventtype=WF"
-    },
-    {
-      "id": "WF|1033281",
-      "title": "Forest fires in Zambia, Malawi",
-      "date": "2026-10-22T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Zambia, Malawi",
-      "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033281&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF|1033283",
-      "title": "Forest fires in Senegal, Mali",
-      "date": "2026-10-22T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Senegal, Mali",
-      "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033283&episodeid=1&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033291&episodeid=1&eventtype=WF"
     },
     {
       "id": "WF|1033238",
@@ -7198,7 +7158,47 @@
       "event_type": "WF",
       "country": "Tanzania, Malawi",
       "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033238&episodeid=7&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033238&episodeid=8&eventtype=WF"
+    },
+    {
+      "id": "WF|1033245",
+      "title": "Forest fires in Niger, Burkina Faso",
+      "date": "2026-10-24T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "WF",
+      "country": "Niger, Burkina Faso",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033245&episodeid=7&eventtype=WF"
+    },
+    {
+      "id": "WF|1033034",
+      "title": "Forest fires in Tanzania, Malawi",
+      "date": "2026-10-15T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "WF",
+      "country": "Tanzania, Malawi",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033034&episodeid=9&eventtype=WF"
+    },
+    {
+      "id": "WF|1033035",
+      "title": "Forest fires in Zambia, Zimbabwe",
+      "date": "2026-10-14T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "WF",
+      "country": "Zambia, Zimbabwe",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033035&episodeid=12&eventtype=WF"
+    },
+    {
+      "id": "EQ|1574544",
+      "title": "Earthquake in Indonesia",
+      "date": "2026-10-29T11:38:24+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Indonesia",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1574544&episodeid=1743490&eventtype=EQ"
     },
     {
       "id": "EONET_25549",
