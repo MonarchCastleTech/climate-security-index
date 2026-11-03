@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-11-03T14:20:37.508306+00:00",
+    "generated": "2026-11-03T23:25:47.784738+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,7 +13,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-03T14:20:37.254006+00:00",
+    "issued_at": "2026-11-03T23:25:47.538548+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 78.0,
@@ -153,17 +153,17 @@
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-11-03T14:20:34.613669+00:00"
+        "source_collected_at": "2026-11-03T23:25:44.969458+00:00"
       },
       {
         "id": "gdacs_impact_pressure",
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 224.7,
+        "current_30d_weight": 226.3,
         "baseline_months": 12,
-        "baseline_median": 43.3,
-        "anomaly_z": 5.36,
+        "baseline_median": 38.8,
+        "anomaly_z": 6.43,
         "events_considered": 176,
         "evidence": [
           {
@@ -267,67 +267,67 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1570077&episodeid=1738390&eventtype=EQ"
           },
           {
-            "id": "WF|1033404",
-            "title": "Forest fires in Ethiopia, South Sudan",
-            "date": "2026-10-29T00:00:00+00:00",
+            "id": "WF|1033340",
+            "title": "Forest fires in Sudan, South Sudan",
+            "date": "2026-10-19T00:00:00+00:00",
             "alert_level": "Green",
             "event_type": "WF",
-            "country": "Ethiopia, South Sudan",
+            "country": "Sudan, South Sudan",
             "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033404&episodeid=7&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033340&episodeid=9&eventtype=WF"
           },
           {
-            "id": "WF|1033366",
-            "title": "Forest fires in Botswana, Namibia",
-            "date": "2026-10-28T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Botswana, Namibia",
-            "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033366&episodeid=11&eventtype=WF"
-          },
-          {
-            "id": "WF|1033422",
-            "title": "Forest fires in Central African Republic, Sudan",
-            "date": "2026-10-28T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Central African Republic, Sudan",
-            "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033422&episodeid=3&eventtype=WF"
-          },
-          {
-            "id": "WF|1033360",
-            "title": "Forest fires in Nigeria, Cameroon",
-            "date": "2026-10-30T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Nigeria, Cameroon",
-            "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033360&episodeid=12&eventtype=WF"
-          },
-          {
-            "id": "WF|1033418",
+            "id": "WF|1033477",
             "title": "Forest fires in South Sudan, Sudan",
-            "date": "2026-10-30T00:00:00+00:00",
+            "date": "2026-10-19T00:00:00+00:00",
             "alert_level": "Green",
             "event_type": "WF",
             "country": "South Sudan, Sudan",
             "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033418&episodeid=4&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033477&episodeid=1&eventtype=WF"
+          },
+          {
+            "id": "WF|1033378",
+            "title": "Forest fires in Ethiopia, Sudan",
+            "date": "2026-10-20T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "WF",
+            "country": "Ethiopia, Sudan",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033378&episodeid=6&eventtype=WF"
+          },
+          {
+            "id": "WF|1033409",
+            "title": "Forest fires in Central African Republic, Sudan",
+            "date": "2026-10-22T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "WF",
+            "country": "Central African Republic, Sudan",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033409&episodeid=4&eventtype=WF"
+          },
+          {
+            "id": "WF|1033337",
+            "title": "Forest fires in South Sudan, Sudan",
+            "date": "2026-10-21T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "WF",
+            "country": "South Sudan, Sudan",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033337&episodeid=12&eventtype=WF"
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-11-03T14:20:35.189480+00:00"
+        "source_collected_at": "2026-11-03T23:25:44.073001+00:00"
       },
       {
         "id": "eonet_hazard_persistence",
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 2963.3,
+        "current_30d_weight": 2840.8,
         "baseline_median": 0.0,
-        "anomaly_z": 2963.25,
+        "anomaly_z": 2840.82,
         "events_considered": 1000,
         "evidence": [
           {
@@ -482,7 +482,7 @@
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-11-03T14:20:37.170295+00:00"
+        "source_collected_at": "2026-11-03T23:25:47.449735+00:00"
       },
       {
         "id": "food_price_pressure",
@@ -543,7 +543,7 @@
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-11-03T14:20:33.692414+00:00"
+        "source_collected_at": "2026-11-03T23:25:43.226146+00:00"
       }
     ],
     "concurrence": {
@@ -583,17 +583,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-12T20:35:22.683727+00:00",
-        "score": 73.8,
-        "level": "ELEVATED",
-        "components": {
-          "agroclimate_stress": 100.0,
-          "gdacs_impact_pressure": 60.0,
-          "eonet_hazard_persistence": 56.0,
-          "food_price_pressure": 37.9
-        }
-      },
       {
         "timestamp": "2026-09-13T04:52:51.985674+00:00",
         "score": 73.8,
@@ -2562,6 +2551,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 78.3
         }
+      },
+      {
+        "timestamp": "2026-11-03T23:25:47.538548+00:00",
+        "score": 78.0,
+        "level": "SEVERE",
+        "components": {
+          "agroclimate_stress": 89.1,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 78.3
+        }
       }
     ],
     "data_health": {
@@ -2629,7 +2629,7 @@
       "count": 8,
       "cached": false,
       "retained": false,
-      "source_collected_at": "2026-11-03T14:20:34.613669+00:00",
+      "source_collected_at": "2026-11-03T23:25:44.969458+00:00",
       "sentinels": [
         {
           "name": "Sudan grain belt",
@@ -2725,7 +2725,7 @@
       "count": 176,
       "cached": false,
       "retained": false,
-      "source_collected_at": "2026-11-03T14:20:35.189480+00:00",
+      "source_collected_at": "2026-11-03T23:25:44.073001+00:00",
       "compact": true,
       "events": [
         {
@@ -2829,54 +2829,54 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1570077&episodeid=1738390&eventtype=EQ"
         },
         {
-          "id": "WF|1033404",
-          "title": "Forest fires in Ethiopia, South Sudan",
-          "date": "2026-10-29T00:00:00+00:00",
+          "id": "WF|1033340",
+          "title": "Forest fires in Sudan, South Sudan",
+          "date": "2026-10-19T00:00:00+00:00",
           "alert_level": "Green",
           "event_type": "WF",
-          "country": "Ethiopia, South Sudan",
+          "country": "Sudan, South Sudan",
           "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033404&episodeid=7&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033340&episodeid=9&eventtype=WF"
         },
         {
-          "id": "WF|1033366",
-          "title": "Forest fires in Botswana, Namibia",
-          "date": "2026-10-28T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Botswana, Namibia",
-          "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033366&episodeid=11&eventtype=WF"
-        },
-        {
-          "id": "WF|1033422",
-          "title": "Forest fires in Central African Republic, Sudan",
-          "date": "2026-10-28T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Central African Republic, Sudan",
-          "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033422&episodeid=3&eventtype=WF"
-        },
-        {
-          "id": "WF|1033360",
-          "title": "Forest fires in Nigeria, Cameroon",
-          "date": "2026-10-30T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Nigeria, Cameroon",
-          "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033360&episodeid=12&eventtype=WF"
-        },
-        {
-          "id": "WF|1033418",
+          "id": "WF|1033477",
           "title": "Forest fires in South Sudan, Sudan",
-          "date": "2026-10-30T00:00:00+00:00",
+          "date": "2026-10-19T00:00:00+00:00",
           "alert_level": "Green",
           "event_type": "WF",
           "country": "South Sudan, Sudan",
           "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033418&episodeid=4&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033477&episodeid=1&eventtype=WF"
+        },
+        {
+          "id": "WF|1033378",
+          "title": "Forest fires in Ethiopia, Sudan",
+          "date": "2026-10-20T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "WF",
+          "country": "Ethiopia, Sudan",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033378&episodeid=6&eventtype=WF"
+        },
+        {
+          "id": "WF|1033409",
+          "title": "Forest fires in Central African Republic, Sudan",
+          "date": "2026-10-22T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "WF",
+          "country": "Central African Republic, Sudan",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033409&episodeid=4&eventtype=WF"
+        },
+        {
+          "id": "WF|1033337",
+          "title": "Forest fires in South Sudan, Sudan",
+          "date": "2026-10-21T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "WF",
+          "country": "South Sudan, Sudan",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033337&episodeid=12&eventtype=WF"
         }
       ]
     },
@@ -2884,7 +2884,7 @@
       "count": 1000,
       "cached": false,
       "retained": false,
-      "source_collected_at": "2026-11-03T14:20:37.170295+00:00",
+      "source_collected_at": "2026-11-03T23:25:47.449735+00:00",
       "compact": true,
       "events": [
         {
@@ -7013,7 +7013,7 @@
       ],
       "source_url": "https://www.fao.org/media/docs/worldfoodsituationlibraries/wfs-library/food_price_indices_data.csv?download=true",
       "cached": false,
-      "source_collected_at": "2026-11-03T14:20:33.692414+00:00"
+      "source_collected_at": "2026-11-03T23:25:43.226146+00:00"
     }
   },
   "events": [
@@ -7151,54 +7151,54 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1570077&episodeid=1738390&eventtype=EQ"
     },
     {
-      "id": "WF|1033404",
-      "title": "Forest fires in Ethiopia, South Sudan",
-      "date": "2026-10-29T00:00:00+00:00",
+      "id": "WF|1033340",
+      "title": "Forest fires in Sudan, South Sudan",
+      "date": "2026-10-19T00:00:00+00:00",
       "alert_level": "Green",
       "event_type": "WF",
-      "country": "Ethiopia, South Sudan",
+      "country": "Sudan, South Sudan",
       "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033404&episodeid=7&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033340&episodeid=9&eventtype=WF"
     },
     {
-      "id": "WF|1033366",
-      "title": "Forest fires in Botswana, Namibia",
-      "date": "2026-10-28T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Botswana, Namibia",
-      "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033366&episodeid=11&eventtype=WF"
-    },
-    {
-      "id": "WF|1033422",
-      "title": "Forest fires in Central African Republic, Sudan",
-      "date": "2026-10-28T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Central African Republic, Sudan",
-      "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033422&episodeid=3&eventtype=WF"
-    },
-    {
-      "id": "WF|1033360",
-      "title": "Forest fires in Nigeria, Cameroon",
-      "date": "2026-10-30T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Nigeria, Cameroon",
-      "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033360&episodeid=12&eventtype=WF"
-    },
-    {
-      "id": "WF|1033418",
+      "id": "WF|1033477",
       "title": "Forest fires in South Sudan, Sudan",
-      "date": "2026-10-30T00:00:00+00:00",
+      "date": "2026-10-19T00:00:00+00:00",
       "alert_level": "Green",
       "event_type": "WF",
       "country": "South Sudan, Sudan",
       "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033418&episodeid=4&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033477&episodeid=1&eventtype=WF"
+    },
+    {
+      "id": "WF|1033378",
+      "title": "Forest fires in Ethiopia, Sudan",
+      "date": "2026-10-20T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "WF",
+      "country": "Ethiopia, Sudan",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033378&episodeid=6&eventtype=WF"
+    },
+    {
+      "id": "WF|1033409",
+      "title": "Forest fires in Central African Republic, Sudan",
+      "date": "2026-10-22T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "WF",
+      "country": "Central African Republic, Sudan",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033409&episodeid=4&eventtype=WF"
+    },
+    {
+      "id": "WF|1033337",
+      "title": "Forest fires in South Sudan, Sudan",
+      "date": "2026-10-21T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "WF",
+      "country": "South Sudan, Sudan",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033337&episodeid=12&eventtype=WF"
     },
     {
       "id": "EONET_25549",
