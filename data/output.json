@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-11-04T06:29:14.848311+00:00",
+    "generated": "2026-11-04T19:48:14.819592+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,7 +13,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-04T06:29:14.653599+00:00",
+    "issued_at": "2026-11-04T19:48:14.690211+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 78.6,
@@ -153,17 +153,17 @@
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-11-04T06:29:12.603781+00:00"
+        "source_collected_at": "2026-11-04T19:48:11.009149+00:00"
       },
       {
         "id": "gdacs_impact_pressure",
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 226.4,
+        "current_30d_weight": 223.6,
         "baseline_months": 12,
-        "baseline_median": 38.8,
-        "anomaly_z": 6.43,
+        "baseline_median": 42.8,
+        "anomaly_z": 4.72,
         "events_considered": 176,
         "evidence": [
           {
@@ -267,6 +267,26 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1570077&episodeid=1738390&eventtype=EQ"
           },
           {
+            "id": "WF|1033418",
+            "title": "Forest fires in South Sudan, Sudan",
+            "date": "2026-10-30T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "WF",
+            "country": "South Sudan, Sudan",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033418&episodeid=8&eventtype=WF"
+          },
+          {
+            "id": "WF|1033337",
+            "title": "Forest fires in South Sudan, Sudan",
+            "date": "2026-10-21T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "WF",
+            "country": "South Sudan, Sudan",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033337&episodeid=13&eventtype=WF"
+          },
+          {
             "id": "WF|1033340",
             "title": "Forest fires in Sudan, South Sudan",
             "date": "2026-10-19T00:00:00+00:00",
@@ -295,39 +315,19 @@
             "country": "Ethiopia, Sudan",
             "weight": 1.1,
             "url": "https://www.gdacs.org/report.aspx?eventid=1033378&episodeid=6&eventtype=WF"
-          },
-          {
-            "id": "WF|1033409",
-            "title": "Forest fires in Central African Republic, Sudan",
-            "date": "2026-10-22T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Central African Republic, Sudan",
-            "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033409&episodeid=4&eventtype=WF"
-          },
-          {
-            "id": "WF|1033337",
-            "title": "Forest fires in South Sudan, Sudan",
-            "date": "2026-10-21T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "WF",
-            "country": "South Sudan, Sudan",
-            "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033337&episodeid=12&eventtype=WF"
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-11-04T06:29:12.108605+00:00"
+        "source_collected_at": "2026-11-04T19:48:10.684558+00:00"
       },
       {
         "id": "eonet_hazard_persistence",
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 2840.3,
+        "current_30d_weight": 2990.6,
         "baseline_median": 0.0,
-        "anomaly_z": 2840.35,
+        "anomaly_z": 2990.58,
         "events_considered": 1000,
         "evidence": [
           {
@@ -349,6 +349,16 @@
             ],
             "weight": 4.2,
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032663"
+          },
+          {
+            "id": "EONET_26028",
+            "title": "Wildfire in South Sudan 1033436",
+            "date": "2026-10-28T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.1,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033436"
           },
           {
             "id": "EONET_25642",
@@ -431,6 +441,36 @@
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032855"
           },
           {
+            "id": "EONET_25995",
+            "title": "Wildfire in Australia 1033451",
+            "date": "2026-10-31T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.0,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033451"
+          },
+          {
+            "id": "EONET_26014",
+            "title": "Wildfire in Australia 1033456",
+            "date": "2026-10-29T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.0,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033456"
+          },
+          {
+            "id": "EONET_26017",
+            "title": "Wildfire in Australia 1033463",
+            "date": "2026-10-29T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.0,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033463"
+          },
+          {
             "id": "EONET_25903",
             "title": "Wildfire in Botswana 1033346",
             "date": "2026-10-27T19:00:00+00:00",
@@ -439,50 +479,10 @@
             ],
             "weight": 4.0,
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033346"
-          },
-          {
-            "id": "EONET_25836",
-            "title": "Wildfire in Botswana 1033276",
-            "date": "2026-10-26T19:00:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.0,
-            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033276"
-          },
-          {
-            "id": "EONET_25911",
-            "title": "Wildfire in China 1033362",
-            "date": "2026-10-26T19:00:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.0,
-            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033362"
-          },
-          {
-            "id": "EONET_25692",
-            "title": "Wildfire in Australia 1033164",
-            "date": "2026-10-23T19:00:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.0,
-            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033164"
-          },
-          {
-            "id": "EONET_25784",
-            "title": "Wildfire in Australia 1033229",
-            "date": "2026-10-22T19:00:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.0,
-            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033229"
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-11-04T06:29:14.587884+00:00"
+        "source_collected_at": "2026-11-04T19:48:14.645512+00:00"
       },
       {
         "id": "food_price_pressure",
@@ -543,7 +543,7 @@
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-11-04T06:29:11.367904+00:00"
+        "source_collected_at": "2026-11-04T19:48:09.900148+00:00"
       }
     ],
     "concurrence": {
@@ -583,17 +583,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-13T11:56:10.064712+00:00",
-        "score": 73.8,
-        "level": "ELEVATED",
-        "components": {
-          "agroclimate_stress": 100.0,
-          "gdacs_impact_pressure": 60.0,
-          "eonet_hazard_persistence": 56.0,
-          "food_price_pressure": 37.9
-        }
-      },
       {
         "timestamp": "2026-09-13T16:20:09.001758+00:00",
         "score": 73.8,
@@ -2562,6 +2551,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 78.3
         }
+      },
+      {
+        "timestamp": "2026-11-04T19:48:14.690211+00:00",
+        "score": 78.6,
+        "level": "SEVERE",
+        "components": {
+          "agroclimate_stress": 90.6,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 78.3
+        }
       }
     ],
     "data_health": {
@@ -2629,7 +2629,7 @@
       "count": 8,
       "cached": false,
       "retained": false,
-      "source_collected_at": "2026-11-04T06:29:12.603781+00:00",
+      "source_collected_at": "2026-11-04T19:48:11.009149+00:00",
       "sentinels": [
         {
           "name": "Lake Chad basin",
@@ -2725,7 +2725,7 @@
       "count": 176,
       "cached": false,
       "retained": false,
-      "source_collected_at": "2026-11-04T06:29:12.108605+00:00",
+      "source_collected_at": "2026-11-04T19:48:10.684558+00:00",
       "compact": true,
       "events": [
         {
@@ -2829,6 +2829,26 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1570077&episodeid=1738390&eventtype=EQ"
         },
         {
+          "id": "WF|1033418",
+          "title": "Forest fires in South Sudan, Sudan",
+          "date": "2026-10-30T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "WF",
+          "country": "South Sudan, Sudan",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033418&episodeid=8&eventtype=WF"
+        },
+        {
+          "id": "WF|1033337",
+          "title": "Forest fires in South Sudan, Sudan",
+          "date": "2026-10-21T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "WF",
+          "country": "South Sudan, Sudan",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033337&episodeid=13&eventtype=WF"
+        },
+        {
           "id": "WF|1033340",
           "title": "Forest fires in Sudan, South Sudan",
           "date": "2026-10-19T00:00:00+00:00",
@@ -2857,26 +2877,6 @@
           "country": "Ethiopia, Sudan",
           "weight": 1.1,
           "url": "https://www.gdacs.org/report.aspx?eventid=1033378&episodeid=6&eventtype=WF"
-        },
-        {
-          "id": "WF|1033409",
-          "title": "Forest fires in Central African Republic, Sudan",
-          "date": "2026-10-22T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Central African Republic, Sudan",
-          "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033409&episodeid=4&eventtype=WF"
-        },
-        {
-          "id": "WF|1033337",
-          "title": "Forest fires in South Sudan, Sudan",
-          "date": "2026-10-21T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "WF",
-          "country": "South Sudan, Sudan",
-          "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033337&episodeid=12&eventtype=WF"
         }
       ]
     },
@@ -2884,7 +2884,7 @@
       "count": 1000,
       "cached": false,
       "retained": false,
-      "source_collected_at": "2026-11-04T06:29:14.587884+00:00",
+      "source_collected_at": "2026-11-04T19:48:14.645512+00:00",
       "compact": true,
       "events": [
         {
@@ -2906,6 +2906,16 @@
           ],
           "weight": 4.2,
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032663"
+        },
+        {
+          "id": "EONET_26028",
+          "title": "Wildfire in South Sudan 1033436",
+          "date": "2026-10-28T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.1,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033436"
         },
         {
           "id": "EONET_25642",
@@ -2988,6 +2998,36 @@
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032855"
         },
         {
+          "id": "EONET_25995",
+          "title": "Wildfire in Australia 1033451",
+          "date": "2026-10-31T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.0,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033451"
+        },
+        {
+          "id": "EONET_26014",
+          "title": "Wildfire in Australia 1033456",
+          "date": "2026-10-29T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.0,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033456"
+        },
+        {
+          "id": "EONET_26017",
+          "title": "Wildfire in Australia 1033463",
+          "date": "2026-10-29T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.0,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033463"
+        },
+        {
           "id": "EONET_25903",
           "title": "Wildfire in Botswana 1033346",
           "date": "2026-10-27T19:00:00+00:00",
@@ -2996,46 +3036,6 @@
           ],
           "weight": 4.0,
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033346"
-        },
-        {
-          "id": "EONET_25836",
-          "title": "Wildfire in Botswana 1033276",
-          "date": "2026-10-26T19:00:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.0,
-          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033276"
-        },
-        {
-          "id": "EONET_25911",
-          "title": "Wildfire in China 1033362",
-          "date": "2026-10-26T19:00:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.0,
-          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033362"
-        },
-        {
-          "id": "EONET_25692",
-          "title": "Wildfire in Australia 1033164",
-          "date": "2026-10-23T19:00:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.0,
-          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033164"
-        },
-        {
-          "id": "EONET_25784",
-          "title": "Wildfire in Australia 1033229",
-          "date": "2026-10-22T19:00:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.0,
-          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033229"
         }
       ]
     },
@@ -7013,7 +7013,7 @@
       ],
       "source_url": "https://www.fao.org/media/docs/worldfoodsituationlibraries/wfs-library/food_price_indices_data.csv?download=true",
       "cached": false,
-      "source_collected_at": "2026-11-04T06:29:11.367904+00:00"
+      "source_collected_at": "2026-11-04T19:48:09.900148+00:00"
     }
   },
   "events": [
@@ -7151,6 +7151,26 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1570077&episodeid=1738390&eventtype=EQ"
     },
     {
+      "id": "WF|1033418",
+      "title": "Forest fires in South Sudan, Sudan",
+      "date": "2026-10-30T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "WF",
+      "country": "South Sudan, Sudan",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033418&episodeid=8&eventtype=WF"
+    },
+    {
+      "id": "WF|1033337",
+      "title": "Forest fires in South Sudan, Sudan",
+      "date": "2026-10-21T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "WF",
+      "country": "South Sudan, Sudan",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033337&episodeid=13&eventtype=WF"
+    },
+    {
       "id": "WF|1033340",
       "title": "Forest fires in Sudan, South Sudan",
       "date": "2026-10-19T00:00:00+00:00",
@@ -7181,26 +7201,6 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1033378&episodeid=6&eventtype=WF"
     },
     {
-      "id": "WF|1033409",
-      "title": "Forest fires in Central African Republic, Sudan",
-      "date": "2026-10-22T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Central African Republic, Sudan",
-      "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033409&episodeid=4&eventtype=WF"
-    },
-    {
-      "id": "WF|1033337",
-      "title": "Forest fires in South Sudan, Sudan",
-      "date": "2026-10-21T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "WF",
-      "country": "South Sudan, Sudan",
-      "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033337&episodeid=12&eventtype=WF"
-    },
-    {
       "id": "EONET_25549",
       "title": "Wildfire in Australia 1033018",
       "date": "2026-10-20T19:00:00+00:00",
@@ -7219,6 +7219,16 @@
       ],
       "weight": 4.2,
       "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032663"
+    },
+    {
+      "id": "EONET_26028",
+      "title": "Wildfire in South Sudan 1033436",
+      "date": "2026-10-28T19:00:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.1,
+      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033436"
     },
     {
       "id": "EONET_25642",
@@ -7301,24 +7311,14 @@
       "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032855"
     },
     {
-      "id": "EONET_25903",
-      "title": "Wildfire in Botswana 1033346",
-      "date": "2026-10-27T19:00:00+00:00",
+      "id": "EONET_25995",
+      "title": "Wildfire in Australia 1033451",
+      "date": "2026-10-31T19:00:00+00:00",
       "categories": [
         "wildfires"
       ],
       "weight": 4.0,
-      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033346"
-    },
-    {
-      "id": "EONET_25836",
-      "title": "Wildfire in Botswana 1033276",
-      "date": "2026-10-26T19:00:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.0,
-      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033276"
+      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033451"
     }
   ]
 }
