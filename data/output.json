@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-11-06T06:51:52.622686+00:00",
+    "generated": "2026-11-06T19:26:51.794600+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,11 +13,11 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-06T06:51:52.464224+00:00",
+    "issued_at": "2026-11-06T19:26:51.545322+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
-    "score": 78.6,
-    "level": "SEVERE",
+    "score": 62.5,
+    "level": "ELEVATED",
     "confidence": "HIGH",
     "confidence_score": 100.0,
     "components": [
@@ -153,18 +153,18 @@
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-11-06T06:51:50.927553+00:00"
+        "source_collected_at": "2026-11-06T19:26:48.249568+00:00"
       },
       {
         "id": "gdacs_impact_pressure",
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 219.2,
+        "current_30d_weight": 207.7,
         "baseline_months": 12,
-        "baseline_median": 42.8,
-        "anomaly_z": 5.33,
-        "events_considered": 177,
+        "baseline_median": 41.0,
+        "anomaly_z": 5.48,
+        "events_considered": 176,
         "evidence": [
           {
             "id": "TC|1001338",
@@ -207,16 +207,6 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ"
           },
           {
-            "id": "TC|1001335",
-            "title": "Tropical Cyclone SIMON-26",
-            "date": "2026-10-07T15:00:00+00:00",
-            "alert_level": "Orange",
-            "event_type": "TC",
-            "country": "México",
-            "weight": 8.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=38&eventtype=TC"
-          },
-          {
             "id": "VO|1000152",
             "title": "Eruption  Kanlaon",
             "date": "2026-10-10T05:58:00+00:00",
@@ -257,6 +247,36 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1570077&episodeid=1738390&eventtype=EQ"
           },
           {
+            "id": "WF|1033530",
+            "title": "Forest fires in Zambia, Zimbabwe",
+            "date": "2026-11-01T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "WF",
+            "country": "Zambia, Zimbabwe",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033530&episodeid=3&eventtype=WF"
+          },
+          {
+            "id": "WF|1033408",
+            "title": "Forest fires in Botswana, Namibia",
+            "date": "2026-10-26T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "WF",
+            "country": "Botswana, Namibia",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033408&episodeid=10&eventtype=WF"
+          },
+          {
+            "id": "WF|1033503",
+            "title": "Forest fires in Brazil, Guyana",
+            "date": "2026-10-29T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "WF",
+            "country": "Brazil, Guyana",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033503&episodeid=7&eventtype=WF"
+          },
+          {
             "id": "WF|1033519",
             "title": "Forest fires in South Sudan, Sudan",
             "date": "2026-11-03T00:00:00+00:00",
@@ -277,16 +297,6 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1033526&episodeid=1&eventtype=WF"
           },
           {
-            "id": "WF|1033530",
-            "title": "Forest fires in Zambia, Zimbabwe",
-            "date": "2026-11-01T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Zambia, Zimbabwe",
-            "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033530&episodeid=1&eventtype=WF"
-          },
-          {
             "id": "WF|1033333",
             "title": "Forest fires in South Sudan, Sudan",
             "date": "2026-10-26T00:00:00+00:00",
@@ -305,31 +315,41 @@
             "country": "Mozambique, Zimbabwe",
             "weight": 1.1,
             "url": "https://www.gdacs.org/report.aspx?eventid=1033353&episodeid=9&eventtype=WF"
-          },
-          {
-            "id": "WF|1033408",
-            "title": "Forest fires in Botswana, Namibia",
-            "date": "2026-10-26T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Botswana, Namibia",
-            "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033408&episodeid=9&eventtype=WF"
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-11-06T06:51:50.329357+00:00"
+        "source_collected_at": "2026-11-06T19:26:47.853870+00:00"
       },
       {
         "id": "eonet_hazard_persistence",
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 2857.9,
+        "current_30d_weight": 2987.9,
         "baseline_median": 0.0,
-        "anomaly_z": 2857.85,
+        "anomaly_z": 2987.87,
         "events_considered": 1000,
         "evidence": [
+          {
+            "id": "EONET_26065",
+            "title": "Wildfire in Australia 1033515",
+            "date": "2026-11-03T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.3,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033515"
+          },
+          {
+            "id": "EONET_26059",
+            "title": "Wildfire in Australia 1033539",
+            "date": "2026-11-04T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.2,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033539"
+          },
           {
             "id": "EONET_25549",
             "title": "Wildfire in Australia 1033018",
@@ -341,14 +361,34 @@
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033018"
           },
           {
-            "id": "EONET_25124",
-            "title": "Wildfire in Mongolia 1032663",
-            "date": "2026-10-07T19:00:00+00:00",
+            "id": "EONET_26060",
+            "title": "Wildfire in Australia 1033511",
+            "date": "2026-11-04T19:00:00+00:00",
             "categories": [
               "wildfires"
             ],
-            "weight": 4.2,
-            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032663"
+            "weight": 4.1,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033511"
+          },
+          {
+            "id": "EONET_26061",
+            "title": "Wildfire in Australia 1033513",
+            "date": "2026-11-04T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.1,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033513"
+          },
+          {
+            "id": "EONET_26109",
+            "title": "Wildfire in South Sudan 1033496",
+            "date": "2026-10-29T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.1,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033496"
           },
           {
             "id": "EONET_26028",
@@ -431,142 +471,96 @@
             "url": "https://irwin.doi.gov/observer/incidents/2026-AZKNF-001107"
           },
           {
-            "id": "EONET_25381",
-            "title": "Wildfire in Mozambique 1032855",
-            "date": "2026-10-07T19:00:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.1,
-            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032855"
-          },
-          {
-            "id": "EONET_25995",
-            "title": "Wildfire in Australia 1033451",
-            "date": "2026-10-31T19:00:00+00:00",
+            "id": "EONET_26072",
+            "title": "Wildfire in Australia 1033486",
+            "date": "2026-11-02T19:00:00+00:00",
             "categories": [
               "wildfires"
             ],
             "weight": 4.0,
-            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033451"
-          },
-          {
-            "id": "EONET_26014",
-            "title": "Wildfire in Australia 1033456",
-            "date": "2026-10-29T19:00:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.0,
-            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033456"
-          },
-          {
-            "id": "EONET_26017",
-            "title": "Wildfire in Australia 1033463",
-            "date": "2026-10-29T19:00:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.0,
-            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033463"
-          },
-          {
-            "id": "EONET_25903",
-            "title": "Wildfire in Botswana 1033346",
-            "date": "2026-10-27T19:00:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.0,
-            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033346"
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033486"
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-11-06T06:51:52.413935+00:00"
+        "source_collected_at": "2026-11-06T19:26:51.465259+00:00"
       },
       {
         "id": "food_price_pressure",
         "label": "FAO food-price pressure",
         "available": true,
-        "score": 78.3,
-        "latest_month": "2026-09",
+        "score": 23.0,
+        "latest_month": "2026-10",
         "metrics": [
           {
             "field": "Food Price Index",
-            "latest": 136.0,
-            "three_month_change_pct": 4.53,
-            "year_change_pct": 5.75,
-            "anomaly_z": 1.03,
-            "score": 45.7
+            "latest": 133.9,
+            "three_month_change_pct": 1.67,
+            "year_change_pct": 5.93,
+            "anomaly_z": 0.31,
+            "score": 15.7
           },
           {
             "field": "Cereals",
-            "latest": 122.8,
-            "three_month_change_pct": 11.64,
-            "year_change_pct": 17.18,
-            "anomaly_z": 2.58,
-            "score": 100.0
+            "latest": 116.8,
+            "three_month_change_pct": 2.64,
+            "year_change_pct": 12.52,
+            "anomaly_z": 0.67,
+            "score": 27.9
           },
           {
             "field": "Oils",
-            "latest": 198.6,
-            "three_month_change_pct": 3.44,
-            "year_change_pct": 18.28,
-            "anomaly_z": 0.2,
-            "score": 24.3
+            "latest": 199.2,
+            "three_month_change_pct": 1.79,
+            "year_change_pct": 17.59,
+            "anomaly_z": -0.0,
+            "score": 10.7
           }
         ],
         "evidence": [
           {
             "field": "Cereals",
-            "latest": 122.8,
-            "three_month_change_pct": 11.64,
-            "year_change_pct": 17.18,
-            "anomaly_z": 2.58,
-            "score": 100.0
+            "latest": 116.8,
+            "three_month_change_pct": 2.64,
+            "year_change_pct": 12.52,
+            "anomaly_z": 0.67,
+            "score": 27.9
           },
           {
             "field": "Food Price Index",
-            "latest": 136.0,
-            "three_month_change_pct": 4.53,
-            "year_change_pct": 5.75,
-            "anomaly_z": 1.03,
-            "score": 45.7
+            "latest": 133.9,
+            "three_month_change_pct": 1.67,
+            "year_change_pct": 5.93,
+            "anomaly_z": 0.31,
+            "score": 15.7
           },
           {
             "field": "Oils",
-            "latest": 198.6,
-            "three_month_change_pct": 3.44,
-            "year_change_pct": 18.28,
-            "anomaly_z": 0.2,
-            "score": 24.3
+            "latest": 199.2,
+            "three_month_change_pct": 1.79,
+            "year_change_pct": 17.59,
+            "anomaly_z": -0.0,
+            "score": 10.7
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-11-06T06:51:49.396586+00:00"
+        "source_collected_at": "2026-11-06T19:26:46.974440+00:00"
       }
     ],
     "concurrence": {
-      "active": true,
+      "active": false,
       "climate_components": [
         "agroclimate_stress",
         "gdacs_impact_pressure",
         "eonet_hazard_persistence"
       ],
-      "food_component_elevated": true,
-      "score_bonus": 5.0
+      "food_component_elevated": false,
+      "score_bonus": 0.0
     },
     "alerts": [
       {
         "id": "agroclimate_stress",
         "title": "NASA POWER agroclimate stress",
         "score": 90.6,
-        "level": "SEVERE"
-      },
-      {
-        "id": "food_price_pressure",
-        "title": "FAO food-price pressure",
-        "score": 78.3,
         "level": "SEVERE"
       },
       {
@@ -583,17 +577,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-14T12:52:28.258153+00:00",
-        "score": 73.8,
-        "level": "ELEVATED",
-        "components": {
-          "agroclimate_stress": 100.0,
-          "gdacs_impact_pressure": 60.0,
-          "eonet_hazard_persistence": 56.0,
-          "food_price_pressure": 37.9
-        }
-      },
       {
         "timestamp": "2026-09-14T21:51:46.066223+00:00",
         "score": 73.8,
@@ -2562,15 +2545,26 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 78.3
         }
+      },
+      {
+        "timestamp": "2026-11-06T19:26:51.545322+00:00",
+        "score": 62.5,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 90.6,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 23.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
       "power_sentinels": 8,
-      "gdacs_events": 177,
+      "gdacs_events": 176,
       "eonet_events": 1000,
-      "fao_latest_month": "2026-09"
+      "fao_latest_month": "2026-10"
     },
     "method": {
       "name": "Climate-security precursor concurrence model v1",
@@ -2605,8 +2599,8 @@
   "stats": [
     {
       "label": "Climate-Security Pressure",
-      "value": "78.6/100",
-      "delta": "SEVERE"
+      "value": "62.5/100",
+      "delta": "ELEVATED"
     },
     {
       "label": "Agroclimate Sentinels",
@@ -2615,7 +2609,7 @@
     },
     {
       "label": "Hazards Screened",
-      "value": "1177",
+      "value": "1176",
       "delta": "NASA + GDACS"
     },
     {
@@ -2629,7 +2623,7 @@
       "count": 8,
       "cached": false,
       "retained": false,
-      "source_collected_at": "2026-11-06T06:51:50.927553+00:00",
+      "source_collected_at": "2026-11-06T19:26:48.249568+00:00",
       "sentinels": [
         {
           "name": "Lake Chad basin",
@@ -2722,10 +2716,10 @@
       ]
     },
     "gdacs": {
-      "count": 177,
+      "count": 176,
       "cached": false,
       "retained": false,
-      "source_collected_at": "2026-11-06T06:51:50.329357+00:00",
+      "source_collected_at": "2026-11-06T19:26:47.853870+00:00",
       "compact": true,
       "events": [
         {
@@ -2769,16 +2763,6 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ"
         },
         {
-          "id": "TC|1001335",
-          "title": "Tropical Cyclone SIMON-26",
-          "date": "2026-10-07T15:00:00+00:00",
-          "alert_level": "Orange",
-          "event_type": "TC",
-          "country": "México",
-          "weight": 8.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=38&eventtype=TC"
-        },
-        {
           "id": "VO|1000152",
           "title": "Eruption  Kanlaon",
           "date": "2026-10-10T05:58:00+00:00",
@@ -2819,6 +2803,36 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1570077&episodeid=1738390&eventtype=EQ"
         },
         {
+          "id": "WF|1033530",
+          "title": "Forest fires in Zambia, Zimbabwe",
+          "date": "2026-11-01T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "WF",
+          "country": "Zambia, Zimbabwe",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033530&episodeid=3&eventtype=WF"
+        },
+        {
+          "id": "WF|1033408",
+          "title": "Forest fires in Botswana, Namibia",
+          "date": "2026-10-26T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "WF",
+          "country": "Botswana, Namibia",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033408&episodeid=10&eventtype=WF"
+        },
+        {
+          "id": "WF|1033503",
+          "title": "Forest fires in Brazil, Guyana",
+          "date": "2026-10-29T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "WF",
+          "country": "Brazil, Guyana",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033503&episodeid=7&eventtype=WF"
+        },
+        {
           "id": "WF|1033519",
           "title": "Forest fires in South Sudan, Sudan",
           "date": "2026-11-03T00:00:00+00:00",
@@ -2839,16 +2853,6 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1033526&episodeid=1&eventtype=WF"
         },
         {
-          "id": "WF|1033530",
-          "title": "Forest fires in Zambia, Zimbabwe",
-          "date": "2026-11-01T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Zambia, Zimbabwe",
-          "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033530&episodeid=1&eventtype=WF"
-        },
-        {
           "id": "WF|1033333",
           "title": "Forest fires in South Sudan, Sudan",
           "date": "2026-10-26T00:00:00+00:00",
@@ -2867,16 +2871,6 @@
           "country": "Mozambique, Zimbabwe",
           "weight": 1.1,
           "url": "https://www.gdacs.org/report.aspx?eventid=1033353&episodeid=9&eventtype=WF"
-        },
-        {
-          "id": "WF|1033408",
-          "title": "Forest fires in Botswana, Namibia",
-          "date": "2026-10-26T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Botswana, Namibia",
-          "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033408&episodeid=9&eventtype=WF"
         }
       ]
     },
@@ -2884,9 +2878,29 @@
       "count": 1000,
       "cached": false,
       "retained": false,
-      "source_collected_at": "2026-11-06T06:51:52.413935+00:00",
+      "source_collected_at": "2026-11-06T19:26:51.465259+00:00",
       "compact": true,
       "events": [
+        {
+          "id": "EONET_26065",
+          "title": "Wildfire in Australia 1033515",
+          "date": "2026-11-03T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.3,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033515"
+        },
+        {
+          "id": "EONET_26059",
+          "title": "Wildfire in Australia 1033539",
+          "date": "2026-11-04T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.2,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033539"
+        },
         {
           "id": "EONET_25549",
           "title": "Wildfire in Australia 1033018",
@@ -2898,14 +2912,34 @@
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033018"
         },
         {
-          "id": "EONET_25124",
-          "title": "Wildfire in Mongolia 1032663",
-          "date": "2026-10-07T19:00:00+00:00",
+          "id": "EONET_26060",
+          "title": "Wildfire in Australia 1033511",
+          "date": "2026-11-04T19:00:00+00:00",
           "categories": [
             "wildfires"
           ],
-          "weight": 4.2,
-          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032663"
+          "weight": 4.1,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033511"
+        },
+        {
+          "id": "EONET_26061",
+          "title": "Wildfire in Australia 1033513",
+          "date": "2026-11-04T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.1,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033513"
+        },
+        {
+          "id": "EONET_26109",
+          "title": "Wildfire in South Sudan 1033496",
+          "date": "2026-10-29T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.1,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033496"
         },
         {
           "id": "EONET_26028",
@@ -2988,54 +3022,14 @@
           "url": "https://irwin.doi.gov/observer/incidents/2026-AZKNF-001107"
         },
         {
-          "id": "EONET_25381",
-          "title": "Wildfire in Mozambique 1032855",
-          "date": "2026-10-07T19:00:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.1,
-          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032855"
-        },
-        {
-          "id": "EONET_25995",
-          "title": "Wildfire in Australia 1033451",
-          "date": "2026-10-31T19:00:00+00:00",
+          "id": "EONET_26072",
+          "title": "Wildfire in Australia 1033486",
+          "date": "2026-11-02T19:00:00+00:00",
           "categories": [
             "wildfires"
           ],
           "weight": 4.0,
-          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033451"
-        },
-        {
-          "id": "EONET_26014",
-          "title": "Wildfire in Australia 1033456",
-          "date": "2026-10-29T19:00:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.0,
-          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033456"
-        },
-        {
-          "id": "EONET_26017",
-          "title": "Wildfire in Australia 1033463",
-          "date": "2026-10-29T19:00:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.0,
-          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033463"
-        },
-        {
-          "id": "EONET_25903",
-          "title": "Wildfire in Botswana 1033346",
-          "date": "2026-10-27T19:00:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.0,
-          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033346"
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033486"
         }
       ]
     },
@@ -6994,8 +6988,8 @@
         },
         {
           "Date": "2026-08",
-          "Food Price Index": 134.0,
-          "Meat": 129.3,
+          "Food Price Index": 133.9,
+          "Meat": 129.0,
           "Dairy": 119.2,
           "Cereals": 116.8,
           "Oils": 196.9,
@@ -7003,17 +6997,26 @@
         },
         {
           "Date": "2026-09",
-          "Food Price Index": 136.0,
-          "Meat": 127.9,
+          "Food Price Index": 135.6,
+          "Meat": 127.1,
           "Dairy": 119.1,
-          "Cereals": 122.8,
+          "Cereals": 122.3,
           "Oils": 198.6,
-          "Sugar": 114.0
+          "Sugar": 113.7
+        },
+        {
+          "Date": "2026-10",
+          "Food Price Index": 133.9,
+          "Meat": 125.5,
+          "Dairy": 117.8,
+          "Cereals": 116.8,
+          "Oils": 199.2,
+          "Sugar": 121.3
         }
       ],
       "source_url": "https://www.fao.org/media/docs/worldfoodsituationlibraries/wfs-library/food_price_indices_data.csv?download=true",
       "cached": false,
-      "source_collected_at": "2026-11-06T06:51:49.396586+00:00"
+      "source_collected_at": "2026-11-06T19:26:46.974440+00:00"
     }
   },
   "events": [
@@ -7091,16 +7094,6 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ"
     },
     {
-      "id": "TC|1001335",
-      "title": "Tropical Cyclone SIMON-26",
-      "date": "2026-10-07T15:00:00+00:00",
-      "alert_level": "Orange",
-      "event_type": "TC",
-      "country": "México",
-      "weight": 8.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=38&eventtype=TC"
-    },
-    {
       "id": "VO|1000152",
       "title": "Eruption  Kanlaon",
       "date": "2026-10-10T05:58:00+00:00",
@@ -7141,6 +7134,36 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1570077&episodeid=1738390&eventtype=EQ"
     },
     {
+      "id": "WF|1033530",
+      "title": "Forest fires in Zambia, Zimbabwe",
+      "date": "2026-11-01T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "WF",
+      "country": "Zambia, Zimbabwe",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033530&episodeid=3&eventtype=WF"
+    },
+    {
+      "id": "WF|1033408",
+      "title": "Forest fires in Botswana, Namibia",
+      "date": "2026-10-26T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "WF",
+      "country": "Botswana, Namibia",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033408&episodeid=10&eventtype=WF"
+    },
+    {
+      "id": "WF|1033503",
+      "title": "Forest fires in Brazil, Guyana",
+      "date": "2026-10-29T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "WF",
+      "country": "Brazil, Guyana",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033503&episodeid=7&eventtype=WF"
+    },
+    {
       "id": "WF|1033519",
       "title": "Forest fires in South Sudan, Sudan",
       "date": "2026-11-03T00:00:00+00:00",
@@ -7159,16 +7182,6 @@
       "country": "Sudan, South Sudan",
       "weight": 1.1,
       "url": "https://www.gdacs.org/report.aspx?eventid=1033526&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF|1033530",
-      "title": "Forest fires in Zambia, Zimbabwe",
-      "date": "2026-11-01T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Zambia, Zimbabwe",
-      "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033530&episodeid=1&eventtype=WF"
     },
     {
       "id": "WF|1033333",
@@ -7191,14 +7204,24 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1033353&episodeid=9&eventtype=WF"
     },
     {
-      "id": "WF|1033408",
-      "title": "Forest fires in Botswana, Namibia",
-      "date": "2026-10-26T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Botswana, Namibia",
-      "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033408&episodeid=9&eventtype=WF"
+      "id": "EONET_26065",
+      "title": "Wildfire in Australia 1033515",
+      "date": "2026-11-03T19:00:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.3,
+      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033515"
+    },
+    {
+      "id": "EONET_26059",
+      "title": "Wildfire in Australia 1033539",
+      "date": "2026-11-04T19:00:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.2,
+      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033539"
     },
     {
       "id": "EONET_25549",
@@ -7211,14 +7234,34 @@
       "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033018"
     },
     {
-      "id": "EONET_25124",
-      "title": "Wildfire in Mongolia 1032663",
-      "date": "2026-10-07T19:00:00+00:00",
+      "id": "EONET_26060",
+      "title": "Wildfire in Australia 1033511",
+      "date": "2026-11-04T19:00:00+00:00",
       "categories": [
         "wildfires"
       ],
-      "weight": 4.2,
-      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032663"
+      "weight": 4.1,
+      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033511"
+    },
+    {
+      "id": "EONET_26061",
+      "title": "Wildfire in Australia 1033513",
+      "date": "2026-11-04T19:00:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.1,
+      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033513"
+    },
+    {
+      "id": "EONET_26109",
+      "title": "Wildfire in South Sudan 1033496",
+      "date": "2026-10-29T19:00:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.1,
+      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033496"
     },
     {
       "id": "EONET_26028",
@@ -7279,46 +7322,6 @@
       ],
       "weight": 4.1,
       "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033322"
-    },
-    {
-      "id": "EONET_25432",
-      "title": "Wildfire in Australia 1032919",
-      "date": "2026-10-13T19:00:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.1,
-      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032919"
-    },
-    {
-      "id": "EONET_25234",
-      "title": "Prescribed Fire Bridger Trail Unit - KPERP Rx NKRD CY26, Coconino, Arizona",
-      "date": "2026-10-09T11:49:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.1,
-      "url": "https://irwin.doi.gov/observer/incidents/2026-AZKNF-001107"
-    },
-    {
-      "id": "EONET_25381",
-      "title": "Wildfire in Mozambique 1032855",
-      "date": "2026-10-07T19:00:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.1,
-      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032855"
-    },
-    {
-      "id": "EONET_25995",
-      "title": "Wildfire in Australia 1033451",
-      "date": "2026-10-31T19:00:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.0,
-      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033451"
     }
   ]
 }
