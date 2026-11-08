@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-11-07T21:53:43.324269+00:00",
+    "generated": "2026-11-08T06:06:15.625952+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,7 +13,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-07T21:53:43.075211+00:00",
+    "issued_at": "2026-11-08T06:06:15.506994+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 62.6,
@@ -25,7 +25,7 @@
         "id": "agroclimate_stress",
         "label": "NASA POWER agroclimate stress",
         "available": true,
-        "score": 90.9,
+        "score": 91.0,
         "sentinels_available": 8,
         "sentinels": [
           {
@@ -33,88 +33,88 @@
             "lat": 12.5,
             "lon": 14.5,
             "score": 100.0,
-            "rain_30d_mm": 0.2,
-            "rain_ratio": 0.02,
+            "rain_30d_mm": 0.1,
+            "rain_ratio": 0.01,
             "max_temp_c": 40.2,
-            "heat_anomaly_c": 5.1,
-            "observed_through": "2026-11-05"
+            "heat_anomaly_c": 5.0,
+            "observed_through": "2026-11-06"
           },
           {
             "name": "Sudan grain belt",
             "lat": 13.5,
             "lon": 33.5,
             "score": 100.0,
-            "rain_30d_mm": 19.6,
-            "rain_ratio": 0.43,
+            "rain_30d_mm": 13.9,
+            "rain_ratio": 0.31,
             "max_temp_c": 40.9,
-            "heat_anomaly_c": 8.1,
-            "observed_through": "2026-11-05"
+            "heat_anomaly_c": 8.0,
+            "observed_through": "2026-11-06"
           },
           {
             "name": "Ethiopia lowlands",
             "lat": 8.0,
             "lon": 40.0,
-            "score": 72.6,
-            "rain_30d_mm": 67.8,
-            "rain_ratio": 0.6,
+            "score": 72.9,
+            "rain_30d_mm": 66.0,
+            "rain_ratio": 0.61,
             "max_temp_c": 26.0,
             "heat_anomaly_c": 4.5,
-            "observed_through": "2026-11-05"
+            "observed_through": "2026-11-06"
           },
           {
             "name": "Sahel west",
             "lat": 14.5,
             "lon": -1.5,
-            "score": 70.1,
-            "rain_30d_mm": 3.9,
-            "rain_ratio": 0.45,
-            "max_temp_c": 40.1,
+            "score": 61.2,
+            "rain_30d_mm": 3.4,
+            "rain_ratio": 0.58,
+            "max_temp_c": 40.2,
             "heat_anomaly_c": 3.2,
-            "observed_through": "2026-11-05"
+            "observed_through": "2026-11-06"
           },
           {
             "name": "Afghanistan drylands",
             "lat": 34.0,
             "lon": 65.0,
-            "score": 33.8,
-            "rain_30d_mm": 3.0,
-            "rain_ratio": 0.52,
-            "max_temp_c": 15.9,
-            "heat_anomaly_c": -0.1,
-            "observed_through": "2026-11-05"
+            "score": 35.8,
+            "rain_30d_mm": 3.2,
+            "rain_ratio": 0.49,
+            "max_temp_c": 15.6,
+            "heat_anomaly_c": -0.2,
+            "observed_through": "2026-11-06"
           },
           {
             "name": "Pakistan Indus",
             "lat": 29.0,
             "lon": 70.5,
-            "score": 8.0,
+            "score": 10.7,
             "rain_30d_mm": 4.2,
-            "rain_ratio": 1.21,
-            "max_temp_c": 37.3,
+            "rain_ratio": 0.96,
+            "max_temp_c": 37.1,
             "heat_anomaly_c": 0.8,
-            "observed_through": "2026-11-05"
+            "observed_through": "2026-11-06"
           },
           {
             "name": "Somalia pastoral belt",
             "lat": 5.0,
             "lon": 45.3,
             "score": 0.0,
-            "rain_30d_mm": 167.6,
-            "rain_ratio": 1.33,
+            "rain_30d_mm": 165.7,
+            "rain_ratio": 1.11,
             "max_temp_c": 32.8,
             "heat_anomaly_c": -2.4,
-            "observed_through": "2026-11-05"
+            "observed_through": "2026-11-06"
           },
           {
             "name": "Central America dry corridor",
             "lat": 14.0,
             "lon": -88.5,
             "score": 0.0,
-            "rain_30d_mm": 233.2,
-            "rain_ratio": 1.6,
-            "max_temp_c": 27.6,
+            "rain_30d_mm": 164.8,
+            "rain_ratio": 1.14,
+            "max_temp_c": 27.5,
             "heat_anomaly_c": -0.1,
-            "observed_through": "2026-11-05"
+            "observed_through": "2026-11-06"
           }
         ],
         "evidence": [
@@ -123,47 +123,47 @@
             "lat": 12.5,
             "lon": 14.5,
             "score": 100.0,
-            "rain_30d_mm": 0.2,
-            "rain_ratio": 0.02,
+            "rain_30d_mm": 0.1,
+            "rain_ratio": 0.01,
             "max_temp_c": 40.2,
-            "heat_anomaly_c": 5.1,
-            "observed_through": "2026-11-05"
+            "heat_anomaly_c": 5.0,
+            "observed_through": "2026-11-06"
           },
           {
             "name": "Sudan grain belt",
             "lat": 13.5,
             "lon": 33.5,
             "score": 100.0,
-            "rain_30d_mm": 19.6,
-            "rain_ratio": 0.43,
+            "rain_30d_mm": 13.9,
+            "rain_ratio": 0.31,
             "max_temp_c": 40.9,
-            "heat_anomaly_c": 8.1,
-            "observed_through": "2026-11-05"
+            "heat_anomaly_c": 8.0,
+            "observed_through": "2026-11-06"
           },
           {
             "name": "Ethiopia lowlands",
             "lat": 8.0,
             "lon": 40.0,
-            "score": 72.6,
-            "rain_30d_mm": 67.8,
-            "rain_ratio": 0.6,
+            "score": 72.9,
+            "rain_30d_mm": 66.0,
+            "rain_ratio": 0.61,
             "max_temp_c": 26.0,
             "heat_anomaly_c": 4.5,
-            "observed_through": "2026-11-05"
+            "observed_through": "2026-11-06"
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-11-07T21:53:41.087040+00:00"
+        "source_collected_at": "2026-11-08T06:06:12.672200+00:00"
       },
       {
         "id": "gdacs_impact_pressure",
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 193.9,
+        "current_30d_weight": 194.0,
         "baseline_months": 12,
-        "baseline_median": 46.2,
-        "anomaly_z": 3.81,
+        "baseline_median": 48.5,
+        "anomaly_z": 3.02,
         "events_considered": 176,
         "evidence": [
           {
@@ -244,17 +244,7 @@
             "event_type": "WF",
             "country": "Botswana, Namibia",
             "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033408&episodeid=14&eventtype=WF"
-          },
-          {
-            "id": "WF|1033504",
-            "title": "Forest fires in Suriname, Brazil",
-            "date": "2026-10-28T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Suriname, Brazil",
-            "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033504&episodeid=10&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033408&episodeid=15&eventtype=WF"
           },
           {
             "id": "WF|1033471",
@@ -265,6 +255,16 @@
             "country": "Ethiopia, Sudan",
             "weight": 1.1,
             "url": "https://www.gdacs.org/report.aspx?eventid=1033471&episodeid=7&eventtype=WF"
+          },
+          {
+            "id": "WF|1033504",
+            "title": "Forest fires in Suriname, Brazil",
+            "date": "2026-10-28T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "WF",
+            "country": "Suriname, Brazil",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033504&episodeid=12&eventtype=WF"
           },
           {
             "id": "WF|1033503",
@@ -318,16 +318,16 @@
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-11-07T21:53:41.559140+00:00"
+        "source_collected_at": "2026-11-08T06:06:13.224839+00:00"
       },
       {
         "id": "eonet_hazard_persistence",
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 3019.9,
+        "current_30d_weight": 3017.9,
         "baseline_median": 0.0,
-        "anomaly_z": 3019.93,
+        "anomaly_z": 3017.91,
         "events_considered": 1000,
         "evidence": [
           {
@@ -482,7 +482,7 @@
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-11-07T21:53:42.998365+00:00"
+        "source_collected_at": "2026-11-08T06:06:15.462828+00:00"
       },
       {
         "id": "food_price_pressure",
@@ -543,7 +543,7 @@
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-11-07T21:53:39.765316+00:00"
+        "source_collected_at": "2026-11-08T06:06:11.961067+00:00"
       }
     ],
     "concurrence": {
@@ -560,7 +560,7 @@
       {
         "id": "agroclimate_stress",
         "title": "NASA POWER agroclimate stress",
-        "score": 90.9,
+        "score": 91.0,
         "level": "SEVERE"
       },
       {
@@ -577,17 +577,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-15T17:02:22.440696+00:00",
-        "score": 73.8,
-        "level": "ELEVATED",
-        "components": {
-          "agroclimate_stress": 100.0,
-          "gdacs_impact_pressure": 60.0,
-          "eonet_hazard_persistence": 56.0,
-          "food_price_pressure": 37.9
-        }
-      },
       {
         "timestamp": "2026-09-15T21:23:49.803687+00:00",
         "score": 73.8,
@@ -2556,6 +2545,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 23.0
         }
+      },
+      {
+        "timestamp": "2026-11-08T06:06:15.506994+00:00",
+        "score": 62.6,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 91.0,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 23.0
+        }
       }
     ],
     "data_health": {
@@ -2623,95 +2623,95 @@
       "count": 8,
       "cached": false,
       "retained": false,
-      "source_collected_at": "2026-11-07T21:53:41.087040+00:00",
+      "source_collected_at": "2026-11-08T06:06:12.672200+00:00",
       "sentinels": [
         {
           "name": "Lake Chad basin",
           "lat": 12.5,
           "lon": 14.5,
           "score": 100.0,
-          "rain_30d_mm": 0.2,
-          "rain_ratio": 0.02,
+          "rain_30d_mm": 0.1,
+          "rain_ratio": 0.01,
           "max_temp_c": 40.2,
-          "heat_anomaly_c": 5.1,
-          "observed_through": "2026-11-05"
+          "heat_anomaly_c": 5.0,
+          "observed_through": "2026-11-06"
         },
         {
           "name": "Sudan grain belt",
           "lat": 13.5,
           "lon": 33.5,
           "score": 100.0,
-          "rain_30d_mm": 19.6,
-          "rain_ratio": 0.43,
+          "rain_30d_mm": 13.9,
+          "rain_ratio": 0.31,
           "max_temp_c": 40.9,
-          "heat_anomaly_c": 8.1,
-          "observed_through": "2026-11-05"
+          "heat_anomaly_c": 8.0,
+          "observed_through": "2026-11-06"
         },
         {
           "name": "Ethiopia lowlands",
           "lat": 8.0,
           "lon": 40.0,
-          "score": 72.6,
-          "rain_30d_mm": 67.8,
-          "rain_ratio": 0.6,
+          "score": 72.9,
+          "rain_30d_mm": 66.0,
+          "rain_ratio": 0.61,
           "max_temp_c": 26.0,
           "heat_anomaly_c": 4.5,
-          "observed_through": "2026-11-05"
+          "observed_through": "2026-11-06"
         },
         {
           "name": "Sahel west",
           "lat": 14.5,
           "lon": -1.5,
-          "score": 70.1,
-          "rain_30d_mm": 3.9,
-          "rain_ratio": 0.45,
-          "max_temp_c": 40.1,
+          "score": 61.2,
+          "rain_30d_mm": 3.4,
+          "rain_ratio": 0.58,
+          "max_temp_c": 40.2,
           "heat_anomaly_c": 3.2,
-          "observed_through": "2026-11-05"
+          "observed_through": "2026-11-06"
         },
         {
           "name": "Afghanistan drylands",
           "lat": 34.0,
           "lon": 65.0,
-          "score": 33.8,
-          "rain_30d_mm": 3.0,
-          "rain_ratio": 0.52,
-          "max_temp_c": 15.9,
-          "heat_anomaly_c": -0.1,
-          "observed_through": "2026-11-05"
+          "score": 35.8,
+          "rain_30d_mm": 3.2,
+          "rain_ratio": 0.49,
+          "max_temp_c": 15.6,
+          "heat_anomaly_c": -0.2,
+          "observed_through": "2026-11-06"
         },
         {
           "name": "Pakistan Indus",
           "lat": 29.0,
           "lon": 70.5,
-          "score": 8.0,
+          "score": 10.7,
           "rain_30d_mm": 4.2,
-          "rain_ratio": 1.21,
-          "max_temp_c": 37.3,
+          "rain_ratio": 0.96,
+          "max_temp_c": 37.1,
           "heat_anomaly_c": 0.8,
-          "observed_through": "2026-11-05"
+          "observed_through": "2026-11-06"
         },
         {
           "name": "Somalia pastoral belt",
           "lat": 5.0,
           "lon": 45.3,
           "score": 0.0,
-          "rain_30d_mm": 167.6,
-          "rain_ratio": 1.33,
+          "rain_30d_mm": 165.7,
+          "rain_ratio": 1.11,
           "max_temp_c": 32.8,
           "heat_anomaly_c": -2.4,
-          "observed_through": "2026-11-05"
+          "observed_through": "2026-11-06"
         },
         {
           "name": "Central America dry corridor",
           "lat": 14.0,
           "lon": -88.5,
           "score": 0.0,
-          "rain_30d_mm": 233.2,
-          "rain_ratio": 1.6,
-          "max_temp_c": 27.6,
+          "rain_30d_mm": 164.8,
+          "rain_ratio": 1.14,
+          "max_temp_c": 27.5,
           "heat_anomaly_c": -0.1,
-          "observed_through": "2026-11-05"
+          "observed_through": "2026-11-06"
         }
       ]
     },
@@ -2719,7 +2719,7 @@
       "count": 176,
       "cached": false,
       "retained": false,
-      "source_collected_at": "2026-11-07T21:53:41.559140+00:00",
+      "source_collected_at": "2026-11-08T06:06:13.224839+00:00",
       "compact": true,
       "events": [
         {
@@ -2800,17 +2800,7 @@
           "event_type": "WF",
           "country": "Botswana, Namibia",
           "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033408&episodeid=14&eventtype=WF"
-        },
-        {
-          "id": "WF|1033504",
-          "title": "Forest fires in Suriname, Brazil",
-          "date": "2026-10-28T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Suriname, Brazil",
-          "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033504&episodeid=10&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033408&episodeid=15&eventtype=WF"
         },
         {
           "id": "WF|1033471",
@@ -2821,6 +2811,16 @@
           "country": "Ethiopia, Sudan",
           "weight": 1.1,
           "url": "https://www.gdacs.org/report.aspx?eventid=1033471&episodeid=7&eventtype=WF"
+        },
+        {
+          "id": "WF|1033504",
+          "title": "Forest fires in Suriname, Brazil",
+          "date": "2026-10-28T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "WF",
+          "country": "Suriname, Brazil",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033504&episodeid=12&eventtype=WF"
         },
         {
           "id": "WF|1033503",
@@ -2878,7 +2878,7 @@
       "count": 1000,
       "cached": false,
       "retained": false,
-      "source_collected_at": "2026-11-07T21:53:42.998365+00:00",
+      "source_collected_at": "2026-11-08T06:06:15.462828+00:00",
       "compact": true,
       "events": [
         {
@@ -7016,7 +7016,7 @@
       ],
       "source_url": "https://www.fao.org/media/docs/worldfoodsituationlibraries/wfs-library/food_price_indices_data.csv?download=true",
       "cached": false,
-      "source_collected_at": "2026-11-07T21:53:39.765316+00:00"
+      "source_collected_at": "2026-11-08T06:06:11.961067+00:00"
     }
   },
   "events": [
@@ -7025,33 +7025,33 @@
       "lat": 12.5,
       "lon": 14.5,
       "score": 100.0,
-      "rain_30d_mm": 0.2,
-      "rain_ratio": 0.02,
+      "rain_30d_mm": 0.1,
+      "rain_ratio": 0.01,
       "max_temp_c": 40.2,
-      "heat_anomaly_c": 5.1,
-      "observed_through": "2026-11-05"
+      "heat_anomaly_c": 5.0,
+      "observed_through": "2026-11-06"
     },
     {
       "name": "Sudan grain belt",
       "lat": 13.5,
       "lon": 33.5,
       "score": 100.0,
-      "rain_30d_mm": 19.6,
-      "rain_ratio": 0.43,
+      "rain_30d_mm": 13.9,
+      "rain_ratio": 0.31,
       "max_temp_c": 40.9,
-      "heat_anomaly_c": 8.1,
-      "observed_through": "2026-11-05"
+      "heat_anomaly_c": 8.0,
+      "observed_through": "2026-11-06"
     },
     {
       "name": "Ethiopia lowlands",
       "lat": 8.0,
       "lon": 40.0,
-      "score": 72.6,
-      "rain_30d_mm": 67.8,
-      "rain_ratio": 0.6,
+      "score": 72.9,
+      "rain_30d_mm": 66.0,
+      "rain_ratio": 0.61,
       "max_temp_c": 26.0,
       "heat_anomaly_c": 4.5,
-      "observed_through": "2026-11-05"
+      "observed_through": "2026-11-06"
     },
     {
       "id": "TC|1001338",
@@ -7131,17 +7131,7 @@
       "event_type": "WF",
       "country": "Botswana, Namibia",
       "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033408&episodeid=14&eventtype=WF"
-    },
-    {
-      "id": "WF|1033504",
-      "title": "Forest fires in Suriname, Brazil",
-      "date": "2026-10-28T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Suriname, Brazil",
-      "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033504&episodeid=10&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033408&episodeid=15&eventtype=WF"
     },
     {
       "id": "WF|1033471",
@@ -7152,6 +7142,16 @@
       "country": "Ethiopia, Sudan",
       "weight": 1.1,
       "url": "https://www.gdacs.org/report.aspx?eventid=1033471&episodeid=7&eventtype=WF"
+    },
+    {
+      "id": "WF|1033504",
+      "title": "Forest fires in Suriname, Brazil",
+      "date": "2026-10-28T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "WF",
+      "country": "Suriname, Brazil",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033504&episodeid=12&eventtype=WF"
     },
     {
       "id": "WF|1033503",
