@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-11-11T19:38:16.820933+00:00",
+    "generated": "2026-11-12T07:15:47.871358+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,10 +13,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-11T19:38:16.566293+00:00",
+    "issued_at": "2026-11-12T07:15:47.679561+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
-    "score": 62.7,
+    "score": 63.2,
     "level": "ELEVATED",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -25,7 +25,7 @@
         "id": "agroclimate_stress",
         "label": "NASA POWER agroclimate stress",
         "available": true,
-        "score": 91.1,
+        "score": 92.6,
         "sentinels_available": 8,
         "sentinels": [
           {
@@ -35,86 +35,86 @@
             "score": 100.0,
             "rain_30d_mm": 0.0,
             "rain_ratio": 0.0,
-            "max_temp_c": 40.1,
-            "heat_anomaly_c": 4.8,
-            "observed_through": "2026-11-09"
+            "max_temp_c": 40.0,
+            "heat_anomaly_c": 4.7,
+            "observed_through": "2026-11-10"
           },
           {
             "name": "Sudan grain belt",
             "lat": 13.5,
             "lon": 33.5,
             "score": 100.0,
-            "rain_30d_mm": 8.5,
-            "rain_ratio": 0.2,
-            "max_temp_c": 40.8,
-            "heat_anomaly_c": 7.6,
-            "observed_through": "2026-11-09"
+            "rain_30d_mm": 5.0,
+            "rain_ratio": 0.12,
+            "max_temp_c": 40.7,
+            "heat_anomaly_c": 7.4,
+            "observed_through": "2026-11-10"
           },
           {
             "name": "Sahel west",
             "lat": 14.5,
             "lon": -1.5,
-            "score": 73.4,
-            "rain_30d_mm": 1.8,
-            "rain_ratio": 0.41,
+            "score": 77.8,
+            "rain_30d_mm": 1.5,
+            "rain_ratio": 0.36,
             "max_temp_c": 40.2,
-            "heat_anomaly_c": 3.2,
-            "observed_through": "2026-11-09"
+            "heat_anomaly_c": 3.3,
+            "observed_through": "2026-11-10"
           },
           {
             "name": "Ethiopia lowlands",
             "lat": 8.0,
             "lon": 40.0,
-            "score": 65.3,
-            "rain_30d_mm": 70.3,
-            "rain_ratio": 0.74,
+            "score": 54.8,
+            "rain_30d_mm": 80.7,
+            "rain_ratio": 0.88,
             "max_temp_c": 26.1,
-            "heat_anomaly_c": 4.7,
-            "observed_through": "2026-11-09"
+            "heat_anomaly_c": 4.6,
+            "observed_through": "2026-11-10"
           },
           {
             "name": "Afghanistan drylands",
             "lat": 34.0,
             "lon": 65.0,
-            "score": 46.5,
-            "rain_30d_mm": 3.3,
-            "rain_ratio": 0.36,
-            "max_temp_c": 15.0,
+            "score": 35.2,
+            "rain_30d_mm": 4.7,
+            "rain_ratio": 0.51,
+            "max_temp_c": 14.7,
             "heat_anomaly_c": 0.1,
-            "observed_through": "2026-11-09"
-          },
-          {
-            "name": "Pakistan Indus",
-            "lat": 29.0,
-            "lon": 70.5,
-            "score": 13.3,
-            "rain_30d_mm": 4.2,
-            "rain_ratio": 0.93,
-            "max_temp_c": 36.7,
-            "heat_anomaly_c": 0.9,
-            "observed_through": "2026-11-09"
+            "observed_through": "2026-11-10"
           },
           {
             "name": "Somalia pastoral belt",
             "lat": 5.0,
             "lon": 45.3,
-            "score": 11.4,
-            "rain_30d_mm": 124.6,
-            "rain_ratio": 0.84,
+            "score": 23.3,
+            "rain_30d_mm": 99.0,
+            "rain_ratio": 0.67,
             "max_temp_c": 32.9,
             "heat_anomaly_c": -2.0,
-            "observed_through": "2026-11-09"
+            "observed_through": "2026-11-10"
+          },
+          {
+            "name": "Pakistan Indus",
+            "lat": 29.0,
+            "lon": 70.5,
+            "score": 17.4,
+            "rain_30d_mm": 3.9,
+            "rain_ratio": 0.88,
+            "max_temp_c": 36.5,
+            "heat_anomaly_c": 0.9,
+            "observed_through": "2026-11-10"
           },
           {
             "name": "Central America dry corridor",
             "lat": 14.0,
             "lon": -88.5,
-            "score": 0.4,
-            "rain_30d_mm": 166.9,
-            "rain_ratio": 0.99,
+            "score": 0.0,
+            "rain_30d_mm": 167.1,
+            "rain_ratio": 1.01,
             "max_temp_c": 27.4,
             "heat_anomaly_c": -0.3,
-            "observed_through": "2026-11-09"
+            "observed_through": "2026-11-10"
           }
         ],
         "evidence": [
@@ -125,45 +125,45 @@
             "score": 100.0,
             "rain_30d_mm": 0.0,
             "rain_ratio": 0.0,
-            "max_temp_c": 40.1,
-            "heat_anomaly_c": 4.8,
-            "observed_through": "2026-11-09"
+            "max_temp_c": 40.0,
+            "heat_anomaly_c": 4.7,
+            "observed_through": "2026-11-10"
           },
           {
             "name": "Sudan grain belt",
             "lat": 13.5,
             "lon": 33.5,
             "score": 100.0,
-            "rain_30d_mm": 8.5,
-            "rain_ratio": 0.2,
-            "max_temp_c": 40.8,
-            "heat_anomaly_c": 7.6,
-            "observed_through": "2026-11-09"
+            "rain_30d_mm": 5.0,
+            "rain_ratio": 0.12,
+            "max_temp_c": 40.7,
+            "heat_anomaly_c": 7.4,
+            "observed_through": "2026-11-10"
           },
           {
             "name": "Sahel west",
             "lat": 14.5,
             "lon": -1.5,
-            "score": 73.4,
-            "rain_30d_mm": 1.8,
-            "rain_ratio": 0.41,
+            "score": 77.8,
+            "rain_30d_mm": 1.5,
+            "rain_ratio": 0.36,
             "max_temp_c": 40.2,
-            "heat_anomaly_c": 3.2,
-            "observed_through": "2026-11-09"
+            "heat_anomaly_c": 3.3,
+            "observed_through": "2026-11-10"
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-11-11T19:38:12.201536+00:00"
+        "source_collected_at": "2026-11-12T07:15:41.078805+00:00"
       },
       {
         "id": "gdacs_impact_pressure",
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 176.8,
+        "current_30d_weight": 177.4,
         "baseline_months": 12,
-        "baseline_median": 46.2,
-        "anomaly_z": 2.89,
+        "baseline_median": 52.6,
+        "anomaly_z": 3.08,
         "events_considered": 176,
         "evidence": [
           {
@@ -207,6 +207,56 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ"
           },
           {
+            "id": "WF|1033756",
+            "title": "Forest fires in Central African Republic, South Sudan, Sudan",
+            "date": "2026-11-06T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "WF",
+            "country": "Central African Republic, South Sudan, Sudan",
+            "weight": 1.2,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033756&episodeid=1&eventtype=WF"
+          },
+          {
+            "id": "WF|1033745",
+            "title": "Forest fires in South Sudan, Sudan",
+            "date": "2026-11-09T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "WF",
+            "country": "South Sudan, Sudan",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033745&episodeid=1&eventtype=WF"
+          },
+          {
+            "id": "WF|1033718",
+            "title": "Forest fires in Sudan, South Sudan",
+            "date": "2026-11-04T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "WF",
+            "country": "Sudan, South Sudan",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033718&episodeid=2&eventtype=WF"
+          },
+          {
+            "id": "WF|1033712",
+            "title": "Forest fires in Burkina Faso, Mali",
+            "date": "2026-11-06T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "WF",
+            "country": "Burkina Faso, Mali",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033712&episodeid=3&eventtype=WF"
+          },
+          {
+            "id": "WF|1033697",
+            "title": "Forest fires in Central African Republic, Chad",
+            "date": "2026-11-09T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "WF",
+            "country": "Central African Republic, Chad",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033697&episodeid=2&eventtype=WF"
+          },
+          {
             "id": "WF|1033686",
             "title": "Forest fires in Brazil, Guyana",
             "date": "2026-11-07T00:00:00+00:00",
@@ -217,14 +267,44 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1033686&episodeid=6&eventtype=WF"
           },
           {
-            "id": "WF|1033712",
-            "title": "Forest fires in Burkina Faso, Mali",
-            "date": "2026-11-06T00:00:00+00:00",
+            "id": "EQ|1576917",
+            "title": "Earthquake in Off East Coast Of Honshu, Japan",
+            "date": "2026-11-12T04:07:32+00:00",
             "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Burkina Faso, Mali",
-            "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033712&episodeid=2&eventtype=WF"
+            "event_type": "EQ",
+            "country": "Off East Coast Of Honshu, Japan",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1576917&episodeid=1746127&eventtype=EQ"
+          },
+          {
+            "id": "EQ|1576913",
+            "title": "Earthquake in South Sandwich Islands Region",
+            "date": "2026-11-12T03:45:56+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "South Sandwich Islands Region",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1576913&episodeid=1746122&eventtype=EQ"
+          },
+          {
+            "id": "TC|1001348",
+            "title": "Tropical Cyclone PENA-26",
+            "date": "2026-11-06T21:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "TC",
+            "country": "",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001348&episodeid=22&eventtype=TC"
+          },
+          {
+            "id": "EQ|1576886",
+            "title": "Earthquake in Russia",
+            "date": "2026-11-12T01:18:44+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Russia",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1576886&episodeid=1746094&eventtype=EQ"
           },
           {
             "id": "FL|1104276",
@@ -235,99 +315,19 @@
             "country": "Portugal",
             "weight": 1.0,
             "url": "https://www.gdacs.org/report.aspx?eventid=1104276&episodeid=2&eventtype=FL"
-          },
-          {
-            "id": "EQ|1576837",
-            "title": "Earthquake in Papua New Guinea",
-            "date": "2026-11-11T17:38:23+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Papua New Guinea",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1576837&episodeid=1746037&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1576821",
-            "title": "Earthquake in South Sandwich Islands Region",
-            "date": "2026-11-11T15:39:25+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "South Sandwich Islands Region",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1576821&episodeid=1746016&eventtype=EQ"
-          },
-          {
-            "id": "TC|1001348",
-            "title": "Tropical Cyclone PENA-26",
-            "date": "2026-11-06T21:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001348&episodeid=20&eventtype=TC"
-          },
-          {
-            "id": "EQ|1576799",
-            "title": "Earthquake in Vanuatu",
-            "date": "2026-11-11T12:45:06+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Vanuatu",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1576799&episodeid=1746006&eventtype=EQ"
-          },
-          {
-            "id": "TC|1001347",
-            "title": "Tropical Cyclone CEMPAKA-26",
-            "date": "2026-11-06T06:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "TC",
-            "country": "Japan",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001347&episodeid=22&eventtype=TC"
-          },
-          {
-            "id": "EQ|1576791",
-            "title": "Earthquake in Chile",
-            "date": "2026-11-11T11:36:51+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Chile",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1576791&episodeid=1745982&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1576792",
-            "title": "Earthquake in Indonesia",
-            "date": "2026-11-11T11:32:24+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Indonesia",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1576792&episodeid=1745984&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1576790",
-            "title": "Earthquake in Vanuatu",
-            "date": "2026-11-11T10:57:37+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Vanuatu",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1576790&episodeid=1745997&eventtype=EQ"
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-11-11T19:38:11.525790+00:00"
+        "source_collected_at": "2026-11-12T07:15:40.470225+00:00"
       },
       {
         "id": "eonet_hazard_persistence",
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 3257.3,
+        "current_30d_weight": 3252.3,
         "baseline_median": 0.0,
-        "anomaly_z": 3257.35,
+        "anomaly_z": 3252.35,
         "events_considered": 1000,
         "evidence": [
           {
@@ -482,7 +482,7 @@
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-11-11T19:38:16.516974+00:00"
+        "source_collected_at": "2026-11-12T07:15:47.641676+00:00"
       },
       {
         "id": "food_price_pressure",
@@ -543,7 +543,7 @@
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-11-11T19:38:10.865374+00:00"
+        "source_collected_at": "2026-11-12T07:15:39.857341+00:00"
       }
     ],
     "concurrence": {
@@ -560,7 +560,7 @@
       {
         "id": "agroclimate_stress",
         "title": "NASA POWER agroclimate stress",
-        "score": 91.1,
+        "score": 92.6,
         "level": "SEVERE"
       },
       {
@@ -577,17 +577,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-17T21:25:02.015393+00:00",
-        "score": 73.8,
-        "level": "ELEVATED",
-        "components": {
-          "agroclimate_stress": 100.0,
-          "gdacs_impact_pressure": 60.0,
-          "eonet_hazard_persistence": 56.0,
-          "food_price_pressure": 37.9
-        }
-      },
       {
         "timestamp": "2026-09-18T04:47:14.020333+00:00",
         "score": 73.8,
@@ -2556,6 +2545,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 23.0
         }
+      },
+      {
+        "timestamp": "2026-11-12T07:15:47.679561+00:00",
+        "score": 63.2,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 92.6,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 23.0
+        }
       }
     ],
     "data_health": {
@@ -2599,7 +2599,7 @@
   "stats": [
     {
       "label": "Climate-Security Pressure",
-      "value": "62.7/100",
+      "value": "63.2/100",
       "delta": "ELEVATED"
     },
     {
@@ -2623,7 +2623,7 @@
       "count": 8,
       "cached": false,
       "retained": false,
-      "source_collected_at": "2026-11-11T19:38:12.201536+00:00",
+      "source_collected_at": "2026-11-12T07:15:41.078805+00:00",
       "sentinels": [
         {
           "name": "Lake Chad basin",
@@ -2632,86 +2632,86 @@
           "score": 100.0,
           "rain_30d_mm": 0.0,
           "rain_ratio": 0.0,
-          "max_temp_c": 40.1,
-          "heat_anomaly_c": 4.8,
-          "observed_through": "2026-11-09"
+          "max_temp_c": 40.0,
+          "heat_anomaly_c": 4.7,
+          "observed_through": "2026-11-10"
         },
         {
           "name": "Sudan grain belt",
           "lat": 13.5,
           "lon": 33.5,
           "score": 100.0,
-          "rain_30d_mm": 8.5,
-          "rain_ratio": 0.2,
-          "max_temp_c": 40.8,
-          "heat_anomaly_c": 7.6,
-          "observed_through": "2026-11-09"
+          "rain_30d_mm": 5.0,
+          "rain_ratio": 0.12,
+          "max_temp_c": 40.7,
+          "heat_anomaly_c": 7.4,
+          "observed_through": "2026-11-10"
         },
         {
           "name": "Sahel west",
           "lat": 14.5,
           "lon": -1.5,
-          "score": 73.4,
-          "rain_30d_mm": 1.8,
-          "rain_ratio": 0.41,
+          "score": 77.8,
+          "rain_30d_mm": 1.5,
+          "rain_ratio": 0.36,
           "max_temp_c": 40.2,
-          "heat_anomaly_c": 3.2,
-          "observed_through": "2026-11-09"
+          "heat_anomaly_c": 3.3,
+          "observed_through": "2026-11-10"
         },
         {
           "name": "Ethiopia lowlands",
           "lat": 8.0,
           "lon": 40.0,
-          "score": 65.3,
-          "rain_30d_mm": 70.3,
-          "rain_ratio": 0.74,
+          "score": 54.8,
+          "rain_30d_mm": 80.7,
+          "rain_ratio": 0.88,
           "max_temp_c": 26.1,
-          "heat_anomaly_c": 4.7,
-          "observed_through": "2026-11-09"
+          "heat_anomaly_c": 4.6,
+          "observed_through": "2026-11-10"
         },
         {
           "name": "Afghanistan drylands",
           "lat": 34.0,
           "lon": 65.0,
-          "score": 46.5,
-          "rain_30d_mm": 3.3,
-          "rain_ratio": 0.36,
-          "max_temp_c": 15.0,
+          "score": 35.2,
+          "rain_30d_mm": 4.7,
+          "rain_ratio": 0.51,
+          "max_temp_c": 14.7,
           "heat_anomaly_c": 0.1,
-          "observed_through": "2026-11-09"
-        },
-        {
-          "name": "Pakistan Indus",
-          "lat": 29.0,
-          "lon": 70.5,
-          "score": 13.3,
-          "rain_30d_mm": 4.2,
-          "rain_ratio": 0.93,
-          "max_temp_c": 36.7,
-          "heat_anomaly_c": 0.9,
-          "observed_through": "2026-11-09"
+          "observed_through": "2026-11-10"
         },
         {
           "name": "Somalia pastoral belt",
           "lat": 5.0,
           "lon": 45.3,
-          "score": 11.4,
-          "rain_30d_mm": 124.6,
-          "rain_ratio": 0.84,
+          "score": 23.3,
+          "rain_30d_mm": 99.0,
+          "rain_ratio": 0.67,
           "max_temp_c": 32.9,
           "heat_anomaly_c": -2.0,
-          "observed_through": "2026-11-09"
+          "observed_through": "2026-11-10"
+        },
+        {
+          "name": "Pakistan Indus",
+          "lat": 29.0,
+          "lon": 70.5,
+          "score": 17.4,
+          "rain_30d_mm": 3.9,
+          "rain_ratio": 0.88,
+          "max_temp_c": 36.5,
+          "heat_anomaly_c": 0.9,
+          "observed_through": "2026-11-10"
         },
         {
           "name": "Central America dry corridor",
           "lat": 14.0,
           "lon": -88.5,
-          "score": 0.4,
-          "rain_30d_mm": 166.9,
-          "rain_ratio": 0.99,
+          "score": 0.0,
+          "rain_30d_mm": 167.1,
+          "rain_ratio": 1.01,
           "max_temp_c": 27.4,
           "heat_anomaly_c": -0.3,
-          "observed_through": "2026-11-09"
+          "observed_through": "2026-11-10"
         }
       ]
     },
@@ -2719,7 +2719,7 @@
       "count": 176,
       "cached": false,
       "retained": false,
-      "source_collected_at": "2026-11-11T19:38:11.525790+00:00",
+      "source_collected_at": "2026-11-12T07:15:40.470225+00:00",
       "compact": true,
       "events": [
         {
@@ -2763,6 +2763,56 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ"
         },
         {
+          "id": "WF|1033756",
+          "title": "Forest fires in Central African Republic, South Sudan, Sudan",
+          "date": "2026-11-06T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "WF",
+          "country": "Central African Republic, South Sudan, Sudan",
+          "weight": 1.2,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033756&episodeid=1&eventtype=WF"
+        },
+        {
+          "id": "WF|1033745",
+          "title": "Forest fires in South Sudan, Sudan",
+          "date": "2026-11-09T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "WF",
+          "country": "South Sudan, Sudan",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033745&episodeid=1&eventtype=WF"
+        },
+        {
+          "id": "WF|1033718",
+          "title": "Forest fires in Sudan, South Sudan",
+          "date": "2026-11-04T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "WF",
+          "country": "Sudan, South Sudan",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033718&episodeid=2&eventtype=WF"
+        },
+        {
+          "id": "WF|1033712",
+          "title": "Forest fires in Burkina Faso, Mali",
+          "date": "2026-11-06T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "WF",
+          "country": "Burkina Faso, Mali",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033712&episodeid=3&eventtype=WF"
+        },
+        {
+          "id": "WF|1033697",
+          "title": "Forest fires in Central African Republic, Chad",
+          "date": "2026-11-09T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "WF",
+          "country": "Central African Republic, Chad",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033697&episodeid=2&eventtype=WF"
+        },
+        {
           "id": "WF|1033686",
           "title": "Forest fires in Brazil, Guyana",
           "date": "2026-11-07T00:00:00+00:00",
@@ -2773,14 +2823,44 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1033686&episodeid=6&eventtype=WF"
         },
         {
-          "id": "WF|1033712",
-          "title": "Forest fires in Burkina Faso, Mali",
-          "date": "2026-11-06T00:00:00+00:00",
+          "id": "EQ|1576917",
+          "title": "Earthquake in Off East Coast Of Honshu, Japan",
+          "date": "2026-11-12T04:07:32+00:00",
           "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Burkina Faso, Mali",
-          "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033712&episodeid=2&eventtype=WF"
+          "event_type": "EQ",
+          "country": "Off East Coast Of Honshu, Japan",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1576917&episodeid=1746127&eventtype=EQ"
+        },
+        {
+          "id": "EQ|1576913",
+          "title": "Earthquake in South Sandwich Islands Region",
+          "date": "2026-11-12T03:45:56+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "South Sandwich Islands Region",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1576913&episodeid=1746122&eventtype=EQ"
+        },
+        {
+          "id": "TC|1001348",
+          "title": "Tropical Cyclone PENA-26",
+          "date": "2026-11-06T21:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "TC",
+          "country": "",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001348&episodeid=22&eventtype=TC"
+        },
+        {
+          "id": "EQ|1576886",
+          "title": "Earthquake in Russia",
+          "date": "2026-11-12T01:18:44+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Russia",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1576886&episodeid=1746094&eventtype=EQ"
         },
         {
           "id": "FL|1104276",
@@ -2791,86 +2871,6 @@
           "country": "Portugal",
           "weight": 1.0,
           "url": "https://www.gdacs.org/report.aspx?eventid=1104276&episodeid=2&eventtype=FL"
-        },
-        {
-          "id": "EQ|1576837",
-          "title": "Earthquake in Papua New Guinea",
-          "date": "2026-11-11T17:38:23+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Papua New Guinea",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1576837&episodeid=1746037&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1576821",
-          "title": "Earthquake in South Sandwich Islands Region",
-          "date": "2026-11-11T15:39:25+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "South Sandwich Islands Region",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1576821&episodeid=1746016&eventtype=EQ"
-        },
-        {
-          "id": "TC|1001348",
-          "title": "Tropical Cyclone PENA-26",
-          "date": "2026-11-06T21:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001348&episodeid=20&eventtype=TC"
-        },
-        {
-          "id": "EQ|1576799",
-          "title": "Earthquake in Vanuatu",
-          "date": "2026-11-11T12:45:06+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Vanuatu",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1576799&episodeid=1746006&eventtype=EQ"
-        },
-        {
-          "id": "TC|1001347",
-          "title": "Tropical Cyclone CEMPAKA-26",
-          "date": "2026-11-06T06:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "TC",
-          "country": "Japan",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001347&episodeid=22&eventtype=TC"
-        },
-        {
-          "id": "EQ|1576791",
-          "title": "Earthquake in Chile",
-          "date": "2026-11-11T11:36:51+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Chile",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1576791&episodeid=1745982&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1576792",
-          "title": "Earthquake in Indonesia",
-          "date": "2026-11-11T11:32:24+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Indonesia",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1576792&episodeid=1745984&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1576790",
-          "title": "Earthquake in Vanuatu",
-          "date": "2026-11-11T10:57:37+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Vanuatu",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1576790&episodeid=1745997&eventtype=EQ"
         }
       ]
     },
@@ -2878,7 +2878,7 @@
       "count": 1000,
       "cached": false,
       "retained": false,
-      "source_collected_at": "2026-11-11T19:38:16.516974+00:00",
+      "source_collected_at": "2026-11-12T07:15:47.641676+00:00",
       "compact": true,
       "events": [
         {
@@ -7016,7 +7016,7 @@
       ],
       "source_url": "https://www.fao.org/media/docs/worldfoodsituationlibraries/wfs-library/food_price_indices_data.csv?download=true",
       "cached": false,
-      "source_collected_at": "2026-11-11T19:38:10.865374+00:00"
+      "source_collected_at": "2026-11-12T07:15:39.857341+00:00"
     }
   },
   "events": [
@@ -7027,31 +7027,31 @@
       "score": 100.0,
       "rain_30d_mm": 0.0,
       "rain_ratio": 0.0,
-      "max_temp_c": 40.1,
-      "heat_anomaly_c": 4.8,
-      "observed_through": "2026-11-09"
+      "max_temp_c": 40.0,
+      "heat_anomaly_c": 4.7,
+      "observed_through": "2026-11-10"
     },
     {
       "name": "Sudan grain belt",
       "lat": 13.5,
       "lon": 33.5,
       "score": 100.0,
-      "rain_30d_mm": 8.5,
-      "rain_ratio": 0.2,
-      "max_temp_c": 40.8,
-      "heat_anomaly_c": 7.6,
-      "observed_through": "2026-11-09"
+      "rain_30d_mm": 5.0,
+      "rain_ratio": 0.12,
+      "max_temp_c": 40.7,
+      "heat_anomaly_c": 7.4,
+      "observed_through": "2026-11-10"
     },
     {
       "name": "Sahel west",
       "lat": 14.5,
       "lon": -1.5,
-      "score": 73.4,
-      "rain_30d_mm": 1.8,
-      "rain_ratio": 0.41,
+      "score": 77.8,
+      "rain_30d_mm": 1.5,
+      "rain_ratio": 0.36,
       "max_temp_c": 40.2,
-      "heat_anomaly_c": 3.2,
-      "observed_through": "2026-11-09"
+      "heat_anomaly_c": 3.3,
+      "observed_through": "2026-11-10"
     },
     {
       "id": "TC|1001338",
@@ -7094,6 +7094,56 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ"
     },
     {
+      "id": "WF|1033756",
+      "title": "Forest fires in Central African Republic, South Sudan, Sudan",
+      "date": "2026-11-06T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "WF",
+      "country": "Central African Republic, South Sudan, Sudan",
+      "weight": 1.2,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033756&episodeid=1&eventtype=WF"
+    },
+    {
+      "id": "WF|1033745",
+      "title": "Forest fires in South Sudan, Sudan",
+      "date": "2026-11-09T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "WF",
+      "country": "South Sudan, Sudan",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033745&episodeid=1&eventtype=WF"
+    },
+    {
+      "id": "WF|1033718",
+      "title": "Forest fires in Sudan, South Sudan",
+      "date": "2026-11-04T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "WF",
+      "country": "Sudan, South Sudan",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033718&episodeid=2&eventtype=WF"
+    },
+    {
+      "id": "WF|1033712",
+      "title": "Forest fires in Burkina Faso, Mali",
+      "date": "2026-11-06T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "WF",
+      "country": "Burkina Faso, Mali",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033712&episodeid=3&eventtype=WF"
+    },
+    {
+      "id": "WF|1033697",
+      "title": "Forest fires in Central African Republic, Chad",
+      "date": "2026-11-09T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "WF",
+      "country": "Central African Republic, Chad",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033697&episodeid=2&eventtype=WF"
+    },
+    {
       "id": "WF|1033686",
       "title": "Forest fires in Brazil, Guyana",
       "date": "2026-11-07T00:00:00+00:00",
@@ -7104,14 +7154,44 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1033686&episodeid=6&eventtype=WF"
     },
     {
-      "id": "WF|1033712",
-      "title": "Forest fires in Burkina Faso, Mali",
-      "date": "2026-11-06T00:00:00+00:00",
+      "id": "EQ|1576917",
+      "title": "Earthquake in Off East Coast Of Honshu, Japan",
+      "date": "2026-11-12T04:07:32+00:00",
       "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Burkina Faso, Mali",
-      "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033712&episodeid=2&eventtype=WF"
+      "event_type": "EQ",
+      "country": "Off East Coast Of Honshu, Japan",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1576917&episodeid=1746127&eventtype=EQ"
+    },
+    {
+      "id": "EQ|1576913",
+      "title": "Earthquake in South Sandwich Islands Region",
+      "date": "2026-11-12T03:45:56+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "South Sandwich Islands Region",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1576913&episodeid=1746122&eventtype=EQ"
+    },
+    {
+      "id": "TC|1001348",
+      "title": "Tropical Cyclone PENA-26",
+      "date": "2026-11-06T21:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "TC",
+      "country": "",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001348&episodeid=22&eventtype=TC"
+    },
+    {
+      "id": "EQ|1576886",
+      "title": "Earthquake in Russia",
+      "date": "2026-11-12T01:18:44+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Russia",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1576886&episodeid=1746094&eventtype=EQ"
     },
     {
       "id": "FL|1104276",
@@ -7122,86 +7202,6 @@
       "country": "Portugal",
       "weight": 1.0,
       "url": "https://www.gdacs.org/report.aspx?eventid=1104276&episodeid=2&eventtype=FL"
-    },
-    {
-      "id": "EQ|1576837",
-      "title": "Earthquake in Papua New Guinea",
-      "date": "2026-11-11T17:38:23+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Papua New Guinea",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1576837&episodeid=1746037&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1576821",
-      "title": "Earthquake in South Sandwich Islands Region",
-      "date": "2026-11-11T15:39:25+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "South Sandwich Islands Region",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1576821&episodeid=1746016&eventtype=EQ"
-    },
-    {
-      "id": "TC|1001348",
-      "title": "Tropical Cyclone PENA-26",
-      "date": "2026-11-06T21:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001348&episodeid=20&eventtype=TC"
-    },
-    {
-      "id": "EQ|1576799",
-      "title": "Earthquake in Vanuatu",
-      "date": "2026-11-11T12:45:06+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Vanuatu",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1576799&episodeid=1746006&eventtype=EQ"
-    },
-    {
-      "id": "TC|1001347",
-      "title": "Tropical Cyclone CEMPAKA-26",
-      "date": "2026-11-06T06:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "TC",
-      "country": "Japan",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001347&episodeid=22&eventtype=TC"
-    },
-    {
-      "id": "EQ|1576791",
-      "title": "Earthquake in Chile",
-      "date": "2026-11-11T11:36:51+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Chile",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1576791&episodeid=1745982&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1576792",
-      "title": "Earthquake in Indonesia",
-      "date": "2026-11-11T11:32:24+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Indonesia",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1576792&episodeid=1745984&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1576790",
-      "title": "Earthquake in Vanuatu",
-      "date": "2026-11-11T10:57:37+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Vanuatu",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1576790&episodeid=1745997&eventtype=EQ"
     },
     {
       "id": "EONET_26065",
