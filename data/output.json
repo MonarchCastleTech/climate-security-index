@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-11-13T06:49:25.088636+00:00",
+    "generated": "2026-11-13T19:45:21.666314+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,7 +13,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-13T06:49:24.900608+00:00",
+    "issued_at": "2026-11-13T19:45:21.502996+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 63.1,
@@ -153,29 +153,19 @@
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-11-13T06:49:21.950844+00:00"
+        "source_collected_at": "2026-11-13T19:45:16.939303+00:00"
       },
       {
         "id": "gdacs_impact_pressure",
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 176.2,
+        "current_30d_weight": 147.8,
         "baseline_months": 12,
-        "baseline_median": 46.9,
-        "anomaly_z": 3.29,
-        "events_considered": 176,
+        "baseline_median": 46.5,
+        "anomaly_z": 2.24,
+        "events_considered": 175,
         "evidence": [
-          {
-            "id": "TC|1001338",
-            "title": "Tropical Cyclone CHAMPI-26",
-            "date": "2026-10-14T12:00:00+00:00",
-            "alert_level": "Red",
-            "event_type": "TC",
-            "country": "Philippines, Guam, Northern Mariana Islands, Japan, China, South Korea",
-            "weight": 29.6,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=46&eventtype=TC"
-          },
           {
             "id": "TC|1001346",
             "title": "Tropical Cyclone MURASU-26",
@@ -214,17 +204,47 @@
             "event_type": "WF",
             "country": "Central African Republic, South Sudan, Sudan",
             "weight": 1.2,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033756&episodeid=1&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033756&episodeid=3&eventtype=WF"
           },
           {
-            "id": "WF|1033745",
+            "id": "WF|1033815",
             "title": "Forest fires in South Sudan, Sudan",
-            "date": "2026-11-09T00:00:00+00:00",
+            "date": "2026-11-06T00:00:00+00:00",
             "alert_level": "Green",
             "event_type": "WF",
             "country": "South Sudan, Sudan",
             "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033745&episodeid=1&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033815&episodeid=1&eventtype=WF"
+          },
+          {
+            "id": "WF|1033811",
+            "title": "Forest fires in South Sudan, Sudan",
+            "date": "2026-11-10T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "WF",
+            "country": "South Sudan, Sudan",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033811&episodeid=1&eventtype=WF"
+          },
+          {
+            "id": "WF|1033782",
+            "title": "Forest fires in South Sudan, Sudan",
+            "date": "2026-11-05T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "WF",
+            "country": "South Sudan, Sudan",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033782&episodeid=2&eventtype=WF"
+          },
+          {
+            "id": "WF|1033772",
+            "title": "Forest fires in South Sudan, Sudan",
+            "date": "2026-11-10T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "WF",
+            "country": "South Sudan, Sudan",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033772&episodeid=2&eventtype=WF"
           },
           {
             "id": "WF|1033718",
@@ -234,100 +254,80 @@
             "event_type": "WF",
             "country": "Sudan, South Sudan",
             "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033718&episodeid=2&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033718&episodeid=4&eventtype=WF"
           },
           {
-            "id": "WF|1033712",
-            "title": "Forest fires in Burkina Faso, Mali",
-            "date": "2026-11-06T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Burkina Faso, Mali",
-            "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033712&episodeid=3&eventtype=WF"
-          },
-          {
-            "id": "EQ|1577107",
-            "title": "Earthquake in Indonesia",
-            "date": "2026-11-13T04:49:33+00:00",
+            "id": "EQ|1577217",
+            "title": "Earthquake in South Sandwich Islands Region",
+            "date": "2026-11-13T19:04:07+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Indonesia",
+            "country": "South Sandwich Islands Region",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1577107&episodeid=1746335&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1577217&episodeid=1746458&eventtype=EQ"
           },
           {
-            "id": "EQ|1577095",
-            "title": "Earthquake in Mariana Islands",
-            "date": "2026-11-13T02:55:03+00:00",
+            "id": "EQ|1577215",
+            "title": "Earthquake in South Of Fiji Islands",
+            "date": "2026-11-13T18:55:40+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Mariana Islands",
+            "country": "South Of Fiji Islands",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1577095&episodeid=1746321&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1577215&episodeid=1746456&eventtype=EQ"
           },
           {
-            "id": "EQ|1577093",
-            "title": "Earthquake in Fiji",
-            "date": "2026-11-13T02:26:23+00:00",
+            "id": "EQ|1577195",
+            "title": "Earthquake in Peru",
+            "date": "2026-11-13T16:43:02+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Fiji",
+            "country": "Peru",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1577093&episodeid=1746332&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1577195&episodeid=1746435&eventtype=EQ"
           },
           {
-            "id": "EQ|1577075",
-            "title": "Earthquake in Democratic Republic of the Congo",
-            "date": "2026-11-13T01:12:46+00:00",
+            "id": "EQ|1577194",
+            "title": "Earthquake in Dominican Republic",
+            "date": "2026-11-13T16:35:58+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Democratic Republic of the Congo",
+            "country": "Dominican Republic",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1577075&episodeid=1746300&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1577194&episodeid=1746434&eventtype=EQ"
           },
           {
-            "id": "EQ|1577071",
-            "title": "Earthquake in Greece",
-            "date": "2026-11-13T00:05:04+00:00",
+            "id": "EQ|1577189",
+            "title": "Earthquake in China",
+            "date": "2026-11-13T16:17:51+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Greece",
+            "country": "China",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1577071&episodeid=1746295&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1577189&episodeid=1746428&eventtype=EQ"
           },
           {
-            "id": "EQ|1577060",
-            "title": "Earthquake in Papua New Guinea",
-            "date": "2026-11-12T22:04:06+00:00",
+            "id": "EQ|1577177",
+            "title": "Earthquake in West Chile Rise",
+            "date": "2026-11-13T14:12:47+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Papua New Guinea",
+            "country": "West Chile Rise",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1577060&episodeid=1746280&eventtype=EQ"
-          },
-          {
-            "id": "EQ|1577058",
-            "title": "Earthquake in Iceland",
-            "date": "2026-11-12T21:53:42+00:00",
-            "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Iceland",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1577058&episodeid=1746288&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1577177&episodeid=1746412&eventtype=EQ"
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-11-13T06:49:22.342515+00:00"
+        "source_collected_at": "2026-11-13T19:45:16.628422+00:00"
       },
       {
         "id": "eonet_hazard_persistence",
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 3283.3,
+        "current_30d_weight": 3325.5,
         "baseline_median": 0.0,
-        "anomaly_z": 3283.29,
+        "anomaly_z": 3325.53,
         "events_considered": 1000,
         "evidence": [
           {
@@ -351,6 +351,16 @@
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033576"
           },
           {
+            "id": "EONET_26393",
+            "title": "Wildfire in South Sudan 1033798",
+            "date": "2026-11-07T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.2,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033798"
+          },
+          {
             "id": "EONET_26059",
             "title": "Wildfire in Australia 1033539",
             "date": "2026-11-04T19:00:00+00:00",
@@ -369,6 +379,16 @@
             ],
             "weight": 4.2,
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033018"
+          },
+          {
+            "id": "EONET_26396",
+            "title": "Wildfire in Australia 1033802",
+            "date": "2026-11-07T19:00:00+00:00",
+            "categories": [
+              "wildfires"
+            ],
+            "weight": 4.1,
+            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033802"
           },
           {
             "id": "EONET_26188",
@@ -459,30 +479,10 @@
             ],
             "weight": 4.1,
             "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033436"
-          },
-          {
-            "id": "EONET_25642",
-            "title": "Wildfire in Australia 1033134",
-            "date": "2026-10-22T19:00:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.1,
-            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033134"
-          },
-          {
-            "id": "EONET_25650",
-            "title": "Wildfire in Australia 1033140",
-            "date": "2026-10-21T19:00:00+00:00",
-            "categories": [
-              "wildfires"
-            ],
-            "weight": 4.1,
-            "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033140"
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-11-13T06:49:24.854329+00:00"
+        "source_collected_at": "2026-11-13T19:45:21.467071+00:00"
       },
       {
         "id": "food_price_pressure",
@@ -543,7 +543,7 @@
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-11-13T06:49:20.884504+00:00"
+        "source_collected_at": "2026-11-13T19:45:15.984540+00:00"
       }
     ],
     "concurrence": {
@@ -577,17 +577,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-18T16:26:43.462346+00:00",
-        "score": 73.8,
-        "level": "ELEVATED",
-        "components": {
-          "agroclimate_stress": 100.0,
-          "gdacs_impact_pressure": 60.0,
-          "eonet_hazard_persistence": 56.0,
-          "food_price_pressure": 37.9
-        }
-      },
       {
         "timestamp": "2026-09-18T20:56:21.809117+00:00",
         "score": 73.8,
@@ -2556,13 +2545,24 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 23.0
         }
+      },
+      {
+        "timestamp": "2026-11-13T19:45:21.502996+00:00",
+        "score": 63.1,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 92.4,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 23.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
       "power_sentinels": 8,
-      "gdacs_events": 176,
+      "gdacs_events": 175,
       "eonet_events": 1000,
       "fao_latest_month": "2026-10"
     },
@@ -2609,7 +2609,7 @@
     },
     {
       "label": "Hazards Screened",
-      "value": "1176",
+      "value": "1175",
       "delta": "NASA + GDACS"
     },
     {
@@ -2623,7 +2623,7 @@
       "count": 8,
       "cached": false,
       "retained": false,
-      "source_collected_at": "2026-11-13T06:49:21.950844+00:00",
+      "source_collected_at": "2026-11-13T19:45:16.939303+00:00",
       "sentinels": [
         {
           "name": "Lake Chad basin",
@@ -2716,22 +2716,12 @@
       ]
     },
     "gdacs": {
-      "count": 176,
+      "count": 175,
       "cached": false,
       "retained": false,
-      "source_collected_at": "2026-11-13T06:49:22.342515+00:00",
+      "source_collected_at": "2026-11-13T19:45:16.628422+00:00",
       "compact": true,
       "events": [
-        {
-          "id": "TC|1001338",
-          "title": "Tropical Cyclone CHAMPI-26",
-          "date": "2026-10-14T12:00:00+00:00",
-          "alert_level": "Red",
-          "event_type": "TC",
-          "country": "Philippines, Guam, Northern Mariana Islands, Japan, China, South Korea",
-          "weight": 29.6,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=46&eventtype=TC"
-        },
         {
           "id": "TC|1001346",
           "title": "Tropical Cyclone MURASU-26",
@@ -2770,17 +2760,47 @@
           "event_type": "WF",
           "country": "Central African Republic, South Sudan, Sudan",
           "weight": 1.2,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033756&episodeid=1&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033756&episodeid=3&eventtype=WF"
         },
         {
-          "id": "WF|1033745",
+          "id": "WF|1033815",
           "title": "Forest fires in South Sudan, Sudan",
-          "date": "2026-11-09T00:00:00+00:00",
+          "date": "2026-11-06T00:00:00+00:00",
           "alert_level": "Green",
           "event_type": "WF",
           "country": "South Sudan, Sudan",
           "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033745&episodeid=1&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033815&episodeid=1&eventtype=WF"
+        },
+        {
+          "id": "WF|1033811",
+          "title": "Forest fires in South Sudan, Sudan",
+          "date": "2026-11-10T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "WF",
+          "country": "South Sudan, Sudan",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033811&episodeid=1&eventtype=WF"
+        },
+        {
+          "id": "WF|1033782",
+          "title": "Forest fires in South Sudan, Sudan",
+          "date": "2026-11-05T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "WF",
+          "country": "South Sudan, Sudan",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033782&episodeid=2&eventtype=WF"
+        },
+        {
+          "id": "WF|1033772",
+          "title": "Forest fires in South Sudan, Sudan",
+          "date": "2026-11-10T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "WF",
+          "country": "South Sudan, Sudan",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033772&episodeid=2&eventtype=WF"
         },
         {
           "id": "WF|1033718",
@@ -2790,87 +2810,67 @@
           "event_type": "WF",
           "country": "Sudan, South Sudan",
           "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033718&episodeid=2&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033718&episodeid=4&eventtype=WF"
         },
         {
-          "id": "WF|1033712",
-          "title": "Forest fires in Burkina Faso, Mali",
-          "date": "2026-11-06T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Burkina Faso, Mali",
-          "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033712&episodeid=3&eventtype=WF"
-        },
-        {
-          "id": "EQ|1577107",
-          "title": "Earthquake in Indonesia",
-          "date": "2026-11-13T04:49:33+00:00",
+          "id": "EQ|1577217",
+          "title": "Earthquake in South Sandwich Islands Region",
+          "date": "2026-11-13T19:04:07+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Indonesia",
+          "country": "South Sandwich Islands Region",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1577107&episodeid=1746335&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1577217&episodeid=1746458&eventtype=EQ"
         },
         {
-          "id": "EQ|1577095",
-          "title": "Earthquake in Mariana Islands",
-          "date": "2026-11-13T02:55:03+00:00",
+          "id": "EQ|1577215",
+          "title": "Earthquake in South Of Fiji Islands",
+          "date": "2026-11-13T18:55:40+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Mariana Islands",
+          "country": "South Of Fiji Islands",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1577095&episodeid=1746321&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1577215&episodeid=1746456&eventtype=EQ"
         },
         {
-          "id": "EQ|1577093",
-          "title": "Earthquake in Fiji",
-          "date": "2026-11-13T02:26:23+00:00",
+          "id": "EQ|1577195",
+          "title": "Earthquake in Peru",
+          "date": "2026-11-13T16:43:02+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Fiji",
+          "country": "Peru",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1577093&episodeid=1746332&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1577195&episodeid=1746435&eventtype=EQ"
         },
         {
-          "id": "EQ|1577075",
-          "title": "Earthquake in Democratic Republic of the Congo",
-          "date": "2026-11-13T01:12:46+00:00",
+          "id": "EQ|1577194",
+          "title": "Earthquake in Dominican Republic",
+          "date": "2026-11-13T16:35:58+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Democratic Republic of the Congo",
+          "country": "Dominican Republic",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1577075&episodeid=1746300&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1577194&episodeid=1746434&eventtype=EQ"
         },
         {
-          "id": "EQ|1577071",
-          "title": "Earthquake in Greece",
-          "date": "2026-11-13T00:05:04+00:00",
+          "id": "EQ|1577189",
+          "title": "Earthquake in China",
+          "date": "2026-11-13T16:17:51+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Greece",
+          "country": "China",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1577071&episodeid=1746295&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1577189&episodeid=1746428&eventtype=EQ"
         },
         {
-          "id": "EQ|1577060",
-          "title": "Earthquake in Papua New Guinea",
-          "date": "2026-11-12T22:04:06+00:00",
+          "id": "EQ|1577177",
+          "title": "Earthquake in West Chile Rise",
+          "date": "2026-11-13T14:12:47+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Papua New Guinea",
+          "country": "West Chile Rise",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1577060&episodeid=1746280&eventtype=EQ"
-        },
-        {
-          "id": "EQ|1577058",
-          "title": "Earthquake in Iceland",
-          "date": "2026-11-12T21:53:42+00:00",
-          "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Iceland",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1577058&episodeid=1746288&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1577177&episodeid=1746412&eventtype=EQ"
         }
       ]
     },
@@ -2878,7 +2878,7 @@
       "count": 1000,
       "cached": false,
       "retained": false,
-      "source_collected_at": "2026-11-13T06:49:24.854329+00:00",
+      "source_collected_at": "2026-11-13T19:45:21.467071+00:00",
       "compact": true,
       "events": [
         {
@@ -2902,6 +2902,16 @@
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033576"
         },
         {
+          "id": "EONET_26393",
+          "title": "Wildfire in South Sudan 1033798",
+          "date": "2026-11-07T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.2,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033798"
+        },
+        {
           "id": "EONET_26059",
           "title": "Wildfire in Australia 1033539",
           "date": "2026-11-04T19:00:00+00:00",
@@ -2920,6 +2930,16 @@
           ],
           "weight": 4.2,
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033018"
+        },
+        {
+          "id": "EONET_26396",
+          "title": "Wildfire in Australia 1033802",
+          "date": "2026-11-07T19:00:00+00:00",
+          "categories": [
+            "wildfires"
+          ],
+          "weight": 4.1,
+          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033802"
         },
         {
           "id": "EONET_26188",
@@ -3010,26 +3030,6 @@
           ],
           "weight": 4.1,
           "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033436"
-        },
-        {
-          "id": "EONET_25642",
-          "title": "Wildfire in Australia 1033134",
-          "date": "2026-10-22T19:00:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.1,
-          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033134"
-        },
-        {
-          "id": "EONET_25650",
-          "title": "Wildfire in Australia 1033140",
-          "date": "2026-10-21T19:00:00+00:00",
-          "categories": [
-            "wildfires"
-          ],
-          "weight": 4.1,
-          "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033140"
         }
       ]
     },
@@ -7016,7 +7016,7 @@
       ],
       "source_url": "https://www.fao.org/media/docs/worldfoodsituationlibraries/wfs-library/food_price_indices_data.csv?download=true",
       "cached": false,
-      "source_collected_at": "2026-11-13T06:49:20.884504+00:00"
+      "source_collected_at": "2026-11-13T19:45:15.984540+00:00"
     }
   },
   "events": [
@@ -7052,16 +7052,6 @@
       "max_temp_c": 40.2,
       "heat_anomaly_c": 3.3,
       "observed_through": "2026-11-11"
-    },
-    {
-      "id": "TC|1001338",
-      "title": "Tropical Cyclone CHAMPI-26",
-      "date": "2026-10-14T12:00:00+00:00",
-      "alert_level": "Red",
-      "event_type": "TC",
-      "country": "Philippines, Guam, Northern Mariana Islands, Japan, China, South Korea",
-      "weight": 29.6,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=46&eventtype=TC"
     },
     {
       "id": "TC|1001346",
@@ -7101,17 +7091,47 @@
       "event_type": "WF",
       "country": "Central African Republic, South Sudan, Sudan",
       "weight": 1.2,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033756&episodeid=1&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033756&episodeid=3&eventtype=WF"
     },
     {
-      "id": "WF|1033745",
+      "id": "WF|1033815",
       "title": "Forest fires in South Sudan, Sudan",
-      "date": "2026-11-09T00:00:00+00:00",
+      "date": "2026-11-06T00:00:00+00:00",
       "alert_level": "Green",
       "event_type": "WF",
       "country": "South Sudan, Sudan",
       "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033745&episodeid=1&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033815&episodeid=1&eventtype=WF"
+    },
+    {
+      "id": "WF|1033811",
+      "title": "Forest fires in South Sudan, Sudan",
+      "date": "2026-11-10T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "WF",
+      "country": "South Sudan, Sudan",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033811&episodeid=1&eventtype=WF"
+    },
+    {
+      "id": "WF|1033782",
+      "title": "Forest fires in South Sudan, Sudan",
+      "date": "2026-11-05T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "WF",
+      "country": "South Sudan, Sudan",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033782&episodeid=2&eventtype=WF"
+    },
+    {
+      "id": "WF|1033772",
+      "title": "Forest fires in South Sudan, Sudan",
+      "date": "2026-11-10T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "WF",
+      "country": "South Sudan, Sudan",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033772&episodeid=2&eventtype=WF"
     },
     {
       "id": "WF|1033718",
@@ -7121,87 +7141,67 @@
       "event_type": "WF",
       "country": "Sudan, South Sudan",
       "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033718&episodeid=2&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033718&episodeid=4&eventtype=WF"
     },
     {
-      "id": "WF|1033712",
-      "title": "Forest fires in Burkina Faso, Mali",
-      "date": "2026-11-06T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Burkina Faso, Mali",
-      "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033712&episodeid=3&eventtype=WF"
-    },
-    {
-      "id": "EQ|1577107",
-      "title": "Earthquake in Indonesia",
-      "date": "2026-11-13T04:49:33+00:00",
+      "id": "EQ|1577217",
+      "title": "Earthquake in South Sandwich Islands Region",
+      "date": "2026-11-13T19:04:07+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Indonesia",
+      "country": "South Sandwich Islands Region",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1577107&episodeid=1746335&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1577217&episodeid=1746458&eventtype=EQ"
     },
     {
-      "id": "EQ|1577095",
-      "title": "Earthquake in Mariana Islands",
-      "date": "2026-11-13T02:55:03+00:00",
+      "id": "EQ|1577215",
+      "title": "Earthquake in South Of Fiji Islands",
+      "date": "2026-11-13T18:55:40+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Mariana Islands",
+      "country": "South Of Fiji Islands",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1577095&episodeid=1746321&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1577215&episodeid=1746456&eventtype=EQ"
     },
     {
-      "id": "EQ|1577093",
-      "title": "Earthquake in Fiji",
-      "date": "2026-11-13T02:26:23+00:00",
+      "id": "EQ|1577195",
+      "title": "Earthquake in Peru",
+      "date": "2026-11-13T16:43:02+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Fiji",
+      "country": "Peru",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1577093&episodeid=1746332&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1577195&episodeid=1746435&eventtype=EQ"
     },
     {
-      "id": "EQ|1577075",
-      "title": "Earthquake in Democratic Republic of the Congo",
-      "date": "2026-11-13T01:12:46+00:00",
+      "id": "EQ|1577194",
+      "title": "Earthquake in Dominican Republic",
+      "date": "2026-11-13T16:35:58+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Democratic Republic of the Congo",
+      "country": "Dominican Republic",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1577075&episodeid=1746300&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1577194&episodeid=1746434&eventtype=EQ"
     },
     {
-      "id": "EQ|1577071",
-      "title": "Earthquake in Greece",
-      "date": "2026-11-13T00:05:04+00:00",
+      "id": "EQ|1577189",
+      "title": "Earthquake in China",
+      "date": "2026-11-13T16:17:51+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Greece",
+      "country": "China",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1577071&episodeid=1746295&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1577189&episodeid=1746428&eventtype=EQ"
     },
     {
-      "id": "EQ|1577060",
-      "title": "Earthquake in Papua New Guinea",
-      "date": "2026-11-12T22:04:06+00:00",
+      "id": "EQ|1577177",
+      "title": "Earthquake in West Chile Rise",
+      "date": "2026-11-13T14:12:47+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Papua New Guinea",
+      "country": "West Chile Rise",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1577060&episodeid=1746280&eventtype=EQ"
-    },
-    {
-      "id": "EQ|1577058",
-      "title": "Earthquake in Iceland",
-      "date": "2026-11-12T21:53:42+00:00",
-      "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Iceland",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1577058&episodeid=1746288&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1577177&episodeid=1746412&eventtype=EQ"
     },
     {
       "id": "EONET_26065",
@@ -7224,6 +7224,16 @@
       "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033576"
     },
     {
+      "id": "EONET_26393",
+      "title": "Wildfire in South Sudan 1033798",
+      "date": "2026-11-07T19:00:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.2,
+      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033798"
+    },
+    {
       "id": "EONET_26059",
       "title": "Wildfire in Australia 1033539",
       "date": "2026-11-04T19:00:00+00:00",
@@ -7242,6 +7252,16 @@
       ],
       "weight": 4.2,
       "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033018"
+    },
+    {
+      "id": "EONET_26396",
+      "title": "Wildfire in Australia 1033802",
+      "date": "2026-11-07T19:00:00+00:00",
+      "categories": [
+        "wildfires"
+      ],
+      "weight": 4.1,
+      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033802"
     },
     {
       "id": "EONET_26188",
@@ -7302,26 +7322,6 @@
       ],
       "weight": 4.1,
       "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033513"
-    },
-    {
-      "id": "EONET_26223",
-      "title": "Wildfire in Australia 1033614",
-      "date": "2026-11-04T19:00:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.1,
-      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033614"
-    },
-    {
-      "id": "EONET_26109",
-      "title": "Wildfire in South Sudan 1033496",
-      "date": "2026-10-29T19:00:00+00:00",
-      "categories": [
-        "wildfires"
-      ],
-      "weight": 4.1,
-      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1033496"
     }
   ]
 }
