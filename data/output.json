@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-11-18T20:35:25.828683+00:00",
+    "generated": "2026-11-19T07:30:00.612139+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,7 +13,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-18T20:35:25.581848+00:00",
+    "issued_at": "2026-11-19T07:30:00.419444+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 65.8,
@@ -35,9 +35,9 @@
             "score": 100.0,
             "rain_30d_mm": 0.0,
             "rain_ratio": 0.01,
-            "max_temp_c": 39.9,
-            "heat_anomaly_c": 3.2,
-            "observed_through": "2026-11-16"
+            "max_temp_c": 39.8,
+            "heat_anomaly_c": 3.1,
+            "observed_through": "2026-11-17"
           },
           {
             "name": "Lake Chad basin",
@@ -46,75 +46,75 @@
             "score": 100.0,
             "rain_30d_mm": 0.0,
             "rain_ratio": 0.0,
-            "max_temp_c": 39.2,
+            "max_temp_c": 39.1,
             "heat_anomaly_c": 3.9,
-            "observed_through": "2026-11-16"
+            "observed_through": "2026-11-17"
           },
           {
             "name": "Sudan grain belt",
             "lat": 13.5,
             "lon": 33.5,
             "score": 100.0,
-            "rain_30d_mm": 3.4,
-            "rain_ratio": 0.15,
+            "rain_30d_mm": 0.1,
+            "rain_ratio": 0.0,
             "max_temp_c": 40.3,
-            "heat_anomaly_c": 6.5,
-            "observed_through": "2026-11-16"
+            "heat_anomaly_c": 6.4,
+            "observed_through": "2026-11-17"
           },
           {
             "name": "Pakistan Indus",
             "lat": 29.0,
             "lon": 70.5,
-            "score": 83.0,
+            "score": 83.3,
             "rain_30d_mm": 0.0,
             "rain_ratio": 0.0,
-            "max_temp_c": 35.7,
+            "max_temp_c": 35.5,
             "heat_anomaly_c": 1.3,
-            "observed_through": "2026-11-16"
+            "observed_through": "2026-11-17"
           },
           {
             "name": "Ethiopia lowlands",
             "lat": 8.0,
             "lon": 40.0,
-            "score": 71.7,
-            "rain_30d_mm": 57.0,
-            "rain_ratio": 0.62,
+            "score": 74.1,
+            "rain_30d_mm": 56.3,
+            "rain_ratio": 0.59,
             "max_temp_c": 26.0,
             "heat_anomaly_c": 4.5,
-            "observed_through": "2026-11-16"
+            "observed_through": "2026-11-17"
           },
           {
             "name": "Somalia pastoral belt",
             "lat": 5.0,
             "lon": 45.3,
-            "score": 43.9,
-            "rain_30d_mm": 56.1,
-            "rain_ratio": 0.37,
-            "max_temp_c": 33.6,
-            "heat_anomaly_c": -1.1,
-            "observed_through": "2026-11-16"
+            "score": 46.0,
+            "rain_30d_mm": 52.1,
+            "rain_ratio": 0.34,
+            "max_temp_c": 33.7,
+            "heat_anomaly_c": -1.0,
+            "observed_through": "2026-11-17"
           },
           {
             "name": "Central America dry corridor",
             "lat": 14.0,
             "lon": -88.5,
-            "score": 22.3,
-            "rain_30d_mm": 116.6,
-            "rain_ratio": 0.68,
-            "max_temp_c": 27.6,
+            "score": 23.8,
+            "rain_30d_mm": 113.4,
+            "rain_ratio": 0.66,
+            "max_temp_c": 27.7,
             "heat_anomaly_c": -0.1,
-            "observed_through": "2026-11-16"
+            "observed_through": "2026-11-17"
           },
           {
             "name": "Afghanistan drylands",
             "lat": 34.0,
             "lon": 65.0,
-            "score": 0.7,
+            "score": 1.2,
             "rain_30d_mm": 16.5,
-            "rain_ratio": 1.38,
-            "max_temp_c": 13.0,
+            "rain_ratio": 1.31,
+            "max_temp_c": 12.8,
             "heat_anomaly_c": 0.1,
-            "observed_through": "2026-11-16"
+            "observed_through": "2026-11-17"
           }
         ],
         "evidence": [
@@ -125,9 +125,9 @@
             "score": 100.0,
             "rain_30d_mm": 0.0,
             "rain_ratio": 0.01,
-            "max_temp_c": 39.9,
-            "heat_anomaly_c": 3.2,
-            "observed_through": "2026-11-16"
+            "max_temp_c": 39.8,
+            "heat_anomaly_c": 3.1,
+            "observed_through": "2026-11-17"
           },
           {
             "name": "Lake Chad basin",
@@ -136,31 +136,31 @@
             "score": 100.0,
             "rain_30d_mm": 0.0,
             "rain_ratio": 0.0,
-            "max_temp_c": 39.2,
+            "max_temp_c": 39.1,
             "heat_anomaly_c": 3.9,
-            "observed_through": "2026-11-16"
+            "observed_through": "2026-11-17"
           },
           {
             "name": "Sudan grain belt",
             "lat": 13.5,
             "lon": 33.5,
             "score": 100.0,
-            "rain_30d_mm": 3.4,
-            "rain_ratio": 0.15,
+            "rain_30d_mm": 0.1,
+            "rain_ratio": 0.0,
             "max_temp_c": 40.3,
-            "heat_anomaly_c": 6.5,
-            "observed_through": "2026-11-16"
+            "heat_anomaly_c": 6.4,
+            "observed_through": "2026-11-17"
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-11-18T20:35:20.575828+00:00"
+        "source_collected_at": "2026-11-19T07:29:55.705626+00:00"
       },
       {
         "id": "gdacs_impact_pressure",
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 155.8,
+        "current_30d_weight": 155.7,
         "baseline_months": 12,
         "baseline_median": 44.0,
         "anomaly_z": 4.34,
@@ -194,7 +194,7 @@
             "event_type": "TC",
             "country": "India",
             "weight": 8.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001351&episodeid=9&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001351&episodeid=10&eventtype=TC"
           },
           {
             "id": "EQ|1573141",
@@ -218,11 +218,11 @@
           },
           {
             "id": "WF|1033923",
-            "title": "Forest fires in Benin, Burkina Faso, Togo",
+            "title": "Forest fires in Togo, Benin, Burkina Faso",
             "date": "2026-11-14T00:00:00+00:00",
             "alert_level": "Green",
             "event_type": "WF",
-            "country": "Benin, Burkina Faso, Togo",
+            "country": "Togo, Benin, Burkina Faso",
             "weight": 1.2,
             "url": "https://www.gdacs.org/report.aspx?eventid=1033923&episodeid=3&eventtype=WF"
           },
@@ -294,7 +294,7 @@
             "event_type": "WF",
             "country": "Central African Republic, Chad",
             "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033892&episodeid=4&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033892&episodeid=5&eventtype=WF"
           },
           {
             "id": "WF|1033887",
@@ -318,16 +318,16 @@
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-11-18T20:35:20.029967+00:00"
+        "source_collected_at": "2026-11-19T07:29:55.603283+00:00"
       },
       {
         "id": "eonet_hazard_persistence",
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 3120.1,
+        "current_30d_weight": 3120.0,
         "baseline_median": 0.0,
-        "anomaly_z": 3120.05,
+        "anomaly_z": 3119.98,
         "events_considered": 1000,
         "evidence": [
           {
@@ -482,7 +482,7 @@
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-11-18T20:35:25.521814+00:00"
+        "source_collected_at": "2026-11-19T07:30:00.375500+00:00"
       },
       {
         "id": "food_price_pressure",
@@ -543,7 +543,7 @@
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-11-18T20:35:19.291763+00:00"
+        "source_collected_at": "2026-11-19T07:29:54.757041+00:00"
       }
     ],
     "concurrence": {
@@ -577,17 +577,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-21T22:00:11.515403+00:00",
-        "score": 73.2,
-        "level": "ELEVATED",
-        "components": {
-          "agroclimate_stress": 100.0,
-          "gdacs_impact_pressure": 57.6,
-          "eonet_hazard_persistence": 56.0,
-          "food_price_pressure": 37.9
-        }
-      },
       {
         "timestamp": "2026-09-22T05:00:33.234015+00:00",
         "score": 72.7,
@@ -2556,6 +2545,17 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 23.0
         }
+      },
+      {
+        "timestamp": "2026-11-19T07:30:00.419444+00:00",
+        "score": 65.8,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 100.0,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 23.0
+        }
       }
     ],
     "data_health": {
@@ -2623,7 +2623,7 @@
       "count": 8,
       "cached": false,
       "retained": false,
-      "source_collected_at": "2026-11-18T20:35:20.575828+00:00",
+      "source_collected_at": "2026-11-19T07:29:55.705626+00:00",
       "sentinels": [
         {
           "name": "Sahel west",
@@ -2632,9 +2632,9 @@
           "score": 100.0,
           "rain_30d_mm": 0.0,
           "rain_ratio": 0.01,
-          "max_temp_c": 39.9,
-          "heat_anomaly_c": 3.2,
-          "observed_through": "2026-11-16"
+          "max_temp_c": 39.8,
+          "heat_anomaly_c": 3.1,
+          "observed_through": "2026-11-17"
         },
         {
           "name": "Lake Chad basin",
@@ -2643,75 +2643,75 @@
           "score": 100.0,
           "rain_30d_mm": 0.0,
           "rain_ratio": 0.0,
-          "max_temp_c": 39.2,
+          "max_temp_c": 39.1,
           "heat_anomaly_c": 3.9,
-          "observed_through": "2026-11-16"
+          "observed_through": "2026-11-17"
         },
         {
           "name": "Sudan grain belt",
           "lat": 13.5,
           "lon": 33.5,
           "score": 100.0,
-          "rain_30d_mm": 3.4,
-          "rain_ratio": 0.15,
+          "rain_30d_mm": 0.1,
+          "rain_ratio": 0.0,
           "max_temp_c": 40.3,
-          "heat_anomaly_c": 6.5,
-          "observed_through": "2026-11-16"
+          "heat_anomaly_c": 6.4,
+          "observed_through": "2026-11-17"
         },
         {
           "name": "Pakistan Indus",
           "lat": 29.0,
           "lon": 70.5,
-          "score": 83.0,
+          "score": 83.3,
           "rain_30d_mm": 0.0,
           "rain_ratio": 0.0,
-          "max_temp_c": 35.7,
+          "max_temp_c": 35.5,
           "heat_anomaly_c": 1.3,
-          "observed_through": "2026-11-16"
+          "observed_through": "2026-11-17"
         },
         {
           "name": "Ethiopia lowlands",
           "lat": 8.0,
           "lon": 40.0,
-          "score": 71.7,
-          "rain_30d_mm": 57.0,
-          "rain_ratio": 0.62,
+          "score": 74.1,
+          "rain_30d_mm": 56.3,
+          "rain_ratio": 0.59,
           "max_temp_c": 26.0,
           "heat_anomaly_c": 4.5,
-          "observed_through": "2026-11-16"
+          "observed_through": "2026-11-17"
         },
         {
           "name": "Somalia pastoral belt",
           "lat": 5.0,
           "lon": 45.3,
-          "score": 43.9,
-          "rain_30d_mm": 56.1,
-          "rain_ratio": 0.37,
-          "max_temp_c": 33.6,
-          "heat_anomaly_c": -1.1,
-          "observed_through": "2026-11-16"
+          "score": 46.0,
+          "rain_30d_mm": 52.1,
+          "rain_ratio": 0.34,
+          "max_temp_c": 33.7,
+          "heat_anomaly_c": -1.0,
+          "observed_through": "2026-11-17"
         },
         {
           "name": "Central America dry corridor",
           "lat": 14.0,
           "lon": -88.5,
-          "score": 22.3,
-          "rain_30d_mm": 116.6,
-          "rain_ratio": 0.68,
-          "max_temp_c": 27.6,
+          "score": 23.8,
+          "rain_30d_mm": 113.4,
+          "rain_ratio": 0.66,
+          "max_temp_c": 27.7,
           "heat_anomaly_c": -0.1,
-          "observed_through": "2026-11-16"
+          "observed_through": "2026-11-17"
         },
         {
           "name": "Afghanistan drylands",
           "lat": 34.0,
           "lon": 65.0,
-          "score": 0.7,
+          "score": 1.2,
           "rain_30d_mm": 16.5,
-          "rain_ratio": 1.38,
-          "max_temp_c": 13.0,
+          "rain_ratio": 1.31,
+          "max_temp_c": 12.8,
           "heat_anomaly_c": 0.1,
-          "observed_through": "2026-11-16"
+          "observed_through": "2026-11-17"
         }
       ]
     },
@@ -2719,7 +2719,7 @@
       "count": 175,
       "cached": false,
       "retained": false,
-      "source_collected_at": "2026-11-18T20:35:20.029967+00:00",
+      "source_collected_at": "2026-11-19T07:29:55.603283+00:00",
       "compact": true,
       "events": [
         {
@@ -2750,7 +2750,7 @@
           "event_type": "TC",
           "country": "India",
           "weight": 8.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001351&episodeid=9&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001351&episodeid=10&eventtype=TC"
         },
         {
           "id": "EQ|1573141",
@@ -2774,11 +2774,11 @@
         },
         {
           "id": "WF|1033923",
-          "title": "Forest fires in Benin, Burkina Faso, Togo",
+          "title": "Forest fires in Togo, Benin, Burkina Faso",
           "date": "2026-11-14T00:00:00+00:00",
           "alert_level": "Green",
           "event_type": "WF",
-          "country": "Benin, Burkina Faso, Togo",
+          "country": "Togo, Benin, Burkina Faso",
           "weight": 1.2,
           "url": "https://www.gdacs.org/report.aspx?eventid=1033923&episodeid=3&eventtype=WF"
         },
@@ -2850,7 +2850,7 @@
           "event_type": "WF",
           "country": "Central African Republic, Chad",
           "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033892&episodeid=4&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033892&episodeid=5&eventtype=WF"
         },
         {
           "id": "WF|1033887",
@@ -2878,7 +2878,7 @@
       "count": 1000,
       "cached": false,
       "retained": false,
-      "source_collected_at": "2026-11-18T20:35:25.521814+00:00",
+      "source_collected_at": "2026-11-19T07:30:00.375500+00:00",
       "compact": true,
       "events": [
         {
@@ -7016,7 +7016,7 @@
       ],
       "source_url": "https://www.fao.org/media/docs/worldfoodsituationlibraries/wfs-library/food_price_indices_data.csv?download=true",
       "cached": false,
-      "source_collected_at": "2026-11-18T20:35:19.291763+00:00"
+      "source_collected_at": "2026-11-19T07:29:54.757041+00:00"
     }
   },
   "events": [
@@ -7027,9 +7027,9 @@
       "score": 100.0,
       "rain_30d_mm": 0.0,
       "rain_ratio": 0.01,
-      "max_temp_c": 39.9,
-      "heat_anomaly_c": 3.2,
-      "observed_through": "2026-11-16"
+      "max_temp_c": 39.8,
+      "heat_anomaly_c": 3.1,
+      "observed_through": "2026-11-17"
     },
     {
       "name": "Lake Chad basin",
@@ -7038,20 +7038,20 @@
       "score": 100.0,
       "rain_30d_mm": 0.0,
       "rain_ratio": 0.0,
-      "max_temp_c": 39.2,
+      "max_temp_c": 39.1,
       "heat_anomaly_c": 3.9,
-      "observed_through": "2026-11-16"
+      "observed_through": "2026-11-17"
     },
     {
       "name": "Sudan grain belt",
       "lat": 13.5,
       "lon": 33.5,
       "score": 100.0,
-      "rain_30d_mm": 3.4,
-      "rain_ratio": 0.15,
+      "rain_30d_mm": 0.1,
+      "rain_ratio": 0.0,
       "max_temp_c": 40.3,
-      "heat_anomaly_c": 6.5,
-      "observed_through": "2026-11-16"
+      "heat_anomaly_c": 6.4,
+      "observed_through": "2026-11-17"
     },
     {
       "id": "TC|1001346",
@@ -7081,7 +7081,7 @@
       "event_type": "TC",
       "country": "India",
       "weight": 8.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001351&episodeid=9&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001351&episodeid=10&eventtype=TC"
     },
     {
       "id": "EQ|1573141",
@@ -7105,11 +7105,11 @@
     },
     {
       "id": "WF|1033923",
-      "title": "Forest fires in Benin, Burkina Faso, Togo",
+      "title": "Forest fires in Togo, Benin, Burkina Faso",
       "date": "2026-11-14T00:00:00+00:00",
       "alert_level": "Green",
       "event_type": "WF",
-      "country": "Benin, Burkina Faso, Togo",
+      "country": "Togo, Benin, Burkina Faso",
       "weight": 1.2,
       "url": "https://www.gdacs.org/report.aspx?eventid=1033923&episodeid=3&eventtype=WF"
     },
@@ -7181,7 +7181,7 @@
       "event_type": "WF",
       "country": "Central African Republic, Chad",
       "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033892&episodeid=4&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033892&episodeid=5&eventtype=WF"
     },
     {
       "id": "WF|1033887",
