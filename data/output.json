@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-11-20T20:25:02.381366+00:00",
+    "generated": "2026-11-21T07:13:30.776621+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,10 +13,10 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-20T20:25:02.189644+00:00",
+    "issued_at": "2026-11-21T07:13:30.567601+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
-    "score": 65.8,
+    "score": 63.9,
     "level": "ELEVATED",
     "confidence": "HIGH",
     "confidence_score": 100.0,
@@ -25,7 +25,7 @@
         "id": "agroclimate_stress",
         "label": "NASA POWER agroclimate stress",
         "available": true,
-        "score": 100.0,
+        "score": 94.7,
         "sentinels_available": 8,
         "sentinels": [
           {
@@ -35,20 +35,9 @@
             "score": 100.0,
             "rain_30d_mm": 0.0,
             "rain_ratio": 0.01,
-            "max_temp_c": 39.7,
-            "heat_anomaly_c": 3.2,
-            "observed_through": "2026-11-18"
-          },
-          {
-            "name": "Lake Chad basin",
-            "lat": 12.5,
-            "lon": 14.5,
-            "score": 100.0,
-            "rain_30d_mm": 0.0,
-            "rain_ratio": 0.0,
-            "max_temp_c": 39.0,
-            "heat_anomaly_c": 3.8,
-            "observed_through": "2026-11-18"
+            "max_temp_c": 39.6,
+            "heat_anomaly_c": 3.1,
+            "observed_through": "2026-11-19"
           },
           {
             "name": "Sudan grain belt",
@@ -57,64 +46,75 @@
             "score": 100.0,
             "rain_30d_mm": 0.0,
             "rain_ratio": 0.0,
-            "max_temp_c": 40.2,
-            "heat_anomaly_c": 6.2,
-            "observed_through": "2026-11-18"
+            "max_temp_c": 40.1,
+            "heat_anomaly_c": 6.1,
+            "observed_through": "2026-11-19"
           },
           {
             "name": "Pakistan Indus",
             "lat": 29.0,
             "lon": 70.5,
-            "score": 83.8,
+            "score": 84.0,
             "rain_30d_mm": 0.0,
             "rain_ratio": 0.0,
-            "max_temp_c": 35.3,
+            "max_temp_c": 35.1,
             "heat_anomaly_c": 1.4,
-            "observed_through": "2026-11-18"
+            "observed_through": "2026-11-19"
           },
           {
             "name": "Ethiopia lowlands",
             "lat": 8.0,
             "lon": 40.0,
-            "score": 74.0,
-            "rain_30d_mm": 56.4,
-            "rain_ratio": 0.58,
+            "score": 73.6,
+            "rain_30d_mm": 57.3,
+            "rain_ratio": 0.59,
             "max_temp_c": 25.9,
             "heat_anomaly_c": 4.5,
-            "observed_through": "2026-11-18"
+            "observed_through": "2026-11-19"
           },
           {
             "name": "Somalia pastoral belt",
             "lat": 5.0,
             "lon": 45.3,
-            "score": 47.3,
-            "rain_30d_mm": 49.8,
-            "rain_ratio": 0.32,
+            "score": 46.5,
+            "rain_30d_mm": 49.4,
+            "rain_ratio": 0.34,
             "max_temp_c": 33.7,
             "heat_anomaly_c": -1.0,
-            "observed_through": "2026-11-18"
+            "observed_through": "2026-11-19"
+          },
+          {
+            "name": "Lake Chad basin",
+            "lat": 12.5,
+            "lon": 14.5,
+            "score": 37.0,
+            "rain_30d_mm": 0.0,
+            "rain_ratio": 1.0,
+            "max_temp_c": 38.9,
+            "heat_anomaly_c": 3.7,
+            "observed_through": "2026-11-19"
           },
           {
             "name": "Central America dry corridor",
             "lat": 14.0,
             "lon": -88.5,
-            "score": 26.7,
-            "rain_30d_mm": 104.1,
-            "rain_ratio": 0.62,
+            "score": 30.8,
+            "rain_30d_mm": 88.4,
+            "rain_ratio": 0.56,
             "max_temp_c": 27.7,
             "heat_anomaly_c": -0.1,
-            "observed_through": "2026-11-18"
+            "observed_through": "2026-11-19"
           },
           {
             "name": "Afghanistan drylands",
             "lat": 34.0,
             "lon": 65.0,
-            "score": 1.7,
+            "score": 2.4,
             "rain_30d_mm": 16.5,
-            "rain_ratio": 1.26,
-            "max_temp_c": 12.6,
+            "rain_ratio": 1.24,
+            "max_temp_c": 12.4,
             "heat_anomaly_c": 0.2,
-            "observed_through": "2026-11-18"
+            "observed_through": "2026-11-19"
           }
         ],
         "evidence": [
@@ -125,20 +125,9 @@
             "score": 100.0,
             "rain_30d_mm": 0.0,
             "rain_ratio": 0.01,
-            "max_temp_c": 39.7,
-            "heat_anomaly_c": 3.2,
-            "observed_through": "2026-11-18"
-          },
-          {
-            "name": "Lake Chad basin",
-            "lat": 12.5,
-            "lon": 14.5,
-            "score": 100.0,
-            "rain_30d_mm": 0.0,
-            "rain_ratio": 0.0,
-            "max_temp_c": 39.0,
-            "heat_anomaly_c": 3.8,
-            "observed_through": "2026-11-18"
+            "max_temp_c": 39.6,
+            "heat_anomaly_c": 3.1,
+            "observed_through": "2026-11-19"
           },
           {
             "name": "Sudan grain belt",
@@ -147,24 +136,35 @@
             "score": 100.0,
             "rain_30d_mm": 0.0,
             "rain_ratio": 0.0,
-            "max_temp_c": 40.2,
-            "heat_anomaly_c": 6.2,
-            "observed_through": "2026-11-18"
+            "max_temp_c": 40.1,
+            "heat_anomaly_c": 6.1,
+            "observed_through": "2026-11-19"
+          },
+          {
+            "name": "Pakistan Indus",
+            "lat": 29.0,
+            "lon": 70.5,
+            "score": 84.0,
+            "rain_30d_mm": 0.0,
+            "rain_ratio": 0.0,
+            "max_temp_c": 35.1,
+            "heat_anomaly_c": 1.4,
+            "observed_through": "2026-11-19"
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-11-20T20:25:00.670532+00:00"
+        "source_collected_at": "2026-11-21T07:13:27.650352+00:00"
       },
       {
         "id": "gdacs_impact_pressure",
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 148.2,
+        "current_30d_weight": 148.4,
         "baseline_months": 12,
-        "baseline_median": 45.2,
-        "anomaly_z": 4.52,
-        "events_considered": 175,
+        "baseline_median": 41.2,
+        "anomaly_z": 4.48,
+        "events_considered": 174,
         "evidence": [
           {
             "id": "TC|1001346",
@@ -214,7 +214,7 @@
             "event_type": "TC",
             "country": "Cook Islands, American Samoa, Samoa",
             "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001350&episodeid=13&eventtype=TC"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1001350&episodeid=15&eventtype=TC"
           },
           {
             "id": "WF|1033986",
@@ -234,7 +234,7 @@
             "event_type": "WF",
             "country": "South Sudan, Central African Republic",
             "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033983&episodeid=1&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033983&episodeid=2&eventtype=WF"
           },
           {
             "id": "WF|1033973",
@@ -287,47 +287,47 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1033877&episodeid=7&eventtype=WF"
           },
           {
-            "id": "EQ|1578429",
-            "title": "Earthquake in Vanuatu",
-            "date": "2026-11-20T17:53:15+00:00",
+            "id": "WF|1033864",
+            "title": "Forest fires in Sudan, South Sudan",
+            "date": "2026-11-11T00:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Vanuatu",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1578429&episodeid=1747805&eventtype=EQ"
+            "event_type": "WF",
+            "country": "Sudan, South Sudan",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033864&episodeid=12&eventtype=WF"
           },
           {
-            "id": "EQ|1578399",
-            "title": "Earthquake in Chile",
-            "date": "2026-11-20T14:16:15+00:00",
+            "id": "WF|1033815",
+            "title": "Forest fires in South Sudan, Sudan",
+            "date": "2026-11-06T00:00:00+00:00",
             "alert_level": "Green",
-            "event_type": "EQ",
-            "country": "Chile",
-            "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1578399&episodeid=1747774&eventtype=EQ"
+            "event_type": "WF",
+            "country": "South Sudan, Sudan",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033815&episodeid=9&eventtype=WF"
           },
           {
-            "id": "EQ|1578380",
-            "title": "Earthquake in Philippines",
-            "date": "2026-11-20T13:09:04+00:00",
+            "id": "EQ|1578506",
+            "title": "Earthquake in Peru",
+            "date": "2026-11-21T05:12:04+00:00",
             "alert_level": "Green",
             "event_type": "EQ",
-            "country": "Philippines",
+            "country": "Peru",
             "weight": 1.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1578380&episodeid=1747753&eventtype=EQ"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1578506&episodeid=1747892&eventtype=EQ"
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-11-20T20:25:00.093312+00:00"
+        "source_collected_at": "2026-11-21T07:13:27.351848+00:00"
       },
       {
         "id": "eonet_hazard_persistence",
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 2984.4,
+        "current_30d_weight": 2984.3,
         "baseline_median": 0.0,
-        "anomaly_z": 2984.4,
+        "anomaly_z": 2984.27,
         "events_considered": 1000,
         "evidence": [
           {
@@ -482,7 +482,7 @@
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-11-20T20:25:02.131824+00:00"
+        "source_collected_at": "2026-11-21T07:13:30.520478+00:00"
       },
       {
         "id": "food_price_pressure",
@@ -543,7 +543,7 @@
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-11-20T20:24:59.051797+00:00"
+        "source_collected_at": "2026-11-21T07:13:26.338583+00:00"
       }
     ],
     "concurrence": {
@@ -560,7 +560,7 @@
       {
         "id": "agroclimate_stress",
         "title": "NASA POWER agroclimate stress",
-        "score": 100.0,
+        "score": 94.7,
         "level": "SEVERE"
       },
       {
@@ -577,17 +577,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-22T21:21:44.479322+00:00",
-        "score": 73.1,
-        "level": "ELEVATED",
-        "components": {
-          "agroclimate_stress": 98.5,
-          "gdacs_impact_pressure": 59.5,
-          "eonet_hazard_persistence": 56.0,
-          "food_price_pressure": 37.9
-        }
-      },
       {
         "timestamp": "2026-09-23T04:48:22.330413+00:00",
         "score": 72.5,
@@ -2556,13 +2545,24 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 23.0
         }
+      },
+      {
+        "timestamp": "2026-11-21T07:13:30.567601+00:00",
+        "score": 63.9,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 94.7,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 23.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
       "power_sentinels": 8,
-      "gdacs_events": 175,
+      "gdacs_events": 174,
       "eonet_events": 1000,
       "fao_latest_month": "2026-10"
     },
@@ -2599,7 +2599,7 @@
   "stats": [
     {
       "label": "Climate-Security Pressure",
-      "value": "65.8/100",
+      "value": "63.9/100",
       "delta": "ELEVATED"
     },
     {
@@ -2609,7 +2609,7 @@
     },
     {
       "label": "Hazards Screened",
-      "value": "1175",
+      "value": "1174",
       "delta": "NASA + GDACS"
     },
     {
@@ -2623,7 +2623,7 @@
       "count": 8,
       "cached": false,
       "retained": false,
-      "source_collected_at": "2026-11-20T20:25:00.670532+00:00",
+      "source_collected_at": "2026-11-21T07:13:27.650352+00:00",
       "sentinels": [
         {
           "name": "Sahel west",
@@ -2632,20 +2632,9 @@
           "score": 100.0,
           "rain_30d_mm": 0.0,
           "rain_ratio": 0.01,
-          "max_temp_c": 39.7,
-          "heat_anomaly_c": 3.2,
-          "observed_through": "2026-11-18"
-        },
-        {
-          "name": "Lake Chad basin",
-          "lat": 12.5,
-          "lon": 14.5,
-          "score": 100.0,
-          "rain_30d_mm": 0.0,
-          "rain_ratio": 0.0,
-          "max_temp_c": 39.0,
-          "heat_anomaly_c": 3.8,
-          "observed_through": "2026-11-18"
+          "max_temp_c": 39.6,
+          "heat_anomaly_c": 3.1,
+          "observed_through": "2026-11-19"
         },
         {
           "name": "Sudan grain belt",
@@ -2654,72 +2643,83 @@
           "score": 100.0,
           "rain_30d_mm": 0.0,
           "rain_ratio": 0.0,
-          "max_temp_c": 40.2,
-          "heat_anomaly_c": 6.2,
-          "observed_through": "2026-11-18"
+          "max_temp_c": 40.1,
+          "heat_anomaly_c": 6.1,
+          "observed_through": "2026-11-19"
         },
         {
           "name": "Pakistan Indus",
           "lat": 29.0,
           "lon": 70.5,
-          "score": 83.8,
+          "score": 84.0,
           "rain_30d_mm": 0.0,
           "rain_ratio": 0.0,
-          "max_temp_c": 35.3,
+          "max_temp_c": 35.1,
           "heat_anomaly_c": 1.4,
-          "observed_through": "2026-11-18"
+          "observed_through": "2026-11-19"
         },
         {
           "name": "Ethiopia lowlands",
           "lat": 8.0,
           "lon": 40.0,
-          "score": 74.0,
-          "rain_30d_mm": 56.4,
-          "rain_ratio": 0.58,
+          "score": 73.6,
+          "rain_30d_mm": 57.3,
+          "rain_ratio": 0.59,
           "max_temp_c": 25.9,
           "heat_anomaly_c": 4.5,
-          "observed_through": "2026-11-18"
+          "observed_through": "2026-11-19"
         },
         {
           "name": "Somalia pastoral belt",
           "lat": 5.0,
           "lon": 45.3,
-          "score": 47.3,
-          "rain_30d_mm": 49.8,
-          "rain_ratio": 0.32,
+          "score": 46.5,
+          "rain_30d_mm": 49.4,
+          "rain_ratio": 0.34,
           "max_temp_c": 33.7,
           "heat_anomaly_c": -1.0,
-          "observed_through": "2026-11-18"
+          "observed_through": "2026-11-19"
+        },
+        {
+          "name": "Lake Chad basin",
+          "lat": 12.5,
+          "lon": 14.5,
+          "score": 37.0,
+          "rain_30d_mm": 0.0,
+          "rain_ratio": 1.0,
+          "max_temp_c": 38.9,
+          "heat_anomaly_c": 3.7,
+          "observed_through": "2026-11-19"
         },
         {
           "name": "Central America dry corridor",
           "lat": 14.0,
           "lon": -88.5,
-          "score": 26.7,
-          "rain_30d_mm": 104.1,
-          "rain_ratio": 0.62,
+          "score": 30.8,
+          "rain_30d_mm": 88.4,
+          "rain_ratio": 0.56,
           "max_temp_c": 27.7,
           "heat_anomaly_c": -0.1,
-          "observed_through": "2026-11-18"
+          "observed_through": "2026-11-19"
         },
         {
           "name": "Afghanistan drylands",
           "lat": 34.0,
           "lon": 65.0,
-          "score": 1.7,
+          "score": 2.4,
           "rain_30d_mm": 16.5,
-          "rain_ratio": 1.26,
-          "max_temp_c": 12.6,
+          "rain_ratio": 1.24,
+          "max_temp_c": 12.4,
           "heat_anomaly_c": 0.2,
-          "observed_through": "2026-11-18"
+          "observed_through": "2026-11-19"
         }
       ]
     },
     "gdacs": {
-      "count": 175,
+      "count": 174,
       "cached": false,
       "retained": false,
-      "source_collected_at": "2026-11-20T20:25:00.093312+00:00",
+      "source_collected_at": "2026-11-21T07:13:27.351848+00:00",
       "compact": true,
       "events": [
         {
@@ -2770,7 +2770,7 @@
           "event_type": "TC",
           "country": "Cook Islands, American Samoa, Samoa",
           "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001350&episodeid=13&eventtype=TC"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001350&episodeid=15&eventtype=TC"
         },
         {
           "id": "WF|1033986",
@@ -2790,7 +2790,7 @@
           "event_type": "WF",
           "country": "South Sudan, Central African Republic",
           "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033983&episodeid=1&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033983&episodeid=2&eventtype=WF"
         },
         {
           "id": "WF|1033973",
@@ -2843,34 +2843,34 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1033877&episodeid=7&eventtype=WF"
         },
         {
-          "id": "EQ|1578429",
-          "title": "Earthquake in Vanuatu",
-          "date": "2026-11-20T17:53:15+00:00",
+          "id": "WF|1033864",
+          "title": "Forest fires in Sudan, South Sudan",
+          "date": "2026-11-11T00:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Vanuatu",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1578429&episodeid=1747805&eventtype=EQ"
+          "event_type": "WF",
+          "country": "Sudan, South Sudan",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033864&episodeid=12&eventtype=WF"
         },
         {
-          "id": "EQ|1578399",
-          "title": "Earthquake in Chile",
-          "date": "2026-11-20T14:16:15+00:00",
+          "id": "WF|1033815",
+          "title": "Forest fires in South Sudan, Sudan",
+          "date": "2026-11-06T00:00:00+00:00",
           "alert_level": "Green",
-          "event_type": "EQ",
-          "country": "Chile",
-          "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1578399&episodeid=1747774&eventtype=EQ"
+          "event_type": "WF",
+          "country": "South Sudan, Sudan",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033815&episodeid=9&eventtype=WF"
         },
         {
-          "id": "EQ|1578380",
-          "title": "Earthquake in Philippines",
-          "date": "2026-11-20T13:09:04+00:00",
+          "id": "EQ|1578506",
+          "title": "Earthquake in Peru",
+          "date": "2026-11-21T05:12:04+00:00",
           "alert_level": "Green",
           "event_type": "EQ",
-          "country": "Philippines",
+          "country": "Peru",
           "weight": 1.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1578380&episodeid=1747753&eventtype=EQ"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1578506&episodeid=1747892&eventtype=EQ"
         }
       ]
     },
@@ -2878,7 +2878,7 @@
       "count": 1000,
       "cached": false,
       "retained": false,
-      "source_collected_at": "2026-11-20T20:25:02.131824+00:00",
+      "source_collected_at": "2026-11-21T07:13:30.520478+00:00",
       "compact": true,
       "events": [
         {
@@ -7016,7 +7016,7 @@
       ],
       "source_url": "https://www.fao.org/media/docs/worldfoodsituationlibraries/wfs-library/food_price_indices_data.csv?download=true",
       "cached": false,
-      "source_collected_at": "2026-11-20T20:24:59.051797+00:00"
+      "source_collected_at": "2026-11-21T07:13:26.338583+00:00"
     }
   },
   "events": [
@@ -7027,20 +7027,9 @@
       "score": 100.0,
       "rain_30d_mm": 0.0,
       "rain_ratio": 0.01,
-      "max_temp_c": 39.7,
-      "heat_anomaly_c": 3.2,
-      "observed_through": "2026-11-18"
-    },
-    {
-      "name": "Lake Chad basin",
-      "lat": 12.5,
-      "lon": 14.5,
-      "score": 100.0,
-      "rain_30d_mm": 0.0,
-      "rain_ratio": 0.0,
-      "max_temp_c": 39.0,
-      "heat_anomaly_c": 3.8,
-      "observed_through": "2026-11-18"
+      "max_temp_c": 39.6,
+      "heat_anomaly_c": 3.1,
+      "observed_through": "2026-11-19"
     },
     {
       "name": "Sudan grain belt",
@@ -7049,9 +7038,20 @@
       "score": 100.0,
       "rain_30d_mm": 0.0,
       "rain_ratio": 0.0,
-      "max_temp_c": 40.2,
-      "heat_anomaly_c": 6.2,
-      "observed_through": "2026-11-18"
+      "max_temp_c": 40.1,
+      "heat_anomaly_c": 6.1,
+      "observed_through": "2026-11-19"
+    },
+    {
+      "name": "Pakistan Indus",
+      "lat": 29.0,
+      "lon": 70.5,
+      "score": 84.0,
+      "rain_30d_mm": 0.0,
+      "rain_ratio": 0.0,
+      "max_temp_c": 35.1,
+      "heat_anomaly_c": 1.4,
+      "observed_through": "2026-11-19"
     },
     {
       "id": "TC|1001346",
@@ -7101,7 +7101,7 @@
       "event_type": "TC",
       "country": "Cook Islands, American Samoa, Samoa",
       "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001350&episodeid=13&eventtype=TC"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001350&episodeid=15&eventtype=TC"
     },
     {
       "id": "WF|1033986",
@@ -7121,7 +7121,7 @@
       "event_type": "WF",
       "country": "South Sudan, Central African Republic",
       "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033983&episodeid=1&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033983&episodeid=2&eventtype=WF"
     },
     {
       "id": "WF|1033973",
@@ -7174,34 +7174,34 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1033877&episodeid=7&eventtype=WF"
     },
     {
-      "id": "EQ|1578429",
-      "title": "Earthquake in Vanuatu",
-      "date": "2026-11-20T17:53:15+00:00",
+      "id": "WF|1033864",
+      "title": "Forest fires in Sudan, South Sudan",
+      "date": "2026-11-11T00:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Vanuatu",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1578429&episodeid=1747805&eventtype=EQ"
+      "event_type": "WF",
+      "country": "Sudan, South Sudan",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033864&episodeid=12&eventtype=WF"
     },
     {
-      "id": "EQ|1578399",
-      "title": "Earthquake in Chile",
-      "date": "2026-11-20T14:16:15+00:00",
+      "id": "WF|1033815",
+      "title": "Forest fires in South Sudan, Sudan",
+      "date": "2026-11-06T00:00:00+00:00",
       "alert_level": "Green",
-      "event_type": "EQ",
-      "country": "Chile",
-      "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1578399&episodeid=1747774&eventtype=EQ"
+      "event_type": "WF",
+      "country": "South Sudan, Sudan",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033815&episodeid=9&eventtype=WF"
     },
     {
-      "id": "EQ|1578380",
-      "title": "Earthquake in Philippines",
-      "date": "2026-11-20T13:09:04+00:00",
+      "id": "EQ|1578506",
+      "title": "Earthquake in Peru",
+      "date": "2026-11-21T05:12:04+00:00",
       "alert_level": "Green",
       "event_type": "EQ",
-      "country": "Philippines",
+      "country": "Peru",
       "weight": 1.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1578380&episodeid=1747753&eventtype=EQ"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1578506&episodeid=1747892&eventtype=EQ"
     },
     {
       "id": "EONET_26434",
