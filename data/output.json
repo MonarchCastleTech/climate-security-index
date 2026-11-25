@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "climate-security-index",
-    "generated": "2026-11-24T22:29:31.822034+00:00",
+    "generated": "2026-11-25T08:40:30.543363+00:00",
     "mode": "live",
     "sources": [
       "NASA POWER Daily API",
@@ -13,7 +13,7 @@
     "version": "2.0.0"
   },
   "early_warning": {
-    "issued_at": "2026-11-24T22:29:31.577895+00:00",
+    "issued_at": "2026-11-25T08:40:30.345640+00:00",
     "horizon": "0-90 days",
     "classification": "climate-security-pressure-not-conflict-or-famine-probability",
     "score": 59.9,
@@ -35,86 +35,86 @@
             "score": 100.0,
             "rain_30d_mm": 0.0,
             "rain_ratio": 0.0,
-            "max_temp_c": 39.9,
-            "heat_anomaly_c": 5.8,
-            "observed_through": "2026-11-22"
+            "max_temp_c": 39.8,
+            "heat_anomaly_c": 5.7,
+            "observed_through": "2026-11-23"
           },
           {
             "name": "Pakistan Indus",
             "lat": 29.0,
             "lon": 70.5,
-            "score": 83.2,
+            "score": 83.0,
             "rain_30d_mm": 0.0,
             "rain_ratio": 0.0,
-            "max_temp_c": 34.4,
+            "max_temp_c": 34.3,
             "heat_anomaly_c": 1.3,
-            "observed_through": "2026-11-22"
+            "observed_through": "2026-11-23"
           },
           {
             "name": "Ethiopia lowlands",
             "lat": 8.0,
             "lon": 40.0,
-            "score": 66.2,
-            "rain_30d_mm": 60.2,
-            "rain_ratio": 0.65,
+            "score": 66.3,
+            "rain_30d_mm": 59.5,
+            "rain_ratio": 0.64,
             "max_temp_c": 25.6,
             "heat_anomaly_c": 4.1,
-            "observed_through": "2026-11-22"
+            "observed_through": "2026-11-23"
           },
           {
             "name": "Somalia pastoral belt",
             "lat": 5.0,
             "lon": 45.3,
-            "score": 46.9,
-            "rain_30d_mm": 47.3,
-            "rain_ratio": 0.33,
-            "max_temp_c": 33.7,
-            "heat_anomaly_c": -1.0,
-            "observed_through": "2026-11-22"
+            "score": 50.7,
+            "rain_30d_mm": 39.1,
+            "rain_ratio": 0.28,
+            "max_temp_c": 33.8,
+            "heat_anomaly_c": -0.8,
+            "observed_through": "2026-11-23"
           },
           {
             "name": "Lake Chad basin",
             "lat": 12.5,
             "lon": 14.5,
-            "score": 35.3,
+            "score": 34.9,
             "rain_30d_mm": 0.0,
             "rain_ratio": 1.0,
-            "max_temp_c": 38.7,
+            "max_temp_c": 38.6,
             "heat_anomaly_c": 3.5,
-            "observed_through": "2026-11-22"
+            "observed_through": "2026-11-23"
           },
           {
             "name": "Central America dry corridor",
             "lat": 14.0,
             "lon": -88.5,
-            "score": 28.7,
-            "rain_30d_mm": 81.3,
-            "rain_ratio": 0.6,
+            "score": 28.5,
+            "rain_30d_mm": 82.6,
+            "rain_ratio": 0.61,
             "max_temp_c": 27.8,
-            "heat_anomaly_c": 0.0,
-            "observed_through": "2026-11-22"
+            "heat_anomaly_c": 0.1,
+            "observed_through": "2026-11-23"
           },
           {
             "name": "Sahel west",
             "lat": 14.5,
             "lon": -1.5,
-            "score": 28.1,
+            "score": 27.3,
             "rain_30d_mm": 0.0,
             "rain_ratio": 1.0,
-            "max_temp_c": 39.1,
-            "heat_anomaly_c": 2.8,
-            "observed_through": "2026-11-22"
+            "max_temp_c": 39.0,
+            "heat_anomaly_c": 2.7,
+            "observed_through": "2026-11-23"
           },
           {
             "name": "Afghanistan drylands",
             "lat": 34.0,
             "lon": 65.0,
-            "score": 2.4,
+            "score": 4.2,
             "rain_30d_mm": 16.6,
-            "rain_ratio": 1.21,
+            "rain_ratio": 1.23,
             "max_temp_c": 11.7,
-            "heat_anomaly_c": 0.2,
-            "observed_through": "2026-11-22"
+            "heat_anomaly_c": 0.4,
+            "observed_through": "2026-11-23"
           }
         ],
         "evidence": [
@@ -125,46 +125,46 @@
             "score": 100.0,
             "rain_30d_mm": 0.0,
             "rain_ratio": 0.0,
-            "max_temp_c": 39.9,
-            "heat_anomaly_c": 5.8,
-            "observed_through": "2026-11-22"
+            "max_temp_c": 39.8,
+            "heat_anomaly_c": 5.7,
+            "observed_through": "2026-11-23"
           },
           {
             "name": "Pakistan Indus",
             "lat": 29.0,
             "lon": 70.5,
-            "score": 83.2,
+            "score": 83.0,
             "rain_30d_mm": 0.0,
             "rain_ratio": 0.0,
-            "max_temp_c": 34.4,
+            "max_temp_c": 34.3,
             "heat_anomaly_c": 1.3,
-            "observed_through": "2026-11-22"
+            "observed_through": "2026-11-23"
           },
           {
             "name": "Ethiopia lowlands",
             "lat": 8.0,
             "lon": 40.0,
-            "score": 66.2,
-            "rain_30d_mm": 60.2,
-            "rain_ratio": 0.65,
+            "score": 66.3,
+            "rain_30d_mm": 59.5,
+            "rain_ratio": 0.64,
             "max_temp_c": 25.6,
             "heat_anomaly_c": 4.1,
-            "observed_through": "2026-11-22"
+            "observed_through": "2026-11-23"
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-11-24T22:29:29.820855+00:00"
+        "source_collected_at": "2026-11-25T08:40:26.635580+00:00"
       },
       {
         "id": "gdacs_impact_pressure",
         "label": "GDACS multi-hazard impact pressure",
         "available": true,
         "score": 60.0,
-        "current_30d_weight": 140.8,
+        "current_30d_weight": 120.8,
         "baseline_months": 12,
-        "baseline_median": 48.5,
-        "anomaly_z": 2.26,
-        "events_considered": 174,
+        "baseline_median": 42.9,
+        "anomaly_z": 2.4,
+        "events_considered": 173,
         "evidence": [
           {
             "id": "TC|1001346",
@@ -175,16 +175,6 @@
             "country": "India",
             "weight": 20.0,
             "url": "https://www.gdacs.org/report.aspx?eventid=1001346&episodeid=10&eventtype=TC"
-          },
-          {
-            "id": "TC|1001345",
-            "title": "Tropical Cyclone ARNAB-26",
-            "date": "2026-10-26T00:00:00+00:00",
-            "alert_level": "Red",
-            "event_type": "TC",
-            "country": "India",
-            "weight": 20.0,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1001345&episodeid=10&eventtype=TC"
           },
           {
             "id": "WF|1034039",
@@ -207,46 +197,6 @@
             "url": "https://www.gdacs.org/report.aspx?eventid=1034024&episodeid=5&eventtype=WF"
           },
           {
-            "id": "WF|1034040",
-            "title": "Forest fires in South Sudan, Central African Republic",
-            "date": "2026-11-19T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "WF",
-            "country": "South Sudan, Central African Republic",
-            "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1034040&episodeid=2&eventtype=WF"
-          },
-          {
-            "id": "WF|1034011",
-            "title": "Forest fires in Sudan, South Sudan",
-            "date": "2026-11-16T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Sudan, South Sudan",
-            "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1034011&episodeid=3&eventtype=WF"
-          },
-          {
-            "id": "WF|1034014",
-            "title": "Forest fires in Benin, Burkina Faso",
-            "date": "2026-11-18T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Benin, Burkina Faso",
-            "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1034014&episodeid=4&eventtype=WF"
-          },
-          {
-            "id": "WF|1034017",
-            "title": "Forest fires in Ghana, Burkina Faso",
-            "date": "2026-11-13T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Ghana, Burkina Faso",
-            "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1034017&episodeid=4&eventtype=WF"
-          },
-          {
             "id": "WF|1034019",
             "title": "Forest fires in Benin, Burkina Faso",
             "date": "2026-11-12T00:00:00+00:00",
@@ -254,17 +204,7 @@
             "event_type": "WF",
             "country": "Benin, Burkina Faso",
             "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1034019&episodeid=5&eventtype=WF"
-          },
-          {
-            "id": "WF|1034053",
-            "title": "Forest fires in Bolivia, Brazil",
-            "date": "2026-11-16T00:00:00+00:00",
-            "alert_level": "Green",
-            "event_type": "WF",
-            "country": "Bolivia, Brazil",
-            "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1034053&episodeid=1&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1034019&episodeid=6&eventtype=WF"
           },
           {
             "id": "WF|1034052",
@@ -274,27 +214,27 @@
             "event_type": "WF",
             "country": "Nigeria, Cameroon",
             "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1034052&episodeid=2&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1034052&episodeid=3&eventtype=WF"
           },
           {
-            "id": "WF|1034055",
-            "title": "Forest fires in Sudan, South Sudan",
-            "date": "2026-11-10T00:00:00+00:00",
+            "id": "WF|1034014",
+            "title": "Forest fires in Benin, Burkina Faso",
+            "date": "2026-11-18T00:00:00+00:00",
             "alert_level": "Green",
             "event_type": "WF",
-            "country": "Sudan, South Sudan",
+            "country": "Benin, Burkina Faso",
             "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1034055&episodeid=2&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1034014&episodeid=5&eventtype=WF"
           },
           {
-            "id": "WF|1033877",
-            "title": "Forest fires in Sudan, South Sudan",
-            "date": "2026-11-14T00:00:00+00:00",
+            "id": "WF|1034040",
+            "title": "Forest fires in South Sudan, Central African Republic",
+            "date": "2026-11-19T00:00:00+00:00",
             "alert_level": "Green",
             "event_type": "WF",
-            "country": "Sudan, South Sudan",
+            "country": "South Sudan, Central African Republic",
             "weight": 1.1,
-            "url": "https://www.gdacs.org/report.aspx?eventid=1033877&episodeid=11&eventtype=WF"
+            "url": "https://www.gdacs.org/report.aspx?eventid=1034040&episodeid=2&eventtype=WF"
           },
           {
             "id": "WF|1033996",
@@ -315,19 +255,79 @@
             "country": "South Sudan, Central African Republic",
             "weight": 1.1,
             "url": "https://www.gdacs.org/report.aspx?eventid=1033997&episodeid=8&eventtype=WF"
+          },
+          {
+            "id": "WF|1034011",
+            "title": "Forest fires in Sudan, South Sudan",
+            "date": "2026-11-16T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "WF",
+            "country": "Sudan, South Sudan",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1034011&episodeid=3&eventtype=WF"
+          },
+          {
+            "id": "WF|1034053",
+            "title": "Forest fires in Bolivia, Brazil",
+            "date": "2026-11-16T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "WF",
+            "country": "Bolivia, Brazil",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1034053&episodeid=2&eventtype=WF"
+          },
+          {
+            "id": "WF|1033877",
+            "title": "Forest fires in Sudan, South Sudan",
+            "date": "2026-11-14T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "WF",
+            "country": "Sudan, South Sudan",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1033877&episodeid=11&eventtype=WF"
+          },
+          {
+            "id": "WF|1034017",
+            "title": "Forest fires in Ghana, Burkina Faso",
+            "date": "2026-11-13T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "WF",
+            "country": "Ghana, Burkina Faso",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1034017&episodeid=4&eventtype=WF"
+          },
+          {
+            "id": "WF|1034055",
+            "title": "Forest fires in Sudan, South Sudan",
+            "date": "2026-11-10T00:00:00+00:00",
+            "alert_level": "Green",
+            "event_type": "WF",
+            "country": "Sudan, South Sudan",
+            "weight": 1.1,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1034055&episodeid=2&eventtype=WF"
+          },
+          {
+            "id": "EQ|1579174",
+            "title": "Earthquake in Off E. Coast Of N. Island, N.Z.",
+            "date": "2026-11-25T06:34:08+00:00",
+            "alert_level": "Green",
+            "event_type": "EQ",
+            "country": "Off E. Coast Of N. Island, N.Z.",
+            "weight": 1.0,
+            "url": "https://www.gdacs.org/report.aspx?eventid=1579174&episodeid=1748628&eventtype=EQ"
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-11-24T22:29:29.411794+00:00"
+        "source_collected_at": "2026-11-25T08:40:27.014299+00:00"
       },
       {
         "id": "eonet_hazard_persistence",
         "label": "NASA EONET hazard persistence",
         "available": true,
         "score": 56.0,
-        "current_30d_weight": 2859.8,
+        "current_30d_weight": 2859.3,
         "baseline_median": 0.0,
-        "anomaly_z": 2859.85,
+        "anomaly_z": 2859.35,
         "events_considered": 1000,
         "evidence": [
           {
@@ -482,7 +482,7 @@
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-11-24T22:29:31.517709+00:00"
+        "source_collected_at": "2026-11-25T08:40:30.292633+00:00"
       },
       {
         "id": "food_price_pressure",
@@ -543,7 +543,7 @@
           }
         ],
         "retained": false,
-        "source_collected_at": "2026-11-24T22:29:28.582019+00:00"
+        "source_collected_at": "2026-11-25T08:40:25.597917+00:00"
       }
     ],
     "concurrence": {
@@ -577,17 +577,6 @@
       }
     ],
     "history": [
-      {
-        "timestamp": "2026-09-24T21:33:07.757812+00:00",
-        "score": 68.8,
-        "level": "ELEVATED",
-        "components": {
-          "agroclimate_stress": 86.0,
-          "gdacs_impact_pressure": 59.6,
-          "eonet_hazard_persistence": 56.0,
-          "food_price_pressure": 37.9
-        }
-      },
       {
         "timestamp": "2026-09-25T05:00:59.488093+00:00",
         "score": 69.8,
@@ -2556,13 +2545,24 @@
           "eonet_hazard_persistence": 56.0,
           "food_price_pressure": 23.0
         }
+      },
+      {
+        "timestamp": "2026-11-25T08:40:30.345640+00:00",
+        "score": 59.9,
+        "level": "ELEVATED",
+        "components": {
+          "agroclimate_stress": 83.1,
+          "gdacs_impact_pressure": 60.0,
+          "eonet_hazard_persistence": 56.0,
+          "food_price_pressure": 23.0
+        }
       }
     ],
     "data_health": {
       "available_components": 4,
       "retained_components": [],
       "power_sentinels": 8,
-      "gdacs_events": 174,
+      "gdacs_events": 173,
       "eonet_events": 1000,
       "fao_latest_month": "2026-10"
     },
@@ -2609,7 +2609,7 @@
     },
     {
       "label": "Hazards Screened",
-      "value": "1174",
+      "value": "1173",
       "delta": "NASA + GDACS"
     },
     {
@@ -2623,7 +2623,7 @@
       "count": 8,
       "cached": false,
       "retained": false,
-      "source_collected_at": "2026-11-24T22:29:29.820855+00:00",
+      "source_collected_at": "2026-11-25T08:40:26.635580+00:00",
       "sentinels": [
         {
           "name": "Sudan grain belt",
@@ -2632,94 +2632,94 @@
           "score": 100.0,
           "rain_30d_mm": 0.0,
           "rain_ratio": 0.0,
-          "max_temp_c": 39.9,
-          "heat_anomaly_c": 5.8,
-          "observed_through": "2026-11-22"
+          "max_temp_c": 39.8,
+          "heat_anomaly_c": 5.7,
+          "observed_through": "2026-11-23"
         },
         {
           "name": "Pakistan Indus",
           "lat": 29.0,
           "lon": 70.5,
-          "score": 83.2,
+          "score": 83.0,
           "rain_30d_mm": 0.0,
           "rain_ratio": 0.0,
-          "max_temp_c": 34.4,
+          "max_temp_c": 34.3,
           "heat_anomaly_c": 1.3,
-          "observed_through": "2026-11-22"
+          "observed_through": "2026-11-23"
         },
         {
           "name": "Ethiopia lowlands",
           "lat": 8.0,
           "lon": 40.0,
-          "score": 66.2,
-          "rain_30d_mm": 60.2,
-          "rain_ratio": 0.65,
+          "score": 66.3,
+          "rain_30d_mm": 59.5,
+          "rain_ratio": 0.64,
           "max_temp_c": 25.6,
           "heat_anomaly_c": 4.1,
-          "observed_through": "2026-11-22"
+          "observed_through": "2026-11-23"
         },
         {
           "name": "Somalia pastoral belt",
           "lat": 5.0,
           "lon": 45.3,
-          "score": 46.9,
-          "rain_30d_mm": 47.3,
-          "rain_ratio": 0.33,
-          "max_temp_c": 33.7,
-          "heat_anomaly_c": -1.0,
-          "observed_through": "2026-11-22"
+          "score": 50.7,
+          "rain_30d_mm": 39.1,
+          "rain_ratio": 0.28,
+          "max_temp_c": 33.8,
+          "heat_anomaly_c": -0.8,
+          "observed_through": "2026-11-23"
         },
         {
           "name": "Lake Chad basin",
           "lat": 12.5,
           "lon": 14.5,
-          "score": 35.3,
+          "score": 34.9,
           "rain_30d_mm": 0.0,
           "rain_ratio": 1.0,
-          "max_temp_c": 38.7,
+          "max_temp_c": 38.6,
           "heat_anomaly_c": 3.5,
-          "observed_through": "2026-11-22"
+          "observed_through": "2026-11-23"
         },
         {
           "name": "Central America dry corridor",
           "lat": 14.0,
           "lon": -88.5,
-          "score": 28.7,
-          "rain_30d_mm": 81.3,
-          "rain_ratio": 0.6,
+          "score": 28.5,
+          "rain_30d_mm": 82.6,
+          "rain_ratio": 0.61,
           "max_temp_c": 27.8,
-          "heat_anomaly_c": 0.0,
-          "observed_through": "2026-11-22"
+          "heat_anomaly_c": 0.1,
+          "observed_through": "2026-11-23"
         },
         {
           "name": "Sahel west",
           "lat": 14.5,
           "lon": -1.5,
-          "score": 28.1,
+          "score": 27.3,
           "rain_30d_mm": 0.0,
           "rain_ratio": 1.0,
-          "max_temp_c": 39.1,
-          "heat_anomaly_c": 2.8,
-          "observed_through": "2026-11-22"
+          "max_temp_c": 39.0,
+          "heat_anomaly_c": 2.7,
+          "observed_through": "2026-11-23"
         },
         {
           "name": "Afghanistan drylands",
           "lat": 34.0,
           "lon": 65.0,
-          "score": 2.4,
+          "score": 4.2,
           "rain_30d_mm": 16.6,
-          "rain_ratio": 1.21,
+          "rain_ratio": 1.23,
           "max_temp_c": 11.7,
-          "heat_anomaly_c": 0.2,
-          "observed_through": "2026-11-22"
+          "heat_anomaly_c": 0.4,
+          "observed_through": "2026-11-23"
         }
       ]
     },
     "gdacs": {
-      "count": 174,
+      "count": 173,
       "cached": false,
       "retained": false,
-      "source_collected_at": "2026-11-24T22:29:29.411794+00:00",
+      "source_collected_at": "2026-11-25T08:40:27.014299+00:00",
       "compact": true,
       "events": [
         {
@@ -2731,16 +2731,6 @@
           "country": "India",
           "weight": 20.0,
           "url": "https://www.gdacs.org/report.aspx?eventid=1001346&episodeid=10&eventtype=TC"
-        },
-        {
-          "id": "TC|1001345",
-          "title": "Tropical Cyclone ARNAB-26",
-          "date": "2026-10-26T00:00:00+00:00",
-          "alert_level": "Red",
-          "event_type": "TC",
-          "country": "India",
-          "weight": 20.0,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001345&episodeid=10&eventtype=TC"
         },
         {
           "id": "WF|1034039",
@@ -2763,46 +2753,6 @@
           "url": "https://www.gdacs.org/report.aspx?eventid=1034024&episodeid=5&eventtype=WF"
         },
         {
-          "id": "WF|1034040",
-          "title": "Forest fires in South Sudan, Central African Republic",
-          "date": "2026-11-19T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "WF",
-          "country": "South Sudan, Central African Republic",
-          "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1034040&episodeid=2&eventtype=WF"
-        },
-        {
-          "id": "WF|1034011",
-          "title": "Forest fires in Sudan, South Sudan",
-          "date": "2026-11-16T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Sudan, South Sudan",
-          "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1034011&episodeid=3&eventtype=WF"
-        },
-        {
-          "id": "WF|1034014",
-          "title": "Forest fires in Benin, Burkina Faso",
-          "date": "2026-11-18T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Benin, Burkina Faso",
-          "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1034014&episodeid=4&eventtype=WF"
-        },
-        {
-          "id": "WF|1034017",
-          "title": "Forest fires in Ghana, Burkina Faso",
-          "date": "2026-11-13T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Ghana, Burkina Faso",
-          "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1034017&episodeid=4&eventtype=WF"
-        },
-        {
           "id": "WF|1034019",
           "title": "Forest fires in Benin, Burkina Faso",
           "date": "2026-11-12T00:00:00+00:00",
@@ -2810,17 +2760,7 @@
           "event_type": "WF",
           "country": "Benin, Burkina Faso",
           "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1034019&episodeid=5&eventtype=WF"
-        },
-        {
-          "id": "WF|1034053",
-          "title": "Forest fires in Bolivia, Brazil",
-          "date": "2026-11-16T00:00:00+00:00",
-          "alert_level": "Green",
-          "event_type": "WF",
-          "country": "Bolivia, Brazil",
-          "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1034053&episodeid=1&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1034019&episodeid=6&eventtype=WF"
         },
         {
           "id": "WF|1034052",
@@ -2830,27 +2770,27 @@
           "event_type": "WF",
           "country": "Nigeria, Cameroon",
           "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1034052&episodeid=2&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1034052&episodeid=3&eventtype=WF"
         },
         {
-          "id": "WF|1034055",
-          "title": "Forest fires in Sudan, South Sudan",
-          "date": "2026-11-10T00:00:00+00:00",
+          "id": "WF|1034014",
+          "title": "Forest fires in Benin, Burkina Faso",
+          "date": "2026-11-18T00:00:00+00:00",
           "alert_level": "Green",
           "event_type": "WF",
-          "country": "Sudan, South Sudan",
+          "country": "Benin, Burkina Faso",
           "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1034055&episodeid=2&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1034014&episodeid=5&eventtype=WF"
         },
         {
-          "id": "WF|1033877",
-          "title": "Forest fires in Sudan, South Sudan",
-          "date": "2026-11-14T00:00:00+00:00",
+          "id": "WF|1034040",
+          "title": "Forest fires in South Sudan, Central African Republic",
+          "date": "2026-11-19T00:00:00+00:00",
           "alert_level": "Green",
           "event_type": "WF",
-          "country": "Sudan, South Sudan",
+          "country": "South Sudan, Central African Republic",
           "weight": 1.1,
-          "url": "https://www.gdacs.org/report.aspx?eventid=1033877&episodeid=11&eventtype=WF"
+          "url": "https://www.gdacs.org/report.aspx?eventid=1034040&episodeid=2&eventtype=WF"
         },
         {
           "id": "WF|1033996",
@@ -2871,6 +2811,66 @@
           "country": "South Sudan, Central African Republic",
           "weight": 1.1,
           "url": "https://www.gdacs.org/report.aspx?eventid=1033997&episodeid=8&eventtype=WF"
+        },
+        {
+          "id": "WF|1034011",
+          "title": "Forest fires in Sudan, South Sudan",
+          "date": "2026-11-16T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "WF",
+          "country": "Sudan, South Sudan",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1034011&episodeid=3&eventtype=WF"
+        },
+        {
+          "id": "WF|1034053",
+          "title": "Forest fires in Bolivia, Brazil",
+          "date": "2026-11-16T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "WF",
+          "country": "Bolivia, Brazil",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1034053&episodeid=2&eventtype=WF"
+        },
+        {
+          "id": "WF|1033877",
+          "title": "Forest fires in Sudan, South Sudan",
+          "date": "2026-11-14T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "WF",
+          "country": "Sudan, South Sudan",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1033877&episodeid=11&eventtype=WF"
+        },
+        {
+          "id": "WF|1034017",
+          "title": "Forest fires in Ghana, Burkina Faso",
+          "date": "2026-11-13T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "WF",
+          "country": "Ghana, Burkina Faso",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1034017&episodeid=4&eventtype=WF"
+        },
+        {
+          "id": "WF|1034055",
+          "title": "Forest fires in Sudan, South Sudan",
+          "date": "2026-11-10T00:00:00+00:00",
+          "alert_level": "Green",
+          "event_type": "WF",
+          "country": "Sudan, South Sudan",
+          "weight": 1.1,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1034055&episodeid=2&eventtype=WF"
+        },
+        {
+          "id": "EQ|1579174",
+          "title": "Earthquake in Off E. Coast Of N. Island, N.Z.",
+          "date": "2026-11-25T06:34:08+00:00",
+          "alert_level": "Green",
+          "event_type": "EQ",
+          "country": "Off E. Coast Of N. Island, N.Z.",
+          "weight": 1.0,
+          "url": "https://www.gdacs.org/report.aspx?eventid=1579174&episodeid=1748628&eventtype=EQ"
         }
       ]
     },
@@ -2878,7 +2878,7 @@
       "count": 1000,
       "cached": false,
       "retained": false,
-      "source_collected_at": "2026-11-24T22:29:31.517709+00:00",
+      "source_collected_at": "2026-11-25T08:40:30.292633+00:00",
       "compact": true,
       "events": [
         {
@@ -7016,7 +7016,7 @@
       ],
       "source_url": "https://www.fao.org/media/docs/worldfoodsituationlibraries/wfs-library/food_price_indices_data.csv?download=true",
       "cached": false,
-      "source_collected_at": "2026-11-24T22:29:28.582019+00:00"
+      "source_collected_at": "2026-11-25T08:40:25.597917+00:00"
     }
   },
   "events": [
@@ -7027,31 +7027,31 @@
       "score": 100.0,
       "rain_30d_mm": 0.0,
       "rain_ratio": 0.0,
-      "max_temp_c": 39.9,
-      "heat_anomaly_c": 5.8,
-      "observed_through": "2026-11-22"
+      "max_temp_c": 39.8,
+      "heat_anomaly_c": 5.7,
+      "observed_through": "2026-11-23"
     },
     {
       "name": "Pakistan Indus",
       "lat": 29.0,
       "lon": 70.5,
-      "score": 83.2,
+      "score": 83.0,
       "rain_30d_mm": 0.0,
       "rain_ratio": 0.0,
-      "max_temp_c": 34.4,
+      "max_temp_c": 34.3,
       "heat_anomaly_c": 1.3,
-      "observed_through": "2026-11-22"
+      "observed_through": "2026-11-23"
     },
     {
       "name": "Ethiopia lowlands",
       "lat": 8.0,
       "lon": 40.0,
-      "score": 66.2,
-      "rain_30d_mm": 60.2,
-      "rain_ratio": 0.65,
+      "score": 66.3,
+      "rain_30d_mm": 59.5,
+      "rain_ratio": 0.64,
       "max_temp_c": 25.6,
       "heat_anomaly_c": 4.1,
-      "observed_through": "2026-11-22"
+      "observed_through": "2026-11-23"
     },
     {
       "id": "TC|1001346",
@@ -7062,16 +7062,6 @@
       "country": "India",
       "weight": 20.0,
       "url": "https://www.gdacs.org/report.aspx?eventid=1001346&episodeid=10&eventtype=TC"
-    },
-    {
-      "id": "TC|1001345",
-      "title": "Tropical Cyclone ARNAB-26",
-      "date": "2026-10-26T00:00:00+00:00",
-      "alert_level": "Red",
-      "event_type": "TC",
-      "country": "India",
-      "weight": 20.0,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1001345&episodeid=10&eventtype=TC"
     },
     {
       "id": "WF|1034039",
@@ -7094,46 +7084,6 @@
       "url": "https://www.gdacs.org/report.aspx?eventid=1034024&episodeid=5&eventtype=WF"
     },
     {
-      "id": "WF|1034040",
-      "title": "Forest fires in South Sudan, Central African Republic",
-      "date": "2026-11-19T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "WF",
-      "country": "South Sudan, Central African Republic",
-      "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1034040&episodeid=2&eventtype=WF"
-    },
-    {
-      "id": "WF|1034011",
-      "title": "Forest fires in Sudan, South Sudan",
-      "date": "2026-11-16T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Sudan, South Sudan",
-      "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1034011&episodeid=3&eventtype=WF"
-    },
-    {
-      "id": "WF|1034014",
-      "title": "Forest fires in Benin, Burkina Faso",
-      "date": "2026-11-18T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Benin, Burkina Faso",
-      "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1034014&episodeid=4&eventtype=WF"
-    },
-    {
-      "id": "WF|1034017",
-      "title": "Forest fires in Ghana, Burkina Faso",
-      "date": "2026-11-13T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Ghana, Burkina Faso",
-      "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1034017&episodeid=4&eventtype=WF"
-    },
-    {
       "id": "WF|1034019",
       "title": "Forest fires in Benin, Burkina Faso",
       "date": "2026-11-12T00:00:00+00:00",
@@ -7141,17 +7091,7 @@
       "event_type": "WF",
       "country": "Benin, Burkina Faso",
       "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1034019&episodeid=5&eventtype=WF"
-    },
-    {
-      "id": "WF|1034053",
-      "title": "Forest fires in Bolivia, Brazil",
-      "date": "2026-11-16T00:00:00+00:00",
-      "alert_level": "Green",
-      "event_type": "WF",
-      "country": "Bolivia, Brazil",
-      "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1034053&episodeid=1&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1034019&episodeid=6&eventtype=WF"
     },
     {
       "id": "WF|1034052",
@@ -7161,27 +7101,27 @@
       "event_type": "WF",
       "country": "Nigeria, Cameroon",
       "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1034052&episodeid=2&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1034052&episodeid=3&eventtype=WF"
     },
     {
-      "id": "WF|1034055",
-      "title": "Forest fires in Sudan, South Sudan",
-      "date": "2026-11-10T00:00:00+00:00",
+      "id": "WF|1034014",
+      "title": "Forest fires in Benin, Burkina Faso",
+      "date": "2026-11-18T00:00:00+00:00",
       "alert_level": "Green",
       "event_type": "WF",
-      "country": "Sudan, South Sudan",
+      "country": "Benin, Burkina Faso",
       "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1034055&episodeid=2&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1034014&episodeid=5&eventtype=WF"
     },
     {
-      "id": "WF|1033877",
-      "title": "Forest fires in Sudan, South Sudan",
-      "date": "2026-11-14T00:00:00+00:00",
+      "id": "WF|1034040",
+      "title": "Forest fires in South Sudan, Central African Republic",
+      "date": "2026-11-19T00:00:00+00:00",
       "alert_level": "Green",
       "event_type": "WF",
-      "country": "Sudan, South Sudan",
+      "country": "South Sudan, Central African Republic",
       "weight": 1.1,
-      "url": "https://www.gdacs.org/report.aspx?eventid=1033877&episodeid=11&eventtype=WF"
+      "url": "https://www.gdacs.org/report.aspx?eventid=1034040&episodeid=2&eventtype=WF"
     },
     {
       "id": "WF|1033996",
@@ -7202,6 +7142,66 @@
       "country": "South Sudan, Central African Republic",
       "weight": 1.1,
       "url": "https://www.gdacs.org/report.aspx?eventid=1033997&episodeid=8&eventtype=WF"
+    },
+    {
+      "id": "WF|1034011",
+      "title": "Forest fires in Sudan, South Sudan",
+      "date": "2026-11-16T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "WF",
+      "country": "Sudan, South Sudan",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1034011&episodeid=3&eventtype=WF"
+    },
+    {
+      "id": "WF|1034053",
+      "title": "Forest fires in Bolivia, Brazil",
+      "date": "2026-11-16T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "WF",
+      "country": "Bolivia, Brazil",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1034053&episodeid=2&eventtype=WF"
+    },
+    {
+      "id": "WF|1033877",
+      "title": "Forest fires in Sudan, South Sudan",
+      "date": "2026-11-14T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "WF",
+      "country": "Sudan, South Sudan",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1033877&episodeid=11&eventtype=WF"
+    },
+    {
+      "id": "WF|1034017",
+      "title": "Forest fires in Ghana, Burkina Faso",
+      "date": "2026-11-13T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "WF",
+      "country": "Ghana, Burkina Faso",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1034017&episodeid=4&eventtype=WF"
+    },
+    {
+      "id": "WF|1034055",
+      "title": "Forest fires in Sudan, South Sudan",
+      "date": "2026-11-10T00:00:00+00:00",
+      "alert_level": "Green",
+      "event_type": "WF",
+      "country": "Sudan, South Sudan",
+      "weight": 1.1,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1034055&episodeid=2&eventtype=WF"
+    },
+    {
+      "id": "EQ|1579174",
+      "title": "Earthquake in Off E. Coast Of N. Island, N.Z.",
+      "date": "2026-11-25T06:34:08+00:00",
+      "alert_level": "Green",
+      "event_type": "EQ",
+      "country": "Off E. Coast Of N. Island, N.Z.",
+      "weight": 1.0,
+      "url": "https://www.gdacs.org/report.aspx?eventid=1579174&episodeid=1748628&eventtype=EQ"
     },
     {
       "id": "EONET_26434",
